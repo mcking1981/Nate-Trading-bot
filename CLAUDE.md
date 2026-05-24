@@ -36,8 +36,15 @@ runs per trading day plus two ad-hoc helpers.
 
 ## API Wrappers
 
-Use bash scripts/alpaca.sh, scripts/perplexity.sh, scripts/clickup.sh.
+Use bash scripts/alpaca.sh, scripts/tavily.sh, scripts/telegram.sh.
 Never curl these APIs directly.
+
+## Regime Awareness
+
+Today's market regime is stamped at the top of every RESEARCH-LOG.md entry by the pre-market run.
+Read it before sizing any new position. Regime rules only tighten base limits — never loosen them.
+If the regime block is missing (pre-market hasn't run), default to Chop sizing (conservative).
+Full matrix: memory/TRADING-STRATEGY.md → "Regime-Aware Adjustments".
 
 ## Communication Style
 
