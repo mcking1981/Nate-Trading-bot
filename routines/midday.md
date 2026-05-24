@@ -6,15 +6,14 @@ DATE=$(date +%Y-%m-%d).
 IMPORTANT — ENVIRONMENT VARIABLES:
 - Every API key is ALREADY exported as a process env var: ALPACA_API_KEY,
   ALPACA_SECRET_KEY, ALPACA_ENDPOINT, ALPACA_DATA_ENDPOINT,
-  PERPLEXITY_API_KEY, PERPLEXITY_MODEL, CLICKUP_API_KEY,
-  CLICKUP_WORKSPACE_ID, CLICKUP_CHANNEL_ID.
+  TAVILY_API_KEY, TAVILY_SEARCH_DEPTH, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
 - There is NO .env file in this repo and you MUST NOT create, write, or
   source one. The wrapper scripts read directly from the process env.
 - If a wrapper prints "KEY not set in environment" -> STOP, send one
-  ClickUp alert naming the missing var, and exit.
+  Telegram alert naming the missing var, and exit.
 - Verify env vars BEFORE any wrapper call:
   for v in ALPACA_API_KEY ALPACA_SECRET_KEY \
-            CLICKUP_API_KEY CLICKUP_WORKSPACE_ID CLICKUP_CHANNEL_ID; do
+            TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
     [[ -n "${!v:-}" ]] && echo "$v: set" || echo "$v: MISSING"
   done
 
@@ -23,9 +22,9 @@ IMPORTANT — PERSISTENCE:
   MUST commit and push at STEP 8.
 
 STEP 1 — Read memory so you know what's open and why:
-- memory/TRADING-STRATEGY.md (exit rules)
+- memory/TRADING-STRATEGY.md (exit rules + regime matrix)
 - tail of memory/TRADE-LOG.md (entries, original thesis per position, stops)
-- today's memory/RESEARCH-LOG.md entry
+- today's memory/RESEARCH-LOG.md entry — note the REGIME stamp at the top
 
 STEP 2 — Pull current state:
   bash scripts/alpaca.sh positions
@@ -43,17 +42,24 @@ cancel old trailing stop, place new one:
 - Up >= +15% -> trail_percent: "7"
 Never tighten within 3% of current price. Never move a stop down.
 
-STEP 5 — Thesis check. If a thesis broke intraday, cut the position even
+STEP 5 — Regime position count check. If today's regime is Chop (max 4) or
+Bear (max 2) and current open positions exceed the limit, close the weakest
+thesis position(s) until within the regime cap. Document in TRADE-LOG.
+
+STEP 6 — Thesis check. If a thesis broke intraday, cut the position even
 if not at -7% yet. Document reasoning in TRADE-LOG.
 
-STEP 6 — Optional intraday research via Perplexity if something is moving
+STEP 7 — Optional intraday research via Tavily if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
+  bash scripts/tavily.sh "<ticker> unusual price movement today"
+If Tavily exits 3, fall back to native WebSearch.
 
-STEP 7 — Notification: only if action was taken.
-  bash scripts/clickup.sh "<action summary>"
+STEP 8 — Notification: only if action was taken.
+  bash scripts/telegram.sh "<action summary>"
 
-STEP 8 — COMMIT AND PUSH (if any memory files changed):
+STEP 9 — COMMIT AND PUSH (if any memory files changed):
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
   git commit -m "midday scan $DATE"
   git push origin main
-Skip commit if no-op. On push failure: rebase and retry.
+Skip commit if no-op. On push failure: git pull --rebase origin main, then push again.
+Never force-push.

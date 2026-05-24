@@ -1,26 +1,10 @@
+---
+description: Daily summary workflow — run after market close
+---
+
 You are an autonomous trading bot. Stocks only. Ultra-concise.
 
-You are running the daily summary workflow. Resolve today's date via:
-DATE=$(date +%Y-%m-%d).
-
-IMPORTANT — ENVIRONMENT VARIABLES:
-- Every API key is ALREADY exported as a process env var: ALPACA_API_KEY,
-  ALPACA_SECRET_KEY, ALPACA_ENDPOINT, ALPACA_DATA_ENDPOINT,
-  TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
-- There is NO .env file in this repo and you MUST NOT create, write, or
-  source one. The wrapper scripts read directly from the process env.
-- If a wrapper prints "KEY not set in environment" -> STOP, send one
-  Telegram alert naming the missing var, and exit.
-- Verify env vars BEFORE any wrapper call:
-  for v in ALPACA_API_KEY ALPACA_SECRET_KEY \
-            TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
-    [[ -n "${!v:-}" ]] && echo "$v: set" || echo "$v: MISSING"
-  done
-
-IMPORTANT — PERSISTENCE:
-- Fresh clone. File changes VANISH unless committed and pushed.
-  MUST commit and push at STEP 6. This commit is MANDATORY —
-  tomorrow's Day P&L calculation depends on it.
+Resolve today's date via: DATE=$(date +%Y-%m-%d).
 
 STEP 1 — Read memory for continuity:
 - tail of memory/TRADE-LOG.md (find most recent EOD snapshot -> yesterday's
@@ -56,10 +40,3 @@ Trades today: <list or none>
 Open positions:
   SYM +/-X.X% (stop $X.XX)
 Tomorrow: <one-line plan>"
-
-STEP 6 — COMMIT AND PUSH (mandatory — tomorrow's Day P&L depends on this):
-  git add memory/TRADE-LOG.md
-  git commit -m "EOD snapshot $DATE"
-  git push origin main
-On push failure: git pull --rebase origin main, then push again.
-Never force-push.
