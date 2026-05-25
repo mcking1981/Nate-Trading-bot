@@ -67,7 +67,6 @@ STEP 8 — Notification: only if a trade was placed.
 
 STEP 9 — COMMIT AND PUSH (mandatory if any trades executed):
   git add memory/TRADE-LOG.md
-  git commit -m "market-open trades $DATE"
-  git push origin main
-Skip commit if no trades fired. On push failure: git pull --rebase origin main, then push again.
-Never force-push.
+  git commit -m "market-open trades $DATE" || true
+  bash scripts/github-push.sh "market-open trades $DATE" memory/TRADE-LOG.md
+Skip commit if no trades fired. If github-push.sh exits non-zero, log and continue.

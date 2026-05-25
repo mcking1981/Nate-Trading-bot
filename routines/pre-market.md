@@ -118,6 +118,6 @@ major macro event (geopolitical, Fed surprise) requires immediate attention.
 
 STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
-  git commit -m "pre-market research $DATE"
-  git push origin main
-On push failure: git pull --rebase origin main, then push again. Never force-push.
+  git commit -m "pre-market research $DATE" || true
+  bash scripts/github-push.sh "pre-market research $DATE" memory/RESEARCH-LOG.md
+If github-push.sh exits non-zero, log the error and continue — do not retry more than once.

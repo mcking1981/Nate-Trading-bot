@@ -97,7 +97,7 @@ Grade: [letter]"
 
 STEP 7 — COMMIT AND PUSH (mandatory):
   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
-  git commit -m "weekly review $DATE"
-  git push origin main
-If TRADING-STRATEGY.md didn't change, add just WEEKLY-REVIEW.md.
-On push failure: git pull --rebase origin main, then push again. Never force-push.
+  git commit -m "weekly review $DATE" || true
+  bash scripts/github-push.sh "weekly review $DATE" memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
+If TRADING-STRATEGY.md didn't change, push just memory/WEEKLY-REVIEW.md.
+If github-push.sh exits non-zero, log and continue.

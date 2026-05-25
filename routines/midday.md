@@ -59,7 +59,6 @@ STEP 8 — Notification: only if action was taken.
 
 STEP 9 — COMMIT AND PUSH (if any memory files changed):
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
-  git commit -m "midday scan $DATE"
-  git push origin main
-Skip commit if no-op. On push failure: git pull --rebase origin main, then push again.
-Never force-push.
+  git commit -m "midday scan $DATE" || true
+  bash scripts/github-push.sh "midday scan $DATE" memory/TRADE-LOG.md memory/RESEARCH-LOG.md
+Skip commit if no-op. If github-push.sh exits non-zero, log and continue.
