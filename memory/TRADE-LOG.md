@@ -14,3 +14,25 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** Memorial Day — US markets closed. No trades. Paper account initialized at $50,000 (correcting Day 0 baseline of $10,000 which was placeholder). First live trading day is Tuesday May 26. Watchlist: WDAY (priority), ROST (VWAP pullback only). Regime CHOP: max 2 trades this week, max 15%/position (~$7,500).
+
+---
+
+### May 26 — Trade #1
+
+| Field | Value |
+|---|---|
+| Date | 2026-05-26 |
+| Ticker | WDAY |
+| Side | BUY |
+| Shares | 60 |
+| Entry Price | $124.60 |
+| Stop Level | $111.84 (10% trailing GTC, order ID: c8276d83) |
+| Thesis | Q1 FY27 earnings beat (EPS $2.66 vs $2.51 est, +6%); rev +13.5% YoY; raised margin guidance; AI agent platform (Sana) gaining traction in contract value. XLK sector momentum. |
+| Target | $144.54 (+16%) |
+| R:R | ~1.6:1 (10% trailing stop vs 16% target) |
+| Regime at Entry | CHOP (VIX 16.82, SPY +7.63% vs 50DMA) |
+| Cost Basis | $7,476 (14.95% of $50,000) |
+
+**ROST — Skipped:** No clean VWAP pullback; stock near 52-week high ($236). Entry condition not met per plan.
+
+**Trades this week:** 1 of 2 (CHOP limit)
