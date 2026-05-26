@@ -61,4 +61,4 @@ STEP 6 — COMMIT AND PUSH (mandatory — tomorrow's Day P&L depends on this):
   git add memory/TRADE-LOG.md
   git commit -m "EOD snapshot $DATE" || true
   bash scripts/github-push.sh "EOD snapshot $DATE" memory/TRADE-LOG.md
-If github-push.sh exits non-zero, log and continue — but flag as critical since tomorrow's P&L depends on it.
+Do NOT attempt git push or any MCP GitHub tool. If github-push.sh fails, send Telegram alert.

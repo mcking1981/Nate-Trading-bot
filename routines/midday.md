@@ -61,4 +61,4 @@ STEP 9 — COMMIT AND PUSH (if any memory files changed):
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
   git commit -m "midday scan $DATE" || true
   bash scripts/github-push.sh "midday scan $DATE" memory/TRADE-LOG.md memory/RESEARCH-LOG.md
-Skip commit if no-op. If github-push.sh exits non-zero, log and continue.
+Skip commit if no-op. Do NOT attempt git push or any MCP GitHub tool.

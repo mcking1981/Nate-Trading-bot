@@ -120,4 +120,4 @@ STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
   git commit -m "pre-market research $DATE" || true
   bash scripts/github-push.sh "pre-market research $DATE" memory/RESEARCH-LOG.md
-If github-push.sh exits non-zero, log the error and continue — do not retry more than once.
+Do NOT attempt git push or any MCP GitHub tool — github-push.sh is the only push mechanism.

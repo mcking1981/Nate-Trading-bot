@@ -111,4 +111,4 @@ STEP 7 — COMMIT AND PUSH (mandatory):
   git commit -m "monthly deep-dive $DATE" || true
   bash scripts/github-push.sh "monthly deep-dive $DATE" memory/MONTHLY-REVIEW.md memory/TRADE-LOG.md
 If TRADE-LOG.md didn't change (no exits), push just memory/MONTHLY-REVIEW.md.
-If github-push.sh exits non-zero, log and continue.
+Do NOT attempt git push or any MCP GitHub tool.

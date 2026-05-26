@@ -100,4 +100,4 @@ STEP 7 — COMMIT AND PUSH (mandatory):
   git commit -m "weekly review $DATE" || true
   bash scripts/github-push.sh "weekly review $DATE" memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
 If TRADING-STRATEGY.md didn't change, push just memory/WEEKLY-REVIEW.md.
-If github-push.sh exits non-zero, log and continue.
+Do NOT attempt git push or any MCP GitHub tool.

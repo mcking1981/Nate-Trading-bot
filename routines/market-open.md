@@ -69,4 +69,4 @@ STEP 9 — COMMIT AND PUSH (mandatory if any trades executed):
   git add memory/TRADE-LOG.md
   git commit -m "market-open trades $DATE" || true
   bash scripts/github-push.sh "market-open trades $DATE" memory/TRADE-LOG.md
-Skip commit if no trades fired. If github-push.sh exits non-zero, log and continue.
+Skip commit if no trades fired. Do NOT attempt git push or any MCP GitHub tool.
