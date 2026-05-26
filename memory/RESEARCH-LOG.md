@@ -79,3 +79,53 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD — markets closed today (Memorial Day). Watchlist set for Tuesday 5/26: WDAY (priority), ROST (conditional on VWAP pullback entry). Re-run pre-market Tuesday before executing.
+
+---
+
+## 2026-05-26 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +7.63% ($749.79 vs $696.68) | VIX: 16.82
+*(Regime limits: max 4 positions, max 15%/position ~$7,500, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,000 | Cash: $50,000 | Buying power: $100,000 (2x margin) | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro
+- **Oil:** WTI ~$92.70 (-4.0%), Brent ~$99.20 — Iran/US peace deal optimism; QatarEnergy force majeure extended (Hormuz risk still present, Brent $120-150 tail risk)
+- **S&P 500 futures:** ESM26 ~7,531 (+0.54%) — risk-on, tracking toward 8th consecutive weekly gain
+- **VIX:** 16.82 (+1.5% today) — benign, well below recent highs; CHOP zone
+- **DXY:** 99.05 (-0.19%) — soft dollar, sideways
+- **10Y yield:** ~4.51-4.56% (down ~5bps) — bonds mildly bid as Middle East tensions ease
+- **Econ calendar:** No major US releases today. Key upcoming: PCE Thu 5/28, Jobs Report 6/5, CPI 6/10, FOMC 6/17
+
+### Sector Momentum
+- **YTD leaders:** XLE +33.9%, XLK +25.5%, XLB +11.4%, XLRE +11.2%, XLI +11.0%
+- **YTD laggards:** XLF -4.7%
+- **Last 5 days:** XLU +3.4%, XLV +3.3%, XLRE +3.1%, XLK +2.3%, XLY +2.3%; XLC -0.5%
+- **Best momentum: XLK** — YTD #2 + solid 5-day, AI/cloud tailwinds. **XLV** — top 5-day, defensive with biotech upside
+- **XLE:** Massive YTD gains but 5-day flat (+0.08%) — extended, avoid new longs
+
+### Earnings Today
+- **BMO 5/26 — WMT:** Revenue $177.75B vs $174.06B est (beat); EPS $0.66 (in-line). Guidance cautious — high gas prices weighing on shoppers. Macro negative for consumer spending read-through; headwind for ROST/XLY
+- **AH context from prior week:** CSCO +15% (AI order surge), WDAY +5% (margin beat/raise), ROST +7% (raised guidance), QCOM +11%, TTWO +7% (GTA VI confirmed)
+- **Season stat:** 84% S&P 500 beat rate, +20.7% above consensus — strong backdrop
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. **WDAY** — AI/cloud SaaS beat + raised margin guidance; XLK sector momentum; strong earnings season backdrop. Entry: 15-min post-open consolidation above prior close (~$270 area per pre-holiday close). Stop: -8% from entry, Target: +16% (2:1 R:R). Size: $7,500 (15% CHOP limit). Regime check: PASS
+2. **ROST** — beat + raised guidance. ⚠️ WMT cautious consumer guidance is a headwind today — entry ONLY on clean VWAP pullback, NOT at open. Stop: -8%, Target: +16% (2:1 R:R). Size: $7,500. Regime check: PASS (conditional — skip if no pullback entry)
+3. **CSCO** — AI infrastructure surge (+15% last week); strong momentum but likely extended short-term. Watch for consolidation setup; not actionable at open today
+
+### Risk Factors
+- WMT cautious consumer guidance → headwind for ROST, XLY, discretionary names
+- Hormuz/Iran escalation → Brent spike to $120-150 would spike VIX and push toward Bear regime
+- SPY at ATH ($749.79); 52-week high nearby — potential resistance/profit-taking
+- CHOP regime: VIX 15-25, only 2 new trades allowed this week
+- 10Y yield 4.51% elevated — multiple compression risk on growth names
+- First trading day post-holiday: potential for gap-and-fade; wait for open confirmation
+
+### Decision
+TRADE — WDAY is the priority. First trading day of week; 2 trade slots available under CHOP rules. Execute ONLY on 15-min post-open consolidation confirmation above prior close — do NOT chase a gap. ROST is secondary; skip if no clean VWAP pullback materializes. Max $7,500/position.
