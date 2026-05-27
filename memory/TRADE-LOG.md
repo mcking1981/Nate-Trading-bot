@@ -46,3 +46,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | WDAY | 60 | $124.60 | $124.09 | -0.41% | -$30.60 (-0.41%) | $114.06 (10% trail, HWM $126.73) |
 **Notes:** First live trading day. Bought WDAY at open on post-earnings momentum — Q1 FY27 beat (+6% EPS, +13.5% rev), raised margin guidance, AI agent platform (Sana). Position closed slightly red at $124.09 vs $124.60 entry (-$0.51/share); stop HWM reached $126.73 intraday. Trailing stop live at $114.06 GTC. ROST skipped — stock near 52-week high, no clean VWAP pullback materialised. 1 trade slot remaining this week under CHOP rules. Key catalyst: PCE Thu 5/28.
+
+---
+
+### May 27 — EOD Snapshot (Day 3, Wednesday)
+**Portfolio:** $49,911.20 | **Cash:** $42,524.00 (85.2%) | **Day P&L:** -$58.20 (-0.12%) | **Phase P&L:** -$88.80 (-0.18%)
+**Regime:** CHOP (default — no pre-market run today)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| WDAY | 60 | $124.60 | $123.12 | -0.73% | -$88.80 (-1.19%) | $116.33 (10% trail, HWM $129.26) |
+**Notes:** No trades today. WDAY continued to pull back — down 1.19% from entry at $123.12 vs $124.60 entry. Trailing stop HWM advanced to $129.26 (up from $126.73 yesterday), tightening stop to $116.33 GTC (order c8276d83 confirmed). Position still well clear of stop ($123.12 vs $116.33 stop = $6.79 / 5.5% cushion). No pre-market run today; regime defaults to CHOP. 1 of 2 CHOP trade slots used this week; 1 remaining. Key catalyst tomorrow: PCE Thu 5/28 — hot print risk given Cleveland Fed CPI nowcast 4.18% YoY. Patience warranted until PCE clears.
