@@ -56,3 +56,18 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | WDAY | 60 | $124.60 | $123.12 | -0.73% | -$88.80 (-1.19%) | $116.33 (10% trail, HWM $129.26) |
 **Notes:** No trades today. WDAY continued to pull back — down 1.19% from entry at $123.12 vs $124.60 entry. Trailing stop HWM advanced to $129.26 (up from $126.73 yesterday), tightening stop to $116.33 GTC (order c8276d83 confirmed). Position still well clear of stop ($123.12 vs $116.33 stop = $6.79 / 5.5% cushion). No pre-market run today; regime defaults to CHOP. 1 of 2 CHOP trade slots used this week; 1 remaining. Key catalyst tomorrow: PCE Thu 5/28 — hot print risk given Cleveland Fed CPI nowcast 4.18% YoY. Patience warranted until PCE clears.
+
+---
+
+### May 28 — Market Open (Day 4, Thursday — PCE Day)
+**Regime: CHOP** | VIX: 16.32 | SPY: $749.44 (+7.2% vs 50DMA est. $699)
+**PCE (Apr):** Headline 3.8% YoY (in-line), Core 3.3% YoY (in-line) — hawkish but no surprise; market flat
+
+| Ticker | Shares | Entry | Current | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| WDAY | 60 | $124.60 | $127.585 | +2.48% | +$179.10 (+2.40%) | $116.33 (HWM $129.26, trail 10%) |
+
+**WDAY Stop Check:** HWM $129.26 → stop $116.33 GTC (order c8276d83 active). Current $127.585 < HWM → no advance today yet. Cushion: $11.25 / 8.8%. No tightening trigger (need +15% = $143.29).
+**SNOW:** +33.85% on massive earnings beat (+178%) + $6B AWS deal → HOLD per CHOP discipline; gap-up at 52-week high, no clean entry. Monitor for consolidation.
+**New trades this session:** 0 | **Trades this week:** 1 of 2 (1 slot remaining)
+**Action:** No new orders. Trailing stop GTC in place. Preserve final trade slot.

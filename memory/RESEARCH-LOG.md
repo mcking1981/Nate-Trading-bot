@@ -129,3 +129,46 @@ HOLD — markets closed today (Memorial Day). Watchlist set for Tuesday 5/26: WD
 
 ### Decision
 TRADE — WDAY is the priority. First trading day of week; 2 trade slots available under CHOP rules. Execute ONLY on 15-min post-open consolidation confirmation above prior close — do NOT chase a gap. ROST is secondary; skip if no clean VWAP pullback materializes. Max $7,500/position.
+
+---
+
+## 2026-05-28 — Pre-market Research (inline, no scheduled pre-market run)
+
+**REGIME: CHOP** | SPY vs 50DMA: ~+7.2% ($749.44 vs est. $699) | VIX: 16.32
+*(Regime limits: max 4 positions, max 15%/position ~$7,525, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,169.80 | Cash: $42,524 | Buying power: $92,693.80 | Daytrade count: 0
+- Positions: WDAY ×60 @ $124.60 (current $127.585, +2.48% today, unrealized +$179.10)
+- Open orders: WDAY trailing stop GTC (order c8276d83, 10% trail, HWM $129.26, stop $116.33)
+
+### Macro
+- **PCE (Apr, released 08:30 ET today):** Headline 3.8% YoY (prev 3.5%, consensus 3.8%) — IN-LINE. Core 3.3% YoY (prev 3.2%, consensus 3.3%) — IN-LINE. MoM core 0.2% (slowing from 0.3%) — slightly better.
+- **Market reaction:** SPY ~$749.44 (flat/slightly up); no rate shock; VIX 16.32 barely moved
+- **Fed:** 99% expect hold at Jun 17 FOMC. Majority now pricing hike or more by Dec 9 meeting under new chair Warsh
+- **10Y yield:** ~4.25% (stable post-PCE per market wrap reports)
+- **DXY:** Soft — AUD outperforming, dollar mild weakness
+- **Oil/geopolitics:** Iran/US deal optimism ongoing; QatarEnergy force majeure extended
+- **Sector:** XLK +0.42% today; tech leading. SNOW +33.85% (earnings). MRVL +3.27%.
+
+### Sector Momentum
+- **XLK:** Continued leadership — AI/cloud tailwinds, tech stocks resilient after PCE
+- **CHOP caution:** PCE 3.8% elevated; Fed hawkish lean; patience warranted
+
+### Key Events
+- PCE cleared — in-line, no negative shock; market digest mode
+- SNOW Q1 FY27: EPS $0.39 vs $0.14 est (+178% beat) + $6B AWS partnership announced
+- WDAY: recovering from Mon-Wed pullback; +2.48% today
+
+### Trade Ideas
+1. **WDAY (existing)** — hold; stop HWM $129.26, stop $116.33 GTC. If new HWM set today, Alpaca auto-advances. No action needed unless tighten triggers (+15% = $143.29, +20% = $149.52).
+2. **SNOW** — massive catalyst (earnings +178% beat + $6B AWS deal), XLK sector. ⚠️ +33.85% gap-up; stock at ~$233.90 (~52-week high). Entry ONLY on clean post-open VWAP consolidation — do NOT chase the gap. If settles and holds above today's open VWAP, re-evaluate. 10% stop, 20% target, ~2:1 R:R.
+
+### Risk Factors
+- PCE 3.8% YoY elevated — Fed hawkish; rate-sensitive names vulnerable
+- SNOW at 52-week high resistance; gap-fill reversal risk after +33% day
+- Only 1 trade slot remaining this week (CHOP max 2; WDAY used slot 1 on May 26)
+- VIX futures pricing 18.45 at Jun 17 expiry — market expects vol pickup at FOMC
+
+### Decision
+HOLD — no new trades at open today. PCE hawkish but in-line; SNOW gap too large to chase at open (risk of gap-fill reversal at 52-week high). WDAY recovering well; let trailing stop do its work. Preserve final weekly trade slot. Monitor SNOW through the day — if consolidates above $230 VWAP with volume, re-evaluate for tomorrow. Priority: protect WDAY gains.
