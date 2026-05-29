@@ -56,3 +56,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | WDAY | 60 | $124.60 | $123.12 | -0.73% | -$88.80 (-1.19%) | $116.33 (10% trail, HWM $129.26) |
 **Notes:** No trades today. WDAY continued to pull back — down 1.19% from entry at $123.12 vs $124.60 entry. Trailing stop HWM advanced to $129.26 (up from $126.73 yesterday), tightening stop to $116.33 GTC (order c8276d83 confirmed). Position still well clear of stop ($123.12 vs $116.33 stop = $6.79 / 5.5% cushion). No pre-market run today; regime defaults to CHOP. 1 of 2 CHOP trade slots used this week; 1 remaining. Key catalyst tomorrow: PCE Thu 5/28 — hot print risk given Cleveland Fed CPI nowcast 4.18% YoY. Patience warranted until PCE clears.
+
+---
+
+### May 28-29 — Intraday Update
+
+**PCE (5/28):** Headline +3.8% YoY, Core +3.3% YoY — both in-line. Markets shrugged off (+0.56% 5/28). SPY now $756.83 near ATH.
+**WDAY stop advance:** Trailing stop HWM advanced to **$135.495** (from $129.26) — stop price now **$121.9455** GTC (order c8276d83). WDAY trading ~$133.72 (+7.32% unrealized, +$547).
+**AI infrastructure surge 5/29:** DELL +32.66% (EPS +65.87% beat), NTAP +29% (Q4 beat). No actionable entry on gap-day chasers.
+**Decision:** HOLD. No new trades. Checklist: MSFT/PLTR lack specific catalysts (sector sympathy only). Friday + CHOP + ATH resistance = patience. 1 trade slot preserved for next week.
+**Trades this week:** 1 of 2 (CHOP). Week ends today (Friday 5/29).

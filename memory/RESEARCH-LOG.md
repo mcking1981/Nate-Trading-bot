@@ -129,3 +129,47 @@ HOLD — markets closed today (Memorial Day). Watchlist set for Tuesday 5/26: WD
 
 ### Decision
 TRADE — WDAY is the priority. First trading day of week; 2 trade slots available under CHOP rules. Execute ONLY on 15-min post-open consolidation confirmation above prior close — do NOT chase a gap. ROST is secondary; skip if no clean VWAP pullback materializes. Max $7,500/position.
+
+---
+
+## 2026-05-29 — Pre-market Research (inline; no pre-market run today)
+
+**REGIME: CHOP** | SPY $756.83 vs 50DMA $703.63 (+7.56%) | VIX: 15.60
+*(Regime limits: max 4 positions, max 15%/position ~$7,584, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,555.90 | Cash: $42,524 | Buying power: $93,079.90 | Daytrade count: 0
+- Positions: WDAY 60 shares @ $133.72 (+7.32% vs $124.60 entry) = $8,023 (15.9% deployed)
+- Open orders: WDAY trailing stop GTC — HWM $135.495, stop $121.9455 (order c8276d83)
+
+### Macro
+- **PCE (released 5/28):** Headline +3.8% YoY (highest since May 2023, in-line). Core +3.3% YoY (highest since Nov 2023, in-line). Monthly core +0.2% (soft, slight relief). Fed hawkish risk — minutes show policymakers open to hikes.
+- **S&P 500:** SPY $756.83 (+0.2%), near 52-week high. Post-PCE relief rally continued on 5/28 (+0.56%).
+- **VIX:** 15.60 (down from 16.29 on 5/27) — complacency risk near ATH
+- **DXY:** ~99 | **10Y yield:** ~4.5%+ elevated
+- **Econ calendar:** No major US releases today. Next: Jobs Report 6/5, CPI 6/10, FOMC 6/17
+
+### Sector Momentum
+- **AI infrastructure wave:** DELL +32.66% (EPS +65.87% beat, AI backlog $43B+), NTAP +29% (Q4 FY2026 beat, AI data infra), SMCI +14.55%, HPE +8.95%
+- **Broad tech:** MSFT +3.24%, PLTR +6.54%, MU +3.12%
+- **XLK momentum intact.** Post-DELL/NTAP sympathy lifting sector.
+
+### Holdings News
+- **WDAY:** $133.72 (+7.32% unrealized). HWM advanced to $135.495 intraday; trailing stop locked at $121.9455. Position healthy, well clear of stop ($133.72 vs $121.94 = 8.8% cushion). +15% tighten threshold = $143.29 — not yet triggered.
+
+### Trade Ideas
+1. **DELL** — EPS +65.87% beat, AI backlog $43B, revenue +87.5%. ⚠️ +32% today — too extended to chase on gap day. SKIP.
+2. **NTAP** — Q4 FY2026 beat, AI data infrastructure, FY27 guidance strong. ⚠️ +29% today — too extended. SKIP.
+3. **MSFT** — AI Copilot/Azure strength, +3.24% today. No specific fresh catalyst (sector sympathy only) — fails entry checklist. WATCHLIST for next week if catalyst emerges.
+4. **PLTR** — AI analytics, +6.54% today. No specific catalyst today — momentum play only. WATCHLIST.
+
+### Risk Factors
+- SPY near 52-week high ($756.83); ATH resistance
+- PCE 3.8%/3.3% at multi-year highs — rate hike risk; multiple compression on growth
+- VIX 15.60 (complacency near ATH)
+- Iran/Middle East ongoing — tail risk for oil spike, VIX surge, Bear regime shift
+- Friday: weekend event risk
+- CHOP regime: patience > activity
+
+### Decision
+HOLD — No new positions today. All large movers (DELL +32%, NTAP +29%) are post-earnings gap-ups on day-of — chasing prohibited. MSFT/PLTR lack specific catalysts (sector sympathy only; fails entry checklist). Friday + CHOP + SPY near ATH = preserve 2nd trade slot for next week. WDAY trailing stop active and healthy. Week: 1/2 trades used.
