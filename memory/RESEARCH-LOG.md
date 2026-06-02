@@ -129,3 +129,48 @@ HOLD — markets closed today (Memorial Day). Watchlist set for Tuesday 5/26: WD
 
 ### Decision
 TRADE — WDAY is the priority. First trading day of week; 2 trade slots available under CHOP rules. Execute ONLY on 15-min post-open consolidation confirmation above prior close — do NOT chase a gap. ROST is secondary; skip if no clean VWAP pullback materializes. Max $7,500/position.
+
+---
+
+## 2026-06-02 — Market-Open Research (inline pre-market)
+
+**REGIME: CHOP** | SPY vs 50DMA: +7.17% ($758.54 vs $707.80 50DMA) | VIX: 16.23
+*(Regime limits: max 4 positions, max 15%/position ~$7,739, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: ~$51,596 (all cash) | Cash: $51,596 | Daytrade count: 0
+- Positions: None (WDAY trailing stop triggered Jun 2, exit ~$151.20, ~+$1,596 gain)
+- Open orders: None
+
+### Macro
+- **SPY:** $758.54 (Jun 1 close), +7.17% above 50DMA $707.80 — strong but VIX keeps CHOP
+- **VIX:** 16.23 (+1.12%) — CHOP zone (15-25); Bull requires VIX < 15
+- **AI Supercycle:** Goldman Sachs S&P 500 target raised to 8,000 for 2026; AI driving 13-15% EPS growth
+- **Econ calendar:** No major US data today. Jobs report Jun 5, CPI Jun 10, FOMC Jun 17
+
+### Sector Momentum
+- **XLK dominant:** AI/data center infrastructure on fire — MRVL +26% (custom silicon investor day, $94B TAM 2028), HPE +24% (AI server demand surge)
+- **Best momentum: XLK** — AI custom silicon, optical interconnects, cloud hyperscaler capex acceleration
+- **MRVL catalyst:** Investor day shows 18 multi-generational XPU design wins, 50+ new pipeline opportunities worth $75B lifetime revenue, TAM expanded to $94B by 2028
+
+### Earnings Today / This Week
+- **Tomorrow Jun 3 — AVGO:** Q2 FY26 earnings; guided $22B revenue (+46.6% YoY), AI chip revenue $10.7B (+140% YoY). Company has "line of sight to $100B AI revenue in 2027." Custom accelerators grew 140% YoY in Q1.
+- **Already reported:** MRVL Q1 FY27 (May 27): record $2.006B revenue, data center +69% YoY, EPS $0.67 +123%
+
+### Holdings Review
+- WDAY trailing stop triggered Jun 2 (10% trail from HWM ~$168, exit ~$151.20 per cash reconciliation)
+- Gain: +$1,596 (+21.4% on $7,476 cost basis) — strong win on earnings momentum trade
+
+### Trade Ideas
+1. **AVGO** — Pre-earnings play (Jun 3 Q2 FY26). AI revenue guided $10.7B (+140% YoY). MRVL's investor day confirms AI TAM exploding — tailwind for all custom silicon. XLK sector momentum. Entry: market order. Stop: 10% trailing GTC. Size: $7,275 (14.1% CHOP limit). Regime check: PASS
+2. **MRVL** — Skip. Already +26% intraday. Do not chase.
+3. **WDAY** — Re-entry if consolidates above $145 with volume. Too extended today (-5% from yesterday), no clean 15-min setup. Watch for week 2 slot.
+
+### Risk Factors
+- AVGO could miss/guide down tomorrow (earnings risk) — mitigated by strong Q1 beat and already-guided Q2 numbers
+- VIX 16.23 trending slightly higher — monitor for push above 20 (regime deterioration)
+- SPY at all-time highs, overbought RSI (73-75) — possible mean reversion
+- Sector concentration: both WDAY and AVGO are XLK tech names; diversification limited under CHOP 2-trade limit
+
+### Decision
+TRADE — AVGO pre-earnings. 15 shares @ $485.28 (market open), 10% trailing stop GTC (order 16bfe02e, stop $436.17). 1 of 2 CHOP trade slots used. Reserve slot 2 for WDAY re-entry or new catalyst mid-week.
