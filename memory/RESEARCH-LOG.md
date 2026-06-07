@@ -129,3 +129,51 @@ HOLD — markets closed today (Memorial Day). Watchlist set for Tuesday 5/26: WD
 
 ### Decision
 TRADE — WDAY is the priority. First trading day of week; 2 trade slots available under CHOP rules. Execute ONLY on 15-min post-open consolidation confirmation above prior close — do NOT chase a gap. ROST is secondary; skip if no clean VWAP pullback materializes. Max $7,500/position.
+
+---
+
+## 2026-06-07 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +3.37% ($737.55 vs $713.51) | VIX: 21.57
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$90.54 (-2.7%), Brent ~$93.09 (-2.4%) — easing on Iran peace-talk hopes + weak Chinese demand
+- **S&P 500 futures:** Sharply lower, ~7,368 (-2.9%); Nasdaq 100 futures -5.2% — chip-stock selloff (Broadcom miss; MU/MRVL/AVGO/NVDA down double digits) plus hot May jobs report (+172K vs 85K est) repricing Fed rate-hike odds
+- **VIX:** Spiked to 21.51-21.57 (+39.7% in one session, from 15.40) — broke out of recent 15-18 range; sharp risk-off shift
+- **DXY:** 100.07 (+0.66%), up ~2.1% over 4 weeks — dollar strengthening on rate-hike repricing
+- **10Y yield:** ~4.52-4.55% (+6bps) — jumped on hot jobs data, fueling year-end hike bets
+- **Econ calendar:** No major US releases today (Sunday); Friday's hot jobs report is the dominant driver; next CPI/FOMC later in June
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +34.3%, XLE +32.3%, XLI +13.9%, XLB +11.5%
+- **YTD laggards:** XLF -4.2%, XLV -1.4%
+- **Last 5 days:** XLK +6.32% (leading), XLI +2.36%, XLE +1.80%, XLF +0.92%; defensive/cyclical pullback — XLY -4.80%, XLC -3.56%, XLP -2.39%
+- **Best momentum:** XLK (still #1 YTD + 5-day, AI infra/semis tailwind, but topping signals flagged after 9-week rally + this week's chip selloff); XLE (consistent dual-timeframe strength on geopolitical/oil-supply tightness)
+- ⚠️ Broad risk-off rotation this week — out of momentum/growth (esp. semis), into value/defensives/energy
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 6/7:** Calendar thin — no major US large/mid-cap names reporting before the open
+- **AH 6/5 notable:** VRT beat (EPS $0.99 vs $0.83 est, raised FY26 guidance) but fell -7.2% amid broader tech selloff; UAL down ~2%, slipped further AH
+- **Dominant theme:** AI-valuation selloff overshadowed individual beats — MU -13%, AVGO -8%, AMD -10%, INTC -11%, NVDA -7%, Nasdaq -4% on 6/5
+- FactSet: S&P 500 Q2'26 earnings growth est. +21.7% YoY; guidance skew positive, led by Info Tech
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. No actionable setups today — VIX spike (+39.7% in one session) and -2.9% futures gap signal acute risk-off; not a regime to initiate new positions into a falling market. Watch XLK/semis for stabilization before considering re-entry; XLE remains the steadier momentum name if energy holds up.
+
+### Risk Factors
+- VIX spiked from 15.40 → 21.57 in one session — volatility regime shift, could push toward Bear (VIX > 25) if selloff continues
+- S&P futures -2.9%, Nasdaq 100 futures -5.2% — sharp gap-down open likely; chip/semis crash (MU -13%, MRVL -16%, NVDA -6-7%) on AI-valuation concerns
+- Hot May jobs report (+172K vs 85K est) repricing Fed toward additional hikes — yields and DXY both up, headwind for growth/rate-sensitive names
+- SPY still +3.37% above 50DMA (bullish technical) but VIX band keeps regime at CHOP — base rates apply, do not loosen sizing
+- Thin econ calendar today (Sunday) — Friday's jobs shock is the dominant overhang into the open
+
+### Decision
+HOLD — no positions to manage, no new entries into an acute risk-off gap-down. Let the open settle; reassess at midday once VIX/futures stabilize. Patience > activity. Max 2 new trades this week under CHOP if a clean setup emerges later.
