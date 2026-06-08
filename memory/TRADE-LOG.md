@@ -66,3 +66,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** Sunday — US markets closed, no trading session, $0 day P&L. Account is flat (100% cash, no open positions, no open orders); balance as of last close Fri 6/5 = $50,478.01. **Logging gap flagged:** last EOD snapshot before this one was May 27 (Day 3); no entries exist for May 28–Jun 6 (~7 trading sessions). WDAY (60 sh, entered $124.60, last logged $123.12 on 5/27) is no longer held and no closing-trade record was found — position was evidently exited (stop-out or manual close) sometime in the gap window but never logged. Net change since last logged snapshot (5/27, $49,911.20): +$566.81 (+1.14%), consistent with a profitable WDAY exit, but cannot be confirmed from records. Phase P&L vs $50,000 launch baseline: +$478.01 (+0.96%). 0 trades this week logged (Mon 6/1–today); 2 of 2 CHOP slots available if a setup emerges. Tomorrow (Mon 6/8): pre-market run should re-establish regime/watchlist; flat book gives full flexibility — VIX spike to 21.57 (CHOP, broad risk-off in semis) argues for patience on new entries until volatility settles.
+
+---
+
+### Jun 08 — EOD Snapshot (Day 15, Monday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX ~21.5, SPY +3.71% vs 50DMA — per Jun 8 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book carried over from the weekend (100% cash, no positions, no open orders). Pre-market flagged acute risk-off: Iran/Israel oil spike (WTI +4.5%), VIX elevated (~21.5), Nasdaq -4.2% breakdown rotating leadership out of XLK into defensives (XLV/XLI). Correctly sat out per the HOLD decision — patience > activity in a geopolitically volatile, headline-driven tape. Account flat at $50,478.01, +0.96% phase P&L vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week. Tomorrow (Tue 6/9): reassess once oil/VIX stabilize; CPI Wednesday 6/10 is the next major catalyst — stay patient until that clears before sizing any new XLV/XLI rotation candidates.
