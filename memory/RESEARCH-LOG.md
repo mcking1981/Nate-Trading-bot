@@ -177,3 +177,47 @@ TRADE — WDAY is the priority. First trading day of week; 2 trade slots availab
 
 ### Decision
 HOLD — no positions to manage, no new entries into an acute risk-off gap-down. Let the open settle; reassess at midday once VIX/futures stabilize. Patience > activity. Max 2 new trades this week under CHOP if a clean setup emerges later.
+
+## 2026-06-08 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +3.71% ($739.97 vs $713.51) | VIX: 21.5
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$94.7 (+4.5%), Brent ~$96.9 (+4.0-4.9%) — sharp spike on renewed Israeli strikes on Iran reigniting Mideast supply fears
+- **S&P 500 futures:** ES ~7,416 (+0.21%) — modest bounce attempt after last week's ~3% selloff on hot jobs data
+- **VIX:** ~19.7-21.5 (elevated, pulled back intraday from ~21.5 open after +39.7% spike Friday) — geopolitical risk premium from Iran/Israel
+- **DXY:** ~100.11 (+0.04%) — near 2-month highs on Mideast safe-haven flows
+- **10Y yield:** ~4.57% — two-week high; hot May jobs report (+172K vs 85K est.) raised Fed hike odds (~70% by Dec)
+- **Econ calendar:** No FOMC this week (Fed on hold 3.50-3.75%, next meeting June 16-17). **CPI due Wednesday 6/10** — key catalyst
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +34.3%, XLE +32.3%, XLI +13.9%, XLB ~+12-14%
+- **YTD laggards:** XLF -4.2%, XLV -1.4%
+- **Last 5 days:** XLV +3.1-4.5% (sharpest reversal/rebound), XLF +2.6%, XLRE +2.0-2.1%, XLI +1.2-2.4%; XLK -1.6 to -3.1% (sharp breakdown — Nasdaq -4.2% on 6/8, worst day since Apr 2025)
+- **Best momentum:** XLV (defensive rotation, strongest 5-day reversal) and XLI (consistent 5-day trend + solid YTD, AI-infra capex names like CAT/GE Vernova)
+- ⚠️ Rotation OUT of tech/AI semis (XLK breaking down) INTO defensives/industrials/financials/real estate
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 6/8:** Thin calendar — CPB, MTN, GHM, REPL, AVO scheduled before open; no confirmed beat/miss data published yet
+- **Recent AH context (week of 6/1):** Beats — HPE (+30%, biggest beat since 2018), Best Buy (+15%), Salesforce (beat but light guidance); Misses — Lululemon (cut outlook), CrowdStrike (-10% despite narrow beat), Gap (-14%, cut guidance)
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. No actionable setups today — Iran/Israel oil-spike (+4.5% WTI) + elevated VIX + tech breakdown (Nasdaq -4.2%) signal acute risk-off/geopolitical uncertainty. Wait for CPI (Wed 6/10) and Mideast clarity before sizing new positions. If a setup emerges, XLV/XLI rotation names are the better regime-aligned candidates over XLK.
+
+### Risk Factors
+- Israel/Iran military escalation → oil spike (WTI +4.5%) could extend, pushing VIX toward Bear threshold (>25)
+- Hot May jobs report repricing Fed hawkish — 10Y at 4.57%, DXY firm — headwind for growth/rate-sensitive names
+- CPI Wednesday 6/10 — major volatility catalyst given inflation/jobs backdrop
+- XLK/AI-semis breakdown (Nasdaq -4.2%, worst day since Apr 2025) — momentum leadership rotating away from tech
+- CHOP regime: VIX 15-25 band — max 2 new trades this week, max 15%/position
+
+### Decision
+HOLD — no positions to manage. Geopolitical shock (Iran/Israel) + CPI Wednesday argue for patience; do not chase a volatile, headline-driven tape. Reassess at midday once oil/VIX stabilize and CPI risk is closer to resolution. Patience > activity. 2 of 2 CHOP trade slots available if a clean, regime-aligned setup (XLV/XLI rotation) emerges later in the week.
