@@ -76,3 +76,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades today — flat book carried over from the weekend (100% cash, no positions, no open orders). Pre-market flagged acute risk-off: Iran/Israel oil spike (WTI +4.5%), VIX elevated (~21.5), Nasdaq -4.2% breakdown rotating leadership out of XLK into defensives (XLV/XLI). Correctly sat out per the HOLD decision — patience > activity in a geopolitically volatile, headline-driven tape. Account flat at $50,478.01, +0.96% phase P&L vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week. Tomorrow (Tue 6/9): reassess once oil/VIX stabilize; CPI Wednesday 6/10 is the next major catalyst — stay patient until that clears before sizing any new XLV/XLI rotation candidates.
+
+---
+
+### Jun 10 — EOD Snapshot (Day 17, Wednesday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX ~21.0, SPY +2.73% vs 50DMA — per Jun 10 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book, 100% cash, no positions, no open orders. Pre-market HOLD decision was correct: CPI print at 8:30am was the dominant catalyst with futures already -0.7% premarket and VIX rising into the 20-21 range; entering ahead of the data was deemed undisciplined. Account unchanged at $50,478.01, +0.96% phase P&L vs $50,000 launch baseline. **Logging gap flagged:** no EOD snapshot exists for Jun 09 (Tuesday) — equity unchanged from Jun 08 ($50,478.01) suggests no trading activity that day either, but no entry was logged. 0 of 2 CHOP trade slots used this week (Mon 6/8–today). Tomorrow (Thu 6/11): reassess post-CPI tape — XLE (oil/geopolitics momentum) and XLK (AI/semis) remain the regime-aligned candidates if a clean setup confirms; ORCL earnings (AMC 6/10) could move XLK sentiment at tomorrow's open. Patience > activity.
