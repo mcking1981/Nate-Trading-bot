@@ -221,3 +221,49 @@ HOLD — no positions to manage, no new entries into an acute risk-off gap-down.
 
 ### Decision
 HOLD — no positions to manage. Geopolitical shock (Iran/Israel) + CPI Wednesday argue for patience; do not chase a volatile, headline-driven tape. Reassess at midday once oil/VIX stabilize and CPI risk is closer to resolution. Patience > activity. 2 of 2 CHOP trade slots available if a clean, regime-aligned setup (XLV/XLI rotation) emerges later in the week.
+
+---
+
+## 2026-06-10 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.73% ($737.05 vs $717.45) | VIX: ~21.0
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$87.7-88.1 (-0.3-0.6%), Brent ~$91.2-91.4 (-1.0-1.3%) — both down ~12% over the past month off Iran/Israel highs, still up ~30% YoY
+- **S&P 500 futures:** Down ~-0.7% premarket (-53pts to ~7,339) — Mideast (Iran/Israel) escalation headlines pressuring risk
+- **VIX:** ~20.1-21.0, up +5-6% from prior day's ~18.9-19.9 — elevated, CHOP zone but rising
+- **DXY:** ~99.85-99.92, roughly flat
+- **10Y yield:** 4.53% (+1bp), near 1-month highs
+- **Econ calendar:** **CPI today 8:30am** — consensus headline +0.5% m/m (4.2% YoY), core +0.3% m/m (2.9% YoY); Cleveland Fed nowcast 4.05% YoY headline, 2.83% core. PPI tomorrow; FOMC not until 6/17
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +22-33% (AI infra/semis/memory), XLC +28%, XLU +28% (long-term), XLE +7-26%
+- **Last 5-day leaders:** XLK +2.2% (still leading despite some chip pullback in AVGO/MU), XLE +1.1-1.8% (oil/geopolitics), XLV mixed (+4.8% one read on LLY strength)
+- **Laggards (5-day):** XLC -3.9%, XLY -2.4%, XLU -1.9%, XLRE -1.5%, XLB -1.3%
+- **Best momentum:** XLE (consistent YTD + 5-day, geopolitical/oil tailwind) and XLK (still dominant on AI/semi strength, though digesting)
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 6/10:** CHWY, CNM, DAKT report BMO — none broad-market moving
+- **ORCL** reports AMC today (Q4, est. EPS ~$1.96) — high-impact for tech/AI sentiment, relevant for tomorrow's open, not today
+- **AH 6/9:** No major large-cap reports; BNR (small-cap biotech) beat
+- Season wrap: 85% beat rate, +16.7% avg beat magnitude, but miss penalty asymmetric (-4.6% to -3.9% vs +0.1-0.7% for beats)
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. No actionable entries today — CPI print at 8:30am is the dominant catalyst (consensus +0.5% m/m headline, 4.2% YoY) with futures already -0.7% premarket and VIX rising +5-6%. A hot print risks a sharp gap-down; a cool print could spark a relief rally. Either way, entering ahead of the data is undisciplined. Watchlist for post-CPI: XLE names (oil/geopolitics momentum) and XLK leaders (AI/semis) IF the print is benign and futures stabilize. Regime check: PASS only post-CPI confirmation.
+
+### Risk Factors
+- CPI today 8:30am — major volatility catalyst; hot print could push VIX toward Bear threshold (>25) and SPY back toward/below 50DMA
+- Iran/Israel escalation continues to pressure futures (-0.7% premarket) and keep oil/VIX elevated
+- 10Y yield at 4.53% (1-month high) — headwind for growth/rate-sensitive names if CPI hot
+- ORCL AMC tonight — AI-sentiment swing risk for tomorrow's open (XLK exposure)
+- CHOP regime: VIX 15-25 band — max 2 new trades this week (2 of 2 still available), max 15%/position
+
+### Decision
+HOLD — no positions to manage. Do not enter ahead of the 8:30am CPI print with futures already red and VIX climbing. Reassess at midday once CPI digests; XLE/XLK are the regime-aligned candidates if a clean post-CPI setup emerges. Patience > activity. 2 of 2 CHOP trade slots available this week.
