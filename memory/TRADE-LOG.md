@@ -86,3 +86,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades today — flat book, 100% cash, no positions, no open orders. Pre-market HOLD decision was correct: CPI print at 8:30am was the dominant catalyst with futures already -0.7% premarket and VIX rising into the 20-21 range; entering ahead of the data was deemed undisciplined. Account unchanged at $50,478.01, +0.96% phase P&L vs $50,000 launch baseline. **Logging gap flagged:** no EOD snapshot exists for Jun 09 (Tuesday) — equity unchanged from Jun 08 ($50,478.01) suggests no trading activity that day either, but no entry was logged. 0 of 2 CHOP trade slots used this week (Mon 6/8–today). Tomorrow (Thu 6/11): reassess post-CPI tape — XLE (oil/geopolitics momentum) and XLK (AI/semis) remain the regime-aligned candidates if a clean setup confirms; ORCL earnings (AMC 6/10) could move XLK sentiment at tomorrow's open. Patience > activity.
+
+---
+
+### Jun 11 — EOD Snapshot (Day 18, Thursday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX ~20.6, SPY +0.85% vs 50DMA — per Jun 11 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book, 100% cash, no positions, no open orders. Pre-market HOLD was correct: choppy, headline-driven tape (CPI hot yesterday, ORCL beat-but-sold-off on capex raise pressuring XLK, PPI at 12:30pm as next catalyst); XLV (healthcare rotation, +5.6-8.2% 5-day) was the standout theme but had no confirmed ticker/entry level, so no setup met regime criteria. Account unchanged at $50,478.01, +0.96% phase P&L vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/8–today). Tomorrow (Fri 6/12): reassess post-PPI/ADBE earnings reaction; watch for XLV pullback entries (e.g., ABBV) and XLE/XLK momentum confirmation. Patience > activity — Friday weekly review due.
