@@ -267,3 +267,55 @@ HOLD — no positions to manage. Geopolitical shock (Iran/Israel) + CPI Wednesda
 
 ### Decision
 HOLD — no positions to manage. Do not enter ahead of the 8:30am CPI print with futures already red and VIX climbing. Reassess at midday once CPI digests; XLE/XLK are the regime-aligned candidates if a clean post-CPI setup emerges. Patience > activity. 2 of 2 CHOP trade slots available this week.
+
+---
+
+## 2026-06-11 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.85% ($725.43 vs $719.32) | VIX: 20.60
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$89-90, Brent ~$92-93, both down 1-3% on the day; crude off ~14.6% over the past month despite ongoing Iran/Israel strikes
+- **S&P 500 futures:** Choppy/cautious — ESM26 ~7,461; week marked by sharp swings (Iran/Israel headlines, Nasdaq -4% worst day since Apr 2025, partial rebound)
+- **VIX:** 20.60-20.65, down ~7% from prior close but still elevated vs 16-19 range earlier in week
+- **DXY:** ~100.10 (+0.15% day, +1.83% month) — dollar strengthening
+- **10Y yield:** 4.53%, holding near recent highs on Fed hike repricing
+- **Econ calendar:** PPI (May) due 12:30pm ET, consensus +0.7% MoM (prior +1.4%); CPI yesterday came in hot (core YoY 2.9%, fastest in 3+ yrs)
+- **Bottom line:** Geopolitical risk-off undertone, elevated VIX, strong dollar, sticky inflation — net Chop/risk-off lean; PPI at 12:30pm is today's key catalyst
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +32-34% (AI/semis/memory), XLE +26-32% (geopolitical/oil), XLI +12-14%, XLB +11-13%
+- **YTD laggards:** XLF -4 to -5%, XLV -1 to -3%
+- **Last 5 days:** XLV +5.6-8.2% (sharp rebound, biggest mover), XLRE +1.5-3.4%, XLP +2.3-2.8%, XLF +1.0-1.9%; XLK mixed/volatile (-8.8% 3-day pullback after ORCL AH plunge >10% on AI capex raise)
+- **Best momentum:** XLV (healthcare/value rotation, e.g. ABBV) and XLE (YTD leader, oil/Iran tailwind)
+- ⚠️ Possible "sell the AI trade" rotation out of XLK into healthcare/financials/industrials
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **AH 6/10:** ORCL beat (EPS $2.11 vs $1.96, rev $19.18B vs $19.10B, cloud +47%, FY27 guide above consensus) but stock fell — market focused on $20-40B additional capex/debt raise; beat-but-sold-off
+- **Today BMO:** LEN (housing bellwether, consensus EPS $1.23 -35% YoY, 4 straight misses — 5th miss risk); RH also reports BMO
+- **Today AMC:** ADBE reports tonight (guide EPS $5.80-5.85/rev $6.43-6.48B vs consensus $5.83/$6.46B; stock down ~8% in 5 days on AI-disruption fears)
+- No actionable pre-market beats for current/prospective names; ORCL's capex-driven selloff is a bearish signal for XLK/AI-infra sentiment
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. No firm entries today — XLV (healthcare rotation, +5.6-8.2% 5-day) is the standout momentum sector but no specific ticker/level confirmed yet; watch ABBV and other laggard-value healthcare names for a post-PPI pullback entry. Regime check: FAIL (no confirmed setup/levels).
+2. XLE remains a YTD-momentum candidate (oil/Iran tailwind) but oil itself is down 1-3% today and -14.6% over the month — momentum cooling. Regime check: FAIL (conflicting signals).
+
+### Risk Factors
+- PPI (May) at 12:30pm ET — volatility catalyst, hot CPI yesterday raises hot-PPI risk
+- ORCL beat-but-sold-off on $20-40B capex raise — bearish read-through for XLK/AI-infra; LEN 5th-straight-miss risk for housing/consumer-discretionary
+- ADBE reports AMC tonight — added AI-disruption sentiment risk for XLK
+- VIX still elevated at 20.60 (down from 21.57 but well above 15-18 baseline) — geopolitical (Iran/Israel) risk-off persists
+- DXY firm (~100.10) and 10Y at 4.53% — headwind for growth/rate-sensitive names
+- XLK -8.8% 3-day pullback signals possible momentum-leadership rotation away from tech into healthcare/financials
+- CHOP regime: VIX 15-25 band — max 2 new trades this week (2 of 2 still available), max 15%/position
+
+### Decision
+HOLD — no positions to manage. Choppy, headline-driven tape with PPI at 12:30pm as the next major catalyst; XLV (healthcare rotation) is the most promising regime-aligned theme but lacks a confirmed ticker/entry level. Reassess at midday once PPI digests. Patience > activity. 2 of 2 CHOP trade slots available this week.
