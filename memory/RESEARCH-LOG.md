@@ -319,3 +319,53 @@ HOLD — no positions to manage. Do not enter ahead of the 8:30am CPI print with
 
 ### Decision
 HOLD — no positions to manage. Choppy, headline-driven tape with PPI at 12:30pm as the next major catalyst; XLV (healthcare rotation) is the most promising regime-aligned theme but lacks a confirmed ticker/entry level. Reassess at midday once PPI digests. Patience > activity. 2 of 2 CHOP trade slots available this week.
+
+---
+
+## 2026-06-12 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.31% ($737.76 vs $721.07) | VIX: 18.55
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Sharp selloff — WTI ~$84-86 (-4%), Brent ~$86-88 (-3-4%), lowest in ~2 months on US-Iran ceasefire/de-escalation hopes
+- **S&P 500 futures:** Slightly negative (~7,400-7,402) — "Iran bump" fading; SpaceX's record $75B IPO debut is today's watch item
+- **VIX:** ~18.7-19.4, down 4-12% from prior session — volatility easing on de-escalation
+- **DXY:** ~99.68 (-0.2%) — dollar weakening on de-escalation optimism
+- **10Y yield:** ~4.45-4.47%, down from 4.55% prior day
+- **Econ calendar:** Michigan Consumer Sentiment (Prelim, 10am ET, forecast 46.0 vs prior 44.8); PPI already out yesterday; no CPI/FOMC today
+- **Read:** Risk-on tone — oil/VIX/yields/DXY all falling on Iran de-escalation; light data day
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLE +31.1% (energy, Mideast tension/tight supply), XLK +22.8% (cooling, -10% off 6/2 peak), XLB ~+13%, XLI ~+12-14%
+- **YTD laggards:** XLF -4.2%, XLV ~flat/-1%
+- **Last 5-day leaders:** XLP +4.05%, XLV +3.59%, XLRE +3.40%, XLF +2.67%
+- **Last 5-day laggard:** XLK -9.99% — sharp tech pullback
+- **Best momentum:** XLP (consumer staples, defensive rotation +4% 5-day) and XLE (YTD leader +31%, though flat last 5 days)
+- ⚠️ Rotation OUT of XLK into defensives (Staples, Health Care, Financials, Real Estate) continues
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **AH 6/11:** ORCL beat EPS ($2.11 vs $1.96) and revenue (in-line), but cloud apps revenue missed slightly ($4.13B vs $4.17B); stock -8.24% premarket to ~$184.68 on plans to raise ~$40B debt/equity for AI capex — beat-but-sold-off again (2nd time this week)
+- **Pre-market 6/12:** No major S&P 500 earnings before open — only small/micro caps (REPL, PLCE, CRMT, ANIX)
+- Premarket movers: broad semis bid (INTC +4.96%, MU +3.08%, AMAT/LRCX/KLAC +3-5%) — sector rotation/Iran-deal optimism, not earnings-driven
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. No actionable setups today — no confirmed ticker/entry/stop/target meets regime criteria. XLP (defensive rotation, +4% 5-day) and XLE (YTD momentum leader, +31%) are the most regime-aligned themes but lack specific levels. Regime check: FAIL (no confirmed setup).
+
+### Risk Factors
+- ORCL -8.24% premarket on debt-financed AI capex raise — 2nd "beat but sold off" in a week; bearish read-through for XLK/AI-infra sentiment continues
+- XLK -9.99% 5-day — momentum leadership rotation away from tech accelerating; avoid chasing tech dip prematurely
+- Risk-on tone (oil/VIX/yields/DXY all down on Iran de-escalation) could reverse quickly if ceasefire headlines flip
+- SpaceX $75B IPO debut today — could absorb liquidity/attention, modest market-wide effect
+- Friday — weekly review due after close
+- CHOP regime: VIX 15-25 band — max 2 new trades this week (2 of 2 still available), max 15%/position
+
+### Decision
+HOLD — no positions to manage. Risk-on de-escalation tape but no confirmed regime-aligned setup with specific entry/stop/target; XLP (defensive momentum) and XLE (YTD leader) are themes to watch for next week. Patience > activity. 2 of 2 CHOP trade slots available this week.
