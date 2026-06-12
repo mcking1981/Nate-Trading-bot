@@ -11,6 +11,8 @@ STEP 1 — Read memory for context:
 - memory/TRADING-STRATEGY.md (hard rules + regime matrix)
 - tail of memory/TRADE-LOG.md (open positions and their theses)
 - tail of memory/RESEARCH-LOG.md (yesterday's research and regime)
+- "Adjustments for Next Week" and "Key Lessons" from the LATEST entry in
+  memory/WEEKLY-REVIEW.md — apply these tactical adjustments to today's research
 
 STEP 2 — Pull live account state:
   bash scripts/alpaca.sh account
@@ -45,11 +47,12 @@ Use bash scripts/tavily.sh '<query>' for each item. If Tavily exits 3, use nativ
 Return: oil prices, futures direction, VIX, DXY, 10Y yield, key econ events today."
 
 Sub-agent 2 — SECTOR SCOUT
-Brief: "Research sector momentum and return a structured <=200-word summary with citations.
+Brief: "Research sector momentum AND specific stock candidates. Return a structured <=200-word summary with citations.
 Use bash scripts/tavily.sh '<query>' for each. If Tavily exits 3, use native WebSearch.
 1. bash scripts/tavily.sh 'S&P 500 sector ETF performance YTD $DATE XLK XLF XLE XLV XLI XLY XLP XLU XLRE XLB'
 2. bash scripts/tavily.sh 'top performing stock market sectors last 5 days $DATE'
-Return: YTD leaders, last-5-day leaders, 1-2 sectors with strongest current momentum."
+3. For the 1-2 sectors with strongest momentum, run: bash scripts/tavily.sh '<top holding ticker> stock price pullback breakout setup $DATE' for 1-2 liquid large-cap names in that sector.
+Return: YTD leaders, last-5-day leaders, 1-2 sectors with strongest current momentum, AND for each leading sector name 1-2 SPECIFIC liquid large-cap tickers with an approximate technical setup (pullback to support, VWAP reclaim, breakout level) and rough entry/stop reference. A sector name with no ticker is not a complete answer."
 
 Sub-agent 3 — EARNINGS SCANNER
 Brief: "Research earnings and return a structured <=200-word summary with citations.
@@ -89,6 +92,8 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md (append, do not overwri
 ### Trade Ideas
 1. TICKER — catalyst, entry $X, stop $X (-X%), target $X (X:1 R:R), regime check: PASS/FAIL
 2. ...
+(If no earnings catalyst exists, use Sector Scout's named tickers as conditional/watchlist
+setups — a sector theme alone is not a trade idea.)
 
 ### Risk Factors
 - ...
