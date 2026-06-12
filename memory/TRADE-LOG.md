@@ -96,3 +96,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades today — flat book, 100% cash, no positions, no open orders. Pre-market HOLD was correct: choppy, headline-driven tape (CPI hot yesterday, ORCL beat-but-sold-off on capex raise pressuring XLK, PPI at 12:30pm as next catalyst); XLV (healthcare rotation, +5.6-8.2% 5-day) was the standout theme but had no confirmed ticker/entry level, so no setup met regime criteria. Account unchanged at $50,478.01, +0.96% phase P&L vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/8–today). Tomorrow (Fri 6/12): reassess post-PPI/ADBE earnings reaction; watch for XLV pullback entries (e.g., ABBV) and XLE/XLK momentum confirmation. Patience > activity — Friday weekly review due.
+
+---
+
+### Jun 12 — EOD Snapshot (Day 19, Friday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX 18.55, SPY +2.31% vs 50DMA — per Jun 12 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01. Pre-market HOLD was correct: risk-on de-escalation tape (oil/VIX/yields/DXY all down on Iran ceasefire optimism, broad semis bid) but no confirmed regime-aligned setup with specific entry/stop/target — XLP (defensive rotation +4% 5-day) and XLE (YTD leader +31%) remain themes without confirmed levels. ORCL -8.24% premarket (2nd beat-but-sold-off this week) keeps XLK sentiment soft (-9.99% 5-day). Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/8–Fri 6/12) — fully unused. Friday weekly review due after close. Next week: watch XLP/XLE for confirmed setups, and monitor whether XLK semis bounce (INTC/MU/AMAT premarket strength) develops into a tradeable dip-buy.
