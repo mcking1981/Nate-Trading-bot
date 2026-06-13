@@ -106,3 +106,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01. Pre-market HOLD was correct: risk-on de-escalation tape (oil/VIX/yields/DXY all down on Iran ceasefire optimism, broad semis bid) but no confirmed regime-aligned setup with specific entry/stop/target — XLP (defensive rotation +4% 5-day) and XLE (YTD leader +31%) remain themes without confirmed levels. ORCL -8.24% premarket (2nd beat-but-sold-off this week) keeps XLK sentiment soft (-9.99% 5-day). Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/8–Fri 6/12) — fully unused. Friday weekly review due after close. Next week: watch XLP/XLE for confirmed setups, and monitor whether XLK semis bounce (INTC/MU/AMAT premarket strength) develops into a tradeable dip-buy.
+
+---
+
+### Jun 13 — EOD Snapshot (Day 20, Saturday — Market Closed)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX 17.68, SPY +2.62% vs 50DMA — per Jun 13 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** Saturday — US markets closed, no trading session, $0 day P&L. Account flat (100% cash, no positions, no open orders), equity unchanged at $50,478.01. Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (new week starts Mon 6/15). Pre-market planning session flagged CVX/XOM (XLE momentum) as conditional Monday watchlist, but FOMC meets Mon-Tue (decision Wed 6/17, first under new Fed Chair Kevin Warsh) and oil's sharp reversal (-16-17% over the month) argue for waiting for post-FOMC clarity before sizing new capital. Tomorrow (Sun 6/14): no action — market closed.
