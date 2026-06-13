@@ -369,3 +369,53 @@ HOLD — no positions to manage. Choppy, headline-driven tape with PPI at 12:30p
 
 ### Decision
 HOLD — no positions to manage. Risk-on de-escalation tape but no confirmed regime-aligned setup with specific entry/stop/target; XLP (defensive momentum) and XLE (YTD leader) are themes to watch for next week. Patience > activity. 2 of 2 CHOP trade slots available this week.
+
+---
+
+## 2026-06-13 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.62% ($741.75 vs $722.80) | VIX: 17.68
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ US MARKETS CLOSED — Saturday. No trades possible. Planning session for Monday 6/15 open.
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $84.88 (-3.2%), Brent $87.33 (-3.4%) — down ~16-17% over the past month on Iran de-escalation hopes (Trump signaled imminent US-Iran deal Wed 6/10)
+- **S&P futures:** ESM26 ~7,382 (-0.19% as of Thu 6/11) — choppy week (chip selloff Nasdaq -4% on 6/4) with partial rebound on Iran peace hopes
+- **VIX:** 17.68 (Fri close, -9% on the day), down sharply from 22.22 mid-week — vol compressing, just below long-term avg of 18.56
+- **DXY:** 99.75 (-0.10%), roughly flat, up 1.3% over the month
+- **10Y yield:** 4.49% (+2bps Fri) — near recent highs after hot May CPI/PPI
+- **Econ calendar:** **FOMC meets Mon-Tue, decision Wed 6/17** — first under new Fed Chair Kevin Warsh, no rate change expected but presser is the key catalyst given hot inflation + Iran-driven energy shock. Tue 6/16 import/export prices, Thu 6/18 jobless claims/Philly Fed. **Fri 6/19 markets closed (Juneteenth)**
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +34.3%, XLE +32.3%, XLI +13.9%, XLB ~+13%
+- **Last 5 days:** XLP +1.65%, XLE +1.50% (only sectors positive); XLK -2.3%, XLI -3.4%, XLY -2.1% — broad pullback in growth/cyclicals
+- **Best momentum: XLE** — only sector positive YTD AND last-5-day, on Mideast tension/tight supply (note: tension easing now, see oil -16% risk below). XLP secondary (defensive, weak YTD +6.2%)
+- **XLE candidates:** CVX ($189.80) — 3-day win streak, MACD turned positive, support/reclaim zone $185-187; XOM ($146.85) — pulled back to $145-147 support shelf from $154.91 high, VWAP reclaim above $148-149
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Fri 6/12 AH:** ORCL beat (EPS $2.11 vs $1.96, rev $19.18B vs $19.08B, AI cloud guidance raised) but muted/nervous reaction on heavy AI capex plans
+- **This week:** Wed 6/17 BMO — JBL (strong AI-datacenter beat expected, +65% YTD), KMX, SWBI; Thu 6/18 BMO — ACN, KR. Mon/Tue mostly minor names, nothing market-moving pre-open Monday
+- Miss penalties unusually severe this quarter (-3.9% avg) — elevated risk around JBL/ACN
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. **CVX** — XLE momentum leader (YTD +32.3%, only sector +5-day). Entry: reclaim of $185-187 support/breakout zone. Stop: -8% (~$171). Target: +16% (~$216, 2:1 R:R). Regime check: CONDITIONAL — watch Monday open for confirmation.
+2. **XOM** — same XLE theme. Entry: VWAP reclaim above $148-149. Stop: -8% (~$137). Target: +16% (~$172, 2:1 R:R). Regime check: CONDITIONAL — watch Monday open for confirmation.
+(Both conditional/watchlist per Adjustments for Next Week — specific tickers/levels now attached to the XLE theme, unlike last week's sector-only calls.)
+
+### Risk Factors
+- **Oil thesis conflict:** WTI/Brent down ~16-17% over the month on Iran de-escalation — the very tailwind behind XLE's YTD/5-day momentum is reversing. CVX/XOM are relative-strength leaders in a sector whose catalyst may be fading; do not chase, require confirmed reclaim only
+- **FOMC Mon-Tue, decision Wed 6/17** — first meeting under new Fed Chair Kevin Warsh; major volatility catalyst, could swing VIX either direction. Consider waiting for post-FOMC clarity before sizing new positions
+- VIX 17.68 still mid-CHOP band — base rates apply (max 15%/position, max 2 new trades this week)
+- Shortened week — Fri 6/19 markets closed (Juneteenth)
+- XLK -2.3% 5-day, still digesting prior AI-capex selloff — avoid premature dip-buy
+
+### Decision
+HOLD — weekend, no trades possible. Monday watchlist: CVX/XOM (XLE momentum) ONLY on confirmed technical reclaim, but given oil's sharp reversal and FOMC starting Monday, default toward waiting for post-FOMC (Wed PM/Thu) clarity before committing new capital. Patience > activity. 2 of 2 CHOP trade slots available this week (new week starts Monday).
