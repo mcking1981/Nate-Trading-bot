@@ -419,3 +419,56 @@ HOLD — no positions to manage. Risk-on de-escalation tape but no confirmed reg
 
 ### Decision
 HOLD — weekend, no trades possible. Monday watchlist: CVX/XOM (XLE momentum) ONLY on confirmed technical reclaim, but given oil's sharp reversal and FOMC starting Monday, default toward waiting for post-FOMC (Wed PM/Thu) clarity before committing new capital. Patience > activity. 2 of 2 CHOP trade slots available this week (new week starts Monday).
+
+---
+
+## 2026-06-14 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.62% ($741.75 vs $722.80) | VIX: 17.68
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ US MARKETS CLOSED — Sunday. No trades possible. Planning session for Monday 6/15 open.
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $84.88 (-3.2%), Brent $87.33 (-3.4%) — both down hard on Iran de-escalation hopes (Trump signaled near-term US-Iran deal). Energy likely under continued pressure Monday
+- **S&P 500 futures (as of Fri close):** Risk-on — S&P futures +0.51% to 7,436, Nasdaq 100 +0.83%
+- **VIX:** 17.68, down sharply from 22.22 midweek spike — vol cooling as Iran tensions ease, but still above April/May ~15-17 baseline
+- **DXY:** 99.75, roughly flat day but +1.3% over the month — dollar firm on hawkish Fed repricing
+- **10Y yield:** 4.49% — near recent highs, markets pricing possible 2026 hike(s) after hot CPI/PPI/jobs
+- **Key event this week: FOMC decision Wed 6/17** — first meeting under new Fed Chair Kevin Warsh (sworn in 5/22). Consensus: hold rates but shift from easing to neutral bias; markets pricing 1-2 hikes later in 2026. Trump publicly opposing any hike. Dot plot/SEP and Warsh's presser tone = high event risk midweek
+- Read for Monday: risk-on tailwind from Iran de-escalation + falling VIX, but oil-sensitive energy names face pressure; rate-sensitive sectors stay cautious into Wednesday's FOMC
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33% (semis/AI), XLE +26-32%, XLI +12-14%, XLB +11-13%. Laggards: XLF ~-5%, XLV ~-1 to -3%
+- **Last 5 days:** Rotation into small/micro-cap and value, out of Mag7/large-cap growth; IT, Energy, Communication Services hold top analyst buy-ratings
+- **Best momentum: XLK (semis/AI memory)**
+- **AMAT** — breakout-continuation (NOT a pullback). New ATH $567 (6/12) from $492 (6/8); Barclays raised PT to $590 (6/11). Entry: hold above $550 (prior resistance/breakout). Stop: -8% (~$506). Target: +16% (~$638, 2:1 R:R)
+- **MU** — high-risk recovery play. ATH $1,089 (6/3) → crashed to $864 (6/5) → recovering $950-996 (6/8-9). Beta 2.97, earnings 6/24 adds risk. Entry: reclaim/hold above $950. Stop: -8% (~$874). Target: +16% (~$1,102, 2:1 R:R). Smaller size if taken
+- **XLE** — momentum cooling (oil -3.2 to -3.4% today, de-escalation risk to thesis). No new energy adds this week
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Mon 6/15 pre-market:** Nothing actionable for our watchlist (only CGC, cannabis — irrelevant)
+- **Week ahead:** Wed 6/17 BMO — JBL (EPS est $3.08-3.10, +21.6% YoY, stock +65% YTD on AI-datacenter buildout, avg target ~$342) and KMX; Wed 6/17 AMC — SWBI; Thu 6/18 BMO — ACN, KR
+- **Dominant catalyst:** FOMC Wed 6/17 likely overshadows/compounds JBL/KMX reaction same morning — expect elevated volatility Wednesday. Fri 6/19 markets closed (Juneteenth)
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. **AMAT** — XLK breakout-continuation, new ATH on raised analyst PT. Entry: confirmed hold above $550 at Monday open. Stop: -8% (~$506). Target: +16% (~$638, 2:1 R:R). Regime check: CONDITIONAL — confirm Monday open.
+2. **MU** — XLK recovery/dip-buy, higher risk (beta 2.97). Entry: reclaim/hold above $950. Stop: -8% (~$874). Target: +16% (~$1,102, 2:1 R:R). Smaller size. Regime check: CONDITIONAL — confirm Monday open; note earnings 6/24 risk if held that long.
+
+### Risk Factors
+- **FOMC Wed 6/17** — first meeting under new Fed Chair Kevin Warsh; major volatility catalyst, dot plot/presser could swing either direction
+- Oil down sharply (WTI -3.2%, Brent -3.4%) on Iran de-escalation — bearish for XLE; avoid new energy longs
+- DXY firm (99.75, +1.3% month) and 10Y at 4.49% — headwind for growth/rate-sensitive names
+- AMAT at fresh ATH — breakout could fail without confirmation; MU still highly volatile post-crash, earnings 6/24 adds tail risk
+- VIX 17.68 still mid-CHOP band, though cooling — base rates apply (max 15%/position, max 2 new trades this week)
+- Shortened week — Fri 6/19 markets closed (Juneteenth)
+
+### Decision
+HOLD — weekend, no trades possible. Monday watchlist: AMAT (breakout-continuation, confirm hold above $550) and MU (higher-risk recovery dip-buy above $950, smaller size) — both XLK. Both are CONDITIONAL on Monday-open confirmation. 2 of 2 CHOP trade slots available this week. FOMC Wed 6/17 (Warsh's first meeting) is the dominant catalyst — weigh entry timing/sizing against holding through that event. Patience > activity.
