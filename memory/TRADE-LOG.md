@@ -126,3 +126,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** Sunday — US markets closed, no trading session, $0 day P&L. Account flat (100% cash, no positions, no open orders), equity unchanged at $50,478.01. Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (new week starts Mon 6/15). Pre-market planning flagged AMAT (breakout-continuation above $550) and MU (recovery dip-buy above $950) as conditional XLK watchlist for Monday's open, both CONDITIONAL on confirmation. FOMC Wed 6/17 (Warsh's first meeting) is the dominant catalyst this week — weigh entry timing/sizing against holding through that event. Tomorrow (Mon 6/15): market open — confirm AMAT/MU setups at the open before acting; patience > activity.
+
+---
+
+### Jun 15 — EOD Snapshot (Day 22, Monday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX 16.76, SPY +3.90% vs 50DMA — per Jun 15 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01. Pre-market flagged AMAT (XLK breakout-continuation above $550) and MU (recovery dip-buy above $950) as conditional Monday-open setups, both contingent on live confirmation. Account stayed flat — no fill record found. Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/15–today). Tomorrow (Tue 6/16): reassess AMAT/MU confirmation and any new XLK/XLB/XLF rotation setups ahead of FOMC Wed 6/17 (Warsh's first meeting). Patience > activity.
