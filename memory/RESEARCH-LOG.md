@@ -472,3 +472,52 @@ HOLD — weekend, no trades possible. Monday watchlist: CVX/XOM (XLE momentum) O
 
 ### Decision
 HOLD — weekend, no trades possible. Monday watchlist: AMAT (breakout-continuation, confirm hold above $550) and MU (higher-risk recovery dip-buy above $950, smaller size) — both XLK. Both are CONDITIONAL on Monday-open confirmation. 2 of 2 CHOP trade slots available this week. FOMC Wed 6/17 (Warsh's first meeting) is the dominant catalyst — weigh entry timing/sizing against holding through that event. Patience > activity.
+
+---
+
+## 2026-06-15 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +3.90% ($751.00 vs $722.80) | VIX: 16.76
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$80.40 (-5.3%), Brent ~$82.85 (-5.1%) — sharp drop on reports of a US-Iran peace agreement (signing expected June 19), reducing Strait of Hormuz risk premium
+- **S&P futures:** Strongly green — ES ~7,524 (+1.20%), Nasdaq 100 futures +1.93%, Dow futures +1.03%. Risk-on tied to Iran de-escalation
+- **VIX:** 16.76 (-5.2% from prior close ~17.7) — fear receding
+- **DXY:** ~99.53 (-0.2%)
+- **10Y yield:** 4.45% (-4bps), near 1-month low
+- **Econ calendar:** No CPI/PPI/jobs releases today; focus remains on FOMC (Warsh's first meeting, decision Wed 6/17) and the Iran deal signing (Fri 6/19, also Juneteenth holiday — markets closed)
+- Net read: strong risk-on premarket gap (futures +1.2%, VIX down, yields/oil down) on geopolitical de-escalation. Energy names face downside risk from the oil collapse despite YTD strength
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +34.3%, XLE +32.3%, XLI +13.9%
+- **Last 5 days:** Rotation into "real economy" — XLB +1.8%, XLF +1.4%, XLU +1.1% leading; XLV lagging -0.2%. XLK off -2.5% from its Jun 2 peak but still dominant 2026 leader
+- **Best momentum: XLK** (semis/AI), despite recent pullback
+- **AMAT** — breakout-continuation **CONFIRMED**. ATH $567.25 (Jun 12), up 18% on the week, holding above $550 with bullish MA stack. Entry: $550-555 reclaim. Stop: -8% (~$507). Target: +16% (~$640, 2:1 R:R)
+- **MU** — recovery dip-buy, **NOT YET CONFIRMED**. Last print ~$949, just below the $950 reclaim level. MA stack still bullish, earnings 6/24 adds risk. Needs live reclaim above $950 with volume before acting
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Light pre-market calendar — only small/micro-caps (CGC, CMTL, CODA, AIOT, JRSH, OCCI, REPL). Nothing market-moving for our watchlist
+- Yesterday's AH context: ORCL beat but -8% on capex/cash-burn concerns; CrowdStrike beat but -10%; Lululemon cut outlook — pattern of beats being punished on guidance persists
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. **AMAT** — XLK breakout-continuation, confirmed hold above $550, fresh ATH on raised analyst PTs. Entry: $550-555 reclaim at/after open. Stop: -8% (~$507). Target: +16% (~$640, 2:1 R:R). Regime check: PASS — confirm at open before sizing (max 15%/position, ~$7,572).
+2. **MU** — XLK recovery dip-buy, sits just below $950 reclaim. Entry: confirmed reclaim/hold above $950 with volume. Stop: -8% (~$874). Target: +16% (~$1,102, 2:1 R:R). Smaller size given earnings 6/24. Regime check: CONDITIONAL — needs live confirmation, do not chase below $950.
+
+### Risk Factors
+- Oil collapse (-5%) on Iran de-escalation is bearish for XLE — avoid chasing energy despite YTD strength
+- Strong premarket gap-up (+1.2% futures) raises chase risk — require confirmed hold/reclaim at open, don't buy the gap blindly
+- VIX 16.76 still mid-CHOP band — base CHOP limits apply (max 4 positions, max 15%/position, 2 new trades/week)
+- AMAT at fresh ATH — breakout could fail without volume confirmation
+- MU still below $950 reclaim — higher risk, earnings 6/24 tail risk if held that long
+- FOMC Wed 6/17 (Warsh's first meeting) remains the dominant catalyst this week; Fri 6/19 markets closed (Juneteenth)
+
+### Decision
+TRADE (conditional) — AMAT is the strongest confirmed setup (XLK breakout-continuation, hold above $550). If confirmed at open, market-open routine may size up to 15% (~$7,572) with -8% stop / +16% target. MU remains a secondary watch, needs live reclaim above $950 before acting. 2 of 2 CHOP trade slots available this week. Patience > activity — do not chase the premarket gap without confirmation.
