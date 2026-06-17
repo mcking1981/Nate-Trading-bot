@@ -521,3 +521,54 @@ HOLD — weekend, no trades possible. Monday watchlist: AMAT (breakout-continuat
 
 ### Decision
 TRADE (conditional) — AMAT is the strongest confirmed setup (XLK breakout-continuation, hold above $550). If confirmed at open, market-open routine may size up to 15% (~$7,572) with -8% stop / +16% target. MU remains a secondary watch, needs live reclaim above $950 before acting. 2 of 2 CHOP trade slots available this week. Patience > activity — do not chase the premarket gap without confirmation.
+
+---
+
+## 2026-06-17 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +3.26% ($750.33 vs $726.61) | VIX: 16.46
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ FOMC DAY — rate decision ~2:00pm ET, first meeting under new Fed Chair Kevin Warsh. Major volatility catalyst.
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$76.0, Brent ~$78.9 — flat/slightly down, geopolitical premium continuing to deflate post Iran de-escalation
+- **S&P futures:** ~7,556 ES (-0.07%) — flat, constructive tone into the Fed; Dow near record highs
+- **VIX:** 16.46 — calm, low-vol grind ahead of the decision
+- **DXY:** ~99.5-99.6 — steady
+- **10Y yield:** ~4.43-4.44% — easing slightly into the decision
+- **Key event:** FOMC decision 2:00pm ET — consensus hold at 3.50-3.75% (4th straight hold), fully priced; Warsh's debut press conference is the real wildcard given his dovish reputation vs. recently hawkish market repricing
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +28.5%, XLF/XLC +26-28%, XLE +26% (fading fast)
+- **Last 5 days:** XLK +4.13% (clear leader), XLB +5.08%, XLI +2.91%; XLE -4.77% (Iran ceasefire deflating oil premium — confirms dropping XOM/CVX watchlist)
+- **Best momentum: XLK** — no new leadership has displaced it
+- **AMAT** — confirmed-breakout setup invalidated to the upside; ran to ~$567-585, now extended near $590-600 resistance. Chase risk — wait for pullback to $540-545, stop ~$520. NOT actionable today
+- **MU** — reclaim-above-$950 setup still valid; pulled back from ATH $1,089 to ~$917-980 on DRAM-price selloff, now reclaiming $950+. Entry $950-980, stop below $889, target $1,000 then $1,089 ATH. Earnings 6/24 adds tail risk if held that long
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **JBL** (BMO, 8:30am ET call) and **KMX** (BMO, 8:00-9:00am ET call) — not yet reported at scan time; consensus JBL EPS ~$3.08-3.12, KMX EPS ~$0.94-0.96 (-32% YoY est). KMX premarket +1.3%
+- **SWBI** reports AMC tonight, not yesterday as previously logged
+- No actionable pre-market prints confirmed yet — re-check after 9:30am
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. **MU** — XLK recovery setup, reclaim confirmed above $950. Entry: $950-980. Stop: below $889 (~-8%). Target: $1,000 then $1,089 ATH (~2:1+ R:R). Regime check: FAIL for today — FOMC decision at 2pm is a binary volatility event; sizing into the print is undisciplined even with a valid technical setup. Reassess post-FOMC (tomorrow or later today after 2pm if reaction is clean).
+2. AMAT no longer actionable — extended past breakout level into chase territory; drop from active watchlist until pullback to $540-545.
+
+### Risk Factors
+- FOMC decision 2pm ET + Warsh's first press conference — could swing VIX/SPY sharply either direction; entering ahead of this is the same mistake flagged on prior CPI/PPI days
+- XLE -4.77% 5-day — energy momentum broken, avoid
+- AMAT extended (~$590-600) — breakout chasing risk if added now
+- MU earnings 6/24 — tail risk if a position is still open by then
+- JBL/KMX earnings today unreported at scan time — could move XLK/consumer sentiment after the print
+- CHOP regime: VIX 15-25 band, base limits apply (max 15%/position, 2 of 2 new trade slots available this week)
+
+### Decision
+HOLD — no positions to manage. FOMC decision (2pm ET, Warsh's debut) is the dominant catalyst; do not size into it. MU's reclaim above $950 is the strongest setup but waits for post-FOMC clarity. AMAT dropped from active watchlist (extended). Patience > activity. 2 of 2 CHOP trade slots remain available this week.
