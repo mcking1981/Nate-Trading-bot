@@ -136,3 +136,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01. Pre-market flagged AMAT (XLK breakout-continuation above $550) and MU (recovery dip-buy above $950) as conditional Monday-open setups, both contingent on live confirmation. Account stayed flat — no fill record found. Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/15–today). Tomorrow (Tue 6/16): reassess AMAT/MU confirmation and any new XLK/XLB/XLF rotation setups ahead of FOMC Wed 6/17 (Warsh's first meeting). Patience > activity.
+
+---
+
+### Jun 17 — EOD Snapshot (Day 24, Wednesday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX 16.46, SPY +3.26% vs 50DMA — per Jun 17 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01. Pre-market HOLD was correct: today's dominant catalyst was the FOMC decision (2pm ET, Warsh's first meeting as Fed Chair) — a binary volatility event, sizing into it would have been undisciplined even with MU's valid reclaim-above-$950 setup. Phase P&L +0.96% vs $50,000 launch baseline. **Logging gap flagged:** no EOD snapshot exists for Jun 16 (Tuesday) — equity unchanged from Jun 15 ($50,478.01) confirms no trading activity that day either, but no entry was logged. 0 of 2 CHOP trade slots used this week (Mon 6/15–today). Tomorrow (Thu 6/18): reassess post-FOMC tape and Warsh press-conference reaction — MU (reclaim above $950, stop below $889) is the strongest carried-over setup if confirmation holds. Patience > activity.
