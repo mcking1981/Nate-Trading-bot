@@ -572,3 +572,54 @@ TRADE (conditional) — AMAT is the strongest confirmed setup (XLK breakout-cont
 
 ### Decision
 HOLD — no positions to manage. FOMC decision (2pm ET, Warsh's debut) is the dominant catalyst; do not size into it. MU's reclaim above $950 is the strongest setup but waits for post-FOMC clarity. AMAT dropped from active watchlist (extended). Patience > activity. 2 of 2 CHOP trade slots remain available this week.
+
+---
+
+## 2026-06-18 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.11% ($740.96 vs $741.77) | VIX: 17.02
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$74.5-74.8 (-2.6 to -3%), Brent ~$77.7-78.0 (-1.9 to -2.3%) — falling further on US-Iran MOU signing, easing supply risk
+- **S&P futures:** ES Sep'26 ~7,555.75 (+0.84%) — risk-on premarket bounce
+- **VIX:** 17.02 per direct query (CHOP-band), though one macro source flagged 18.44 (+12.4% intraday) — rising fear, still moderate
+- **DXY:** ~100.6 (+0.51%) — dollar strengthening, near 2-month high post hawkish Fed
+- **10Y yield:** ~4.45-4.49%, roughly flat
+- **Key event:** FOMC decision (6/17) already landed — hawkish hold; Chair Warsh flagged Mideast-conflict inflation risk, half of committee eyeing hikes not cuts. No major scheduled data today. Juneteenth holiday tomorrow (6/19) — markets closed
+- Net read: risk-on futures pop + falling oil vs. rising VIX + strong dollar + hawkish Fed = mixed/choppy signal; dollar strength and hawkish tone are near-term headwinds for risk assets
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +28.5-32%, XLE +26-27%, XLB/XLI low-teens; XLF worst (~-5%)
+- **Last 5 days:** XLB +3.84%, XLF +3.60%, XLK +3.14%, XLU +2.46%, XLI +2.42%; Energy/Health Care lagging (-3.5%/-1.1%)
+- **Best momentum:** Technology (XLK) and Industrials/Materials rotation
+- **MU** — now $1,091, already cleared $1,000 and prior $1,089 ATH targets from Jun 17 log — fully extended (34 record closes YTD). Not a fresh entry; watch pullback to $1,000-1,020
+- **AMAT** — $568 (Jun 16 close), 52-wk high $600.91 hit Jun 16 — still above the $540-545 wait-zone, even more extended. No pullback yet
+- **CAT** (new, Industrials) — $953.55, near ATH $961.33. Pullback entry near $900-915 (stop ~$885) or breakout-continuation above ~$933-940 (stop $884-915). Currently too extended — avoid chasing at $950+
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **ACN** — EPS $3.71 actual vs $3.71 est, in-line, no surprise. **KR** reports this morning, est EPS $1.58-1.59 — not yet captured
+- **Yesterday (6/17, FOMC day):** JBL beat (EPS $3.16 vs $3.09 est, +2.27%; rev +1.35%); KMX big beat (EPS $1.31 vs $0.94 est, +39.4%; rev +7.5%). AMC: SWBI beat (EPS $0.36 vs $0.23, +56.5%)
+- FOMC dominated price action on 6/17 — no clear earnings-driven follow-through signal for our watchlist
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. **MU** — XLK leader, fully extended at $1,091 (past all prior targets). Entry: wait for pullback to $1,000-1,020 support. Stop: ~-8% (~$920-940). Target: re-test ATH momentum. Regime check: FAIL today — no pullback yet, do not chase.
+2. **AMAT** — XLK breakout name, still extended ($568, 52-wk high $600.91). Entry: pullback to $540-545. Stop: ~-8% (~$497-501). Regime check: FAIL today — extended, no entry.
+3. **CAT** — Industrials/Materials rotation leader, near ATH ($953.55 vs $961.33 ATH). Entry: pullback to $900-915 OR breakout-continuation above $933-940. Stop: $884-915 depending on entry. Regime check: CONDITIONAL — watch for pullback or confirmed breakout; not actionable at current extended price.
+
+### Risk Factors
+- Hawkish FOMC (6/17) — Warsh flagged Mideast-driven inflation risk, half the committee eyeing hikes not cuts; headwind for rate-sensitive/growth names
+- DXY strengthening (+0.51%, 2-month high) — dollar strength typically pressures multinational earnings and risk assets
+- VIX reading conflict (17.02 direct vs 18.44 from one source) — if VIX is actually trending toward 18-20+, regime stays CHOP but moves toward its riskier upper band
+- MU, AMAT, CAT all extended past actionable entry zones — chase risk is high; no confirmed pullback/breakout today
+- Juneteenth holiday tomorrow (6/19) — shortened week, thin pre-holiday liquidity possible today
+
+### Decision
+HOLD — no setup meets regime criteria today; MU/AMAT/CAT all extended past entry zones (chase risk). 2 of 2 CHOP trade slots available this week (Mon 6/15-today). Watch for pullback entries on CAT ($900-915), AMAT ($540-545), or MU ($1,000-1,020) before committing capital. Patience > activity.
