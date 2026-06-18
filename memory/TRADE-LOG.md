@@ -146,3 +146,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01. Pre-market HOLD was correct: today's dominant catalyst was the FOMC decision (2pm ET, Warsh's first meeting as Fed Chair) — a binary volatility event, sizing into it would have been undisciplined even with MU's valid reclaim-above-$950 setup. Phase P&L +0.96% vs $50,000 launch baseline. **Logging gap flagged:** no EOD snapshot exists for Jun 16 (Tuesday) — equity unchanged from Jun 15 ($50,478.01) confirms no trading activity that day either, but no entry was logged. 0 of 2 CHOP trade slots used this week (Mon 6/15–today). Tomorrow (Thu 6/18): reassess post-FOMC tape and Warsh press-conference reaction — MU (reclaim above $950, stop below $889) is the strongest carried-over setup if confirmation holds. Patience > activity.
+
+---
+
+### Jun 18 — EOD Snapshot (Day 25, Thursday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX 17.02, DXY 2-month high, hawkish FOMC hold — per Jun 18 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01. Pre-market HOLD was correct: MU ($1,091), AMAT ($568), and CAT ($953.55) all sit fully extended past actionable entry/pullback zones — no setup met regime criteria, chase risk too high. Hawkish FOMC hold (6/17) with Warsh flagging Mideast-driven inflation risk and dollar strength (DXY +0.51%, 2-month high) are headwinds for risk assets. Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/15–today). Juneteenth holiday tomorrow (6/19) — markets closed. Tomorrow (Fri 6/19): no action, market closed. Reassess Mon 6/22 — watch for pullback entries on CAT ($900-915), AMAT ($540-545), or MU ($1,000-1,020).
