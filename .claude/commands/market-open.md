@@ -25,7 +25,20 @@ Extract from today's RESEARCH-LOG regime stamp:
 - Regime: Bull / Chop / Bear
 - Regime limits: max positions, max %/position, max trades/week
 
-STEP 3 — Hard-check rules BEFORE every order (skip trade + log reason if any fail):
+STEP 3 — Confirm conditional/watchlist setups from today's RESEARCH-LOG Trade
+Ideas. For any ticker with a named trigger level (e.g. "AMAT above $550"),
+classify live price into exactly one zone:
+- BELOW trigger: unconfirmed — do not enter, carry forward to watchlist.
+- AT or up to +3% ABOVE trigger: CONFIRMED breakout/reclaim — this is a
+  valid entry, not chasing. Act on it.
+- MORE than +3% above trigger with no intraday pullback into the
+  confirmation zone: too extended — skip, log reason, drop from watchlist
+  (do not carry forward indefinitely).
+A trigger level is a floor to confirm above, not a ceiling that expires the
+instant price clears it. Do not reject a setup as "too extended" only
+because price is above the trigger — check the band above.
+
+STEP 4 — Hard-check rules BEFORE every order (skip trade + log reason if any fail):
 - Total positions after trade <= regime max (Bull:6, Chop:4, Bear:2)
 - Trades this week <= regime cap (Bull:3, Chop:2, Bear:1)
 - Position cost <= regime max %/position (Bull:20%, Chop:15%, Bear:10%)
@@ -34,18 +47,18 @@ STEP 3 — Hard-check rules BEFORE every order (skip trade + log reason if any f
 - Catalyst clearly documented in today's RESEARCH-LOG
 - Sector NOT in "## Avoid Sectors" block in TRADING-STRATEGY.md
 
-STEP 4 — Execute the buys (market orders, day TIF):
+STEP 5 — Execute the buys (market orders, day TIF):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
 Wait for fill confirmation before placing the stop.
 
-STEP 5 — Immediately place 10% trailing stop GTC for each new position:
+STEP 6 — Immediately place 10% trailing stop GTC for each new position:
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
 If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
 If also blocked, queue in TRADE-LOG as "PDT-blocked, set tomorrow AM".
 
-STEP 6 — Append each trade to memory/TRADE-LOG.md (matching existing format):
+STEP 7 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R, regime at entry.
 
-STEP 7 — Notification: only if a trade was placed.
+STEP 8 — Notification: only if a trade was placed.
   bash scripts/telegram.sh "<tickers, shares, fill prices, one-line why>"
