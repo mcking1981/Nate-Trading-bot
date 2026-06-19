@@ -623,3 +623,55 @@ HOLD — no positions to manage. FOMC decision (2pm ET, Warsh's debut) is the do
 
 ### Decision
 HOLD — no setup meets regime criteria today; MU/AMAT/CAT all extended past entry zones (chase risk). 2 of 2 CHOP trade slots available this week (Mon 6/15-today). Watch for pullback entries on CAT ($900-915), AMAT ($540-545), or MU ($1,000-1,020) before committing capital. Patience > activity.
+
+---
+
+## 2026-06-19 — Pre-market Research
+
+> ⚠️ JUNETEENTH HOLIDAY — US markets closed today. No trading session. Research below is for Monday 6/22 planning.
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.37% ($746.93 vs $729.66) | VIX: 16.87
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$75-76, Brent ~$79-80 — softening on US-Iran de-escalation/truce talks
+- **S&P futures:** ES ~7,556, ~flat (-0.07%) — market closed today, no premarket session
+- **VIX:** 16.40 (6/18 close), down from 18.44 the prior day (-11%) — volatility cooling
+- **DXY:** ~100.77, drifting lower (-1.69% over 4 weeks)
+- **10Y yield:** 4.46%, easing slightly post-FOMC
+- **Key events:** FOMC (6/17) held rates, hawkish tilt — ~half of committee now sees a 2026 hike. No data today (holiday); next major catalyst is PCE on 6/25
+- Net read: risk-off cooling (VIX down, yields easing, dollar soft, oil retreating) — calm/neutral setup into Monday, no major data catalyst until PCE
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +29.7%, XLE +24.6%, XLI +16.3%, XLP +10.8%
+- **Last 5 days (as of 6/17 close):** XLI +5.86%, XLK +5.19%, XLB +4.88% — rotation out of AI/semis into industrials, materials, staples
+- **Best momentum: Industrials (XLI) and Consumer Staples (XLP)**
+- **CAT** — extended further, breached prior $900-940 watch zone, now $945.46 near 52-wk high $961.33 (+65% YTD). NOT a clean entry — chase risk. Wait for pullback to $900-915 or fresh basing.
+- **WMT** (new candidate, XLP) — $121.03, reclaimed $119 resistance-turned-support (failed double-top recovery). Entry: pullback to $119-120 reclaim. Stop: below $117.50. Target: $125-127 near-term, 52-wk high $135.16 stretch target.
+- MU/AMAT (XLK) — still extended/not re-actionable, deprioritized vs. Industrials/Staples this scan.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No earnings activity of consequence today (holiday) — only micro/nano-caps (CURR, BTM) reported, not relevant to strategy
+- No credible 6/18 after-hours beats/misses surfaced for our watchlist
+- Monday 6/22: no notable earnings dated that day; next real catalyst is FedEx (FDX) AMC Tue 6/23, Micron (MU) same week
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. **WMT** — XLP leader, reclaimed $119 support after failed double-top. Entry: $119-120 pullback/reclaim. Stop: below $117.50 (~-1.7% technical; real protection is the standard 10% trailing GTC stop once filled). Target: $125-127 (2:1+ R:R vs. stop), stretch to 52-wk high $135.16. Regime check: CONDITIONAL — confirm reclaim live at Monday's open before sizing (max 15%/position, ~$7,572).
+2. CAT no longer actionable — extended past all watch levels into chase territory; drop until pullback to $900-915.
+
+### Risk Factors
+- Market closed today (Juneteenth) — all levels/prices are from 6/18 close or earlier, must reconfirm live at Monday's open
+- Hawkish FOMC tilt (6/17) — half of committee eyeing a 2026 hike, headwind for risk assets generally
+- WMT stop ($117.50) is technical only and tight (~-1.7%) — actual capital protection comes from the mandatory 10% trailing GTC stop per strategy rules, not the technical level alone
+- CAT, MU, AMAT all extended past actionable entry zones — chase risk remains high across XLK/XLI leaders
+- No major data catalyst until PCE (6/25) — relatively quiet macro backdrop into next week
+
+### Decision
+HOLD — market closed today, no trading session possible. WMT (XLP reclaim) is the strongest fresh candidate for Monday's open, conditional on live confirmation. CAT dropped from active watchlist (extended). 2 of 2 CHOP trade slots available next week. Patience > activity.
