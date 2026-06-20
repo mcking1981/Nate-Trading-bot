@@ -675,3 +675,57 @@ HOLD — no setup meets regime criteria today; MU/AMAT/CAT all extended past ent
 
 ### Decision
 HOLD — market closed today, no trading session possible. WMT (XLP reclaim) is the strongest fresh candidate for Monday's open, conditional on live confirmation. CAT dropped from active watchlist (extended). 2 of 2 CHOP trade slots available next week. Patience > activity.
+
+---
+
+## 2026-06-20 — Pre-market Research
+
+> ⚠️ US MARKETS CLOSED — Saturday. No trades possible. Planning session for Monday 6/22 open.
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.37% ($746.93 vs $729.66) | VIX: 16.40
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$76.5-77.5 (+~1%), Brent ~$80.6 (+~1%) — still down ~23% over the trailing month on Iran de-escalation, range-bound
+- **S&P futures:** ES ~7,556, roughly flat (-0.06/-0.07%); cash SPY near record territory, +2.2% over trailing 5 days
+- **VIX:** 16.40 (6/18 close), down ~11% day-over-day — calm/low-vol regime, well off early-June 22+ highs
+- **DXY:** 100.85, flat, down ~1.8% over the month
+- **10Y yield:** 4.46%, easing slightly post-FOMC
+- **Econ calendar:** No major data today (weekend). FOMC (6/17) already priced in — next CPI/PPI cycle not until mid-July; PCE due 6/25
+- Net read: low-vol, calm-to-mildly-bullish post-FOMC drift — no fresh catalyst into Monday
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33%, XLE +21%, XLI +17%, XLB +15%
+- **Last 5 days:** XLI +5.9%, XLK +5.2%, XLB +4.9%, XLF +3.5% lead; XLE/XLV/XLC/XLP/XLRE negative
+- **Best momentum: Industrials (XLI) and Technology (XLK)** — overlap of YTD + short-term strength
+- **CAT** — pulled back to ~$904-945 (still above the $900-915 wait zone in spots) but bearish momentum divergence now flagged; mean-reversion target $865-835, 50-day MA ~$850. Not yet a clean entry — needs confirmation closer to $850-865
+- **AMAT** — $567, even more extended; support $520, deeper $492. Not actionable
+- **MU** — $1,088-1,133, extreme overbought (RSI/Stochastic); pullback target $900-950 before re-entry consideration. Not actionable
+- **WMT** — XLP momentum has flipped negative (-2.1% 5-day) — deprioritize, drop from active watchlist
+- No fresh confirmed-pullback candidate yet; XLI breadth beyond CAT (e.g., GE, ETN) flagged for next screen
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No earnings today (Saturday) or yesterday (6/19, Juneteenth holiday — markets closed, no AH session)
+- Calendar thin until next week: Carnival 6/22, FedEx 6/23, Micron/Paychex/Jefferies 6/24, Darden 6/25 — Micron earnings is a key risk if MU were ever entered, given current overbought extension
+- No actionable earnings catalysts for Monday's open
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. **CAT** — Industrials leader, pulling back from ATH but momentum divergence flagged; not yet at the $850-865 confirmation zone. Entry: wait for pullback into $850-865. Stop: ~-8% (~$782-796). Target: re-test prior highs ($930+), 2:1+ R:R. Regime check: CONDITIONAL — watch Monday for further pullback confirmation, do not chase current $904-945 range.
+2. No other actionable setup — AMAT/MU remain extended/overbought, WMT's sector (XLP) has turned negative and is dropped from watchlist.
+
+### Risk Factors
+- Weekend — all levels are from Friday 6/19/Thursday 6/18 closes (thin holiday-week data), must reconfirm live at Monday's open
+- CAT showing bearish momentum divergence near highs — the pullback may extend further than the $850-865 zone before basing
+- AMAT/MU both extremely extended/overbought — high chase risk if momentum reverses sharply
+- XLP (WMT's sector) momentum has reversed negative — thesis for WMT entry is broken, removed from watchlist
+- No major data catalyst until PCE (6/25) — quiet macro backdrop, but Micron earnings 6/24 is a volatility risk later in the week
+
+### Decision
+HOLD — Saturday, no trading session possible. CAT (Industrials pullback) is the only candidate with a defined path to actionable, but not yet at its confirmation zone ($850-865); do not chase the current extended range. WMT dropped (XLP momentum broke negative). AMAT/MU remain non-actionable. 2 of 2 CHOP trade slots available next week. Reassess Monday 6/22 open. Patience > activity.
