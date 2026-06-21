@@ -176,3 +176,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** Saturday — US markets closed, no trading session, $0 day P&L. Account flat (100% cash, no positions, no open orders), equity unchanged at $50,478.01 (Alpaca balance_asof confirms last close was 6/18). Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/15–Fri 6/19, holiday-shortened — fully unused). Tomorrow (Sun 6/21): no action, market closed. Reassess Mon 6/22 — watch for pullback entries on CAT ($900-915), AMAT ($540-545), or MU ($1,000-1,020).
+
+---
+
+### Jun 21 — EOD Snapshot (Day 28, Sunday — Market Closed)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (carried over from Jun 18 pre-market log — no pre-market run today, market closed)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** Sunday — US markets closed, no trading session, $0 day P&L. Account flat (100% cash, no positions, no open orders), equity unchanged at $50,478.01 (Alpaca balance_asof confirms last close was 6/18). Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (new week starts Mon 6/22). Sunday pre-market research flagged fresh Strait of Hormuz escalation headlines (Iran IRGC claim vs. US CENTCOM dispute) as a live risk factor for Monday's open; CAT/AMAT/MU watchlist is stale — all three extended further away from pullback zones rather than into them. Tomorrow (Mon 6/22): no pre-positioned setups, reassess live at the open; watch Hormuz headline resolution before sizing any oil/energy-sensitive exposure. Patience > activity.
