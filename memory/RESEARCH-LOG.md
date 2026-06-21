@@ -729,3 +729,56 @@ HOLD — market closed today, no trading session possible. WMT (XLP reclaim) is 
 
 ### Decision
 HOLD — Saturday, no trading session possible. CAT (Industrials pullback) is the only candidate with a defined path to actionable, but not yet at its confirmation zone ($850-865); do not chase the current extended range. WMT dropped (XLP momentum broke negative). AMAT/MU remain non-actionable. 2 of 2 CHOP trade slots available next week. Reassess Monday 6/22 open. Patience > activity.
+
+---
+
+## 2026-06-21 — Pre-market Research
+
+> ⚠️ US MARKETS CLOSED — Sunday. No trades possible. Planning session for Monday 6/22 open.
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.34% ($746.74 vs $729.66) | VIX: 16.40
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $76.52 (-0.10%), Brent $80.57 (+1.6%) — Brent bid on weekend Strait of Hormuz headlines (see Risk Factors)
+- **S&P futures:** ~7,556, -0.19% from Friday close; Nasdaq100 futures +1.27% (tech-led divergence), Dow futures -0.14%
+- **VIX:** 16.40 (6/18 close, -11% day) — vol compressing after early-June chop; Cboe notes cross-asset vols "normalizing as geopolitical risk premia dissipates" — now in tension with weekend Hormuz news
+- **DXY:** 100.85, flat, -1.77% trailing month
+- **10Y yield:** ~4.46-4.49%
+- **Econ calendar:** No FOMC/CPI/jobs print today; next CPI cycle not until mid-July, PCE due 6/25
+- Net read: calm/compressing-vol tape heading into the weekend, now overhung by fresh Hormuz escalation — verify live reaction Monday before sizing anything oil/energy-sensitive
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +28.5%, Industrials and Financials also strong; Energy/Staples/Utilities lag
+- **Last 5 days:** XLI +5.9%, XLK +5.2%, XLB +4.9% lead; XLE -6.2% and Real Estate/Staples negative
+- **Best momentum: Industrials and Technology** — confirmed across both windows
+- **CAT** — NOT pulled back; fresh ATH $988 (6/21), up from $945 last week. $850-865 confirmation thesis is stale — drop or wait for a real reset.
+- **AMAT** — NOT pulled back; ATH $585.78 (6/15), well above the $520 target. Still extending.
+- **MU** — NOT pulled back; surged to $1,088 (+10.84% in a day), blew through the $900-950 target ahead of its 6/24 earnings. Highly extended — entering now is chasing.
+- No new liquid pullback candidate identified in Industrials or Tech this round.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Monday 6/22 pre-market: no major reports (CMC, EBF, FDS, AIOT only — non-market-moving)
+- Friday 6/19 after-hours: markets closed for Juneteenth, no AH session
+- This week: FedEx + Carnival report Tue 6/23 AMC; **Micron (MU) reports Wed 6/24 AMC** — Wedbush bullish ($1,300 PT) raises binary risk into the print given MU is already extended on our watchlist
+- Other notables: Paychex/Jefferies/Trip.com (6/24), Darden/McCormick (6/25)
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+1. No actionable setup today. CAT, AMAT, and MU all ran further away from their pullback zones rather than into them — confirmation thesis on all three is now stale. Regime check: FAIL (no confirmed setup at a sane entry distance).
+2. Watch for a genuine pullback in Industrials/Tech names tomorrow, or screen fresh XLI/XLK candidates with realistic distance-to-entry — do not chase current extended prices.
+
+### Risk Factors
+- **Strait of Hormuz escalation (developing):** Iran's IRGC declared the strait closed Sat 6/20 citing Lebanon ceasefire violations by US/Israel; US CENTCOM disputes this, says 55 merchant ships transited Saturday and the strait remains open. VP Vance traveling to Switzerland for talks. Conflicting reports — verify live Monday before sizing any oil/energy exposure. Telegram alert sent.
+- CAT/AMAT/MU all extended to fresh highs — high chase risk if entered here; momentum could still reverse sharply given the divergence already flagged on CAT last week
+- MU earnings 6/24 (Wed) — avoid initiating new MU exposure into a binary event with a bullish sell-side setup already priced in
+- VIX compression (16.40) sits in tension with the weekend geopolitical headline — a air-pocket repricing is possible if Hormuz tensions are confirmed as real disruption rather than rhetoric
+
+### Decision
+HOLD — Sunday, no trading session possible. No regime-aligned setup at an actionable entry distance; CAT/AMAT/MU watchlist is stale (all extended further away, not into pullback zones). Strait of Hormuz headline risk adds uncertainty into Monday's open — reassess live before any new sizing. 0 of 2 CHOP trade slots used this week (new week starts Mon 6/22). Patience > activity.
