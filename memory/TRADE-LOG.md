@@ -186,3 +186,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** Sunday — US markets closed, no trading session, $0 day P&L. Account flat (100% cash, no positions, no open orders), equity unchanged at $50,478.01 (Alpaca balance_asof confirms last close was 6/18). Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (new week starts Mon 6/22). Sunday pre-market research flagged fresh Strait of Hormuz escalation headlines (Iran IRGC claim vs. US CENTCOM dispute) as a live risk factor for Monday's open; CAT/AMAT/MU watchlist is stale — all three extended further away from pullback zones rather than into them. Tomorrow (Mon 6/22): no pre-positioned setups, reassess live at the open; watch Hormuz headline resolution before sizing any oil/energy-sensitive exposure. Patience > activity.
+
+---
+
+### Jun 22 — EOD Snapshot (Day 29, Monday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX 17.51, SPY +2.34% vs 50DMA — per Jun 22 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01 (Alpaca balance_asof still 6/18, confirming no fills). Pre-market flagged CAT (Industrials bull-flag, break above $904-915) as the only defined-trigger candidate after 4 straight weeks of 0 trades despite repeated setups; no confirmed live break/fill materialized today, so the conditional entry was correctly skipped rather than chased. Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/22–today). Tomorrow (Tue 6/23): FDX earnings AMC — avoid new FDX exposure into the print; reassess CAT for a cleaner break trigger, watch XLI/XLK for fresh pullback candidates. Patience > activity.
