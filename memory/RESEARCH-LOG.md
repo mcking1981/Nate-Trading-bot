@@ -782,3 +782,54 @@ HOLD — Saturday, no trading session possible. CAT (Industrials pullback) is th
 
 ### Decision
 HOLD — Sunday, no trading session possible. No regime-aligned setup at an actionable entry distance; CAT/AMAT/MU watchlist is stale (all extended further away, not into pullback zones). Strait of Hormuz headline risk adds uncertainty into Monday's open — reassess live before any new sizing. 0 of 2 CHOP trade slots used this week (new week starts Mon 6/22). Patience > activity.
+
+---
+
+## 2026-06-22 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.34% ($746.74 vs $729.66) | VIX: 17.51
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$75-76, Brent ~$80 — easing as US-Iran peace deal progresses, Strait of Hormuz reopening eases supply fears
+- **S&P futures:** Modestly lower, ES ~7,553-7,563 (-0.1 to -0.2%) vs prior close 7,570.75; Nasdaq 100 futures +0.14%; Dow futures down — market digesting Iran-deal relief vs. hawkish-Fed yield concerns
+- **VIX:** 17.51 spot (+4% intraday), down from 18.4 prior session high — vol normalizing as geopolitical premium fades, still mid-CHOP band
+- **DXY:** ~100.85-100.89, flat day, +1.66% over the month — dollar firm on hawkish Fed tone
+- **10Y yield:** ~4.46-4.49% (+3bp) — markets awaiting PCE; Fed (Warsh) held 6/17 but hawkish, ~9/19 officials project a 2026 hike
+- **Econ calendar:** No CPI/PPI/jobs today. PCE (Fed's preferred gauge) is this week's main catalyst, date TBD later in week. No FOMC (already met 6/16-17)
+- **Net read:** Cooling vol + de-escalating Mideast risk but hawkish-Fed/rising-yield drag — mixed-to-cautious, equities flat/slightly down premarket despite oil relief
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33.1%, XLE +21.1%, XLI +17.0%, XLB +14.8%
+- **Last 5-day leaders:** XLI +5.9%, XLK +5.2%, XLB +4.9%, XLF +3.5%; Energy/Health/Staples/RE all negative
+- **Best momentum:** Industrials (XLI) and Technology (XLK) — both top YTD and top 5-day
+- **CAT** (Industrials) — ~$897-985, near ATH $961 (6/16). Bull-flag continuation: entry on break of recent local high ~$904-915, stop ~$885, targets $930/$955. Mixed source data — verify live at open. Closest thing to an actionable setup this week per "act on first valid trigger" directive.
+- **MU** (Tech/semis) — ~$1,020-1,134, past ATH. **Earnings 6/24 Wed AMC — disqualified for new entry, binary event risk.**
+- **AMAT** (Tech/semis) — ~$612-622, near ATH $638.90 (6/18), +52% in a month. No clean support shelf nearby — too extended, no entry.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 6/22:** No major-cap reports; only small/micro-caps (EBF, OCCI, POWW, AREC, SEAC) — nothing market-moving
+- **Weekend/AH gap (6/19-6/21):** No notable prints found
+- **This week:** FDX reports Tue 6/23 AMC (reaffirming FY26 guidance, no pre-announcement); MU reports Wed 6/24 AMC (no pre-announcement, prior quarter beat by 38.6%) — both binary-event risk, avoid new exposure into either name ahead of print
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions — sub-agent not run.
+
+### Trade Ideas
+1. **CAT** — Industrials/XLI momentum leader, bull-flag continuation. Entry: confirmed break above recent local high (~$904-915 zone), live-verify at open. Stop: ~$885 (-8% from typical entry). Target: $930 then $955 (~1.7-2:1 R:R). Regime check: CONDITIONAL — only on confirmed break with tight stop given extension; do not chase if it gaps straight through without a clean trigger.
+2. AMAT — no entry, too extended, no support shelf nearby.
+3. MU — no entry, earnings 6/24 binary event risk.
+
+### Risk Factors
+- CAT/AMAT/MU all near all-time highs after multi-week extension — chase risk high; only CAT has any defined trigger level, and confidence in exact levels is low (conflicting source data)
+- MU earnings Wed 6/24, FDX earnings Tue 6/23 — avoid initiating exposure into either name ahead of print
+- Hawkish Fed (Warsh, 6/17 hold) + rising 10Y (4.46-4.49%) — headwind for growth/rate-sensitive names despite oil relief
+- 4 straight weeks of 0 trades despite repeated regime-aligned setups identified — per Adjustments for Next Week, bias today is toward acting on the first valid trigger (CAT) rather than waiting for further confirmation
+- VIX 17.51 still mid-CHOP band — base limits apply (max 15%/position, 2 new trades/week)
+
+### Decision
+TRADE (conditional) — CAT is the only candidate with a defined trigger; market-open routine should live-verify the $904-915 break level before sizing (max 15%/position, ~$7,572, stop ~$885). AMAT/MU remain non-actionable (extended / earnings risk respectively). 2 of 2 CHOP trade slots available this week. Per last Friday's review, do not let this run away unconfirmed for a 4th straight week — but only enter on an actual live trigger, not a blind market-open buy.
