@@ -833,3 +833,54 @@ HOLD — Sunday, no trading session possible. No regime-aligned setup at an acti
 
 ### Decision
 TRADE (conditional) — CAT is the only candidate with a defined trigger; market-open routine should live-verify the $904-915 break level before sizing (max 15%/position, ~$7,572, stop ~$885). AMAT/MU remain non-actionable (extended / earnings risk respectively). 2 of 2 CHOP trade slots available this week. Per last Friday's review, do not let this run away unconfirmed for a 4th straight week — but only enter on an actual live trigger, not a blind market-open buy.
+
+---
+
+## 2026-06-23 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.82% ($744.28 vs $730.95) | VIX: 19.67
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$73.5-73.8 (Brent ~$77.3-77.6), down ~0.4-1% on the day, -20% over the past month — Iran-US peace talks easing Strait of Hormuz fears (reverses last week's escalation risk)
+- **S&P futures:** ES ~7,546, down ~24-69pts from prior close — cautious/mixed, sentiment hinges on Iran-talk headlines
+- **VIX:** 19.67 spot (intraday), up sharply (+13.83%) from Jun 22 close of 17.28 — notable jump, but still mid-CHOP band; Cboe still flags "very little macro risk being priced in" as of yesterday's close
+- **DXY:** ~100.9-101.2, modestly higher — dollar firm on hawkish Fed repricing
+- **10Y yield:** ~4.46-4.51%, edging up with dollar strength post-FOMC hawkish tilt
+- **Econ calendar:** No CPI/PPI/jobs today; bank stress test results due tomorrow (6/24)
+- Net read: risk-off-leaning but not panicked — falling oil, firm dollar/yields, intraday VIX spike worth monitoring for confirmation vs. noise
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33.1%, XLE +21.1%, XLI +17.0%, XLB +14.8%
+- **Last 5-day leaders:** XLK +8.2%, XLI +5.8% (others flat/negative)
+- **Best momentum: Technology (XLK) and Industrials (XLI)** — both confirmed YTD and 5-day leaders
+- **CAT** (XLI) — $904-985, still extended (+60-65% YTD) but pulled back near 20-day MA (~$900). Entry: dip to $880-900, stop ~$855 (~5-6% risk), target re-test $960-985
+- **GEV** (XLI) — alternative, less crowded watchlist name. $985-1,110, pullback to support $1,060-1,090, stop below $1,040 (~5% risk), target resistance $1,123-1,153
+- **AMAT/MU** (XLK) — both too extended/event-risk-laden (AMAT 9% above consensus target; MU earnings 6/24 binary risk) — skip new entries
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **FedEx (FDX)** reports Q4 FY26 TODAY after close (not yesterday as initially expected) — consensus EPS ~$5.91-5.94 on ~$24.18B rev; premarket flat (~$328.82). Avoid new FDX exposure ahead of tonight's print
+- No major pre-market earnings today; nothing notable after-hours yesterday (6/22)
+- **MU reports Wed 6/24 AMC** — avoid new MU exposure into the print
+
+### Holdings News (Sub-agent 4 synthesis)
+No open positions.
+
+### Trade Ideas
+1. **CAT** — XLI leader, pullback near 20-day MA. Entry: dip to $880-900. Stop: ~$855 (-5-6%). Target: $960-985 retest (~2:1 R:R). Regime check: CONDITIONAL — live-verify pullback/reclaim at open before sizing.
+2. **GEV** — XLI alternative, less extended than CAT. Entry: pullback to $1,060-1,090. Stop: below $1,040 (~5% risk). Target: $1,123-1,153 resistance (~2:1 R:R). Regime check: CONDITIONAL — live-verify at open.
+3. AMAT/MU — no entry, too extended / earnings binary risk respectively.
+
+### Risk Factors
+- VIX intraday spike to 19.67 (+13.83% vs Jun 22 close) — confirm at open whether this is a real risk-off move or noise before sizing into Industrials
+- FDX earnings tonight AMC and MU earnings Wed 6/24 AMC — avoid new exposure into either name ahead of print
+- Hawkish Fed (Warsh) + firm dollar/yields — headwind for growth/rate-sensitive names despite falling oil
+- CAT still extended despite pullback (+60-65% YTD) — confirm clean reclaim, don't chase if it gaps through the zone
+- 5 straight weeks of low/no trade-slot utilization despite repeated regime-aligned candidates — per ongoing weekly-review adjustment, bias toward acting on the first valid live trigger rather than waiting for further confirmation
+
+### Decision
+TRADE (conditional) — CAT and GEV (XLI) both have defined pullback entries; market-open routine should live-verify either trigger before sizing (max 15%/position, ~$7,572). AMAT/MU remain non-actionable. Confirm VIX spike isn't escalating before committing capital. 2 of 2 CHOP trade slots available this week. Patience > activity, but act on a genuine live trigger if confirmed.
