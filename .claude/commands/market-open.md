@@ -60,5 +60,14 @@ If also blocked, queue in TRADE-LOG as "PDT-blocked, set tomorrow AM".
 STEP 7 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R, regime at entry.
 
-STEP 8 — Notification: only if a trade was placed.
+STEP 8 — ALWAYS append a one-line heartbeat to today's $DATE entry in
+memory/RESEARCH-LOG.md, regardless of outcome — this is the only durable
+proof market-open actually ran with live data instead of staying silent:
+  ### Market-Open Check — HH:MM ET
+  <CONFIRMED entry on TICKER @ $X | NO CONFIRMED SETUP — TICKER at $X vs
+  trigger $Y, zone status (below/in-zone/extended), reason> for every
+  ticker on today's watchlist.
+This line is mandatory even when every setup is a clean HOLD.
+
+STEP 9 — Notification: only if a trade was placed.
   bash scripts/telegram.sh "<tickers, shares, fill prices, one-line why>"

@@ -75,11 +75,22 @@ If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
 STEP 8 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R, regime at entry.
 
-STEP 9 — Notification: only if a trade was placed.
+STEP 9 — ALWAYS append a one-line heartbeat to today's $DATE entry in
+memory/RESEARCH-LOG.md, regardless of outcome — this is the only durable
+proof market-open actually ran with live data instead of staying silent:
+  ### Market-Open Check — HH:MM ET
+  <CONFIRMED entry on TICKER @ $X | NO CONFIRMED SETUP — TICKER at $X vs
+  trigger $Y, zone status (below/in-zone/extended), reason> for every
+  ticker on today's watchlist.
+This line is mandatory even when every setup is a clean HOLD.
+
+STEP 10 — Notification: only if a trade was placed.
   bash scripts/telegram.sh "<tickers, shares, fill prices, regime, one-line why>"
 
-STEP 10 — COMMIT AND PUSH (mandatory if any trades executed):
-  git add memory/TRADE-LOG.md
-  git commit -m "market-open trades $DATE" || true
-  bash scripts/github-push.sh "market-open trades $DATE" memory/TRADE-LOG.md
-Skip commit if no trades fired. Do NOT attempt git push or any MCP GitHub tool.
+STEP 11 — COMMIT AND PUSH (mandatory EVERY run, trade or not — the Step 9
+heartbeat line always changed memory/RESEARCH-LOG.md):
+  git add memory/RESEARCH-LOG.md memory/TRADE-LOG.md
+  git commit -m "market-open check $DATE" || true
+  bash scripts/github-push.sh "market-open check $DATE" memory/RESEARCH-LOG.md memory/TRADE-LOG.md
+Do NOT attempt git push or any MCP GitHub tool. If github-push.sh fails,
+send one Telegram alert naming the failure.
