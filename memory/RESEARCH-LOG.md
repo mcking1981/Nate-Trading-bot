@@ -935,3 +935,9 @@ TRADE (conditional) — CAT and GEV (XLI) both have defined pullback entries; ma
 
 ### Decision
 HOLD. No earnings catalyst, no confirmed live trigger — CAT is too extended to chase today, LLY's pullback level hasn't printed. 2 of 2 CHOP slots remain available; carry LLY/CAT as Monday 6/29 watchlist items. Patience > activity.
+
+### Market-Open Check — 03:09 ET
+- Run fired ~6h15m before the 9:30 AM ET open (manual test trigger) — market not yet open. Quotes returned are stale post-close data (timestamped ~6/25 16:00-16:52 ET), not live intraday prices.
+- **CAT** — ask $1088.35 / bid $1015 (stale) vs Jun 23 trigger zone $880-900 entry / $960-985 target. Price is far more than +3% above any defined trigger with no pullback into zone — too extended. DROP from watchlist, no entry.
+- **GEV** — ask $1149.75 / bid $1033.6 (stale) vs Jun 23 pullback zone $1,060-1,090, stop <$1,040, target $1,123-1,153. Bid-ask spread abnormally wide ($116) for a stale post-close quote — unreliable, cannot classify zone. NO CONFIRMED SETUP — re-verify with live quote once market opens.
+- No trade placed — pre-bell stale data, no live trigger confirmable on either ticker. 0 of 2 CHOP trade slots used this week, both still available.
