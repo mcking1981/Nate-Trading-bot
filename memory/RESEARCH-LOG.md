@@ -884,3 +884,27 @@ No open positions.
 
 ### Decision
 TRADE (conditional) — CAT and GEV (XLI) both have defined pullback entries; market-open routine should live-verify either trigger before sizing (max 15%/position, ~$7,572). AMAT/MU remain non-actionable. Confirm VIX spike isn't escalating before committing capital. 2 of 2 CHOP trade slots available this week. Patience > activity, but act on a genuine live trigger if confirmed.
+
+
+---
+
+## 2026-06-26 — Market-Open Check (inline regime, no pre-market sub-agent research)
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.13% ($732.80 vs $733.77) | VIX: 18.89
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+
+### Note
+No pre-market sub-agent research (macro/sector/earnings/holdings) ran Jun 24-26 — logging gap. Market-open routine classified today's regime inline (CHOP, per Step 1 fallback) using only the two Tavily regime queries. Watchlist carried forward from Jun 23 research: CAT, GEV.
+
+### Market-Open Check — 03:09 ET
+- Run fired ~6h15m before the 9:30 AM ET open — market not yet open. Quotes returned are stale post-close data (timestamped ~6/25 16:00-16:52 ET), not live intraday prices.
+- **CAT** — ask $1088.35 / bid $1015 (stale) vs Jun 23 trigger zone $880-900 entry / $960-985 target. Price is far more than +3% above any defined trigger with no pullback into zone — too extended. DROP from watchlist, no entry.
+- **GEV** — ask $1149.75 / bid $1033.6 (stale) vs Jun 23 pullback zone $1,060-1,090, stop <$1,040, target $1,123-1,153. Bid-ask spread is abnormally wide ($116) for a stale post-close quote — unreliable, cannot classify zone. NO CONFIRMED SETUP — re-verify with live quote once market opens; do not act on this data.
+- No trade — pre-bell stale data, no live trigger can be confirmed on either ticker. 0 of 2 CHOP trade slots used this week, both still available.
+
+### Decision
+HOLD — no trades placed. Market not open at run time; recommend re-running market-open after 9:30 AM ET for a live-data check.
