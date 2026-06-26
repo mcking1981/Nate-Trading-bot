@@ -884,3 +884,54 @@ No open positions.
 
 ### Decision
 TRADE (conditional) — CAT and GEV (XLI) both have defined pullback entries; market-open routine should live-verify either trigger before sizing (max 15%/position, ~$7,572). AMAT/MU remain non-actionable. Confirm VIX spike isn't escalating before committing capital. 2 of 2 CHOP trade slots available this week. Patience > activity, but act on a genuine live trigger if confirmed.
+
+---
+
+## 2026-06-26 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.07% ($734.30 vs $733.77) | VIX: 18.89
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+- Note: Alpaca balance_asof still 2026-06-24 — consistent with the logging gap already flagged in TRADE-LOG (no trading Jun 23-26), not a new issue.
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$70.4-71.2, Brent ~$73.7-74.5, both down 1-2% on the day; Brent -20% over the past month — geopolitical risk premium continuing to unwind
+- **S&P futures:** Bouncing, ES +53pt (~+0.7%) to ~7,481, recovering after Tuesday's selloff (SPX -1.44%, Nasdaq -3.29%)
+- **VIX:** 18.89 (+1.4%) — still elevated vs. May's mid-15s range, mid-CHOP band
+- **DXY:** ~101.4, flat on the day, -2.2% over the month — dollar weakening trend continues
+- **10Y yield:** 4.40%, roughly flat, near long-term average
+- **Econ calendar:** Light — Michigan Consumer Sentiment (Final), NY Fed Nowcast. No CPI/PPI/jobs/FOMC today
+- **Net read:** Risk-on bounce attempt off a down week, but VIX still elevated — chop-leaning, no clear macro catalyst either direction
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +27.5%, XLE +21.5%, XLI +16.8%; XLF lags -1.1%
+- **Last 5-day leaders:** XLV +1.8%, XLU +1.1-2.4%, XLRE +0.5-1.2%, XLP +0.8% — defensives leading; Tech/Energy/Comm rolling over (XLK -1.5%, XLE -2.0%, XLC -2.4%) — rotation out of the AI trade into defensives
+- **Strongest current momentum:** Health Care (XLV) and Industrials (XLI)
+- **LLY** (Health Care) — $1,127, near ATH $1,182.73. Base-on-base structure, trend strength (ADX 35). Watch: pullback to 20-day MA ~$1,104 or breakout above $1,151
+- **CAT** (Industrials) — $1,057, +6.3% TODAY on AI/data-center capex demand — already extended intraday, not a clean entry; would need to pull back toward the $980-1,000 zone to be actionable
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 2026-06-26:** Light, small/micro-cap only — REPL (big miss), APOG (beat), ANIX (miss). No major-cap reports
+- **Recent notable (already priced in, prior sessions):** MU huge beat (AI revenue, stock +15-30%), KB Home beat (+17%, best day in 5yr), Oracle beat but fell ~8% on $20B capital-raise plan, Darden beat but soft Olive Garden comps, Cerebras -10% post-IPO on guidance
+- **Net:** No catalyst today — quiet session expected
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+(No earnings catalyst today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not as live trade ideas.)
+1. **LLY** — Health Care momentum leader, no specific catalyst. Watchlist entry: pullback to ~$1,104 (20-day MA). Stop: ~$1,026 (-7%). Target: ATH retest ~$1,182 (~2.2:1 R:R). Regime check: WATCHLIST ONLY — sector momentum alone, live-verify reclaim before sizing.
+2. **CAT** — Industrials leader but already +6.3% intraday today — DO NOT CHASE. Watchlist: re-enter consideration only on pullback to $980-1,000. No trigger today.
+
+### Risk Factors
+- VIX 18.89 still mid-CHOP band, elevated vs. May lows — no green light for aggressive sizing
+- No major-cap earnings catalyst today — thin justification for a fresh trade
+- CAT already +6.3% intraday per Sector Scout — chasing it now repeats the extension-then-no-entry pattern flagged in the last several weekly reviews; the discipline call here is to NOT chase
+- Friday — last day of this week's CHOP window; new 2-slot trade week begins Mon 6/29. Initiating fresh swing exposure into a weekend gap with no live catalyst is unjustified
+- Dollar continuing to weaken (DXY -2.2% MoM) — modest tailwind for multinational/commodity names, not actionable on its own
+
+### Decision
+HOLD. No earnings catalyst, no confirmed live trigger — CAT is too extended to chase today, LLY's pullback level hasn't printed. 2 of 2 CHOP slots remain available; carry LLY/CAT as Monday 6/29 watchlist items. Patience > activity.
