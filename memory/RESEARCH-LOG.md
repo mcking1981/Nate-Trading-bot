@@ -941,3 +941,9 @@ HOLD. No earnings catalyst, no confirmed live trigger — CAT is too extended to
 - **CAT** — ask $1088.35 / bid $1015 (stale) vs Jun 23 trigger zone $880-900 entry / $960-985 target. Price is far more than +3% above any defined trigger with no pullback into zone — too extended. DROP from watchlist, no entry.
 - **GEV** — ask $1149.75 / bid $1033.6 (stale) vs Jun 23 pullback zone $1,060-1,090, stop <$1,040, target $1,123-1,153. Bid-ask spread abnormally wide ($116) for a stale post-close quote — unreliable, cannot classify zone. NO CONFIRMED SETUP — re-verify with live quote once market opens.
 - No trade placed — pre-bell stale data, no live trigger confirmable on either ticker. 0 of 2 CHOP trade slots used this week, both still available.
+
+### Market-Open Check — 09:46 ET
+- Account: Equity $50,478.01 | Cash $50,478.01 (100%) | Buying power $201,912.04 | Daytrade count 0 | Positions: none | Open orders: none.
+- **LLY** — live ask $1,217.36 / bid $1,095.35 vs pullback trigger $1,104 (20-day MA). NO CONFIRMED SETUP — ask is +10.3% above the trigger with no pullback printed; bid sitting near the trigger is not a buyable price (abnormally wide $122 spread, likely thin/unreliable quote). No entry. Carry forward to next session's watchlist.
+- **CAT** — live ask $1,068.03 / bid $987.11 vs pullback zone $980-1,000. NO CONFIRMED SETUP — ask is +6.8% above the top of the zone, still extended per pre-market thesis; do not chase. Bid sitting in-zone is not buyable (abnormally wide $81 spread). No entry.
+- No trade placed — neither watchlist ticker pulled back into its buyable entry zone at the live ask. 0 of 2 CHOP trade slots used this week, both still available. Patience > activity.
