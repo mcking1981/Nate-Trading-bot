@@ -196,3 +196,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades today — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01 (Alpaca balance_asof still 6/18, confirming no fills). Pre-market flagged CAT (Industrials bull-flag, break above $904-915) as the only defined-trigger candidate after 4 straight weeks of 0 trades despite repeated setups; no confirmed live break/fill materialized today, so the conditional entry was correctly skipped rather than chased. Phase P&L +0.96% vs $50,000 launch baseline. 0 of 2 CHOP trade slots used this week (Mon 6/22–today). Tomorrow (Tue 6/23): FDX earnings AMC — avoid new FDX exposure into the print; reassess CAT for a cleaner break trigger, watch XLI/XLK for fresh pullback candidates. Patience > activity.
+
+---
+
+### Jun 26 — EOD Snapshot (Day 33, Friday)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (carried over from Jun 23 pre-market log — no pre-market run Jun 24–26)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01 (Alpaca balance_asof 6/24). Phase P&L +0.96% vs $50,000 launch baseline. **Logging gap flagged:** no EOD snapshot or pre-market research logged for Jun 23 (EOD), Jun 24, or Jun 25 — equity held flat at $50,478.01 across the gap with no positions/orders, so no trading activity occurred, but the routine did not run those days. 0 of 2 CHOP trade slots used this week (Mon 6/22–today, all unused). Tomorrow (Sat 6/27): no action, market closed. Reassess Mon 6/29 — pre-market routine should re-run to refresh the regime read, which is now stale (last classified Jun 23).
