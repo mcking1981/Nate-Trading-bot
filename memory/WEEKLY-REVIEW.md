@@ -146,3 +146,57 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - MU earnings 6/24 and PCE 6/25 are the week's key catalysts — avoid holding MU through earnings if entered; size any new position with that event risk in mind
 
 ### Overall Grade: D
+
+---
+
+## Week ending 2026-06-26
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $50,478.01 |
+| Ending portfolio | $50,478.01 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | -1.97% (7,500.58 Jun 18 close -> 7,353.06 Jun 26 close) |
+| Bot vs S&P | +1.97% |
+| Dominant regime | CHOP (3/3 logged days — Jun 24-25 pre-market/EOD logging gap, no entries) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| — | — | — | — | Flat book — 100% cash, no positions |
+
+### What Worked
+- Stayed flat through a genuinely bad week for risk assets (SPX -1.97%, Nasdaq-heavy tech/chip rotation into defensives) — capital preservation actually paid off this time instead of just avoiding opportunity cost
+- Correctly declined to chase CAT after its intraday +6.3% Friday spike and after it ran extended past every prior watch level (Jun 22-26 logs all flag CAT as too extended)
+- CHOP regime stamp held steady across all logged days, kept base sizing limits active with no loosening
+- Both Jun 26 stale/wide-spread quote checks (pre-bell and 09:46 ET) correctly refused to force a fill on abnormally wide bid-ask spreads for LLY/CAT
+
+### What Didn't Work
+- 3rd straight week of 0 trades (now 6 straight weeks since the single WDAY trade on May 26) — 0 of 2 CHOP slots used again
+- Logging gap recurred for a 3rd consecutive weekly review: no pre-market/EOD entries for Jun 24 or Jun 25 (Wed/Thu) — regime stamp for those two days is unverified
+- Every flagged setup (CAT, GEV, LLY) again ran extended or never printed its trigger before a trade was placed — same "setup identified, never converted" pattern flagged in both prior reviews
+- This week's outperformance is mostly a function of the broader market selling off, not improved execution — the entry-trigger conversion problem is unresolved and can't be credited as a fixed process
+
+### Key Lessons
+- Don't conflate "flat in a down week" with "good process" — the underlying bottleneck (watchlist setups never converting to fills) is the same root cause that produced underperformance in the two prior weeks; this week it happened to align favorably with the market
+- A logging gap on 2 of 5 trading days reduces confidence in the regime stamp and makes those days' HOLD decisions unverifiable — this needs a process fix, not another flagged note
+- 6 weeks, 1 trade total — research quality (specific tickers/levels) is consistently fine; the conversion step from watchlist to filled order remains the actual bottleneck
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week outperformed S&P (+1.97%), so consecutive-underperformance does not apply. CHECK B: this week's outperformance (+1.97%) is below the >2% trigger threshold, so consecutive-outperformance does not apply regardless of last week's result. CHECK C: no trades taken this week, so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Investigate why the Jun 24-25 pre-market/EOD routine didn't fire (schedule/cron config) rather than just flagging the gap again next review
+- Carry LLY (pullback to ~$1,104 20-day MA) and CAT (pullback to $980-1,000) as Monday 6/29 watchlist items; act on the first live touch of either zone rather than waiting for further confirmation that lets it run away again
+- If a 7th straight week passes with 0 trades despite confirmed regime-aligned candidates, treat the entry trigger itself (not the setup criteria) as the thing to redesign
+
+### Overall Grade: C
