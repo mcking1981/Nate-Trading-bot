@@ -206,3 +206,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** No trades — flat book, 100% cash, no positions, no open orders, equity unchanged at $50,478.01 (Alpaca balance_asof 6/24). Phase P&L +0.96% vs $50,000 launch baseline. **Logging gap flagged:** no EOD snapshot or pre-market research logged for Jun 23 (EOD), Jun 24, or Jun 25 — equity held flat at $50,478.01 across the gap with no positions/orders, so no trading activity occurred, but the routine did not run those days. 0 of 2 CHOP trade slots used this week (Mon 6/22–today, all unused). Tomorrow (Sat 6/27): no action, market closed. Reassess Mon 6/29 — pre-market routine should re-run to refresh the regime read, which is now stale (last classified Jun 23).
+
+---
+
+### Jun 27 — EOD Snapshot (Day 34, Saturday — Market Closed)
+**Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$478.01 (+0.96%)
+**Regime:** CHOP (VIX 18.41, SPY -0.73% vs 50DMA — per Jun 27 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** Saturday — US markets closed, no trading session, $0 day P&L. Account flat (100% cash, no positions, no open orders), equity unchanged at $50,478.01 (Alpaca balance_asof 6/26). Phase P&L +0.96% vs $50,000 launch baseline. Jun 27 pre-market research refreshed the regime read (CHOP confirmed) and carried over LLY (Health Care, entry $1,088-1,105, stop <$1,080) and RTX (Industrials, entry reclaim $190, stop $178) as Monday 6/29 watchlist items with defined entry/stop/target — first live trigger to be acted on per standing directive. 0 of 2 CHOP trade slots used this week (Mon 6/22–Fri 6/26, fully unused); new week starts Mon 6/29 with 2 of 2 slots available. Risk flags: tech/chips selling off hard into the weekend (Nasdaq futures -1.6%), oil glut unwind (WTI -3.7%), 7th straight week approaching with 0 trades. Tomorrow (Sun 6/28): no action, market closed. Reassess live Mon 6/29 — act on first valid LLY/RTX trigger, no chasing. Patience > activity.
