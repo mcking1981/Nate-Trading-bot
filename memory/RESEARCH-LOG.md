@@ -999,3 +999,54 @@ HOLD. No earnings catalyst, no confirmed live trigger — CAT is too extended to
 
 ### Decision
 HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY -0.73% vs 50DMA, VIX 18.41). LLY (Health Care) and RTX (Industrials) carried as Monday 6/29 watchlist items with defined entry/stop/target — act on the first live touch of either zone per the standing "first valid trigger" directive, rather than waiting for further confirmation. 2 of 2 CHOP trade slots available for the week starting Mon 6/29. Patience > activity.
+
+---
+
+## 2026-06-28 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.73% ($728.99 vs $734.35) | VIX: 18.41
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None
+- Today is Sunday — US markets closed, no trading session possible. Research run to refresh Monday 6/29 watchlist. Data is latest available (Friday 6/26 close) — Alpaca balance_asof still 2026-06-26, consistent with no trading since.
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $69.23 (-3.7%), Brent $71.99 (-4.3%) — Iran/Hormuz risk premium continuing to unwind, Saudi exports restarting; Goldman cut Brent Q4 forecast to $80 (from $90) on 2026 supply surplus
+- **S&P futures (Fri close):** 7,397.25 (-0.49%), Nasdaq 100 -1.60% — broad risk-off tilt, tech leading declines
+- **VIX:** 18.41 (-2.5%), off recent highs (~22 on 6/10) but still above May's mid-15s calm
+- **DXY:** 101.36, flat on the day, -2.2% over the month — dollar weakening trend
+- **10Y yield:** 4.37-4.39%, down ~7bp on the week; Friday PCE core 3.4% (highest since 2023, above Fed target)
+- **Econ calendar:** Nothing major scheduled Mon 6/30; next big prints ISM PMI (7/1), jobs report (7/2)
+- Net read: risk-off bias into the week — oil glut narrative, soft futures, sticky core inflation, VIX still mid-CHOP band
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **Last 5-day leaders:** Health Care (XLV +7.3%), Industrials (XLI +2.2%), Materials (XLB +1.3%) — Tech/Comm Svcs/Discretionary lagging
+- **YTD leaders:** Energy (XLE +21%), Tech (XLK) — but momentum has rotated into defensives/healthcare/industrials recently
+- **Strongest current momentum: Health Care (XLV) and Industrials (XLI)** — unchanged from prior session
+- **LLY** — now ~$1,206-1,210 (new 52wk high), up 7%+ on oncology approval news. Blew straight through the prior $1,088-1,105 entry zone — that setup is stale/dead. Valuation stretched (~42x trailing P/E), GLP-1 2027 coverage headwinds flagged by some analysts. Not actionable; would need a pullback to $1,150-1,180 to reconsider.
+- **RTX** — ~$188.47 (range $186.17-$190.49), prior close $187.99. Still below the $190 reclaim trigger — setup intact but NOT yet confirmed.
+- **CAT** — near all-time highs (~$1,022 on 6/22), RSI 69.6, CCI 227 (sell signal) — extended again, no clean entry. Pullback watch: 20-day MA ~$925, stop below $900.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No earnings today (Sunday, markets closed)
+- Last week notable: MU beat big (+15% on AI memory pricing surge), KBH beat (+17%, best day in 5+ yrs), DELL beat (fastest rev growth since 2018 IPO)
+- Week of 6/29 (holiday-light): Mon 6/29 nothing notable; **NKE reports Tue 6/30 AMC** (only Dow name this week); GIS/FDS/MSM Wed 7/1. No same-day catalyst for Monday's open.
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+(No earnings catalyst for Monday — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **RTX** — Industrials momentum leader, consolidation-near-highs setup, carried over from Jun 27. Watchlist entry: reclaim/close above $190. Stop: $178 (~-6%). Target: $214 (52wk high) (~2:1 R:R). Regime check: WATCHLIST ONLY — live-verify reclaim before sizing; not yet triggered as of last close ($188.47, range high $190.49).
+2. LLY — DROP from active watchlist; price ($1,206-1,210) blew through the prior $1,088-1,105 entry zone, now extended at a new 52wk high. Re-add only on a pullback to $1,150-1,180.
+
+### Risk Factors
+- Risk-off undertone into the week: oil glut fears, soft Friday futures (Nasdaq 100 -1.6%), still-elevated VIX (18.41, mid-CHOP band) — no green light for aggressive sizing
+- LLY's rapid extension past its entry zone repeats the now-familiar "setup identified, runs away before entry" pattern flagged in the last 3 weekly reviews — 7th straight week approaching with 0 trades if RTX also fails to trigger Monday
+- No earnings catalyst confirmed for Monday's open — RTX is a sector-momentum-only setup, not yet validated with a live trigger
+- Sticky core PCE (3.4%, above Fed target) plus dollar weakness — mixed macro signal, no clear directional edge
+
+### Decision
+HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY -0.73% vs 50DMA, VIX 18.41). RTX (Industrials, reclaim $190, stop $178) carried as the sole live Monday 6/29 watchlist item — act on the first confirmed live trigger per the standing directive rather than waiting for further confirmation. LLY dropped (extended past entry zone). 2 of 2 CHOP trade slots available for the week starting Mon 6/29. Patience > activity.
