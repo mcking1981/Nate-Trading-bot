@@ -226,3 +226,29 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | — | — | — | — | — | — | — |
 **Notes:** Sunday — US markets closed, no trading session, $0 day P&L. Account flat (100% cash, no positions, no open orders), equity unchanged at $50,478.01 (Alpaca balance_asof 6/26). Phase P&L +0.96% vs $50,000 launch baseline. Jun 28 pre-market research dropped LLY from the watchlist (ran straight through $1,088-1,105 entry zone to new 52wk high ~$1,206-1,210 on oncology news, now extended) and carried RTX (Industrials, reclaim $190, stop $178) as the sole live Monday 6/29 watchlist item. 0 of 2 CHOP trade slots used this week (Mon 6/22–Fri 6/26, fully unused); new week starts Mon 6/29 with 2 of 2 slots available. Risk flags: oil glut unwind continuing (WTI -3.7%), sticky core PCE (3.4%, above Fed target), tech/chips weak into the week, 7th straight week approaching with 0 trades. Tomorrow (Mon 6/29): act on first confirmed live RTX trigger (reclaim $190), no chasing. Patience > activity.
+
+---
+
+### Jun 29 — Trade #2
+
+| Field | Value |
+|---|---|
+| Date | 2026-06-29 |
+| Ticker | RTX |
+| Side | BUY |
+| Shares | 39 |
+| Entry Price | $188.75 |
+| Stop Level | $169.785 (10% trailing GTC, order ID: 9e56a487, HWM $188.65) |
+| Thesis | Confirmed reclaim of $190 watchlist trigger (live ~$190.19, +0.56%, within 0-3% confirmation band per protocol — Alpaca quote feed showed an anomalous wide spread, cross-verified via web search). Industrials momentum leader; $1.1B Navy AIM-9X missile contract (6/26), backlog $268-271B, Jefferies Buy upgrade, analyst target raised to $215-220, $0.73 quarterly dividend declared 6/26. No negative news. |
+| Target | $214-220 (52wk high / new analyst target) |
+| R:R | ~1.5:1 (10% trailing stop vs ~14-17% to target) |
+| Regime at Entry | CHOP (SPY +5.9% vs 50DMA but VIX 18.41 keeps regime at CHOP per OR-condition) |
+| Cost Basis | $7,361.25 (14.58% of $50,478.01 equity) |
+
+**CAT — Skipped:** Price pulled back into the watchlist $980-1,000 zone (~$997-1,000, -5.4 to -5.6% on the day) but the move is the 3rd consecutive down day (-3.61% 6/23, -4.31% 6/26, now another large drop), driven by negative fundamentals (FY26 tariff headwind $2.2-2.4B, margin compression, hawkish Fed repricing) — not a healthy pullback-to-support in an intact uptrend. No bullish catalyst in today's RESEARCH-LOG to justify buying this dip; treated as a falling knife, not a confirmed entry.
+
+**FCX — Skipped:** No defined entry/stop level was set in today's RESEARCH-LOG ("level TBD live, confirm specific entry/stop live before sizing"). No testable trigger — cannot classify into a zone per Step 4 protocol.
+
+**Data note:** Alpaca `quote` endpoint returned implausibly wide bid/ask spreads for RTX/CAT (e.g. RTX bid $177.84 / ask $197.87, a ~10% spread on a liquid large-cap) — likely a thin IEX-only snapshot. Cross-verified all entry/skip decisions against current price via web search before acting.
+
+**Trades this week:** 1 of 2 (CHOP limit)

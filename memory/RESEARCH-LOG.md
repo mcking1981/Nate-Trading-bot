@@ -1104,3 +1104,12 @@ HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY -0.73% 
 
 ### Decision
 HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP via the OR-condition). RTX (reclaim $190), CAT (pullback to $980-1,000), and new candidate FCX (pullback/VWAP reclaim) carried as live watchlist items for today's session — act on the first confirmed live trigger per the standing directive, no chasing. 2 of 2 CHOP trade slots available for the week starting 6/29. Patience > activity.
+
+---
+
+### Market-Open Check — 09:48 ET
+
+- CONFIRMED entry on RTX @ $188.75 (39 sh) — live price ~$190.19 (+0.56%), within 0-3% confirmation band above the $190 reclaim trigger; catalyst intact ($1.1B Navy contract, Jefferies Buy upgrade, $215-220 target). 10% trailing stop GTC placed @ $169.785 (order 9e56a487). 1 of 2 CHOP trade slots used this week.
+- NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
+- NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
+- Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
