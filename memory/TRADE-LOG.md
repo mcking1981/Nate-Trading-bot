@@ -252,3 +252,13 @@ No positions yet. Bot launches tomorrow.
 **Data note:** Alpaca `quote` endpoint returned implausibly wide bid/ask spreads for RTX/CAT (e.g. RTX bid $177.84 / ask $197.87, a ~10% spread on a liquid large-cap) — likely a thin IEX-only snapshot. Cross-verified all entry/skip decisions against current price via web search before acting.
 
 **Trades this week:** 1 of 2 (CHOP limit)
+
+---
+
+### Jun 29 — EOD Snapshot (Day 36, Monday)
+**Portfolio:** $50,422.63 | **Cash:** $43,116.76 (85.5%) | **Day P&L:** -$55.38 (-0.11%) | **Phase P&L:** +$422.63 (+0.85%)
+**Regime:** CHOP (VIX 18.41, SPY +5.9% vs 50DMA — per Jun 29 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
+**Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
