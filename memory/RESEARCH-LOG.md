@@ -1050,3 +1050,57 @@ HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY -0.73
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY -0.73% vs 50DMA, VIX 18.41). RTX (Industrials, reclaim $190, stop $178) carried as the sole live Monday 6/29 watchlist item — act on the first confirmed live trigger per the standing directive rather than waiting for further confirmation. LLY dropped (extended past entry zone). 2 of 2 CHOP trade slots available for the week starting Mon 6/29. Patience > activity.
+
+---
+
+## 2026-06-29 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +5.9% ($757.09 vs ~$714.7 50DMA) | VIX: 18.41 (last close 6/26; opened ~19.70 today)
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+*(Note: SPY is well above +2% vs 50DMA, which alone would flag Bull — but VIX 18.41 sits in the 15-25 band, which keeps the regime at CHOP per the matrix's OR-condition. Regime limits only tighten, never loosen.)*
+
+### Account Snapshot
+- Equity: $50,478.01 | Cash: $50,478.01 (100%) | Buying power: $201,912.04 | Daytrade count: 0
+- Positions: None | Open orders: None | balance_asof: 2026-06-26 (no fills since)
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Brent $72.01 (+0.03%), WTI $69.23 — near multi-month lows, Strait of Hormuz shipping resuming on US-Iran de-escalation
+- **Futures:** S&P 500 +0.53%, Nasdaq 100 +0.49%, Dow +0.27% premarket — risk-on tone on Mideast stabilization, ~86% odds of a green open
+- **VIX:** 18.41 last close (-2.54%), opened ~19.70 today; 30-day range 15.18-23.34
+- **DXY:** ~101.20-101.33, 3rd straight losing day — safe-haven unwind on Iran ceasefire, partly offset by hawkish Fed pricing (79.5% odds of a Dec hike)
+- **10Y yield:** 4.37% (last printed 6/26, no fresh weekend data)
+- **Econ calendar:** No CPI/PPI today; jobless claims + WEI on tap, June payrolls later this week
+- Net read: geopolitical de-escalation driving risk-on/dollar-down/oil-down; Fed hawkishness is the counterweight to watch
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK (Tech) +32-33%, XLE (Energy) +26-27%. Laggards: XLF -5%, XLV slightly negative
+- **Last-5-day leaders:** Materials (copper) and Industrials (AI-infra capex) — strongest current momentum
+- **CAT** (Industrials) — $1,000-1,057, near all-time high, above 20/50-day MA, technical rating 10/10. Extended — wait for pullback to ~$980-1,000, stop below $950. Next catalyst: Q2 earnings Aug 5
+- **FCX** (Freeport-McMoRan, Materials/copper) — NEW candidate. Breakout name in record-high copper environment, liquid large-cap proxy. Entry on pullback/VWAP reclaim after breakout candle, stop below recent breakout base
+- **RTX** — $188-189 as of 6/26 close, NOT yet reclaimed $190. Analyst target raised to $215-220 (Jefferies Buy upgrade). Watch for confirmed close above $190
+- Caveat: Materials/mining broadly extended — better risk/reward on pullbacks than chasing breakouts
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No major pre-market reports today — quiet day. **NKE reports Tue 6/30 AMC** (confirmed, ~1:15pm PT), STZ also Tue
+- Fri 6/26 AMC: no distinct new earnings names; tape dominated by broad tech selloff (Nasdaq -0.24%, weekly -4.6%) on AI-capex/OpenAI IPO-delay jitters, not fresh earnings
+- Carryover: Micron (reported AMC Wed 6/24) — record $41.46B rev, EPS $25.11, +16% then -4.5% Fri pullback on profit-taking
+- No same-day earnings catalyst for today's open
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions.
+
+### Trade Ideas
+(No earnings catalyst today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **RTX** — Industrials, carried over from 6/27-6/28. Watchlist entry: confirmed close above $190. Stop: $178 (~-6%). Target: $214-220 (52wk high / new analyst target). Regime check: WATCHLIST ONLY — not yet triggered ($188-189 as of last close).
+2. **CAT** — Industrials, extended near all-time highs. Watchlist entry: pullback to $980-1,000 (20-day MA). Stop: below $950 (~-5 to -6%). Target: new highs above $1,057 (~2:1+ R:R). Regime check: WATCHLIST ONLY — do not chase at current extended levels.
+3. **FCX** — Materials/copper, new candidate, breakout structure in record-high copper environment. Watchlist entry: pullback/VWAP reclaim after breakout candle (level TBD live). Stop: below recent breakout base. Regime check: WATCHLIST ONLY — confirm specific entry/stop live before sizing; sector broadly extended.
+
+### Risk Factors
+- Fed hawkishness (79.5% odds priced for a Dec hike) is a counterweight to today's geopolitical-relief risk-on move — don't read the green futures as a clean "all clear"
+- Materials/mining momentum already broadly extended — FCX and similar copper names carry chase risk; need a live pullback, not a breakout chase
+- VIX 18.41 still mid-CHOP band — no green light for aggressive sizing despite SPY's distance from the 50DMA
+- 8th consecutive week approaching with 0 new trades since the single WDAY trade on 5/26 (per 6/26 weekly review) if RTX/CAT/FCX again fail to convert from watchlist to live trigger
+- No earnings catalyst today — all three names are sector-momentum-only setups, none yet validated with a live trigger as of pre-market
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP via the OR-condition). RTX (reclaim $190), CAT (pullback to $980-1,000), and new candidate FCX (pullback/VWAP reclaim) carried as live watchlist items for today's session — act on the first confirmed live trigger per the standing directive, no chasing. 2 of 2 CHOP trade slots available for the week starting 6/29. Patience > activity.
