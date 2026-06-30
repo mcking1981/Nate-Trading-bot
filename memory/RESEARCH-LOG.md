@@ -1113,3 +1113,57 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-06-30 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +3.9% ($757.09 vs ~$728.35 50DMA) | VIX: 17.53
+*(Regime limits: max 4 positions, max 15%/position (~$7,564), target 60% deployed, max 2 new trades/week)*
+*(Note: SPY well above +2% vs 50DMA would alone flag Bull, but VIX 17.53 sits in the 15-25 band, keeping regime at CHOP per the matrix's OR-condition. Regime limits only tighten, never loosen.)*
+
+**Tavily outage:** scripts/tavily.sh returned HTTP 432 "exceeds your plan's set usage limit" on every call today (not the documented exit-3 missing-key case) — all 4 sub-agents fell back to native WebSearch for the full research pass.
+
+### Account Snapshot
+- Equity: $50,429.25 | Cash: $43,116.75 (85.5%) | Buying power: $192,942 | Daytrade count: 0
+- Positions: RTX — 39 sh, entry $188.75, current $187.50 (-0.66%, -$48.75 unrealized), 10% trailing GTC stop @ $170.892 (HWM $189.88, order 9e56a487)
+- Open orders: 1 (RTX trailing stop, as above)
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Brent ~$73.15 (-1.6%), WTI ~$70.75 — down ~20% MTD/23% QTD on Iran-US peace talks (Doha) raising Gulf supply expectations
+- **Futures/cash:** Modest positive bias; S&P cash closed Mon 7,440.43 (+1.18%), Nasdaq +2.07%
+- **VIX:** 17.53 (-0.68%), down from 18.41 prior close — low-vol within CHOP band, 30-day range 15.18-23.34
+- **DXY:** ~101.32 (+0.20%), easing off the 14-month high (101.8) set 6/24
+- **10Y yield:** ~4.37-4.38%, holding steady
+- **Econ calendar:** Chicago PMI 9:45am ET (prior 62.7, 4yr high), Consumer Confidence 10am ET. No CPI/PPI/jobs/FOMC today
+- Net read: risk-on tone, low VIX, falling oil (bearish XLE, bullish consumer/transports), light data day
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leader:** XLK (Tech) +26.1%. Industrials (XLI) and Energy (XLE) also strong
+- **RRG "Leading" quadrant:** Industrials (XLI) and Materials (XLB) — XLI MACD turned positive 6/12. Health Care (XLV) rotated to "Weakening" — deprioritize new HC entries (confirms dropping HC from watchlist)
+- **FCX** (Materials/copper) — ~10% pullback off 6/17 ATH $72.28, now $61.76. Support $61.5 / deeper $54-55. Setup: entry on bounce/reclaim $61-62, stop ~$56-57 (8-10% below entry per checklist), target retest of $72 highs (~2:1 R:R). 88% Buy/Strong Buy consensus
+- **GE (GE Aerospace)** and **PWR (Quanta Services)** flagged thematically (industrials pullback / grid-as-defense-priority) but no defined entry/stop level surfaced — not a complete setup, watchlist-only with level TBD live
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No confirmed pre-market beats/misses surfaced (calendar shows ~11 names reporting before-open, specifics not found)
+- No 6/29 after-hours earnings surfaced; tape was Mag7/tech strength (Nasdaq-100 +2.25%), Alphabet added to Dow (replacing Verizon)
+- **NKE reports tonight 6/30 AMC (confirmed)** — consensus revenue $10.85B (-2% YoY), EPS $0.13 (-7% YoY); stock -35% YTD into print; options imply ±8.6% move. High-conviction overnight catalyst but not a pre-market trade — no position held, nothing actionable before tonight's print
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX** — no fresh 24-48h catalyst; trading ~$188, roughly flat. Most recent items are a UBS Hold rating (6/26) and the prior week's $1.1B Navy AIM-9X + $398.69M AMRAAM contract awards. Consensus Moderate Buy/Hold, PT $213-220 (~13-17% upside). Thesis intact, no action needed
+
+### Trade Ideas
+(No pre-market earnings catalyst — using Sector Scout's named ticker as a conditional/watchlist setup per protocol.)
+1. **FCX** — Materials/copper, RRG "Leading" quadrant, pullback off 6/17 ATH. Watchlist entry: bounce/reclaim $61-62. Stop: ~$56-57 (8-10% below entry). Target: retest $72 highs (~2:1 R:R). Regime check: WATCHLIST ONLY — live-verify the bounce/reclaim before sizing; carried theme from 6/29 log, now with a defined stop (prior log had "level TBD").
+2. GE / PWR — Industrials/grid-defense theme, no defined entry/stop surfaced today — NOT a complete setup per protocol (sector name without a testable trigger); monitor only, do not size.
+
+### Risk Factors
+- NKE earnings tonight AMC carries an ±8.6% implied move — no position held, but could move broader Consumer Discretionary/retail sentiment into tomorrow's open
+- VIX 17.53 still sits mid-CHOP band despite SPY +3.9% above 50DMA — regime stays CHOP via the OR-condition, no green light for aggressive sizing
+- Oil falling sharply on Iran-US de-escalation — bearish for Energy (XLE), not currently held, but watch for spillover risk-on/risk-off swings
+- Health Care (XLV) downgraded to "Weakening" on RRG — confirms no fresh HC entries this week
+- RTX (held) has no fresh catalyst since UBS Hold (6/26) — thesis intact, trailing stop doing its job, no action needed
+- Tavily API hit a hard usage-limit wall today (HTTP 432) — full research pass relied on WebSearch fallback; flag to investigate/upgrade plan if this recurs
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +3.9% vs 50DMA, VIX 17.53 keeps it CHOP via the OR-condition). RTX position intact, no action needed (-0.66%, trailing stop at $170.892 working as designed). FCX (Materials, bounce/reclaim $61-62) is the sole live watchlist item with a defined entry/stop today — act on a confirmed live trigger only, no chasing. 1 of 2 CHOP trade slots remaining this week (RTX used 1 on 6/29). Patience > activity.
