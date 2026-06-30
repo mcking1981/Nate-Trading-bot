@@ -1113,3 +1113,22 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-06-30 — Pre-market Research (regime-only, inline per market-open Step 1 fallback)
+
+**REGIME: CHOP** | SPY vs 50DMA: ~+6% ($757.09 vs ~$714.7 50DMA) | VIX: 18.41 (last close 6/29)
+*(Regime limits: max 4 positions, max 15%/position (~$7,570), target 60% deployed, max 2 new trades/week)*
+*(Tavily returned HTTP 432 on both regime queries — fell back to native WebSearch per protocol. Full 4-subagent pre-market research did NOT run today; only regime classification done inline. No new Trade Ideas documented for today — only the existing RTX position is being managed.)*
+
+### Account Snapshot
+- Equity: $50,467.47 | Cash: $43,116.75 | Buying power: $193,049.02 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75 avg, current ~$188.48, unrealized -$10.53 (-0.14%)
+- Open orders: RTX trailing stop GTC, trail 10%, stop $170.892, HWM $189.88
+
+### Market-Open Check — 09:47 ET
+
+- NO CONFIRMED NEW SETUP — full pre-market research did not run today (no today's research entry pre-existing); no ticker has a documented catalyst in today's RESEARCH-LOG, so Step 5 hard-check ("catalyst documented in today's RESEARCH-LOG") fails for any new entry. No new trades placed.
+- HOLD existing RTX (39 sh @ $188.75) — live ~$187.99-188.48 (Alpaca quote feed again showing an anomalous wide spread, ap $197.67/bp $177.65; cross-verified ~$187.99 via web search), well above the 10% trailing stop ($170.892, HWM $189.88). Stop untouched (never moved down, not within 3% of current price). Thesis intact (Navy $1.1B contract, Jefferies Buy upgrade, $215-220 target, dividend declared).
+- 1 of 2 CHOP trade slots used this week (Mon 6/29-current). 1 slot remaining.
