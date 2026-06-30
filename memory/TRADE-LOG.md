@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jun 30 — EOD Snapshot (Day 37, Tuesday)
+**Portfolio:** $50,516.22 | **Cash:** $43,116.75 (85.4%) | **Day P&L:** +$93.60 (+0.19%) | **Phase P&L:** +$516.22 (+1.03%)
+**Regime:** CHOP (carried over from Jun 29 pre-market log — no pre-market run today; VIX 18.41, SPY +5.9% vs 50DMA)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $189.73 | +1.28% | +$38.22 (+0.52%) | $171.09 (10% trailing GTC, order 9e56a487, HWM $190.10) |
+**Notes:** No new trades — held RTX through the session, position recovered from yesterday's -0.75% to +0.52% unrealized as price bounced to $189.73 (+1.28% day); trailing stop ratcheted up to $171.09 on the new $190.10 high-water mark, no manual action needed. No pre-market or research-log entry was logged today (regime carried over from Jun 29), so no fresh watchlist candidates were vetted — CAT/FCX remain stale from Monday. 1 of 2 CHOP trade slots used this week (Mon 6/29–today), 1 remaining. Phase P&L +1.03% vs $50,000 launch baseline. Tomorrow (Wed 7/1): run pre-market to refresh the regime and watchlist (current read is 2 days stale); hold RTX and let the trailing stop work. Patience > activity.
