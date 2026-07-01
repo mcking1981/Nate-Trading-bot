@@ -1113,3 +1113,56 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-07-01 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.48% ($746.77 vs $735.87) | VIX: 16.85
+*(Regime limits: max 4 positions, max 15%/position (~$7,572), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,479.96 | Cash: $43,116.75 | Buying power: $193,083.99 | Daytrade count: 0
+- Positions: RTX (39 sh, entry $188.75, current $188.80, +$1.96 / +0.03%) | Deployed: 14.59% of equity
+- Open orders: RTX 10% trailing stop GTC, stop $171.09, HWM $190.10 (order 9e56a487)
+- 1 of 2 CHOP trade slots used this week (RTX, Mon 6/29) — 1 slot remaining
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$68.7-69.8, Brent ~$72.1-73.2, both -1% on Iran-US peace talk progress
+- **S&P futures:** -0.28% (7,527.25), Nasdaq 100 -0.30%, Dow -0.31% — soft premarket tape
+- **VIX:** 16.85-17.65 spot, futures curve in contango (~18-20.7 through Dec)
+- **DXY:** 101.4 (+0.22%), near 52wk high (101.80), +4.8% YoY — persistent dollar strength
+- **10Y yield:** 4.46-4.47%, holding after prior session's ~10bp climb; market pricing possible Fed hike as early as September on resilient labor data
+- **Econ calendar:** ISM Manufacturing (10am ET, fcst 53.9), ADP Employment (fcst 117K), jobless claims, EIA petroleum status. No CPI/PPI/FOMC today; Nonfarm Payrolls tomorrow 7/2, FOMC next 7/29
+- Net read: cautious/choppy — soft futures, firm dollar, sticky yields, VIX subdued but not calm; oil pressured by Iran de-escalation
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +26.1%, XLE +22.1%, XLI +17.4%, XLB +14.7%, XLRE +13.9%
+- **Last-5-day leaders:** XLV +7.1%, XLU +2.9%, XLP +2.7% — rotation into defensives; XLK actually -3.5% last 5 days (cooling off), XLE -0.9%
+- **Strongest current momentum (medium-term, still intact): Industrials and Energy**
+- **CAT** (Industrials) — ~$900-904, up ~60% YTD, near ATH $961.33, holding above 20d/50d MAs. Setup: pullback-to-support/reclaim. Entry: $895-905. Stop: below 20-day SMA ~$860 (~5%). Target: new ATH ~$960+ (~2.5:1 R:R). Caution: 44x P/E, earnings 8/4 (no conflict today).
+- **FANG** (Diamondback Energy) — ~$173-180, above rising 20-day SMA, momentum fading slightly (MACD narrowing). Entry: reclaim/hold above $173. Stop: ~$157 (lower BB, ~9-10%) or tighter ~$165. Alt: SLB ~$46-47 (deeper pullback, Buy-rated, targets $60-71, stop ~$43).
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market today:** Light BMO slate — GIS, FDS, MSM, UNF, no notable beat/miss surprises reported yet
+- **AH yesterday (6/30):** AVAV beat big (+19%); CNXC missed EPS/rev, guided down, cut FY outlook (-22%); NKE beat ($0.20 vs $0.11 consensus, primary source)
+- Context: S&P 500 closed out best quarter since 2020 (7,440, +1.18% day 6/30); chips/AI driving Nasdaq (+2.07%)
+- No same-day earnings catalyst for RTX or CAT/FANG watchlist names
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX** — closed $189.73 (+1.28%) on 6/30, no fresh catalyst. Q3 earnings ahead (Jul 23/28), EPS est. $1.66, $271B backlog intact. No negative news.
+
+### Trade Ideas
+(No earnings catalyst for RTX/CAT/FANG — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **CAT** — Industrials momentum leader, pullback-to-support setup. Watchlist entry: $895-905. Stop: ~$860 (~-5%). Target: ~$960+ (~2.5:1 R:R). Regime check: WATCHLIST ONLY — live-verify before sizing; would use last (2nd) CHOP slot this week and 2nd of max 4 CHOP positions, size ≤15% (~$7,572).
+2. **FANG** — Energy momentum leader, reclaim setup. Watchlist entry: hold above $173 (20-day SMA). Stop: ~$157-165 (~9-10% wide, or tighter ~$165 test bounce). Target: TBD live. Regime check: WATCHLIST ONLY — stop width wider than base 7-10% rule at $157, prefer confirming a tighter stop before sizing.
+
+### Risk Factors
+- Dollar strength (DXY near 52wk high) + sticky 10Y yield (4.46-4.47%) + Sept rate-hike repricing — headwind for risk assets generally
+- Soft premarket futures (S&P -0.28%) despite Q2 close at record highs — some give-back risk into the new quarter
+- CAT still trades at premium valuation (44x P/E) near all-time highs — same "extended" caution flagged in prior weeks' logs, though current pullback zone ($895-905) is the first entry level named that isn't chasing a fresh high
+- Only 1 of 2 CHOP trade slots remains this week (RTX already used Mon 6/29) — no room for more than one additional new position
+- RTX position flat (+0.03%), no action needed; trailing stop intact at $171.09
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +1.48% vs 50DMA, VIX 16.85). RTX position holding, no stop action needed. CAT (pullback $895-905, stop ~$860) and FANG (reclaim >$173, stop ~$157-165) carried as watchlist items — live-verify triggers before sizing, only 1 CHOP slot remains this week. Patience > activity.
