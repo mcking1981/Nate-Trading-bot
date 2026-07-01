@@ -1112,4 +1112,34 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - CONFIRMED entry on RTX @ $188.75 (39 sh) — live price ~$190.19 (+0.56%), within 0-3% confirmation band above the $190 reclaim trigger; catalyst intact ($1.1B Navy contract, Jefferies Buy upgrade, $215-220 target). 10% trailing stop GTC placed @ $169.785 (order 9e56a487). 1 of 2 CHOP trade slots used this week.
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
+
+---
+
+## 2026-07-01 — Pre-market Research (ABBREVIATED — run inline by market-open, Steps 1-3a only)
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.38% ($746.77 vs $736.58 50DMA) | VIX: 16.87
+*(Regime limits: max 4 positions, max 15%/position (~$7,581), target 60% deployed, max 2 new trades/week)*
+
+**Process gap flagged:** No pre-market entry logged for 2026-06-30 (Tue) or 2026-07-01 (Wed) — pre-market automation did not run either day. Market-open ran regime classification inline (Steps 1-3a) per protocol; full 4-sub-agent research (macro/sector/earnings/holdings) was NOT run today, so no new Trade Ideas exist for 7/1. No fresh catalyst is documented for any ticker today — per Step 5 hard-check ("catalyst clearly documented in today's RESEARCH-LOG"), no new trade can be justified regardless of price action.
+
+### Account Snapshot
+- Equity: $50,537.28 | Cash: $43,116.75 | Buying power: $193,244.48 | Daytrade count: 0
+- Positions: RTX (39 sh, cost $7,361.25, 14.6% of equity) | Open orders: RTX 10% trailing stop GTC (stop $171.891, HWM $190.99)
+
+### Carryover Watchlist (stale — no fresh confirmation today)
+- CAT — ~$973-1,050 (wide/anomalous quote spread), no new catalyst since 6/29 falling-knife rejection. Not actionable.
+- FCX — ~$62.23-62.29, still no defined entry/stop level ever set. Not actionable.
+
+### Decision
+HOLD — no new trades. RTX position healthy (unrealized +0.8%, trailing stop active, no tightening trigger hit). 1 of 2 CHOP trade slots used this week (week of 6/29). Full pre-market research should resume tomorrow to refresh sector/earnings/catalyst scan.
+
+---
+
+### Market-Open Check — 13:47 UTC (~09:47 ET)
+
+- NO NEW POSITION — no Trade Ideas exist for today (pre-market didn't run 6/30 or 7/1); no ticker has a documented catalyst in today's RESEARCH-LOG, so Step 5 hard-check blocks any new entry regardless of price.
+- RTX (held, 39 sh @ $188.75) — current ~$190.27 (+0.8% unrealized), 10% trailing stop GTC intact @ $171.891 (HWM $190.99). No action — hold, no rule triggers (not at +15%/+20% tighten levels, not at -7% cut level).
+- CAT — quote ~$973.75/$1,050 (anomalous spread), no fresh catalyst today; carried-over 6/29 rejection (falling knife, tariff/margin headwinds) still stands. Not confirmed, no action.
+- FCX — quote ~$62.23/$62.29, still no defined entry/stop level. Not confirmed, no action.
+- 1 of 2 CHOP trade slots used this week. Regime CHOP (SPY +1.38% vs 50DMA, VIX 16.87).
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
