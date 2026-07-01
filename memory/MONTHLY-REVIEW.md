@@ -44,3 +44,26 @@ Template for each entry:
 - No sector cooldowns active — Avoid Sectors block empty in TRADING-STRATEGY.md
 - Bot launched mid-May with one position (WDAY); only 6 trading days of history this review period — thin sample, next monthly will have a fuller picture
 - WDAY trailing stop tightened from 10% to 7% at some point (HWM $146.19 confirms +17% peak gain achieved), consistent with strategy rule to tighten at +15%
+
+---
+
+## Month ending 2026-07-01
+
+### Open Positions at Review Date
+| Ticker | Entry Date | Entry Price | Current Price | Unrealized P&L | Regime at Entry |
+|--------|------------|-------------|---------------|----------------|-----------------|
+| RTX | 2026-06-29 | $188.75 | $189.99 | +$48.36 (+0.66%) | CHOP |
+
+### Position Verdicts
+| Ticker | Thesis Status | Sector Momentum | Verdict | Reasoning |
+|--------|---------------|-----------------|---------|-----------|
+| RTX | Intact | Bullish | KEEP | Contract catalysts (AIM-9X, Navy mod) confirmed with no negative news; analyst consensus remains Buy with targets $211-223, well above entry/current price. Defense sub-sector of industrials still cited as a stronger H2 2026 dealmaking/momentum area — hold with existing 10% trailing stop. |
+
+### Actions Taken
+- None — all theses intact. KEEP verdict only.
+
+### Monthly Observations
+- Regime distribution this month (Jun 1–Jun 29 pre-market logs): CHOP x21, 100% of stamped sessions — no Bull or Bear regime days all month.
+- Sector cooldowns active: none — Avoid Sectors block empty in TRADING-STRATEGY.md.
+- Only 1 trade executed in June (RTX, 6/29) after a 7-week dry spell of 0 trades under strict CHOP-regime discipline — patience > activity held despite repeated conditional watchlist setups (WDAY carried from May, CAT/AMAT/MU/LLY all skipped on failed confirmation).
+- WDAY (May position) was exited sometime between May 27–Jun 7 without a logged closing trade — a recurring logging-gap issue flagged across multiple June EOD snapshots; worth tightening EOD logging discipline going into July.
