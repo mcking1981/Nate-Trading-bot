@@ -1113,3 +1113,22 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-07-02 — Pre-market Research (abbreviated — regime-only, run inline by market-open)
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.14% ($745.88 vs $737.48 50DMA) | VIX: 15.92
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+*(Note: 3-day gap — no pre-market/EOD entries logged for Jun 30 or Jul 1; regime last classified Jun 29. Full sub-agent research (macro/sector/earnings/holdings) NOT run today — only Steps 1-3a executed inline per market-open protocol since today's entry was missing. No new Trade Ideas generated.)*
+
+### Account Snapshot
+- Equity: $50,797.02 | Cash: $43,116.75 | Buying power: $193,971.76 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75 (current $197.07, +4.41% unrealized) | Open orders: RTX 10% trailing stop GTC (order 9e56a487, HWM $197.45, stop $177.705)
+
+### Decision
+HOLD new entries — no Trade Ideas available today (full pre-market research skipped). Manage existing RTX position only: +4.41% unrealized, below +15% tighten threshold, 10% trail stays as-is. 1 of 2 CHOP trade slots used this week (Jun 29 RTX buy).
+
+### Market-Open Check — 09:47 ET
+- NO CONFIRMED SETUP — no watchlist tickers in today's log to evaluate (pre-market sub-agent research not run; abbreviated regime-only entry). No new trades placed.
+- RTX (existing position, 39sh @ $188.75): current $197.07 (+4.41% unrealized, +2.76% today). 10% trailing stop GTC intact (order 9e56a487, HWM $197.45, stop $177.705). Below +15% gain — no trail tightening required. No action taken.
