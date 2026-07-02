@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 02 — EOD Snapshot (Day 39, Thursday)
+**Portfolio:** $50,887.50 | **Cash:** $43,116.75 (84.7%) | **Day P&L:** +$291.33 (+0.58%) | **Phase P&L:** +$887.50 (+1.78%)
+**Regime:** CHOP (VIX 18.41, SPY +5.9% vs 50DMA — carried over from Jun 29 pre-market log; no pre-market run Jun 30–Jul 2, defaulted per CLAUDE.md)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $199.25 | +3.90% | +$409.50 (+5.56%) | $179.7255 (10% trailing GTC, HWM $199.695) |
+**Notes:** Logging gap Jun 30–Jul 1 — no pre-market or EOD entries ran those days; Alpaca history confirms no fills occurred during the gap (RTX position and trailing stop order unchanged since Jun 29, only HWM updates). RTX rallied hard today (+3.90%, day P&L +$291.33) to a new high, trailing stop HWM advanced to $199.695 / stop $179.7255. Unrealized P&L now +5.56% — still under the +15% trigger for tightening to a 7% trail, no stop action needed. 1 of 2 CHOP trade slots used this week (Jun 29–today). Phase P&L +1.78% vs $50,000 launch baseline. Tomorrow (Fri Jul 3, half day pre-holiday): hold RTX, let trail work; pre-market routine should re-run to refresh the stale regime read (last classified Jun 29). Patience > activity.
