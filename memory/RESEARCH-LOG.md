@@ -1113,3 +1113,54 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-07-02 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.24% ($745.76 vs $736.61) | VIX: 16.77
+*(Regime limits: max 4 positions, max 15%/position (~$7,589), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,592.27 | Cash: $43,116.75 (85.2%) | Buying power: $193,398.46 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $191.68, MV $7,475.52 (14.78% of equity), unrealized +$114.27 (+1.55%)
+- Open orders: RTX 10% trailing stop GTC, stop $172.638, HWM $191.82 (order 9e56a487) — no action needed, in profit
+
+### Macro (Sub-agent 1 synthesis)
+- Oil: WTI $67.5-67.6 (-1.5%), Brent $70.4-70.6 (-1.4 to -1.6%) — sharp selloff, ~28-30% off 1-month highs
+- S&P futures: ES +0.72% premarket; Wed cash close flattish (SPX -0.22%), Nasdaq weak (-1.54%) on chip weakness
+- VIX: 16.77 (+1.02%), low-vol regime, well off June's ~22 peak
+- DXY: ~100.80 (-0.35%), softening ahead of jobs data
+- 10Y yield: 4.41-4.50%, roughly flat
+- Econ calendar: June NFP today (consensus 110K, unemployment 4.3%) — key midday catalyst. No CPI/PPI/FOMC today (next FOMC 7/29, CPI 7/14)
+- Net read: low VIX + soft dollar + oil selloff = risk-on backdrop, but NFP could swing rates/futures intraday. Market closed Fri 7/3 (July 4 observed) — 3-day weekend ahead, reduced liquidity today.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD leaders: XLK +26.1%, XLE +22.1%, XLI +17.4%, XLP +10.4%, XLU +9.7%
+- Last-5-day leaders: **XLV (Health Care) +7.12%** (clear standout), XLU +2.91%, XLP +2.66%, XLRE +2.04%, XLY +1.90%. Tech reversed hard (XLK -3.51%) — rotation out of AI/tech into defensives
+- **Strongest current momentum: Health Care (XLV)**
+- **LLY** — ~$1,182 (prior close $1,199), pullback/consolidation in uptrend, setup rating 7/10, all MAs bullish, RSI 60. Entry ~$1,182.74, stop below $1,125.30 (~-4.9%)
+- **UNH** — $427.89, cleared $420.87 breakout trigger, MAs Strong Buy. Cited stop reference ($328-335) is a distant support zone, NOT a usable tight stop (~-22%, violates 7-10% stop rule) — data quality flag, needs live-verified tighter stop before any consideration
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Pre-market today: only LNN (Lindsay Corp, ag equipment) scheduled — no major-cap reports
+- Carryover: NKE (Tue 6/30 AMC) beat Street consensus ($0.20 vs $0.11) but missed whisper — stock reaction mixed. Broader tape: HPE +30%, AVAV +19-28% on beats (dates unconfirmed, treat as directional)
+- No same-day earnings catalyst for today's open
+
+### Holdings News (Sub-agent 4 synthesis)
+- RTX — closed $189.73 (7/1), range $187-192, no adverse news, sentiment neutral/positive. Next catalyst: Q2 earnings 7/23. Dividend $0.73 confirmed.
+
+### Trade Ideas
+1. **LLY** — Health Care momentum leader, pullback-to-support setup. Watchlist entry: ~$1,182.74. Stop: below $1,125.30 (~-4.9%). Target: ~$1,297 (2:1+ R:R). Regime check: WATCHLIST ONLY — live-verify support hold before sizing; NFP volatility today argues against chasing pre-data.
+2. **UNH** — Health Care, breakout already triggered above $420.87. Regime check: FAIL — no usable tight stop (only distant $328-335 support cited, ~-22%, breaches 7-10% stop rule). Not actionable until a live technical stop within rule range is confirmed.
+(No earnings catalyst today — both names are sector-momentum-only, LLY the only one with a rule-compliant stop.)
+
+### Risk Factors
+- NFP jobs report at 8:30am ET today — binary volatility event, avoid sizing new entries into the print; wait for post-data settle
+- Market closed Fri 7/3 (July 4 observed) — 3-day weekend ahead; any new position today carries added gap risk with no exit window until Mon 7/6
+- Tech/chip weakness continuing (XLK -3.51% last 5 days) — confirm it isn't broadening into a wider risk-off move
+- UNH setup has a data-quality issue (implausibly wide stop) — do not size off it without live re-verification
+- VIX 16.77 is comfortably mid-CHOP band but not low enough to justify aggressive sizing
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +1.24% vs 50DMA, VIX 16.77). RTX position healthy (+1.55%, trailing stop intact, no action needed). LLY (Health Care pullback, $1,182.74 entry, $1,125.30 stop) is the sole rule-compliant watchlist candidate; UNH not actionable pending a real stop level. NFP print today + holiday-shortened 3-day weekend ahead both argue against forcing a new entry — 1 of 2 CHOP trade slots remain this week if a clean live trigger appears post-NFP. Patience > activity.
