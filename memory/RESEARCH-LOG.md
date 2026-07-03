@@ -1113,3 +1113,29 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-07-03 — Pre-market Research (abbreviated — market closed)
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.12% ($745.71 vs $737.43) | VIX: 16.15
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Market Status
+- NYSE/Nasdaq CLOSED today, Fri Jul 3 — Independence Day observed (Jul 4 falls Saturday). Reopens Mon Jul 6, normal hours. No trading session possible today.
+
+### Logging Gap Flagged
+- No pre-market or EOD entries logged for Jun 30 (Tue), Jul 1 (Wed), Jul 2 (Thu) — 3 trading days with no research/EOD record. Equity moved from $50,422.63 (Jun 29 EOD) to $50,887.50 (live pull today), confirming trading days occurred but routines did not run/log.
+
+### Account Snapshot (live pull, Jul 3, 09:47 ET)
+- Equity: $50,887.50 | Cash: $43,116.75 | Buying power: $194,225.10 | Daytrade count: 0
+- Positions: RTX 39 sh @ $188.75 avg entry, current ~$199.25 (+5.56%, +$409.50 unrealized). 10% trailing stop GTC active (order 9e56a487, stop $179.7255, HWM $199.695) — no tighten action due yet (+15%/+20% thresholds not reached).
+
+### Decision
+HOLD — market closed, no trading possible today. RTX intact, trailing stop active and correctly following the high-water mark. Reassess live Mon Jul 6 pre-market with a fresh regime read. Patience > activity.
+
+---
+
+### Market-Open Check — 09:47 ET
+
+- NO SESSION — market closed for Independence Day (observed), reopens Mon Jul 6. RTX held (39 sh, +5.56% unrealized), 10% trailing stop GTC confirmed active (order 9e56a487, stop $179.73, HWM $199.70). No new entries possible. 1 of 2 CHOP trade slots used this week (RTX buy Jun 29); new week resets Mon Jul 6.
