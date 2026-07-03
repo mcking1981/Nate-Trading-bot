@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 03 — EOD Snapshot (Day 40, Friday — Market Closed, July 4th Observed)
+**Portfolio:** $50,887.50 | **Cash:** $43,116.75 (84.7%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$887.50 (+1.78%)
+**Regime:** CHOP (carried over from Jun 29 pre-market log — no pre-market run Jun 30–Jul 3)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $199.25 | 0.00% | +$409.50 (+5.56%) | $179.7255 (10% trailing GTC, HWM $199.695) |
+**Notes:** Independence Day observed — NYSE closed today (Jul 4 falls on Saturday, market takes the preceding Friday off), no trading session, $0 day P&L. **Logging gap flagged:** no EOD snapshots or pre-market research logged Jun 30–Jul 2 — routine did not run those 3 trading days. Alpaca `balance_asof` confirms last live pricing is 2026-07-02; equity rose from $50,422.63 (last logged, Jun 29 close) to $50,887.50 over the unlogged span, entirely RTX price appreciation ($187.33→$199.25, +6.4%) with no new fills (position still 39sh @ $188.75 cost basis, unchanged). RTX unrealized +5.56% — under the +15% threshold, trail stays at 10% (GTC, HWM $199.695, stop $179.7255), no tightening action needed. 1 of 2 CHOP weekly trade slots used this week (Mon 6/29 RTX buy only); no trades today. Phase P&L +1.78% vs $50,000 launch baseline. Tomorrow: Sat 7/4 and Sun 7/5 market closed; next session Mon 7/6 — pre-market routine should re-run to refresh the stale regime read (last classified Jun 29) and confirm RTX trail is behaving; new week resets 2 of 2 CHOP slots. Patience > activity.
