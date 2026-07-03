@@ -200,3 +200,56 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - If a 7th straight week passes with 0 trades despite confirmed regime-aligned candidates, treat the entry trigger itself (not the setup criteria) as the thing to redesign
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-07-03
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $50,478.01 |
+| Ending portfolio | $50,887.50 |
+| Week return | +$409.49 (+0.81%) |
+| S&P 500 week | +1.76% (7,354.02 Jun 26 close -> 7,483.24 Jul 2 close) |
+| Bot vs S&P | -0.95% |
+| Dominant regime | CHOP (1/1 logged day — Jun 29; NO pre-market/EOD logs Jun 30-Jul 3, regime unverified for 4 of 5 sessions) |
+| Trades | 1 (W:0 / L:0 / open:1) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A (no closed trades; RTX open +5.56% unrealized) |
+| Worst trade | N/A (no closed trades) |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| RTX | $188.75 (39 sh, 6/29) | $199.25 | +$409.50 (+5.56%) | $179.7255 (10% trailing GTC, HWM $199.695, order 9e56a487) |
+
+### What Worked
+- RTX (entered Mon 6/29 on confirmed $190 reclaim trigger) is working — +5.56% unrealized, thesis intact (Navy contract, Jefferies upgrade, backlog), trailing stop advancing with price ($169.79 -> $179.73 HWM)
+- Disciplined entry process held on 6/29: CAT skipped as a falling knife (3 straight down days, no bullish catalyst) and FCX skipped (no defined level) rather than forcing 2 of 2 trade slots
+- 2nd trade in 6 weeks continues the improvement from the "watchlist never converts" pattern flagged in the last 3 reviews
+
+### What Didn't Work
+- **Critical process failure: zero pre-market or EOD logging for Jun 30, Jul 1, Jul 2, or Jul 3 — 4 of 5 trading days this week have no record in RESEARCH-LOG.md or TRADE-LOG.md.** This is worse than the 1-2 day gaps flagged in the prior three weekly reviews and means the regime read, trade decisions, and stop management for nearly the entire week are unverifiable from memory files
+- Account data (pulled live via Alpaca) shows equity moved from $50,422.63 (Mon EOD) to $50,887.50 (as of Jul 2) with no narrative explaining the path — cannot confirm whether any setups were missed or extra trades were considered during the blackout
+- Bot underperformed S&P by -0.95% this week despite a winning open position — RTX's gain didn't fully keep pace with the broader market's +1.76% week
+- The recurring logging-gap issue flagged in the 6/12, 6/19, and 6/26 reviews was never actually fixed — it has now escalated from occasional single-day gaps to a 4-day total blackout
+
+### Key Lessons
+- The entry-trigger conversion problem (flagged in 3 prior reviews) is improving — 2 trades in the last 6 weeks vs. 1 trade in the prior 5 — but it's now overshadowed by a much more serious reliability problem: the daily routines themselves are not firing
+- A logging gap this size (4 of 5 days) is no longer a minor note — it should be treated as an incident: something in the scheduled pre-market/EOD automation broke starting Jun 30 and nobody caught it until this Friday review
+- Don't let progress on trade discipline (RTX) mask the fact that the bot ran essentially unsupervised for 4 straight sessions — that's the bigger risk to flag
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P (-0.95%) but last week outperformed (+1.97%), so consecutive-underperformance does not apply, and neither week individually exceeds the 2% trigger. CHECK B: last week's outperformance (+1.97%) was below the >2% trigger, so consecutive-outperformance does not apply regardless of this week's result. CHECK C: RTX is open (not closed, not a loss) and no other trades occurred this week — no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Investigate and fix why pre-market/EOD routines did not run Jun 30-Jul 3 (schedule/cron config) before treating next week's data as reliable — this is now a 4th consecutive review flagging a logging gap and the most severe one yet
+- Hold RTX, let the 10% trailing stop (currently $179.73) continue to work; no action needed absent a stop-out or a -7% manual-cut trigger
+- Resume daily pre-market regime stamps immediately Monday 7/6 so sizing rules stay verifiably active; 1 of 2 CHOP trade slots used this week if the week's slot count carried through the gap correctly
+
+### Overall Grade: D
