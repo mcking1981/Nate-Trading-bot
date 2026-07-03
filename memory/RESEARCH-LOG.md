@@ -1113,3 +1113,58 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-07-03 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.12% ($745.71 vs $737.43) | VIX: 16.15
+*(Regime limits: max 4 positions, max 15%/position (~$7,633), target 60% deployed, max 2 new trades/week)*
+
+### Market Status
+**MARKET CLOSED TODAY** — Independence Day (Jul 4) falls on Saturday; NYSE observes the holiday on Friday 7/3. No trading session possible. Research run to refresh the watchlist for Monday 7/6 open.
+
+### Account Snapshot
+- Equity: $50,887.50 | Cash: $43,116.75 | Buying power: $194,225.10 | Daytrade count: 0
+- Positions: RTX — 39 sh @ $188.75 entry, current $199.25 (+5.56% unrealized, +$409.50) | Stop: 10% trailing GTC, HWM $199.695, stop $179.7255 (order 9e56a487)
+- Open orders: 1 (RTX trailing stop, status new)
+- balance_asof: 2026-07-02
+
+### Macro (Sub-agent 1 synthesis)
+- Oil: WTI ~$68.65-68.70 (flat), Brent ~$71.90-71.96 (+0.4-0.5%)
+- Futures: ES (Sep) 7551.25, +23pts (+0.31%) — mildly bullish, but moot with market closed
+- VIX: cash ~15.98-16.45; futures curve in contango (Jul 17.75 → Dec 20.75) — low realized vol now, market pricing more vol later in year
+- DXY: ~100.56-100.81, flat/slightly down, still firm near 52wk high
+- 10Y yield: 4.49% (+1bp), +14bp YoY
+- Econ calendar: market closed for July 4 observance; June jobs report (out 7/2) came in weak (+57K, prior months revised down, unemployment 4.2%) — easing Fed hike bets. Next CPI/PPI 7/14-15, FOMC 7/29
+- Net read: soft jobs data + contango VIX curve = market pricing calm now, more caution ahead; no actionable read today given closure
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD leaders: XLK +33%, XLE +21%, XLI +20% (AI capex, defense budget, oil premiums)
+- Last 5 days: rotation OUT of tech/industrials INTO Financials (XLF +2.18%) and Comm Services (XLC +2.44%); XLK -2.57%, XLI -1.01%
+- **Strongest current momentum: Financials (XLF) and Communication Services (XLC)**
+- **JPM** (Financials) — near ATH ~$334 (52wk range $279-$338). Setup: breakout confirm above $334, uptrending EMAs, RSI approaching overbought. Stop: below 150-day EMA ~$300-310 (~-10%)
+- **META** (Comm Services) — down 14-16% YTD, RSI ~39 (oversold), pulled back toward 52wk low ~$520 (52wk high ~$794). Setup: reversal/VWAP reclaim off oversold base. Stop: below 52wk low ~$520
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No major pre-market prints today (market closed); ASOS/CRMT scheduled but low-relevance small caps
+- Yesterday (7/2) AH notable: HPE +30% (huge beat), AeroVironment +28% (backlog $1.2B, defense-adjacent to RTX theme), Nike beat + $986M tariff refund guided, Oracle -8% despite beat (capital-raise concerns), CrowdStrike -10% despite beat, Cerebras -10% (margin guidance), SentinelOne -8% (headcount cuts)
+- Next earnings cluster: Tue 7/7 (Penguin Solutions, Enerpac); banks (JPM, BAC, C, WFC) kick off 7/14 — JPM earnings is a live event risk for the JPM watchlist idea below
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX** — closed $199.25 Thu 7/2 (+3.90%), broad defense-sector rally (LMT, NOC, LHX also up), no fresh company-specific catalyst. Now +5.56% unrealized. Next earnings 7/23. 52wk range $142.98-$214.50.
+
+### Trade Ideas
+(No earnings catalyst and market closed today — using Sector Scout's named tickers as conditional/watchlist setups for Monday 7/6, not live trade ideas.)
+1. **JPM** — Financials momentum leader, breakout setup. Watchlist entry: confirmed break/close above $334. Stop: ~$300-310 (~-10%). Target: prior extension zone / new highs (~2:1+ R:R from breakout). Regime check: WATCHLIST ONLY — live-verify breakout Monday; note JPM earnings 7/14 is a soft ceiling on holding period.
+2. **META** — Comm Services, oversold reversal setup. Watchlist entry: stabilization/VWAP reclaim off the ~$520 base. Stop: below 52wk low ~$520 (tight — needs live confirmation of a defensible stop distance before sizing). Target: TBD live (prior support/resistance zones). Regime check: WATCHLIST ONLY — oversold does not equal confirmed reversal; wait for live trigger, do not catch the falling knife.
+
+### Risk Factors
+- Market closed today — no fills possible; all levels above are stale until Monday's open and must be re-verified live
+- Weak June jobs report (+57K, downward revisions) plus VIX term-structure contango suggests complacency now, risk of a vol spike later — don't read today's calm as durable
+- RTX now +5.56% unrealized — approaching regime watch zone; per strategy, tighten trail to 7% at +15% gain (not yet triggered) — no action needed today, monitor Monday
+- JPM idea carries earnings-date risk (reports 7/14) — factor into position hold-time if triggered
+- META is a reversal/oversold thesis, inherently higher-risk than a momentum continuation setup — require clear stabilization before any entry
+
+### Decision
+HOLD — Market closed today (Jul 4 holiday observed Fri 7/3), no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). RTX position holding steady at +5.56%, stop unchanged (not yet at +15% tighten trigger). JPM (Financials breakout) and META (Comm Services oversold reversal) carried as Monday 7/6 watchlist items — live-verify before any entry. 2 of 2 CHOP trade slots available for the week. Patience > activity.
