@@ -148,7 +148,6 @@ TRADE — WDAY is the priority. First trading day of week; 2 trade slots availab
 - **DXY:** 100.07 (+0.66%), up ~2.1% over 4 weeks — dollar strengthening on rate-hike repricing
 - **10Y yield:** ~4.52-4.55% (+6bps) — jumped on hot jobs data, fueling year-end hike bets
 - **Econ calendar:** No major US releases today (Sunday); Friday's hot jobs report is the dominant driver; next CPI/FOMC later in June
-
 ### Sector Momentum (Sub-agent 2 synthesis)
 - **YTD leaders:** XLK +34.3%, XLE +32.3%, XLI +13.9%, XLB +11.5%
 - **YTD laggards:** XLF -4.2%, XLV -1.4%
@@ -1049,7 +1048,7 @@ HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY -0.73
 - Sticky core PCE (3.4%, above Fed target) plus dollar weakness — mixed macro signal, no clear directional edge
 
 ### Decision
-HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY -0.73% vs 50DMA, VIX 18.41). RTX (Industrials, reclaim $190, stop $178) carried as the sole live Monday 6/29 watchlist item — act on the first confirmed live trigger per the standing directive rather than waiting for further confirmation. LLY dropped (extended past entry zone). 2 of 2 CHOP trade slots available for the week starting Mon 6/29. Patience > activity.
+HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY -0.73% vs 50DMA, VIX 18.41). RTX (reclaim $190, stop $178) carried as the sole live Monday 6/29 watchlist item — act on the first confirmed live trigger per the standing directive rather than waiting for further confirmation. LLY dropped (extended past entry zone). 2 of 2 CHOP trade slots available for the week starting Mon 6/29. Patience > activity.
 
 ---
 
@@ -1113,3 +1112,57 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 - NO CONFIRMED SETUP — CAT at ~$997-1,000 vs $980-1,000 pullback zone, in-zone but skipped: 3rd straight down day (-3.61% 6/23, -4.31% 6/26, -5.4 to -5.6% today) driven by negative fundamentals (tariff headwind, margin compression, hawkish Fed) — falling knife, not a healthy dip-buy; no bullish catalyst documented.
 - NO CONFIRMED SETUP — FCX at ~$62.45, no defined entry/stop level was set pre-market ("level TBD live") — no testable trigger, skipped.
 - Note: Alpaca `quote` endpoint returned anomalously wide spreads (e.g. RTX bid $177.84/ask $197.87) — cross-verified live prices via web search before acting.
+
+---
+
+## 2026-07-05 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.12% ($745.71 vs $737.43) | VIX: 16.15
+*(Regime limits: max 4 positions, max 15%/position (~$7,633), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,887.50 | Cash: $43,116.75 (84.7%) | Buying power: $194,225.10 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $199.25 (+5.6%, +$409.50 unrealized) | Open orders: RTX 10% trailing stop GTC @ $179.7255 (HWM $199.695)
+- Today is Sunday — US markets closed, no trading session possible. Research run to refresh Monday 7/6 watchlist.
+- **Logging gap flagged:** no pre-market/EOD entries logged Jun 30-Jul 3 (Tue-Fri, Jul 3 a half day pre-holiday) — same recurring issue flagged in prior weekly reviews. Equity moved from $50,422.63 (Jun 29 EOD) to $50,887.50 (current), consistent with RTX's run to $199.25 and no new fills; no unlogged trades apparent, but the regime/thesis record for that stretch is unverified.
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $68.78 (+0.13%), Brent $72.12 (+0.45%) — flat, no supply shock
+- **Futures (as of last session):** S&P 500 +0.38%, Nasdaq 100 +1.17%, Dow -0.04% — modestly risk-on, tech-led
+- **VIX:** 16.15 (Jul 2 close, -2.65%) — low-vol, complacent tape
+- **DXY:** 100.86, flat day-over-day, -1.45% over the month — dollar softening
+- **10Y yield:** 4.49% (+1bp) — June jobs report (Thu 7/2) showed only +57K jobs vs 115K est., unemployment 4.2% (participation drop); cut Fed Sept hike odds to ~50% from ~64%
+- **Econ calendar:** Nothing today or Monday. Next catalysts: CPI Jul 14, PPI Jul 15, FOMC decision Jul 29
+- Net read: low VIX + soft jobs data + weakening dollar + flat oil = calm, mildly bullish setup, no major data risk until CPI (Jul 14)
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33%, XLE +21%, XLI +20%. Laggard: XLF -5% YTD (but strongest recent bounce, +2.2% last 5d)
+- **Last 5-day leaders:** Industrials, Consumer Defensive, Energy; Tech/Comm Services lagging
+- **Strongest current momentum: Industrials (XLI)** — only sector combining YTD leadership with sustained near-term strength (AI-datacenter buildout + defense spend)
+- **CAT** (Industrials) — ~$991, RSI 33 (oversold) after a pullback from highs. Setup: watch reclaim above $1,004 breakout level, stop $960.74 (~-3.6%), target ~$1,084 (+9%, ~2.5:1 R:R)
+- **GEV** (GE Vernova, Industrials) — ~$1,042, pulled back 5.8% from 52wk high $1,182, sitting between 20d MA ($989) and 50d MA ($1,030) support. Setup: entry on reclaim of $1,070 (5d MA), stop below $1,030 (~-3.7%), resistance/target $1,150 (~2:1 R:R)
+- Note: adding CAT or GEV would stack a second Industrials position alongside existing RTX (also Industrials/Aerospace-Defense) — sector concentration risk to weigh against CHOP's 4-position cap
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Thu 7/2 close (last session): no mega-cap reports; broad tape soft on the jobs miss (XLK -2.6%)
+- Mon 7/6 pre-market: light calendar, no major blue-chips (PKE, ASOS, CRMT — none portfolio-relevant)
+- Week of 7/6: PEP reports Thu 7/9 (est. $2.21 EPS), DAL reports Fri 7/10 (est. $1.47 EPS, analysts expect a beat) — the week's marquee names. Big banks (JPM/GS/BAC/WFC/C) report the following week (7/14). RTX earnings not until Jul 23 — outside this window.
+- No same-day earnings catalyst for Monday's open
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** Closed Thu 7/2 at $199.25 (+3.9%), near 52wk high ($214.50). Tailwinds: $1.1B AIM-9X missile contract, $1.11B Navy contract mod, Citi reiterated Buy (UBS at Hold). No negative catalysts. Earnings not until Jul 23. Thesis intact, position healthy at +5.6%.
+
+### Trade Ideas
+(No earnings catalyst for Monday — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **CAT** — Industrials, oversold pullback setup. Watchlist entry: reclaim above $1,004. Stop: $960.74 (~-3.6%). Target: ~$1,084 (~2.5:1 R:R). Regime check: WATCHLIST ONLY — live-verify reclaim before sizing; would stack Industrials exposure on top of RTX.
+2. **GEV** — Industrials, pullback-to-support setup. Watchlist entry: reclaim of $1,070. Stop: below $1,030 (~-3.7%). Target: $1,150 (~2:1 R:R). Regime check: WATCHLIST ONLY — live-verify reclaim before sizing; same sector-concentration caveat as CAT.
+
+### Risk Factors
+- Sector concentration: both watchlist candidates (CAT, GEV) are Industrials, the same sector as the existing RTX position — adding either would leave the book 2/2 (or more) concentrated in one sector, against "follow sector momentum" but worth weighing position-level diversification before sizing
+- Logging gap Jun 30-Jul 3 (4 trading days incl. a half day) — regime/thesis record for that stretch is unverified; recommend investigating cron/schedule config per the standing note from the Jun 26 weekly review
+- Soft June jobs report (57K vs 115K est.) is a genuine labor-market cooling signal, not just a benign "Fed cut hopes" headline — watch for follow-through weakness in coming data (next print not until early Aug)
+- VIX at 16.15 (low-CHOP band) reflects a complacent tape with no near-term catalyst (next major print CPI Jul 14) — low realized vol can compress quickly on a surprise
+- RTX now up +5.6% from entry — approaching but not yet at the +15% trailing-stop-tighten threshold (would tighten to 7% trail); continue monitoring, no action needed yet
+
+### Decision
+HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
