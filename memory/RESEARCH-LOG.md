@@ -148,6 +148,7 @@ TRADE — WDAY is the priority. First trading day of week; 2 trade slots availab
 - **DXY:** 100.07 (+0.66%), up ~2.1% over 4 weeks — dollar strengthening on rate-hike repricing
 - **10Y yield:** ~4.52-4.55% (+6bps) — jumped on hot jobs data, fueling year-end hike bets
 - **Econ calendar:** No major US releases today (Sunday); Friday's hot jobs report is the dominant driver; next CPI/FOMC later in June
+
 ### Sector Momentum (Sub-agent 2 synthesis)
 - **YTD leaders:** XLK +34.3%, XLE +32.3%, XLI +13.9%, XLB +11.5%
 - **YTD laggards:** XLF -4.2%, XLV -1.4%
@@ -1048,7 +1049,7 @@ HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY -0.73
 - Sticky core PCE (3.4%, above Fed target) plus dollar weakness — mixed macro signal, no clear directional edge
 
 ### Decision
-HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY -0.73% vs 50DMA, VIX 18.41). RTX (reclaim $190, stop $178) carried as the sole live Monday 6/29 watchlist item — act on the first confirmed live trigger per the standing directive rather than waiting for further confirmation. LLY dropped (extended past entry zone). 2 of 2 CHOP trade slots available for the week starting Mon 6/29. Patience > activity.
+HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY -0.73% vs 50DMA, VIX 18.41). RTX (Industrials, reclaim $190, stop $178) carried as the sole live Monday 6/29 watchlist item — act on the first confirmed live trigger per the standing directive rather than waiting for further confirmation. LLY dropped (extended past entry zone). 2 of 2 CHOP trade slots available for the week starting Mon 6/29. Patience > activity.
 
 ---
 
