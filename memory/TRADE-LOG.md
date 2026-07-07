@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 07 — EOD Snapshot (Day 44, Tuesday)
+**Portfolio:** $50,902.71 | **Cash:** $43,116.75 (84.7%) | **Day P&L:** -$67.47 (-0.13%) | **Phase P&L:** +$902.71 (+1.81%)
+**Regime:** CHOP (VIX 16.15, SPY +1.12% vs 50DMA — per Jul 5 pre-market log; stale, no pre-market run Jul 6/7)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $199.64 | -0.86% | +$424.71 (+5.77%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** No trades today. **Logging gap flagged (recurring):** no EOD snapshot or pre-market research logged Jun 30-Jul 4 or for Jul 6 (Mon) and today Jul 7 (Tue) pre-market — same routine-not-running issue flagged in the Jun 26 weekly review and the Jul 5 research entry; cron/schedule config still needs investigating. Used Alpaca's `last_equity` ($50,970.18, Jul 6 close) rather than the stale Jun 29 TRADE-LOG snapshot to compute an accurate Day P&L. RTX continues to run (39sh @ $188.75, now $199.64, +5.77% unrealized, +$424.71) — below the +15% trailing-stop-tighten threshold, 10% trail intact at $183.546 (HWM $203.94), no stop action needed. 0 of 2 CHOP trade slots used this week (Mon 7/6-today), both available. Phase P&L +1.81% vs $50,000 launch baseline. Tomorrow (Wed 7/8): hold RTX, let the trail work; flag the logging gap for a pre-market re-run to refresh the regime read (currently 2 days stale) and surface any fresh watchlist setups. Patience > activity.
