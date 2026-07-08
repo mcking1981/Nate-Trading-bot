@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 08 — EOD Snapshot (Day 45, Wednesday)
+**Portfolio:** $50,692.50 | **Cash:** $43,116.75 (85.05%) | **Day P&L:** -$257.40 (-0.51%) | **Phase P&L:** +$692.50 (+1.39%)
+**Regime:** CHOP (carried over from Jul 5 pre-market log — no pre-market/EOD run logged Jun 30–Jul 7)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $194.25 | -3.29% | +$214.50 (+2.91%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** No trades today — flat except the standing RTX position (39sh @ $188.75), which pulled back from its recent extended high (~$199-214 range seen last week, HWM $203.94) to close $194.25, still +2.91% unrealized. Trailing stop intact at $183.546 (10%, order 9e56a487), well clear (~5.5% cushion) — no stop action needed, position has not hit the +15% tighten-to-7% threshold. **Logging gap flagged:** no pre-market research or EOD snapshot logged Jun 30–Jul 7 (~6 trading sessions) — same recurring cron/schedule issue noted in prior weekly reviews; equity moved from $50,422.63 (Jun 29 EOD, last logged) to $50,692.50 with no unlogged trades apparent (position count/cost basis unchanged), but the regime/thesis record for that stretch is unverified. Regime read is stale (last classified Jul 5, Sunday) — defaulting to CHOP per protocol. 0 of 2 CHOP trade slots used this week (Mon 7/6–today). Phase P&L +1.39% vs $50,000 launch baseline. Tomorrow (Thu 7/9): PEP earnings — no direct portfolio exposure; hold RTX, let the trailing stop work; pre-market routine should re-run to refresh regime/watchlist. Patience > activity.
