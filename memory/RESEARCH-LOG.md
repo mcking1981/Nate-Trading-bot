@@ -1167,3 +1167,57 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-08 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.18% ($747.71 vs $739.01) | VIX: ~18.6 (up from 16.1 Mon 7/7 close, oil-shock driven)
+*(Regime limits: max 4 positions, max 15%/position (~$7,649), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,994.75 | Cash: $43,116.75 (84.6%) | Buying power: $194,525.40 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $202 (+7.02%, +$516.75 unrealized) — now 15.45% of equity, slightly above the 15% CHOP cap via organic appreciation (not a new-entry sizing issue; no trim required, do not add to it)
+- Open orders: RTX 10% trailing stop GTC @ $183.546 (HWM $203.94, order 9e56a487)
+- **Logging gap flagged again:** no TRADE-LOG EOD entries since Jun 29 (Mon 6/30–Tue 7/7 unlogged) — same recurring issue from prior weekly reviews. Equity path unverified for that stretch but consistent with RTX's run (no other fills apparent from live positions/orders).
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$74.6-75.0, Brent ~$78.5-78.7 — both +6%+ overnight after Trump said the Iran ceasefire is over; renewed strike/waiver-revocation fears
+- **Futures:** S&P +0.05%, Nasdaq 100 +0.30%, Dow -0.11% — broadly flat despite the oil spike
+- **VIX:** 16.1 (Jul 7 close, +3.6% d/d), front-month futures 17.5-18.6 — mild uptick, not a fear spike yet
+- **DXY:** ~101.1-101.4, firm on oil-driven yield rise
+- **10Y yield:** 4.55-4.58% (+2bp), highest since late May
+- **Econ calendar:** Nothing major today; CPI/PPI Jul 14-15, FOMC Jul 29 — today's driver is pure geopolitics/oil, not data
+- Net read: oil-shock/inflation-risk regime — equities resilient so far, but yields and dollar both rising
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** Industrials +16%, Consumer Staples +13.3%, Energy — rotation out of Tech/Comm Services continuing
+- **Last 5-day leaders:** Financials (XLF) +4.50%, Materials (XLB) +2.61%, Comm Svcs (XLC) +2.16%, Industrials (XLI) +1.53%. Laggards: Tech -0.99%, Real Estate -1.40%, Utilities -1.56%
+- **Strongest current momentum: Financials & Materials**
+- **JPM** (Financials) — $339.22, near ATH ($343.45). Setup: breakout entry $339-343, stop below ~$320 (prior support $299-312)
+- **FCX** (Materials/copper) — $70.90, near ATH ($71.72/$72.09). Setup: breakout entry >$72, stop below ~$65-69
+- **Industrials concentration flag:** existing RTX position already covers Industrials — do not add a second Industrials name even though XLI remains a YTD leader
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Light BMO slate: HELE, LEVI (calendar ambiguous on timing), small-caps (PSMT/AZZ/TMQ/PCYO/IMMR) — no notable large-cap beats/misses confirmed
+- No major AMC report confirmed for 7/7 specifically; recent-week context: HPE +30%, AVAV +19-28% on defense backlog
+- **RTX:** no earnings report — Q2 confirmed for Jul 23 (BMO). Prior quarter beat by 17%. No same-day earnings catalyst today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** $201.37 (+0.37%). Fresh contract wins reported 7/7 — NATO/AMRAAM missile expansion in Europe, Stinger production boost with European partners. No negative catalysts; thesis intact/strengthened. RSI ~69 (near overbought) — watch for pullback risk given the extended run, but no reversal signal.
+
+### Trade Ideas
+(No earnings catalyst today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **JPM** — Financials, breakout-continuation setup at all-time highs. Watchlist entry: confirmed push through $339-343. Stop: below ~$320 (~-6%). Target: new highs, open-ended (trend continuation). Regime check: WATCHLIST ONLY — chase risk at ATH, require volume confirmation before sizing.
+2. **FCX** — Materials/copper, tight consolidation near highs. Watchlist entry: breakout above $72. Stop: below ~$65-69 (~-6 to -9%). Regime check: WATCHLIST ONLY — same ATH chase-risk caveat as JPM.
+3. RTX — HOLD existing position, no action. Thesis intact/strengthened (new NATO/Stinger contract wins), 10% trailing stop working (HWM $203.94), +7.02% unrealized — not yet at the +15% tighten-to-7% threshold.
+
+### Risk Factors
+- **Oil/geopolitical shock:** WTI/Brent +6%+ overnight on Trump declaring the Iran ceasefire over — genuine escalation risk, not a routine move. 10Y yield at highest since late May and DXY firm — classic risk-off inputs even though equity futures are still roughly flat. No new sizing into energy-sensitive or high-beta names until this resolves.
+- RTX position has organically grown to 15.45% of equity, slightly above the CHOP 15%/position cap — a monitoring note only (existing position, not a new trade), but reinforces not adding to it.
+- Both watchlist candidates (JPM, FCX) sit at/near all-time highs — real chase risk, need confirmed breakout with volume, not a pullback entry.
+- Logging gap Jun 30-Jul 7 (TRADE-LOG EOD snapshots) — same unresolved process issue flagged in the last 3 weekly reviews.
+- RTX RSI ~69 (near overbought) after a strong run — no reversal signal yet, but a pullback here would not be a thesis break.
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +1.18% vs 50DMA, VIX ~18.6). Existing RTX position healthy (+7.02%, thesis intact/strengthened, trailing stop working, no action needed). JPM (breakout >$339-343) and FCX (breakout >$72) carried as watchlist-only conditional setups — both at ATH, chase risk, require confirmed volume before sizing. Oil/geopolitical shock (Iran ceasefire ended) argues for extra caution today. 2 of 2 CHOP trade slots available this week (no trades yet since Jun 29). Patience > activity.
