@@ -1167,3 +1167,35 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-09 — Pre-market Recovery (inline, Steps 1-3a only)
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.02% ($745.34 vs $745.21) | VIX: ~16.6-16.9
+*(Regime limits: max 4 positions, max 15%/position (~$7,606), target 60% deployed, max 2 new trades/week)*
+
+**Logging gap flagged (recurring):** no pre-market/market-open/EOD entries logged Jul 6-8 (Mon-Wed, 3 trading days) — same systemic gap pattern flagged in prior weekly reviews (also occurred Jun 23-25, Jun 30-Jul 3). Equity moved from $50,887.50 (Jul 5 snapshot) to $50,710.64 (current), consistent with RTX price drift (no unlogged trades apparent — trailing stop order history shows only its scheduled HWM updates, last touched 7/7). Full pre-market research (macro/sector/earnings synthesis) was NOT re-run — this is a regime-stamp-only recovery per market-open protocol; sector/catalyst data below is carried from Jul 5 and re-verified live where a trade was under consideration.
+
+### Account Snapshot
+- Equity: $50,710.64 | Cash: $43,116.75 (85.0%) | Buying power: $193,729.88 | Daytrade count: n/a (equity > $25k, PDT-exempt)
+- Positions: RTX 39sh @ $188.75, current $194.72 (+3.16%, +$232.64 unrealized), 14.97% of equity
+- Open orders: RTX 10% trailing stop GTC @ $183.546 (HWM $203.94, order 9e56a487)
+- Trades this week (Mon 7/6-today): 0 of 2 CHOP slots used
+
+### Watchlist Re-check (carried from Jul 5, live-verified)
+- **CAT** — trigger: reclaim above $1,004, stop $960.74. Live: ~$963.57 (bid $962.28/ask $964.86). BELOW trigger — unconfirmed, carry forward.
+- **GEV** — trigger: reclaim of $1,070, stop below $1,030, target $1,150. Live: ~$1,091 (bid $1,089.22/ask $1,093.69) — technically inside the 0-3% confirmation band above trigger. **Skipped despite being in-zone:** news check shows GEV fell 10% intraday on Jul 7 (broad market downturn) before bouncing back to reclaim $1,070 — this reads as volatile mean-reversion off a sharp drop, not a clean sector-momentum breakout from stable support as the Jul 5 setup envisioned. Earnings Jul 22 adds event risk. No fresh company-specific catalyst found. Same logic as the CAT "falling knife" skip on 6/29 — technical zone match alone isn't sufficient without a clean, stable setup and documented catalyst.
+- **RTX (existing position):** news check shows no negative catalyst during the gap — Zacks Rank #2 (Buy), Q2 earnings not until Jul 23, thesis intact. Unrealized +3.16%, well below +15% tighten threshold. No stop action needed.
+
+### Decision
+HOLD — no new trades. Regime CHOP confirmed (SPY +0.02% vs 50DMA, VIX ~16.7). RTX position healthy, stop unchanged. CAT still below trigger. GEV technically in confirmation zone but skipped — bounce off a 10% single-day drop, not a stable breakout, no fresh catalyst. 2 of 2 CHOP trade slots available this week. Recommend a full pre-market re-run tomorrow to refresh sector/catalyst data (current watchlist is now 4 days stale) and to investigate why the routine did not run Jul 6-8. Patience > activity.
+
+---
+
+### Market-Open Check — 09:48 ET
+
+- NO CONFIRMED SETUP — RTX: existing position, no new entry needed. Thesis intact (Buy rating, no negative news), unrealized +3.16%, 10% trailing stop GTC active @ $183.546 (HWM $203.94). No action.
+- NO CONFIRMED SETUP — CAT at ~$963.57 vs $1,004 trigger — below trigger, not in zone. Carry forward to watchlist.
+- NO CONFIRMED SETUP — GEV at ~$1,091 vs $1,070 trigger — technically in the 0-3% confirmation zone, but skipped: bounced off a 10% single-day drop (Jul 7) amid a broad market downturn rather than a stable breakout; no fresh catalyst; earnings Jul 22 adds near-term event risk. Dropped from today's actionable watchlist, may reassess after a fresh pre-market run.
+- 0 of 2 CHOP trade slots used this week. No orders placed today.
