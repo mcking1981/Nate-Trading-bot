@@ -1167,3 +1167,47 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-09 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.86% ($745.40 vs $739.01) | VIX: 16.90
+*(Regime limits: max 4 positions, max 15%/position (~$7,607), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,710.05 | Cash: $43,116.75 (85.0%) | Buying power: $193,728.24 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $194.70 (+3.15%, +$232.05 unrealized) — **14.97% of equity, at the CHOP 15%/position cap**
+- Open orders: RTX 10% trailing stop GTC @ $183.546 (HWM $203.94 — price has pulled back ~4.5% off that high)
+- **Logging gap:** no pre-market/EOD entries Jul 6-8 (Mon-Wed) — regime/thesis record for that stretch unverified. No weekly review filed for week ending Jul 3 either. Recurring issue flagged in multiple prior weekly reviews.
+
+### Macro (Sub-agent 1 synthesis)
+Oil spiking on renewed US-Iran tensions: WTI $73.23-74.29, Brent $77.78-78.88. Futures modestly green overnight (S&P +0.14%, Dow +0.13%, Nasdaq +0.15%). VIX 16.90 (+4.77% Jul 8). DXY ~101.04, flat/firm. 10Y yield 4.58% — highest since May, pressured by hawkish FOMC June minutes (released Jul 8, some members eyeing further hikes) plus energy-driven inflation risk. No major US data today; next catalysts CPI Jul 14, PPI Jul 15, FOMC Jul 29. Net read: rising yields + rising oil + hawkish Fed = inflation/geopolitical-risk regime, not pure risk-off (futures still green, VIX moderate).
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +30-33%, XLE +26%, XLB +12-14%; XLF laggard YTD. **Last-5-day: rotation OUT of tech into value/defensive** — XLF +4.55%, XLV +3.64%, XLC +3.63%, XLE +2.88%, while XLK is now worst 5-day performer (-5.95%) and **XLI (RTX's own sector) also weak (-1.54%)**. Strongest current momentum: **Financials & Health Care**.
+- **JPM** (~$330.62): pulled back from ATH $339.22. Entry on reclaim/hold $328-330, stop <$324 (-1.8%), target $342-352 (+3.6-6.7%).
+- **UNH** (~$426-428): continuation breakout setup. Target $465.59 (+9.4%), stop $416.38 (-2.2%), ~4.3:1 R:R.
+No Industrials name recommended — avoids stacking sector risk on RTX, and Industrials is the weakest 5-day sector anyway.
+
+### Earnings Today (Sub-agent 3 synthesis)
+PEP and PGR reported BMO today but confirmed actual beat/miss figures not yet in feeds (consensus PEP $2.19-2.21, PGR $4.62). No confirmed AH beats/misses from yesterday (WDFC, SLP, FEIM all pending). DAL reports Fri 7/10 BMO. Big banks (JPM/BAC/GS/WFC/C) report Tue 7/14. RTX's own earnings not until ~Jul 23. No same-day earnings catalyst for a new trade today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** Closed $194.91 (-2.96%) Jul 8, pre-market ~$195.00. Analyst consensus Buy, PT $202.67. New UK Engineering Center opened. No negative headlines. Q2 earnings Jul 23. Thesis intact.
+
+### Trade Ideas
+(No earnings catalyst today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **JPM** — Financials, momentum leader (5-day +4.55%), pullback-to-support setup. Watchlist entry: reclaim/hold $328-330. Stop: $324 (~-1.8%). Target: $342-352 (~2-3.7:1 R:R). Regime check: WATCHLIST ONLY — live-verify before sizing; would be the book's first Financials exposure.
+2. **UNH** — Health Care, momentum leader (5-day +3.64%), continuation breakout. Watchlist entry: confirm breakout hold. Stop: $416.38 (~-2.2%). Target: $465.59 (~4.3:1 R:R). Regime check: WATCHLIST ONLY — live-verify before sizing.
+
+### Risk Factors
+- RTX position already at 14.97% of equity — effectively at the CHOP 15%/position cap; any further appreciation or an add would need a trim to stay compliant, no averaging up here
+- RTX has pulled back ~4.5% off its high-water mark ($203.94 → ~$194.70) — 10% trailing stop is working as designed (stop still $183.546, well below current price), no manual action needed, but a sector that's now the weakest 5-day performer (XLI -1.54%) bears watching for thesis erosion vs. just normal pullback
+- Oil spiking on fresh US-Iran tensions (WTI +/-$74, Brent ~$78) alongside a 10Y yield at a 2-month high (4.58%) and hawkish FOMC minutes — a genuine inflation/rate headwind for equities broadly, not just a benign geopolitical blip
+- Sector rotation OUT of Tech and Industrials INTO Financials/Health Care — JPM/UNH candidates are momentum-aligned but represent brand-new sector exposure for the book (no existing Financials or Health Care position to compare against)
+- No earnings catalyst confirmed for today — JPM/UNH are sector-momentum-only setups, neither yet validated with a live trigger
+- Logging gap Jul 6-8 (3 trading days) plus missing Jul 3 weekly review — same recurring process issue flagged in the last several weekly reviews, unresolved
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +0.86% vs 50DMA, VIX 16.90). RTX position healthy (+3.15%, thesis intact, trailing stop working, no action needed) but already at the 15% CHOP position cap — no add. JPM (reclaim $328-330) and UNH (breakout hold) carried as watchlist items in the week's leading sectors (Financials, Health Care) — live-verify trigger before sizing either; neither has an earnings catalyst today. 2 of 2 CHOP trade slots available this week. Patience > activity.
