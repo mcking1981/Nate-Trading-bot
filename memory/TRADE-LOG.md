@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 09 — EOD Snapshot (Day 46, Thursday)
+**Portfolio:** $50,729.55 | **Cash:** $43,116.75 (85.0%) | **Day P&L:** +$11.31 (+0.02%) | **Phase P&L:** +$729.55 (+1.46%)
+**Regime:** CHOP (defaulted — no pre-market run since Jul 5; last confirmed regime read Jul 5: CHOP, VIX 16.15, SPY +1.12% vs 50DMA)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $195.20 | +0.15% | +$251.55 (+3.42%) | $183.546 (10% trailing GTC, HWM $203.94, order 9e56a487) |
+**Notes:** No trades today — flat action, RTX held all session, position healthy at +3.42% unrealized (thesis intact, well below the +15% trail-tighten threshold). 0 of 2 CHOP trade slots used this week (Mon 7/6–today, fully unused) — CAT (reclaim $1,004) and GEV (reclaim $1,070) were the Jul 5 watchlist items but no live-verify/trigger check happened since no pre-market has run this week. **Logging gap flagged (recurring):** no pre-market or EOD entries logged Jul 6, 7, 8, or 9 until this run — same cron/schedule issue flagged in the Jul 5 pre-market log and prior weekly reviews; regime defaulted to CHOP (conservative) per standing protocol since the block was missing. Day P&L computed off Alpaca's last_equity ($50,718.24, 7/8 close) since TRADE-LOG's last EOD snapshot (Jun 29) predates the gap. Phase P&L +1.46% vs $50,000 launch baseline. Tomorrow (Fri 7/10): DAL earnings AMC (no direct portfolio exposure); priority is getting pre-market/EOD routines running again to restore the daily record and re-verify CAT/GEV triggers live. Patience > activity.
