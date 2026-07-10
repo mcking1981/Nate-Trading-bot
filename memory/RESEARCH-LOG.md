@@ -1167,3 +1167,57 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-10 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.02% ($745.34 vs $745.21) | VIX: ~16.9-17.7
+*(Regime limits: max 4 positions, max 15%/position (~$7,607), target 60% deployed, max 2 new trades/week)*
+
+> **Logging gap flagged:** no pre-market/EOD entries logged Jul 6-9 (Mon-Thu) — same recurring issue flagged in prior weekly reviews. Equity moved from $50,887.50 (Jul 5 log) to $50,710.83 (current), consistent with RTX's pullback from its high (HWM $203.94 -> $194.72) and no new fills; no unlogged trades apparent, but the regime/thesis record for that stretch is unverified.
+
+### Account Snapshot
+- Equity: $50,710.83 | Cash: $43,116.75 (85.0%) | Buying power: $193,730.42 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $194.72 (+3.16%, +$232.83 unrealized) | Open orders: RTX 10% trailing stop GTC @ $183.546 (HWM $203.94, order 9e56a487)
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$73-75, Brent ~$77-79 — elevated/volatile on renewed US-Iran tension, $4-6 swings this week
+- **S&P futures:** ES ~7,570, roughly flat/slightly positive, off recent highs near 7,600s
+- **VIX:** ~16.9-17.7, ticking up ~5% intraday — still mid-CHOP band
+- **DXY:** ~101.0, flat, holding gains after US strikes on Iran
+- **10Y yield:** ~4.56-4.58%, near highest since May — hawkish June FOMC minutes + energy-driven inflation risk
+- **Econ calendar:** No major US releases today. Next catalysts: CPI 7/14, PPI 7/15, FOMC 7/29
+- Net read: mild risk-off undertone (oil spike + Iran tension + hawkish minutes pushing yields/VIX up together) but light data day; headline risk dominates over hard data
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +26.3%, XLE +26.1%, XLI +16.9%
+- **Last 5-day leaders:** XLF +4.55%, XLV +3.64%, XLC +3.63%, XLE +2.88%; XLI -1.54% and XLK -5.95% cooling off
+- **Best momentum: Financials (XLF) and Health Care (XLV)** — fresh rotation leaders; Industrials has stalled (bearish for CAT/GEV — deprioritize, avoid stacking more Industrials on top of existing RTX)
+- **JPM** (Financials) — triple-top breakout confirmed 7/5, $330.62, ATH close $339.22. Entry: pullback to $315-320 support or confirmed hold above $330. Stop: ~$300 (~-6 to -9%). Target: new highs $356+ (~2:1 R:R)
+- **LLY** (Health Care) — pulling back from ATH $1,249 to ~$1,216. Entry: reclaim of $1,230 or pullback to $1,150-1,170. Stop: below $1,130 (~-7%). Target: new highs $1,400+ (~2:1 R:R)
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **DAL** (Delta) reported BMO — beat consensus (~$1.44-1.48 EPS est) but stock down ~1.15% to $91.68, soft/mixed reaction on guidance despite 4 straight beat streak — caution on airline-sector entries, not actionable
+- No other large-cap prints today (only micro-caps)
+- **AH 7/9:** PEP beat ($2.21 EPS), WD-40 beat — no read-through to current watchlist
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** ~$194.72 (vs $195.20 7/9 close), thesis intact — no negative catalysts found (NATO missile-demand tailwind continues). Q2 earnings confirmed Jul 23 (unchanged, not this week). Analyst consensus Buy, avg target $202-215. Position +3.16% from entry, pulled back from a recent high (HWM $203.94); 10% trailing stop GTC at $183.546 working as designed, no action needed.
+
+### Trade Ideas
+(No earnings catalyst for today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **JPM** — Financials, confirmed breakout leader. Watchlist entry: pullback to $315-320 or hold above $330. Stop: ~$300 (-9%). Target: $356+ (2:1 R:R). Regime check: WATCHLIST ONLY — live-verify at open; would diversify away from existing Industrials (RTX) exposure.
+2. **LLY** — Health Care, pullback-to-support setup. Watchlist entry: reclaim $1,230 or pullback to $1,150-1,170. Stop: below $1,130 (-7%). Target: $1,400+ (2:1 R:R). Regime check: WATCHLIST ONLY — live-verify at open.
+3. CAT/GEV (Industrials) — DROP from active watchlist; sector momentum stalled (XLI -1.54% 5-day) and would stack sector concentration on top of RTX. Re-add only if XLI momentum resumes.
+
+### Risk Factors
+- Oil spike (WTI $73-75) on renewed US-Iran tension — geopolitical headline risk, could push VIX toward upper CHOP band if it escalates
+- 10Y yield near highest since May (4.56-4.58%) on hawkish FOMC minutes — headwind for growth/duration-sensitive names (weighs against chasing LLY at elevated multiple)
+- DAL beat-but-sold-off — pattern of muted reactions to in-line beats persists into Q2 earnings season; don't assume a beat = entry signal
+- Logging gap Jul 6-9 (4 trading days) — regime/thesis record for that stretch unverified; recommend investigating cron/schedule config per standing note from prior weekly reviews
+- CHOP regime: VIX ~17 mid-band — base sizing limits apply (max 4 positions, max 15%/position, 2 new trades/week)
+- RTX +3.16%, well below the +15%/+20% trailing-stop-tighten thresholds — no action needed, but monitor
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +0.02% vs 50DMA, VIX ~17). Existing RTX position healthy (+3.16%, thesis intact, 10% trailing stop working, no action needed). JPM (Financials, breakout) and LLY (Health Care, pullback) carried as live watchlist items — diversify away from Industrials, live-verify trigger before sizing either. CAT/GEV dropped (Industrials momentum stalled). 2 of 2 CHOP trade slots available this week (week of Mon 7/6, no trades yet). Patience > activity.
