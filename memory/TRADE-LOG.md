@@ -262,3 +262,14 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — EOD Snapshot (Day 47, Friday)
+**Portfolio:** $50,911.53 | **Cash:** $35,631.72 (70.0%) | **Day P&L:** +$181.98 (+0.36%) | **Phase P&L:** +$911.53 (+1.82%)
+**Regime:** CHOP (carried over from Jul 5 pre-market log — no pre-market/EOD entries logged Jun 30–Jul 9)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $195.93 | +0.37% | +$280.02 (+3.80%) | $183.546 (10% trailing GTC, HWM $203.94) |
+| GEV | 7 | $1,069.29 | $1,091.22 | +1.48% | +$153.51 (+2.05%) | $992.511 (10% trailing GTC, HWM $1,102.79) |
+**Notes:** **Major logging gap:** no TRADE-LOG or RESEARCH-LOG entries between Jun 29 EOD and today except a Jul 5 (Sunday) catch-up research run — pre-market/EOD routines did not log Jun 30–Jul 4 or Jul 6–9. A new GEV position (7sh @ $1,069.29, $7,485.03, ~14.7% of equity) is live with a 10% trailing GTC stop (order d3eaba2d, HWM $1,102.79) — its stop order was created 2026-07-10, consistent with today's fill on the Jul 5 watchlist trigger (reclaim of $1,070), but **no Trade Log entry documents the entry decision or thesis** for this $7,485 position. Both RTX and GEV are Industrials — the sector-concentration risk flagged in the Jul 5 research is now live (2/2 positions in one sector). Both positions healthy: RTX +3.80% unrealized, GEV +2.05% unrealized; equity up $181.98 (+0.36%) day-over-day. Trades this week: 1 (GEV, assumed today) of 2 CHOP slots, unconfirmed due to the logging gap. Phase P&L +1.82% vs $50,000 launch baseline. Tomorrow (Sat 7/11): market closed. Recommend Monday 7/13 pre-market run backfill the GEV thesis/entry into TRADE-LOG and investigate why cron logging has repeatedly gapped (flagged in prior weekly reviews too).
