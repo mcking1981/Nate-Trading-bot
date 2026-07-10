@@ -262,3 +262,27 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — Trade #3
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 |
+| Ticker | GEV |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 |
+| Stop Level | $961.7265 (10% trailing GTC, order ID: d3eaba2d, HWM $1,068.585) |
+| Thesis | Confirmed reclaim of $1,070 watchlist trigger (live ~$1,072-1,078 cross-verified via web sources; Alpaca quote feed showed anomalous wide spread — filled at $1,069.29, within 0-3% confirmation band). Industrials (XLI) confirmed top-performing sector SPDR, +19.18% YTD; GEV is a top-5 XLI holding (5.35% weight). Data-center power buildout demand tailwind. Multiple Buy ratings, analyst targets $1,150-$1,467, Moderate Buy consensus. |
+| Target | $1,150 (52wk-high-adjacent / analyst-target zone) |
+| R:R | ~2:1 (10% trailing stop vs ~7.6% to target, asymmetric upside to $1,150+) |
+| Regime at Entry | CHOP (SPY +1.18% vs 50DMA, VIX ~16.2) |
+| Cost Basis | $7,485.03 (14.77% of $50,679.83 equity) |
+
+**CAT — Skipped:** Live price ~$936-937, well below the $1,004 reclaim trigger — unconfirmed, no entry. Carried forward on watchlist.
+
+**Sector note:** GEV is the 2nd Industrials position alongside RTX (both top-10 XLI holdings) — accepted given XLI is the confirmed current momentum leader; will not add a 3rd Industrials name without a sector re-check.
+
+**Trades this week:** 1 of 2 (CHOP limit)

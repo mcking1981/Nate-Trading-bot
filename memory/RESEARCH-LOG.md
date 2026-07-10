@@ -1167,3 +1167,44 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-10 — Pre-market Research (run inline by market-open, no run Jul 6-9)
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.18% ($747.71 vs $739.01) | VIX: 16.2
+*(Regime limits: max 4 positions, max 15%/position (~$7,602), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,679.83 | Cash: $43,116.75 (85.1%) | Buying power: $193,643.61 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $193.925 (+2.74%) | Open orders: RTX 10% trailing stop GTC @ $183.546 (HWM $203.94, order 9e56a487)
+- **Logging gap flagged:** no pre-market/market-open entries logged Jul 6-9 — same recurring cron/schedule issue flagged in prior weekly reviews. Ran pre-market Steps 1-3a inline per protocol since today's regime stamp was missing.
+
+### Macro
+- SPY 747.71, 50DMA 739.01 (+1.18%, within CHOP band). VIX ~16.13-16.35 (CHOP band).
+- Thu 7/9 close: S&P 500 +0.81% to 7,543.64, Nasdaq +1.30% (AI/chip strength — Meta AI chip / capacity news), Dow +0.27%. XLK +1.2%, XLE +1.8%; XLB -2.6%, XLF -1.9%, XLY -1.8%.
+- Fri 7/10: Bloomberg reports stocks slipping slightly pre-weekend on Middle East truce fragility; oil down despite tension. No major US data today. Next catalysts: CPI Jul 14, PPI Jul 15, FOMC Jul 29.
+
+### Sector Momentum
+- **XLI (Industrials)** confirmed still a top-performing sector SPDR (ETF Trends), +19.18% YTD. Top holdings: CAT 8%, GE 6.8%, **GEV 5.35%**, **RTX 4.53%** — both current/candidate positions are top-10 XLI constituents.
+
+### Holdings News
+- **RTX:** current $193.925 (+2.74% from $188.75 entry), off HWM $203.94 (+8.05% at peak). Trailing stop live at $183.546 GTC. Thesis intact (Navy contracts, backlog, Buy ratings). Not yet at +15% tighten threshold.
+
+### Trade Ideas (watchlist carryover from Jul 5, live-verified)
+1. **GEV** — Industrials/power, data-center buildout demand. Trigger: reclaim $1,070. Live price ~$1,072-1,078 (cross-verified via multiple sources; Alpaca quote feed showed anomalous wide spread bp $1,065/ap $1,109, consistent with prior thin-IEX-feed issue) — **CONFIRMED, within 0-3% band ($1,070-$1,102.10), not extended.** Stop: below $1,030 (~-3.7%). Target: $1,150 (~2:1 R:R). Analyst targets $1,150-$1,467, Moderate Buy consensus. Regime check: PASS.
+2. **CAT** — Industrials, oversold pullback setup. Trigger: reclaim above $1,004. Live price ~$936-937 — **BELOW trigger, unconfirmed.** No entry. Carry forward on watchlist.
+
+### Risk Factors
+- Sector concentration: GEV entry would put 2 of 2 (soon 2 of up to 4) positions in Industrials (RTX + GEV) — accepted given XLI is the confirmed momentum leader and "follow sector momentum" rule; will avoid a 3rd Industrials add.
+- Logging gap Jul 6-9 (4 sessions) unverified — recommend investigating cron/schedule config again (recurring issue, flagged repeatedly in past weekly reviews).
+- VIX low-CHOP (~16.2), complacent tape — next real catalyst CPI Jul 14.
+- Middle East truce fragility a tail risk for oil/energy-sensitive names (not directly relevant to GEV/RTX).
+
+### Decision
+TRADE — GEV confirmed reclaim of $1,070 trigger, Industrials momentum intact, live-verified above Alpaca's unreliable quote. Size ≤15% CHOP cap. CAT remains unconfirmed (well below $1,004 trigger) — no action, stays on watchlist. 2 of 2 CHOP trade slots available this week (0 used Jul 6-10 to date).
+
+---
+
+### Market-Open Check — 09:49 ET
+CONFIRMED entry on GEV @ $1,069.29 (reclaim of $1,070 trigger, in-zone) — bought 7sh, 10% trailing GTC stop placed @ $961.73. NO CONFIRMED SETUP — CAT @ ~$936-937 vs trigger $1,004, zone: below, reason: price ~7% under trigger, no reclaim, unconfirmed — held on watchlist, no action. RTX (existing position) unchanged, thesis intact, trailing stop live.
