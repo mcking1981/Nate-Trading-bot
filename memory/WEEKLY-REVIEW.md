@@ -200,3 +200,59 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - If a 7th straight week passes with 0 trades despite confirmed regime-aligned candidates, treat the entry trigger itself (not the setup criteria) as the thing to redesign
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-07-10
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $50,887.50 (last known snapshot, Jul 5 pre-market — Mon-Thu this week unlogged) |
+| Ending portfolio | $50,920.35 |
+| Week return | +$32.85 (+0.06%) |
+| S&P 500 week | +0.81% (SPX 7,483.24 Jul 3 close -> 7,543.64 Jul 9 close; Fri 7/10 session in progress) |
+| Bot vs S&P | -0.75% |
+| Dominant regime | CHOP (only 1/5 days confirmed — Jul 5 pre-market stamp; Mon 7/6-Thu 7/9 have no logged regime) |
+| Trades | 1 new (GEV, unlogged) (W:0 / L:0 / open:2) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A (no closed trades; unrealized leader RTX +3.80%) |
+| Worst trade | N/A (no closed trades) |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| RTX | $188.75 (39 sh) | $195.93 | +$280.02 (+3.80%) | $183.546 (10% trail GTC, HWM $203.94) |
+| GEV | $1,069.29 (7 sh) | $1,092.48 | +$162.33 (+2.17%) | $992.511 (10% trail GTC, HWM $1,102.79) |
+
+### What Worked
+- RTX continued to perform — +3.80% unrealized, thesis intact (Navy contracts, Jefferies Buy upgrade), 10% trailing stop tracking correctly with no intervention needed
+- GEV converted a long-carried watchlist setup (reclaim of $1,070, tracked since Jun 27 in various forms) into a live fill near the trigger level ($1,069.29) — second straight trade to come from a genuinely confirmed technical trigger rather than a chase
+- Both open positions are currently profitable with no stop breaches
+- Capital deployment (~30% in 2 positions) stayed within CHOP's conservative sizing band
+
+### What Didn't Work
+- **CRITICAL:** Zero pre-market/EOD log entries for 4 of 5 trading days this week (Mon 7/6-Thu 7/9) — the worst logging gap of the phase so far, and the same issue flagged in 4+ prior weekly reviews with no fix
+- **The GEV trade has no Trade Log entry at all** — no logged thesis, entry date/time, regime check, or sizing rationale. It surfaced only via a live Alpaca positions/orders pull; the GTC trailing-stop order (id d3eaba2d) was created 2026-07-10 13:49 UTC, suggesting the fill itself may have happened today (Friday) rather than on the Monday 7/6 trigger day — the exact entry date cannot be confirmed from records. This is a step beyond prior weeks' missing-snapshot gaps: it's a live, real-money position ($7,485, ~14.7% of equity) with no audit trail
+- Sector concentration: GEV (Industrials/XLI) stacks directly on RTX (also Industrials/Aerospace-Defense) — the Jul 5 research log explicitly flagged this as a concentration risk to weigh before sizing, but no log entry confirms it was actually weighed at entry
+- No weekly review was logged for the week ending Jul 3 — a second review gap on top of the daily logging gaps, which also removes a data point needed for the auto-tune consecutive-week checks below
+- Week's return (+0.06%) essentially matches "did nothing," underperforming the S&P by -0.75% despite genuine capital deployed — can't yet credit the GEV entry as improved execution given the missing documentation
+
+### Key Lessons
+- The recurring "logging gap" flagged in the last 4 weekly reviews has now escalated from missing EOD snapshots to a missing trade audit trail — this is no longer cosmetic, it's a live-capital governance failure and needs a root-cause fix (cron/schedule investigation) before next week, not another flagged note
+- A trade with no logged thesis cannot be verified against regime/sizing/entry rules after the fact — any future unlogged trade should be backfilled into TRADE-LOG.md immediately, before the next scheduled routine runs
+- The GEV entry itself (near its $1,070 reclaim trigger, consistent with the Jun 27-Jul 5 watchlist thesis) does not look like a strategy violation on the surface — the failure is entirely in documentation and process, not in the trade's technical rationale
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by only -0.75%, below the >2% trigger (last logged week, Jun 26, also does not qualify — it outperformed). CHECK B: this week did not outperform S&P, so consecutive-outperformance does not apply. CHECK C: no trades closed this week (both RTX and GEV remain open), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Treat the routine-logging failure as urgent: confirm pre-market/market-open/EOD cron jobs actually fired Mon 7/6-Thu 7/9 and fix whatever broke; this has now cost 5 straight weeks of data integrity
+- Backfill a proper TRADE-LOG.md entry for GEV (thesis, confirmed entry date/time, catalyst, stop, target) before Monday's pre-market run so the audit trail is complete
+- Hold RTX/GEV, let trailing stops work; watch GEV for the +15% tighten-to-7% threshold (~$1,230) if it extends further; both open slots are now Industrials — prefer a non-Industrials name for the next new trade to reduce sector concentration
+
+### Overall Grade: D
