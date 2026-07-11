@@ -262,3 +262,61 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 11 — Backfill Correction (reconstructed from Alpaca order history)
+
+Two live trades executed during the May 28–Jun 6 logging gap were never recorded here. The Jun 7 snapshot attributed that period's full +$566.81 swing to "a profitable WDAY exit" — that was only half the picture. Reconstructed from Alpaca's full order history (`orders all`):
+
+**Trade #1b — AVGO (BUY, closed at a loss)**
+
+| Field | Value |
+|---|---|
+| Date | 2026-06-02 |
+| Ticker | AVGO |
+| Side | BUY |
+| Shares | 15 |
+| Entry Price | $485.28 |
+| Cost Basis | $7,279.21 (~14.4% of equity) |
+| Stop Level (as placed) | 10% trailing GTC, HWM reached $495, stop trigger $445.50 |
+| Exit Date | 2026-06-04 |
+| Exit Price (filled) | $410.75 (stop order filled well through its $445.50 trigger — gap/slippage, not a clean fill) |
+| P&L | **-$1,117.96 (-15.36%)** — realized loss, more than double the intended ~-8.3% trailing-stop loss at the $445.50 trigger price |
+| Notes | Chip-sector selloff (MU/MRVL/AVGO/NVDA down double digits, per RESEARCH-LOG Jun 5) blew through the stop before it could fill at the trigger price. Never logged as a trade entry or reflected in any EOD snapshot; net phase P&L of +$478.01 shown throughout Jun 7–29 silently nets a $1,596.00 WDAY gain against this $1,117.96 AVGO loss. This is a real, materially-sized loss (-15.4%) that breached the -7% manual cut-loss guidance and was invisible to every subsequent read of this file. |
+
+**Trades week of Jun 1:** WDAY sell (profit, exact date/price not recoverable from current order history — see Jun 7 note) + AVGO buy+loss above = 2 trades, exceeding the 2/week CHOP cap that was believed unused at the time. Flagging for the record; no corrective action possible retroactively.
+
+**Process gap:** this confirms the recurring "logging gap" notes (May 28–Jun 6, Jun 9, Jun 16, Jun 23–25) were not just missing HOLD/no-trade days — at least one of those gaps hid a real, adverse trade. Recommend the pre-market/EOD routine cross-check `alpaca.sh orders all` against TRADE-LOG.md whenever a gap is detected, not just reconcile equity deltas.
+
+---
+
+### Jul 10 — Trade #3
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 |
+| Ticker | GEV |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 |
+| Stop Level | $992.511 (10% trailing GTC, order ID: d3eaba2d, HWM $1,102.79) |
+| Thesis | Carried from Jul 5 pre-market watchlist — Industrials pullback-to-support setup, entry on reclaim of the $1,070 5-day MA, stop below $1,030 20-day MA support. Filled just under the $1,070 trigger. |
+| Target | $1,150 (per Jul 5 research, ~2:1 R:R) |
+| Regime at Entry | CHOP (carried from Jul 5 pre-market log — no fresh regime stamp Jul 6–10) |
+| Cost Basis | $7,485.03 (~14.7% of equity) |
+| Notes | **Never logged at the time.** No market-open check, EOD snapshot, or trade entry exists for Jul 6–10 — discovered only via live Alpaca order history during this Jul 11 daily-summary run. Stacks Industrials exposure on top of the existing RTX position (both sectors flagged as a concentration risk in the Jul 5 research log). 1 of 2 CHOP trade slots used the week of Jul 6. |
+
+**Trades this week (Jul 6–10):** 1 of 2 (CHOP limit) — GEV only.
+
+
+---
+
+### Jul 11 — EOD Snapshot (Day 48, Saturday — Market Closed)
+**Portfolio:** $50,913.97 | **Cash:** $35,631.71 (70.0%) | **Day P&L:** N/A — see notes | **Phase P&L:** +$913.97 (+1.83%)
+**Regime:** CHOP (carried over from Jul 5 pre-market log — no regime stamp Jul 6–11)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| GEV | 7 | $1,069.29 | $1,091.57 | 0.00% | +$155.96 (+2.08%) | $992.511 (10% trailing GTC, HWM $1,102.79) |
+| RTX | 39 | $188.75 | $195.93 | 0.00% | +$280.02 (+3.80%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** Saturday — markets closed, balance_asof 2026-07-10 (Friday close). **Routine outage:** no pre-market/EOD/market-open logging exists for Jul 6–10 (5 trading days) and no weekly review for the week ending Jul 3 or Jul 10 — this is the longest unlogged stretch since launch. During the gap the bot bought GEV (7sh @ $1,069.29, Jul 10, per Jul 5 watchlist trigger) with a 10% trailing GTC stop placed correctly; backfilled above as Trade #3. Also backfilled a previously-hidden AVGO stop-loss (-$1,117.96, -15.36%) from the May 28–Jun 6 gap that had never been recorded. Day P&L is not computable — no verified prior-day equity snapshot exists (last logged EOD was Jun 29, $50,422.63); change since that snapshot is +$491.34 (+0.97%) over the gap, not a single-day figure. Both open positions are healthy and within rules: GEV +2.08%, RTX +3.80%, neither near the +15%/+20% stop-tighten thresholds, both under the 20%-per-position cap (14.7–15.0% each), 2 of 6 max positions, 70% cash (below the 75-85% deployment target, acceptable/conservative under CHOP). 1 of 2 CHOP trade slots used the week of Jul 6 (GEV); new week starts Mon 7/13 with 2 of 2 available. Sector concentration flag stands — both positions are Industrials. Tomorrow (Sun 7/12): no action, market closed. **Priority for Mon 7/13 pre-market run: diagnose why the routine stopped firing Jul 6, and re-verify Alpaca order history against this file going forward before trusting equity-delta reconciliation alone.**
