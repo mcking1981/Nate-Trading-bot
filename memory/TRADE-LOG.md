@@ -262,3 +262,24 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### [UNDATED, ~Jul 6-9] — Trade #3 (BACKFILLED — RECONSTRUCTED, NOT CONTEMPORANEOUS)
+
+> ⚠️ **Logging gap:** No pre-market/market-open/EOD entries exist for Jul 6-11. This entry was reconstructed on 2026-07-12 from live Alpaca position data + news correlation. Entry date, exact rationale-at-time, and regime-check-at-entry are UNVERIFIED — treat fields below as best-effort reconstruction, not a contemporaneous record.
+
+| Field | Value |
+|---|---|
+| Date | Unknown — likely Jul 8 or Jul 9, 2026 (inferred from price) |
+| Ticker | GEV (GE Vernova) |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 (avg) |
+| Stop Level | $992.51 (10% trailing GTC, confirmed live on Alpaca) |
+| Thesis (reconstructed) | Matches the GEV watchlist setup carried in the Jul 5 pre-market log: entry on reclaim of $1,070, stop below $1,030, target $1,150. GEV dropped 6.5-7.3% on 7/7 to a $1,065-1,068 low on a Siemens Energy *competitor* downgrade (no GEV-specific negative news) — entry price aligns with buying that dip/reclaim. Supporting backdrop: US/Japan/Korea SMR cooperation MOU (7/7), Bernstein Outperform initiation (mid-June), AI power-demand narrative. |
+| Target | $1,150 (per Jul 5 watchlist reference, unconfirmed) |
+| Cost Basis | $7,485.03 (~14.7% of equity at the time) |
+| Regime at Entry | Unknown/unverified — CHOP assumed (consistent with all prior/subsequent weeks) |
+
+**Action item:** Investigate why pre-market/market-open/EOD routines did not fire Jul 6-11 (cron/schedule config, per recurring gaps flagged in weekly reviews). Do not repeat this pattern — every live fill must get a same-day TRADE-LOG entry with a real-time thesis.

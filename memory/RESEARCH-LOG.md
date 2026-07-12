@@ -1167,3 +1167,63 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-12 — Pre-market Research
+
+> ⚠️ US MARKETS CLOSED — Sunday. No trades possible. Planning session for Monday 7/13 open.
+> ⚠️ **LOGGING GAP FLAGGED — GEV position untracked:** Account shows an open GEV position (7 sh @ avg $1,069.29, ~15% of equity, 10% trailing GTC stop live, order confirmed) that has NO corresponding entry in TRADE-LOG.md and NO research-log coverage — last research entry before this one was 2026-07-05 (6 missing trading days: Jul 6-11). Reconstructed likely thesis from Holdings News sub-agent below; TRADE-LOG.md backfilled this session with a flagged reconstruction entry. Root cause (missed pre-market/market-open/EOD runs Jul 6-11) needs investigation — same recurring cron/schedule issue flagged in prior weekly reviews.
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.5-1.9% (~$754.95 vs ~$743-745) | VIX: ~16.1-16.9
+*(Regime limits: max 4 positions, max 15%/position (~$7,637), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,913.97 | Cash: $35,631.71 (70.0%) | Buying power: $185,317.17 | Daytrade count: N/A (not returned by API)
+- Positions: GEV 7sh @ $1,069.29 (mkt $7,640.99, +2.08%, 15.0% of equity) | RTX 39sh @ $188.75 (mkt $7,641.27, +3.80%, 15.0% of equity)
+- Open orders: GEV 10% trailing GTC stop @ $992.51 (HWM $1,102.79) | RTX 10% trailing GTC stop @ $183.55 (HWM $203.94)
+- Total deployed: 30.0% of equity (well below 60% CHOP target) — 2 of 4 CHOP position slots used, both at the 15% cap
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $72.67, Brent $77.02 (7/10) — cooling off mid-week Mideast supply-risk spike
+- **S&P futures:** ~7,539, +0.14% — modestly green, near record highs (52wk range 6,239-7,649)
+- **VIX:** 16.90 (7/8 close), up from 15.57 mid-week but still calm/low-vol
+- **DXY:** ~101.0-101.05, near 52wk high (101.80) — dollar firm
+- **10Y yield:** 4.56% (7/10), holding a July uptick after touching 4.60% on hawkish FOMC minutes (released 7/8) + Mideast inflation fears
+- **Econ calendar:** Mon 7/13 Fed's Bowman speaks; **Tue 7/14 CPI (June)**; Wed 7/15 PPI; Thu 7/16 Retail Sales; FOMC decision Wed 7/29; PCE Thu 7/30
+- Net read: low-vol, dollar-firm, yields-elevated; CPI Tuesday is the week's dominant catalyst
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **Last 5-day leaders:** Financials (XLF) +4.55%, Health Care (XLV) +3.64%, Comm Services (XLC) +3.63%, Energy (XLE) +2.88%
+- **YTD leaders:** Industrials (+16%, GEV/CAT-driven — already held), Financials, Health Care; Tech (XLK) weakest, -5.95% 5-day
+- **Industrials momentum cooling:** -1.54% last 5 days despite strong YTD — supports NOT adding further Industrials exposure on top of GEV+RTX
+- **Strongest current momentum: Financials and Health Care**
+- **JPM** (Financials) — $335-339, uptrend, RSI 68 (near overbought). Breakout entry ~$335-340 above $340-350 resistance, stop ~$325-330. **Reports earnings Tue 7/14 BMO — disqualifies a Monday entry (binary event risk).**
+- **UNH** (Health Care) — $425-431, extended/overbought (RSI ~80), far above the $328-335 pullback entry zone. **Reports earnings Thu 7/16 — disqualifies entry this week even if it pulled back.**
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Mon 7/13 pre-market:** Nothing market-moving (small/mid-caps only: FAST, FBK, WAFD, PKE)
+- **Tue 7/14 BMO — Big Banks:** JPM (EPS est ~$5.55), BAC (~$1.12), GS (~$14.38, +32% YoY est), WFC (~$1.72), C (~$2.73) — strong IB/trading revenue expected
+- **Wed 7/15 BMO:** ASML, JNJ, Morgan Stanley, BlackRock | **Thu 7/16:** TSM, UNH, GE Aerospace, ABT, NFLX (AMC)
+- **Last week confirmed:** DAL (7/10) beat — EPS $1.56 vs $1.49 est, rev +19% YoY. PEP (7/9) mixed — rev beat but adj EPS $2.20 missed ~1.2%, stock flat, guidance reaffirmed
+- **Holdings:** GEV reports Jul 22, RTX reports Jul 23 — both outside this week's window, no immediate earnings risk to existing positions
+
+### Holdings News (Sub-agent 4 synthesis)
+- **GEV:** Fell 7.3% on 7/7 on a Siemens Energy *competitor* downgrade (no GEV-specific bad news) — round-tripped from ~$1,152 to a $1,065-1,068 low (7/8-9), now $1,091.57 (+2.08% off our $1,069.29 avg entry). Backlog $163B, Q2 earnings 7/22 consensus EPS $3.21. Bullish backdrop that week: US/Japan/Korea SMR cooperation MOU (7/7), Bernstein Outperform initiation (mid-June), AI-power-demand narrative.
+- **RTX:** Steady grind higher, $195.93 close 7/10 (+3.80% off entry), outperforming S&P YTD (+33% YoY). New £2bn UK Army training contract, Pratt & Whitney F119 hit 1M flight hours. No red flags, Q2 earnings 7/23.
+- **GEV entry reconstruction:** Entry price ($1,069.29 avg) lines up closely with the 7/8-9 dip low ($1,065-1,068) after the sentiment-driven Siemens-contagion selloff — consistent with a buy-the-dip on a non-fundamental drop, in line with the GEV reclaim/pullback watchlist setup carried in the 7/5 research log (entry on reclaim of $1,070, stop below $1,030, target $1,150). Likely executed correctly per that stale watchlist trigger, but never logged.
+
+### Trade Ideas
+1. **JPM** — Financials momentum leader, breakout setup ($335-340 entry, stop ~$325-330, ~2:1 R:R to $360+). Regime check: **FAIL** — reports earnings Tue 7/14 BMO, two days after any Monday entry; binary event risk disqualifies per standing discipline (avoid new exposure ahead of a print).
+2. **UNH** — Health Care momentum leader but extended (RSI ~80) and reports earnings Thu 7/16. Regime check: **FAIL** — both extension and earnings-window risk; would need a pullback to $328-335 with earnings behind it before reconsidering.
+3. No actionable non-earnings-risk setup identified this week — Industrials (existing GEV/RTX sector) momentum is cooling, and the two strongest current sectors (Financials, Health Care) both have their leading names reporting earnings inside the coming week.
+
+### Risk Factors
+- **CPI Tue 7/14** is the dominant macro catalyst — hot print could reprice the hawkish-Fed narrative further (10Y already at 4.56%, DXY near 52wk highs) and pressure the whole tape, including GEV/RTX
+- Big-bank earnings cluster Tue 7/14 (JPM/BAC/GS/WFC/C) same day as CPI — compounds Tuesday volatility risk; avoid new financials exposure into that stack
+- **Logging gap (Jul 6-11):** GEV's entry thesis, sizing rationale, and regime-check-at-entry are unverified from the record — reconstructed only via price/news correlation this session. Recommend investigating why pre-market/market-open/EOD routines didn't fire Jul 6-11.
+- Both current positions (GEV +2.08%, RTX +3.80%) are healthy — neither near the -7% cut level or the +15%/+20% trail-tighten thresholds; no stop action needed
+- 2 of 4 CHOP position slots still open (GEV+RTX both industrials) — a 3rd position would need to come from a non-Industrials sector per momentum data
+
+### Decision
+HOLD — Sunday, no trading session possible. No actionable non-earnings-risk trade idea for Monday 7/13; JPM and UNH both disqualified by this week's earnings calendar. Existing GEV/RTX positions healthy, trailing stops live, no action needed. 2 of 2 CHOP trade slots available for the new week starting Mon 7/13. Patience > activity. **Action item: backfill/investigate the Jul 6-11 logging gap.**
