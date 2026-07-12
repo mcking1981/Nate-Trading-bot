@@ -262,3 +262,14 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 12 — EOD Snapshot (Day 49, Sunday — Market Closed)
+**Portfolio:** $50,913.97 | **Cash:** $35,631.71 (70.0%) | **Day P&L:** $0 (0.00%) | **Phase P&L:** +$913.97 (+1.83%)
+**Regime:** CHOP (default — no pre-market log Jul 6-12; carried over from Jul 5 read per CLAUDE.md default-to-Chop rule)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $195.93 | 0.00% | +$280.02 (+3.80%) | $183.546 (10% trailing GTC, order 9e56a487, HWM $203.94) |
+| GEV | 7 | $1,069.29 | $1,091.57 | 0.00% | +$155.96 (+2.08%) | $992.511 (10% trailing GTC, order d3eaba2d, HWM $1,102.79) |
+**Notes:** Sunday — US markets closed, no session, $0 day P&L; equity unchanged since Friday 7/10 close ($50,913.97, Alpaca balance_asof confirms). **Critical logging gap:** no pre-market research or EOD snapshot logged Jul 6-11 (6 trading days) — routine did not run or did not persist. During that gap a live GEV trade filled (7sh @ $1,069.29, $7,485.03, 14.7% of equity, stop order placed Jul 10 13:49 UTC) that was never recorded in this log — position and stop discovered live via Alpaca account pull, not from a Trade # entry. Both positions are otherwise healthy: RTX +3.80% (order 9e56a487, HWM $203.94, well short of the +15% trail-tighten threshold), GEV +2.08% (order d3eaba2d, HWM $1,102.79). 2 open positions, well under the 5-6 cap; ~30% cash deployed vs the CHOP-regime target — light. Trades this week (Mon 7/6-Sun 7/12): 1 (GEV) of 2 CHOP cap. Regime is a stale default (CHOP), not a fresh read — no VIX/SPY data since Jul 5. Tomorrow (Mon 7/13, new week): pre-market MUST run to refresh the regime read and confirm cron/schedule is firing again; backfill a GEV Trade # entry with entry thesis for the record; reassess CAT (still on the old watchlist) once a fresh regime read is in. Patience > activity — but the logging pipeline needs to be fixed before it's trusted again.
