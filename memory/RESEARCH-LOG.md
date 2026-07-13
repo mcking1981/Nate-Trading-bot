@@ -1167,3 +1167,55 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-13 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.70% ($750.41 vs $745.21) | VIX: 16.40
+*(Regime limits: max 4 positions, max 15%/position (~$7,626), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,842.64 | Cash: $35,631.71 (70.1%) | Buying power: $185,117.44 | Daytrade count: 0
+- Positions: GEV 7sh @ $1,069.29, current $1,080.99 (+1.09%, +$81.90) | RTX 39sh @ $188.75, current $196.00 (+3.84%, +$282.75)
+- Open orders: GEV 10% trailing stop GTC @ $992.511 (HWM $1,102.79) | RTX 10% trailing stop GTC @ $183.546 (HWM $203.94)
+- Deployed: 29.9% of equity (2 of 4 CHOP position slots used) — room to add within target 60% deployed, but new week's 2 CHOP trade slots are fresh (Mon 7/13 start)
+- **Logging gap flagged:** GEV entry (7/6, reclaim of $1,070 watchlist trigger) was never recorded in TRADE-LOG.md — same recurring gap pattern noted in prior weekly reviews. No pre-market log exists for Jul 7-12 either. Regime/thesis record for that stretch is unverified.
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$73.5-74.8, Brent ~$78.1 — up on the week on Iran-related supply concerns
+- **S&P 500 futures:** +0.49% premarket (ES ~7,626), Nasdaq 100 +0.44%, Dow +0.38% — risk-on tone
+- **VIX:** 16.40, +9.12% intraday vs prior close 15.03 — volatility picking up off a low base
+- **DXY:** ~101.0 — roughly flat
+- **10Y yield:** ~4.56-4.58%, near highest since May — hawkish Fed (Warsh) + firm energy prices
+- **Econ calendar:** Light today — Fed's Bowman speech 9:25am ET. **CPI tomorrow (Tue 7/14)** is the near-term catalyst; PPI Wed 7/15; next FOMC not until 7/29
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33%, XLE +21%, XLI +20% (already held via GEV/RTX)
+- **Last 5-day leaders:** XLF +4.6%, XLV +3.6%, XLC +3.6%, XLE +2.9%; XLK -6.0% and XLI -1.5% cooling
+- **Strongest current momentum: Energy (XLE)** — only sector combining top-3 YTD strength with still-positive 5-day momentum, no overlap with existing GEV/RTX (Industrials) exposure. **Technology (XLK)** secondary — still dominant YTD despite 5-day pullback, read as digestion not trend break.
+- **XOM** — oversold pullback, MACD convergence, range $135-142. Entry: reclaim $140. Stop: ~$134 (-4.3%).
+- **NVDA** — pivot-bottom since 6/26, support $200.39/$207.23, current ~$208. Entry: pullback to $205-207. Stop: ~$199 (-4.3%).
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 7/13:** FITB and RF (regional banks) reported — first day of Q2 bank season, no reaction data yet. No big-bank prints today (JPM/BAC/GS/WFC/C follow Tue 7/14).
+- **Recent AH (dates uncertain per source, treat directionally):** AVAV beat big (+19-28%, backlog $1.2B); LEVI beat + raised guidance/dividend; NKE beat (tariff refund); PEP missed (consumer budget tightening); LULU cut outlook. None are current portfolio names.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **GEV:** One stale headline claimed a ~7% drop on a rival's downgrade — verified false via direct price check: premarket $1,075.75, only +0.05% vs prior close. Fundamentals intact — Q2 earnings 7/22 (EPS est $3.01), Buy-rated, $1,222 PT, backlog $200B, nuclear/SMR tailwinds. No thesis break.
+- **RTX:** No negative catalysts. Recent analyst upgrade to Buy. Q2 earnings 7/23. Trading $192.59-196.69 range, RSI 60. Thesis intact.
+
+### Trade Ideas
+(No earnings catalyst today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **XOM** — Energy, oversold pullback. Watchlist entry: reclaim $140. Stop: ~$134 (-4.3%). Target: ~$152 (2:1 R:R). Regime check: WATCHLIST ONLY — live-verify reclaim; diversifies away from existing Industrials concentration (GEV+RTX).
+2. **NVDA** — Tech, pullback-to-support. Watchlist entry: $205-207. Stop: ~$199 (-4.3%). Target: ~$221 (2:1 R:R). Regime check: WATCHLIST ONLY — live-verify support hold; note CPI print tomorrow adds event risk if entered today and held overnight.
+
+### Risk Factors
+- CPI print tomorrow (Tue 7/14) is the dominant near-term catalyst — VIX already up +9.12% intraday today pricing in some pre-CPI nerves; avoid sizing new positions into the print, prefer post-CPI confirmation
+- 10Y yield at 4.56-4.58% (highest since May) — headwind for growth/rate-sensitive names (NVDA) if CPI runs hot
+- Existing book already concentrated in Industrials (GEV+RTX, both XLI) — do not add a 3rd Industrials name; today's momentum leaders (XLE, XLK) are appropriately diversifying if triggered
+- Recurring logging gaps (GEV trade never logged; Jul 7-12 pre-market gap) reduce confidence in the process record — same issue flagged in the last 3 weekly reviews, still unresolved
+- Both existing positions green and well clear of stops (GEV +1.1%, stop -8.2% away; RTX +3.8%, stop -6.4% away) — no action needed
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +0.70% vs 50DMA, VIX 16.40). Both positions (GEV, RTX) healthy, thesis intact, trailing stops working, no action needed. XOM (Energy, reclaim $140) and NVDA (Tech, pullback $205-207) carried as watchlist items — live-verify trigger post-CPI-digestion before sizing; both diversify away from existing Industrials concentration. 2 of 2 CHOP trade slots available for the new week starting Mon 7/13. Patience > activity — do not chase into tomorrow's CPI print.
