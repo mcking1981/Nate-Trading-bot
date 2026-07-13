@@ -262,3 +262,14 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 13 — EOD Snapshot (Day 50, Monday)
+**Portfolio:** $50,575.05 | **Cash:** $35,631.71 (70.5%) | **Day P&L:** -$338.92 (-0.67%) | **Phase P&L:** +$575.05 (+1.15%)
+**Regime:** CHOP (VIX 16.15, SPY +1.12% vs 50DMA — per Jul 5 pre-market log, stale; no pre-market run since)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| GEV | 7 | $1,069.29 | $1,040.59 | -4.67% | -$200.90 (-2.68%) | $992.511 (10% trailing GTC, HWM $1,102.79) |
+| RTX | 39 | $188.75 | $196.39 | +0.24% | +$297.96 (+4.05%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** No trades today (0 fills). Book carries RTX (from Jun 29) plus a previously unlogged GEV buy (7sh @ $1,069.29, filled Jul 10 — Alpaca fill history confirms; no TRADE-LOG entry was ever written for it, continuing the recurring logging-gap issue flagged in prior weekly reviews and again in the Jul 5 research log). GEV sold off hard today (-4.67%) but remains within its 10% trailing stop with ~4.7% cushion; RTX ground higher modestly (+0.24%) and sits +4.05% unrealized, approaching the +15% trail-tighten threshold. Combined equity down -0.67% on the day, still +1.15% vs the $50,000 phase baseline. Regime read is 8 days stale (last pre-market run Jul 5) — defaults to CHOP per CLAUDE.md, which matches the last confirmed read anyway. 0 of 2 CHOP trade slots used this week (week starts today, Mon 7/13). Tomorrow (Tue 7/14): CPI print is the key catalyst — flag for pre-market; hold both positions, no new entries until pre-market research refreshes the regime/watchlist. Patience > activity.
