@@ -1167,3 +1167,57 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-13 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.87% ($745.40 vs $739.01) | VIX: 16.40
+*(Regime limits: max 4 positions, max 15%/position (~$7,609), target 60% deployed, max 2 new trades/week)*
+
+**LOGGING GAP FLAGGED:** No pre-market/market-open/EOD entries logged Jul 6-Jul 12 (7 days). During this gap, a GEV entry (7sh @ $1,069.29, filled 2026-07-10 09:48 ET, market order, 10% trailing GTC stop placed) executed and was undocumented in this log and in TRADE-LOG.md until discovered and backfilled during this run. Root cause not diagnosed (routine/cron not run, or ran without persisting — matches the same gap pattern flagged in prior weekly reviews for Jun 30-Jul 3). Recommend investigating cron/schedule config.
+
+### Account Snapshot
+- Equity: $50,725.93 | Cash: $35,631.71 (70.2%) | Buying power: $184,790.66 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $196.39 (+4.05%, 15.1% of equity) | GEV 7sh @ $1,069.29, current $1,058.46 (-1.01%, 14.6% of equity) — 29.7% deployed, both Industrials
+- Open orders: RTX 10% trailing stop GTC @ $183.546 (HWM $203.94, order 9e56a487) | GEV 10% trailing stop GTC @ $992.511 (HWM $1,102.79, order d3eaba2d)
+
+### Macro (Sub-agent 1 synthesis)
+Oil up 4-6% (WTI ~$74.5, Brent ~$78.8) on US-Iran escalation (weekend airstrike exchange, tanker attack near Strait of Hormuz). Futures red: S&P -0.3%, Nasdaq -0.9 to -1.36% (chip weakness post SK Hynix IPO selloff), Dow flat. VIX 16.40, +9.1% — fear gauge rising on Iran conflict. DXY ~101.0, flat. 10Y yield ~4.56-4.60%, near highest since May (hawkish Fed tone + energy-driven inflation risk). No major econ data today; CPI (June) + big bank earnings both hit tomorrow (Tue 7/14), PPI Wed 7/15. Net read: risk-off tilt on Middle East escalation, high-vol day (CPI + bank earnings) directly ahead — caution on adding new risk into that window.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33%, XLE +21-26%, XLI +20%. Last-5-day: sharp rotation OUT of Tech (-6.0%) and Industrials (-1.5%) INTO Financials (+4.6%), Healthcare (+3.6%), Comm Services (+3.6%), Energy (+2.9%). Strongest current momentum: Financials, Healthcare. Candidates: JPM — mixed signals, wait for confirmed close above $315 (stop $306.56); but JPM reports its own earnings tomorrow (7/14) — do not enter ahead of binary event. UNH — ~$425.60, below $433.43 breakout trigger (not confirmed), also has Q2 earnings 7/16 — binary risk, avoid until after. Industrials momentum stalled — no case to add further Industrials exposure on top of RTX/GEV.
+
+### Earnings Today (Sub-agent 3 synthesis)
+No major pre-market earnings today. Last Fri 7/10 AH: DAL beat (EPS $1.56 vs $1.48, raised FY26 guidance, dividend +15%), PEP (7/9) beat on revenue, EPS a penny light, guidance affirmed. CONFIRMED: JPM, BAC, GS, WFC, C all report tomorrow (Tue 7/14) before open, same day as June CPI — high-volatility day flagged. MS follows Wed 7/15. No same-day catalyst for today's open.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** ~$194.74-$199, thesis intact — new $101.98M Navy contract mod (7/9), Germany Tomahawk buy, Collins Aerospace Poland facility, P&W Rzeszów expansion, F119 hit 1M flight hours, $0.73 dividend declared (pays 9/3). Zacks Rank #2 Buy. Earnings confirmed 7/23. No negative catalysts.
+- **GEV:** Choppy — fell ~7% on 7/7 on a Siemens Energy competitor downgrade (Barclays call, sector-wide not company-specific), stabilized $1,050-1,110 since. AI-datacenter power thesis intact (US/Japan $40B SMR support, Bernstein reiterated Buy, Zacks Rank #2). Wind segment remains a drag. Earnings confirmed 7/22 — one day before RTX's, both are the next real catalysts.
+
+### Trade Ideas
+(No earnings catalyst today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **JPM** — Financials, breakout watch above $315.01 (stop $306.56). Regime check: FAIL for today — reports own earnings tomorrow (7/14), same day as CPI; do not enter ahead of a binary event. Re-evaluate post-earnings.
+2. **UNH** — Healthcare, watchlist entry: breakout above $433.43 (stop $416.38, target $465.59). Regime check: FAIL for today — currently below trigger (not confirmed) AND Q2 earnings 7/16 is a binary risk inside any near-term hold. Re-evaluate post-earnings.
+(CAT dropped from watchlist — Industrials momentum stalled, no fresh setup, and would stack a 3rd Industrials position.)
+
+### Risk Factors
+- Iran/Strait of Hormuz escalation is a live geopolitical risk — oil spiking, VIX rising; don't add new equity risk into an escalating headline risk event
+- Tomorrow (7/14) is a high-volatility convergence: June CPI print + JPM/GS/BAC/WFC/C earnings simultaneously — avoid initiating new positions today that would sit through that catalyst blind
+- Sector rotation OUT of Industrials (RTX/GEV's sector) into Financials/Healthcare — existing positions not broken (company-specific catalysts intact) but tailwind from sector momentum has faded; monitor, no action forced
+- GEV earnings 7/22, RTX earnings 7/23 — both approaching; neither position is within +15%/+20% trail-tighten thresholds yet, no stop action needed
+- Undiagnosed multi-day logging/routine gap (Jul 6-12) — recommend investigating cron/schedule config before next occurrence
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +0.87% vs 50DMA, VIX 16.40). No new trade today: both live watchlist candidates (JPM, UNH) carry binary earnings risk in the next 1-3 days and neither has a confirmed live trigger; Industrials (existing sector) momentum has stalled. Existing RTX (+4.05%) and GEV (-1.01%) positions both thesis-intact, trailing stops working, no action needed. 2 of 2 CHOP trade slots available this week (new week, no trades yet). Patience > activity — especially into tomorrow's CPI/bank-earnings volatility.
+
+---
+
+### Market-Open Check — 09:50 ET
+
+- NO CONFIRMED SETUP — JPM at $336.47 vs $315.01 breakout trigger: >+3% above (6.8% extended, no intraday pullback into the 0-3% confirmation band) — too extended per protocol, and separately disqualified anyway (reports own earnings tomorrow 7/14, same day as CPI). Dropped from watchlist.
+- NO CONFIRMED SETUP — UNH at $424.62 vs $433.43 breakout trigger: still below trigger, unconfirmed. Also has Q2 earnings 7/16 inside any near-term hold. Carried forward only if it clears $433.43 with earnings still >3 trading days out; otherwise drop.
+- RTX (held, 39sh @ $188.75): ~$196-197, +4-5% unrealized, thesis intact, 10% trailing stop GTC live (order 9e56a487). No action.
+- GEV (held, 7sh @ $1,069.29): ~$1,058-1,065, roughly flat/-1%, thesis intact, 10% trailing stop GTC live (order d3eaba2d). No action.
+- No trade executed. 0 of 2 CHOP trade slots used this week.
+- Note: Alpaca `quote` endpoint again showed anomalously wide spreads (e.g. GEV bid $1,017.78/ask $1,112.50, RTX bid $186.58/ask $197.00) — cross-verified JPM/UNH live prices via web search before classifying zones.

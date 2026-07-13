@@ -262,3 +262,25 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — Trade #3 (BACKFILLED — see note)
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 |
+| Ticker | GEV |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 |
+| Stop Level | $992.511 (10% trailing GTC, order ID: d3eaba2d, HWM $1,102.79 as of 7/13) |
+| Thesis | Confirmed reclaim of the $1,070 watchlist trigger carried from Jul 5 pre-market research (GE Vernova, Industrials — AI-datacenter power buildout theme, entry basically at trigger level). Full contemporaneous catalyst detail not available since this trade was not logged same-day. |
+| Target | $1,150 (per Jul 5 watchlist setup, ~2:1 R:R) |
+| R:R | ~2:1 (per original Jul 5 watchlist setup) |
+| Regime at Entry | CHOP (unconfirmed same-day — last classified regime was CHOP as of Jul 5) |
+| Cost Basis | $7,485.03 (~14.8% of equity at the time) |
+
+**BACKFILL NOTE (logged 2026-07-13):** This trade executed live on Alpaca (fill confirmed via order history: buy order a1f355ac filled 2026-07-10T13:48:59Z @ $1,069.29; trailing stop d3eaba2d placed same time) but was never recorded in this log or in RESEARCH-LOG.md — discovered during the Jul 13 market-open run when live positions didn't match the log. No pre-market/market-open/EOD entries exist for Jul 6-12 at all, so the exact intraday catalyst check and rule validation for this entry cannot be reconstructed — flagging as a process gap, not asserting the trade violated any rule (position size, sector count, and weekly trade cap all appear within CHOP limits based on available data). Recommend investigating why the routine didn't run/persist for this stretch.
+
+**Trades this week (week of Jul 6):** 1 of 2 (CHOP limit) — GEV only entry found.
