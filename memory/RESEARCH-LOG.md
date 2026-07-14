@@ -1167,3 +1167,39 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-14 — Pre-market Research (partial — regime classification only, run inline from market-open)
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.35% ($746.14 vs $748.73) | VIX: ~16.4-17.3 (sources split 16.38-17.16, mid-CHOP band)
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Logging Gap — FLAGGED
+- **No pre-market/EOD/trade entries logged Jul 6–Jul 13 (9 calendar days, ~6 trading days).** Last committed research entry was Jul 5; last committed trade entry was Jun 29 (RTX). No weekly review since week ending Jun 26.
+- **Untracked trade discovered:** Alpaca shows a GEV position (7 sh @ avg $1,069.29, cost basis $7,485.03, opened per order trail ~Jul 10) with a 10% trailing-stop GTC order (id d3eaba2d, stop $992.511, HWM $1,102.79) already live. This fill was never logged in TRADE-LOG.md and no research entry documents its catalyst/thesis. Price is consistent with the Jul 5 GEV watchlist trigger (reclaim $1,070), so it's plausibly a valid confirmed entry, but it cannot be verified against a documented thesis.
+- This is a process failure (routine not firing/not committing for over a week), not a market call — flagging for the user; full root-cause is outside market-open's scope.
+
+### Account Snapshot
+- Equity: $50,852.02 | Cash: $35,631.71 (70.1%) | Buying power: $185,143.71 | Daytrade count: n/a (not returned by API)
+- Positions: GEV 7sh @ $1,069.29 (current $1,073.31, +0.4%) | RTX 39sh @ $188.75 (current $197.685, +4.7%)
+- Deployed: ~29.9% of equity — under CHOP's 60% target, but no confirmed live setup today to justify new capital; patience > activity.
+- Open orders: GEV 10% trailing stop GTC @ $992.511 (HWM $1,102.79) | RTX 10% trailing stop GTC @ $183.546 (HWM $203.94)
+
+### Trade Ideas
+None — full sector/earnings/macro sub-agent research (Steps 3b/4) was not run today; this is a regime-classification-only stub per market-open's inline fallback protocol. No new watchlist triggers to confirm this session.
+
+### Risk Factors
+- **CPI print today (Jul 14)** — economic calendar shows CPI YY release today; expect intraday volatility, no new positions warranted around the print without a documented catalyst.
+- 9-day logging/commit gap means regime/thesis continuity is unverified for that stretch; GEV position thesis is inferred, not documented.
+- RTX +4.7% from entry, GEV +0.4% — both within normal trailing-stop bands, no trail-tightening threshold (+15%) hit yet.
+
+### Decision
+HOLD — no confirmed trade ideas today (sub-agent research not run). Existing GEV/RTX positions stay open under their live trailing stops. Recommend a full pre-market run before tomorrow's session to restore the watchlist and close the GEV documentation gap.
+
+---
+
+### Market-Open Check — 09:41 ET
+
+- NO CONFIRMED SETUP — no watchlist tickers with defined triggers exist for today (pre-market sub-agent research did not run; only inline regime classification completed). Nothing to confirm or reject.
+- Regime CHOP reconfirmed live (SPY -0.35% vs 50DMA, VIX ~16.4-17.3). GEV (7sh, +0.4%) and RTX (39sh, +4.7%) held, both with live 10% trailing-stop GTC orders intact (GEV stop $992.511, RTX stop $183.546). No rule breach, no action taken. CPI print today — no new positions without a documented catalyst. 2 of 2 CHOP trade slots available this week (no trades logged since Jun 29).
