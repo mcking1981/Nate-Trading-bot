@@ -59,6 +59,49 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
+### Jun 02 — Trade #1 Close (BACKFILLED 2026-07-15)
+
+*Discovered via Alpaca order-history reconciliation during the Jul 15 pre-market run — never logged at the time. No pre-market/EOD entries exist for Jun 1-6 to cross-reference; details below are reconstructed from Alpaca order data only.*
+
+| Field | Value |
+|---|---|
+| Date | 2026-06-02 |
+| Ticker | WDAY |
+| Side | SELL (close) |
+| Shares | 60 |
+| Exit Price | $151.20 |
+| Entry Price | $124.60 (5/26, Trade #1) |
+| Stop Mechanism | Trailing stop tightened twice as position ran up: 10%→7% (5/29, HWM $146.19)→5% (6/1, HWM $158.62, stop $150.689) — consistent with the "tighten trail to 5% at +20%" rule (HWM was +27.3% over entry). Filled via order c1272d05. |
+| P&L | +$1,596.00 (+21.35%) — WIN |
+| Regime at Exit | Unknown — no pre-market log exists for 6/1 or 6/2 |
+
+**Trades this week (week of 6/1):** untracked due to logging gap.
+
+---
+
+### Jun 02–04 — Trade #1B (BACKFILLED 2026-07-15)
+
+*Discovered via Alpaca order-history reconciliation during the Jul 15 pre-market run — never logged at the time (neither entry nor exit). No pre-market/EOD entries exist for this stretch to cross-reference; details below are reconstructed from Alpaca order data only.*
+
+| Field | Value |
+|---|---|
+| Date | 2026-06-02 (entry) / 2026-06-04 (exit) |
+| Ticker | AVGO |
+| Side | BUY then SELL (close) |
+| Shares | 15 |
+| Entry Price | $485.280667 (market order, filled 6/2 13:53:21, order e4b84399) |
+| Stop Level Set | 10% trailing GTC, HWM reached $495, trigger price $445.50 |
+| Exit Price | $410.75 (filled 6/4 13:33:49, order 16bfe02e) — **the fill was ~7.8% below the $445.50 stop trigger price**, i.e. the stop gapped through its trigger rather than filling at/near it. Real gap-risk event, not a clean trailing-stop exit. |
+| P&L | -$1,117.96 (-15.36%) — LOSS. This breached the standing -7% manual-cut rule; because it was never logged, it was never reviewed against that rule at the time. |
+| Thesis | Not recorded — no pre-market/RESEARCH-LOG entry exists for 6/2 |
+| Regime at Entry/Exit | Unknown — no pre-market log exists for this stretch |
+
+**Process note:** This loss and the underlying gap-through-stop mechanic were never surfaced in any weekly review (w/e 6/5 review does not exist either). A 10% trailing stop is not a hard floor — large single-name gaps can and did fill well below the trigger. Worth factoring into future position sizing on volatile/gap-prone names.
+
+**Trades this week (week of 6/1):** untracked due to logging gap.
+
+---
+
 ### Jun 07 — EOD Snapshot (Day 14, Sunday — Market Closed)
 **Portfolio:** $50,478.01 | **Cash:** $50,478.01 (100%) | **Day P&L:** $0 (market closed) | **Phase P&L:** +$478.01 (+0.96%)
 **Regime:** CHOP (VIX 21.57, SPY +3.37% vs 50DMA — per Jun 7 pre-market log)
@@ -262,3 +305,25 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — Trade #3 (BACKFILLED 2026-07-15)
+
+*Discovered via Alpaca order-history reconciliation during the Jul 15 pre-market run — never logged at the time. No pre-market/RESEARCH-LOG entry exists for Jul 6-14 to source the live rationale; the entry price closely matches the Jul 5 research log's GEV watchlist trigger (reclaim of $1,070), so that is the most likely thesis, but this could not be confirmed live at the time of the trade.*
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 |
+| Ticker | GEV |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 (market order, filled 13:48:59 UTC, order a1f355ac) |
+| Stop Level | 10% trailing GTC, order d3eaba2d, placed same day |
+| Thesis (reconstructed) | Matches Jul 5 research log watchlist setup: Industrials, entry on reclaim of $1,070 (5d MA), stop below $1,030, target $1,150 (~2:1 R:R). Live-verification note and exact stop level actually used were not logged. |
+| Cost Basis | $7,485.03 (~14.75% of equity at the time) |
+| Regime at Entry | Unknown — no pre-market log exists for Jul 6-10; likely CHOP (carried from Jul 5) |
+
+**Logging gap:** No pre-market research, EOD snapshots, or weekly reviews exist for Jul 6 through Jul 14 (9 trading days). This trade, plus the Jun 2 WDAY exit and full AVGO round-trip, were only discovered via a manual Alpaca order-history reconciliation run during the Jul 15 pre-market routine. See 2026-07-15 RESEARCH-LOG entry for full detail and recommended follow-up.
+
+**Trades this week (week of 7/6):** untracked due to logging gap — this was likely the sole trade slot used.

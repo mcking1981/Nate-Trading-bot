@@ -1167,3 +1167,51 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-15 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.58% ($753.10 vs $748.73) | VIX: ~17.16 (spiked +14% Mon on Iran/Gulf escalation; 15.57-17.16 range this week)
+*(Regime limits: max 4 positions, max 15%/position (~$7,612), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,747.86 | Cash: $35,631.71 (70.2%) | Buying power: $184,852.06 | Daytrade count: 0
+- Positions: GEV 7sh @ $1,069.29, current $1,083.44 (+1.32%, +$99.05 unrealized) | RTX 39sh @ $188.75, current $193.13 (+2.32%, +$170.82 unrealized)
+- Open orders: GEV 10% trailing stop GTC @ $992.511 (HWM $1,102.79) | RTX 10% trailing stop GTC @ $183.546 (HWM $203.94)
+- Deployed: 29.8% of equity ($15,116.15 position value) vs 60% CHOP target — underdeployed but no forced trades. 2 of 4 CHOP position slots used. 0 of 2 new-trade slots used this week (Mon 7/13-today).
+
+### CRITICAL — Logging Gap & Unlogged Trades Discovered
+No pre-market/EOD entries since Jul 5, no TRADE-LOG entries since Jun 29 (Trade #2/RTX), and no weekly reviews since w/e 6/26 (2 cycles missing → weekly auto-tuning rule checks did not run). Cross-checked Alpaca closed-order history against TRADE-LOG.md and found **three fully unlogged trades**, now backfilled into TRADE-LOG.md from Alpaca order data:
+1. **WDAY exit** (6/2) — sold 60sh @ $151.20 (trailing 5% stop, HWM $158.62). +$1,596.00 / +21.35% win. Never logged as a closed trade.
+2. **AVGO round-trip** (6/2 buy → 6/4 sell) — bought 15sh @ $485.28, 10% trailing stop set (HWM $495, trigger $445.50), but filled at $410.75 — the stop gapped through its trigger price. Realized -$1,117.96 / -15.36% loss. Neither the entry nor the exit was ever logged; this loss breached the -7% manual-cut rule and was never reviewed.
+3. **GEV entry** (7/10) — bought 7sh @ $1,069.29 market order, 10% trailing GTC stop placed same day. Matches the Jul 5 research log's GEV watchlist trigger (reclaim $1,070) almost exactly, but no live-verification note or thesis was logged at the time.
+Recommend investigating why the scheduled routine stopped firing Jun 30-Jul 14, and reviewing AVGO's gap-through-stop as a real gap-risk case (a 10% trailing stop is not a hard floor — large downside gaps can fill well below the trigger).
+
+### Macro (Sub-agent 1 synthesis)
+Oil spiking on fresh Iran/Gulf conflict escalation: WTI ~$79.6-79.8 (+2%), Brent ~$84-85 (+1-2%), Hormuz disruption fears reignited. S&P futures modestly higher (+0.1-0.3%) despite cash S&P closing -0.8% Tuesday (tech-led). VIX ~17.16, +14% Monday spike, futures elevated (17.9-18.8). DXY ~100.8-100.9, roughly flat. 10Y yield ~4.56-4.60%, near multi-month highs on hawkish Fed + oil-driven inflation fears. Econ calendar: PPI (Jun) 8:30am ET, Empire State Mfg Index, Fed Beige Book 2pm ET; next FOMC Jul 29 (~97% hold priced). Net read: risk-off tilt — oil/geopolitical shock + rising yields + VIX spike argues for cautious sizing.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK (Tech) +29%, Industrials ~16-17%, Energy/Healthcare mid-single-digits. Last 5 days: Tech, Industrials, Healthcare top three; short-term rotation into XLE/XLV/XLRE while XLK/XLI cooled. Strongest current momentum: Tech (semis rotating NVDA→AVGO/AMD/MU) and Industrials (aerospace/defense basing). Book is already 2/2 Industrials (GEV, RTX) — Tech is the cleaner diversification pick, not a 3rd Industrials name. Tech candidates: AVGO (~$384, -4% pullback holding support; entry ~$370-375, stop ~$355) and MU (~$936, -4.4% pullback, HBM/AI demand strong; entry ~$900 support, stop ~$860). NVDA flagged avoid (lagging, neutral RSI). GEV (+60% YTD, sold out on turbines through 2030, 63x fwd P/E, Q2 earnings 7/22) and RTX (Jefferies Buy PT $220, Q2 earnings 7/23) both momentum-intact, hold, no add.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market: ASML beat; JNJ, Morgan Stanley, BlackRock, Progressive reporting BMO (actuals pending at run time). Yesterday AM: big banks (GS, JPM, WFC, BAC) beat. AH yesterday: nothing notable. **GEV reports Q2 Wed Jul 22 BMO; RTX reports Q2 Thu Jul 23 BMO — both next week, not this week.** RTX has beaten 4 straight quarters (avg +12% surprise); GEV smashed Q1. No same-day earnings catalyst for either holding or for new-name entries today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **GEV:** ~$1,060-1,083, down ~8% over the past week from the $1,152 high (7/6). Zacks Buy (#2), avg PT $1,222 (+15% upside), Chevron JV coverage. Momentum cooling but no negative catalyst; earnings 7/22.
+- **RTX:** Closed $193.13-193.39, off ~4% from the 7/6 high ($201.37). Stinger/AMRAAM production expansion w/ NATO. Buy rating, PT $215. Defense tailwind intact, no adverse news; earnings 7/23.
+
+### Trade Ideas
+(No earnings catalyst today for a new name — using Sector Scout's named tickers as conditional/watchlist setups per protocol.)
+1. **MU** — Tech, HBM/AI-demand pullback. Watchlist entry: hold/reclaim ~$900 support. Stop: ~$860 (~-4.4%). Regime check: WATCHLIST ONLY — would diversify the book out of its current 2/2 Industrials concentration; live-verify before sizing.
+2. **AVGO** — Tech, pullback holding support. Watchlist entry: hold ~$370-375. Stop: ~$355 (~-4-5%). Regime check: WATCHLIST ONLY, CAUTION — this is the same name the bot was stopped out of at -15.36% on 6/4 (gap-through-stop). Re-entry needs a fresh catalyst check, not just a technical bounce; treat with elevated scrutiny.
+
+### Risk Factors
+- Fresh Iran/Gulf conflict escalation driving oil spike and Hormuz disruption fears — genuine risk-off driver, no direct portfolio exposure but a macro headwind
+- VIX up sharply (+14% Monday to ~17.16) — still mid-CHOP band but trending toward the upper end; no green light for aggressive sizing
+- 10Y yield at multi-month highs (~4.56-4.60%) — rate-sensitive headwind
+- Both current positions (GEV, RTX) are Industrials, and both report earnings next week (7/22, 7/23) — no action needed this week, but flag for stop/position-size review ahead of the prints
+- **Process gap:** ~2-week logging blackout (Jul 6-14) during which a live trade (GEV) executed with no logged thesis, plus 2 previously-unlogged trades (WDAY exit, full AVGO round-trip incl. a -15.36% loss) surfaced only via manual Alpaca order-history reconciliation done today. Weekly auto-tuning did not run for 2 cycles. This is a recurring issue flagged in 3+ prior weekly reviews, now escalated to an actual missed-trade-logging incident.
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +0.58% vs 50DMA, VIX ~17.16). Existing GEV (+1.32%) and RTX (+2.32%) positions healthy, trailing stops intact, no urgent action; both have earnings next week (event risk to monitor, not act on today). MU and AVGO carried as Tech watchlist-only diversification candidates (book is 2/2 Industrials) — no live trigger to act on today. 0 of 2 CHOP trade slots used this week. TRADE-LOG.md backfilled with 3 previously-unlogged trades found via Alpaca reconciliation; recommend investigating the routine-scheduling gap. Patience > activity.
