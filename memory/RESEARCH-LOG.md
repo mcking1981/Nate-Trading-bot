@@ -1167,3 +1167,28 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-15 — Market-Open Check (no pre-market run today)
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.33% ($744.78 vs $742.30) | VIX: ~16-17
+*(Regime limits: max 4 positions, max 15%/position (~$7,600), target 60% deployed, max 2 new trades/week)*
+
+### Logging-gap reconciliation (routine failure, flagged for user)
+- No RESEARCH-LOG or TRADE-LOG entries exist between 2026-07-05 (Sun, no session) and today, 2026-07-15 — 9 trading days (Jul 6–14) with no pre-market, market-open, midday, or EOD runs logged.
+- Live Alpaca order history was pulled to reconcile: **GEV (7sh @ $1,069.29, bought 2026-07-10)** was filled but never logged — this matches the Jul 5 watchlist setup (reclaim $1,070) and has been backfilled into TRADE-LOG.md as Trade #3. No other undocumented fills found (checked back to Jun 1). Root cause of the scheduling gap is not diagnosed from within this session.
+
+### Account Snapshot (live, 2026-07-15)
+- Equity: $50,668.19 | Cash: $35,631.71 | Buying power: $184,628.97 | Positions market value: $15,036.80 (29.7% deployed vs 60% CHOP target)
+- **RTX** 39sh @ $188.75, current $194.675 (+3.14%, +$231.08 unrealized). 10% trailing stop GTC live (order 9e56a487, stop $183.546, HWM $203.94). No tighten trigger (< +15%).
+- **GEV** 7sh @ $1,069.29, current $1,064.07 (-0.49%, -$36.56 unrealized). 10% trailing stop GTC live (order d3eaba2d, stop $992.51, HWM $1,102.79). No cut trigger (> -7%).
+- 2 of 4 CHOP position slots used. 0 of 2 CHOP trade slots used this week (Mon 7/13–today) — GEV's slot was consumed the week of Jul 6-10, already elapsed.
+
+### Market-Open Check — action taken
+- No new trades placed. Today's RESEARCH-LOG had no pre-existing watchlist/trigger levels going into this run (gap above), so no ticker has a documented catalyst per the hard-rule checklist ("Catalyst clearly documented in today's RESEARCH-LOG") — full pre-market research (macro/sector/earnings sub-agents) was not run inline; regime detection only was performed to unblock position management and stop-checks.
+- Existing positions (RTX, GEV) reviewed: both healthy, stops correctly placed at 10% trailing GTC, no tighten/cut/sector-exit action required.
+- Recommend next pre-market run performs full research to rebuild a live watchlist (no carried-over conditional setups exist from before the gap other than the already-filled GEV and the stale/likely-expired CAT reclaim-$1,004 idea, which should be re-verified live before any action).
+
+### Decision
+HOLD — no new entries today; reconciled and backfilled the Jul 10 GEV trade; flagged the Jul 6–14 logging gap for investigation. Patience > activity.

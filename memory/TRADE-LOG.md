@@ -262,3 +262,23 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — Trade #3 (BACKFILLED 2026-07-15 — see logging-gap note below)
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 |
+| Ticker | GEV |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 (market order, filled 13:48:59 UTC) |
+| Stop Level | 10% trailing GTC, order ID d3eaba2d, HWM $1,102.79 (last-known stop ~$992.51) |
+| Thesis | Reconstructed from Jul 5 pre-market watchlist (RESEARCH-LOG): reclaim of $1,070 5-day-MA level, support between 20d MA ($989) and 50d MA ($1,030). Industrials/AI-datacenter & power-buildout momentum. No live RESEARCH-LOG entry exists for Jul 10 itself — no routine ran or logged that day, so exact live confirmation notes at time of entry are unrecoverable. |
+| Target | $1,150 (per Jul 5 watchlist, ~2:1 R:R) |
+| R:R | ~1.9:1 (10% trailing stop vs ~7.6% to target from entry) |
+| Regime at Entry | CHOP (carried from Jul 5 pre-market stamp — last regime read before the gap) |
+| Cost Basis | $7,485.03 (~14.8% of equity at the time) |
+
+**Logging-gap note:** This trade was discovered via live Alpaca order history during the Jul 15 market-open run — it was never logged here and no RESEARCH-LOG/TRADE-LOG entries exist for Jul 6–14 (9 trading days). No other undocumented fills were found in that window (order history cross-checked back to Jun 1). Root cause not yet diagnosed — flagged for investigation (cron/schedule config, per prior recurring gap notes on Jun 26 and Jul 5). **Trades this week (Jul 6–10):** 1 of 2 CHOP limit (GEV) — already elapsed, does not count against the current week.
