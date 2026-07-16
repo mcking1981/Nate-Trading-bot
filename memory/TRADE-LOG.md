@@ -262,3 +262,36 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — Trade #3 (backfilled Jul 16 — logging gap)
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 |
+| Ticker | GEV |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 (market order, filled 13:48:59 UTC / 9:48am ET) |
+| Stop Level | $992.511 (10% trailing GTC, order ID: d3eaba2d, HWM $1,102.79) |
+| Thesis | Reconstructed from the Jul 5 pre-market watchlist (last documented research before this trade): reclaim of the $1,070 5-day MA trigger on GE Vernova (Industrials), pullback-to-support setup, entry zone $985-1,110, stop below $1,040, target $1,123-1,153 resistance (~2:1 R:R). No market-open research log exists for Jul 10 — thesis inferred from the last documented watchlist entry, not independently verified at time of backfill. |
+| Target | $1,123-1,153 (per Jul 5 watchlist) |
+| R:R | ~2:1 per original watchlist plan |
+| Regime at Entry | CHOP (last confirmed Jul 5; no fresh regime read Jul 6-10) |
+| Cost Basis | $7,485.03 (~14.7% of last-known equity ~$50,887 as of Jul 5) |
+
+**Logging gap — flagged:** No pre-market, market-open, midday, or EOD entries were logged or committed to git between Jul 6 and Jul 15 inclusive (last commit before today: "pre-market research 2026-07-05"). This GEV trade executed live via a market-open routine on Jul 10 (confirmed via Alpaca's closed-orders API: filled 7sh @ $1,069.29) but was never recorded in this log or RESEARCH-LOG.md — the routine placed the trade and then failed to log/commit, breaking the "every trade must be documented" rule after the fact. Discovered and backfilled during the Jul 16 EOD run by cross-referencing Alpaca order history against the last documented watchlist. Full order history Jul 1-16 checked — no other undocumented fills found; RTX and GEV are the only two live positions. **Root cause not diagnosed — recommend checking the cron/schedule config for why routines stopped running/committing for ~8 trading days (Jul 6, 7, 8, 9, 13, 14, 15 all missing; only today's Jul 16 EOD ran).**
+
+**Trades this week (of the week GEV was bought, Jul 6-10):** untracked — no pre-market/market-open logs exist to confirm slot count for that week.
+
+---
+
+### Jul 16 — EOD Snapshot (Day 53, Thursday)
+**Portfolio:** $50,367.96 | **Cash:** $35,631.71 (70.7%) | **Day P&L:** -$290.42 (-0.57%) | **Phase P&L:** +$367.96 (+0.74%)
+**Regime:** CHOP (stale — last confirmed Jul 5 pre-market log, VIX 16.15/SPY +1.12% vs 50DMA; no fresh regime read in 8 trading days, Jul 6-16)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| GEV | 7 | $1,069.29 | $1,030.45 | -2.35% | -$271.88 (-3.63%) | $992.511 (10% trailing GTC, HWM $1,102.79) |
+| RTX | 39 | $188.75 | $192.90 | -1.53% | +$161.85 (+2.20%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** No trades today. Both positions traded down with the broader tape (-2.35% GEV, -1.53% RTX) but neither is near a stop or a tighten threshold — GEV -3.63% unrealized (well inside the -7% cut-loss line), RTX +2.20% unrealized (well below the +15% tighten-to-7% trigger). This EOD run also closed an 11-day logging gap: the routine did not log or commit anything between Jul 5 (pre-market) and today, and a live GEV buy (7sh @ $1,069.29, filled Jul 10 market-open, 10% trailing GTC stop placed same day) was executed but never recorded — backfilled above as Trade #3 with a flag to investigate the scheduler. Regime is carried over from Jul 5 and is stale; treat any new sizing as CHOP-conservative until a fresh pre-market run confirms it. Capital deployment is low for the regime (29.3% invested, $14,736 of $50,368) — no new setups researched during the gap, so nothing queued. 0 of 2 CHOP trade slots used this week (Mon 7/13-today, confirmed via Alpaca order history). Phase P&L +0.74% vs $50,000 launch baseline. Tomorrow (Fri 7/17): run pre-market to refresh the regime read before any new sizing; hold GEV/RTX and let trailing stops work; verify the scheduled routines are actually firing and committing going forward. Patience > activity.
