@@ -262,3 +262,25 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — Trade #3 (backfilled Jul 16 — never logged at the time; discovered via live Alpaca order history during market-open routine after an 11-day logging/routine gap)
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 |
+| Ticker | GEV |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 |
+| Stop Level | 10% trailing GTC, order ID: d3eaba2d (HWM $1,102.79 as of 7/16, stop $992.51) |
+| Thesis | Per Jul 5 pre-market watchlist: reclaim of $1,070 (5d MA) pullback-to-support level. Industrials/Power momentum (GE Vernova), XLI YTD leader. |
+| Target | $1,150 (per Jul 5 research, ~2:1 R:R) |
+| R:R | ~2:1 (10% trailing stop vs ~7.6% to target) |
+| Regime at Entry | CHOP (per Jul 5 pre-market log; no pre-market ran Jul 6-10, regime carried over) |
+| Cost Basis | $7,485.03 (~14.9% of equity at time of entry) |
+
+**Data integrity note:** This trade was filled live and the stop was correctly placed at the time (order timestamps 2026-07-10T13:48-13:49 UTC), but no RESEARCH-LOG or TRADE-LOG entry was made — discovered retroactively on 2026-07-16 via `alpaca.sh orders`. No EOD/research entries exist for Jul 6-15 (~7-8 trading sessions). Recommend checking routine/cron scheduling — this is a recurrence of gaps flagged in the Jun 26 weekly review and Jul 5 pre-market log.
+
+**Trades this week (week of Jul 6):** 1 of 2 (CHOP limit) — GEV.

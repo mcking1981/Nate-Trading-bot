@@ -1167,3 +1167,36 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-16 — Pre-market Research (inline, run by market-open — no standalone pre-market entry existed)
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.85% ($754.95 vs $741.24) | VIX: 15.71
+*(Regime limits: max 4 positions, max 15%/position (~$7,562), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,416.82 | Cash: $35,631.71 (70.7%) | Position MV: $14,785.11 (29.3% deployed — below 60% CHOP target, no forced action) | Buying power: $183,925.14
+- Positions: GEV 7sh @ $1,069.29, now $1,020.85 (-4.53%, stop GTC trailing 10% @ $992.51, HWM $1,102.79) | RTX 39sh @ $188.75, now $195.25 (+3.44%, stop GTC trailing 10% @ $183.55, HWM $203.94)
+- 2 of 4 CHOP position slots used. Both stops active and correctly placed (never within 3% of price, never moved down).
+
+### Logging gap flagged (operational issue, not a trading decision)
+- **No RESEARCH-LOG or TRADE-LOG entries exist between Jul 5 and today (Jul 16) — 11 calendar days / ~7-8 trading sessions with no pre-market, market-open, midday, or EOD entries.**
+- **GEV was bought Jul 10 (7sh @ $1,069.29, order a1f355ac) matching the Jul 5 watchlist trigger (reclaim $1,070) — a valid, correctly-sized entry — but it was never appended to TRADE-LOG.md.** Live trailing stop (order d3eaba2d) is correctly in place, so risk is managed; only the written record is missing.
+- Weekly-review log also has no entry since week-ending Jun 26 (3 weeks stale).
+- This is a recurrence of the same cron/logging gap flagged in the Jun 26 weekly review and Jul 5 pre-market — routines are not running on schedule. Recommend checking the routine trigger/cron config.
+
+### Trade Ideas / Watchlist Re-check
+- **CAT** — still BELOW its $1,004 reclaim trigger (live ~$900, per web cross-check; Alpaca quote spread abnormally wide again, $840.75 bid/$936.60 ask, unreliable). Unconfirmed — carry forward, do not chase.
+- **GEV** — trigger already filled Jul 10 (see above); no longer a watchlist item, now a live position.
+- No fresh catalyst research (macro/sector/earnings sub-agents) run today — full pre-market did not execute. No new tickers to evaluate; do not originate trades without a documented catalyst per Strategy Hard Rules.
+
+### Risk Factors
+- Sector concentration: GEV + RTX are both Industrials-adjacent (Power/Electrical Equipment vs Aerospace & Defense) — 2 of 4 CHOP slots already in one sector family; weigh before adding CAT if it ever triggers.
+- Operational: 11-day logging/routine gap (see above) — flagged for user attention.
+
+### Decision
+HOLD — no confirmed live trigger today. CAT remains below its reclaim level, not actionable. GEV and RTX positions healthy, stops correctly placed and untouched (no move-down, no within-3% violation). 0 new trades this week so far; 2 of 2 CHOP slots available if a genuine catalyst-backed setup appears. Patience > activity.
+
+### Market-Open Check — 09:48 ET
+CAT: no confirmed setup — live ~$900 vs $1,004 trigger, still below (unconfirmed), no chase. GEV: trigger already filled Jul 10, now a held position, stop intact. RTX: no watchlist trigger (existing position), stop intact, +3.44% unrealized, not yet at +15% tighten threshold. No trade placed. HOLD.
