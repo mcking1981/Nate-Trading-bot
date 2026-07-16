@@ -262,3 +262,21 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 10 — Trade #3 (RECONSTRUCTED — backfilled Jul 16, not logged live)
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-10 (approximate — reconstructed from Alpaca order timestamp; no live TRADE-LOG or RESEARCH-LOG entry exists for this date) |
+| Ticker | GEV (GE Vernova) |
+| Side | BUY |
+| Shares | 7 |
+| Entry Price | $1,069.29 |
+| Stop Level | $992.511 (10% trailing GTC, order ID: d3eaba2d, HWM $1,102.79 as of Jul 16) |
+| Thesis (reconstructed) | Matches the Jul 5 pre-market watchlist setup exactly: Industrials, pullback-to-support, entry on reclaim of $1,070 (5-day MA), stop below $1,030 (~-3.7% from original watchlist stop, actual stop is the 10% trail), target $1,150 (~2:1 R:R). Sector: Industrials/AI-datacenter+grid buildout, same theme as RTX. |
+| Regime at Entry | Unknown — no pre-market log exists for Jul 6-9; last confirmed regime was CHOP (Jul 5 log, SPY +1.12% vs 50DMA, VIX 16.15) |
+| Cost Basis | $7,485.03 (approx. 14.8% of equity at the time, based on cost_basis field from Alpaca) |
+
+**Data integrity note:** No pre-market or EOD entries exist for Jul 6-15 (11-day gap, ~8 trading sessions) — same recurring cron/schedule issue flagged in the last 3 weekly reviews (Jun 12, Jun 19, Jun 26). This GEV trade was discovered only via the Jul 16 pre-market Alpaca positions/orders pull; the actual live decision process, intraday price action, and any other trades or EOD state during the gap window are unrecoverable. Recommend investigating why the routine didn't fire Jul 6-15 as a priority action, not just another logged flag.
