@@ -200,3 +200,59 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - If a 7th straight week passes with 0 trades despite confirmed regime-aligned candidates, treat the entry trigger itself (not the setup criteria) as the thing to redesign
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-07-17
+
+> ⚠️ **DATA GAP — routines did not run Jul 6 through Jul 17.** Last logged activity of any kind (pre-market research, EOD snapshot, or weekly review) is the Jul 5 pre-market entry (git-confirmed: last `memory/` commit is `2026-07-05`, clean working tree, no uncommitted local logs). No pre-market, market-open, midday, EOD, daily-summary, or weekly-review routine executed for 12 consecutive days — spanning two entire missed Fridays (week ending 7/3 and week ending 7/10 both have no review). This entry uses only what live Alpaca state and public market data can independently confirm; fields that depend on the missing daily logs are marked N/A rather than estimated.
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | N/A — no logged equity for Mon 7/13 (last logged: $50,422.63 EOD Jun 29; last research-log figure: $50,887.50 Jul 5, both stale) |
+| Ending portfolio | $50,165.33 (live Alpaca account, balance_asof 2026-07-16) |
+| Week return | N/A — cannot isolate this week's change from the 12-day unlogged gap |
+| S&P 500 week | -1.10% (7,575.39 Jul 10 close -> ~7,492.31 Jul 17 intraday) |
+| Bot vs S&P | N/A (no reliable week-start portfolio figure to compare) |
+| Dominant regime | UNKNOWN this week — regime stamp stale since Jul 5 (CHOP, VIX 16.15); no pre-market run since to reclassify |
+| Trades | 0 new (W:0 / L:0 / open:1 — RTX carried from Jun 29 entry) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| RTX | $188.75 (39 sh, 6/29) | $193.54 | +$186.81 (+2.54%) | $183.546 (10% trailing GTC, HWM $203.94, order 9e56a487, live and confirmed via Alpaca `orders open`) |
+
+### What Worked
+- The RTX 10% trailing GTC stop functioned exactly as designed with zero routine involvement — the position stayed protected through a 12-day span with no research, monitoring, or human/bot oversight running at all, proving the broker-side order (not the daily routine) is the actual safety net
+- RTX remains profitable (+2.54% unrealized) despite pulling back from its Jul 5 high (stop's HWM reached $203.94 before easing back)
+- No blind new positions were opened during the outage — capital wasn't put at fresh risk while the research pipeline was dark
+
+### What Didn't Work
+- **CRITICAL — total routine outage:** every scheduled workflow (pre-market, market-open, midday, EOD, daily-summary) failed to run for 12 straight days (Jul 6-17). This is not a "logging gap" like prior weeks flagged (1-4 days) — it is a complete stop of the automated system, confirmed by git history showing zero `memory/` commits between Jul 5 and today
+- Two entire weekly reviews were skipped outright (week ending 7/3, week ending 7/10) — this Friday's run is the first activity of any kind in 12 days
+- The regime stamp (CHOP, VIX 16.15) is 12 days stale — if any setup had triggered during the gap, sizing rules would have been applied against outdated volatility/trend data
+- This exact failure mode was flagged as an explicit action item in the Jun 26 review ("investigate why the Jun 24-25 routine didn't fire") and was never resolved — it then recurred at roughly 6x the length of the worst prior gap (2 days -> 12 days)
+
+### Key Lessons
+- A GTC broker-side stop is a genuine backstop for a position already open, but it covers nothing else — no fresh research happened for 12 days, so any deteriorating thesis on RTX or a new regime-aligned opportunity elsewhere was completely missed, not just delayed
+- This is an infrastructure/scheduling failure, not a strategy or discipline failure — the cron/trigger mechanism behind routines/*.md needs to be checked and fixed before any further conclusions can be drawn about trading performance
+- RTX earnings are Jul 23 (6 days out) — if the outage isn't fixed before then, the position rides into a binary earnings event with no active plan, which contradicts the strategy's standing practice of deciding hold-vs-trim ahead of such events
+
+### Rule Changes This Week
+No rule changes this week. CHECK A/B not evaluated numerically — this week's return cannot be isolated from the unlogged gap, so no reliable >2% comparison exists; regardless, the last two actual weekly reviews on record (6/19 underperformed -0.93%, 6/26 outperformed +1.97%) are not two consecutive weeks in the same direction, so neither the tightening nor loosening threshold would fire either way. CHECK C: no trades taken this week, so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Top priority, before any trading decision: diagnose and fix why routines/*.md stopped firing on/after Jul 6 — check the scheduling/cron config first, this is now a confirmed 12-day total outage, not a theoretical risk
+- Once routines resume, immediately re-run pre-market to refresh the stale (Jul 5) regime stamp before sizing anything new
+- Decide RTX's earnings-week (7/23) plan explicitly — hold through with the existing trailing stop, or trim ahead of the print — as soon as research capability is restored, rather than letting the date arrive with no plan again
+
+### Overall Grade: F
