@@ -1167,3 +1167,29 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-17 — Market-Open Check (no pre-market run since Jul 5)
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.81% ($754.81 vs $741.39) | VIX: 16.15
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Gap Notice
+No pre-market or market-open runs logged Jul 6–Jul 16 (12 days, ~8 trading sessions) — the routine did not execute during that window (last commit `pre-market research 2026-07-05`, no trades since Jun 29). Live account state verified now: no unexpected trades occurred during the gap; RTX position and its trailing stop order stayed active and intact throughout.
+
+### Account Snapshot
+- Equity: $50,267.51 | Cash: $42,617.27 (84.8%) | Buying power: $191,847.71 | Daytrade count: 0
+
+### Positions
+- **RTX**: 39sh @ $188.75 entry, now $195.87 (+3.77%, +$277.68 unrealized). 10% trailing GTC stop live at $183.546 (HWM $203.94, order 9e56a487). Thesis intact, no action needed.
+
+### Watchlist Status (carried from Jul 5, now 12 days stale)
+- **CAT** (reclaim $1,004 trigger) — stale; no fresh catalyst re-verified today, cannot classify into a confirmation zone per protocol without a current pre-market read. Not actioned.
+- **GEV** (reclaim $1,070 trigger) — stale, same reasoning. Not actioned.
+
+### Market-Open Check — 09:47 ET
+NO CONFIRMED SETUP — today has no pre-market research entry, so no ticker has a catalyst documented for today per Step 4 hard-check. CAT/GEV triggers from Jul 5 are 12 days old and unverified live; treated as expired rather than carried forward indefinitely. No new trades placed. RTX held as-is, stop intact.
+
+### Decision
+HOLD. No new trades — no live, dated catalyst to act on. Flagging the 12-day logging gap for review; recommend a full pre-market run before the next session to refresh the regime read and watchlist.
