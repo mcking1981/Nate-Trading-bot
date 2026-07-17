@@ -1167,3 +1167,56 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-17 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.27% ($750.76 vs $748.73) | VIX: 16.73
+*(Regime limits: max 4 positions, max 15%/position (~$7,553), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,355.71 | Cash: $35,631.71 (70.8%) | Buying power: $183,754.04 | Daytrade count: not returned in account payload
+- Positions: GEV 7sh @ $1,069.29 (cost basis $7,485.03, 14.87% of equity) | RTX 39sh @ $188.75 (cost basis $7,361.25, 14.62% of equity) — both already near the 15%/position CHOP cap
+- Open orders: GEV 10% trailing stop GTC @ $992.511 (HWM $1,102.79) | RTX 10% trailing stop GTC @ $183.546 (HWM $203.94)
+- Deployed: $14,724 / $50,355.71 = 29.2% (below 60% CHOP target; 2 of 4 position slots used)
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$79.5-79.7, Brent ~$84.5-85 — both up on escalating US-Iran tension / supply-disruption fears
+- **Futures:** Mixed/soft — S&P e-mini -63pts (~7,514), cash-equiv S&P -0.07%, Dow +0.26%, Nasdaq -0.64% (rotation out of momentum names)
+- **VIX:** 16.73 (+6.76% vs prior close) — ticking up, still sub-20/mid-CHOP
+- **DXY:** 100.70, roughly flat, consolidating near multi-month uptrend highs
+- **10Y yield:** 4.56-4.60%, near a 2-month high on hawkish Fed speak (Jefferson, Williams, Warsh, Cook, Barr, Bowman) + Iran-driven energy-inflation concerns
+- **Econ calendar:** Only Import/Export Price Indexes (8:30am ET) today; CPI (7/14) and PPI (7/15) already out; next FOMC 7/29
+- Net read: risk-off tilt from Mideast tensions + hawkish Fed rhetoric + rising yields — favor conservative sizing
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33%, XLE +21%, XLI +20%
+- **Last 5-day leaders:** XLF +4.55%, XLV +3.64%, XLC +3.63%, XLE +2.88%; XLI -1.54% and XLK -5.95% over 5 days — both cooling/reversing
+- **Strongest current momentum: Energy (XLE)** — top-3 YTD and last-5-day — **and Financials (XLF)** — top 5-day mover, fresh highs. Both diversify away from the book's existing Industrials concentration (GEV, RTX)
+- **XOM** (Energy) — $142.83 (7/15 close), pulled back from $145 intraday high on the oil rally; support ~$137-138. Entry: reclaim $143-145. Stop: below $137 (~-4%). Analyst avg target $167
+- **JPM** (Financials) — $342.89, 0.5% off ATH $344.73, consolidating; 50-day SMA support $338.85. Entry: breakout above $345 ATH. Stop: below $330 (~-4.3%, below 50d SMA)
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No major pre-market reports today. Yesterday's (7/16) notables: UNH big miss (EPS $4.85 vs $6.38 est.), TSM beat, ASML beat + raised FY guidance, GE Aero beat, bank beats (CFG/USB/STT/ABT)
+- **NFLX** (AH 7/16): beat + raised guidance, shares still fell ~5% — valuation-driven "good but not good enough" reaction
+- **RTX earnings confirmed Thu 7/23 BMO** (call 7:30am ET), consensus EPS $1.66 vs $1.56 last year; beat in each of last 4 quarters (~+13% avg beat). No same-day catalyst today
+
+### Holdings News (Sub-agent 4 synthesis)
+- **GEV** — Consolidating $1,040-1,090, off 52wk high $1,196. **Q2 earnings Jul 22-23 (imminent)** — key catalyst is Gas Power orders (guided 10-15 GW); Wind segment remains a ~$400M FY EBIT drag. No downgrades; consensus still Buy (avg PT $1,222). Recent dip reads as profit-taking/consolidation, not a thesis break.
+- **RTX** — No negative news; closed $195.89 (+1.29%). **Q2 earnings Jul 23 BMO** (same week as GEV). Normal $0.73 dividend declared (ex-date 8/14). Positive items: Collins Aerospace UK center, Pratt & Whitney/Aiir acquisition, F119 engine milestone. No downgrades, no thesis break.
+
+### Trade Ideas
+(No earnings catalyst today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **XOM** — Energy, pullback/reclaim setup. Watchlist entry: reclaim $143-145. Stop: below $137 (~-4%). Target: ~$155-160 (analyst avg $167) (~2.5:1 R:R). Regime check: WATCHLIST ONLY — would diversify off Industrials concentration, but weigh against imminent GEV/RTX earnings-week risk before adding new capital.
+2. **JPM** — Financials, breakout setup. Watchlist entry: breakout above $345 ATH. Stop: below $330 (~-4.3%, below 50d SMA $338.85). Target: ~$360 (~2:1 R:R). Regime check: WATCHLIST ONLY — not yet triggered.
+
+### Risk Factors
+- **Logging gap Jul 6-Jul 16 (~2 weeks, no RESEARCH-LOG or TRADE-LOG entries):** GEV was filled live (7sh @ $1,069.29 — matching almost exactly the Jul 6 watchlist reclaim trigger of $1,070) with **zero TRADE-LOG record** of the entry, stop placement, or thesis. Regime/equity history for this entire stretch is unverified. This is a materially larger recurrence of the logging-gap issue flagged in the last several weekly reviews — recommend investigating the cron/schedule config directly rather than flagging again next review.
+- GEV -4.89% unrealized ($1,017 vs $1,069.29 entry) — drifting toward the -7% manual cut-loss line; Wind segment is a real fundamental drag even though consensus stays Buy
+- **Both open positions (GEV, RTX) report Q2 earnings the same day, Thu 7/23 BMO** — 100% of the book carries concentrated earnings-date risk next week; worth deciding now whether to hold through, trim, or tighten stops ahead of the print
+- Rising 10Y yield (4.56-4.60%, 2-month high) + firmer oil (Iran tensions) + VIX ticking up (+6.76%) = risk-off undertone despite VIX still sitting mid-CHOP band
+- Both holdings are Industrials while that sector is decelerating (XLI -1.54% last 5 days) vs. Energy/Financials leading — tension with "follow sector momentum" given current book concentration
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY +0.27% vs 50DMA, VIX 16.73). GEV and RTX theses intact, no thesis-breaking news, but both report Q2 earnings the same day (Thu 7/23) — this argues against adding new Industrials exposure or increasing size this week regardless of setup quality. XOM (Energy) and JPM (Financials) carried as diversifying watchlist-only candidates, neither triggered. 2 of 2 CHOP trade slots nominally available this week, but the Jul 6-16 logging gap means this count is unverified. Patience > activity — flag the logging gap for immediate process investigation.
