@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 17 — EOD Snapshot (Day 54, Friday)
+**Portfolio:** $50,166.11 | **Cash:** $42,617.27 (85.0%) | **Day P&L:** -$299.18 (-0.59%) | **Phase P&L:** +$166.11 (+0.33%)
+**Regime:** CHOP (stale — no pre-market/EOD log since Jul 5; defaulting to CHOP conservative per standing rule)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $193.56 | -0.41% | +$187.59 (+2.55%) | $183.546 (10% trailing GTC, order 9e56a487, HWM $203.94) |
+**Notes:** **Major logging gap:** no EOD/pre-market entries logged Jun 30–Jul 16 (~12 trading sessions) — routine did not run for over two weeks. RTX's own trailing GTC stop (order 9e56a487) protected the position mechanically throughout: HWM climbed to $203.94 (implying RTX ran to ~$203.94 intraday sometime in the gap, above the $199.25 seen Jul 5) before pulling back to $193.56 today; stop is $183.546, well clear (5.3% cushion). No stop-out, no unlogged fills detected — only position is the single RTX buy from Jun 29, cost basis $7,361.25, now $7,548.84 (unrealized +$187.59, +2.55%). Cash $42,617.27 (85.0%), fully idle since Jun 29 — 0 new trades in ~7 weeks total (1 trade since May 26 launch). Phase P&L +0.33% vs $50,000 baseline (down from +5.6% peak implied by the Jul 5 HWM run — some of RTX's gain has since given back). Trades this week: 0 of 2 (regime stale, capped at CHOP default). **Action needed:** investigate why pre-market/midday/EOD routines stopped firing after Jul 5 — check cron/schedule config per repeated prior flags (Jun 26, Jul 5 notes). Tomorrow: re-run pre-market to refresh regime and confirm no missed catalysts on RTX (earnings were flagged for Jul 23). Patience > activity, but this logging gap itself is now the top risk to the phase.
