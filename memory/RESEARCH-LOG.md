@@ -1221,3 +1221,5 @@ HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% 
 
 ### Decision
 HOLD — Saturday, no trading session possible. RTX position healthy (+2.52%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $880-900, Industrials — sector-concentration caveat) and FCX (reclaim $58-59, Materials, no overlap) carried as Monday 7/20 watchlist items — live-verify trigger before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/20. Patience > activity.
+
+### Market-Open Check — market-open routine fired on Saturday 7/18, US markets closed, no live trading session exists — NO ACTION. CAT and FCX remain unconfirmed (watchlist only, no live quotes to check zone status on a closed market). Cron/schedule misconfiguration flagged: market-open should only fire on trading days; this is now the 4th anomaly around scheduled runs this month (13-day pre-market gap Jul 6-17, stale weekly review, and now a weekend market-open firing). Recommend reviewing routines/market-open.md cron trigger.
