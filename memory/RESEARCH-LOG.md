@@ -1167,3 +1167,57 @@ HOLD — Regime CHOP confirmed (SPY +5.9% vs 50DMA but VIX 18.41 keeps it CHOP v
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% vs 50DMA, VIX 16.15). Existing RTX position healthy (+5.6%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $1,004) and GEV (reclaim $1,070) carried as Monday 7/6 watchlist items, both Industrials — live-verify trigger and weigh sector concentration against RTX before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/6. Patience > activity.
+
+---
+
+## 2026-07-18 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.13% ($751.86 vs $750.87) | VIX: 18.77
+*(Regime limits: max 4 positions, max 15%/position (~$7,525), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ US MARKETS CLOSED — Saturday. No trades possible. Planning session for Monday 7/20 open.
+> ⚠️ **Logging gap flagged:** no pre-market/EOD entries since Jul 5 (13 days) — no research log or trade-log snapshots for Jul 6-17. Account data (balance_asof 2026-07-16, single RTX position unchanged) confirms no untracked fills occurred, but the daily regime/thesis record for that stretch is unverified — 3rd consecutive gap of this kind (prior ones flagged Jun 26 and Jul 5 reviews). Recommend investigating why the routine didn't fire (cron/schedule config).
+> ⚠️ **Weekly review also stale** — last entry Week ending 2026-06-26; no reviews logged for weeks of 6/29, 7/6, or 7/13. "Adjustments for Next Week" applied below are carried from that same 6/26 entry since no newer guidance exists.
+
+### Account Snapshot
+- Equity: $50,164.16 | Cash: $42,617.27 | Buying power: $191,600.37 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $193.51 (+2.52%, +$185.64 unrealized) | Open orders: RTX 10% trailing stop GTC @ $183.546 (order 9e56a487, HWM $203.94)
+- Position sizing: RTX = 15.05% of equity — at the CHOP 15%/position ceiling; overall deployment only ~15% vs 60% CHOP target, so 1 of 4 CHOP position slots used
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$82.1-82.4, Brent ~$87.4-87.8, both +4% — spiking on Iran-Israel escalation / Hormuz tanker-disruption fears
+- **S&P futures:** Sep E-mini $7,514.25 (-0.84%) — risk-off open expected
+- **VIX:** 18.77 (7/17 close), up from 16.73 prior session — rising on geopolitical shock, still mid-CHOP band
+- **DXY:** ~100.76-100.82, roughly flat, near 52wk high
+- **10Y yield:** 4.56%, elevated near 2-month highs on hawkish Fed + energy-driven inflation fears
+- **Econ calendar:** No CPI/PPI/jobs today (June prints already out 7/14-15); next major catalyst is FOMC decision 7/29. Today's driver is geopolitics (Iran/Israel/Hormuz), not scheduled data
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +26-33%, XLE +28%, XLI +19-26%
+- **Last 5 days:** Rotation into Industrials & Materials (real-economy/AI-infra-adjacent); Comm Services/Health Care firm; Consumer Discretionary weakest
+- **Best momentum:** Industrials, Materials
+- **CAT** (Industrials/Machinery) — $876.73 (7/16), down ~18% off the Jun 30 high ($1,073), sitting near 7/16 low support ($868.88). Analyst consensus target $949-$1,218 (Moderate Buy). ⚠️ Same GICS sector as RTX (different sub-industry — Machinery vs. Aerospace/Defense) — would raise Industrials concentration
+- **FCX** (Materials/Copper) — $58.00 (7/17), range $57.55-$60.43, near support ~$57.50. Buy consensus, targets $66.90-$80 (Barclays/BofA $80). No sector overlap with RTX
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 7/18:** No major companies scheduled — quiet day. Next notable: GOOG reports Wed 7/22
+- **AH/AM 7/17 beats:** UNH (EPS $6.38 vs $4.94, +1.16%), ABT (EPS $1.31 vs $1.28, beat, +10.71%), JBHT (EPS $1.91 vs $1.71, beat, +8.01%) — none held, no action implied
+- **Market reaction:** Tech-led selloff despite beats — S&P -0.5%, Nasdaq -1.5%, Dow -0.2% on 7/17
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** ~$194-198 recent sessions, up ~1.5-2.5%, no negative catalysts (UK training win, AI advances, Army interceptor milestone). $0.73 dividend declared, ex-date Aug 14. **Earnings confirmed Wed 7/23 (5 trading days out)** — thesis review needed before then; avoid adding to the position into that print
+
+### Trade Ideas
+(No earnings catalyst for Monday — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **CAT** — Industrials pullback, oversold off highs. Watchlist entry: reclaim/hold above $880-900. Stop: 7-10% below entry (~$800-835, tightened toward $868 technical support if entry confirms near $880). Target: 2:1 R:R (~$960-1,000+). Regime check: WATCHLIST ONLY — would stack Industrials sector concentration with RTX; size down or skip if RTX earnings (7/23) still pending.
+2. **FCX** — Materials/copper, pullback to support, no sector overlap with RTX. Watchlist entry: reclaim/hold above $58-59. Stop: -8% (~$53.50). Target: +16% (~$67, 2:1 R:R, aligns with analyst targets). Regime check: WATCHLIST ONLY — live-verify reclaim before sizing.
+
+### Risk Factors
+- Iran-Israel escalation driving oil +4% and a risk-off futures gap (-0.84%) — geopolitical headline risk into Monday's open; reassess de-escalation/escalation news before acting on either watchlist name
+- CAT would stack Industrials concentration with existing RTX position — weigh against "follow sector momentum" vs. single-sector overexposure
+- RTX earnings Wed 7/23 — 5 trading days out; thesis review and no new averaging-up before the print
+- 13-day pre-market logging gap and 3-week-stale weekly review — process/monitoring reliability issue, not a market risk, but reduces confidence in any "no activity" assumption; verify cron/schedule config
+- VIX 18.77 rising off 16.73 — still mid-CHOP band but trending up on geopolitical shock, not yet a regime-changing move
+
+### Decision
+HOLD — Saturday, no trading session possible. RTX position healthy (+2.52%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $880-900, Industrials — sector-concentration caveat) and FCX (reclaim $58-59, Materials, no overlap) carried as Monday 7/20 watchlist items — live-verify trigger before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/20. Patience > activity.
