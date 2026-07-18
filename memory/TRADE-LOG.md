@@ -262,3 +262,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $187.33 | -0.35% | -$55.38 (-0.75%) | $170.892 (10% trailing GTC, HWM $189.88) |
 **Notes:** First trade in 7 weeks — bought RTX (39sh @ $188.75, $7,361.25, 14.6% of equity) on confirmed reclaim of the $190 watchlist trigger; 10% trailing GTC stop placed (order 9e56a487). Stock slipped slightly into the close (-0.35% day, -0.75% unrealized) but thesis (Navy $1.1B missile contract, Jefferies Buy upgrade, $268-271B backlog, dividend declared) intact — no stop action needed. CAT pullback skipped (3rd straight down day, tariff/margin-driven, not a healthy dip); FCX skipped (no defined entry/stop in research). 1 of 2 CHOP trade slots used this week. Phase P&L +0.85% vs $50,000 launch baseline. Tomorrow (Tue 6/30): hold RTX, let the trailing stop work, watch for a fresh setup with 1 slot remaining this week. Patience > activity.
+
+---
+
+### Jul 18 — EOD Snapshot (Day 55, Saturday — Market Closed)
+**Portfolio:** $50,164.16 | **Cash:** $42,617.27 (85.0%) | **Day P&L:** -$301.13 (-0.60%) | **Phase P&L:** +$164.16 (+0.33%)
+**Regime:** CHOP (VIX 18.77, SPY +0.13% vs 50DMA — per Jul 18 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $193.51 | 0.00% | +$185.64 (+2.52%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** Saturday — market closed, no session. Single RTX position (39sh @ $188.75) unchanged, +2.52% unrealized ($185.64), 10% trailing GTC stop intact at $183.546 (HWM $203.94). Day P&L is Fri 7/17 close vs Thu 7/16 close per Alpaca (-$301.13, -0.60%); Phase P&L +0.33% vs $50,000 launch baseline — thin for Day 55. **Critical logging gap:** no TRADE-LOG or RESEARCH-LOG entries since Jun 29 (19 days / 3 missed weeks: 6/30, 7/6, 7/13) — 3rd consecutive gap flagged (prior: Jun 26, Jul 5 reviews). The automated routine has not been firing reliably for most of the challenge window. No untracked trades found (RTX qty/cost basis unchanged), but weekly reviews are also stale (last: week of 6/26) and the daily regime/thesis record for ~3 weeks is simply missing — recommend checking cron/schedule config. RTX earnings Wed 7/23 (5 trading days out) — review thesis before the print, no adding into it. CAT (reclaim $880-900, Industrials, RTX sector-overlap caveat) and FCX (reclaim $58-59, Materials) are Monday 7/20 watchlist items; 2 of 2 CHOP trade slots available. Tomorrow (Sun 7/19): no action, market closed. Patience > activity.
