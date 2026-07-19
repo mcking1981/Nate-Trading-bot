@@ -1223,3 +1223,59 @@ HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY +1.12% 
 HOLD — Saturday, no trading session possible. RTX position healthy (+2.52%, thesis intact, 10% trailing stop working, no action needed). CAT (reclaim $880-900, Industrials — sector-concentration caveat) and FCX (reclaim $58-59, Materials, no overlap) carried as Monday 7/20 watchlist items — live-verify trigger before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/20. Patience > activity.
 
 ### Market-Open Check — market-open routine fired on Saturday 7/18, US markets closed, no live trading session exists — NO ACTION. CAT and FCX remain unconfirmed (watchlist only, no live quotes to check zone status on a closed market). Cron/schedule misconfiguration flagged: market-open should only fire on trading days; this is now the 4th anomaly around scheduled runs this month (13-day pre-market gap Jul 6-17, stale weekly review, and now a weekend market-open firing). Recommend reviewing routines/market-open.md cron trigger.
+
+---
+
+## 2026-07-19 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.02% ($750.72 vs $750.87) | VIX: 18.77
+*(Regime limits: max 4 positions, max 15%/position (~$7,525), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ US MARKETS CLOSED — Sunday. No trades possible. Planning session for Monday 7/20 open.
+> ⚠️ **Date correction:** RTX earnings confirmed **Thursday 7/23** pre-market (not Wednesday as logged 7/18) — verified via RTX's own PR (rtx.com, 6/30) and StockTitan/Barchart/MarketBeat.
+
+### Account Snapshot
+- Equity: $50,164.14 | Cash: $42,617.25 (85.0%) | Buying power: $191,600.29 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $193.51 (+2.52%, +$185.64 unrealized) | Open orders: RTX 10% trailing stop GTC @ $183.546 (order 9e56a487, HWM $203.94)
+- Position sizing: RTX = 15.05% of equity — at the CHOP 15%/position ceiling; overall deployment ~15% vs 60% CHOP target, 1 of 4 CHOP position slots used
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $82.49 (+4.5%), Brent $88.26 (+4.6%) — spiking on US-Iran military escalation, Strait of Hormuz tanker shutdown, and a drone strike suspending Iraqi Basra loadings
+- **S&P futures:** 7,494.75 (-0.98%) Fri close; Nasdaq 100 futures -1.41%, Dow futures -0.78% — risk-off tone into the weekend
+- **VIX:** 18.77 (+12-13% on the day) — fear gauge jumping on the Mideast conflict, still well below 52wk high (35.30)
+- **DXY:** ~100.77, roughly flat — muted despite risk-off
+- **10Y yield:** ~4.55-4.58%, near 2-month highs — market pricing possible Fed rate *hike* risk on oil-driven inflation reacceleration + strong retail sales/low jobless claims
+- **Econ calendar:** PPI ~7/19-20; FOMC decision confirmed 7/29 (hike risk now in play, not just "no cut"); RTX earnings Thu 7/23 falls in this window
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +34.9%, XLE +32.6%, XLV +22.6%, XLI +18.9%, XLB +13.2%
+- **Last 5 days:** Industrials, Energy, Healthcare leading — "real economy" rotation out of AI/tech into industrials/energy/consumer-defensive
+- **Best momentum: Industrials & Energy** (confirms bot's existing RTX/CAT tilt)
+- **CAT** (Industrials/Machinery) — closed Fri 7/17 at $881.26 (+0.55%), reclaiming the $880 trigger intraday (high $893, low $838.33); still 18%+ off June's $1,073 high. Reclaim confirmed but fragile — needs to hold $880 and clear $900 for real confirmation
+- **FCX** (Materials/Copper) — closed Fri 7/17 at $58.38, still chopping $56-60, no clean breakout above $59 on volume. Reclaim NOT confirmed
+- **XOM** (Energy) — 2yr sideways range forming bull-flag on strong FCF; breakout not yet triggered
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Mon 7/20 pre-market:** Light day (DPZ, Dynex Capital, small banks) — no major beats/misses yet, results pending
+- **Fri 7/17 AH/AM:** UNH beat ($6.38 vs $4.94, revenue light); ABT beat ($1.31 vs $1.28); JBHT beat (+9.5% rev, stock +8%); GE Aerospace, STT, USB, TSM all beat. Broad market still fell (SPX -0.5%, Nasdaq -1.5%) on tech weakness despite an 88% S&P beat rate
+- **Week ahead:** Heavy Wed/Thu load — TSLA & GOOGL, INTC, IBM, NOW, TXN, GEV, HAL, CSX, NEE, HCA
+- **RTX confirmed Thu 7/23 pre-market**, consensus EPS $1.66 (+6.4% YoY), beat estimates 4 straight quarters, Moderate Buy avg PT $215.92 (+8.4% upside)
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** No major news since Fri 7/17 close ($193.51); AH ticked +0.22% to $193.94. Fresh contract flow: $309.5M radar modernization award (7/17), UK Army contract win (~7/16), adds to backlog alongside the $1.1B Navy AIM-9X deal (6/30). Clifford Swan and Allspring trimmed RTX holdings (routine 13F-type filings, no rating changes). Earnings Thu 7/23 pre-market — consensus EPS $1.66 / revenue $22.88B, guidance expected to hold steady. 52wk range $143.56-$214.50, 1yr target est. $215.14. No red flags.
+
+### Trade Ideas
+(No earnings catalyst for Monday — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **CAT** — Industrials, reclaim of $880 confirmed Friday but fragile (needs to clear $900). Watchlist entry: hold above $880, confirm above $900. Stop: -8% from entry (~7-10% band, not the tighter $838 technical low). Target: 2:1 R:R toward $950-1,000. Regime check: WATCHLIST ONLY — would stack Industrials concentration with RTX just 3 trading days before RTX's Thu 7/23 earnings; size down or skip given earnings-week risk.
+2. **FCX** — Materials/copper, still unconfirmed. Watchlist entry: hold above $59-60. Stop: -8% (~$55). Target: 2:1 R:R (~$67-70). Regime check: WATCHLIST ONLY — no breakout on volume yet, do not chase.
+
+### Risk Factors
+- Oil spike (WTI +4.5%, Hormuz tanker disruption, Iraqi Basra strike suspended) — acute geopolitical risk-off; watch for escalation/de-escalation headlines at Monday's open, could push VIX toward Bear threshold if it continues
+- S&P futures -0.98%, Nasdaq 100 futures -1.41% Friday close — gap-down risk likely at Monday's open
+- 10Y yield near 2-month highs, market now pricing hike risk (not cut) — headwind for growth/rate-sensitive names
+- RTX earnings Thu 7/23 (date corrected from prior Wed assumption) — 4 trading days out; review thesis before the print, no averaging up into it
+- CAT reclaim fragile (needs to clear $900) and would add Industrials concentration on top of RTX right before RTX's own earnings-week volatility
+- FCX still unconfirmed, chopping in a range with no volume breakout
+
+### Decision
+HOLD — Sunday, no trading session possible. RTX position healthy (+2.52%, thesis intact, contract tailwinds continuing, 10% trailing stop working, no action needed — do not add into earnings week). CAT (confirm clear above $900, Industrials — sector-concentration + earnings-week caveat) and FCX (confirm hold above $59-60, Materials) carried as Monday 7/20 watchlist items — live-verify trigger before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/20. Patience > activity, extra caution warranted into RTX's Thu 7/23 print.
