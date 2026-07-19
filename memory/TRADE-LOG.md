@@ -272,3 +272,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $193.51 | 0.00% | +$185.64 (+2.52%) | $183.546 (10% trailing GTC, HWM $203.94) |
 **Notes:** Saturday — market closed, no session. Single RTX position (39sh @ $188.75) unchanged, +2.52% unrealized ($185.64), 10% trailing GTC stop intact at $183.546 (HWM $203.94). Day P&L is Fri 7/17 close vs Thu 7/16 close per Alpaca (-$301.13, -0.60%); Phase P&L +0.33% vs $50,000 launch baseline — thin for Day 55. **Critical logging gap:** no TRADE-LOG or RESEARCH-LOG entries since Jun 29 (19 days / 3 missed weeks: 6/30, 7/6, 7/13) — 3rd consecutive gap flagged (prior: Jun 26, Jul 5 reviews). The automated routine has not been firing reliably for most of the challenge window. No untracked trades found (RTX qty/cost basis unchanged), but weekly reviews are also stale (last: week of 6/26) and the daily regime/thesis record for ~3 weeks is simply missing — recommend checking cron/schedule config. RTX earnings Wed 7/23 (5 trading days out) — review thesis before the print, no adding into it. CAT (reclaim $880-900, Industrials, RTX sector-overlap caveat) and FCX (reclaim $58-59, Materials) are Monday 7/20 watchlist items; 2 of 2 CHOP trade slots available. Tomorrow (Sun 7/19): no action, market closed. Patience > activity.
+
+---
+
+### Jul 19 — EOD Snapshot (Day 56, Sunday — Market Closed)
+**Portfolio:** $50,164.14 | **Cash:** $42,617.25 (85.0%) | **Day P&L:** -$0.02 (0.00%) | **Phase P&L:** +$164.14 (+0.33%)
+**Regime:** CHOP (VIX 18.77, SPY -0.02% vs 50DMA — per Jul 19 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $193.51 | 0.00% | +$185.64 (+2.52%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** Sunday — market closed, no session, equity flat vs Saturday (Alpaca balance_asof still 7/17). Single RTX position unchanged, +2.52% unrealized, 10% trailing GTC stop intact at $183.546 (HWM $203.94). Phase P&L +0.33% vs $50,000 launch baseline. Trades today: none. Trades this week (Mon 7/13–today): 0 of 2 CHOP slots used — new week starts Mon 7/20 with 2 of 2 available. Pre-market Jul 19 log corrected RTX earnings date to **Thu 7/23** (not Wed as previously logged) and flagged oil spiking on US-Iran/Hormuz escalation (WTI +4.5%, VIX +12-13% intraday) plus S&P futures -0.98% into Monday — gap-down risk at the open. CAT (reclaim confirmed Fri, needs to clear $900, Industrials/RTX sector-overlap + earnings-week caveat) and FCX (still unconfirmed, no volume breakout) remain Monday 7/20 watchlist items. Tomorrow (Mon 7/20): live-verify CAT/FCX triggers before sizing; extra caution into RTX's Thu 7/23 print — no adding into earnings. Patience > activity.
