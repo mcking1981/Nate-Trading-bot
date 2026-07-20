@@ -1279,3 +1279,56 @@ HOLD — Saturday, no trading session possible. RTX position healthy (+2.52%, th
 
 ### Decision
 HOLD — Sunday, no trading session possible. RTX position healthy (+2.52%, thesis intact, contract tailwinds continuing, 10% trailing stop working, no action needed — do not add into earnings week). CAT (confirm clear above $900, Industrials — sector-concentration + earnings-week caveat) and FCX (confirm hold above $59-60, Materials) carried as Monday 7/20 watchlist items — live-verify trigger before sizing either. 2 of 2 CHOP trade slots available for the new week starting Mon 7/20. Patience > activity, extra caution warranted into RTX's Thu 7/23 print.
+
+---
+
+## 2026-07-20 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -1.01% ($743.29 vs $750.87) | VIX: 18.77
+*(Regime limits: max 4 positions, max 15%/position (~$7,527), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,180.83 | Cash: $42,617.25 | Buying power: $191,647.03 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $193.94 (+2.75%, +$202.33 unrealized) | Open orders: RTX 10% trailing stop GTC @ $183.546 (order 9e56a487, HWM $203.94)
+- Position sizing: RTX = 15.08% of equity — at CHOP 15%/position ceiling; overall deployment ~15% vs 60% CHOP target, 1 of 4 slots used
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$83.6-84.5 (+2-4%), Brent ~$90.2-91.4 — Iran/Strait of Hormuz escalation continuing, near-halted Hormuz transit
+- **S&P futures:** ~7,499, roughly flat overnight after Friday's -1% close (7,457.69)
+- **VIX:** 18.77, +12% off recent 15-16 range — risk-off/hedging demand on Mideast headlines, still mid-CHOP band
+- **DXY:** ~100.7-100.8, flat/soft despite oil-driven inflation risk
+- **10Y yield:** ~4.57-4.58%, near 2-month high — market pricing possible Fed hike risk on sticky inflation
+- **Econ calendar:** No CPI/PPI/jobs today. Next FOMC decision Jul 29. China LPR held; German PPI, UK CPI later this week
+- Net read: risk-off tilt — oil spike + VIX surge on Mideast conflict, elevated yields, range-bound/cautious equities
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLC +28%, XLU +28%, XLF +26%, XLK +22%, XLI +20%
+- **Last 5-day leaders:** XLF +4.55%, XLV +3.64%, XLC +3.63%, XLE +2.88%. XLI -1.54% and XLK -5.95% both lagging — rotation OUT of tech/industrials into financials/healthcare/staples
+- **Strongest current momentum: Financials (XLF), then Communication Services (XLC)** — first week in a while NOT led by Industrials/Energy
+- **JPM** (Financials) — $341, near ATH $346.91. Entry: breakout >$350 or pullback to $328-330. Stop: ~$318 (~-3% below pullback zone). Target: $368-380 on breakout continuation
+- **META** (Comm Services) — pulled back from ~$800 to $658.77, rebounding. Entry: reclaim $680-700 VWAP zone. Stop: below $640 (~-6-8%)
+- **Watchlist update:** CAT pulled back hard to $876.73 (-4.1% day), now BELOW the $880-900 zone, under 50-day SMA — reclaim setup invalidated, drop from watchlist. FCX ran through the old $58-60 zone to $70.13-70.68 (extended, +20%+ since flagged) — too extended to chase, plus Q2 earnings 7/23 adds event risk — drop from watchlist.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market Mon 7/20:** Light day — no major names. After-close: Steel Dynamics, W.R. Berkley, Crown Holdings, AGNC, Ryanair, POSCO
+- **Last week's notable beats:** UNH (beat & raised, 7/16), TSMC (profit +77% beat, 7/16), UAL (topped estimates, flagged $6B added fuel costs, 7/16); NFLX fell on soft guidance (7/17 reaction)
+- **Defense/RTX read-through:** L3Harris (LHX) reports same morning as RTX, Thu 7/23 — direct sentiment signal to watch. GE Aerospace already beat 7/16 (likely priced in). Sector backdrop bullish: FY27 defense budget request $756.8B, RTX has 8 consecutive EPS beats
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** ~$193.94, roughly flat since Friday close. $309.5M radar modernization contract (7/17), modest positive. No rating changes, no negative catalysts. Earnings confirmed Thu 7/23 pre-market — Street expects growth, sentiment constructive but no pre-earnings drift yet. Position sizing should account for event risk into Thursday.
+
+### Trade Ideas
+(No earnings catalyst for Monday — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **JPM** — Financials, sector-momentum leader, near all-time high. Watchlist entry: breakout above $350 OR pullback to $328-330. Stop: ~$318 (~-3% to -9% depending on entry). Target: $368-380 (~2:1 R:R off pullback entry). Regime check: WATCHLIST ONLY — live-verify before sizing; no sector overlap with RTX (diversification plus).
+2. **META** — Communication Services, sector-momentum leader, rebounding off a pullback. Watchlist entry: reclaim $680-700 VWAP zone. Stop: below $640 (~-6-8%). Target: prior highs ~$780-800 (~2:1+ R:R). Regime check: WATCHLIST ONLY — live-verify before sizing; no sector overlap with RTX.
+- CAT and FCX dropped from watchlist (CAT setup invalidated by hard pullback below zone; FCX too extended + earnings event risk 7/23).
+
+### Risk Factors
+- VIX +12% spike (Mideast escalation, oil +2-4%) — geopolitical risk-off continuing to build over the past several sessions; monitor for regime shift toward Bear if VIX pushes through 25
+- 10Y yield near 2-month highs, hike risk being priced — headwind for growth/rate-sensitive names, tailwind case for Financials (rotation already visible in 5-day sector data)
+- RTX earnings Thu 7/23 (3 trading days out) — no adding into the print; L3Harris reports same morning, watch its pre-market reaction as a read-through signal
+- Rotation OUT of Industrials/Tech into Financials/Healthcare/Staples — first sector-leadership change in weeks; do not chase XLI names (CAT) on stale momentum
+- FCX ran +20%+ past its old watchlist zone unconfirmed and un-actioned — reinforces the standing "convert live triggers faster" lesson from weekly review, but chasing a now-extended name into its own earnings week is not the fix
+
+### Decision
+HOLD — RTX position healthy (+2.75%, thesis intact, contract tailwinds continuing, 10% trailing stop working, no action needed — no adding into Thu 7/23 earnings). New sector leadership (Financials, Comm Services) named with specific JPM/META watchlist levels — live-verify triggers intraday/midday before sizing either; both would diversify away from RTX's Industrials/Aerospace exposure. 2 of 2 CHOP trade slots available this week. Patience > activity.
