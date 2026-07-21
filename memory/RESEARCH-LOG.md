@@ -1390,3 +1390,9 @@ HOLD — RTX position healthy (+2.75%, thesis intact, contract tailwinds continu
 
 ### Decision
 HOLD — RTX position healthy (+3.00%, thesis intact, no negative catalysts, 10% trailing stop working, no action needed — no adding into Thu 7/23 earnings). JPM and META remain watchlist-only; neither confirmed a live trigger (JPM in no-man's-land between pullback/breakout, META still below $680-700 resistance). 2 of 2 CHOP trade slots available this week (new week started Mon 7/20). Patience > activity.
+
+### Market-Open Check — 09:47 ET
+- **JPM**: Alpaca quote spread anomalous again (bid $339.50 / ask $357.16); cross-verified via web — real price ~$338.87-339.50 (Jul 20 close $338.91, flat premarket). Trigger: clean close >$343.45 (breakout) OR pullback $328-330. Zone: BELOW breakout trigger, ABOVE pullback zone — in no-man's-land, neither confirmed. NO CONFIRMED SETUP — carry forward to watchlist.
+- **META**: Alpaca quote also anomalous (bid $620.42 / ask $655); cross-verified via web — real price ~$645-651 (Jul 20 close ~$645.85-651.68, roughly flat). Trigger: reclaim $680-700 VWAP zone. Zone: BELOW trigger. NO CONFIRMED SETUP — carry forward to watchlist.
+- RTX (existing position): $192.97, +2.24% unrealized, 10% trailing GTC stop intact at $183.546 (HWM $203.94). No action — no adding into Thu 7/23 earnings.
+- No trades placed. 2 of 2 CHOP slots still available this week.
