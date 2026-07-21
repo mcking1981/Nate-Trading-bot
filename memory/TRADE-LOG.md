@@ -292,3 +292,13 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $196.50 | +1.55% | +$302.25 (+4.11%) | $183.546 (10% trailing GTC, HWM $203.94) |
 **Notes:** No trades today — CHOP HOLD decision correctly followed. RTX bounced back strongly (+1.55% day, +4.11% unrealized, $302.25) despite Mideast-driven VIX spike (18.77, +12% off recent range) and oil +2-4% on Hormuz escalation; sector leadership rotated OUT of Industrials/Tech into Financials/Comm Services this week, first change in weeks. JPM and META flagged as watchlist setups (Financials/Comm Services, no RTX sector overlap) but neither confirmed a live trigger at market-open check — JPM stuck between breakout ($350) and pullback ($328-330) zones, META below its $680-700 reclaim level; both carried forward, no chase. CAT/FCX dropped from watchlist (CAT setup invalidated below zone, FCX too extended plus own earnings 7/23). 10% trailing GTC stop on RTX intact at $183.546 (HWM $203.94, well clear of $196.50 close). 0 of 2 CHOP trade slots used this week (Mon 7/20–today). Phase P&L +0.56% vs $50,000 launch baseline. RTX earnings Thu 7/23 (3 trading days out) — no adding into the print. Tomorrow (Tue 7/21): live-verify JPM/META triggers, hold RTX, no earnings-week additions. Patience > activity.
+
+---
+
+### Jul 21 — EOD Snapshot (Day 58, Tuesday)
+**Portfolio:** $50,158.68 | **Cash:** $42,617.25 (85.0%) | **Day P&L:** -$122.07 (-0.24%) | **Phase P&L:** +$158.68 (+0.32%)
+**Regime:** CHOP (VIX 18.65, SPY -0.3% vs 50DMA — per Jul 21 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| RTX | 39 | $188.75 | $193.37 | -0.55% | +$180.18 (+2.45%) | $183.546 (10% trailing GTC, HWM $203.94) |
+**Notes:** No trades today — RTX gave back some of yesterday's gain (-0.55% day) as Mideast-driven oil spike (WTI +2-4%) and rising VIX (18.65, +12% over the week) pressured risk assets broadly; thesis intact, no negative RTX-specific news (Pratt & Whitney sustainment contract, new GTF engine wins). 10% trailing GTC stop holds well clear at $183.546 (HWM $203.94). JPM and META remained watchlist-only at market-open check — JPM stuck in no-man's-land between $328-330 pullback and $343.45 breakout, META still below $680-700 reclaim trigger; neither chased. 0 of 2 CHOP trade slots used this week (Mon 7/20–today). Phase P&L +0.32% vs $50,000 launch baseline. RTX earnings Thu 7/23 pre-market (2 trading days out) — no adding into the print, review thesis before then. Tomorrow (Wed 7/22): live-verify JPM/META triggers, hold RTX, no earnings-week additions. Patience > activity.
