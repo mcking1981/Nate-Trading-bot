@@ -1338,3 +1338,55 @@ HOLD — RTX position healthy (+2.75%, thesis intact, contract tailwinds continu
 - **META**: Alpaca quote also anomalous (bid $613.04 / ask $650); cross-verified via web — real price ~$644-646. Trigger: reclaim $680-700 VWAP zone. Zone: BELOW trigger. NO CONFIRMED SETUP — carry forward to watchlist.
 - RTX (existing position): $195.94, +3.81% unrealized, 10% trailing GTC stop intact. No action — no adding into Thu 7/23 earnings.
 - No trades placed. 2 of 2 CHOP slots still available this week.
+
+---
+
+## 2026-07-21 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.3% ($742.09 vs ~$744.5) | VIX: 18.65
+*(Regime limits: max 4 positions, max 15%/position (~$7,530), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,199.61 | Cash: $42,617.25 (84.9%) | Buying power: $191,699.62 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $194.42 (+3.00%, +$221.11 unrealized) | Open orders: RTX 10% trailing stop GTC @ $183.546 (order 9e56a487, HWM $203.94)
+- Position sizing: RTX = 15.11% of equity — at CHOP 15%/position ceiling; overall deployment ~15% vs 60% CHOP target, 1 of 4 slots used
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$82.5-84.4 (+2-4%), Brent ~$88.1-90.4 (+2-5%) — Mideast tension (Red Sea/US-Iran) driving a fresh energy risk premium
+- **S&P futures:** Soft/mixed premarket — S&P cash 7,443 (-0.19%), Nasdaq 100 -1.49%, Dow -0.59%; broad megacap weakness (AAPL, GOOGL, AMZN red)
+- **VIX:** 18.65 (-0.64% day-over-day but +12% over the past week) — volatility creeping higher, still mid-CHOP band
+- **DXY:** ~100.9-101.0, roughly flat, near 52wk high (101.80) — dollar firm
+- **10Y yield:** 4.58-4.60%, near 2-month high — market pricing Fed hike risk on oil-driven inflation + strong retail sales/jobless claims
+- **Econ calendar:** No CPI/PPI/jobs/FOMC today (FOMC not until 7/29; next CPI 8/12). Only secondary releases (Chicago Fed National Activity Index, KC Fed Mfg Index)
+- **Read:** Risk-off tilt building — oil spike + rising yields + firm dollar + rising VIX; regime leans Chop/cautious, not yet Bear
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +32.7%, XLC +28.1%, XLU +28.0%, XLF +26.2%; XLE lagging recently (+7.3%)
+- **Last 5 days:** Technology, Energy, Materials leading; Industrials/Real Estate rounding out top 5
+- **Strongest current momentum: Technology (XLK)** and **Financials (XLF)**
+- **JPM** (Financials) — $338.91 (7/20 close), still range-bound between $330 support and $343-350 resistance. No confirmed breakout — watch for clean close >$343.45 (target $350), stop ~$330. Slightly closer to breakout than pullback zone.
+- **META** (Comm Services) — $651.68, reclaimed 200/50/20-EMA, trend-continuation mode (RSI 56.8). Resistance $671-680, support $625-630. Climbing but still below the $680-700 breakout trigger.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 7/21:** No confirmed beats yet — Novartis missed (~$2.17 vs est.), Charles Schwab missed (~$1.56 vs est.); Interactive Brokers, Danaher, Chubb, Marsh & McLennan, 3M also reporting, results pending confirmation
+- **AH 7/20:** No major large-cap surprise found; recent-week context — TSMC (+77% profit beat, 7/16), UNH (beat & raised, 7/16), PEP and NFLX both missed
+- **RTX confirmed:** Earnings Thu 7/23 pre-market, 7:30am ET call — date unchanged, consensus EPS ~$1.66. No guidance changes, no red flags. RTX +1.29% recent session, YTD +7.6%, 1yr +33.9% (beating S&P)
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** No thesis-breaking news. $1B Pratt & Whitney sustainment contract, new GTF engine wins (British Airways, Jackson Square Aviation), 3D-printed engine test success. Stock ~$194-196. No cancellations, guidance cuts, or negative analyst actions. Earnings Thu 7/23 pre-market — 2 trading days out.
+
+### Trade Ideas
+(No earnings catalyst for today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas.)
+1. **JPM** — Financials, sector-momentum leader (#2 YTD). Watchlist entry: clean close above $343.45 (breakout) OR pullback to $328-330. Stop: ~$318-320 (~-3 to -8% depending on entry). Target: ~$350-368 (~2:1 R:R). Regime check: WATCHLIST ONLY — no confirmed trigger yet, no sector overlap with RTX.
+2. **META** — Communication Services, trend-continuation off reclaim. Watchlist entry: breakout above $680-700. Stop: below $625-630 (~-6-8%). Target: prior highs ~$780+ (~2:1+ R:R). Regime check: WATCHLIST ONLY — still below trigger, do not chase.
+
+### Risk Factors
+- Oil spike (WTI +2-4%, Brent +2-5%) on Mideast tension — geopolitical risk-off building, watch for VIX follow-through toward Bear threshold (>25)
+- VIX up ~12% over the past week (16.4 → 18.65) — volatility trend rising even as SPY holds near flat vs 50DMA
+- 10Y yield near 2-month highs (4.58-4.60%), DXY firm near 52wk high — headwind for growth/rate-sensitive names, still a tailwind case for Financials
+- RTX earnings Thu 7/23 (2 trading days out) — no adding into the print; review thesis, let position ride
+- Charles Schwab miss (7/21 BMO) — Financials-sector read-through to watch, though JPM/Schwab are different sub-industries
+- CHOP regime: VIX 15-25 band — max 2 new trades this week (2 of 2 available), max 15%/position
+
+### Decision
+HOLD — RTX position healthy (+3.00%, thesis intact, no negative catalysts, 10% trailing stop working, no action needed — no adding into Thu 7/23 earnings). JPM and META remain watchlist-only; neither confirmed a live trigger (JPM in no-man's-land between pullback/breakout, META still below $680-700 resistance). 2 of 2 CHOP trade slots available this week (new week started Mon 7/20). Patience > activity.
