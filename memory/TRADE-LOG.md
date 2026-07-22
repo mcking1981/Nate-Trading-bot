@@ -340,3 +340,15 @@ No positions yet. Bot launches tomorrow.
 **XOM — Skipped:** Live price $153.20, above the $152 breakout-continuation trigger (confirmed zone) — but weekly CHOP trade cap (2 of 2) already used on JPM + UNH. Catalyst is geopolitical/oil-price-driven (US-Iran tension spike), weaker and more reversible than JPM's sector-momentum breakout or UNH's earnings beat — deprioritized. Carry to watchlist, re-verify not extended >3% before acting next available slot.
 
 **Trades this week:** 2 of 2 (CHOP limit) — both slots used today.
+
+---
+
+### Jul 22 — EOD Snapshot (Day 59, Wednesday)
+**Portfolio:** $50,193.82 | **Cash:** $28,372.01 (56.5%) | **Day P&L:** +$35.14 (+0.07%) | **Phase P&L:** +$193.82 (+0.39%)
+**Regime:** CHOP (VIX 18.65, SPY ~flat vs 50DMA — per Jul 22 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $348.90 | +1.06% | +$40.31 (+0.55%) | $314.163 (10% trailing GTC, HWM $349.07) |
+| RTX | 39 | $188.75 | $194.84 | +0.60% | +$237.51 (+3.23%) | $183.546 (10% trailing GTC, HWM $203.94) |
+| UNH | 16 | $434.92 | $431.01 | -1.22% | -$62.50 (-0.90%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** Two new trades today — JPM (21sh @ $346.98, confirmed breakout above $343.45 sector-momentum trigger) and UNH (16sh @ $434.92, confirmed breakout above $431.68 trigger on Q2 earnings beat) — both CHOP weekly slots used, 3 of 4 CHOP position slots now filled. RTX continues to hold, +3.23% unrealized, no earnings-week action needed (print Thu 7/23). JPM opened green intraday; UNH pulled back slightly from its post-earnings pop but thesis (turnaround narrative, multiple analyst reiterations) intact. XOM skipped despite a confirmed breakout — no slots left this week, carried to watchlist. Cash deployment jumped from 85% to 56.5% with two new positions; still within CHOP's 60% target band once accounting for the two fills settling. Phase P&L +0.39% vs $50,000 launch baseline. Tomorrow (Thu 7/23): RTX earnings pre-market — no adding into the print, monitor reaction; hold JPM/UNH, no new trades (weekly cap used). Patience > activity.
