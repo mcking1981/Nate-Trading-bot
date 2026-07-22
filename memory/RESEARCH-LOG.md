@@ -1396,3 +1396,56 @@ HOLD — RTX position healthy (+3.00%, thesis intact, no negative catalysts, 10%
 - **META**: Alpaca quote also anomalous (bid $620.42 / ask $655); cross-verified via web — real price ~$645-651 (Jul 20 close ~$645.85-651.68, roughly flat). Trigger: reclaim $680-700 VWAP zone. Zone: BELOW trigger. NO CONFIRMED SETUP — carry forward to watchlist.
 - RTX (existing position): $192.97, +2.24% unrealized, 10% trailing GTC stop intact at $183.546 (HWM $203.94). No action — no adding into Thu 7/23 earnings.
 - No trades placed. 2 of 2 CHOP slots still available this week.
+
+---
+
+## 2026-07-22 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~flat (SPY $746.33 premarket vs 50DMA ~$746, noisy source) | VIX: 18.65 (last close) / 17.85 (front futures)
+*(Regime limits: max 4 positions, max 15%/position (~$7,527), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,179.35 | Cash: $42,617.25 (85.0%) | Buying power: $191,642.88 | Daytrade count: 0
+- Positions: RTX 39sh @ $188.75, current $193.90 (+2.73%, +$200.85 unrealized) | Open orders: RTX 10% trailing stop GTC @ $183.546 (order 9e56a487, HWM $203.94)
+- Position sizing: RTX = 15.07% of equity — at CHOP 15%/position ceiling; overall deployment ~15% vs 60% CHOP target, 1 of 4 slots used
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$82-86, Brent ~$89-93 (+2%) — Middle East (US-Iran) supply-disruption fears continuing
+- **S&P futures:** Down premarket, Sep e-mini ~7,526 (-20pts) after Tue's cash session closed +0.89%
+- **VIX:** 18.65 (last close), 17.85 (front futures) — mid-CHOP band, roughly flat/softening
+- **DXY:** ~101.0, flat/slightly firm, near 52wk high — advancing on US-Iran tension
+- **10Y yield:** ~4.60-4.62%, near 2-month high — rate-hike positioning + energy-inflation concern
+- **Econ calendar:** No US CPI/PPI/FOMC/jobs today. Overnight: Japan CPI, UK flash PMI
+- Net read: oil + yields + dollar all firm on geopolitical risk, VIX contained — Chop/risk-off tilt, not deteriorating
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +34.5%, XLE +33.1%, XLV +21.4%, XLI +18.2%
+- **Last 5 days:** Rotation OUT of tech/semis INTO Energy, Healthcare, Financials — clearest tech outflow in weeks
+- **Non-overlap sectors (RTX earnings tomorrow → avoid stacking Industrials): Energy, Financials, Healthcare**
+- **JPM** (Financials) — $345.23 (7/21 close), now **ABOVE** the $343 breakout trigger, near 52wk high $351.24 — breakout confirmed on close basis
+- **XOM** (Energy) — $151.54, near highs. Entry: pullback $145-146 (stop ~$140, -4%) or breakout continuation >$152 (stop $147)
+- **UNH** (Healthcare) — $426.09, testing resistance $431.68, support/50SMA $400.96-402.88. Entry: pullback $420-426 or confirmed close >$431.68, stop <$403 (~-5.5%)
+- **META** — $643.81, still well below the $680-700 reclaim zone — no trigger, drop watchlist urgency
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 7/22:** GOOGL and TSLA report BMO (major Mag7 prints) — also PM, GEV, TXN, CCI, NTRS, RJF, LVS, TDY, WEX, RLI
+- **AH 7/21:** Beats — Synchrony (+23.9% EPS beat), GM, Northrop Grumman, D.R. Horton, Danaher, Valmont, Mueller. Misses — Webster Financial (rev -16.2%), Ally Financial, United Community Banks, 3M, KeyCorp
+- **RTX confirmed:** Reports Thu 7/23 pre-market, 7:30am ET call — matches prior log, no date discrepancy. Consensus EPS $1.66, revenue $22.88B (18 analysts)
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** ~$193.51-196, roughly flat. No downgrades, no negative catalysts. New positive newsflow: 800+ GTF engine orders (Farnborough), $1.81B Navy contract mod, Etihad nacelle MRO JV. Earnings tomorrow (7/23) pre-market — no action needed, thesis intact.
+
+### Trade Ideas
+1. **JPM** — Financials, no sector overlap with RTX. Breakout confirmed: closed $345.23, above $343 trigger, near 52wk high $351.24. Entry: ~$345 (live-verify at open). Stop: 10% trailing GTC per standing rule (~$310.5 initial), technical support ~$330 as manual reference (-4.3%). Target: $375-380 (52wk-high extension, >2:1 R:R off technical stop). Regime check: PASS — CHOP allows up to 2 new trades/week, 0 used this week, 15%/position ceiling, no Industrials overlap, no earnings this week for JPM.
+2. **XOM** (Energy) — watchlist only, no confirmed trigger yet (still between pullback/breakout zones). Entry: pullback $145-146 or breakout >$152. Stop ~$140/$147. Regime check: WATCHLIST.
+3. **UNH** (Healthcare) — watchlist only, testing resistance, not yet confirmed. Entry: pullback $420-426 or close >$431.68. Stop <$403. Regime check: WATCHLIST.
+
+### Risk Factors
+- RTX earnings Thu 7/23 pre-market (1 trading day out) — no adding to RTX, no new Industrials names; review thesis before the print
+- Oil + yields + DXY all firm on US-Iran tension — VIX still contained (18.65) but a headline escalation could push toward Bear threshold (>25)
+- GOOGL/TSLA report today pre/after-market — could swing broad tech tape and futures intraday
+- JPM breakout is close-basis only as of 7/21; must live-verify at market open before sizing — Alpaca quote spreads have been anomalous on this name repeatedly, cross-verify via web
+- 3M, Ally, KeyCorp, Webster Financial misses — some Financials-sector softness under the surface despite JPM's own strength; monitor for read-through
+
+### Decision
+HOLD (default pre-market stance) — RTX position healthy (+2.73%, thesis intact, no negative catalysts, 10% trailing stop working), earnings tomorrow means no changes to RTX today. JPM shows a confirmed breakout (close-basis) with no sector overlap and 2 of 2 CHOP slots available this week — live-verify the trigger at market open before any sizing; not an automatic pre-market fill. XOM/UNH remain watchlist-only, no confirmed triggers. Patience > activity.
