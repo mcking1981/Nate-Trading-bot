@@ -1449,3 +1449,10 @@ HOLD — RTX position healthy (+3.00%, thesis intact, no negative catalysts, 10%
 
 ### Decision
 HOLD (default pre-market stance) — RTX position healthy (+2.73%, thesis intact, no negative catalysts, 10% trailing stop working), earnings tomorrow means no changes to RTX today. JPM shows a confirmed breakout (close-basis) with no sector overlap and 2 of 2 CHOP slots available this week — live-verify the trigger at market open before any sizing; not an automatic pre-market fill. XOM/UNH remain watchlist-only, no confirmed triggers. Patience > activity.
+
+### Market-Open Check — 09:49 ET
+- **JPM**: Alpaca quote anomalous again (bid $327.79/ask $363.44); cross-verified via web ~$343-345. Trigger $343.45, live fill $346.98 — CONFIRMED breakout (within 0-3% band). BOUGHT 21sh @ $346.98, 10% trailing GTC stop $311.967.
+- **UNH**: Pre-market had this as watchlist-only, but 7/21 close jumped to $436.35 (+3.51%) on a confirmed Q2 earnings beat (EPS $6.38 vs $4.92 est.) — trigger $431.68 now CONFIRMED. Alpaca quote anomalous (bid $434.37/ask $445); cross-verified via web. BOUGHT 16sh @ $434.92, 10% trailing GTC stop $391.266.
+- **XOM**: Live $153.20, above $152 breakout trigger — CONFIRMED zone, but weekly CHOP cap (2 of 2) already used on JPM/UNH. SKIPPED — weaker geopolitical/oil-driven catalyst vs. the two filled trades; carry to watchlist.
+- RTX (existing position): $196.34, +4.02% unrealized, 10% trailing GTC stop intact at $183.546 (HWM $203.94). No action — no adding into Thu 7/23 earnings.
+- 2 trades placed (JPM, UNH). 2 of 2 CHOP slots used this week. 3 of 4 CHOP position slots filled.

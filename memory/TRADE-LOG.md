@@ -302,3 +302,41 @@ No positions yet. Bot launches tomorrow.
 |---|---|---|---|---|---|---|
 | RTX | 39 | $188.75 | $193.37 | -0.55% | +$180.18 (+2.45%) | $183.546 (10% trailing GTC, HWM $203.94) |
 **Notes:** No trades today — RTX gave back some of yesterday's gain (-0.55% day) as Mideast-driven oil spike (WTI +2-4%) and rising VIX (18.65, +12% over the week) pressured risk assets broadly; thesis intact, no negative RTX-specific news (Pratt & Whitney sustainment contract, new GTF engine wins). 10% trailing GTC stop holds well clear at $183.546 (HWM $203.94). JPM and META remained watchlist-only at market-open check — JPM stuck in no-man's-land between $328-330 pullback and $343.45 breakout, META still below $680-700 reclaim trigger; neither chased. 0 of 2 CHOP trade slots used this week (Mon 7/20–today). Phase P&L +0.32% vs $50,000 launch baseline. RTX earnings Thu 7/23 pre-market (2 trading days out) — no adding into the print, review thesis before then. Tomorrow (Wed 7/22): live-verify JPM/META triggers, hold RTX, no earnings-week additions. Patience > activity.
+
+---
+
+### Jul 22 — Trade #3
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-22 |
+| Ticker | JPM |
+| Side | BUY |
+| Shares | 21 |
+| Entry Price | $346.98 |
+| Stop Level | $311.967 (10% trailing GTC, order ID: 90f81057, HWM $346.63) |
+| Thesis | Confirmed breakout above $343.45 trigger (pre-market log close-basis $345.23; Alpaca quote anomalous again — bid $327.79/ask $363.44 — cross-verified via web ~$343-345, live fill $346.98, within 0-3% confirmation band). Financials sector-momentum leader, #2 YTD, near 52wk high $351.24. No RTX sector overlap. Analyst targets $364-420 (BofA raised 408→420 7/16), Citi raised to $360. |
+| Target | $375-380 (52wk-high extension) |
+| R:R | ~2.9:1 (10% trailing stop ~$35 vs ~$30-33 to target — technical support ~$330 as manual reference, -4.9%) |
+| Regime at Entry | CHOP (VIX 18.65, SPY ~flat vs 50DMA — per Jul 22 pre-market log) |
+| Cost Basis | $7,286.58 (14.5% of ~$50,179 equity) |
+
+### Jul 22 — Trade #4
+
+| Field | Value |
+|---|---|
+| Date | 2026-07-22 |
+| Ticker | UNH |
+| Side | BUY |
+| Shares | 16 |
+| Entry Price | $434.92 |
+| Stop Level | $391.266 (10% trailing GTC, order ID: a284854f, HWM $434.74) |
+| Thesis | Confirmed breakout above $431.68 trigger — pre-market log had UNH as watchlist-only (Jul 21 close $426.09), but live data shows 7/21 close jumped to $436.35 (+3.51%) on Q2 2026 earnings beat (EPS $6.38 vs $4.92 est, +29.8%; revenue beat) reported 7/16, "Worst may be over" turnaround narrative, multiple analyst reiterations/upgrades this week. Live fill $434.92, ~0.75% above trigger, within 0-3% confirmation band (Alpaca quote also anomalous — bid $434.37/ask $445 — cross-verified via web). Healthcare, no RTX/JPM sector overlap. |
+| Target | $460-475 (analyst average target $464, 52wk high $461.62) |
+| R:R | ~1.9:1 (10% trailing stop ~$43 vs ~$30-40 to target) |
+| Regime at Entry | CHOP (VIX 18.65, SPY ~flat vs 50DMA — per Jul 22 pre-market log) |
+| Cost Basis | $6,958.66 (13.9% of ~$50,179 equity) |
+
+**XOM — Skipped:** Live price $153.20, above the $152 breakout-continuation trigger (confirmed zone) — but weekly CHOP trade cap (2 of 2) already used on JPM + UNH. Catalyst is geopolitical/oil-price-driven (US-Iran tension spike), weaker and more reversible than JPM's sector-momentum breakout or UNH's earnings beat — deprioritized. Carry to watchlist, re-verify not extended >3% before acting next available slot.
+
+**Trades this week:** 2 of 2 (CHOP limit) — both slots used today.
