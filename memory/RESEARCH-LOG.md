@@ -1518,4 +1518,11 @@ HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on J
 - **JPM** (existing position): $347.82, +0.24% since entry, flat/normal post-earnings consolidation. 10% trailing GTC stop intact. No action.
 - **RTX** (existing position): $209.92, +11.2% unrealized (record highs post beat-and-raise earnings). Approaching but not yet at +15% trail-tighten threshold (10%→7%). 10% trailing GTC stop intact. No action — recheck at midday.
 - **UNH** (existing position): $426.89, -1.8% unrealized, routine post-earnings give-back, thesis intact. 10% trailing GTC stop intact. No action.
+
+### Midday Check — ~14:10 ET
+- **JPM**: $347.37, +0.11% unrealized. No action — below all thresholds.
+- **RTX**: $210.20, +11.36% unrealized (avg-entry basis), HWM $213.49. Still below +15% trail-tighten trigger. 10% trailing GTC stop intact ($192.141). No action — recheck next session.
+- **UNH**: $421.15, -3.17% unrealized. Well above -7% cut level, no thesis break (no new negative news since pre-market). 10% trailing GTC stop intact ($392.589). No action.
+- Regime CHOP: 3 of 4 position slots filled, within cap. 2/2 weekly trade slots already used — no new entries possible regardless of setup.
+- No losers to cut, no trails to tighten, no thesis breaks, no regime breach. No trades made. No Telegram sent (no action taken).
 - NO CONFIRMED SETUP for any watchlist ticker. NO TRADES — weekly CHOP cap (2/2) already exhausted Jul 22, 0 slots remain regardless of setup quality. Patience > activity.
