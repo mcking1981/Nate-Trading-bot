@@ -1456,3 +1456,58 @@ HOLD (default pre-market stance) — RTX position healthy (+2.73%, thesis intact
 - **XOM**: Live $153.20, above $152 breakout trigger — CONFIRMED zone, but weekly CHOP cap (2 of 2) already used on JPM/UNH. SKIPPED — weaker geopolitical/oil-driven catalyst vs. the two filled trades; carry to watchlist.
 - RTX (existing position): $196.34, +4.02% unrealized, 10% trailing GTC stop intact at $183.546 (HWM $203.94). No action — no adding into Thu 7/23 earnings.
 - 2 trades placed (JPM, UNH). 2 of 2 CHOP slots used this week. 3 of 4 CHOP position slots filled.
+
+## 2026-07-23 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.92% ($743.29 vs $750.16) | VIX: ~17.0 (16.6-17.2 range)
+*(Regime limits: max 4 positions, max 15%/position (~$7,597), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,646.73 | Cash: $28,372.01 (56.0%) | Buying power: $28,372.01 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $349.40 (+0.70%, +$50.82) | RTX 39sh @ $188.75, current $207.00 (+9.67%, +$711.75) | UNH 16sh @ $434.92, current $429.02 (-1.36%, -$94.34)
+- Open orders: JPM 10% trailing GTC stop $314.163 (HWM $349.07) | RTX 10% trailing GTC stop $183.546 (HWM $203.94, stale vs current $207 — Alpaca updates server-side) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Position sizing: RTX now 15.94% of equity (organic appreciation, not a new entry — informational only). 3 of 4 CHOP position slots filled. Deployment ~44% vs 60% CHOP target.
+- **Weekly trade cap: 2 of 2 CHOP slots ALREADY USED this week (JPM + UNH bought Jul 22, same week Mon 7/20-Sun 7/26) — 0 slots remain regardless of setup quality.**
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$84-87, Brent ~$90-94 (+2.5-4%) — US-Iran escalation + Black Sea attacks threatening Strait of Hormuz transit
+- **S&P futures:** Red premarket, Sep e-mini ~7,514 (-0.3-0.5%) — "stocks stall as oil extends gains"
+- **VIX:** ~16.6-18.4, calm despite headlines; futures curve slight contango (18.8 Aug, 19.6 Sep)
+- **DXY:** ~101.1-101.2, flat, near 52wk high (101.80)
+- **10Y yield:** ~4.60%, near 2-month high — hike risk being priced on oil-driven inflation + strong data
+- **Econ calendar:** **FOMC decision concludes today** + PPI due today. CPI + jobs report tomorrow (7/24) — high event-risk day
+- Read: Oil-driven inflation shock + rising yields + FOMC today = elevated event risk, Chop/caution warranted
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +34.52%, XLE +33.12%, XLV +21.38%, IWM +31.31%
+- **Recent rotation:** "Real economy" theme — Industrials, Consumer Defensive, Energy outperforming; Tech/Comm Svcs/Financials lagging broadly, though Healthcare/Materials small-caps led July gainers
+- **Strongest momentum, non-overlapping with holdings (JPM-Financials, RTX-Industrials, UNH-Healthcare): Technology (XLK) and Energy (XLE)**
+- **MU** (Tech) — ~$923, uptrend. Entry: reclaim/hold >$925-940 or pullback-buy $805-850 support. Stop: <$800.
+- **XOM** (Energy) — ~$149, post-breakout pullback. Entry: bounce/reclaim $150-152. Stop: <$145. Breakout add >$161.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **RTX (holding):** Reported Q2 pre-market, 7:30am ET call. Consensus was $1.66 EPS (+36% YoY) / $22.88B revenue. Exact print not yet indexed (same-day search lag), but the ~6% jump ($194.84→~$207, vs Q1's beat-and-raise which only moved shares +3.35%) implies a materially bigger beat and/or guidance raise. Holdings-news agent confirmed: beat on both lines, **raised full-year sales and adjusted EPS guidance** citing "unprecedented demand" and record Collins/Pratt & Whitney backlog. Record-high stock, positive analyst reaction.
+- **Other pre-market:** Intel beat; T-Mobile, Roche, Nestlé reported (details N/A). L3Harris does NOT report until 7/29 (not today as previously tracked).
+- **AH 7/22:** Tesla (rev beat, profit miss), Alphabet (beat cloud/earnings, search in-line), ServiceNow (+7% AH, beat+raised), IBM (sales miss, cut outlook), AT&T (beat on wireless subs)
+
+### Holdings News (Sub-agent 4 synthesis)
+- **RTX:** Beat-and-raise Q2 print, record backlog (Collins Aerospace/Pratt & Whitney), "unprecedented demand" language. Stock at record highs, extending through session. Thesis strongly confirmed — no action needed (no adding into a name already at 15.94% weight).
+- **JPM:** No negative overnight news. Still riding Q2 beat tailwind (EPS +21.7% YoY, reported 7/22); BofA reiterated more upside. Today's flatness is normal post-earnings-pop profile-taking.
+- **UNH:** No new negative catalyst. -1.36% today reads as routine give-back after last week's beat-and-raise rally; Barclays PT raised to $441 (Strong Buy). CFO's rising-medical-cost commentary (from the earnings call days ago) may still weigh on sentiment — monitor, not thesis-breaking.
+
+### Trade Ideas
+1. **MU** — Technology, sector-momentum leader (YTD +34.5%), no overlap with holdings. Entry: reclaim >$925-940 or pullback to $805-850. Stop: <$800 (~-13-15%, use standard 10% trailing GTC once filled). Regime check: **FAIL — 0 of 2 CHOP weekly trade slots remain (JPM+UNH already used them Jul 22).**
+2. **XOM** — Energy, sector-momentum leader (YTD +33.1%), no overlap with holdings. Entry: bounce/reclaim $150-152. Stop: <$145 (~-4%). Regime check: **FAIL — same reason, weekly cap exhausted.**
+(Both carried to next week's watchlist — re-verify levels haven't run away before Monday 7/27.)
+
+### Risk Factors
+- **FOMC decision today** + PPI — binary macro event risk; CPI/jobs tomorrow adds a second catalyst day. Do not add exposure into this window.
+- Oil spike (WTI/Brent +2.5-4%) on Mideast/Black Sea escalation — inflationary, raises hike-risk odds, watch VIX for a Bear-threshold breakout (>25) on a bad FOMC surprise
+- 10Y yield near 2-month highs (4.60%) — headwind for growth names, still a Financials tailwind
+- **RTX +9.67% unrealized — approaching the +15% threshold where trail tightens from 10%→7%.** Not there yet; check again at market-open/midday.
+- RTX position now 15.94% of equity, above CHOP's 15%/position ceiling via appreciation alone (not a new-entry violation, no action required, informational)
+- Weekly CHOP trade cap already exhausted (2/2 used Jul 22) — MU/XOM setups cannot be acted on this week no matter how they develop
+- UNH CFO rising-medical-cost commentary — monitor for a broader Healthcare-sector read-through, not yet thesis-breaking
+
+### Decision
+HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on JPM/UNH). RTX earnings beat-and-raise is a strong positive confirmation of thesis, no action needed (already near CHOP's 15%/position ceiling by appreciation; watch for +15% trail-tighten trigger). JPM/UNH pullbacks are normal post-earnings behavior, no thesis breaks. MU and XOM are clean, non-overlapping watchlist setups for next week (Mon 7/27) once a slot frees up. FOMC decision today is the dominant event risk — no new exposure into it regardless of trade-cap status. Patience > activity.
