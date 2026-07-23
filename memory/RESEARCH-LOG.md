@@ -1511,3 +1511,11 @@ HOLD (default pre-market stance) — RTX position healthy (+2.73%, thesis intact
 
 ### Decision
 HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on JPM/UNH). RTX earnings beat-and-raise is a strong positive confirmation of thesis, no action needed (already near CHOP's 15%/position ceiling by appreciation; watch for +15% trail-tighten trigger). JPM/UNH pullbacks are normal post-earnings behavior, no thesis breaks. MU and XOM are clean, non-overlapping watchlist setups for next week (Mon 7/27) once a slot frees up. FOMC decision today is the dominant event risk — no new exposure into it regardless of trade-cap status. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+- **MU**: Live ~$977 (Alpaca quote anomalous, bid/ask spread ~$33 wide; web cross-verify $970-983 range). Trigger $925-940 reclaim — live price is +3.9% above the $940 top of trigger band, no intraday pullback into zone — EXTENDED, skip, drop urgency. Moot anyway: 0 of 2 CHOP weekly trade slots remain (JPM+UNH used Jul 22).
+- **XOM**: Live ~$148.36 (web cross-verify; Alpaca quote $157.31 anomalous/stale-looking vs web). Below the $150-152 bounce/reclaim trigger — BELOW, unconfirmed, carry forward to watchlist for next week (Mon 7/27).
+- **JPM** (existing position): $347.82, +0.24% since entry, flat/normal post-earnings consolidation. 10% trailing GTC stop intact. No action.
+- **RTX** (existing position): $209.92, +11.2% unrealized (record highs post beat-and-raise earnings). Approaching but not yet at +15% trail-tighten threshold (10%→7%). 10% trailing GTC stop intact. No action — recheck at midday.
+- **UNH** (existing position): $426.89, -1.8% unrealized, routine post-earnings give-back, thesis intact. 10% trailing GTC stop intact. No action.
+- NO CONFIRMED SETUP for any watchlist ticker. NO TRADES — weekly CHOP cap (2/2) already exhausted Jul 22, 0 slots remain regardless of setup quality. Patience > activity.
