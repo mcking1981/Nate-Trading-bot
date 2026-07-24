@@ -1586,3 +1586,11 @@ HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on J
 
 ### Decision
 HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on JPM/UNH). JPM and RTX theses strongly intact (RTX new 52wk highs on raised guidance, approaching +15% trail-tighten level — watch, don't act yet). UNH thesis intact but sentiment soft (breakout faltered, Medicaid-fraud overhang) — no action, above -7% cut level by a wide margin. Oil-driven risk-off (Iran/Hormuz escalation, WTI +6-7%) is the dominant risk to monitor — no held position is thesis-broken or below -7%, so no urgent action required, but a further VIX spike toward 25 would push the regime toward Bear. XOM/CVX are clean non-overlapping watchlist setups for next week (Mon 7/27) once slots free up. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+- **XOM**: Alpaca quote anomalous (bid $147.25/ask $156.87, wide spread); web cross-verify $157.49. Trigger $156-157 reclaim — CONFIRMED, in zone. Moot: 0 of 2 CHOP weekly trade slots remain (JPM+UNH used Jul 22, week Mon 7/20-Sun 7/26). No action.
+- **CVX**: Alpaca quote anomalous (bid $183.39/ask $203.69, wide spread); web cross-verify $193.72-194.42. Entry requires pullback to $185-187 — price still well above that zone, no pullback occurred. UNCONFIRMED, carry forward.
+- **JPM** (existing position): $349.73, +0.79% unrealized. 10% trailing GTC stop intact ($315.576, HWM $350.64). No action.
+- **RTX** (existing position): $212.345, +12.5% unrealized. Approaching but not yet at +15% trail-tighten threshold (10%→7%). 10% trailing GTC stop intact ($192.141, HWM $213.49). No action — recheck at midday.
+- **UNH** (existing position): $422.21, -2.92% unrealized. Well above -7% cut level, no thesis break. 10% trailing GTC stop intact ($392.589, HWM $436.21). No action.
+- Regime CHOP: 3 of 4 position slots filled. Weekly trade cap 2/2 already used (Jul 22) — 0 slots remain this week regardless of setup quality. NO TRADES. No Telegram sent (no action taken). Patience > activity.
