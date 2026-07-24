@@ -200,3 +200,63 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - If a 7th straight week passes with 0 trades despite confirmed regime-aligned candidates, treat the entry trigger itself (not the setup criteria) as the thing to redesign
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-07-24
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $50,164.14 (Sun 7/19, carried from Fri 7/17 close) |
+| Ending portfolio | $50,805.70 |
+| Week return | +$641.56 (+1.28%) |
+| S&P 500 week | -0.21% (7,457.69 Jul 17 close -> 7,441.69 Jul 24 close) |
+| Bot vs S&P | +1.49% |
+| Dominant regime | CHOP (5/5 days) |
+| Trades | 2 (W:0 / L:0 / open:2 new + 1 carried) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A (no closed trades) — RTX carried position +12.7% unrealized |
+| Worst trade | N/A (no closed trades) — UNH -3.4% unrealized |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| RTX | $188.75 (39sh, carried from 6/29) | $212.79 | +$937.56 (+12.74%) | $193.401 (10% trailing GTC, HWM $214.89) |
+| JPM | $346.98 (21sh, 7/22) | $353.09 | +$128.31 (+1.76%) | $317.844 (10% trailing GTC, HWM $353.16) |
+| UNH | $434.92 (16sh, 7/22) | $420.00 | -$238.66 (-3.43%) | $392.589 (10% trailing GTC, HWM $436.21) |
+
+### What Worked
+- First full 2-of-2 CHOP slot utilization on confirmed live triggers (JPM breakout >$343.45, UNH breakout >$431.68) — both converted same-day from watchlist to fill, resolving the "setup identified, never converted" bottleneck flagged in 3 straight June reviews
+- RTX beat-and-raise earnings (7/23, EPS +21% beat, FY guidance raised) drove the position to new 52wk highs and +13% unrealized — thesis held, no premature action taken near the +15% trail-tighten threshold
+- Correctly skipped XOM despite a confirmed live breakout on 7/22 because the weekly CHOP cap (2/2) was already used — rule discipline over chasing a 3rd setup
+- Outperformed S&P by +1.49% during a genuinely volatile week (Iran/Hormuz oil spike +6-7%, Alphabet-miss-driven Nasdaq selloff) — this time backed by real, filled positions, not just non-participation
+- No adds into RTX's earnings print, no chasing extended MU/CVX watchlist names — patience maintained on the names that didn't meet criteria
+
+### What Didn't Work
+- UNH breakout faltered immediately post-entry despite a strong beat-and-raise (EPS +30%) — Medicaid-fraud/payment-deferral headline overhang dragged it to -3.4% by week end; the earnings-beat trigger alone wasn't sufficient confirmation this time
+- RTX organically drifted to ~16.4% of equity (above the 15% CHOP per-position ceiling) via appreciation alone — current strategy has no explicit rule for whether to trim an overweight winner or let it ride
+- Logging gap recurred: no Jul 23 EOD snapshot (daily-summary routine didn't fire) — same recurring reliability issue flagged in multiple prior reviews
+- 3 of 4 CHOP position slots now filled with no closed trades yet — still no realized P&L data to validate the entry process end-to-end
+
+### Key Lessons
+- The entry-trigger conversion problem from the June reviews looks resolved in practice — JPM and UNH prove the bot can act same-day on a confirmed breakout instead of letting it run away
+- A post-earnings beat is necessary but not sufficient — UNH shows a beat-and-raise can still fail technically if there's a soft overhang (regulatory/legal headline); consider requiring price to hold the breakout level for part of a session before treating a same-day earnings pop as a confirmed trigger
+- No rule currently addresses a position exceeding its max %/position ceiling through pure price appreciation (not a new-entry violation) — worth deciding explicitly whether that's a trim signal or an accepted "let winners run" outcome
+- The automated daily-summary reliability issue is now a persistent, multi-week pattern rather than a one-off — treat it as an infrastructure fix, not a recurring footnote
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week outperformed S&P (+1.49%), so consecutive-underperformance does not apply. CHECK B: this week's outperformance (+1.49%) is below the >2% trigger threshold, so consecutive-outperformance does not apply regardless of prior weeks (last two logged reviews: Jun 19 at -0.93% and Jun 26 at +1.97%, neither exceeding the 2% threshold in the same direction). CHECK C: no trades closed this week (0 losses), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Investigate why the Jul 23 daily-summary routine didn't fire (cron/schedule config) — this is now a recurring multi-week reliability gap, not a one-off
+- Decide and document a rule for positions that exceed max %/position via appreciation alone (RTX at 16.4%) — trim vs. let ride
+- Re-verify XOM (reclaim >$156-157) and CVX (pullback $185-187) at Monday 7/27 open — both are live, non-overlapping Energy setups carried from Friday; act on first confirmed trigger, watch they haven't run away given the oil-spike-driven Energy rally
+- Watch UNH closely — thesis intact fundamentally but sentiment fragile (Medicaid-fraud overhang); if it approaches the -7% cut level, exit per rule rather than waiting for further deterioration
+
+### Overall Grade: B
