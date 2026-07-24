@@ -352,3 +352,15 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $194.84 | +0.60% | +$237.51 (+3.23%) | $183.546 (10% trailing GTC, HWM $203.94) |
 | UNH | 16 | $434.92 | $431.01 | -1.22% | -$62.50 (-0.90%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Notes:** Two new trades today — JPM (21sh @ $346.98, confirmed breakout above $343.45 sector-momentum trigger) and UNH (16sh @ $434.92, confirmed breakout above $431.68 trigger on Q2 earnings beat) — both CHOP weekly slots used, 3 of 4 CHOP position slots now filled. RTX continues to hold, +3.23% unrealized, no earnings-week action needed (print Thu 7/23). JPM opened green intraday; UNH pulled back slightly from its post-earnings pop but thesis (turnaround narrative, multiple analyst reiterations) intact. XOM skipped despite a confirmed breakout — no slots left this week, carried to watchlist. Cash deployment jumped from 85% to 56.5% with two new positions; still within CHOP's 60% target band once accounting for the two fills settling. Phase P&L +0.39% vs $50,000 launch baseline. Tomorrow (Thu 7/23): RTX earnings pre-market — no adding into the print, monitor reaction; hold JPM/UNH, no new trades (weekly cap used). Patience > activity.
+
+---
+
+### Jul 24 — EOD Snapshot (Day 61, Friday)
+**Portfolio:** $50,785.20 | **Cash:** $28,372.00 (55.9%) | **Day P&L:** +$131.10 (+0.26%) | **Phase P&L:** +$785.20 (+1.57%)
+**Regime:** CHOP (VIX 18.7-19.4, SPY -0.9% vs 50DMA — per Jul 24 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $353.20 | +0.94% | +$130.62 (+1.79%) | $318.033 (10% trailing GTC, HWM $353.37) |
+| RTX | 39 | $188.75 | $212.01 | +1.36% | +$907.14 (+12.32%) | $193.401 (10% trailing GTC, HWM $214.89) |
+| UNH | 16 | $434.92 | $420.48 | -0.73% | -$231.05 (-3.32%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** No trades today — weekly CHOP cap (2/2, JPM+UNH bought Jul 22) already exhausted, XOM/CVX watchlist setups carried to Mon 7/27. RTX hit new 52wk highs ($214.50 intraday) after a strong beat-and-raise print Thu 7/23 (adj. EPS $1.89 vs $1.66 est, FY guide raised) — now +12.32% unrealized, approaching but not yet at the +15% trail-tighten trigger (10%→7%); watch closely at next check. JPM steady near its 52wk high, thesis intact, no negative catalysts. UNH still soft (-3.32%) — post-earnings breakout faltered on Medicaid-fraud/payment-deferral headline overhang, but well above the -7% cut level and fundamentals (30% EPS beat, raised outlook) remain intact, monitor only. Backdrop: Iran/Hormuz-driven oil spike (WTI +6-7%) and Thursday's broad tech selloff (Alphabet miss) kept VIX elevated (~18.7-19.4) but still CHOP-band. **Logging gap:** no Jul 23 EOD snapshot was recorded (daily-summary routine did not fire) — Day P&L above uses Alpaca's last_equity (Jul 23 close, $50,654.10) as the base per account balance_asof; no untracked trades found, position share counts unchanged since Jul 22. Phase P&L +1.57% vs $50,000 launch baseline. Tomorrow (Sat 7/25): market closed, no session. Patience > activity.
