@@ -1594,3 +1594,10 @@ HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on J
 - **RTX** (existing position): $212.345, +12.5% unrealized. Approaching but not yet at +15% trail-tighten threshold (10%→7%). 10% trailing GTC stop intact ($192.141, HWM $213.49). No action — recheck at midday.
 - **UNH** (existing position): $422.21, -2.92% unrealized. Well above -7% cut level, no thesis break. 10% trailing GTC stop intact ($392.589, HWM $436.21). No action.
 - Regime CHOP: 3 of 4 position slots filled. Weekly trade cap 2/2 already used (Jul 22) — 0 slots remain this week regardless of setup quality. NO TRADES. No Telegram sent (no action taken). Patience > activity.
+
+### Midday Check — ~15:45 ET
+- **JPM**: $352.51, +1.59% unrealized. 10% trailing GTC stop intact ($317.844, HWM $353.16). Below all tighten/cut thresholds. No action.
+- **RTX**: $213.34, +13.03% unrealized (HWM $214.89). Still below +15% trail-tighten trigger. 10% trailing GTC stop intact ($193.401). At 16.4% of equity ($50,830.22) via appreciation only — not a new-entry violation, informational. No action — recheck next session.
+- **UNH**: $420.505, -3.31% unrealized. Well above -7% cut level, no thesis break (no fresh negative news; prior Medicaid-fraud overhang still soft-monitor only). 10% trailing GTC stop intact ($392.589). No action.
+- Regime CHOP: 3 of 4 position slots filled, within cap. No regime breach.
+- No losers to cut, no trails to tighten, no thesis breaks. No unexplained sharp moves — no Tavily research needed. No trades made. No Telegram sent (no action taken). Patience > activity.
