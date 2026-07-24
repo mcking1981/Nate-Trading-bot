@@ -1526,3 +1526,63 @@ HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on J
 - Regime CHOP: 3 of 4 position slots filled, within cap. 2/2 weekly trade slots already used — no new entries possible regardless of setup.
 - No losers to cut, no trails to tighten, no thesis breaks, no regime breach. No trades made. No Telegram sent (no action taken).
 - NO CONFIRMED SETUP for any watchlist ticker. NO TRADES — weekly CHOP cap (2/2) already exhausted Jul 22, 0 slots remain regardless of setup quality. Patience > activity.
+
+---
+
+## 2026-07-24 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.9% ($738.18 vs $744.88) | VIX: 18.7-19.4 (spot ~18.8, +12% vs prior close 16.64)
+*(Regime limits: max 4 positions, max 15%/position (~$7,608), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,722.34 | Cash: $28,372.00 (55.9%) | Buying power: $176,068.95 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $351.28 (+1.24%, +$90.30) | RTX 39sh @ $188.75, current $209.58 (+11.04%, +$812.37) | UNH 16sh @ $434.92, current $424.99 (-2.28%, -$158.82)
+- Open orders: JPM 10% trailing GTC stop $314.928 (HWM $349.92) | RTX 10% trailing GTC stop $192.141 (HWM $213.49) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,350.34 long / $50,722.34 equity = 44.1% vs 60% CHOP target. 3 of 4 CHOP position slots filled. RTX at 16.11% of equity (above 15% ceiling via appreciation only, not a new entry — informational).
+- **Weekly trade cap: 2 of 2 CHOP slots ALREADY USED this week (JPM + UNH bought Jul 22, week Mon 7/20-Sun 7/26) — 0 slots remain regardless of setup quality.**
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Sharp spike on US-Iran conflict (Strait of Hormuz disruption, reportedly 12th day of strikes) — WTI ~$92.47 (+6-7%), Brent ~$101.64 (+7-8%)
+- **S&P futures:** Sep e-mini ~7,465, +20pts premarket — modest bounce attempt after Thursday's -1.49% SPX selloff (Alphabet earnings miss + oil spike drove Nasdaq -2.15%)
+- **VIX:** 18.7-18.8 spot, up ~12% from prior close (16.64) — fear rising but still sub-20
+- **DXY:** ~101.4, flat/firm, near 52wk high
+- **10Y yield:** ~4.60-4.63%, near 2-month highs on rate-hike repricing + energy-driven inflation concern
+- **Econ calendar:** Light domestically today (Japan flash PMI, Australia CPI overnight). Next FOMC July 29, PCE July 30
+- Read: Oil-driven risk-off (Iran conflict escalation) dominant theme; yields/dollar firm; VIX rising but still CHOP-band, not yet Bear-triggering
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +25.7% (AI/chips), Energy also surging — "Energy overtakes Technology as 2026's best sector" theme, CVX ~+25% YTD
+- **Last 5 days:** Industrials +1.77%, Healthcare +1.29%, Energy +0.56%, Utilities +0.52% lead; Tech -1.12%, Consumer Disc -5.12%, Comm Svcs -5.20% lag — broad growth/tech unwind
+- **Strongest non-overlapping momentum (Industrials/Healthcare already held via RTX/UNH): Energy** — real-economy rotation + Hormuz geopolitical premium
+- **XOM** ~$155-160. Post-breakout pullback, support $149-151 (20D/100D MA), resistance $163.68. Entry: reclaim >$156-157. Stop: <$150 (~-4%)
+- **CVX** ~$193. Uptrend intact. Entry: pullback to $185-187. Stop: <$180 (~-6.5%)
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 7/24:** Verizon beat; American Express missed. XOM, NextEra Energy, HCA, Canadian National, Noodles & Co also report today
+- **AH 7/23:** No major isolated reporter; broad Q2 beat rate strong (~48.7% YoY EPS growth) but misses being punished harder than beats rewarded (Morningstar)
+- **RTX (holding):** Confirmed beat-and-raise 7/23 pre-open — adj. sales $24.7B (+16% organic), adj. EPS $1.89 (+21% beat vs $1.66 est), FY guide raised (sales $95-96B, EPS $7.10-7.25, FCF $8.5-8.75B)
+- **UNH (holding):** Beat estimates, hiked profit outlook (7/16 print) — margin recovery delayed past 2027, elevated medical trend persists
+- **JPM (holding):** No new Q2 print found this cycle; prior analysis notes continued capital-markets strength, ROTCE 23%
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** $349-351, just under 52wk high ($351.24). BofA: "more upside after blockbuster earnings." No negative catalysts — thesis intact.
+- **RTX:** New 52wk high $214.50 intraday. EPS beat +13.7%, revenue +8% beat, FY26 guidance raised again on defense/aircraft-repair demand. Thesis strongly intact — approaching +15% trail-tighten threshold (currently +11.04%).
+- **UNH:** Beat big (EPS $6.38 vs $4.92, +30%), raised outlook, Zacks upgraded to Strong Buy — but stock faded from 52wk high $461.62 (7/16) to ~$423 ("Why UNH Stock Breakout Faltered After Massive Earnings Beat" — IBD). Soft overhang: Medicaid fraud-investigation/payment-deferral headlines (CA/MN, ~$1B). Not thesis-breaking, but sentiment fragile despite strong fundamentals — monitor.
+
+### Trade Ideas
+(No fresh earnings catalyst for a new position today — using Sector Scout's named tickers as conditional/watchlist setups per protocol, not live trade ideas. Also moot: weekly CHOP cap already exhausted.)
+1. **XOM** — Energy, sector-momentum leader, no overlap with holdings. Entry: reclaim >$156-157. Stop: <$150 (~-4%). Regime check: **FAIL — 0 of 2 CHOP weekly trade slots remain (JPM+UNH used them Jul 22).**
+2. **CVX** — Energy, same theme. Entry: pullback to $185-187. Stop: <$180 (~-6.5%). Regime check: **FAIL — same reason.**
+(Both carried to next week's watchlist — Mon 7/27 slot reset; re-verify levels haven't run away and aren't overextended given the oil-spike-driven rally in Energy names.)
+
+### Risk Factors
+- **Oil spike (WTI +6-7%, Brent +7-8%) on Iran/Hormuz escalation** — sharpest jump yet in this conflict; inflationary, raises hike-risk odds, and is a real path to VIX crossing the Bear threshold (>25) on further escalation
+- VIX +12% intraday (16.64→18.7-19.4) — still CHOP-band but the rate of change is the thing to watch, not just the level
+- Thursday's broad selloff (SPX -1.49%, Nasdaq -2.15% on Alphabet miss + oil) shows misses being punished harder than beats rewarded this earnings season — elevated tape sensitivity
+- **RTX +11.04% unrealized, approaching +15% trail-tighten trigger (10%→7%)** — check again at market-open/midday
+- UNH sentiment fragile (post-earnings breakout faltered, Medicaid-fraud headline overhang) despite strong fundamentals — not thesis-breaking, watch for further deterioration
+- 10Y yield near 2-month highs, DXY firm — headwind for growth/rate-sensitive names
+- Weekly CHOP trade cap already exhausted (2/2 used Jul 22) — XOM/CVX setups cannot be acted on this week no matter how they develop
+
+### Decision
+HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on JPM/UNH). JPM and RTX theses strongly intact (RTX new 52wk highs on raised guidance, approaching +15% trail-tighten level — watch, don't act yet). UNH thesis intact but sentiment soft (breakout faltered, Medicaid-fraud overhang) — no action, above -7% cut level by a wide margin. Oil-driven risk-off (Iran/Hormuz escalation, WTI +6-7%) is the dominant risk to monitor — no held position is thesis-broken or below -7%, so no urgent action required, but a further VIX spike toward 25 would push the regime toward Bear. XOM/CVX are clean non-overlapping watchlist setups for next week (Mon 7/27) once slots free up. Patience > activity.
