@@ -1661,3 +1661,11 @@ HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on J
 
 ### Decision
 HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY ~-0.8% vs 50DMA, VIX 18.58). GS (Financials, reclaim $1,030) is the cleaner non-overlapping watchlist candidate for Monday 7/27; LMT (Defense) carries sector-concentration risk alongside RTX — lower priority. FOMC Wed 7/29 argues for extra discipline on new-position timing/sizing this week. RTX approaching +15% trail-tighten (watch, no action yet); UNH Medicaid overhang confirmed material but not thesis-breaking (well above -7% cut level). 2 of 2 CHOP trade slots available for the week starting Mon 7/27. Patience > activity.
+
+### Midday Check — Saturday, market closed
+- No session — prices static at Fri 7/24 close (change_today 0% on all positions), confirmed via Alpaca positions pull.
+- **JPM**: $353.21, +1.80% unrealized. No action — below all thresholds.
+- **RTX**: $212.79, +12.74% unrealized (HWM $214.89). Still below +15% trail-tighten trigger. 10% trailing GTC stop intact ($193.401). No action.
+- **UNH**: $420.74, -3.26% unrealized. Well above -7% cut level, no new thesis break since pre-market (Medicaid payment-deferral overhang confirmed material but not thesis-breaking). 10% trailing GTC stop intact ($392.589). No action.
+- Regime CHOP: 3 of 4 position slots filled, within cap. No breach.
+- No losers to cut, no trails to tighten, no thesis breaks, no unusual moves (market closed) — no Tavily research needed. No trades made. No Telegram sent (no action taken). Patience > activity.
