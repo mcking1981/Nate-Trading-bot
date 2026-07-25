@@ -1601,3 +1601,63 @@ HOLD — no new trades possible (weekly CHOP cap exhausted, 2/2 used Jul 22 on J
 - **UNH**: $420.505, -3.31% unrealized. Well above -7% cut level, no thesis break (no fresh negative news; prior Medicaid-fraud overhang still soft-monitor only). 10% trailing GTC stop intact ($392.589). No action.
 - Regime CHOP: 3 of 4 position slots filled, within cap. No regime breach.
 - No losers to cut, no trails to tighten, no thesis breaks. No unexplained sharp moves — no Tavily research needed. No trades made. No Telegram sent (no action taken). Patience > activity.
+
+---
+
+## 2026-07-25 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-0.8% ($738.93 vs ~$744.9) | VIX: 18.58
+*(Regime limits: max 4 positions, max 15%/position (~$7,623), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ US MARKETS CLOSED — Saturday. No trades possible. Planning session for Monday 7/27 open.
+
+### Account Snapshot
+- Equity: $50,820.06 | Cash: $28,372.00 (55.8%) | Buying power: $176,342.57 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $353.21 (+1.80%, +$130.83) | RTX 39sh @ $188.75, current $212.79 (+12.74%, +$937.56) | UNH 16sh @ $434.92, current $420.74 (-3.26%, -$226.82)
+- Open orders: JPM 10% trailing GTC stop $318.033 (HWM $353.37) | RTX 10% trailing GTC stop $193.401 (HWM $214.89) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,448.06 long / $50,820.06 equity = 44.2% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). RTX at 16.3% of equity (above 15% ceiling via appreciation only, not a new-entry violation — informational, same as prior days).
+- **Weekly trade cap: new week starts Mon 7/27 — 2 of 2 CHOP slots available.**
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Surging — WTI ~$89.9, Brent ~$97.4, both +3-4% Fri, 5th straight up day on Houthi/Red Sea disruption fears, pushing toward $100 Brent
+- **S&P 500 (cash):** ~7,408-7,412 Fri close, roughly flat on the day; no fresh futures data (weekend, market closed)
+- **VIX:** 18.58 (Fri), down slightly from 18.70 Thu, but +21% YoY — elevated on AI/semis-driven vol
+- **DXY:** ~101.4-101.5, near 52wk high, technical "Strong Buy" signal
+- **10Y yield:** ~4.66-4.68%, near 2-month highs, markets flirting with hike-risk pricing
+- **Econ calendar:** **FOMC 2-day meeting Mon-Tue 7/28-29, decision/presser Wed 2pm ET** — dominant catalyst this week
+- Read: Rising oil + elevated VIX + firm dollar + higher yields into a binary FOMC event — favors cautious CHOP sizing, no loosening
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLC +28.1%, XLU +28.0%, XLF +26.2%, XLK +21.9%, XLI +20.1%. Laggards: XLE +7.3%, XLV +10.0%
+- **Last 5 days:** Broad rotation OUT of tech/semis (SOXX/SMH -8-10% on the week) INTO Financials, Energy, Healthcare, Industrials/Defense — bank earnings "crushed" estimates
+- **Strongest momentum:** Financials and Industrials/Aerospace-Defense
+- **GS** — pulled back from ATH $1,154 (7/15) to retest ~$990-1,030 breakout-turned-support. Entry: reclaim $1,030, stop ~$990 (~-4%)
+- **LMT** — broke out of $500-510 base to $563 close (7/23), +9.5% week. Entry: pullback to $545-550, stop <$520 (~-6%). ⚠️ Same sector as RTX (Aerospace/Defense) — overlap caution
+- **Held-sector check:** JPM (Financials) — in favor. RTX (Defense) — in favor, sector hot on record budget tailwinds. UNH (Healthcare) — mixed, XLV lags large-cap peers YTD
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Weekend — no pre-market prints. Q2 season running hot: blended S&P 500 earnings growth 37.9% (highest since Q3 2021), skewed by Alphabet's outsized EPS surprise; ex-Alphabet growth ~12.6%
+- Fri/Thu notable: AMAT beat (record rev), CSCO beat (record rev, raised guide), Tesla missed (neg. FCF), GM beat/raised, Netflix fell on soft forecast
+- **Week of 7/27:** Mon — AZN, CDNS, WELL, NUE; Tue — V, BA, KO, PYPL, F, MDLZ; Wed/Thu — META, MSFT, ARM, SBUX, CMG; Thu — AMZN, AAPL, MA, BMY; Fri — ABBV, CVX. Heavy mega-cap tech week overlapping FOMC — elevated volatility risk
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** ~$343-353, pulled back slightly. BofA: "more upside" post-blockbuster earnings, consensus PT $362.67 (Buy). No thesis-breaking news.
+- **RTX:** Q2 beat huge (EPS +13.7%, rev +8%), FY26 guide raised (EPS $7.10-7.25). Multiple PT raises (RBC $250, MS $240, UBS $215). Approaching +15% trail-tighten threshold (currently +12.74%) — watch, no action yet.
+- **UNH:** -3.26% unrealized. **Confirmed (not rumor): HHS/CMS deferred $1.07B in federal Medicaid payments to CA ($867.5M)/MN ($199M) pending fraud-claims review (announced 7/22)** — real, material overhang, not yet resolved. Partial offset: JPMorgan raised PT to $516 (Overweight) on strong Q2 cost control. Not thesis-breaking; tight monitoring warranted.
+
+### Trade Ideas
+(No fresh earnings catalyst for a new position — using Sector Scout's named tickers as conditional/watchlist setups per protocol.)
+1. **GS** — Financials, sector-momentum leader, no overlap with holdings. Entry: reclaim $1,030. Stop: ~$990 (-4%). Target: ~$1,110 (2.3:1 R:R). Regime check: CONDITIONAL — confirm live at Monday open, 1 position slot available.
+2. **LMT** — Defense, same theme as RTX (sector overlap). Entry: pullback to $545-550. Stop: <$520 (-6%). Target: ~$610 (2:1 R:R). Regime check: CONDITIONAL but lower priority — would concentrate Aerospace/Defense exposure alongside RTX; weigh sector-concentration risk before sizing.
+
+### Risk Factors
+- **FOMC decision Wed 7/29** — dominant catalyst this week; binary volatility event, avoid sizing into it without confirmation either side
+- Oil spiking 5 straight days (WTI +3-4% Fri, Houthi/Red Sea risk) — inflationary, could pressure yields/DXY further into FOMC
+- 10Y yield near 2-month highs (~4.67%), DXY near 52wk high — headwind for growth/rate-sensitive names
+- **RTX +12.74% unrealized, approaching +15% trail-tighten trigger (10%→7%)** — check again Monday open/midday
+- **UNH Medicaid payment-deferral confirmed material** — not thesis-breaking but sentiment fragile; watch for DOJ/CMS follow-through
+- Heavy mega-cap tech earnings week (META/MSFT/AMZN/AAPL) overlapping FOMC — elevated market-wide volatility risk, even for non-tech holdings
+- Only 1 of 4 CHOP position slots available — GS/LMT compete for the same slot if both confirm
+
+### Decision
+HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY ~-0.8% vs 50DMA, VIX 18.58). GS (Financials, reclaim $1,030) is the cleaner non-overlapping watchlist candidate for Monday 7/27; LMT (Defense) carries sector-concentration risk alongside RTX — lower priority. FOMC Wed 7/29 argues for extra discipline on new-position timing/sizing this week. RTX approaching +15% trail-tighten (watch, no action yet); UNH Medicaid overhang confirmed material but not thesis-breaking (well above -7% cut level). 2 of 2 CHOP trade slots available for the week starting Mon 7/27. Patience > activity.
