@@ -1669,3 +1669,61 @@ HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY ~-0.8
 - **UNH**: $420.74, -3.26% unrealized. Well above -7% cut level, no new thesis break since pre-market (Medicaid payment-deferral overhang confirmed material but not thesis-breaking). 10% trailing GTC stop intact ($392.589). No action.
 - Regime CHOP: 3 of 4 position slots filled, within cap. No breach.
 - No losers to cut, no trails to tighten, no thesis breaks, no unusual moves (market closed) — no Tavily research needed. No trades made. No Telegram sent (no action taken). Patience > activity.
+
+---
+
+## 2026-07-26 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~+1.0% ($751.71 vs ~$744) | VIX: 18.58
+*(Regime limits: max 4 positions, max 15%/position (~$7,623), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ US MARKETS CLOSED — Sunday. No trades possible. Planning session for Monday 7/27 open. Tavily API unreachable (proxy HTTP 432, not just missing key) — all sub-agents fell back to native WebSearch.
+
+### Account Snapshot
+- Equity: $50,820.06 | Cash: $28,372.00 (55.8%) | Buying power: $176,342.57 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $353.21 (+1.80%, +$130.83) | RTX 39sh @ $188.75, current $212.79 (+12.74%, +$937.56) | UNH 16sh @ $434.92, current $420.74 (-3.26%, -$226.82)
+- Open orders: JPM 10% trailing GTC stop $318.033 (HWM $353.37) | RTX 10% trailing GTC stop $193.401 (HWM $214.89) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,448.06 long / $50,820.06 equity = 44.2% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). RTX at 16.3% of equity (above 15% ceiling via appreciation only, not a new-entry violation). Weekly trade cap resets Mon 7/27: 2 of 2 CHOP slots available (capped in practice to 1 new position by the 4-position ceiling).
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$90.47, Brent ~$98.38, both -2% Fri on Mideast tension
+- **S&P 500:** No decisive futures signal (weekend); Q2 earnings tracking +38% YoY (FactSet) — bullish backdrop, but Citi flags Mideast escalation + hawkish Fed risk
+- **VIX:** 18.58 (Fri close) — moderate, mid-CHOP band
+- **DXY:** ~101.3-101.5, near 3-week high on tariff concerns
+- **10Y yield:** 4.67% (Fri), near highest since Jan 2025 after a 4-session rally
+- **Econ calendar:** **FOMC meets Tue-Wed 7/28-29, decision Wed 2pm ET** (no dot plot this meeting). Mega-cap earnings: MSFT/META Thu 7/30 AH; AAPL/AMZN Fri 7/31. June durable goods Mon 7/27. Light data otherwise ahead of Fed.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33%, XLE +21%, XLI +20%
+- **Last 5 days:** Rotation OUT of tech/semis (SOXX -5.1% in a session, chips lost >$1T mkt cap in 2mo) INTO real economy/defensives — XLRE +2.3% Fri, XLY/XLP also gainers
+- **Strongest momentum (non-overlapping w/ JPM/RTX/UNH):** Energy (XLE) and Real Estate (XLRE)
+- **CVX** — sector-wide pullback to 200MA confluence. Entry: reclaim $174.69-181.86, stop $165.69 (~-6.5%), target $198.87 (~1.7:1 R:R)
+- **XOM** — reclaim $136.37-136.81, RSI 35.6 near oversold, stop near 200-day MA (level TBD, confirm live)
+- **AGNC** (Real Estate, "confirmed breakout") — no specific entry/stop/target found; incomplete setup, not actionable as-is
+- Carryover note: yesterday's log flagged GS (Financials, reclaim $1,030, stop ~$990) and LMT (Defense, sector-overlap w/ RTX) as watchlist — unconfirmed at Friday close, still open if today's Energy/RE read doesn't pan out live Monday
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No holdings or close peers report this week — **JPM (7/14), RTX (7/23), UNH (7/16) all already reported**, clear to hold through Monday without gap risk
+- **Week of 7/27:** CDNS Mon; PYPL/UPS/Corning/Textron Tue; META/MSFT/ARM/SBUX/CMG Wed-Thu; AMZN/AAPL/MA/BMY Thu-Fri
+- **Last week reactions:** Tesla -14.5% (worst earnings-day drop on record, rev beat/EPS miss); GE Vernova -6.4%, DoorDash -4.3% on misses; beats — WAB +10.7%, DLR +14%, SLB +9.7%, Tenet +14.5%. 88% of 95 S&P reporters beat.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** No negative news. Deutsche upgraded to Buy, KBW raised PT after record Q2 profit. Dimon flagged macro credit-crisis caution (not JPM-specific). Thesis intact, bullish tailwind.
+- **RTX:** Confirms beat-and-raise — record $289B backlog (+22% YoY), FY guide raised (sales $95-96B, EPS $7.10-7.25). Thesis strengthened. Still below +15% trail-tighten trigger (currently +12.74%).
+- **UNH:** ⚠️ **Escalation** — UNH formally acknowledged a **DOJ criminal probe** into Medicare Advantage billing practices (confirmed 7/24), on top of the existing $1.07B CA/MN Medicaid payment-deferral overhang (7/22). This moves the overhang from civil/administrative to criminal-investigation status — materially negative, though still no specific financial/earnings impact disclosed. Position -3.26% unrealized, well above -7% cut level; no fresh bullish offset found today.
+
+### Trade Ideas
+1. **CVX** — Energy, sector-momentum leader, no overlap with holdings. Entry: reclaim $174.69-181.86. Stop: $165.69 (-6.5%). Target: $198.87 (~1.7:1 R:R — below the 2:1 checklist minimum, note if acting). Regime check: CONDITIONAL — confirm live Monday open, 1 position slot available.
+2. **XOM** — Energy, same theme as CVX (sector overlap with idea #1, pick one not both). Entry: reclaim $136.37-136.81. Stop: level TBD, confirm live before sizing. Regime check: FAIL as stated (no confirmed stop) — do not size until a hard stop level is confirmed live.
+3. **GS** (carried from 7/25, unconfirmed) — Financials, reclaim $1,030, stop ~$990. Still watchlist-only.
+
+### Risk Factors
+- **FOMC decision Wed 7/29** — dominant catalyst this week; binary volatility event, avoid sizing into it without confirmation either side
+- **UNH DOJ criminal probe confirmed 7/24** — thesis overhang escalated from civil to criminal; not yet at -7% cut level but sentiment risk has increased materially; watch closely at Monday open for gap/follow-through
+- **RTX +12.74% unrealized, approaching +15% trail-tighten trigger (10%→7%)** — check again Monday open/midday
+- 10Y yield near highest since Jan 2025 (~4.67%), DXY near 3-week high — headwind for growth/rate-sensitive names into FOMC
+- Heavy mega-cap tech earnings week (META/MSFT/AMZN/AAPL) overlapping FOMC — elevated market-wide volatility risk even for non-tech holdings
+- Only 1 of 4 CHOP position slots available — CVX/XOM/GS/LMT all compete for the same single slot
+
+### Decision
+HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY ~+1.0% vs 50DMA, VIX 18.58). CVX (Energy, reclaim $174.69-181.86) is the cleanest non-overlapping conditional setup for Monday 7/27, though R:R (~1.7:1) is below the 2:1 checklist minimum — weigh accordingly. FOMC Wed 7/29 and a mega-cap earnings-heavy week argue for extra discipline on new-position timing. UNH's DOJ criminal-probe escalation is the most notable overnight development — not a cut-level breach, but flagged via Telegram given the severity change. Patience > activity.
