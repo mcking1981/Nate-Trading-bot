@@ -1727,3 +1727,63 @@ HOLD — Saturday, no trading session possible. Regime CHOP confirmed (SPY ~-0.8
 
 ### Decision
 HOLD — Sunday, no trading session possible. Regime CHOP confirmed (SPY ~+1.0% vs 50DMA, VIX 18.58). CVX (Energy, reclaim $174.69-181.86) is the cleanest non-overlapping conditional setup for Monday 7/27, though R:R (~1.7:1) is below the 2:1 checklist minimum — weigh accordingly. FOMC Wed 7/29 and a mega-cap earnings-heavy week argue for extra discipline on new-position timing. UNH's DOJ criminal-probe escalation is the most notable overnight development — not a cut-level breach, but flagged via Telegram given the severity change. Patience > activity.
+
+---
+
+## 2026-07-27 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.8% ($738.93 vs ~$745.07) | VIX: 18.58
+*(Regime limits: max 4 positions, max 15%/position (~$7,633), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ Tavily API failing again today (proxy HTTP 432, same issue as Jul 26) — all sub-agents fell back to native WebSearch per protocol.
+
+### Account Snapshot
+- Equity: $50,889.06 | Cash: $28,372.00 (55.8%) | Buying power: $176,535.77 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $356.30 (+2.69%, +$195.72) | RTX 39sh @ $188.75, current $212.76 (+12.72%, +$936.39) | UNH 16sh @ $434.92, current $421.07 (-3.18%, -$221.54)
+- Open orders: JPM 10% trailing GTC stop $318.033 (HWM $353.37) | RTX 10% trailing GTC stop $193.401 (HWM $214.8899) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,517.06 long / $50,889.06 equity = 44.3% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). RTX at 16.3% of equity (above 15% ceiling via appreciation only, not a new-entry violation — informational, unchanged pattern).
+- **Weekly trade cap: new week starts Mon 7/27 — 2 of 2 CHOP slots available** (capped in practice to 1 new position by the 4-position ceiling).
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Crashed ~7% overnight on US-Iran fighting-pause/de-escalation hopes — WTI ~$83-84 (from ~$92 Thu), Brent <$86 (from ~$100)
+- **S&P 500 futures:** +0.8% premarket, risk-on tone as oil drops and geopolitical tension eases
+- **VIX:** 18.58 (Fri close, no fresher print) — mid-CHOP band
+- **DXY:** ~101.2-101.3, -0.3%, pulling back from 1-month high as oil retreat eases rate-hike bets
+- **10Y yield:** 4.64%, -4bps, tracking oil-driven inflation relief
+- **Econ calendar:** **FOMC 2-day meeting starts TODAY (Mon 7/27), decision Wed 7/29 2pm ET** (Chair Warsh); also PCE inflation and jobless claims this week
+- Read: Oil-driven relief rally, not fundamentals-driven — FOMC week still argues for cautious CHOP sizing
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLE +29.6%, XLK ~26-33% (source variance). XLF (JPM's sector) only +3.7% YTD — laggard despite JPM's own strength
+- **Last 5 days:** XLE +3.4% (#1, 2nd straight week, oil-driven), XLU +2.5%, XLI +1.8% (AI power-demand theme). S&P -0.61% week, below 50DMA
+- **CVX/XOM (Energy):** Both **already extended well past** prior watchlist trigger levels (CVX $194.79, cleared $174.69-181.86 by $13-20; XOM $156.88, cleared $136.37-136.81 by ~$20) — chasing not advised, wait for pullback. CVX earnings 7/31 adds event risk. **Overnight oil crash (-7%) undermines this momentum thesis — energy names may give back gains.**
+- **GS/LMT:** Both confirmed-but-extended (GS $1,061.23 vs $1,030 trigger; LMT $582.65 vs $545-550 zone) — stops still valid but tighter entry-stops needed if chasing now
+- **New non-overlapping candidate: NVDA** (Tech) $201.68, pulling back toward 200-day SMA ~$193. Entry: reclaim $203-205. Stop: <$188. Target: $215+ (prior highs). **Not yet triggered** (price below entry zone)
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **AZN** beat pre-market: core EPS $2.63 (+21% YoY) vs $2.48 est, revenue $15.4B (+6%, roughly in-line), oncology-driven, dividend raised
+- **Correction:** CDNS/WELL/NUE report **after close today**, not pre-market as previously logged. BA, CARR, AXTA, AMT, CNC also report today
+- **Fri 7/24 (Thu AH bleed-through):** INTC blowout Thu AH (rev $16.1B vs $14.4B est, EPS $0.42 vs $0.21, raised FY guide) +12% AH. Fri: THC +14.5%, EW +5.8%, SSNC +3.1%; CHTR -5.1% (mixed)
+- **Week ahead:** FOMC decision Wed 2pm ET (hold expected 3.50-3.75%, watch Warsh tone); META/MSFT Wed, AAPL/AMZN Thu — AI capex scrutiny high, overlaps FOMC
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** No adverse news. ~$356 (near 52wk high). Citi PT raised to $360, another firm to $380 on Q2 strength. Thesis intact.
+- **RTX:** No new negative news. 7th straight up session (~$212-213), still riding 7/23 beat-and-raise. P&W won British Airways engine deal; divesting Blue Canyon to sharpen defense focus. +12.72% unrealized — approaching but not yet at +15% trail-tighten trigger. Thesis intact, watch closely.
+- **UNH:** **DOJ probe status UNCHANGED — no escalation or de-escalation** since 7/24 confirmation (no settlement, no new charges, no clearance). Scope confirmed to include Optum Rx and physician reimbursement; company "fully cooperating." Minor sector positive: CMS raising 2027 MA payments ~2.48% industry-wide — doesn't offset the overhang. -3.18% unrealized, well above -7% cut level. No change to thesis.
+
+### Trade Ideas
+(No confirmed live trigger today — NVDA below its reclaim zone, CVX/XOM/GS/LMT all extended past entry. Per protocol, listing Sector Scout's named ticker as conditional/watchlist.)
+1. **NVDA** — Tech, non-overlapping with JPM/RTX/UNH. Entry: reclaim $203-205 (current $201.68, below trigger). Stop: <$188 (~-7-8%). Target: $215+ (~2:1 R:R). Regime check: FAIL as-is (unconfirmed) — watchlist only, do not chase.
+2. **CVX** (carried, now extended) — Energy, cleared trigger but overnight oil crash (-7%) weakens the momentum thesis; earnings 7/31 adds event risk. Regime check: FAIL — do not chase into a reversing commodity move.
+
+### Risk Factors
+- **FOMC 2-day meeting begins TODAY, decision Wed 7/29** — binary volatility event this week, avoid sizing into it without confirmation
+- **Oil crashed ~7% overnight on Iran de-escalation** — undermines Energy-sector (XLE/CVX/XOM) momentum thesis; risk-on positive for broad market but a reversal risk for energy-specific setups
+- **UNH DOJ criminal probe unresolved, no de-escalation** — continue tight monitoring; still well above -7% cut level (-3.18%)
+- **RTX +12.72% unrealized, approaching +15% trail-tighten trigger (10%→7%)** — check again at market-open/midday
+- RTX at 16.3% of equity, above 15% ceiling via appreciation only — informational, not a new-entry violation
+- Heavy mega-cap tech earnings week (META/MSFT Wed, AAPL/AMZN Thu) overlapping FOMC — elevated market-wide volatility risk even for non-tech holdings
+- Only 1 of 4 CHOP position slots available despite 2/2 weekly trade slots resetting this week
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY -0.8% vs 50DMA, VIX 18.58). No confirmed live trigger today: NVDA still below its $203-205 reclaim zone, CVX/XOM/GS/LMT all already extended past entry with the overnight oil crash weakening the Energy thesis specifically. FOMC meeting starts today (decision Wed) plus a heavy mega-cap earnings week ahead argue for extra discipline — don't chase extended names into this event risk. JPM and RTX theses strongly intact (RTX 7th straight up day, approaching +15% trail-tighten — watch, no action yet). UNH thesis intact, DOJ probe unchanged (no escalation), well above -7% cut level. Patience > activity.
