@@ -376,3 +376,14 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $212.79 | 0.00% | +$937.56 (+12.74%) | $193.401 (10% trailing GTC, HWM $214.89) |
 | UNH | 16 | $434.92 | $420.74 | 0.00% | -$226.82 (-3.26%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Notes:** Sunday — market closed, no session, $0 day P&L. Account unchanged from Friday's close (balance_asof 7/24 confirmed by Alpaca at $50,820.06 — slightly above the $50,785.20 figure logged in the Jul 24 EOD snapshot, which used marginally stale intraday prices; no untracked trades, share counts unchanged). Phase P&L +1.64% vs $50,000 launch baseline. 3 of 4 CHOP position slots filled (JPM, RTX, UNH); 2 of 2 CHOP weekly trade slots used this week (Mon 7/20–today, both fired Jul 22). RTX +12.74% unrealized, still below the +15% trail-tighten trigger (10%→7%) — check again Monday. UNH -3.26%, well above -7% cut level; the confirmed DOJ criminal probe into Medicare Advantage billing (7/24) is a material sentiment overhang but not yet thesis-breaking. JPM steady, no negative catalysts. Trades today: none. Tomorrow (Mon 7/27): FOMC week begins (decision Wed 7/29) — extra discipline on new-position sizing. CVX (Energy, reclaim $174.69-181.86, stop $165.69) is the cleanest non-overlapping candidate for the 1 open position slot; confirm live before acting, no chasing. Patience > activity.
+
+---
+
+### Jul 27 — Midday Check (Day 64, Monday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $354.12 | +$149.94 (+2.06%) | $323.145 (10% trailing GTC, HWM $359.05) |
+| RTX | 39 | $188.75 | $218.165 | +$1,147.19 (+15.58%) | $202.903 (7% trailing GTC, HWM $218.175) — **tightened from 10%→7% this check** |
+| UNH | 16 | $434.92 | $418.26 | -$266.50 (-3.83%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Action taken:** RTX crossed the +15% trail-tighten trigger (15.58% unrealized, flagged at pre-market/market-open check). Canceled old 10% trailing stop (order 9e56a487, stop $196.92) and replaced with new 7% trailing GTC stop (order 1e1b588c, stop $202.903, HWM $218.175) — new stop is 7.1% below current price ($218.165), satisfies never-within-3% rule; moved up from $196.92, satisfies never-move-down rule. No losers at -7% (UNH -3.83%, well above cut level, DOJ probe overhang unchanged, thesis intact). 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday for JPM/RTX/UNH. Patience > activity.
