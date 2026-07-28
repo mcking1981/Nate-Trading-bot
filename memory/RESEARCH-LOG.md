@@ -1790,3 +1790,61 @@ HOLD — Regime CHOP confirmed (SPY -0.8% vs 50DMA, VIX 18.58). No confirmed liv
 
 ### Market-Open Check — 09:47 ET
 NO CONFIRMED SETUP — NVDA $201.86 vs trigger $203-205, below-zone, unconfirmed, carried to watchlist. NO CONFIRMED SETUP — CVX $190.01 (web-verified, Alpaca quote anomalous bid $179.23/ask $199.24) vs trigger $174.69-181.86, extended >3% above zone-top ($187.32) with no intraday pullback, too extended, dropped from watchlist (energy thesis further weakened by overnight oil crash + 7/31 earnings event risk). No trades placed, 0 of 2 CHOP weekly slots used. Flag for midday: RTX now +15.36% unrealized (current $217.75, HWM $214.89 stale) — past the +15% trail-tighten trigger, needs stop tightened 10%→7% at midday review.
+
+---
+
+## 2026-07-28 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.83% ($738.93 vs $745.07) | VIX: 17.76
+*(Regime limits: max 4 positions, max 15%/position (~$7,676), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ Tavily API failing again (HTTP 432, same recurring issue since 7/26) — all sub-agents fell back to native WebSearch per protocol.
+
+### Account Snapshot
+- Equity: $51,171.42 | Cash: $28,372.00 (55.4%) | Buying power: $177,326.38 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $359.00 (+3.46%, +$252.42) | RTX 39sh @ $188.75, current $219.42 (+16.25%, +$1,196.13) | UNH 16sh @ $434.92, current $418.94 (-3.67%, -$255.62)
+- Open orders: JPM 10% trailing GTC stop $323.145 (HWM $359.05) | RTX 7% trailing GTC stop $204.9534 (HWM $220.38, tightened 7/27 after crossing +15%) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,799.42 long / $51,171.42 equity = 44.6% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). RTX at 16.7% of equity (above 15% ceiling via appreciation only, not a new-entry violation). 0 of 2 CHOP weekly trade slots used this week (Mon 7/27–today).
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Brent ~$86.58 (-1.5%), 3rd straight down day on Iran de-escalation talk ("good talks" per Trump)
+- **S&P 500 futures:** Mixed/fragile — reports diverge (+0.9% to -0.1%); Nasdaq soft on Asia chip selloff spillover (Micron -4% premarket)
+- **VIX:** ~17.76-18.67 (source variance) — mid-CHOP band, complacent given tomorrow's binary event
+- **DXY:** ~101.50, flat, giving back gains ahead of Fed
+- **10Y yield:** ~4.62-4.64%, pulled back overnight with oil
+- **Econ calendar:** **FOMC Day 1 today, decision Wed 7/29 2pm ET** (presser 2:30pm, no dot plot) — CME odds of a hold ~64%, down sharply from ~87% a week ago = genuine rate-decision uncertainty this cycle. Also: jobless claims, PCE inflation, consumer sentiment this week; META/MSFT report Wed AH overlapping the decision, AAPL/AMZN Thu-Fri
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK (Tech, dominant, large caps +43% Q2); **YTD laggard:** XLE (Energy, -13%)
+- **Last 5 days:** Utilities/Healthcare/Consumer Staples/Comm Services led week of 7/20; Mon 7/27 specifically — Comm Services & Consumer Staples/retail led while Tech and Energy got hit hard (chip rout NVDA -4.97%, oil -6%)
+- **Strongest non-overlapping momentum:** Utilities and Communication Services
+- **DUK** (Utilities) — pulled back to $128.60 from 52wk high $134.49; support/entry zone $115-120, stop <$115, breakout/reclaim trigger >$134. Watchlist only — no live trigger hit yet.
+- **GOOGL** (Comm Services) — closed $347.15 (-1.38%), ~20% off highs post Q2 beat (+24% rev); support ~$315, stop <$310, reclaim target $360+. Watchlist only — no live trigger hit yet.
+- NVDA still in active selloff (avoid); CVX/XOM thesis dead on further oil crash; LMT/GS both overlap existing RTX/JPM sector exposure — skip.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 7/28:** CNC (Centene) reports 6am ET, consensus EPS $0.89 vs -$0.16 loss last year — actuals not yet confirmed at scan time. No pre-market reports found for WELL/NUE/BA/CARR/AXTA/AMT.
+- **AH 7/27:** INTC beat (EPS $0.42 vs $0.21, rev $16.13B +11.9% beat, raised guide) but stock fell -7.9% on margin concerns — beat-but-sold-off pattern continues. CDNS beat (rev +24.2% YoY, EPS $2.11, raised FY guide).
+- **JPM/RTX/UNH:** No new earnings. JPM's own desk raised UNH price target to $516 (7/21). Nothing else new.
+- FOMC decision tomorrow likely dominates price action over today's earnings tape.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** No negative news. Fresh all-time high $358-359 (+3.5% since entry). Thesis intact, financials momentum continuing.
+- **RTX:** No negative news. Fresh 52wk high ~$215-219 (+7.6% over 5 days). Baird PT raised to $240, UBS to $215. Thesis intact/strengthening. 7% trailing stop (tightened 7/27) appropriately locking in gains.
+- **UNH:** DOJ probe status **unchanged** — no escalation, no settlement, no new charges since 7/24 confirmation. Price ~$417-419, -3.7% unrealized, well above -7% cut level. Thesis weakening but not broken. Continue close monitoring, no action.
+
+### Trade Ideas
+(No confirmed live trigger today — DUK and GOOGL are both watchlist-only, no reclaim/pullback level actually touched. Per protocol, listing as conditional.)
+1. **DUK** — Utilities, non-overlapping. Entry: pullback into $115-120 support (current $128.60, not yet in zone) OR confirmed reclaim >$134. Stop: <$115 (~-7% from zone low). Regime check: FAIL as-is (unconfirmed) — watchlist only.
+2. **GOOGL** — Communication Services, non-overlapping. Entry: confirm hold above support ~$315 (current $347.15, above support, no pullback yet) or reclaim $360+. Stop: <$310. Regime check: FAIL as-is (unconfirmed) — watchlist only.
+
+### Risk Factors
+- **FOMC decision Wed 7/29 2pm ET** — binary volatility event with genuine uncertainty this cycle (CME hold-odds dropped from ~87% to ~64% in a week); avoid sizing into it without confirmation
+- **RTX +16.25% unrealized** — already past the +15% trail-tighten trigger, stop already tightened to 7% on 7/27 (current stop $204.95, HWM $220.38); watch for +20% trigger (~$226.50) which would tighten further to 5%
+- **UNH DOJ probe unresolved** — no de-escalation signal either; -3.67% unrealized, well clear of -7% cut level but sentiment fragile
+- Broad Tech/chip selloff (NVDA -4.97%, Micron -4% premarket) — market-wide fragility even for non-tech holdings
+- Oil continuing to crash (Brent -1.5%, 3rd straight down day) — Energy thesis stays dead, do not chase CVX/XOM
+- Only 1 of 4 CHOP position slots available regardless of weekly trade cap
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY -0.83% vs 50DMA, VIX 17.76). No confirmed live trigger today: DUK and GOOGL are the cleanest non-overlapping candidates but both remain watchlist-only pending an actual pullback/reclaim touch. FOMC decision tomorrow (Wed 7/29) carries genuine uncertainty this cycle — do not size a new position into that binary event without a strong, already-confirmed trigger. Existing positions in good shape: JPM/RTX theses intact and strengthening (both at fresh highs), RTX trail already tightened per rule, UNH DOJ overhang unchanged (not escalated, not de-escalated) and well above the -7% cut level. Patience > activity. 0 of 2 CHOP trade slots used this week.
