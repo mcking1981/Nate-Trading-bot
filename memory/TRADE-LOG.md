@@ -410,3 +410,15 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $217.58 | +$1,124.18 (+15.27%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $426.23 | -$138.98 (-2.00%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None required. No losers at -7% (UNH -2.00%, recovering intraday, well above cut level). RTX still at +15.27%, already tightened to 7% trail on 7/27 (stop $205.788, HWM $221.278) — has not crossed +20% (~$226.50), no further tightening due. JPM +2.50%, below +15% tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday: JPM/RTX momentum intact (both near highs), UNH DOJ overhang unchanged (no escalation), no unusual price action warranting research. FOMC decision tomorrow (Wed 7/29 2pm ET) — no new sizing into the event. Patience > activity.
+
+---
+
+### Jul 28 — EOD Snapshot (Day 65, Tuesday)
+**Portfolio:** $51,179.64 | **Cash:** $28,372.00 (55.4%) | **Day P&L:** +$113.81 (+0.22%) | **Phase P&L:** +$1,179.64 (+2.36%)
+**Regime:** CHOP (VIX 17.76, SPY -0.83% vs 50DMA — per Jul 28 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $357.35 | +0.32% | +$217.77 (+2.99%) | $323.307 (10% trailing GTC, HWM $359.23) |
+| RTX | 39 | $188.75 | $217.73 | -0.31% | +$1,130.36 (+15.36%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | 16 | $434.92 | $425.73 | +1.94% | -$146.98 (-2.11%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** No trades today — 0 of 2 CHOP weekly slots used (new week started Mon 7/27), FOMC decision tomorrow (Wed 7/29 2pm ET) kept the bar high for new sizing. Pre-market/market-open/midday checks all found no confirmed live trigger: DUK stayed below its $134 reclaim (real price ~$130-132, Alpaca quote anomalous), GOOGL sat between $315 support and $360 reclaim with no zone touched. RTX remains the standout, +15.36% unrealized on a 9th straight up day (fresh 52wk highs, Baird PT raised to $240, UBS to $215) — already tightened to 7% trail on 7/27, still below the +20% (~$226.50) second-tighten trigger, no action needed at midday check. JPM steady, +2.99% unrealized, near all-time highs, no negative catalysts. UNH -2.11% unrealized (recovered intraday from -3.3% at open), DOJ probe overhang unchanged (no escalation), well above the -7% cut level. Deployment 44.6% vs 60% CHOP target — 1 of 4 position slots still open, but no chase into FOMC week. Phase P&L +2.36% vs $50,000 launch baseline, new best mark of the challenge window. Tomorrow (Wed 7/29): FOMC decision 2pm ET — no new positions into the event, hold all three, watch for post-decision volatility on stops. Patience > activity.
