@@ -399,3 +399,14 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $219.14 | +2.98% | +$1,185.21 (+16.10%) | $204.953 (7% trailing GTC, HWM $220.38) |
 | UNH | 16 | $434.92 | $417.00 | -0.89% | -$286.66 (-4.12%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Notes:** No new trades today — weekly CHOP cap fresh (0 of 2 used, new week started Mon 7/27), but only 1 of 4 position slots open and no confirmed live trigger materialized (NVDA below $203-205 reclaim zone, CVX extended past entry with oil-crash-weakened thesis, both correctly skipped at market-open check). Midday check tightened RTX's trailing stop from 10%→7% (order 1e1b588c, stop $204.953, HWM $220.38) after crossing the +15% trail-tighten trigger — RTX closed the day up another 2.98% to $219.14, +16.10% unrealized ($1,185.21), extending an 8-session win streak on sustained post-earnings momentum. JPM steady, +2.59% unrealized, no negative catalysts, near 52wk high. UNH -4.12% unrealized, well above the -7% cut level; DOJ probe overhang unchanged (no escalation or de-escalation). FOMC 2-day meeting began today, decision Wed 7/29 2pm ET — no new sizing into the event without confirmation. Phase P&L +2.13% vs $50,000 launch baseline, best mark of the challenge window so far. Tomorrow (Tue 7/28): hold all three, watch for a fresh non-overlapping setup (NVDA reclaim $203-205) with the 1 open slot; no chasing into FOMC week. Patience > activity.
+
+---
+
+### Jul 28 — Midday Check (Day 65, Tuesday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $355.65 | +$181.97 (+2.50%) | $323.145 (10% trailing GTC, HWM $359.05) |
+| RTX | 39 | $188.75 | $217.58 | +$1,124.18 (+15.27%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | 16 | $434.92 | $426.23 | -$138.98 (-2.00%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Action taken:** None required. No losers at -7% (UNH -2.00%, recovering intraday, well above cut level). RTX still at +15.27%, already tightened to 7% trail on 7/27 (stop $205.788, HWM $221.278) — has not crossed +20% (~$226.50), no further tightening due. JPM +2.50%, below +15% tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday: JPM/RTX momentum intact (both near highs), UNH DOJ overhang unchanged (no escalation), no unusual price action warranting research. FOMC decision tomorrow (Wed 7/29 2pm ET) — no new sizing into the event. Patience > activity.
