@@ -1848,3 +1848,6 @@ NO CONFIRMED SETUP — NVDA $201.86 vs trigger $203-205, below-zone, unconfirmed
 
 ### Decision
 HOLD — Regime CHOP confirmed (SPY -0.83% vs 50DMA, VIX 17.76). No confirmed live trigger today: DUK and GOOGL are the cleanest non-overlapping candidates but both remain watchlist-only pending an actual pullback/reclaim touch. FOMC decision tomorrow (Wed 7/29) carries genuine uncertainty this cycle — do not size a new position into that binary event without a strong, already-confirmed trigger. Existing positions in good shape: JPM/RTX theses intact and strengthening (both at fresh highs), RTX trail already tightened per rule, UNH DOJ overhang unchanged (not escalated, not de-escalated) and well above the -7% cut level. Patience > activity. 0 of 2 CHOP trade slots used this week.
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — DUK: Alpaca quote anomalous (bid $126.21/ask $136.82, ~7.7% spread); cross-verified via web search, real price ~$130.52-132.22, below zone (reclaim trigger $134, need confirm above). Still watchlist, carry forward. GOOGL at $325.04-325.17, between support $315 and reclaim trigger $360 — no zone touched, no trigger. Still watchlist, carry forward. No trades placed. Positions unchanged: JPM +2.5%, RTX +17.0% (below +20% tighten trigger, 7% trail from 7/27 holds), UNH -3.3%, all stops intact. 0 of 2 CHOP trade slots used this week.
