@@ -433,3 +433,15 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $215.835 | +$1,056.32 (+14.35%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $426.31 | -$137.70 (-1.98%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None required. No losers at -7% (UNH -1.98%, well above cut level). RTX pulled back intraday to +14.35%, now just below the +15% tighten trigger — already sits at a 7% trail from 7/27's tightening; per no-loosen rule, stop stays as-is. JPM +0.36%, below tighten trigger. All three positions red intraday (JPM -2.54%, RTX -1.26%, UNH -0.58%) on broad pre-FOMC de-risking (decision 2pm ET today) — market-wide, not stock-specific, no thesis breaks. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. Equity $50,916.43 (-0.67% vs last close), cash $28,372 (55.7%), deployment 44.3% vs 60% CHOP target. No unusual single-name moves warranting research. Patience > activity.
+
+---
+
+### Jul 29 — EOD Snapshot (Day 66, Wednesday)
+**Portfolio:** $50,751.12 | **Cash:** $28,372.00 (55.9%) | **Day P&L:** -$509.65 (-0.99%) | **Phase P&L:** +$751.12 (+1.50%)
+**Regime:** CHOP (VIX 18.21-19.5, SPY -0.65% vs 50DMA — per Jul 29 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $345.02 | -3.44% | -$41.16 (-0.57%) | $323.307 (10% trailing GTC, HWM $359.23) |
+| RTX | 39 | $188.75 | $215.57 | -1.38% | +$1,045.98 (+14.21%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | 16 | $434.92 | $420.40 | -1.96% | -$232.19 (-3.34%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** No trades today — 0 of 2 CHOP weekly slots used (new week started Mon 7/27), 1 of 4 position slots open but no confirmed live trigger (COST extended above its $1030-1050 pullback zone, WMT breakout unconfirmed, GOOGL extended past $360 reclaim, DUK/NVDA still below triggers). FOMC rate decision (2pm ET, hold expected) dominated the session — broad pre/post-decision de-risking hit all three positions (JPM -3.44%, RTX -1.38%, UNH -1.96% day change), market-wide, no stock-specific thesis breaks. RTX pulled back from Tuesday's +15.36% to +14.21% unrealized, back below the +15% tighten trigger; stop remains at 7% trail (tightened 7/27) per no-loosen rule. JPM +2.99%→-0.57% swing erased most of the week's gains but no negative catalyst. UNH -3.34%, still well above the -7% cut level, DOJ probe overhang unchanged. Big Tech earnings (MSFT, META, QCOM, PG, ARM, SBUX) reported after tonight's close — could move sector sentiment for tomorrow's open. Phase P&L +1.50% vs $50,000 launch baseline. Tomorrow (Thu 7/30): assess FOMC presser reaction and overnight tech earnings, reassess XLP (COST/WMT) watchlist for the 1 open slot, hold all three. Patience > activity.
