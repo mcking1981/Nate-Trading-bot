@@ -1851,3 +1851,61 @@ HOLD — Regime CHOP confirmed (SPY -0.83% vs 50DMA, VIX 17.76). No confirmed li
 
 ### Market-Open Check — 09:46 ET
 NO CONFIRMED SETUP — DUK: Alpaca quote anomalous (bid $126.21/ask $136.82, ~7.7% spread); cross-verified via web search, real price ~$130.52-132.22, below zone (reclaim trigger $134, need confirm above). Still watchlist, carry forward. GOOGL at $325.04-325.17, between support $315 and reclaim trigger $360 — no zone touched, no trigger. Still watchlist, carry forward. No trades placed. Positions unchanged: JPM +2.5%, RTX +17.0% (below +20% tighten trigger, 7% trail from 7/27 holds), UNH -3.3%, all stops intact. 0 of 2 CHOP trade slots used this week.
+
+---
+
+## 2026-07-29 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.65% ($738.93 vs ~$743.75) | VIX: 18.21-19.5 (source variance)
+*(Regime limits: max 4 positions, max 15%/position (~$7,686), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ Tavily API still failing (HTTP 432, same recurring issue since 7/26) — all sub-agents fell back to native WebSearch per protocol.
+
+### Account Snapshot
+- Equity: $51,239.53 | Cash: $28,372.00 (55.4%) | Buying power: $177,517.08 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $358.60 (+3.35%, +$244.02) | RTX 39sh @ $188.75, current $218.99 (+16.02%, +$1,179.36) | UNH 16sh @ $434.92, current $424.77 (-2.33%, -$162.34)
+- Open orders: JPM 10% trailing GTC stop $323.307 (HWM $359.23) | RTX 7% trailing GTC stop $205.788 (HWM $221.278, tightened 7/27) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,867.53 long / $51,239.53 equity = 44.6% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). RTX at 16.67% of equity (above 15% ceiling via appreciation only, not a new-entry violation). 0 of 2 CHOP weekly trade slots used this week (Mon 7/27–today).
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** Brent ~$87.50-89.50, WTI ~$79-81 — firming/rising on renewed Iran-related supply risk (reversal from last week's crash)
+- **S&P 500 futures:** +0.18-0.2% premarket; Polymarket ~70% odds of higher open
+- **VIX:** ~19.0-19.5 (elevated end of CHOP band), reflecting FOMC + geopolitical uncertainty
+- **DXY:** ~101.3, flat, near 1-month high on safe-haven bid from Iran risk
+- **10Y yield:** 4.61%, ticking up into the decision
+- **Econ calendar:** **FOMC rate decision TODAY 2pm ET** (consensus: hold 3.50-3.75%, no dot plot), Fed presser follows; also EIA inventories, MBA mortgage apps. Big Tech earnings (MSFT, META, QCOM, PG, ARM, SBUX) after close tonight, overlapping the decision — volatile session expected both pre- and post-2pm
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK/XLE/XLI strong YTD, but Tech rolled over hard in July ("worst month in a decade" for semis)
+- **Last 5 days:** Sharp rotation OUT of tech INTO Consumer Staples, Healthcare, Financials, Comm Services — XLP +17% in 5 weeks, strongest since 2020 (rare, only 4 comparable periods since 1990)
+- **Strongest non-overlapping momentum: Consumer Staples (XLP)**
+  - **COST** — broke resistance ~$1030 zone, now $1067-78, record highs, RSI strong. Entry: pullback to $1030-1050. Stop: ~$980 (-6.5%). Target: ~$1100. Already extended above breakout — chasing not advised.
+  - **WMT** — bullish ascending triangle, RSI ~60s (room left). Entry: confirmed breakout above triangle top (level TBD, confirm live). Stop: below recent swing low (TBD).
+- GOOGL now $332, well above old $315 support/$360 reclaim watchlist levels — extended, not a fresh entry. DUK ($129.24, still <$134 trigger) and NVDA (~$197, still <$203-205 trigger, semis weak) — no signal, still watchlist.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- No pre-market earnings for JPM/RTX/UNH or close peers — none report today
+- **MSFT, META, QCOM, PG, ARM, SBUX, GD, AON report after close today**, directly overlapping the FOMC decision — high overnight/tomorrow gap risk for broad market
+- **AH 7/28:** Tesla revenue beat ($28.24B vs $25.55B est) but EPS missed ($0.33 vs $0.49 est) on margin/capex pressure, -3.9% AH. Barclays revenue beat/EPS miss, shares fell. Methanex EPS miss but +6.6% anyway. First Commonwealth Financial beat both lines.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** No negative news. Trading $354-359, near all-time highs. Citi PT $360 (mid-July). Thesis intact.
+- **RTX:** No new catalyst since 7/23 beat-and-raise. Record $289B backlog (+22% YoY) still the driver. +16.02% unrealized, already past +15% trail-tighten trigger (tightened to 7% on 7/27). Thesis intact.
+- **UNH:** DOJ probe status — **no fresh escalation or de-escalation confirmed today**; could not verify if Optum Rx/physician-reimbursement scope report is new-since-7/24 or already-known. Treating as unchanged/status quo. -2.33% unrealized, well above -7% cut level. Continue close monitoring.
+
+### Trade Ideas
+(No confirmed live trigger today — COST is extended past its breakout, WMT is unconfirmed. Per protocol, listing Sector Scout's named tickers as conditional/watchlist. FOMC decision today is also a hard reason to defer any new sizing regardless.)
+1. **COST** — Consumer Staples, non-overlapping with JPM/RTX/UNH. Entry: pullback to $1030-1050 support. Stop: $980 (-6.5%). Target: $1100 (~1.4:1 R:R at these levels — below 2:1 checklist minimum, needs a deeper pullback to improve). Regime check: FAIL — already extended, and FOMC decision today argues against new sizing regardless of setup quality.
+2. **WMT** — Consumer Staples, non-overlapping. Entry: confirmed breakout above ascending-triangle top (level TBD, confirm live). Stop: below recent swing low (TBD). Regime check: FAIL as stated (unconfirmed levels) — watchlist only.
+
+### Risk Factors
+- **FOMC rate decision TODAY 2pm ET** — the dominant catalyst; hold expected (3.50-3.75%) but no dot plot adds ambiguity; avoid any new sizing before or immediately after without strong confirmation
+- **Big Tech earnings (MSFT, META, QCOM) after close tonight, overlapping FOMC** — elevated gap risk into tomorrow regardless of today's decision
+- Oil reversing higher (Brent ~$88-90) on renewed Iran supply risk — inflationary complication for the Fed's read; South Korea chip-stock selloff adds market-wide fragility
+- **RTX +16.02% unrealized**, already past +15% trail-tighten trigger (stop tightened to 7% on 7/27); watch for +20% (~$226.50) second-tighten trigger at market-open/midday checks
+- UNH DOJ probe status unclear today (could not confirm new development vs. already-known) — treat cautiously, still well above -7% cut level
+- RTX at 16.67% of equity, above 15% ceiling via appreciation only — informational, not a new-entry violation
+- Only 1 of 4 CHOP position slots available regardless of 0/2 weekly trade slots open
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY -0.65% vs 50DMA, VIX ~19). No confirmed live trigger today: COST already extended past its breakout, WMT unconfirmed. More importantly, today IS the FOMC decision day (2pm ET) with Big Tech earnings (MSFT/META/QCOM) stacked on top after close — maximum discipline warranted, no new positions before or immediately after the decision. Existing positions in good shape: JPM/RTX theses intact and strong (RTX past +15% tighten, already actioned; watch for +20%), UNH within tolerance despite an unresolved DOJ overhang. Patience > activity. 0 of 2 CHOP trade slots used this week.
