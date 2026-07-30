@@ -1912,3 +1912,63 @@ HOLD — Regime CHOP confirmed (SPY -0.65% vs 50DMA, VIX ~19). No confirmed live
 
 ### Market-Open Check — 09:47 ET
 NO CONFIRMED SETUP — COST: pullback entry zone was $1030-1050, stop $980; live price ~$935-971 (Alpaca ap $970.95/bp $917.70, web cross-check ~$935) — price has broken well BELOW the stop level, not just below the entry zone. Thesis broken, not a pullback-to-support setup anymore. Skip, drop from watchlist. WMT: no specific trigger/stop level was ever set (TBD in pre-market log), live price $113.12-113.20 — cannot classify without a level; remains unconfirmed, carry forward only if a level gets defined. No trades placed. FOMC decision 2pm ET today — no new sizing regardless per pre-market Decision. Positions unchanged: JPM +1.79% ($353.17), RTX +15.24% ($217.51, below +20% second-tighten trigger ~$226.50), UNH -1.94% ($426.49), all 3 GTC stops confirmed live and untouched (JPM $323.307 trail10%, RTX $205.788 trail7%, UNH $392.589 trail10%). 0 of 2 CHOP trade slots used this week.
+
+---
+
+## 2026-07-30 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-0.3% ($738.93 vs ~$738-744 range) | VIX: 20.63
+*(Regime limits: max 4 positions, max 15%/position (~$7,609), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ Tavily API still failing (HTTP 432, same recurring issue since 7/26) — all sub-agents fell back to native WebSearch per protocol. Worth checking TAVILY_API_KEY/auth before next run.
+
+### Account Snapshot
+- Equity: $50,724.09 | Cash: $28,372.00 (55.9%) | Buying power: $176,073.85 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $345.72 (-0.36%, -$26.46) | RTX 39sh @ $188.75, current $215.25 (+14.04%, +$1,033.44) | UNH 16sh @ $434.92, current $418.58 (-3.76%, -$261.38)
+- Open orders: JPM 10% trailing GTC stop $323.307 (HWM $359.23) | RTX 7% trailing GTC stop $205.788 (HWM $221.278, tightened 7/27) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,352.09 long / $50,724.09 equity = 44.1% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). 0 of 2 CHOP weekly trade slots used this week (Mon 7/27–today).
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$84.20 (+6.4%), Brent ~$89.43 (+6.9%) — spike on renewed Mideast/Iran hostilities reigniting supply fears
+- **S&P 500 futures:** +0.1-0.3% premarket, recovering modestly from yesterday's Fed-day selloff
+- **VIX:** 20.63, up ~13% — upper end of CHOP band, IMF disinflation-stall warning + slower global growth outlook adding fear
+- **DXY:** ~100.98, +0.09% day, -0.41% for the month
+- **10Y yield:** 4.70%, +2bp — still digesting hawkish Fed hold
+- **FOMC (7/29):** Held rates 3.50-3.75% (5th straight hold), 9-3 vote, 3 dissents pushing for cuts — hawkish surprise, market now pricing possible hikes not cuts. Broad selloff yesterday (Dow -1.6%, S&P -0.6%)
+- **Earnings AH 7/29:** MSFT +8.9% (Azure >$100B beat); META mixed, beat revenue/missed EPS/soft Q3 guide (-1.3% AH); QCOM beat but -4.5% on soft guidance/phone demand
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK Tech +33%, XLE Energy +21%, XLI Industrials +20% (Industrials overlaps RTX)
+- **Last 5 days:** Rotation into defensives — Consumer Non-Cyclical +3.6%, Healthcare +2.2% (overlaps UNH), Financials up (overlaps JPM); Tech stalling near-term on AI-capex/rate jitters
+- **Strongest non-overlapping momentum: Energy (XLE)** — confirmed uptrend on geopolitical crude spike
+- **CVX** — confirmed uptrend, $191.07 (as of 7/22, stale), above SMA20 $176.30/SMA50 $182.12, RSI 67.8. Testing resistance ~$191 — needs a clean live breakout confirm before entry, not yet fully triggered. Stop ref ~$182 (SMA50).
+- **XOM** — momentum strong (+14.9%/30d, ~$157) but **earnings tomorrow 7/31** — event risk, watchlist only, do not enter pre-print. Support ~$136.
+- NVDA, GOOGL still watchlist — no confirmed trigger (NVDA needs close >$207.85-210.27 pivot; GOOGL below $357-359 resistance).
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **JPM/RTX/UNH:** No earnings today — all reported earlier in July (JPM 7/14, UNH 7/16, RTX 7/23)
+- **AH 7/29 (overlapping FOMC):** MSFT beat big (+8.9% AH); META mixed/soft guide (-1.3% AH); QCOM beat but guided soft (-4.5% AH); ARM beat with record revenue; GD beat + raised FY guide; SBUX/AON unconfirmed
+- **Pre-market 7/30:** No confirmed large-cap beats/misses surfaced
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** Fell -3.25% yesterday on macro/Fed-rate jitters (cooling labor data, Dimon valuation caution) — market-wide, not company-specific. Announced 10% dividend hike + $50B buyback. No thesis break.
+- **RTX:** Raised FY26 guidance ($95-96B sales, EPS $7.10-7.25); Wells Fargo PT raised to $230 (7/24); Stinger/AMRAAM production expansion. Momentum intact, no negative catalysts.
+- **UNH:** DOJ probe (Optum Rx, physician reimbursement) still active — no settlement, new charges, or clearance since 7/29. Status unchanged, no fresh escalation.
+
+### Trade Ideas
+(No fully confirmed live trigger today — CVX is the closest candidate but still testing resistance on stale 7/22 pricing, not yet a clean live breakout; XOM has earnings event risk tomorrow. Per protocol, listing as conditional/watchlist.)
+1. **CVX** — Energy, non-overlapping with JPM/RTX/UNH. Entry: confirmed close above ~$191 resistance (verify live at open, data is 6 days stale). Stop: ~$182 (SMA50, ~-4.7%, tighten to a proper 7-10% band once live entry confirmed). Target: prior highs/2:1 R:R TBD live. Regime check: FAIL as-is (unconfirmed) — watchlist only, do not chase into elevated VIX.
+2. **XOM** — Energy, non-overlapping. Earnings 7/31 tomorrow — regime check: FAIL, do not enter into earnings event risk regardless of momentum.
+
+### Risk Factors
+- **VIX 20.63** (up ~13%), upper end of CHOP band — hawkish Fed re-pricing (market now pricing possible hikes, not cuts) adds genuine uncertainty
+- **Oil spike +6-7%** (Mideast/Iran tensions) — inflationary complication for Fed, but supportive of Energy-sector (CVX/XOM) momentum thesis
+- **Broad market sold off hard yesterday** (Dow -1.6%, S&P -0.6%) post-FOMC — JPM's -3.25% drop was macro-driven, not company-specific, but confirms market-wide risk-off tone
+- **AI-capex narrative fraying** — MSFT beat big but META/QCOM guided soft; avoid chasing single-name earnings gaps
+- **UNH DOJ probe unresolved** — no de-escalation; -3.76% unrealized, well above -7% cut level but overhang persists
+- **RTX +14.04% unrealized** — approaching but not yet at +15% trail-tighten trigger; watch at market-open/midday
+- **XOM earnings 7/31** — event risk, avoid entering pre-print
+- Only 1 of 4 CHOP position slots available regardless of 0/2 weekly trade slots open
+
+### Decision
+HOLD — Regime CHOP confirmed but at the upper-volatility edge (VIX 20.63, up 13%). No fully confirmed live trigger today: CVX is the closest candidate (confirmed uptrend) but pricing is 6 days stale and it's still testing resistance — needs a live breakout confirm at market open before any sizing, especially with VIX elevated and a hawkish Fed re-pricing in play. XOM carries earnings event risk tomorrow (7/31) — skip regardless of momentum. Existing positions: JPM's overnight dip was market-wide (post-FOMC selloff), not a thesis break — dividend hike/buyback reaffirm fundamentals. RTX and UNH theses unchanged. Patience > activity. 0 of 2 CHOP trade slots used this week.
