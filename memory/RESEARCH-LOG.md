@@ -1972,3 +1972,60 @@ NO CONFIRMED SETUP — COST: pullback entry zone was $1030-1050, stop $980; live
 
 ### Decision
 HOLD — Regime CHOP confirmed but at the upper-volatility edge (VIX 20.63, up 13%). No fully confirmed live trigger today: CVX is the closest candidate (confirmed uptrend) but pricing is 6 days stale and it's still testing resistance — needs a live breakout confirm at market open before any sizing, especially with VIX elevated and a hawkish Fed re-pricing in play. XOM carries earnings event risk tomorrow (7/31) — skip regardless of momentum. Existing positions: JPM's overnight dip was market-wide (post-FOMC selloff), not a thesis break — dividend hike/buyback reaffirm fundamentals. RTX and UNH theses unchanged. Patience > activity. 0 of 2 CHOP trade slots used this week.
+
+---
+
+## 2026-07-31 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.65% ($738.93 vs ~$743-744) | VIX: ~17.1-18.0 (down sharply from Wed's 20.63)
+*(Regime limits: max 4 positions, max 15%/position (~$7,630), target 60% deployed, max 2 new trades/week)*
+
+> ⚠️ Tavily MCP requires OAuth re-authorization (not the prior HTTP 432 outage) — unavailable in this non-interactive session. All sub-agents fell back to native WebSearch per protocol. User needs to reauth Tavily via `claude mcp` / /mcp when next at a terminal.
+
+### Account Snapshot
+- Equity: $50,867.47 | Cash: $28,372.00 (55.8%) | Buying power: $176,475.32 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $352.33 (+1.54%, +$112.35) | RTX 39sh @ $188.75, current $214.50 (+13.64%, +$1,004.25) | UNH 16sh @ $434.92, current $420.69 (-3.27%, -$227.62)
+- Open orders: JPM 10% trailing GTC stop $323.307 (HWM $359.23) | RTX 7% trailing GTC stop $205.788 (HWM $221.278, tightened 7/27) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,495.47 long / $50,867.47 equity = 44.2% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). 0 of 2 CHOP weekly trade slots used this week (Mon 7/27–today, last day of week).
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $83.87 (-0.70%), Brent ~$87.06 — still elevated on Mideast supply tension but off recent highs
+- **S&P 500 futures:** +0.3% premarket (Nasdaq 100 +0.5%), following SPX +1.66% Thu close on AI-earnings rally; Polymarket ~94% odds of higher open
+- **VIX:** 17.09, down 17.3% — sharp de-escalation from Wed's 20.63, signals risk-on/complacency
+- **DXY:** 100.98, roughly flat
+- **10Y yield:** ~4.67-4.68%, up ~10bp this week post-FOMC hold
+- **Econ calendar:** Employment Cost Index (8:30am), Michigan Consumer Sentiment final (10am) — no CPI/jobs today. Core PCE (7/30) was in-line/cooling (3.3% YoY) — supportive of risk-on tone. Big Tech AH beats (MSFT, AMZN +8%) driving the rally
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK +33%, XLE +21-30%, XLI +20% (overlaps RTX)
+- **Last 5 days:** Consumer Staples +3.64%, Healthcare +2.21% (overlaps UNH), Financials at highs (overlaps JPM), Utilities +0.86% — rotation out of tech/semis (worst month in a decade)
+- **Strongest non-overlapping momentum: Consumer Staples (XLP) + Utilities (XLU, AI-power-demand theme)**
+  - **COST** — pulled back 4.2% off 52wk high ($1,096.50) to ~$945-955. Entry: $945-955, Stop: ~$895 (-5.8%), Target: analyst PT ~$1,042 (+~9%, R:R ~1.6:1 — below 2:1 checklist min at this level)
+  - **VST** — broke out above $202-203 box, retesting as support. Entry: $202-205, Stop: ~$190 (-6.4%), Target: $232-246 (R:R ~2.2-3.3:1). Caveat: sub-agent flagged conflicting price data across sources — must verify live quote before any sizing
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 7/31:** XOM reports before open (best quarter in 15 on high oil prices, not yet confirmed at scan time); ABBV beat (rev +6.6% YoY, EPS $2.97, FY26 guidance reaffirmed); also CVX, LIN, ETN, SONY, CL, D, CCJ, CBOE, MRNA, TROW report today
+- **AH 7/30:** MSFT beat big (EPS $4.74 vs $4.24, rev $90.01B vs $87.62B, Azure strong, Anthropic-stake gain, +8% AH); AMZN beat (+8% AH on AI/cloud); AAPL beat headline but shares slipped AH (mixed)
+- **JPM/RTX/UNH:** No new earnings-related developments — all three already reported and priced (JPM 7/14, UNH 7/16, RTX 7/23)
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** No negative news. Dividend hike + $50B buyback still standing; new strategic push into US economic/national-security-linked industries (positive). Thesis intact.
+- **RTX:** New $1.3B Navy contract mod (7/30); Argus raised PT to $245 from $230 (7/29). Momentum intact/strengthening. +13.64% unrealized, approaching but not yet at +15% tighten trigger (already at 7% trail from 7/27) — watch at market-open/midday.
+- **UNH:** DOJ probe (Medicare Advantage billing, Optum Rx/physician reimbursement) — no escalation or resolution in last 24h, status unchanged. -3.27% unrealized, well above -7% cut level. No thesis break.
+
+### Trade Ideas
+(No earnings catalyst or confirmed live trigger for either candidate — both are Sector Scout watchlist names, per protocol listed as conditional.)
+1. **COST** — Consumer Staples, non-overlapping. Entry: pullback to $945-955. Stop: ~$895 (-5.8%). Target: ~$1,042 (R:R ~1.6:1 — fails 2:1 checklist minimum at these levels, would need a deeper pullback or trimmed target). Regime check: FAIL — R:R insufficient, unconfirmed live level.
+2. **VST** — Utilities/AI-power theme, non-overlapping. Entry: retest of $202-205 breakout support. Stop: ~$190 (-6.4%). Target: $232-246 (R:R ~2.2-3.3:1, passes 2:1 min). Regime check: FAIL as-is — sub-agent flagged conflicting price data across sources, must verify live quote and actual retest before any entry. Cleanest non-overlapping candidate if confirmed live.
+
+### Risk Factors
+- **VIX dropped sharply to 17.09** (from 20.63 Wed) — risk-on tone but recent VIX has swung 15-21 in two weeks, don't over-read one day's calm
+- **10Y yield sticky at ~4.67-4.68%**, up 10bp post-FOMC hawkish hold — could cap further multiple expansion
+- **RTX +13.64% unrealized**, approaching +15% trail-tighten trigger — check again at market-open/midday
+- **UNH DOJ probe unresolved** — no de-escalation signal, -3.27% unrealized, well clear of -7% cut level
+- **VST price-data inconsistency** flagged by sub-agent — do not size without a live, verified quote
+- Oil still elevated (WTI ~$84, Brent ~$87) on Mideast tension — inflationary undercurrent despite cooling PCE
+- Only 1 of 4 CHOP position slots available regardless of 0/2 weekly trade slots open (last trading day of the week)
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY -0.65% vs 50DMA, VIX ~17-18, back within band after Wed's spike). No confirmed live trigger today: COST's R:R fails the 2:1 checklist minimum at current pullback levels, and VST has conflicting price data that needs live verification before any sizing. Existing positions in good shape: JPM/RTX theses intact and strengthening (RTX nearing +15% tighten trigger, watch at next check), UNH DOJ overhang unchanged and well above the -7% cut level. No urgent thesis breaks per Holdings News sub-agent. Patience > activity. 0 of 2 CHOP trade slots used this week (final trading day of the week — likely carries to 0 used unless VST confirms live at open).
