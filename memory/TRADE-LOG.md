@@ -456,3 +456,14 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $210.56 | +$850.59 (+11.56%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $423.88 | -$176.58 (-2.54%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None required. No losers at -7% (UNH -2.54%, well above cut level). RTX pulled back sharply intraday (-2.18% day chg, HWM $221.278 → current $210.56) to +11.56% unrealized, now well below the +15% tighten trigger — already sits at a 7% trail from 7/27, stop unchanged per no-loosen rule. JPM +0.72%, well below tighten trigger. Checked RTX pullback via WebSearch (Tavily still HTTP 432, same recurring outage since 7/26): no negative company-specific news — FY26 guidance raise and Stinger missile expansion news both stand, 12 buy/4 hold ratings, Wells Fargo PT $230; pullback reads as broad market/profit-taking after the 9-session run, not a thesis break. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday for JPM/RTX/UNH. Patience > activity.
+
+---
+
+### Jul 31 — Midday Check (Day 68, Friday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $353.28 | +$132.30 (+1.82%) | $323.307 (10% trailing GTC, HWM $359.23) |
+| RTX | 39 | $188.75 | $214.85 | +$1,017.90 (+13.83%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | 16 | $434.92 | $420.34 | -$233.26 (-3.35%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Action taken:** None required. No losers at -7% (UNH -3.35%, well above cut level, DOJ probe overhang unchanged). RTX +13.83%, still below the +15% tighten trigger — already sits at a 7% trail from 7/27, stop unchanged per no-loosen rule. JPM +1.82%, well below tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday for JPM/RTX/UNH; no unusual single-name price action warranting research. Last trading day of the week, 0 of 2 CHOP weekly trade slots used. Patience > activity.
