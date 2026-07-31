@@ -467,3 +467,15 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $214.85 | +$1,017.90 (+13.83%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $420.34 | -$233.26 (-3.35%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None required. No losers at -7% (UNH -3.35%, well above cut level, DOJ probe overhang unchanged). RTX +13.83%, still below the +15% tighten trigger — already sits at a 7% trail from 7/27, stop unchanged per no-loosen rule. JPM +1.82%, well below tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday for JPM/RTX/UNH; no unusual single-name price action warranting research. Last trading day of the week, 0 of 2 CHOP weekly trade slots used. Patience > activity.
+
+---
+
+### Jul 31 — EOD Snapshot (Day 68, Friday)
+**Portfolio:** $50,745.59 | **Cash:** $28,372.00 (55.9%) | **Day P&L:** -$98.60 (-0.19%) | **Phase P&L:** +$745.59 (+1.49%)
+**Regime:** CHOP (VIX ~17.1-18.0, SPY -0.65% vs 50DMA — per Jul 31 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $351.79 | +0.27% | +$101.01 (+1.39%) | $323.307 (10% trailing GTC, HWM $359.23) |
+| RTX | 39 | $188.75 | $214.00 | -0.18% | +$984.75 (+13.38%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | 16 | $434.92 | $415.00 | -1.54% | -$318.66 (-4.58%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** No trades today — 0 of 2 CHOP weekly slots used all week (Mon 7/27–Fri 7/31), last trading day of the week closes with 3 of 4 CHOP position slots filled and no confirmed live trigger materializing (COST failed 2:1 R:R checklist, VST had a stale/conflicting price-data trigger, both correctly dropped from watchlist at market-open). All three positions pulled back modestly into the close on light Friday profit-taking after Thursday's AI-earnings rally faded — no stock-specific thesis breaks. JPM +1.39% unrealized, steady, no negative catalysts. RTX +13.38% unrealized, still below the +15% tighten trigger, 7% trail from 7/27 unchanged per no-loosen rule; fresh Navy contract mod (7/30) and Argus PT raise to $245 keep the thesis intact. UNH -4.58% unrealized, its worst mark since re-entry but still well clear of the -7% cut level; DOJ Medicare Advantage probe overhang unresolved, no escalation this week. Day P&L -$98.60 (-0.19%) on broad light de-risking, snapping a 2-day win streak. Phase P&L +1.49% vs $50,000 launch baseline — down from Wednesday's +2.36% peak but still solidly positive for the week. Weekly review due after close today per Friday cadence. Tomorrow (Mon 8/3): fresh weekly trade cap (2 CHOP slots), reassess XLP/XLU watchlist for the 1 open position slot, hold all three, watch RTX for the +15% tighten trigger. Patience > activity.
