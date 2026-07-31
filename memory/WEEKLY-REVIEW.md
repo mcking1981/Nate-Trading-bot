@@ -260,3 +260,63 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Watch UNH closely — thesis intact fundamentally but sentiment fragile (Medicaid-fraud overhang); if it approaches the -7% cut level, exit per rule rather than waiting for further deterioration
 
 ### Overall Grade: B
+
+---
+
+## Week ending 2026-07-31
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $50,820.06 (Sun 7/26, carried from Fri 7/24 close) |
+| Ending portfolio | $50,745.59 |
+| Week return | -$74.47 (-0.15%) |
+| S&P 500 week | +0.65% (7,441.69 Jul 24 close -> 7,489.72 Jul 31 close) |
+| Bot vs S&P | -0.80% |
+| Dominant regime | CHOP (5/5 days) |
+| Trades | 0 new (W:0 / L:0 / open:3 carried — JPM, RTX, UNH) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A (no closed trades) — RTX carried position +13.38% unrealized |
+| Worst trade | N/A (no closed trades) — UNH carried position -4.58% unrealized |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| JPM | $346.98 (21sh, 7/22) | $351.79 | +$101.01 (+1.39%) | $323.307 (10% trailing GTC, HWM $359.23) |
+| RTX | $188.75 (39sh, carried from 6/29) | $214.00 | +$984.75 (+13.38%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | $434.92 (16sh, 7/22) | $415.00 | -$318.66 (-4.58%) | $392.589 (10% trailing GTC, HWM $436.21) |
+
+### What Worked
+- Correctly sat out an entire FOMC week (decision Wed 7/29, hawkish 9-3 hold) without sizing into the binary event — no new positions before or immediately after the decision
+- Discipline on R:R and data-quality checks: COST skipped for failing the 2:1 R:R minimum even after pulling back into its entry zone; VST skipped after a sub-agent flagged conflicting price data that turned out to be stale/wrong (real price ~$152 vs a cited $202-205 trigger) — both correctly avoided rather than chased on bad information
+- RTX's 7% trail (tightened 7/27 after crossing +15%) held through a volatile week (FOMC selloff, Thursday AI-earnings rally, Friday profit-taking) without needing further action — no premature exit, no rule violations
+- No panic reaction to Tuesday/Wednesday's broad de-risking (JPM -3.44%, RTX -1.38%, UNH -1.96% in one session) — correctly read as market-wide FOMC positioning, not stock-specific thesis breaks
+- CVX/XOM (Energy) correctly kept off the board all week — CVX never got a clean live breakout confirm, XOM carried earnings event risk into 7/31 and was skipped on that basis alone
+
+### What Didn't Work
+- 0 of 2 CHOP weekly trade slots used for a 4th time in 5 weeks — though the binding constraint was really the 4-position cap (3 of 4 filled all week), not the weekly trade limit, since every candidate (NVDA, DUK, GOOGL, COST, WMT, VST, CVX, XOM) also failed to confirm live
+- Underperformed S&P by -0.80% this week — first underperforming week since Jun 26, driven by UNH's continued slide (-3.18% Monday -> -4.58% Friday) outweighing RTX/JPM's modest gains
+- UNH's DOJ Medicare Advantage probe overhang is now unresolved for 8 straight trading days (since 7/24) with no news flow either direction — the position is drifting toward but still well clear of the -7% cut level, and the strategy has no explicit rule for "overhang duration" as a signal
+- Tavily API was unusable the entire week (HTTP 432 outage 7/27-7/30, then OAuth de-authorization discovered 7/31) — every research sub-agent fell back to WebSearch all 5 days; this is now a persistent infrastructure gap, not a one-off, and needs a fix outside the trading loop
+- RTX drifted as high as 16.7% of equity mid-week (appreciation-driven, still no explicit trim-vs-hold rule from the 7/24 review's flagged open question)
+
+### Key Lessons
+- With 3 of 4 CHOP position slots filled, the effective new-trade capacity most weeks is 1 slot, not the nominal "2 trades/week" — the position-count ceiling is usually the tighter constraint and should be the number tracked, not the weekly trade cap
+- Passing on COST (R:R below 2:1) and VST (bad price data) was correct process even though it meant a 4th flat week — a rejected setup for a documented reason is not the same failure mode as June's "setup identified, never converted" bottleneck
+- An unresolved regulatory overhang (UNH/DOJ) that neither escalates nor clears for over a week is its own risk category — the strategy currently only has "-7% cut" and "thesis break" as exit triggers; consider whether a stale, unresolved legal overhang for N+ trading days should itself prompt a fresh thesis review rather than indefinite hold
+- Tavily's OAuth re-authorization (discovered 7/31, distinct from the prior HTTP 432 outage) needs the user to run `claude mcp` / `/mcp` interactively — WebSearch fallback is working correctly as a stopgap but adds latency/variance to every research run
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P (-0.80%), but the magnitude is below the 2% trigger threshold, and last week (Jul 24) outperformed (+1.49%) — no consecutive-underperformance streak exists regardless. CHECK B: not applicable, no outperformance this week. CHECK C: no trades closed this week (0 losses), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Flag the user to reauthorize Tavily via `claude mcp`/`/mcp` — the OAuth failure (distinct from the recurring HTTP 432 outage) needs manual intervention outside the trading loop
+- Re-verify CVX (confirmed uptrend, needs live breakout above ~$191) and VST (retest $202-205 breakout support, verify against a second data source given last week's stale-price flag) as the 1 open position slot's leading candidates for Monday 8/3
+- If UNH's DOJ overhang produces no news for a 2nd straight week, treat it as a standing risk factor to reassess explicitly in next Friday's review rather than a routine monitor-only line item
+
+### Overall Grade: C
