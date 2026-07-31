@@ -2029,3 +2029,8 @@ HOLD — Regime CHOP confirmed but at the upper-volatility edge (VIX 20.63, up 1
 
 ### Decision
 HOLD — Regime CHOP confirmed (SPY -0.65% vs 50DMA, VIX ~17-18, back within band after Wed's spike). No confirmed live trigger today: COST's R:R fails the 2:1 checklist minimum at current pullback levels, and VST has conflicting price data that needs live verification before any sizing. Existing positions in good shape: JPM/RTX theses intact and strengthening (RTX nearing +15% tighten trigger, watch at next check), UNH DOJ overhang unchanged and well above the -7% cut level. No urgent thesis breaks per Holdings News sub-agent. Patience > activity. 0 of 2 CHOP trade slots used this week (final trading day of the week — likely carries to 0 used unless VST confirms live at open).
+
+### Market-Open Check — 09:47 ET
+- NO CONFIRMED SETUP — COST bid/ask $946.30/$996.96 (mid ~$971.63). Within/above the $945-955 pullback entry zone, but R:R already fails the 2:1 checklist minimum per pre-market analysis regardless of price — skip, drop from watchlist.
+- NO CONFIRMED SETUP — VST bid/ask $144.21/$160.63 (mid ~$152.42) vs cited $202-205 breakout trigger — price is far BELOW trigger (not extended, not in-zone). Confirms pre-market's flagged price-data inconsistency; the $202-205 level was stale/wrong. Unconfirmed, do not enter. Drop from watchlist pending clean re-research rather than carry forward bad data.
+- No new trades. Holding JPM (21sh, +1.31%), RTX (39sh, +13.26%, still below +15% tighten trigger, 7% trail from 7/27 unchanged), UNH (16sh, -3.38%, well above -7% cut). 3 of 4 CHOP position slots filled, 0 of 2 weekly trade slots used. Patience > activity.
