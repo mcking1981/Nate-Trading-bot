@@ -492,3 +492,9 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $215.22 | +$1,032.33 (+14.02%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $414.40 | -$328.26 (-4.72%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None — no losers at -7% (UNH -4.72%, above cut level), no tighten trigger crossed (RTX 14.02%, below +15%), 3/4 CHOP position slots within regime cap, no thesis breaks. Prices identical to Friday 7/31 close — confirms no session today. Recommend checking cron/routine schedule config before Monday 8/3 to stop weekend misfires.
+
+---
+
+### Aug 1 — EOD Check (Day 69, Saturday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 1, 2026 is a Saturday — market closed. This is the 3rd routine misfire today (pre-market, midday, and now EOD all fired). No trades possible, no new close data — Alpaca `balance_asof` still reads 2026-07-31. Skipping EOD snapshot (would duplicate Fri 7/31's already-logged entry) and skipping Telegram (no new information to report, avoid spamming stale data as if it were today's close). Cron/routine schedule needs a trading-day guard before Monday 8/3.
