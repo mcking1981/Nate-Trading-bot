@@ -511,3 +511,16 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $215.22 | +$1,032.33 (+14.02%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $414.40 | -$328.26 (-4.72%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None — no losers at -7% (UNH -4.72%, above cut level), no tighten trigger crossed (RTX 14.02%, below +15%), 3/4 CHOP position slots within regime cap, no thesis breaks. Prices identical to Friday 7/31 close — confirms no session today. Skipping Telegram per Step 8 (no trading action taken); escalating the recurring cron misfire to the user directly instead since it has now persisted across 2 weekends despite being flagged once already. Cron/routine schedule needs a trading-day guard applied before Monday 8/3 — this is the 5th erroneous weekend fire in 2 days (Sat: pre-market+midday+EOD, Sun: pre-market+midday).
+
+---
+
+### Aug 2 — Daily-Summary Check (Day 70, Sunday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 2, 2026 is a Sunday — market closed. This is the **6th erroneous routine fire across the weekend** (Sat: pre-market+midday+EOD; Sun: pre-market+midday+now daily-summary). Alpaca `balance_asof` still reads 2026-07-31 — no new session data exists. No trades possible.
+
+| Ticker | Shares | Entry | Current (Fri close, unchanged) | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $351.79 | +$101.01 (+1.39%) | $323.307 (10% trailing GTC, HWM $359.23) |
+| RTX | 39 | $188.75 | $215.22 | +$1,032.33 (+14.02%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | 16 | $434.92 | $414.40 | -$328.26 (-4.72%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** Skipping full EOD snapshot — would duplicate Fri 7/31 entry with stale data. No losers at -7%, no tighten trigger crossed, 3/4 CHOP slots filled, no thesis breaks. Skipping Telegram (no new information vs. Fri close). Cron misfire flagged to user directly via push notification — schedule needs a trading-day guard fixed before Monday 8/3 open.
