@@ -2089,3 +2089,16 @@ No trading possible today (market closed, Saturday). Carrying as Monday 8/3 watc
 
 ### Decision
 HOLD — market closed (Saturday), no trading possible. Regime CHOP confirmed (SPY -0.65% vs 50DMA, VIX 17.09), unchanged from Friday. Existing positions: JPM/RTX theses intact and strong, UNH DOJ overhang worsened (scope confirmed wider) but still well above -7% cut level, no new charges/settlement. Research logged for Monday 8/3 pre-market continuity. XOM/AVGO carried as non-overlapping watchlist candidates pending live confirmation. Patience > activity.
+
+## 2026-08-02 — Pre-market Research
+
+> ⚠️ **NON-TRADING DAY**: Aug 2, 2026 is a **Sunday** — market closed. This is a **repeat scheduling misfire** — Aug 1 (Saturday) pre-market/midday/EOD all fired erroneously and flagged "verify cron config excludes weekends/holidays before Monday 8/3." That fix has evidently not been applied yet, since this routine fired again today. No trades possible/placed. Skipping full research sub-agent fan-out (no new data since Friday 7/31 close — would just duplicate prior log entries). Escalating the recurring cron issue via Telegram since it's now a 2nd consecutive weekend misfire.
+
+### Account Snapshot (stale — last update Fri 7/31 close, `balance_asof: 2026-07-31`)
+- Equity: $50,783.57 | Cash: $28,372.00 (55.9%) | Buying power: $176,240.40 | Daytrade count: 0
+- Positions (unchanged from Fri close): JPM 21sh @ $346.98, current $351.79 (+1.39%, +$101.01) | RTX 39sh @ $188.75, current $215.22 (+14.02%, +$1,032.33) | UNH 16sh @ $434.92, current $414.40 (-4.72%, -$328.26)
+- Open orders: JPM 10% trailing GTC stop $323.307 (HWM $359.23) | RTX 7% trailing GTC stop $205.788 (HWM $221.278) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- No losers at -7% cut level (UNH -4.72%, ~2.3pp above cut). No tighten trigger crossed (RTX 14.02%, below +15%). 3 of 4 CHOP position slots filled, within regime cap. No forced action needed.
+
+### Decision
+HOLD — market closed, no trading possible. All data identical to Friday 7/31/Saturday 8/1 logs. Deferring full macro/sector/earnings/holdings research to Monday 8/3's pre-market run, which will have live data. Flagging the repeat cron misfire to the user directly (2nd consecutive non-trading-day fire) rather than letting it recur silently into next weekend.
