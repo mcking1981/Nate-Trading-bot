@@ -2155,3 +2155,6 @@ HOLD — market closed, no trading possible. All data identical to Friday 7/31/S
 
 ### Decision
 HOLD — Regime CHOP confirmed (SPY -0.68% vs 50DMA, VIX 15.99, near but not below the Bull VIX threshold). No confirmed live trigger today: AVGO is the only non-overlapping candidate but its R:R fails the 2:1 checklist minimum at a compliant 7-10% stop band. No earnings catalysts for JPM/RTX/UNH. Existing positions in good shape — JPM steady, RTX approaching but not yet at the +15% tighten trigger (watch at open/midday), UNH DOJ overhang unchanged with no new escalation. Patience > activity. 0 of 2 CHOP trade slots used this week (fresh week).
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — AVGO at $378.20 (bid $377.39/ask $379) vs trigger zone $385-390, below-trigger zone, unconfirmed; also fails 2:1 R:R checklist per pre-market decision even if triggered. No new trades. Holdings: JPM $352.79 (+1.67%), RTX $216.67 (+14.79%, still below +15% tighten trigger, 7% trail intact), UNH $415.36 (-4.50%, above -7% cut level, DOJ overhang unchanged). 3 of 4 CHOP position slots filled, 0 of 2 weekly trade slots used. No action taken — patience > activity.
