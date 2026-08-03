@@ -2102,3 +2102,56 @@ HOLD — market closed (Saturday), no trading possible. Regime CHOP confirmed (S
 
 ### Decision
 HOLD — market closed, no trading possible. All data identical to Friday 7/31/Saturday 8/1 logs. Deferring full macro/sector/earnings/holdings research to Monday 8/3's pre-market run, which will have live data. Flagging the repeat cron misfire to the user directly (2nd consecutive non-trading-day fire) rather than letting it recur silently into next weekend.
+
+## 2026-08-03 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.68% ($738.93 vs ~$743-745) | VIX: 15.99 (down 6.44%, near Bull threshold but still in 15-25 band)
+*(Regime limits: max 4 positions, max 15%/position (~$7,627), target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $50,849.44 | Cash: $28,372.00 (55.8%) | Buying power: $176,424.83 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $354.00 (+2.02%, +$147.42) | RTX 39sh @ $188.75, current $215.60 (+14.23%, +$1,047.15) | UNH 16sh @ $434.92, current $414.69 (-4.65%, -$323.62)
+- Open orders: JPM 10% trailing GTC stop $323.307 (HWM $359.23) | RTX 7% trailing GTC stop $205.788 (HWM $221.278) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,477.44 long / $50,849.44 equity = 44.2% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). New trade week starts today — 0 of 2 slots used.
+
+> Note: Tavily MCP still unauthenticated this run (needs `claude mcp`/`/mcp` reauth) — all 4 sub-agents fell back to native WebSearch per protocol.
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI $84.67 (+1.3%), Brent $87.93-90.12 (+1.2%) — rebounding on fading US-Iran peace-deal optimism
+- **S&P futures:** +0.49% premarket (7,555.75) — green tape into the open
+- **VIX:** 15.99 (Jul 31 close, -6.44%) — compressed, complacent tone
+- **DXY:** ~99.80-99.91, flat/-1.6% on the week — dollar soft
+- **10Y yield:** 4.745%, near 52-week highs — watch item, could pressure valuations into Friday's jobs report
+- **Econ calendar:** ISM Mfg PMI + Construction Spending today (9am ET). No CPI/PPI/FOMC. Ahead: JOLTS Tue, NFP Fri 8/7 (consensus +87.5K), CPI 8/12
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLC +28.1%, XLU +28.0%, XLF +26.2% (overlaps JPM), XLK +21.9%, XLI +20.1% (overlaps RTX)
+- **Last 5 days:** Technology + Industrials rebounding off mid-July AI-infra selloff (Broadcom, Eaton, Dell, Nvent, Flex)
+- **Strongest non-overlapping momentum: Technology (AI infrastructure recovery)**
+  - **AVGO** — ~$382, pulled back from $430 resistance after chip-sector rug-pull, stabilizing. Entry: reclaim/hold above $385-390. Stop as cited: <$370 (only ~-4-5%, too tight vs strategy's 7-10% band — would need widening to ~$357-360 for a compliant stop). Target: $430 breakout level. Earnings 9/3 (not immediate event risk).
+  - **MU** — parabolic, extended above upper Bollinger Band, watch-only, not a fresh entry.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 8/3:** Marriott, CNA Financial, CNH Industrial, EchoStar, Loews, Tyson Foods, Progressive, Clorox report BMO — no results posted yet (market not open)
+- **Weekend/Fri 7/31:** No major single-name AMC prints flagged. Q2 season 61% reported, 86% beating EPS (highest since 2021), aggregate surprise +31.4% (Alphabet/Amazon-driven)
+- **JPM/RTX/UNH:** No new earnings — already reported and priced
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** ~$350-354, +2% since entry. No adverse news. Dividend ex-date today. Thesis intact.
+- **RTX:** ~$215.22, +14.23% unrealized, approaching but still below +15% tighten trigger (already at 7% trail since 7/27). Record $289B backlog, raised FY guidance, sold Blue Canyon Technologies for $620M. Momentum intact.
+- **UNH:** ~$414-422, -4.65% unrealized. DOJ criminal probe (MA billing + Optum Rx PBM + physician reimbursement) — **no new escalation, settlement, or charges since 7/31**. Still well above -7% cut level.
+
+### Trade Ideas
+(No earnings catalyst for held names or confirmed live trigger today — AVGO is Sector Scout's named non-overlapping candidate, listed per protocol as conditional/watchlist only.)
+1. **AVGO** — Technology, non-overlapping with JPM/RTX/UNH. Entry: confirmed live reclaim/hold above $385-390 (verify at open). Stop: needs widening to ~$357-360 (7-10% band) — sub-agent's $370 cited stop is too tight per checklist. Target: $430 breakout level (~+11% from $387 entry), R:R at a compliant $360 stop (-7%) is only ~1.6:1 — below 2:1 checklist minimum at this level. Regime check: FAIL as-is — insufficient R:R and unconfirmed live level. Watchlist only.
+
+### Risk Factors
+- **RTX +14.23% unrealized**, still below +15% tighten trigger but close — recheck at market-open/midday. Already at 7% trail from 7/27, no further action needed unless it crosses +20% (tighten to 5%)
+- **UNH DOJ probe unresolved**, no new escalation since 7/31, -4.65% unrealized, well clear of -7% cut level
+- **10Y yield 4.745%**, near 52-week highs — could cap valuations into Friday's NFP print
+- Oil rebounding on Iran-related headlines — geopolitical risk still live
+- Only 1 of 4 CHOP position slots available regardless of 0/2 weekly trade slots open
+- Tavily still unauthenticated — flag to user again for `/mcp` reauth
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY -0.68% vs 50DMA, VIX 15.99, near but not below the Bull VIX threshold). No confirmed live trigger today: AVGO is the only non-overlapping candidate but its R:R fails the 2:1 checklist minimum at a compliant 7-10% stop band. No earnings catalysts for JPM/RTX/UNH. Existing positions in good shape — JPM steady, RTX approaching but not yet at the +15% tighten trigger (watch at open/midday), UNH DOJ overhang unchanged with no new escalation. Patience > activity. 0 of 2 CHOP trade slots used this week (fresh week).
