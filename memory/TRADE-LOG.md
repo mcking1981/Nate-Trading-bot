@@ -546,3 +546,15 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $216.15 | +$1,068.60 (+14.52%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $408.60 | -$421.07 (-6.05%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None required. UNH -6.05%, improved from market-open's -6.43% flag — still above the -7% cut level, DOJ probe overhang unchanged, no new escalation. RTX +14.52%, still below the +15% tighten trigger — already at 7% trail from 7/27, stop unchanged per no-loosen rule. JPM +4.01% (up from +3.13% at open on continued strength), well below tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday for JPM/RTX/UNH; no unusual single-name price action warranting Tavily/WebSearch research. Patience > activity.
+
+---
+
+### Aug 4 — EOD Snapshot (Day 72, Tuesday)
+**Portfolio:** $50,936.26 | **Cash:** $28,372.00 (55.7%) | **Day P&L:** +$63.71 (+0.13%) | **Phase P&L:** +$936.26 (+1.87%)
+**Regime:** CHOP (SPY vs 50DMA -0.61%, VIX ~15.9 — per Aug 4 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $358.00 | +1.52% | +$231.42 (+3.18%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $218.38 | +0.80% | +$1,155.57 (+15.70%) | $205.788 (7% trailing GTC, HWM $221.278) |
+| UNH | 16 | $434.92 | $408.09 | -1.75% | -$429.22 (-6.17%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** No trades today — 0 of 2 CHOP weekly slots used (Mon 8/3–Tue 8/4), 3 of 4 CHOP position slots filled, no confirmed live trigger for the 4th. JPM strong all day (+1.52%, +3.18% unrealized), closing near its high, no negative catalysts. RTX closed +0.80% and crossed the +15% unrealized tighten trigger (15.70%) for the first time — already sits at a 7% trail from 7/27 (the correct trail for +15-20%), so no stop action needed; watch for the +20% mark which would tighten to 5%, and remember stops never move down. UNH -1.75% on the day, -6.17% unrealized — its worst mark yet but still above the -7% manual cut level; DOJ Medicare Advantage probe overhang unchanged, no new escalation, monitor closely at next check since it's within 1pt of the cut trigger. Day P&L +$63.71 (+0.13%) on a quiet green session (yesterday's close $50,872.55 used as base, per Alpaca balance_asof 8/3 — no Aug 3 EOD snapshot was logged, a repeat of the earlier Jul 23 gap; no untracked trades found, share counts unchanged since Jul 27). Phase P&L +1.87% vs $50,000 launch baseline. Tomorrow (Wed 8/5): hold all three, watch UNH for the -7% cut level and RTX for the +20% second-tighten trigger, reassess the 1 open CHOP slot. Patience > activity.
