@@ -2158,3 +2158,59 @@ HOLD — Regime CHOP confirmed (SPY -0.68% vs 50DMA, VIX 15.99, near but not bel
 
 ### Market-Open Check — 09:46 ET
 NO CONFIRMED SETUP — AVGO at $378.20 (bid $377.39/ask $379) vs trigger zone $385-390, below-trigger zone, unconfirmed; also fails 2:1 R:R checklist per pre-market decision even if triggered. No new trades. Holdings: JPM $352.79 (+1.67%), RTX $216.67 (+14.79%, still below +15% tighten trigger, 7% trail intact), UNH $415.36 (-4.50%, above -7% cut level, DOJ overhang unchanged). 3 of 4 CHOP position slots filled, 0 of 2 weekly trade slots used. No action taken — patience > activity.
+
+## 2026-08-04 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.61% ($738.93 vs ~$743-744) | VIX: ~15.9 (15.79-15.99 range)
+*(Regime limits: max 4 positions, max 15%/position (~$7,634), target 60% deployed, max 2 new trades/week)*
+
+> Note: Tavily MCP still unauthenticated this run — sector/earnings/holdings sub-agents used `bash scripts/tavily.sh` successfully (exit 0); macro sub-agent's calls also succeeded. No WebSearch fallback needed this run.
+
+### Account Snapshot
+- Equity: $50,893.44 | Cash: $28,372.00 (55.7%) | Buying power: $176,548.03 | Daytrade count: not returned by this API call
+- Positions: JPM 21sh @ $346.98, current $353.00 (+1.74%, +$126.42) | RTX 39sh @ $188.75, current $217.00 (+14.97%, +$1,101.75) | UNH 16sh @ $434.92, current $415.34 (-4.50%, -$313.22)
+- Open orders: JPM 10% trailing GTC stop $323.307 (HWM $359.23) | RTX 7% trailing GTC stop $205.788 (HWM $221.278) | UNH 10% trailing GTC stop $392.589 (HWM $436.21)
+- Deployment: $22,521.44 long / $50,893.44 equity = 44.3% vs 60% CHOP target. 3 of 4 CHOP position slots filled (1 available). 0 of 2 CHOP weekly trade slots used this week (started Mon 8/3).
+
+### Macro (Sub-agent 1 synthesis)
+- Oil: WTI $84.67 (+1.3%), Brent $90.12 (+1.2%) — bouncing after pullback on US-Iran peace-deal optimism
+- S&P futures: +~10pts to 7,638 premarket, modest bullish lean
+- VIX: ~15.9 (15.81-15.99), down from 17.09 prior session — low-vol regime
+- DXY: ~99.99-100.01, flat
+- 10Y yield: 4.70%, down slightly from 4.745% prior close
+- Econ calendar: JOLTS (June) 10am ET today, second-tier. No CPI/PPI/FOMC today; NFP Fri 8/7, CPI 8/12, PPI 8/13
+- Read: risk-on tone — futures green, VIX low/falling, yields easing, oil stabilizing. No major scheduled catalyst today.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD leaders: XLE +35.0%, XLK +22.1%, XLI +16.6% (overlaps RTX), XLRE +13.4%, XLB +12.1%
+- Last 5 days: Consumer Discretionary (+8%, AMZN earnings) and Communication Services (+5.5%) led; Industrials/Energy also firm
+- Strongest non-overlapping momentum: Energy (XLE), Technology (XLK)
+  - **XOM** — $155.65. Support $151-153, resistance $157-159. Setup: hold/bounce off $152-153 or reclaim $157. Stop: ~$143 (-8%)
+  - **AVGO** — $388.28. Pulling back from $400; support $380-384, resistance $400. Setup: hold $383-385 or breakout reclaim $400. Stop: ~$355 (-8%). Sub-agent flags mixed short-term technicals — confirm volume before entry.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Pre-market 8/4: ROK, RVTY, GPK, MUFG, HLNE, HRMY report AM — no actuals confirmed at research time. AMD reports after today's close (not pre-market).
+- AH 8/3: SNAP beat, +9.2%; VOYG beat, +19.2%; WHR missed EPS/rev but guided FY26 above consensus, -1.5%; TKO missed EPS, in-line rev, +2.8%; CNH beat + raised guidance; ITGR beat.
+- JPM/RTX/UNH: no new earnings, already reported and priced.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM:** $352.10, near 52wk high. Strong Q2 beat, $750B housing investment initiative announced, sector rotation into financials. No adverse news. Thesis intact.
+- **RTX:** $216.65 (+0.66%), near ATH ($218.58, 7/28). Rev +14% YoY, record $289B backlog, raised guidance, GTF surpasses 800 orders YTD. Ex-div 8/14. +14.97% unrealized, just under +15% tighten trigger (already at 7% trail from 7/27) — recheck intraday.
+- **UNH:** $416.62 (+0.53%). No new DOJ escalation found — search returned only earnings/analyst commentary, nothing dated as new escalation since 8/3. -4.50% unrealized, well above -7% cut.
+- No NEW negative catalysts, no DOJ escalation, no thesis-breaking news for any holding since 8/3.
+
+### Trade Ideas
+(No earnings catalyst for held names or confirmed live trigger today — XOM/AVGO are Sector Scout's named non-overlapping candidates, listed per protocol as conditional/watchlist only.)
+1. **XOM** — Energy, non-overlapping. Entry: pullback hold $151-153 or breakout reclaim >$157 (verify live at open). Stop: ~$143 (-8% from reclaim entry). Target: $176+ prior resistance zone (~2:1+ R:R from a $153 entry, tighter from a $157 entry — verify live). Regime check: FAIL as-is — price currently between support/resistance, no confirmed breakout or clean pullback touch yet.
+2. **AVGO** — Technology, non-overlapping. Entry: hold of $383-385 support or breakout reclaim >$400 (verify live, volume confirmation required). Stop: ~$355 (-8%). Target: analyst PT ~$450 (~2:1 R:R from $388 entry). Regime check: FAIL as-is — sub-agent flags mixed short-term technicals, no confirmed live trigger.
+
+### Risk Factors
+- **RTX +14.97% unrealized**, just under the +15% trail-tighten trigger — recheck at market-open/midday for crossing (already at 7% trail from 7/27, no further tighten needed unless it crosses +20%)
+- **UNH DOJ probe** still unresolved (11+ trading days no news either direction), -4.50% unrealized, well clear of -7% cut level
+- **AVGO mixed short-term technicals** flagged by sub-agent — do not enter without volume confirmation
+- 10Y yield 4.70%, still elevated near multi-year highs despite today's dip
+- Only 1 of 4 CHOP position slots available regardless of 0/2 weekly trade slots open
+- JOLTS release 10am ET — second-tier data, low surprise risk but watch for a reaction
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY -0.61% vs 50DMA, VIX ~15.9, low-vol/risk-on tone but still within CHOP band). No confirmed live trigger today: XOM sits between support/resistance without a clean touch, AVGO has mixed short-term technicals per sub-agent flag. No earnings catalysts for JPM/RTX/UNH. Existing positions in good shape — JPM steady near 52wk high, RTX +14.97% just under the +15% tighten trigger (watch at open/midday), UNH DOJ overhang unchanged with no new escalation. Patience > activity. 0 of 2 CHOP trade slots used this week.
