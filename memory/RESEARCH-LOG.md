@@ -2214,3 +2214,10 @@ NO CONFIRMED SETUP — AVGO at $378.20 (bid $377.39/ask $379) vs trigger zone $3
 
 ### Decision
 HOLD — Regime CHOP confirmed (SPY -0.61% vs 50DMA, VIX ~15.9, low-vol/risk-on tone but still within CHOP band). No confirmed live trigger today: XOM sits between support/resistance without a clean touch, AVGO has mixed short-term technicals per sub-agent flag. No earnings catalysts for JPM/RTX/UNH. Existing positions in good shape — JPM steady near 52wk high, RTX +14.97% just under the +15% tighten trigger (watch at open/midday), UNH DOJ overhang unchanged with no new escalation. Patience > activity. 0 of 2 CHOP trade slots used this week.
+
+### Market-Open Check — 09:47 ET
+NO CONFIRMED SETUP — both watchlist tickers fail the 2:1 R:R checklist despite price sitting in the confirmed zone above trigger:
+- **XOM** — ask $157.27 vs $157 trigger (+0.17%, in-zone/confirmed breakout). Quote spread abnormally wide (bid $143.45/ask $157.27, ~9.7%) — flagging as a data-quality concern, treated ask as reference. R:R at this entry: risk to $143 stop (-9.1%) vs reward to $176 target (+11.9%) = ~1.3:1, below 2:1 minimum. Skip.
+- **AVGO** — ask $410.63 vs $400 trigger (+2.66%, in-zone/confirmed breakout, still under the +3% extended cutoff). No volume data available via quote endpoint to satisfy sub-agent's confirmation requirement. R:R using 10% trailing stop (-$41.06) vs $450 analyst PT (+$39.37) = <1:1, below 2:1 minimum. Skip.
+No new trades — 0 of 2 CHOP weekly trade slots used.
+Holdings: JPM $357.85 (+3.13%, no tighten trigger), RTX $214.825 (+13.82%, still below +15% tighten trigger, 7% trail intact from 7/27), UNH $406.97 (-6.43% unrealized, approaching but not yet at the -7% manual cut level — flagging for midday follow-up, DOJ overhang unchanged). 3 of 4 CHOP position slots filled. Patience > activity.
