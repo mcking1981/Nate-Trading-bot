@@ -569,3 +569,15 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $220.58 | +$1,241.37 (+16.86%) | $205.788 (7% trailing GTC, HWM $221.278) |
 | UNH | 16 | $434.92 | $413.42 | -$343.94 (-4.94%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None required. No losers at -7% (UNH -4.94%, improved from pre-market's -6.11%/-6.43% flag, above cut level, DOJ probe overhang unchanged, no escalation). RTX +16.86%, still below the +20% second-tighten trigger — already at 7% trail from 7/27 (correct band for +15-20%), stop unchanged per no-loosen rule. JPM +3.74%, well below the +15% tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No thesis breaks intraday for JPM/RTX/UNH (ADP/ISM Services data at 9am ET absorbed without holdings impact); no unusual single-name price action warranting Tavily/WebSearch research. Patience > activity.
+
+---
+
+### Aug 5 — EOD Snapshot (Day 73, Wednesday)
+**Portfolio:** $51,217.53 | **Cash:** $28,372.00 (55.4%) | **Day P&L:** +$281.27 (+0.55%) | **Phase P&L:** +$1,217.53 (+2.44%)
+**Regime:** CHOP (SPY vs 50DMA +1.64%, VIX ~16.2 — per Aug 5 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $359.29 | +0.49% | +$258.46 (+3.55%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $222.31 | +2.01% | +$1,308.84 (+17.78%) | $207.218 (7% trailing GTC, HWM $222.815) |
+| UNH | 16 | $434.92 | $414.40 | +1.68% | -$328.26 (-4.72%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Notes:** No trades today — 0 of 2 CHOP weekly slots used (Mon 8/3–Wed 8/5), 3 of 4 CHOP position slots filled, no confirmed live trigger for the 4th. All three holdings green on the day: JPM +0.49% (+3.55% unrealized), RTX +2.01% and its GTC trailing stop's HWM auto-advanced to $222.815 (stop now $207.218, still the 7% band from the +15% tighten on 7/27 — no manual action, broker-side trail did the work), UNH +1.68% intraday but still -4.72% unrealized, DOJ probe overhang unchanged, above the -7% cut level. RTX unrealized now 17.78%, approaching but still below the +20% second-tighten trigger (would move trail to 5%) — watch closely, next $ move could cross it. Day P&L +$281.27 (+0.55%) on yesterday's logged EOD base of $50,936.26. Phase P&L +$1,217.53 (+2.44%) vs $50,000 launch baseline. Tomorrow (Thu 8/6): hold all three, watch RTX for the +20% second-tighten trigger and UNH for the -7% cut level, reassess the 1 open CHOP slot. Patience > activity.
