@@ -593,3 +593,36 @@ No positions yet. Bot launches tomorrow.
 | UNH | 16 | $434.92 | $405.27 | -$474.34 (-6.82%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Action taken:** None — no rule triggered. UNH -6.82%, still above the -7% manual cut level (was -4.72% at Wed EOD, -6.31% at this morning's open check — deteriorating through the session, now the closest it's been to the cut trigger). Ran Tavily check for a UNH catalyst given the proximity to -7%: no confirmed new negative news found — DOJ Medicare Advantage probe still stale since 7/24, sources returned mixed/stale snapshots (one showed UNH +1.4% intraday, inconsistent with Alpaca's live -1.81% intraday read); treating Alpaca's real-time broker price as authoritative. No thesis break — holding, will cut mechanically the moment -7% is breached. RTX +17.78% (broker-side trail HWM auto-advanced intraday to $225.65 → stop $209.8545), still below the +20% second-tighten trigger, correct 7% band already in place, no manual action, no-loosen rule applies. JPM +2.77%, well below the +15% tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No sector-momentum or thesis breaks. Patience > activity.
 **Watch:** UNH is one bad print from a -7% cut — reassess at EOD/next check without waiting for a scheduled trigger if it breaches.
+
+---
+
+### Aug 6 — Trade #5 (Manual -7% Cut)
+
+| Field | Value |
+|---|---|
+| Date | 2026-08-06 |
+| Ticker | UNH |
+| Side | SELL (close position) |
+| Shares | 16 |
+| Entry Price | $434.916 |
+| Trigger | Unrealized -7.34% (below -7% manual cut level per Strategy Hard Rule #5) — breached between midday check (-6.82%) and EOD (-7.34%) |
+| Action | Canceled existing 10% trailing GTC stop (order a284854f, stop $392.589) at 20:09 UTC; submitted market sell-to-close for 16 sh (order 2ccff05d) same timestamp |
+| Fill Status | **PENDING** — order submitted at 20:09 UTC (4:09pm ET), ~9 min after the 4:00pm close; status "accepted," filled_qty 0. Day market order queued, expected to fill at Fri 8/7 open. No overnight stop protection on UNH — mitigated by the order already being queued at the front of the open. |
+| Realized P&L | Not yet realized — will confirm at fill. Marked unrealized at cut: -$510.62 (-7.34%) |
+| Thesis Note | DOJ Medicare Advantage probe overhang (flagged 7/24) never resolved; no new negative catalyst found, but rule is mechanical — no discretion at -7%, sector exited per hard rule regardless of thesis status. |
+
+**Action item for market-open routine (Fri 8/7):** confirm UNH fill, log actual realized P&L and fill price, verify no leftover UNH exposure/orders.
+
+---
+
+### Aug 6 — EOD Snapshot (Day 74, Thursday)
+**Portfolio:** $50,962.02 | **Cash:** $28,372.00 (55.7%) | **Day P&L:** -$255.51 (-0.50%) | **Phase P&L:** +$962.02 (+1.92%)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed — per Aug 5 pre-market log, no fresh pre-market run today)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $355.64 | -1.00% | +$181.80 (+2.50%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $222.40 | +0.04% | +$1,312.35 (+17.83%) | $209.8545 (7% trailing GTC, HWM $225.65) |
+| UNH | 16 | $434.92 | $403.00 | -2.36% | -$510.62 (-7.34%) | **CUT** — market sell submitted 20:09 UTC, pending fill at Fri 8/7 open (see Trade #5 above) |
+**Notes:** UNH breached the -7% manual cut level intraday (was -6.82% at midday, deteriorated to -7.34% by close) — cut executed per Strategy Hard Rule #5, no discretion. Canceled the old 10% trailing GTC stop and submitted a market sell-to-close for all 16 shares; order landed 9 minutes after the 4pm close and is queued unfilled, expected to fill at tomorrow's open — **flag for market-open routine to confirm fill and log realized P&L.** JPM and RTX unaffected, both holding steady (JPM +2.50% unrealized, RTX +17.83% and still below the +20% second-tighten trigger, 7% trail band correct, no-loosen rule applies to both). 0 of 2 CHOP new-buy slots used this week (Mon 8/3–today) — the UNH cut is a sell, not a new trade, so the weekly cap is unaffected; 2 of 2 slots still available. Position count drops to 2 of 4 CHOP slots filled once UNH fill confirms (currently still shows as held pending settlement). Phase P&L +1.92% vs $50,000 launch baseline, down from Wednesday's +2.44% on the UNH cut. Tomorrow (Fri 8/7): confirm UNH fill at market-open routine, reassess with 2 open position slots and 2 new-trade slots for a regime-aligned setup (no chasing). Patience > activity.
+
+---
