@@ -581,3 +581,15 @@ No positions yet. Bot launches tomorrow.
 | RTX | 39 | $188.75 | $222.31 | +2.01% | +$1,308.84 (+17.78%) | $207.218 (7% trailing GTC, HWM $222.815) |
 | UNH | 16 | $434.92 | $414.40 | +1.68% | -$328.26 (-4.72%) | $392.589 (10% trailing GTC, HWM $436.21) |
 **Notes:** No trades today — 0 of 2 CHOP weekly slots used (Mon 8/3–Wed 8/5), 3 of 4 CHOP position slots filled, no confirmed live trigger for the 4th. All three holdings green on the day: JPM +0.49% (+3.55% unrealized), RTX +2.01% and its GTC trailing stop's HWM auto-advanced to $222.815 (stop now $207.218, still the 7% band from the +15% tighten on 7/27 — no manual action, broker-side trail did the work), UNH +1.68% intraday but still -4.72% unrealized, DOJ probe overhang unchanged, above the -7% cut level. RTX unrealized now 17.78%, approaching but still below the +20% second-tighten trigger (would move trail to 5%) — watch closely, next $ move could cross it. Day P&L +$281.27 (+0.55%) on yesterday's logged EOD base of $50,936.26. Phase P&L +$1,217.53 (+2.44%) vs $50,000 launch baseline. Tomorrow (Thu 8/6): hold all three, watch RTX for the +20% second-tighten trigger and UNH for the -7% cut level, reassess the 1 open CHOP slot. Patience > activity.
+
+---
+
+### Aug 6 — Midday Check (Day 74, Thursday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $356.58 | +$201.60 (+2.77%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $222.31 | +$1,308.84 (+17.78%) | $209.8545 (7% trailing GTC, HWM $225.65) |
+| UNH | 16 | $434.92 | $405.27 | -$474.34 (-6.82%) | $392.589 (10% trailing GTC, HWM $436.21) |
+**Action taken:** None — no rule triggered. UNH -6.82%, still above the -7% manual cut level (was -4.72% at Wed EOD, -6.31% at this morning's open check — deteriorating through the session, now the closest it's been to the cut trigger). Ran Tavily check for a UNH catalyst given the proximity to -7%: no confirmed new negative news found — DOJ Medicare Advantage probe still stale since 7/24, sources returned mixed/stale snapshots (one showed UNH +1.4% intraday, inconsistent with Alpaca's live -1.81% intraday read); treating Alpaca's real-time broker price as authoritative. No thesis break — holding, will cut mechanically the moment -7% is breached. RTX +17.78% (broker-side trail HWM auto-advanced intraday to $225.65 → stop $209.8545), still below the +20% second-tighten trigger, correct 7% band already in place, no manual action, no-loosen rule applies. JPM +2.77%, well below the +15% tighten trigger. 3 of 4 CHOP position slots filled, within regime cap — no forced closes needed. No sector-momentum or thesis breaks. Patience > activity.
+**Watch:** UNH is one bad print from a -7% cut — reassess at EOD/next check without waiting for a scheduled trigger if it breaches.
