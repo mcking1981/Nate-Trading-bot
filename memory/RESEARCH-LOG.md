@@ -2281,3 +2281,53 @@ HOLD — Regime CHOP confirmed (SPY +1.64% vs 50DMA, VIX 16.2). No confirmed liv
 - **AVGO** — Alpaca quote anomalous again (bid $418.16/ask $425.00, ~1.6% spread); web cross-verify (Yahoo pre-market 7:58am ET) ~$403.14, Google/MarketWatch cached ~$387-389 (stale). Best estimate ~$395-405 vs $410 breakout trigger — likely still BELOW or at-trigger, not a confirmed clean breakout; Alpaca's raw ask would read +3.66% (extended) but is not trusted standalone given the spread. Mixed technicals flag from pre-market (MACD sell vs MA buy) unresolved. NO CONFIRMED SETUP — carry forward to watchlist, re-verify with cleaner data at midday.
 - **XOM** — Alpaca quote anomalous (bid $146.78/ask $155.00, ~5.4% spread); web cross-verify (Robinhood, Aug 4 close) ~$149.86, sitting inside the $148-150 pullback/support zone but no confirmed hold/bounce pattern established intraday (single quote at open, not a demonstrated hold). Still well below the $159 breakout trigger. NO CONFIRMED SETUP — carry forward to watchlist.
 - No new trades. Holdings: JPM $360.03 (+3.76%, no tighten trigger), RTX $219.39 (+16.23%, still below +20% second-tighten trigger, 7% trail intact from 7/27), UNH $408.38 (-6.10%, improved slightly, still above -7% cut level, DOJ overhang unchanged). 3 of 4 CHOP position slots filled, 0 of 2 weekly trade slots used. Patience > activity.
+
+---
+
+## 2026-08-06 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.81% ($738.93 vs ~$745.0) | VIX: ~16.0 (range 15.5-16.5 across sources)
+*(Regime limits: max 4 positions, max 15%/position, max 60% target deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $51,288.92 | Cash: $28,372.00 (55.3%) | Buying power: $177,655.38 | Daytrade count: 0 (field not returned by account endpoint; no day trades in this account's history)
+- Positions: JPM 21sh, RTX 39sh, UNH 16sh (3 of 4 CHOP slots filled) | Open orders: 3 GTC trailing stops (all confirmed live)
+
+### Macro (Sub-agent 1 synthesis)
+- **Oil:** WTI ~$75.0-75.7, Brent ~$79.7-80.1 — ticked up on Iran-Oman partial deal reopening Hormuz lanes (2-4mo), but Houthi tanker-strike claim near Gulf of Aden keeps risk live. WTI +7.5% MTD.
+- **S&P futures:** Flat-to-up (+0.06% premarket); Dow futures +0.78%, Nasdaq 100 futures -0.33% — mild rotation out of tech.
+- **VIX:** ~16.1-16.5, down 2-4% d/d — complacency building, well off recent highs.
+- **DXY:** ~99.7-100.0, soft/flat, near multi-week lows.
+- **10Y yield:** ~4.61-4.62%, little changed.
+- **Econ calendar:** Nothing major today (only prelim productivity data). July jobs report tomorrow (Aug 7, consensus ~57-70K NFP) is the dominant near-term catalyst; CPI Aug 12, PPI Aug 13, FOMC minutes Aug 19.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- **YTD leaders:** XLK (Technology, AI capex-driven), XLC close 2nd.
+- **Last 5 days:** Mixed by data cut — Industrials (CAT-led AI-power buildout) + Tech leading one read; Consumer Discretionary +8% (AMZN earnings) another. 7/11 sectors red on a weekly cut — Utilities/Real Estate worst.
+- **Strongest current momentum: Technology** — semis rallying hard on AI-infra earnings beats (AVGO, AMD).
+- **AVGO** (no held-sector overlap) — broke out +6.6% Aug 4 on record Q2 (rev +48% YoY, AI semis +143%, Q3 guide $29.4B raised). Closed $418.28 Aug 5. Entry: pullback to $400-410 or confirmed hold above $420. Stop: close <$395. Target ~$460-470 (~2:1 R:R).
+- **AMD** (no held-sector overlap) — earnings Aug 4, pulling back into $476 print level, watching $470 double-top resistance. Entry: reclaim of $440 pullback support. Stop: close <$420. Target $470-500.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- **Pre-market 8/6 BMO:** Berkshire Hathaway, Siemens, ConocoPhillips, Parker-Hannifin, Howmet Aerospace, Constellation Energy, Canadian Natural Resources, Targa Resources — results not yet posted at scan time.
+- **AH 8/5 movers:** Booking Holdings beat big (+6%), Disney beat (+3-4%, TikTok partnership), Eli Lilly blowout beat (+5%, Mounjaro +91%/Zepbound +44%), Shopify +17%. Decliners: Zillow -7.5% (beat but fell), Pinterest -9%, Uber -5%, CVS -5%, AMD/SpaceX fell despite beats.
+- No JPM/RTX/UNH earnings-relevant items surfaced.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — +1.93% to $359.44, fresh 52wk high ($363, 8/4); broad financials rally, bullish narrative (AI/$1T mkt-cap path, $750B housing initiative). No negative catalysts — continuation intact.
+- **RTX** — +1.8% off intraday lows; Q2 beat (sales +14%, EPS +21%), FY26 guidance raised, backlog $289B, new $1.3B F135 sustainment contract, GTF orders 800+ YTD. Bernstein PT raised 213→232 (8/3). **No news argues against holding through the +20% tighten trigger** — only caution is technical (RSI ~70, overbought), not fundamental.
+- **UNH** — **No fresh DOJ-probe news since 7/24 disclosure** — still stale 2+ weeks with zero signal either direction (no escalation, no settlement talk, no resolution). Per last week's review adjustment, this now needs explicit reassessment at Friday's weekly review rather than continued routine monitor-only treatment.
+
+### Trade Ideas
+1. **AVGO** — Tech-sector momentum leader, post-earnings breakout (Q2 beat, AI semis +143% YoY, raised Q3 guide); no overlap with held sectors (Financials/Industrials/Healthcare). Entry: confirmed hold above $420 (or pullback reclaim of $400-410). Stop: -6% (~$395). Target: $460-470 (~2:1 R:R). Regime check: CONDITIONAL — 1 of 4 CHOP slots open, 0 of 2 weekly trades used; confirm live at market-open, do not chase the extended post-breakout price.
+2. **AMD** — Tech, earnings-adjacent pullback. Entry: reclaim of $440 support. Stop: -6% (~$420, close-based). Target: $470-500. Regime check: CONDITIONAL — earnings-week volatility elevated, confirm live before acting, lower priority than AVGO given whipsaw risk right after its own print.
+
+### Risk Factors
+- RTX at +17.9% unrealized, approaching the +20% second trail-tighten trigger (10%→7% already done; next crosses to 5%) — watch closely today/this week, no news argues against holding, stop must only tighten, never loosen.
+- UNH DOJ Medicare Advantage probe overhang now stale 2+ weeks with zero new signal — standing risk factor, flagged for explicit thesis reassessment at Friday's weekly review per last week's "Adjustments for Next Week."
+- July jobs report tomorrow (Aug 7) is the dominant macro catalyst — avoid over-committing new capital into a data-release-adjacent session.
+- VIX low (~16) and equities calm — complacency risk if jobs data surprises; Hormuz/Houthi shipping risk still live under the surface (oil +7.5% MTD).
+- AVGO/AMD are both earnings-week names — elevated single-stock volatility and chase risk if entering post-breakout without a clean pullback.
+
+### Decision
+HOLD — no new trades pre-market. 3 of 4 CHOP position slots filled (JPM, RTX, UNH), all theses intact, all GTC trailing stops confirmed live. AVGO carried as the leading watchlist candidate for the 1 open slot (no sector overlap, defined entry/stop/target) — confirm live trigger at market-open before acting, do not chase. Patience > activity.
