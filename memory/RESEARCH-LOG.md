@@ -2331,3 +2331,11 @@ HOLD — Regime CHOP confirmed (SPY +1.64% vs 50DMA, VIX 16.2). No confirmed liv
 
 ### Decision
 HOLD — no new trades pre-market. 3 of 4 CHOP position slots filled (JPM, RTX, UNH), all theses intact, all GTC trailing stops confirmed live. AVGO carried as the leading watchlist candidate for the 1 open slot (no sector overlap, defined entry/stop/target) — confirm live trigger at market-open before acting, do not chase. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+- **AVGO** — Alpaca quote anomalous (bid $410/ask $427, ~4% spread); web cross-verify (CoinMarketCap real-time feed) ~$417.59, consistent with Alpaca midpoint. Trigger: confirmed hold above $420 (or pullback reclaim $400-410). Live price ~$417-419 sits BELOW the $420 breakout trigger and ABOVE the $400-410 pullback zone — no-man's-land, neither confirmed. NO CONFIRMED SETUP — carry forward to watchlist.
+- **AMD** — Alpaca quote tight/reliable (bid $478.61/ask $479.37). Trigger: reclaim of $440, +3% band tops out at $453.20. Live price ~$479 is +8.9% above the trigger with no intraday pullback into the confirmation zone — too extended. NO CONFIRMED SETUP — drop from watchlist, do not chase.
+- **JPM** (existing position): $360.52, +3.90% unrealized. Well below +15% tighten trigger. 10% trailing GTC stop intact ($326.70, HWM $363.00). No action.
+- **RTX** (existing position): $224.90, +19.15% unrealized (HWM $225.65 → 19.56%), still below the +20% second-tighten trigger. 7% trail intact from 7/27 ($209.8545, HWM $225.65) — very close to the 20% mark, flag for midday follow-up. No action yet, no-loosen rule applies.
+- **UNH** (existing position): $407.455, -6.31% unrealized, improved slightly from yesterday, still above the -7% manual cut level. DOJ Medicare Advantage probe overhang unchanged, no new escalation. 10% trailing GTC stop intact ($392.589, HWM $436.21). No action.
+- No trades placed — neither watchlist ticker confirmed a live trigger. 0 of 2 CHOP weekly trade slots used this week, 3 of 4 CHOP position slots filled. Patience > activity.
