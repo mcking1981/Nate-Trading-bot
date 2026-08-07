@@ -2398,3 +2398,11 @@ HOLD — no new trades pre-market. 3 of 4 CHOP position slots filled (JPM, RTX, 
 
 ### Decision
 HOLD — Regime CHOP confirmed (SPY -0.82% vs 50DMA, VIX ~15.8). Top priority for market-open: confirm UNH sell fill and log realized P&L before any other action. No new trades ahead of the 8:30am NFP print — entering into a major data release is undisciplined. NVDA (Tech breakout) and FCX (Materials, copper) are non-overlapping watchlist candidates for the 1-2 slots that open once UNH exits; verify live triggers and R:R post-NFP, do not chase. 0 of 2 CHOP weekly trade slots used this week (Mon 8/3–today). Patience > activity.
+
+### Market-Open Check — 09:52 ET
+- **UNH sell confirmed FILLED** — order 2ccff05d, 16 sh @ $402.60 avg, filled 13:31:59 UTC. Realized P&L -$517.06 (-7.43%). No leftover UNH position or open orders (verified via alpaca.sh orders/positions). Logged to TRADE-LOG.md Trade #5.
+- **NVDA** — trigger $213 hold/retest, +3% confirm band tops at $219.39. Live $221.22-222.49 (bid/ask), today's range $219.36-$221.67 (web cross-verify) — low brushed the very top edge of the band for an instant, not a sustained hold/retest. Current price is +4-4.5% above trigger. NO CONFIRMED SETUP — too extended, no clean pullback/retest confirmed; drop from watchlist, do not chase, especially into NFP volatility.
+- **FCX** — live $70.42-70.48. Sits below the $71.43 breakout trigger and above the $60-63 pullback zone — no-man's-land, neither confirmed. NO CONFIRMED SETUP — carry forward to watchlist, re-verify at midday.
+- **JPM** (existing position): $356.97, +2.88% unrealized. Well below +15% tighten trigger. 10% trailing GTC stop intact ($326.70, HWM $363.00). No action.
+- **RTX** (existing position): $223.35, +18.33% unrealized, still below the +20% second-tighten trigger. 7% trail intact ($209.8545, HWM $225.65). No action, no-loosen rule applies, watch for +20% mark.
+- No trades placed today. 2 of 4 CHOP position slots filled (JPM, RTX), 2 open. 0 of 2 CHOP weekly trade slots used this week. Patience > activity.

@@ -607,11 +607,9 @@ No positions yet. Bot launches tomorrow.
 | Entry Price | $434.916 |
 | Trigger | Unrealized -7.34% (below -7% manual cut level per Strategy Hard Rule #5) — breached between midday check (-6.82%) and EOD (-7.34%) |
 | Action | Canceled existing 10% trailing GTC stop (order a284854f, stop $392.589) at 20:09 UTC; submitted market sell-to-close for 16 sh (order 2ccff05d) same timestamp |
-| Fill Status | **PENDING** — order submitted at 20:09 UTC (4:09pm ET), ~9 min after the 4:00pm close; status "accepted," filled_qty 0. Day market order queued, expected to fill at Fri 8/7 open. No overnight stop protection on UNH — mitigated by the order already being queued at the front of the open. |
-| Realized P&L | Not yet realized — will confirm at fill. Marked unrealized at cut: -$510.62 (-7.34%) |
+| Fill Status | **FILLED** — order 2ccff05d filled 2026-08-07 13:31:59 UTC (9:31am ET) at market open, 16/16 sh @ $402.60 avg. Confirmed via alpaca.sh orders — no leftover UNH position or open orders. |
+| Realized P&L | **-$517.06 (-7.43%)** — (402.60 - 434.916) × 16 sh |
 | Thesis Note | DOJ Medicare Advantage probe overhang (flagged 7/24) never resolved; no new negative catalyst found, but rule is mechanical — no discretion at -7%, sector exited per hard rule regardless of thesis status. |
-
-**Action item for market-open routine (Fri 8/7):** confirm UNH fill, log actual realized P&L and fill price, verify no leftover UNH exposure/orders.
 
 ---
 
