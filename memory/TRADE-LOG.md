@@ -613,6 +613,16 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
+### Aug 7 — Midday Check (Day 75, Friday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $356.38 | +$197.40 (+2.71%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $221.55 | +$1,279.09 (+17.38%) | $209.8545 (7% trailing GTC, HWM $225.65) |
+**Action taken:** None required. UNH cut confirmed filled at market-open (Trade #5, -$517.06/-7.43%) — no longer held, positions now JPM/RTX only. No losers at -7%. RTX +17.38% (down slightly intraday from pre-market's +18.33%, -0.76% today, no unusual move), still below the +20% second-tighten trigger — already at 7% trail from 7/27, correct band, stop unchanged per no-loosen rule. JPM +2.71%, well below the +15% tighten trigger. 2 of 4 CHOP position slots filled, well within regime cap — no forced closes needed. No thesis breaks: RTX 7-session momentum and contract wins intact per pre-market research, JPM steady (UBS PT raise to $400). No unusual single-name price action warranting Tavily/WebSearch research. 0 of 2 CHOP weekly new-buy slots used this week — 2 slots and 2 open positions available, no confirmed live trigger for NVDA/FCX watchlist candidates (both no-man's-land per market-open check). Patience > activity.
+
+---
+
 ### Aug 6 — EOD Snapshot (Day 74, Thursday)
 **Portfolio:** $50,962.02 | **Cash:** $28,372.00 (55.7%) | **Day P&L:** -$255.51 (-0.50%) | **Phase P&L:** +$962.02 (+1.92%)
 **Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed — per Aug 5 pre-market log, no fresh pre-market run today)
