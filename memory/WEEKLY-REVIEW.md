@@ -320,3 +320,60 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - If UNH's DOJ overhang produces no news for a 2nd straight week, treat it as a standing risk factor to reassess explicitly in next Friday's review rather than a routine monitor-only line item
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-08-07
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $50,745.59 (Fri 7/31 close) |
+| Ending portfolio | $51,043.87 (Fri 8/7 close, per TRADE-LOG EOD; Alpaca balance_asof lags at 8/6, $51,019.69) |
+| Week return | +$298.28 (+0.59%) |
+| S&P 500 week | +2.94% (SPX 7,489.76 Jul 31 close -> 7,709.96 Aug 6 close; Aug 7 official close unavailable from search sources at review time, used last confirmed session) |
+| Bot vs S&P | -2.35% |
+| Dominant regime | CHOP (5/5 days) |
+| Trades | 1 (W:0 / L:1 / open:2) |
+| Win rate | 0% (0 of 1 closed) |
+| Best trade | N/A (no closed winners) — RTX carried position +18.49% unrealized |
+| Worst trade | UNH -7.43% (Trade #5, manual -7% cut) |
+| Profit factor | 0.00 (no gross profit, $517.06 gross loss) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| UNH | $434.916 (16sh, 7/22) | $402.60 (16sh, 8/6 order / 8/7 fill) | -$517.06 (-7.43%) | Manual -7% cut per Strategy Hard Rule #5 — breached between Aug 6 midday (-6.82%) and EOD (-7.34%); DOJ Medicare Advantage probe overhang (flagged 7/24) never resolved, no discretion applied |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| JPM | $346.98 (21sh, 7/22) | $357.52 | +$221.34 (+3.04%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | $188.75 (39sh, carried from 6/29) | $223.65 | +$1,361.10 (+18.49%) | $209.8545 (7% trailing GTC, HWM $225.65) |
+
+### What Worked
+- Mechanical -7% cut on UNH executed without hesitation or discretion once breached — exactly per Strategy Hard Rule #5, ending a 2+ week unresolved DOJ-overhang drift rather than letting it deteriorate further
+- RTX continued compounding to +18.49% unrealized (8th consecutive up week since 6/29 entry), correctly held at its 7% trail from the +15% tighten with no premature or loosened stop action, approaching the +20% second-tighten trigger
+- Correctly declined marginal setups failing the 2:1 R:R checklist even when price sat "in zone" — XOM and AVGO both confirmed live breakout levels but were skipped on R:R math alone
+- Continued data-quality diligence: Alpaca's anomalous wide-spread quotes (XOM, AVGO, AMD) were cross-verified via WebSearch every time before a hold/skip decision was finalized
+- JPM held steady near 52-week highs all week (UBS PT raised to $400) with zero negative catalysts, no stop action needed
+
+### What Didn't Work
+- Underperformed S&P by -2.35% this week, worst gap since tracking began — capital deployment sat at 44-56% for most of the week (vs 60% CHOP target) and fell further to ~32% after the UNH cut, missing most of a broad +2.9% market rally
+- 0 of 2 CHOP weekly trade slots used for a 5th time in 6 weeks — NVDA and FCX were both named daily with defined levels but neither confirmed a live trigger; NVDA ran extended before entry, FCX sat in no-man's-land between support/resistance all week
+- UNH's DOJ Medicare Advantage overhang went 2+ full weeks (since 7/24) with zero news either direction while the position bled from -4.65% (Mon) to -7.43% (cut) — last week's review flagged this for "explicit reassessment at Friday's weekly review," but the position hit its mechanical cut level before that review could act
+- Weekend routine misfires continued into this week's setup (Aug 1-2 pre-market/midday/EOD firing on non-trading days) — flagged and escalated again, still an open infrastructure issue
+
+### Key Lessons
+- The mechanical stop-loss rule works exactly as designed under pressure — no hesitation, no discretion, clean execution — but a stale, unresolved overhang (UNH/DOJ) that drifts for 2+ weeks needs an earlier explicit go/no-go checkpoint than "wait for Friday's review," since by then the position may already be at its cut level
+- Missing a >2.9% market week while sitting on 1-2 open CHOP slots for a 5th time in 6 weeks confirms the entry-trigger conversion bottleneck (flagged repeatedly since June) is still unresolved — the setups are being correctly identified and correctly not chased, but something in the confirmation bar is too tight for a CHOP-regime tape that keeps grinding higher
+- A winning position (RTX) run correctly is proof the trail-tighten mechanics work; the challenge isn't holding winners, it's converting watchlist candidates into new positions before they run away
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by more than 2% (-2.35%), but last week (Jul 31) underperformed by only -0.80%, below the 2% threshold — consecutive-underperformance requires BOTH weeks to exceed 2%, so no trigger. CHECK B: not applicable, no outperformance this week. CHECK C: one Healthcare trade closed this week (UNH, -7.43%) — a single loss, not 2 consecutive losing trades in the sector — no new sector cooldown triggered; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Re-verify NVDA (pullback/retest of the $213 zone) and FCX (breakout reclaim >$71.43) live at Monday 8/10 open — both watchlisted all week without confirming; act on the first clean trigger rather than letting them extend further away
+- With 2 of 4 CHOP slots open and deployment near 32%, treat closing the deployment gap toward the 60% CHOP target as a real priority if a qualifying setup confirms — don't force a fill, but don't let 2 slots sit unused into a 6th week
+- For any position carrying an unresolved negative-catalyst overhang, set an explicit go/no-go reassessment checkpoint after N trading days of no news (rather than defaulting to "reassess at Friday's review"), so a slow-bleed position gets an active decision before it reaches its mechanical cut level
+
+### Overall Grade: C
