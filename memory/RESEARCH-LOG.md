@@ -2343,3 +2343,58 @@ HOLD — no new trades pre-market. 3 of 4 CHOP position slots filled (JPM, RTX, 
 ### Midday Addendum — UNH proximity check
 - UNH -6.82% unrealized at midday (worsened from -6.31% at open, -4.72% at Wed EOD) — closest to the -7% manual cut level yet. Ran Tavily for a same-day catalyst: no confirmed fresh negative news — DOJ Medicare Advantage probe still stale since 7/24 disclosure. Search results were inconsistent/stale (one source showed UNH +1.4% intraday vs. Alpaca's live -1.81% intraday read) — treated Alpaca's real-time broker price as authoritative, no reliable catalyst found for the drift. Read as broad market/sector drift, not a thesis break. Holding per rule; will cut mechanically if -7% is breached at next check.
 - RTX +17.78% unrealized (down slightly from open's +19.15%/+19.56% HWM read) — still below +20% second-tighten trigger, 7% trail correct, no action.
+
+---
+
+## 2026-08-07 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.82% ($738.93 vs ~$745.07) | VIX: ~15.5-16.1
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $51,027.98 | Cash: $28,372.00 (55.6%) | Buying power: $176,924.74 | Daytrade count: 0
+- Positions: JPM 21sh @ $346.98, current $356.97 (+2.88%, +$209.79) | RTX 39sh @ $188.75, current $223.35 (+18.33%, +$1,349.40) | UNH 16sh @ $434.916, current $403.06 (-7.33%, -$509.70) — **PENDING SELL**, order 2ccff05d submitted 8/6 20:09 UTC, resubmitted/queued this morning (08:00 UTC), filled_qty 0 as of this check — not yet filled, will confirm at market-open routine.
+- Open orders: JPM 10% trailing GTC stop $326.70 (HWM $363.00) | RTX 7% trailing GTC stop $209.8545 (HWM $225.65) | UNH market sell-to-close pending (order 2ccff05d)
+- Deployment: 3 of 4 CHOP position slots technically filled (UNH exiting) — effectively 2 of 4 once UNH fill confirms. 0 of 2 CHOP weekly new-buy trade slots used this week (Mon 8/3–today).
+- **Tavily not authorized this session** — all sub-agents used native WebSearch fallback.
+
+### Macro (Sub-agent 1 synthesis)
+- Oil: WTI ~$78.32 (+1.3%), Brent ~$82.80 (+4% Thu) — Strait of Hormuz tension premium
+- S&P futures: +0.13%, flat — pinned ahead of 8:30am NFP
+- VIX: ~15.8, calm/low-vol
+- DXY: ~99.9, stabilizing after 7-week low
+- 10Y yield: ~4.60-4.63%, down ~10bp on week (Hormuz reopening eased inflation fears)
+- **Econ calendar: July NFP at 8:30am ET today** — consensus 83K-97.5K (range 65K-130K), unemployment seen 4.2% (risk 4.3%); follows weak June (+57K). Fed held 3.50-3.75% on 7/29; next FOMC Sept 15-16. Dominant catalyst of the session — releases AFTER this pre-market run.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD leaders: XLK +32-33%, XLE +26-27%, XLI +12-20%, XLB +13%
+- Last 5-day: Tech surging back (QQQ +5.2% Aug 1-2, best since May 2025; XLK +2.01% Aug 4); Materials firming (XLB best sector Aug 5, +2.87%)
+- Best momentum: XLK (Technology) — no overlap with JPM/RTX; XLB (Materials) secondary, also non-overlapping
+- **NVDA** — broke above $211-214 resistance, price > all major EMAs, RSI 56.9 (healthy). Earnings 8/26 risk.
+- **FCX** — copper, range $59.59 support/$71.43 resistance, mid-$60s now, Strong Buy consensus (9 buy/2 sell/6 neutral)
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Pre-market 8/7 BMO: TTWO (headline, ~7.7% implied move, GTA VI pre-order focus), PPL, VST, PAA — results not yet posted at scan time
+- AH 8/6 beats: ABNB (+9% AH, beat + raised guide), NET (rev +36% YoY, raised guide)
+- Daytime 8/6 notable moves: Beats — PAYC +15%, ALB +7.7%, PH +7.6%; Misses — HUBS -24%, UWMC -25% (dividend suspended), DDOG -15/16%, HON -20/21% (cut FY guide), APP -19/20%
+- No JPM/RTX/UNH earnings today
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM**: Steady/bullish. UBS raised PT to $400 (from $384). Dimon flagged elevated market-leverage risk (general commentary, not JPM-specific). No adverse catalyst.
+- **RTX**: 7th straight up session. Bernstein raised PT to $232. New Navy ($271M) + P&W F135 ($1.3B) contracts. Momentum intact, no news against holding through further trail-tighten.
+- **UNH**: No fresh news since Aug 6 close. DOJ Medicare Advantage probe overhang unchanged, no escalation/resolution. Nothing found that blocks today's expected fill of the pending sell order.
+
+### Trade Ideas
+(No earnings catalyst for held names or confirmed live trigger pre-market — NVDA/FCX are Sector Scout's named non-overlapping candidates, listed per protocol as conditional/watchlist only. No open position slot until UNH sell confirms.)
+1. **NVDA** — Technology, non-overlapping. Entry: confirmed hold/retest of $213 breakout zone. Stop: ~8% below entry (~$196). Target: ~$247 (+16%, ~2:1 R:R). Earnings 8/26 (19 trading days out) — avoid holding through print if entered late in window. Regime check: CONDITIONAL — verify live at open, confirm a CHOP slot is actually open post-UNH-fill first.
+2. **FCX** — Materials, non-overlapping. Entry: pullback hold $60-63 or breakout reclaim >$71.43 (verify live, current mid-$60s). Stop: ~8% below entry (~$57 from a $62 entry). Target: $71.43 resistance / prior high (~+15%, under 2:1 from a $62 entry — verify R:R live before acting). Regime check: CONDITIONAL — verify live at open, same slot-availability caveat as NVDA.
+
+### Risk Factors
+- **July NFP releases at 8:30am ET** — today's dominant volatility catalyst, releases after this research run; do not size new positions ahead of it, reassess post-print at market-open
+- **UNH sell order unfilled as of this check** (queued since 8/6 20:09 UTC, resubmitted 08:00 UTC today, filled_qty 0) — no overnight stop protection since old GTC was canceled; confirm fill and realized P&L at market-open routine before any other action
+- RTX +18.33% unrealized, now past the +15% tighten checkpoint and approaching +20% (second tighten trigger, 7%→5%) — watch closely today
+- Oil spiking on Hormuz tension (Brent +4% Thu) — geopolitical wildcard, no held-position overlap but a broad risk-off trigger if it escalates
+- Only 2 of 4 CHOP position slots will be open once UNH fill confirms — still within regime cap, no forced action
+
+### Decision
+HOLD — Regime CHOP confirmed (SPY -0.82% vs 50DMA, VIX ~15.8). Top priority for market-open: confirm UNH sell fill and log realized P&L before any other action. No new trades ahead of the 8:30am NFP print — entering into a major data release is undisciplined. NVDA (Tech breakout) and FCX (Materials, copper) are non-overlapping watchlist candidates for the 1-2 slots that open once UNH exits; verify live triggers and R:R post-NFP, do not chase. 0 of 2 CHOP weekly trade slots used this week (Mon 8/3–today). Patience > activity.
