@@ -645,3 +645,16 @@ No positions yet. Bot launches tomorrow.
 **Notes:** UNH cut (Trade #5) confirmed filled at today's market open — 16 sh @ $402.60 avg, realized -$517.06 (-7.43%), old GTC stop canceled cleanly, no leftover position or orders. No new trades submitted today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/3–Fri 8/7), both still available but unused, no confirmed live trigger found for NVDA/FCX watchlist candidates (both no-man's-land per market-open check). Positions now JPM/RTX only, 2 of 4 CHOP slots filled — well under regime cap, room to add if a clean setup appears. Cash climbed to 68.2% (up from 55.7% pre-cut) on the UNH proceeds; capital deployment now below the CHOP 60% target, a headroom flag for next week rather than an action item today. JPM +3.04% unrealized, steady, well below the +15% tighten trigger. RTX +18.49% unrealized, still below the +20% second-tighten trigger — already at 7% trail (correct band for +15-20%), no-loosen rule applies, watch closely for the +20% crossing which would tighten to 5%. No thesis breaks, no sector-momentum exits triggered. Day P&L +$81.85 (+0.16%) on a quiet green session. Phase P&L +$1,043.87 (+2.09%) vs $50,000 launch baseline, recovering from Thursday's +1.92% post-cut dip. Tomorrow: weekend — no trading. Next session Mon 8/10 (Day 76): reassess RTX's +20% trigger, watch for a regime-aligned 3rd/4th position setup, patience over forcing a fill for the unused weekly slots. Patience > activity.
 
 ---
+
+### Aug 8 — Midday Check (Day 76, Saturday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 8, 2026 is a Saturday — market closed. This is a **recurring weekend cron misfire** — same pattern as Aug 1-2, flagged twice already (push notification sent Aug 2), guard held Mon 8/3-Fri 8/7 (weekday runs clean) but has now failed again on the following weekend. Guard is not weekend-proof. No trades possible.
+
+| Ticker | Shares | Entry | Current (Fri 8/7 close, unchanged) | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $357.52 | +$221.34 (+3.04%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $223.03 | +$1,336.92 (+18.16%) | $209.8545 (7% trailing GTC, HWM $225.65) |
+
+**Action taken:** None — no losers at -7%, no tighten trigger crossed (RTX 18.16%, below +20%), 2/4 CHOP position slots within regime cap, no thesis breaks. `change_today: 0` on both positions confirms no session. Skipping Telegram per Step 8 (no trading action taken). Escalating the cron misfire recurrence to the user via push notification.
+
+---
