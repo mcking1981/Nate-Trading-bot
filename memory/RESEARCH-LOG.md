@@ -2406,3 +2406,18 @@ HOLD — Regime CHOP confirmed (SPY -0.82% vs 50DMA, VIX ~15.8). Top priority fo
 - **JPM** (existing position): $356.97, +2.88% unrealized. Well below +15% tighten trigger. 10% trailing GTC stop intact ($326.70, HWM $363.00). No action.
 - **RTX** (existing position): $223.35, +18.33% unrealized, still below the +20% second-tighten trigger. 7% trail intact ($209.8545, HWM $225.65). No action, no-loosen rule applies, watch for +20% mark.
 - No trades placed today. 2 of 4 CHOP position slots filled (JPM, RTX), 2 open. 0 of 2 CHOP weekly trade slots used this week. Patience > activity.
+
+---
+
+## 2026-08-08 — Pre-market Research — SKIPPED (Weekend, market closed)
+
+Confirmed Saturday (day-of-week check on 2026-08-08). Same weekend routine-misfire pattern flagged in the Aug 3 and Aug 7 weekly reviews (still unresolved cron/schedule config issue) — logging this explicitly instead of leaving a silent gap, per the recurring "logging gap reduces confidence" lesson.
+
+### Account Snapshot (informational only, no research performed)
+- Equity: $51,019.53 | Cash: $34,813.44 (68.2%) | Buying power: $184,630.81
+- Positions unchanged from Fri 8/7 close: JPM 21sh @ $346.98, now $357.52 (+3.04%, +$221.34) | RTX 39sh @ $188.75, now $223.03 (+18.16%, +$1,336.92)
+- Open orders confirmed live: JPM 10% trailing GTC stop $326.70 (HWM $363.00) | RTX 7% trailing GTC stop $209.8545 (HWM $225.65)
+- No macro/sector/earnings research run — market closed, no trades possible, Friday's data still stands. Full pre-market research resumes next trading session (Mon 8/10).
+
+### Decision
+HOLD (no action possible or needed) — market closed. Next real pre-market run: Monday 8/10. Carry forward from Aug 7 weekly review: re-verify NVDA ($213 pullback/retest) and FCX (>$71.43 breakout reclaim) live at Monday's open.
