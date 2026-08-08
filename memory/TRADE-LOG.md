@@ -658,3 +658,16 @@ No positions yet. Bot launches tomorrow.
 **Action taken:** None — no losers at -7%, no tighten trigger crossed (RTX 18.16%, below +20%), 2/4 CHOP position slots within regime cap, no thesis breaks. `change_today: 0` on both positions confirms no session. Skipping Telegram per Step 8 (no trading action taken). Escalating the cron misfire recurrence to the user via push notification.
 
 ---
+
+### Aug 8 — Daily-Summary Check (Day 76, Saturday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 8, 2026 is a Saturday — market closed. This is the daily-summary routine firing on the **same recurring weekend cron misfire** already flagged by today's pre-market and midday runs (pattern matches Aug 1-2). No new close data exists — Alpaca `balance_asof` still reads 2026-08-07, `change_today: 0` on both positions confirms no session. Equity $51,019.53 vs Friday's logged EOD ($51,043.87) is stale-intraday-pricing variance only (consistent with prior gaps, e.g. Jul 24 entry) — not an untracked trade; no fill activity, no order changes since the Aug 7 EOD snapshot.
+
+| Ticker | Shares | Entry | Current (Fri 8/7 close, unchanged) | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $357.52 | +$221.34 (+3.04%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $223.03 | +$1,336.92 (+18.16%) | $209.8545 (7% trailing GTC, HWM $225.65) |
+
+**Action taken:** Skipping the EOD snapshot (would duplicate the already-logged Aug 7 EOD with no new session data) and skipping Telegram (no new information to report, avoid spamming stale data as if it were today's close) — per Aug 1/Aug 2 precedent. No push notification sent — this exact recurrence was already escalated to the user via push notification from today's midday check; a second alert for the same non-event would be redundant. Cron guard still not weekend-proof; needs a fix before next weekend (flagged 3rd time now: Aug 1-2, and today).
+
+---
