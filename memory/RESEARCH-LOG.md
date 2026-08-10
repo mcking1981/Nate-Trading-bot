@@ -2482,3 +2482,6 @@ Pre-market 8/10: light — CAMT, BLTE, EYE, NBIS, PFGC, KTB, AMCR, GLBE (estimat
 
 ### Decision
 HOLD pre-market — no trades executed in this routine (research only). Regime BULL confirmed (SPY +3.67% vs 50DMA, VIX 14.90). NVDA (Tech breakout) and CAT (Industrials pullback) carried as conditional watchlist candidates for the 4 open BULL slots; verify live triggers and R:R at market-open, do not chase. 0 of 3 BULL weekly trade slots used this week. JPM/RTX theses intact, all GTC trailing stops confirmed live. Patience > activity.
+
+### Market-Open Check — 09:56 ET
+NO CONFIRMED SETUP — NVDA at $221.94 vs trigger $224 (breakout/reclaim above), zone status: BELOW trigger (-0.9%), unconfirmed — carry forward to watchlist, do not chase. NO CONFIRMED SETUP — CAT at $844.48 vs pullback zone $815-830, zone status: ABOVE zone (+1.7% over top bound), still extended/no-man's-land, no pullback materialized — carry forward. No trades executed. Positions unchanged: JPM 21sh (+3.37% unrealized, $358.67), RTX 39sh (+19.67% unrealized, $225.87, approaching but still below the +20% second-tighten trigger — no-loosen rule applies, watch next check). Endpoint confirmed paper-api. 2 of 6 BULL position slots filled, 0 of 3 weekly trade slots used. Patience > activity.
