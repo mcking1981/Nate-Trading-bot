@@ -697,3 +697,13 @@ No positions yet. Bot launches tomorrow.
 **Action taken:** Skipping the EOD snapshot (would duplicate the already-logged Aug 7 EOD with no new session data) and skipping Telegram (no new information to report vs. today's midday check) — per Aug 8 precedent. No push notification — this exact recurrence already escalated 4x prior (Aug 2, Aug 8 x2, Aug 9 midday); a repeat alert for the same known, unresolved infra issue would be redundant. Next real EOD: Monday 8/10 close, assuming the cron guard holds on a weekday (it has held every weekday so far — only weekends misfire).
 
 ---
+
+### Aug 10 — Midday Check (Day 78, Monday)
+**Regime:** BULL (max 6 positions, max 20%/position, 85% target deployed) — first BULL-regime midday check, flipped from CHOP this morning (SPY +3.67% vs 50DMA, VIX 14.90)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $357.745 | +$226.07 (+3.10%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $224.98 | +$1,412.97 (+19.20%) | $211.002 (7% trailing GTC, HWM $226.884) |
+**Action taken:** None required. No losers at -7% (both green — JPM +3.10%, RTX +19.20%). RTX still below the +20% second-tighten trigger (would move trail 7%→5%) — correct 7% band already in place from 7/27, no-loosen rule applies, watch closely as next intraday move could cross +20%. JPM well below the +15% tighten trigger. 2 of 6 BULL position slots filled (regime cap widened from CHOP's 4 to BULL's 6 this morning) — well within cap, no forced closes needed. No thesis breaks: JPM steady near 52wk high, no negative catalysts; RTX record $289B backlog, new $1.3B Pratt & Whitney F135 contract, momentum intact. No unusual single-name price action warranting Tavily/WebSearch research (Tavily also currently unauthenticated in this session). 0 of 3 BULL weekly new-buy slots used this week. Patience > activity.
+
+---
