@@ -707,3 +707,14 @@ No positions yet. Bot launches tomorrow.
 **Action taken:** None required. No losers at -7% (both green — JPM +3.10%, RTX +19.20%). RTX still below the +20% second-tighten trigger (would move trail 7%→5%) — correct 7% band already in place from 7/27, no-loosen rule applies, watch closely as next intraday move could cross +20%. JPM well below the +15% tighten trigger. 2 of 6 BULL position slots filled (regime cap widened from CHOP's 4 to BULL's 6 this morning) — well within cap, no forced closes needed. No thesis breaks: JPM steady near 52wk high, no negative catalysts; RTX record $289B backlog, new $1.3B Pratt & Whitney F135 contract, momentum intact. No unusual single-name price action warranting Tavily/WebSearch research (Tavily also currently unauthenticated in this session). 0 of 3 BULL weekly new-buy slots used this week. Patience > activity.
 
 ---
+
+### Aug 10 — EOD Snapshot (Day 78, Monday)
+**Portfolio:** $51,136.23 | **Cash:** $34,813.44 (68.1%) | **Day P&L:** +$92.36 (+0.18%) | **Phase P&L:** +$1,136.23 (+2.27%)
+**Regime:** BULL (SPY vs 50DMA +3.67%, VIX 14.90 — first BULL day, flipped from CHOP this morning)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $359.79 | +0.64% | +$269.01 (+3.69%) | $326.70 (10% trailing GTC, HWM $363.00) |
+| RTX | 39 | $188.75 | $224.80 | +0.79% | +$1,405.95 (+19.10%) | $211.002 (7% trailing GTC, HWM $226.884) |
+**Notes:** First full trading day under the new BULL regime (flipped from CHOP pre-market, ~7 straight weeks of CHOP prior). No trades executed today — 0 of 3 BULL weekly new-buy slots used (week starts today). Both positions closed green, no losers at -7%. RTX ended +19.10% unrealized, still shy of the +20% second-tighten trigger despite an intraday high (HWM ticked up to $226.884, new stop $211.002) — no-loosen rule respected, band stays at 7% until +20% actually crosses. JPM +3.69%, well below the +15% tighten trigger. 2 of 6 BULL position slots filled, deployment 31.9% vs the new 85% BULL target — a real gap to close on qualifying setups over coming sessions, not a same-day trigger to chase. NVDA and CAT remain conditional watchlist candidates; neither confirmed a live trigger at market-open (NVDA below $224 breakout level, CAT above the $815-830 pullback zone) — carried forward, no forcing. CPI Wed 8/12 and PPI Thu 8/13 are this week's real catalysts; size any new adds with that in mind. Day P&L +$92.36 (+0.18%) on a quiet green Monday. Phase P&L +$1,136.23 (+2.27%) vs $50,000 launch baseline, up from Friday's +2.09%. Tomorrow: reassess NVDA/CAT triggers at market-open, watch RTX's +20% crossing, patience over forcing weekly-slot usage. Patience > activity.
+
+---
