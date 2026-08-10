@@ -2437,3 +2437,48 @@ Confirmed Sunday (`date +%A` = Sunday, 2026-08-09). Same recurring weekend cron 
 
 ### Decision
 HOLD (no action possible or needed) — market closed. No losers at -7%, no tighten trigger crossed, no thesis breaks — nothing urgent to escalate. Skipping Telegram per Step 5 (no genuine urgency) and skipping a fresh push notification (this exact cron-misfire recurrence already escalated 3x previously — a 4th alert for the same known, unresolved infra issue would be redundant). Next real pre-market run: Monday 8/10. Carry forward from Aug 7 weekly review: re-verify NVDA ($213 pullback/retest) and FCX (>$71.43 breakout reclaim) live at Monday's open.
+
+---
+
+## 2026-08-10 — Pre-market Research
+
+**REGIME: BULL** | SPY vs 50DMA: +3.67% ($773.26 vs 50DMA $745.89) | VIX: 14.90
+*(Regime limits: max 6 positions, max 20%/position, max 85% target deployed, max 3 new trades/week)*
+
+**Regime shift note:** First BULL classification since routine tracking began — prior ~7 straight weeks all stamped CHOP. SPY 50DMA sourced from Barchart (5-day $749.44, 20-day $747.20, 50-day $745.89, cross-checked against Yahoo/Intellectia 20-day $750.17/60-day $746.54 — consistent). VIX 14.90 confirmed via CBOE futures + Investing.com, both <15. Both regime conditions (SPY ≥+2%, VIX <15) independently satisfied.
+
+### Account Snapshot
+- Equity: $51,005.46 | Cash: $34,813.44 (68.2%) | Buying power: $184,591.42 | Daytrade count: 0 (field not returned by account endpoint; no day trades in this account's history)
+- Positions: JPM 21sh @ $346.98 (current $356.85, +2.85%/+$207.27) | RTX 39sh @ $188.75 (current $223.03, +18.16%/+$1,336.92) — 2 of 6 BULL slots filled
+- Open orders: JPM 10% trailing GTC stop $326.70 (HWM $363.00) | RTX 7% trailing GTC stop $209.8545 (HWM $225.65) — both confirmed live
+- Deployment: $16,192.02 / $51,005.46 = 31.7%, well below the new 85% BULL target (53pp gap)
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI $78.18 (+1.15%), Brent $83.55 (+1.29%) — Hormuz-deal dip reversed higher. S&P futures +0.58% (ES 7,779.75), Nasdaq 100 futures +1.18% — risk-on after Friday's weak jobs report eased rate-hike fears. VIX 14.90 (-1.65%), well below 18.6 long-run avg. DXY 99.54 (-0.39%), soft. 10Y yield 4.65% (-0.26%), eased on weak jobs data; Sept cut odds ~42-58%. Calendar today: light (CB Employment Trends Index, T-bill auctions). CPI Wed 8/12, PPI Thu 8/13 are this week's real catalysts — no FOMC this week.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK (Tech) +33%, XLE (Energy) +21%, XLI (Industrials) +20%. Last 5-day: Tech + Consumer Disc +1.3% Fri; Energy -1.2%, stalling as Mideast tensions ease — avoid new Energy adds. **Strongest current momentum: Technology, Industrials.**
+- **NVDA** (Tech, no overlap): $223.96 (8/7 close), reclaimed 50d MA ($200.71)/200d MA ($202.44) post-pullback, consolidating tight range. Earnings 8/26.
+- **CAT** (Industrials/Machinery, sub-industry differs from RTX's Aerospace-Defense): $844.52 (8/7 close), down ~10% from $991 July high, pulling into $815-830 support.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market 8/10: light — CAMT, BLTE, EYE, NBIS, PFGC, KTB, AMCR, GLBE (estimates only, not yet actual), plus Berkshire Hathaway. No JPM/RTX earnings today. Friday 8/7 AH — big beats: TEAM +34% (raised guide), TWLO +31% (4yr high), NET +9% (rev +36% YoY), ABNB +7-17%, PLTR +10%, HALO +17%. Misses: **TTD -21%** (rev/EPS miss), DKNG (loss vs expected profit), AFL narrow miss. Macro backdrop: July jobs weak (-23K vs +83K est), unemployment 4.1%.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — Closed $357.52 (+0.34% Fri), near 52wk high $363. Strong Q2, 10% dividend hike, $50B buyback post stress-test pass. No new catalysts.
+- **RTX** — Closed $223.03 (-0.10% Fri), +21.6% YTD. New $1.3B Pratt & Whitney F135 sustainment contract; record $289B backlog. Momentum intact, no news against holding.
+
+### Trade Ideas
+(No earnings catalyst for held names or confirmed live trigger pre-market — NVDA/CAT are Sector Scout's named non-overlapping/low-overlap candidates, listed per protocol as conditional/watchlist only.)
+1. **NVDA** — Tech, momentum leader, reclaimed 50d/200d MA. Entry: confirmed hold/breakout above $224. Stop: ~9% below entry (~$204, near 200d MA). Target: ~$264 (+18%, ~2:1 R:R). Earnings 8/26 (~12 trading days out) — avoid entering late in window. Regime check: CONDITIONAL — verify live trigger at market-open, do not chase.
+2. **CAT** — Industrials/Machinery (AI-power-buildout thesis), pulled back ~10% off July highs. Entry: pullback hold in $815-830 zone — current $844.52 sits ABOVE the zone, no-man's-land pre-market. Stop: ~8% below entry (~$750 from an $815 entry). Target: ~$945 (+16%, ~2:1 R:R). Regime check: CONDITIONAL — same broad sector as RTX (Industrials) but different sub-industry; confirm live pullback trigger at market-open, judge sector-overlap before sizing.
+
+### Risk Factors
+- Regime just flipped CHOP→BULL after ~7 straight weeks of CHOP — treat as newly confirmed, not yet battle-tested; scale into the new 6-position/20%/85%-deployed/3-trades-week limits gradually rather than rushing to fill capacity day one.
+- CPI Wed 8/12, PPI Thu 8/13 this week — avoid oversizing new capital immediately ahead of mid-week inflation prints.
+- RTX +18.16% unrealized, approaching the +20% second-tighten trigger (7%→5%) — watch closely, no-loosen rule applies.
+- Deployment at 31.7% vs the new 85% BULL target is now a 53pp gap (was a smaller gap under CHOP's 60% target) — a real priority to close on qualifying setups, but never a reason to force a fill.
+- TTD -21% earnings miss (ad-tech, no portfolio overlap) — reminder single-name earnings risk is elevated this week; avoid entering NVDA/CAT without a clean confirmed trigger.
+
+### Decision
+HOLD pre-market — no trades executed in this routine (research only). Regime BULL confirmed (SPY +3.67% vs 50DMA, VIX 14.90). NVDA (Tech breakout) and CAT (Industrials pullback) carried as conditional watchlist candidates for the 4 open BULL slots; verify live triggers and R:R at market-open, do not chase. 0 of 3 BULL weekly trade slots used this week. JPM/RTX theses intact, all GTC trailing stops confirmed live. Patience > activity.
