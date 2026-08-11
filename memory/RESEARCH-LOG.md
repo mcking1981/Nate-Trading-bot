@@ -2485,3 +2485,51 @@ HOLD pre-market — no trades executed in this routine (research only). Regime B
 
 ### Market-Open Check — 09:56 ET
 NO CONFIRMED SETUP — NVDA at $221.94 vs trigger $224 (breakout/reclaim above), zone status: BELOW trigger (-0.9%), unconfirmed — carry forward to watchlist, do not chase. NO CONFIRMED SETUP — CAT at $844.48 vs pullback zone $815-830, zone status: ABOVE zone (+1.7% over top bound), still extended/no-man's-land, no pullback materialized — carry forward. No trades executed. Positions unchanged: JPM 21sh (+3.37% unrealized, $358.67), RTX 39sh (+19.67% unrealized, $225.87, approaching but still below the +20% second-tighten trigger — no-loosen rule applies, watch next check). Endpoint confirmed paper-api. 2 of 6 BULL position slots filled, 0 of 3 weekly trade slots used. Patience > activity.
+
+---
+
+## 2026-08-11 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +3.65% ($773.10 vs $745.89) | VIX: ~15.31-15.46
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+**Regime shift note:** Flipped back from Monday's BULL — SPY still well above +2% threshold, but VIX ticked up from 14.90 (Mon) to ~15.3-15.46 (crossed above the <15 Bull requirement). Bull needs BOTH conditions; VIX failing means Chop's OR condition (VIX 15-25) governs. Narrow/borderline call — VIX is right at the boundary, could flip back either direction intraday.
+
+### Account Snapshot
+- Equity: $51,105.51 | Cash: $34,813.44 (68.1%) | Buying power: $184,871.56 | Daytrade count: N/A (not returned by account endpoint; no day-trade history)
+- Positions: JPM 21sh @ $346.98 (current $359.59, +3.63%/+$264.81) | RTX 39sh @ $188.75 (current $224.12, +18.74%/+$1,379.43) — 2 of 4 CHOP slots filled
+- Open orders: JPM 10% trailing GTC stop $326.70 (HWM $363.00) | RTX 7% trailing GTC stop $211.002 (HWM $226.884) — both confirmed live
+- Deployment: $16,292.07 / $51,105.51 = 31.9%, below the CHOP 60% target (28pp gap)
+
+### Macro (Sub-agent 1 synthesis)
+Oil spiking: WTI $81.75 (+4.6%), Brent $87.17 (+4.3%) on Iran/Strait of Hormuz escalation — idiosyncratic geopolitical shock, not broad risk-off. S&P futures roughly flat, cash S&P near record highs ($7,753-7,777). VIX 15.31 (prev close 14.90, ticked above the Bull threshold). DXY 99.81 (+0.27%), mild strength. 10Y yield 4.65%, holding range post last week's weak jobs print. No major US econ print today; CPI Wed 8/12 and PPI Thu 8/13 are this week's real catalysts, FOMC Minutes 8/19.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +30.9%, XLE +30.4%, XLI +20.0%, XLB +17.5%. Last-5-day breadth: Tech and Health Care strongest (76% each), Tech is the only sector in RRG's leading quadrant. Financials (39%) and Energy (24%) weak — no overlap risk for JPM. **Strongest current momentum: Technology, Health Care** (neither overlaps JPM/RTX).
+- **NVDA** (Tech): $223.96, pulled back below 20/50-DMA. Entry: reclaim >$226. Stop: $205 (-9.3%). Target: ~$268 (+18.6%, ~2:1 R:R).
+- **AVGO** (Tech/AI-semis): $427.76, coiled at triangle breakout, 7 straight up days. Entry: close >$428. Stop: $394 (-7.9%). Target: ~$496 (+15.9%, ~2:1 R:R). NVDA/AVGO both semis — one sub-industry slot if sizing either.
+- **LLY** (Health Care/GLP-1): $948.45, post-earnings breakout. Entry: pullback ~$920-930 or continuation >$960. Stop: <$900. Target: $1,085+ analyst consensus — verify R:R live before acting, stop distance looks tight from the pullback entry.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market 8/11: CAVA beat (strong reaction expected), QDEL beat but cut FY26 guide, Integer Holdings beat but margins declined, Inogen beat EPS but cut 2026 view. BMO reporters not yet posted: SE, CAH, VG. AMC today: LITE, CRWV, FNV. Yesterday AH: MNDY beat EPS/revenue but fell ~6% on soft Q3 guide. No JPM earnings. RTX not earnings but won a new $745.4M Missile Defense Agency contract (news after 8/10 close) — bullish, extends contract-win streak.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM**: Closed $359.79, fresh all-time high, 0.9% below 52wk high. Record Q2 EPS $6.14, buy-leaning ratings (47% buy/40% hold). No negative catalysts — thesis intact.
+- **RTX**: Near 52wk high, PT raises (BofA $235, RBC $250). New $745.4M Missile Defense Agency contract + prior F135/DLA wins confirm defense momentum — thesis intact. Approaching +20% second-tighten trigger, watch closely.
+
+### Trade Ideas
+(No earnings catalyst for JPM/RTX or confirmed live pre-market trigger — NVDA/AVGO/LLY are Sector Scout's named non-overlapping candidates, listed per protocol as conditional/watchlist only.)
+1. **NVDA** — Tech, pulled back below 20/50-DMA. Entry: confirmed reclaim/close >$226. Stop: $205 (-9.3%). Target: ~$268 (+18.6%, ~2:1 R:R). Regime check: CONDITIONAL — verify live trigger at market-open, do not chase.
+2. **AVGO** — Tech/AI-semis, coiled at breakout resistance. Entry: confirmed close >$428. Stop: $394 (-7.9%). Target: ~$496 (+15.9%, ~2:1 R:R). Same sub-industry as NVDA — treat as one slot if both trigger. Regime check: CONDITIONAL — verify live at market-open.
+3. **LLY** — Health Care/GLP-1, post-earnings breakout. Entry: pullback hold $920-930 or continuation >$960. Stop: <$900 (verify actual R:R live, pullback-entry stop distance looks tight). Regime check: CONDITIONAL — verify live trigger and R:R math before acting, do not chase.
+
+### Risk Factors
+- Regime classification is borderline today (VIX 15.31-15.46, right at the Bull/Chop 15 threshold) — could flip either direction intraday; treat CHOP limits as binding for now, don't presume a Bull reclassification.
+- Oil spiking on renewed Iran/Strait of Hormuz tension (WTI +4.6%, Brent +4.3%) — geopolitical wildcard, no held-position overlap but a broad risk-off trigger if it escalates further.
+- CPI Wed 8/12, PPI Thu 8/13 this week — avoid oversizing new capital immediately ahead of mid-week inflation prints.
+- RTX +18.74% unrealized, approaching the +20% second-tighten trigger (7%→5%) — watch closely, no-loosen rule applies.
+- MNDY -6% AH on soft guidance despite a beat — reminder single-name guidance risk is elevated this earnings season (no portfolio overlap).
+- Deployment at 31.9% vs the CHOP 60% target is a real gap, but per last week's review lesson: don't force a fill — the 2 open slots stay open until a live trigger confirms.
+
+### Decision
+HOLD — no trades executed in this routine (research only). Regime CHOP confirmed (SPY +3.65% vs 50DMA, VIX ~15.3-15.46, narrowly missing Bull on the VIX leg). NVDA and AVGO (Tech breakout/pullback, same sub-industry — one slot) and LLY (Health Care pullback) carried as conditional watchlist candidates for the 2 open CHOP slots; verify live triggers and R:R at market-open, do not chase. 0 of 2 CHOP weekly trade slots used this week (week of Mon 8/10). JPM/RTX theses intact, both GTC trailing stops confirmed live. Patience > activity.
