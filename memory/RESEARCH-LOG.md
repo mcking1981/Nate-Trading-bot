@@ -2582,3 +2582,8 @@ Pre-market 8/12: heavy calendar, no confirmed beats/misses yet — AIT, BIRK, BL
 
 ### Decision
 HOLD — no trades executed in this routine (research only). Regime CHOP confirmed (SPY +0.81% vs 50DMA, VIX ~15.28 — clean read, not borderline). LLY (Healthcare post-earnings breakout) carried as the lone conditional watchlist candidate for the 2 open CHOP slots; verify live trigger and confirm it hasn't run further away at market-open, do not chase. NVDA dropped from actionable trade ideas — already extended above its breakout point with no acceptable R:R; kept on watchlist only. 0 of 2 CHOP weekly trade slots used this week (week of Mon 8/10). JPM/RTX theses intact, both GTC trailing stops confirmed live at correct levels. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+- NO CONFIRMED SETUP — LLY at $1,262.59 (ask) vs trigger $1,185, extended zone (+6.5%, past the +3% confirmation band, no intraday pullback into zone) — too extended, skip, dropped from watchlist per Step 3 expiry rule.
+- NO CONFIRMED SETUP — NVDA at $222.45 (ask) vs breakout trigger $212.19, extended zone (+4.8%, past +3% band) — already flagged FAIL in pre-market Trade Ideas, remains no-entry, carried watchlist-only per research log (not expired, no named hard trigger to drop).
+- Account: safety check passed (paper-api endpoint confirmed). Positions unchanged — JPM 21sh (+4.68% unrealized, stop $327.249 10% trailing GTC live) and RTX 39sh (+16.85% unrealized, below +20% tighten trigger, stop $211.002 7% trailing GTC live). No losers at -7%, no thesis breaks, 2/4 CHOP slots filled. No trade placed — 0 of 2 CHOP weekly slots used this week. Patience > activity.
