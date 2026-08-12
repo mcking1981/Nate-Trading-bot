@@ -2536,3 +2536,49 @@ HOLD — no trades executed in this routine (research only). Regime CHOP confirm
 
 ### Market-Open Check — 09:56 ET
 NO CONFIRMED SETUP — NVDA at $219.39 vs trigger $226 (reclaim above), zone status: BELOW trigger (-2.9%), unconfirmed — carry forward to watchlist, do not chase. NO CONFIRMED SETUP — AVGO at $418.65 vs trigger $428 (close above), zone status: BELOW trigger (-2.2%), unconfirmed — carry forward to watchlist, same sub-industry as NVDA (one slot). NO CONFIRMED SETUP — LLY at ~$1,236 (quote mid) vs continuation trigger $960, zone status: EXTENDED — +28.7% above trigger with no pullback into $920-930 or $960 confirmation zone, far beyond the +3% band — too extended, skip, drop from watchlist. Flag: LLY's jump from $948.45 (8/7 close) to ~$1,236 is a ~30% move with no earnings/M&A catalyst in today's research — treat as probable data anomaly in paper quote feed pending next session's confirmation, not a real tradeable breakout regardless. Note: NVDA/RTX/JPM quote-endpoint ask prices showed abnormally wide bid/ask spreads (RTX ap $235.64/bp $212.80, JPM ap $362.77/bp $342.04); used Alpaca positions-endpoint last-trade price instead for held names (JPM $362.63, RTX $224.07) as the reliable figure. No trades executed. Positions unchanged: JPM 21sh (+4.51% unrealized, $362.63, below +15% tighten trigger), RTX 39sh (+18.71% unrealized, $224.07, still below +20% second-tighten trigger — no-loosen rule applies, watch next check). Endpoint confirmed paper-api. 2 of 4 CHOP position slots filled, 0 of 2 weekly trade slots used. Patience > activity.
+
+---
+
+## 2026-08-12 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.81% ($774.96 vs $768.74) | VIX: ~15.28
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+**Regime note:** SPY well inside the ±2% band (+0.81%), so Chop is confirmed on the SPY leg alone — Bull requires SPY ≥+2% AND VIX <15, and the SPY leg fails regardless of VIX. VIX ~15.28, itself sitting in the Chop 15-25 band too. Not a borderline call today.
+
+### Account Snapshot
+- Equity: $51,119.01 | Cash: $34,813.44 (68.1%) | Buying power: $184,909.36 | Daytrade count: N/A (not returned by account endpoint; no day-trade history)
+- Positions: JPM 21sh @ $346.98 (current $361.83, +4.28%/+$311.85) | RTX 39sh @ $188.75 (current $223.26, +18.29%/+$1,345.89) — 2 of 4 CHOP slots filled
+- Open orders: JPM 10% trailing GTC stop $326.808 (HWM $363.12) | RTX 7% trailing GTC stop $211.002 (HWM $226.884) — both confirmed live
+- Deployment: $16,305.57 / $51,119.01 = 31.9%, below the CHOP 60% target (28pp gap)
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI ~$83.7-84.0, Brent ~$89.4, both +~1% overnight. S&P futures soft/flat-to-down (ES -0.30% Aug 11 settle) on inflation jitters ahead of this week's data. VIX ~15.3, low-vol regime, down slightly. DXY ~99.8-99.9, flat, just under 100. 10Y yield ~4.65%, little changed. Econ calendar quiet today — Eurozone HICP 2.8% Y/Y released; **PPI tomorrow (Aug 13) and Retail Sales Thu (Aug 14)** flagged as this week's real catalysts, no FOMC Minutes until Aug 19. **Discrepancy flag:** last week's research (Aug 10/11 logs) had flagged CPI for today (Wed 8/12) as a catalyst; today's macro sub-agent's econ-calendar query surfaced no CPI print for today, only PPI tomorrow — verify live at market-open before assuming CPI risk is off the table today.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLE +36.45%, XLK +29.73%, XLI +19.63%, XLB +18.23%. Last-5-day breadth: XLK 76%, XLV 76%, XLB 69%, XLI 64%, vs XLE only 24% (Energy YTD-strong but fading short-term, avoid new adds). **Strongest current momentum: Technology, Healthcare** — no overlap with JPM (Financials) or RTX (Industrials/Aerospace-Defense).
+- **NVDA** (Tech): ~$217.50, near ATH, earnings 8/26. IBD breakout point $212.19 already broken — price is extended above it, chasing risk. Support cited at $209/$200 psychological.
+- **LLY** (Healthcare/GLP-1): ~$1,231.94, post-earnings breakout (blew past estimates, raised Zepbound/Mounjaro outlook — confirms yesterday's $1,236 quote was real, not a data anomaly as flagged in the 8/11 market-open check). Base support $1,150-1,185. Analyst target $1,296.80.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market 8/12: heavy calendar, no confirmed beats/misses yet — AIT, BIRK, BLSH, JD.com, YETI, Nomad Foods, McGraw Hill report; CSCO and AMAT also on deck this week. Q2 S&P 500 season ~90% reported, +41.7% YoY earnings growth (Zacks). AH yesterday/this week: ABNB beat + raised guide (+9-12%), Lyft beat, LLY blew past estimates + raised outlook (confirms LLY breakout above), CVS beat + hiked guidance, DraftKings missed but dip bought, Trade Desk (TTD) -20%+ (no portfolio overlap). No JPM/RTX earnings today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — Closed $359.79 (Aug 10), near 52wk high $363.12, consensus Buy (60% buy/strong-buy), Barclays reiterated Buy. No fresh 24h catalyst, steady uptrend.
+- **RTX** — Near 52wk high $226.88, YTD +23%. Fresh $745M SM-3 IIA interceptor award + Chinook modernization support. **Dividend ex-date Thu Aug 14** ($0.73/sh) — expect a small mechanical gap down that day, not a thesis break. Momentum intact.
+
+### Trade Ideas
+(No earnings catalyst for held names; no confirmed live pre-market trigger for either candidate — both are Sector Scout's named non-overlapping candidates, listed per protocol as conditional/watchlist only.)
+1. **LLY** — Healthcare, real post-earnings breakout (beat + raised guidance), confirms yesterday's flagged "anomaly" price was genuine. Entry: bounce/hold above $1,185 support. Stop: below $1,150 (-2.95% from entry). Target: analyst consensus $1,296.80 (+9.4% from entry, ~3.2:1 R:R). Regime check: CONDITIONAL — verify live trigger at market-open; current price ~$1,232 is already well above the $1,185 entry zone, so this may already be extended — do not chase if no clean pullback confirms.
+2. **NVDA** — Tech, momentum leader but already broken above its $212.19 IBD buy point with current price ~$217.50 — extended, chasing risk. No clean entry zone or target with acceptable R:R at today's levels. Regime check: FAIL — do not enter without a fresh pullback/reclaim setup; carry as watchlist-only, re-verify next session.
+
+### Risk Factors
+- **CPI discrepancy** — prior week's research flagged CPI for today (Wed 8/12); today's macro sub-agent did not confirm a CPI print in today's calendar, only PPI tomorrow (8/13) and Retail Sales Thu (8/14). Verify live before market-open; avoid sizing new capital until this is resolved either way.
+- RTX +18.29% unrealized, still below the +20% second-tighten trigger (7%→5%) — watch closely, no-loosen rule applies. Dividend ex-date Thu 8/14 will cause a small mechanical price gap, not a thesis signal.
+- JPM +4.28% unrealized, well below the +15% tighten trigger — no action needed.
+- S&P futures soft on inflation-data anticipation heading into PPI/Retail Sales later this week — argues for continued Chop-sizing discipline, not chasing extended names like NVDA.
+- Deployment at 31.9% vs the CHOP 60% target is a real gap (28pp) but not a same-day trigger to force a fill — per repeated prior-week lessons, don't chase extension to close it.
+- TTD -20%+ AH move (ad-tech, no portfolio overlap) — reminder single-name earnings-guidance risk remains elevated this season.
+
+### Decision
+HOLD — no trades executed in this routine (research only). Regime CHOP confirmed (SPY +0.81% vs 50DMA, VIX ~15.28 — clean read, not borderline). LLY (Healthcare post-earnings breakout) carried as the lone conditional watchlist candidate for the 2 open CHOP slots; verify live trigger and confirm it hasn't run further away at market-open, do not chase. NVDA dropped from actionable trade ideas — already extended above its breakout point with no acceptable R:R; kept on watchlist only. 0 of 2 CHOP weekly trade slots used this week (week of Mon 8/10). JPM/RTX theses intact, both GTC trailing stops confirmed live at correct levels. Patience > activity.
