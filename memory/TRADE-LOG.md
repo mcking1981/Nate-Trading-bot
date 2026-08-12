@@ -749,3 +749,14 @@ No positions yet. Bot launches tomorrow.
 **Action taken:** None required. No losers at -7% (both green). RTX +17.22% unrealized, pulled back slightly from this morning's high (-1.16% intraday, HWM $226.884 unchanged) but still below the +20% second-tighten trigger — already at correct 7% band from 7/27, no-loosen rule applies, watch closely for a fresh +20% crossing. JPM +5.01%, well below the +15% tighten trigger. 2 of 4 CHOP position slots filled — within regime cap, no forced closes needed. No thesis breaks: JPM near 52wk high, no negative catalysts; RTX intraday dip is normal noise (dividend ex-date Thu 8/14 will cause a separate small mechanical gap, not a signal), fresh SM-3 IIA/Chinook contract wins keep momentum intact. No unusual single-name price action warranting Tavily/WebSearch research — JPM +0.65% intraday, RTX -1.16% intraday, both within normal range. 0 of 2 CHOP weekly new-buy slots used this week. Patience > activity.
 
 ---
+
+### Aug 12 — EOD Snapshot (Day 80, Wednesday)
+**Portfolio:** $51,150.66 | **Cash:** $34,813.44 (68.1%) | **Day P&L:** +$11.19 (+0.02%) | **Phase P&L:** +$1,150.66 (+2.30%)
+**Regime:** CHOP (SPY vs 50DMA +0.81%, VIX ~15.28)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $365.0455 | +0.83% | +$379.38 (+5.21%) | $329.454 (10% trailing GTC, HWM $366.06) |
+| RTX | 39 | $188.75 | $222.34 | -0.68% | +$1,310.01 (+17.80%) | $211.002 (7% trailing GTC, HWM $226.884) |
+**Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/10–Wed 8/12), both still available. Regime held CHOP all day (SPY +0.81% vs 50DMA, VIX ~15.28 — clean read, not borderline). Both positions closed green on a quiet, roughly flat session — JPM +0.83% intraday to +5.21% unrealized (HWM ticked up to $366.06, new stop $329.454, well below the +15% tighten trigger), RTX -0.68% intraday, +17.80% unrealized, still below the +20% second-tighten trigger (7% trail band correct, no-loosen rule respected, dividend ex-date Thu 8/14 will cause a separate small mechanical gap, not a signal). No losers at -7%, no thesis breaks, no sector-momentum exits. 2 of 4 CHOP position slots filled, deployment at 31.9% ($16,337 of $51,151) vs the 60% CHOP target — a headroom gap to close on a qualifying setup, not a same-day trigger to chase. LLY/NVDA watchlist candidates remain conditional/extended, no forcing. PPI Thu 8/13 and Retail Sales Thu 8/14 are this week's remaining catalysts — size any new adds with that volatility in mind. Day P&L +$11.19 (+0.02%) on a flat session; Phase P&L +$1,150.66 (+2.30%) vs $50,000 launch baseline, up slightly from Tuesday's +2.28%. Tomorrow: PPI release pre-market — watch for regime/vol shift, reassess RTX's +20% trigger, patience over forcing weekly-slot usage. Patience > activity.
+
+---
