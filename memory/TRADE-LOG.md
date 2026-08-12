@@ -739,3 +739,13 @@ No positions yet. Bot launches tomorrow.
 **Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/10–Tue 8/11), both still available. Regime flipped back to CHOP this morning after Monday's one-day BULL blip (VIX ticked back up, missing the Bull VIX leg narrowly). Both positions closed green on a quiet, roughly flat session — JPM +0.53% intraday to +4.24% unrealized (HWM ticked up to $363.12, new stop $326.808, well below the +15% tighten trigger), RTX -0.12% intraday but still +18.60% unrealized, holding just under the +20% second-tighten trigger (7% trail band correct, no-loosen rule respected). No losers at -7%, no thesis breaks, no sector-momentum exits. 2 of 4 CHOP position slots filled, deployment at 31.9% ($16,326 of $51,139) vs the 60% CHOP target — a headroom gap to close on a qualifying setup, not a same-day trigger to chase. NVDA/AVGO/LLY watchlist candidates remain unconfirmed, no forcing. CPI Wed 8/12 and PPI Thu 8/13 are this week's real catalysts — size any new adds with that volatility in mind. Day P&L +$3.24 (+0.01%) on a flat session; Phase P&L +$1,139.47 (+2.28%) vs $50,000 launch baseline, up slightly from Monday's +2.27%. Tomorrow: CPI release pre-market — watch for regime/vol shift, reassess RTX's +20% trigger, patience over forcing weekly-slot usage. Patience > activity.
 
 ---
+
+### Aug 12 — Midday Check (Day 80, Wednesday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY +0.81% vs 50DMA, VIX ~15.28, clean read)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $364.375 | +$365.30 (+5.01%) | $329.256 (10% trailing GTC, HWM $365.84) |
+| RTX | 39 | $188.75 | $221.26 | +$1,267.89 (+17.22%) | $211.002 (7% trailing GTC, HWM $226.884) |
+**Action taken:** None required. No losers at -7% (both green). RTX +17.22% unrealized, pulled back slightly from this morning's high (-1.16% intraday, HWM $226.884 unchanged) but still below the +20% second-tighten trigger — already at correct 7% band from 7/27, no-loosen rule applies, watch closely for a fresh +20% crossing. JPM +5.01%, well below the +15% tighten trigger. 2 of 4 CHOP position slots filled — within regime cap, no forced closes needed. No thesis breaks: JPM near 52wk high, no negative catalysts; RTX intraday dip is normal noise (dividend ex-date Thu 8/14 will cause a separate small mechanical gap, not a signal), fresh SM-3 IIA/Chinook contract wins keep momentum intact. No unusual single-name price action warranting Tavily/WebSearch research — JPM +0.65% intraday, RTX -1.16% intraday, both within normal range. 0 of 2 CHOP weekly new-buy slots used this week. Patience > activity.
+
+---
