@@ -760,3 +760,21 @@ No positions yet. Bot launches tomorrow.
 **Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/10–Wed 8/12), both still available. Regime held CHOP all day (SPY +0.81% vs 50DMA, VIX ~15.28 — clean read, not borderline). Both positions closed green on a quiet, roughly flat session — JPM +0.83% intraday to +5.21% unrealized (HWM ticked up to $366.06, new stop $329.454, well below the +15% tighten trigger), RTX -0.68% intraday, +17.80% unrealized, still below the +20% second-tighten trigger (7% trail band correct, no-loosen rule respected, dividend ex-date Thu 8/14 will cause a separate small mechanical gap, not a signal). No losers at -7%, no thesis breaks, no sector-momentum exits. 2 of 4 CHOP position slots filled, deployment at 31.9% ($16,337 of $51,151) vs the 60% CHOP target — a headroom gap to close on a qualifying setup, not a same-day trigger to chase. LLY/NVDA watchlist candidates remain conditional/extended, no forcing. PPI Thu 8/13 and Retail Sales Thu 8/14 are this week's remaining catalysts — size any new adds with that volatility in mind. Day P&L +$11.19 (+0.02%) on a flat session; Phase P&L +$1,150.66 (+2.30%) vs $50,000 launch baseline, up slightly from Tuesday's +2.28%. Tomorrow: PPI release pre-market — watch for regime/vol shift, reassess RTX's +20% trigger, patience over forcing weekly-slot usage. Patience > activity.
 
 ---
+
+### Aug 13 — Trade #6
+
+| Field | Value |
+|---|---|
+| Date | 2026-08-13 |
+| Ticker | NVDA |
+| Side | BUY |
+| Shares | 33 |
+| Entry Price | $225.762424 |
+| Stop Level | $203.1795 (10% trailing GTC, order ID: 594927f8, HWM $225.755) |
+| Thesis | Confirmed breakout hold in $224-226 zone per today's pre-market trigger (golden cross SMA20 $208/SMA50 $206, AI-infra optimism tailwind, Tech sector momentum leader, no JPM/RTX overlap). Live quote tight and reliable ($225.76 ask/$225.72 bid). XOM watchlist candidate skipped — quote feed unreliable (bid oscillating $150-159 vs frozen ask $166.59). |
+| Target | ~$263 (+17%, ~2:1 R:R per pre-market research) |
+| R:R | ~2:1 (stop -10% ($22.58) vs target +17% ($37.24)) |
+| Regime at Entry | CHOP (SPY +0.27% vs 50DMA, VIX ~14.68 — per Aug 13 pre-market log) |
+| Cost Basis | $7,450.16 (14.6% of $51,099.92 equity) |
+
+---
