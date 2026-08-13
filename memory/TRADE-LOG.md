@@ -778,3 +778,15 @@ No positions yet. Bot launches tomorrow.
 | Cost Basis | $7,450.16 (14.6% of $51,099.92 equity) |
 
 ---
+
+### Aug 13 — EOD Snapshot (Day 81, Thursday)
+**Portfolio:** $51,020.81 | **Cash:** $27,363.28 (53.6%) | **Day P&L:** -$129.85 (-0.25%) | **Phase P&L:** +$1,020.81 (+2.04%)
+**Regime:** CHOP (SPY +0.27% vs 50DMA, VIX ~14.68)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $363.11 | -0.57% | +$338.73 (+4.65%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| RTX | 39 | $188.75 | $220.48 | -1.02% | +$1,237.47 (+16.81%) | $211.002 (7% trailing GTC, HWM $226.884) |
+| NVDA | 33 | $225.762424 | $225.2601 | +0.52% | -$16.58 (-0.22%) | $203.832 (10% trailing GTC, HWM $226.48) |
+**Notes:** One trade today — NVDA breakout buy (Trade #6), 1 of 2 CHOP weekly slots used. Broad pullback on PPI-day/ex-dividend noise pulled portfolio to -0.25% on the day; RTX gave back ground from this morning's +18.16% to +16.81% unrealized but stays below the +20% tighten trigger, no-loosen rule holds the 7% band. JPM +4.65%, well below +15% tighten. NVDA flat/slightly red on its first day, no trigger. No losers at -7%, no thesis breaks, 3 of 4 CHOP position slots filled, deployment 53.6%→46.4% range vs 60% CHOP target, still some headroom but closing. Phase P&L +2.04% vs $50,000 baseline, down slightly from Wednesday's +2.30% on today's pullback. Tomorrow: watch RTX's +20% trigger, monitor NVDA's first full session, 1 of 2 CHOP weekly slots remain, patience over forcing. Patience > activity.
+
+---
