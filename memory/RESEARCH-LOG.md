@@ -2587,3 +2587,49 @@ HOLD — no trades executed in this routine (research only). Regime CHOP confirm
 - NO CONFIRMED SETUP — LLY at $1,262.59 (ask) vs trigger $1,185, extended zone (+6.5%, past the +3% confirmation band, no intraday pullback into zone) — too extended, skip, dropped from watchlist per Step 3 expiry rule.
 - NO CONFIRMED SETUP — NVDA at $222.45 (ask) vs breakout trigger $212.19, extended zone (+4.8%, past +3% band) — already flagged FAIL in pre-market Trade Ideas, remains no-entry, carried watchlist-only per research log (not expired, no named hard trigger to drop).
 - Account: safety check passed (paper-api endpoint confirmed). Positions unchanged — JPM 21sh (+4.68% unrealized, stop $327.249 10% trailing GTC live) and RTX 39sh (+16.85% unrealized, below +20% tighten trigger, stop $211.002 7% trailing GTC live). No losers at -7%, no thesis breaks, 2/4 CHOP slots filled. No trade placed — 0 of 2 CHOP weekly slots used this week. Patience > activity.
+
+---
+
+## 2026-08-13 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.27% ($770.80 vs $768.74) | VIX: ~14.68
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+**Regime note:** SPY well inside the ±2% band (+0.27%), so Chop is confirmed on the SPY leg alone regardless of VIX — Bull requires SPY ≥+2% AND VIX <15, and the SPY leg fails that threshold by a wide margin. VIX itself sits at ~14.68 (CBOE spot, dated today) — below 15, but irrelevant since Bull's SPY leg already fails. Note: macro sub-agent cited a stale ~15.28 VIX figure sourced from Aug 11 YCharts/Yahoo data; today's live CBOE quote (14.65-14.69, dated 8/13) is the authoritative figure used for this classification. Not a borderline call.
+
+### Account Snapshot
+- Equity: $51,199.11 | Cash: $34,813.44 (68.0%) | Buying power: $185,133.64 | Daytrade count: N/A (not returned by account endpoint; no day-trade history)
+- Positions: JPM 21sh @ $346.98 (current $366.09, +5.51%/+$401.31) | RTX 39sh @ $188.75 (current $223.02, +18.16%/+$1,336.53) — 2 of 4 CHOP slots filled
+- Open orders: JPM 10% trailing GTC stop $329.454 (HWM $366.06) | RTX 7% trailing GTC stop $211.002 (HWM $226.884) — both confirmed live
+- Deployment: $16,385.67 / $51,199.11 = 32.0%, below the CHOP 60% target (28pp gap)
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI ~$83.2-83.7, Brent ~$89.0-89.4, both modestly up. S&P futures +0.25-0.41% premarket (~7,779), Nasdaq futures leading (+0.65-0.98%) on AI-infra earnings optimism (CoreWeave cited). VIX low-vol regime (~14.7-15.3 depending on source/date, see regime note above). DXY ~99.9-100.0, flat/soft, below 100. 10Y yield ~4.68-4.69%, range-bound. **PPI (July) releases today 8:30am ET, forecast 4.9% vs prior 5.5% (cooling)** — comes one day after yesterday's CPI print; no FOMC this window (next Sept 15-16). July jobs report (-23K, sharp downward revisions) still the softening-labor backdrop feeding into today's read.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLE (Energy) +38.2%, XLK (Tech) +29.6%, XLF (Financials, JPM's sector) +6.5% lagging. Last-5-day breadth: Consumer Cyclical, Healthcare, Industrials widest gainers; Industrials "more favored" institutionally (AI capex + defense spend) but overlaps RTX — no new Industrials adds. **Strongest current momentum: Technology, Energy.**
+- **NVDA** (Tech, no overlap): $224.09, +3.0% day, golden cross (SMA20 $208/SMA50 $206), RSI 62, stretched (Bollinger %B 91%, Stoch 97). Entry: breakout hold >$224-226 on volume, or pullback to SMA50 ~$206-208. Stop: <$206 (~8% risk). Target: ~$263 (+17%, ~2:1 R:R).
+- **XOM** (Energy, no overlap): pullback with negative MACD (turned bearish 8/5-8/6) — caution flag, not a clean setup. Support $151-149, resistance $163.68. Entry: reversal confirmation off $149-151 or reclaim $155-156. Stop: <$149.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market 8/13: ONDS, LUNR, ARCO, MLCO, JD, TPR, AIT, ASND, BIRK, AVAH, YETI, MSGS, WWW, GLNG, GDS report — no confirmed actual beat/miss numbers surfaced yet (too early). Q2 season backdrop broadly strong: 451 S&P 500 cos reported, +41.6% YoY EPS growth, 83.4% beating EPS ests. AH yesterday (8/12): CSCO beat (EPS ~$1.20 vs $1.17 est). COHR reported (EPS est $1.62, result unconfirmed). No JPM/RTX earnings today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — Closed ~$359.79 (-0.58%), near 52wk high $363.12 (now $366.09 pre-market, fresh high). JPMorgan raised S&P 500 target to 8,000, Barclays Buy rating, $750B US housing investment pledge. Minor: whistleblower fraud-handling probe reported — no thesis break, monitor.
+- **RTX** — Closed ~$223.86, near 52wk high $226.88, RSI 79.76 (overbought). Won $745M SM-3 IIA + $1.3B F135 sustainment contracts; Q2 sales +14% YoY, adj EPS +21%. Momentum intact, no negative news.
+
+### Trade Ideas
+(No earnings catalyst for held names; no confirmed live pre-market trigger for either candidate — NVDA and XOM are Sector Scout's named non-overlapping candidates, listed per protocol as conditional/watchlist only.)
+1. **NVDA** — Tech, momentum leader, golden cross, AI-infra optimism tailwind. Entry: confirmed hold/breakout above $224-226 on volume. Stop: ~$206 (SMA50, -8.4%). Target: ~$263 (+17%, ~2:1 R:R). Regime check: CONDITIONAL — verify live trigger at market-open, do not chase. Note: NVDA has appeared in watchlist repeatedly since 8/10 without converting (extended each session) — treat with the entry-conversion skepticism flagged in the 8/7 weekly review.
+2. **XOM** — Energy, pullback/reversal setup but negative MACD caution flag — weaker setup than NVDA. Entry: reversal confirmation off $149-151 support or reclaim $155-156. Stop: <$149. Target: ~$163.68 resistance (modest upside, R:R marginal — verify live math before acting). Regime check: CONDITIONAL — confirm momentum turn first, do not enter on support alone.
+
+### Risk Factors
+- **PPI release 8:30am ET today** — cooling forecast (4.9% vs 5.5% prior) but a hot surprise could shift regime/vol fast; avoid sizing new capital until the print and market reaction are in.
+- RTX RSI 79.76 (overbought) and +18.16% unrealized, still below the +20% second-tighten trigger (7%→5%) — watch closely, no-loosen rule applies. Dividend ex-date today (8/13, $0.73/sh per 8/12 log) may cause a small mechanical gap — not a signal.
+- JPM +5.51% unrealized, well below the +15% tighten trigger — no action needed, minor whistleblower-probe headline to monitor only.
+- XOM setup carries an explicit negative-MACD caution flag from Sector Scout — do not treat the support level alone as a trigger.
+- Deployment at 32.0% vs the CHOP 60% target is a real gap (28pp) but not a same-day trigger to force a fill — per repeated prior-week lessons (entry-conversion bottleneck), don't chase extension to close it.
+- VIX data discrepancy across sources (14.68 CBOE live vs 15.28 stale Yahoo/YCharts) — used the dated live CBOE quote; re-verify at market-open if regime read seems inconsistent with tape action.
+
+### Decision
+HOLD — no trades executed in this routine (research only). Regime CHOP confirmed (SPY +0.27% vs 50DMA, VIX ~14.68 — clean read, not borderline). NVDA (Tech breakout) and XOM (Energy pullback, caution-flagged) carried as conditional watchlist candidates for the 2 open CHOP slots; verify live triggers and R:R at market-open, do not chase. 0 of 2 CHOP weekly trade slots used this week (week of Mon 8/10). JPM/RTX theses intact, both GTC trailing stops confirmed live at correct levels. Patience > activity.
