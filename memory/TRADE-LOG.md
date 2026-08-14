@@ -808,3 +808,16 @@ No positions yet. Bot launches tomorrow.
 | Cost Basis | $7,661.12 (15.0% of $51,071.72 equity) |
 
 ---
+
+### Aug 14 — Midday Check (Day 82, Friday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY +1.22% vs 50DMA, VIX ~14.63)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $362.72 | +$330.54 (+4.54%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| RTX | 39 | $188.75 | $221.965 | +$1,295.39 (+17.60%) | $211.002 (7% trailing GTC, HWM $226.884) |
+| NVDA | 33 | $225.762424 | $225.78 | +$0.58 (+0.01%) | $204.741 (10% trailing GTC, HWM $227.49) |
+| NEE | 89 | $86.08 | $86.49 | +$36.49 (+0.48%) | $77.877 (10% trailing GTC, HWM $86.53) |
+**Account:** Equity $51,122.38 | Cash $19,702.15 (38.5%) | Day P&L +$100.18 (+0.20%) | Deployment 61.5%
+**Action taken:** None required. No losers at -7% (all four green or flat). No tighten triggers crossed: RTX +17.60% unrealized, still below the +20% second-tighten trigger, correct 7% band from 7/27 unchanged, no-loosen rule applies — watch closely. JPM +4.54%, NEE +0.48%, NVDA +0.01%, all well below the +15% tighten trigger. 4 of 4 CHOP position slots filled — at regime cap, no forced closes needed (cap not exceeded). No thesis breaks: JPM near ATH, no adverse news; RTX ex-dividend gap from 8/13 already priced in, contract-win momentum intact; NVDA first full session flat, no reversal signal; NEE fresh entry from this morning's confirmed pullback trigger, tracking as expected. Deployment now 61.5%, at/above the 60% CHOP target. No unusual single-name price action warranting Tavily/WebSearch research. 2 of 2 CHOP weekly new-buy slots used this week (NVDA 8/13, NEE 8/14) — week closed to new entries. Patience > activity.
+
+---
