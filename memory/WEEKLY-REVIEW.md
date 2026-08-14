@@ -377,3 +377,62 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - For any position carrying an unresolved negative-catalyst overhang, set an explicit go/no-go reassessment checkpoint after N trading days of no news (rather than defaulting to "reassess at Friday's review"), so a slow-bleed position gets an active decision before it reaches its mechanical cut level
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-08-14
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $51,043.87 (Fri 8/7 close) |
+| Ending portfolio | $51,104.35 (Fri 8/14 close, per TRADE-LOG EOD; Alpaca balance_asof lags at 8/13, $51,111.45) |
+| Week return | +$60.48 (+0.12%) |
+| S&P 500 week | +0.53% (SPX 7,757.64 Aug 7 close -> 7,798.99 Aug 14 close) |
+| Bot vs S&P | -0.41% |
+| Dominant regime | CHOP (4/5 days — Mon 8/10 one-day BULL flip, VIX 14.90; Tue-Fri CHOP) |
+| Trades | 2 new (W:0 / L:0 / open:4 — NVDA, NEE new this week; JPM, RTX carried) |
+| Win rate | N/A (no closed trades) |
+| Best trade | RTX +18.19% unrealized |
+| Worst trade | NVDA -0.36% unrealized |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| JPM | $346.98 (21sh, 7/22) | $362.20 | +$319.62 (+4.39%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| RTX | $188.75 (39sh, carried from 6/29) | $223.08 | +$1,338.87 (+18.19%) | $211.002 (7% trailing GTC, HWM $226.884) |
+| NVDA | $225.762424 (33sh, 8/13) | $224.96 | -$26.48 (-0.36%) | $204.741 (10% trailing GTC, HWM $227.49) |
+| NEE | $86.08 (89sh, 8/14) | $86.2045 | +$11.08 (+0.14%) | $77.877 (10% trailing GTC, HWM $86.53) |
+
+### What Worked
+- First full 2-of-2 CHOP weekly-slot utilization on confirmed live triggers (NVDA breakout-hold 8/13, NEE pullback/support 8/14) — both converted same-day from watchlist to fill with defined thesis and 2:1+ R:R
+- RTX kept compounding to +18.19% unrealized, correctly held at its 7% trail from the +15% tighten with no premature or loosened stop action, now closing in on the +20% second-tighten trigger
+- Deployment closed the week at 61.5%, at/above the 60% CHOP target for the first time in ~6 weeks — closed the persistent under-deployment gap flagged in multiple prior reviews
+- Cleanly rode out a one-day BULL regime flip (Mon 8/10, VIX dipped to 14.90) without forcing capital into the wider cap, then reverted to CHOP sizing the next day with no confusion
+- Declined weaker setups on process grounds — XOM skipped on an unreliable/frozen quote feed, META skipped on sub-2:1 R:R despite being near its trigger
+
+### What Didn't Work
+- Underperformed S&P by -0.41% this week (SPX +0.53% vs bot +0.12%) — 3rd of the last 4 weeks below benchmark, though the gap this week is small
+- NVDA sits flat-to-red through its first two sessions (-0.36% unrealized) — too early to judge, but no confirmation yet that the breakout thesis is playing out
+- Now 4 of 4 CHOP position slots filled (JPM, RTX, NVDA, NEE) — at the regime cap, so next week has zero new-entry capacity unless a position is trimmed or stopped out first
+- RTX approaching the +20% second-tighten trigger with no explicit next-step logged (trail moves to 5% per the matrix) — needs to be actioned the moment it crosses, not caught after the fact
+
+### Key Lessons
+- Full slot utilization this week (2/2 weekly, 4/4 position cap) confirms the entry-trigger conversion fix from July is holding, not a one-off
+- With 4/4 CHOP slots filled, the binding constraint next week shifts from setup identification to exits — a strong new candidate now requires trimming or a stop-out first, not just a confirmed trigger
+- The small underperformance this week largely reflects still-building positions (NVDA/NEE only 1-2 sessions old) rather than a process failure — worth re-checking once they've had a full week to develop
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P (-0.41%), but last week's underperformance was -2.35% and this week's is well below the 2% trigger threshold — consecutive-underperformance requires BOTH weeks to exceed 2%, so no trigger. CHECK B: not applicable, no outperformance this week. CHECK C: no trades closed this week (0 losses), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- With 4/4 CHOP slots filled, decide the trim-vs-hold question before chasing any new setup — a strong candidate now needs an exit elsewhere first
+- Action RTX's +20% second-tighten trigger (7%→5% trail) the moment it crosses, rather than catching it after the fact at a later check
+- Give NVDA and NEE a full week to develop before drawing conclusions; watch NVDA closely for either a confirming move or a reversal signal
+
+### Overall Grade: B-
