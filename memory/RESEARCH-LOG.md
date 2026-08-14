@@ -2646,3 +2646,54 @@ CONFIRMED entry on NVDA @ $225.76 — live quote ($225.76 ask/$225.72 bid, tight
 | NVDA | 33 | $225.762424 | $225.335 | -$14.10 (-0.19%) | $203.832 (10% trailing GTC, HWM $226.48) |
 **Account:** Equity $51,004.83 | Cash $27,363.28 (53.6%) | Day P&L -$165.03 (-0.32%) | Deployment 46.4%
 **Action taken:** None required. No losers at -7% (JPM +4.65%, RTX +16.54%, NVDA -0.19% — all inside tolerance). No tighten triggers crossed: RTX pulled back from this morning's +18.16% to +16.54% (PPI-day/ex-dividend noise) but stays below +20%, correct 7% band from 7/27 unchanged, no-loosen rule applies. JPM +4.65%, well below +15%. NVDA fresh entry from today's market-open, flat/slightly red, no trigger. 3 of 4 CHOP position slots filled — within regime cap, no forced closes needed. No thesis breaks: JPM near ATH, JPMorgan raised S&P target, whistleblower headline still non-material; RTX pullback consistent with known 8/13 ex-dividend gap + broader PPI-day softness, contract-win momentum intact; NVDA breakout hold from this morning still valid, no reversal signal. Cooling PPI print this morning (4.9% vs 5.5% prior) — broad market modestly soft today (JPM -0.56%, RTX -1.25%, NVDA +0.56% intraday), nothing single-name-unusual enough to warrant Tavily research. 1 of 2 CHOP weekly new-buy slots used this week. Patience > activity.
+
+---
+
+## 2026-08-14 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.22% ($778.12 vs $768.74) | VIX: ~14.63
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+**Regime note:** SPY within the ±2% band (+1.22%), so Chop confirmed on the SPY leg. VIX 14.63 (Cboe official Aug 13 close) is below 15, but Bull requires BOTH SPY >=+2% AND VIX <15 — SPY leg fails, so Bull does not trigger. Data-quality flag: AltIndex/Robinhood cited a conflicting 50DMA of $743.70, but that feed shows MA20 and MA50 identical to the decimal ($743.7) — internally inconsistent in a trending market, treated as broken/unreliable. Used investing.com's $768.74 (internally consistent MA50<MA100<MA200 ordering, matches trend) as the authoritative figure. Re-verify at market-open if tape action seems inconsistent with Chop.
+
+### Account Snapshot
+- Equity: $51,038.93 | Cash: $27,363.27 (53.6%) | Buying power: $175,744.93 | Daytrade count: N/A
+- Positions: JPM 21sh @ $346.98 (current $362.28, +4.41%/+$321.30) | NVDA 33sh @ $225.762424 (current $226.20, +0.19%/+$14.44) | RTX 39sh @ $188.75 (current $220.59, +16.87%/+$1,241.93) — 3 of 4 CHOP slots filled
+- Open orders: JPM 10% trailing GTC stop $329.616 (HWM $366.24) | RTX 7% trailing GTC stop $211.002 (HWM $226.884) | NVDA 10% trailing GTC stop $203.832 (HWM $226.48) — all confirmed live
+- Deployment: $23,675.66 / $51,038.93 = 46.4%, below the CHOP 60% target (13.6pp gap) — but only 1 of 4 position slots open, the binding constraint per 8/7 weekly-review lesson
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI ~$81.1-81.9, Brent ~$86.9-87.6, Brent pushing toward $88 (+~2%) on Mideast peace-talk stall. S&P futures +51pts/+0.66% (~7,822), holding near yesterday's record close. VIX 14.63 (Cboe official, low/calm) — some aggregators show stale 15.3-15.8 reads from 8/7-8/11, disregarded. DXY ~99.7, down ~0.2-0.25%, near 4-week lows. 10Y yield 4.65-4.69%, flat/soft after this week's cooling CPI/PPI. **Econ calendar today: Retail Sales (July) 8:30am ET — control group + headline; Fed's Venable speaks 1pm ET.** No CPI/FOMC today; PPI and jobless claims already out 8/13 (soft/dovish). Next FOMC minutes 8/19, next meeting 9/16.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLC (Comm Svcs) +28.08%, XLU (Utilities) +28.01%, XLF +26.20%, XLK +21.85%, XLI +20.14%. Laggards: XLE +7.34%, XLV +10.04%, XLRE +10.19%. Near-term signals mixed — one source flags Industrials/Tech as recent 5-day leaders; a broader rotation piece notes "real economy" sectors (industrials, staples, energy) outperforming vs. tech/comm-svcs pulling back. **Strongest current momentum, ex-held sectors (bot already holds Financials/JPM, Industrials/RTX, Tech/NVDA): Communication Services (XLC) and Utilities (XLU)** — both YTD leaders, uncorrelated to existing exposure.
+- **META** (Comm Svcs): $591.91, rebounded off AI-capex selloff low (~$520s), RSI 49 neutral/recovering. Resistance/breakout level: $600 close (repeated rejection). Entry: confirmed close >$600. Stop: ~$560 (~6.7% risk).
+- **NEE** (Utilities): $85.91, pulled back ~14% from 2026 high ($98.75). Buy consensus, PT $98.92, ~3% div yield. Entry: pullback/support buy near $85. Stop: ~$80-81 (~6-7% risk).
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market 8/14: AMAT beat but fell AH on declining cash flow/higher capex spend; CSCO beat EPS/rev but dropped on guidance concerns. Q2 season broadly strong (83.4% S&P 500 beat EPS, 76.5% beat revenue per Zacks). Light-cap reporters today (MNDY, BIRK, YETI, Nomad Foods, JD) — no results in yet. AH yesterday (8/13): SMCI big beat (EPS $1.70 vs $0.68 est), stock +19%, strong FY27 guide; LITE beat +13.6%; HRB beat +16.1%; Nebius beat +34%; Cellebrite missed, cut guidance, -29%; Tencent revenue beat. NVDA/Micron up in sympathy on AI/chip strength, not earnings-driven. **JPM/RTX/NVDA: no new reports.** RTX last Q2 beat (7/23), ex-div today ($0.73). JPM last beat, next earnings Oct 13. NVDA next earnings Aug 26 (AMC, 12 days out) — event-risk flag for existing position, no action needed today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — $362.04, +0.63%, near ATH. Buy consensus, $363.73 PT. Sector rotation into financials continues. No adverse news. Thesis intact.
+- **NVDA** — $224.09, +3.03%, ~5.6% off 52wk high. No negative catalyst; bullish SpaceX/Musk commentary (sympathy). Earnings Aug 26 (12 days out) — size/vol risk into print. Thesis intact.
+- **RTX** — $222.76, -0.49%, near 52wk high. Ex-dividend today (mechanical gap, not signal). Q2 beat, raised FY26 guidance, record $289B backlog. No adverse news. Thesis intact.
+
+No thesis-breaking developments and no position down sharply pre-market across any holding.
+
+### Trade Ideas
+(No earnings catalyst for held names; both candidates are Sector Scout's named non-overlapping picks, conditional/watchlist only per protocol. Only 1 of 4 CHOP position slots open — capacity is tight regardless of which converts.)
+1. **NEE** — Utilities, pullback/support buy near $85. Entry: ~$85 on confirmed support hold. Stop: ~$81 (-4.7%). Target: $98.92 analyst consensus PT (+16.4%, ~3.5:1 R:R). Regime check: CONDITIONAL — verify live trigger and price at market-open, do not chase.
+2. **META** — Communication Services, breakout confirmation above $600. Entry: confirmed close >$600. Stop: ~$560 (-6.7%). Target: unclear from today's research — naive round-number resistance (~$650) implies only ~1.2:1 R:R, likely FAILS the 2:1 minimum as currently scoped. Regime check: CONDITIONAL/WEAK — needs a better-defined target zone verified live before this is actionable; NEE is the stronger candidate of the two.
+
+### Risk Factors
+- Only 1 of 4 CHOP position slots open (JPM/RTX/NVDA fill 3) — effective new-trade capacity this week is 1, not the nominal 2 weekly-trade cap (per 8/7 weekly-review lesson: position-count ceiling is the binding constraint)
+- NVDA earnings Aug 26 (12 days out) — elevated event risk on the print, monitor as it approaches, no action needed today
+- RTX +16.87% unrealized, still below the +20% second-tighten trigger (7%→5%) — no-loosen rule applies, watch closely. Ex-dividend today causes a small mechanical gap, not a signal
+- JPM +4.41% unrealized, well below the +15% tighten trigger — no action needed
+- SPY 50DMA data conflict across sources ($768.74 investing.com vs an internally-inconsistent $743.70 AltIndex/Robinhood feed) — used the more reliable $768.74, yielding CHOP not Bull; re-verify at market-open if tape action seems inconsistent
+- Retail Sales (July) releases 8:30am ET today — could move market/vol ahead of any new entry
+- Deployment 46.4% vs 60% CHOP target is a real gap but not a same-day trigger to force a fill — per repeated prior lessons, don't chase extension to close it
+- META's naive R:R math is sub-2:1 as currently scoped — do not enter without a better target zone
+
+### Decision
+HOLD — no trades executed in this routine (research only). Regime CHOP confirmed (SPY +1.22% vs 50DMA, VIX ~14.63 — SPY leg clean, 50DMA source conflict resolved per Regime note above). NEE (Utilities pullback, clean ~3.5:1 R:R) carried as the lead conditional watchlist candidate for the 1 open CHOP slot; META carried as a weaker/conditional secondary pending a better target. Verify live triggers and R:R at market-open, do not chase either. 1 of 2 CHOP weekly trade slots used this week (NVDA, Wed 8/13); only 1 of 4 position slots open regardless. JPM/RTX/NVDA theses intact, all three GTC trailing stops confirmed live at correct levels. Patience > activity.
