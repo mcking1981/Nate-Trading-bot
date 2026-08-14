@@ -790,3 +790,21 @@ No positions yet. Bot launches tomorrow.
 **Notes:** One trade today — NVDA breakout buy (Trade #6), 1 of 2 CHOP weekly slots used. Broad pullback on PPI-day/ex-dividend noise pulled portfolio to -0.25% on the day; RTX gave back ground from this morning's +18.16% to +16.81% unrealized but stays below the +20% tighten trigger, no-loosen rule holds the 7% band. JPM +4.65%, well below +15% tighten. NVDA flat/slightly red on its first day, no trigger. No losers at -7%, no thesis breaks, 3 of 4 CHOP position slots filled, deployment 53.6%→46.4% range vs 60% CHOP target, still some headroom but closing. Phase P&L +2.04% vs $50,000 baseline, down slightly from Wednesday's +2.30% on today's pullback. Tomorrow: watch RTX's +20% trigger, monitor NVDA's first full session, 1 of 2 CHOP weekly slots remain, patience over forcing. Patience > activity.
 
 ---
+
+### Aug 14 — Trade #7
+
+| Field | Value |
+|---|---|
+| Date | 2026-08-14 |
+| Ticker | NEE |
+| Side | BUY |
+| Shares | 89 |
+| Entry Price | $86.08 |
+| Stop Level | $77.4495 (10% trailing GTC, order ID: dda7503e, HWM $86.055) |
+| Thesis | Confirmed pullback/support entry at $86.06 vs today's pre-market $85 support trigger (+1.25%, within +3% confirmation band). Utilities sector, uncorrelated to JPM (Financials)/RTX (Industrials)/NVDA (Tech). ~14% pullback from 2026 high, buy consensus, ~3% div yield. META watchlist candidate skipped — its "confirmed close >$600" trigger not met intraday (quote $601.99/$596, no close basis yet) and R:R already flagged sub-2:1/weak in pre-market research. |
+| Target | $98.92 analyst consensus PT (+14.9% from entry) |
+| R:R | ~2.5:1 (stop -10% ($8.63) vs target +14.9% ($12.84)) |
+| Regime at Entry | CHOP (SPY +1.22% vs 50DMA, VIX ~14.63 — per Aug 14 pre-market log) |
+| Cost Basis | $7,661.12 (15.0% of $51,071.72 equity) |
+
+---
