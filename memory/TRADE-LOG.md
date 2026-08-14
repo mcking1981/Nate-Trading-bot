@@ -821,3 +821,16 @@ No positions yet. Bot launches tomorrow.
 **Action taken:** None required. No losers at -7% (all four green or flat). No tighten triggers crossed: RTX +17.60% unrealized, still below the +20% second-tighten trigger, correct 7% band from 7/27 unchanged, no-loosen rule applies — watch closely. JPM +4.54%, NEE +0.48%, NVDA +0.01%, all well below the +15% tighten trigger. 4 of 4 CHOP position slots filled — at regime cap, no forced closes needed (cap not exceeded). No thesis breaks: JPM near ATH, no adverse news; RTX ex-dividend gap from 8/13 already priced in, contract-win momentum intact; NVDA first full session flat, no reversal signal; NEE fresh entry from this morning's confirmed pullback trigger, tracking as expected. Deployment now 61.5%, at/above the 60% CHOP target. No unusual single-name price action warranting Tavily/WebSearch research. 2 of 2 CHOP weekly new-buy slots used this week (NVDA 8/13, NEE 8/14) — week closed to new entries. Patience > activity.
 
 ---
+
+### Aug 14 — EOD Snapshot (Day 82, Friday)
+**Portfolio:** $51,104.35 | **Cash:** $19,702.15 (38.5%) | **Day P&L:** +$82.15 (+0.16%) | **Phase P&L:** +$1,104.35 (+2.21%)
+**Regime:** CHOP (SPY +1.22% vs 50DMA, VIX ~14.63)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $362.20 | -0.25% | +$319.62 (+4.39%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| RTX | 39 | $188.75 | $223.08 | +1.18% | +$1,338.87 (+18.19%) | $211.002 (7% trailing GTC, HWM $226.884) |
+| NVDA | 33 | $225.762424 | $224.96 | -0.15% | -$26.48 (-0.36%) | $204.741 (10% trailing GTC, HWM $227.49) |
+| NEE | 89 | $86.08 | $86.2045 | +0.23% | +$11.08 (+0.14%) | $77.877 (10% trailing GTC, HWM $86.53) |
+**Notes:** One trade this week's tail end — NEE pullback/support buy Thursday-into-Friday (Trade #7), closing week at 2 of 2 CHOP weekly slots used (NVDA 8/13, NEE 8/14). Quiet green Friday session — RTX led with +1.18% intraday to +18.19% unrealized, its highest close yet, still below the +20% second-tighten trigger but closing in, watch Monday for a crossing (would tighten trail 18%→20% band to... already at 7%, next trigger is +20% which doesn't change the percent per current rule table, reconfirm against TRADING-STRATEGY.md if crossed). JPM -0.25% intraday but still +4.39% unrealized, well below +15% tighten. NVDA slightly red on its second session (-0.36% unrealized), no trigger either direction. NEE +0.23% intraday, tracking flat-to-positive since Thursday entry. No losers at -7%, no thesis breaks, 4 of 4 CHOP position slots filled at regime cap. Deployment 61.45% vs 60% CHOP target — essentially at target, no forcing needed. Phase P&L +2.21% vs $50,000 launch baseline, up from Thursday's +2.04%. Week closed with 2/2 new-buy slots used (NVDA, NEE), zero losers cut, zero sector exits. Monday: reassess RTX's +20% trigger first thing, monitor NVDA for a reversal signal, new weekly slot count resets. Patience > activity.
+
+---
