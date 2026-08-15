@@ -2716,3 +2716,15 @@ Confirmed Saturday (`date +%A` = Saturday, 2026-08-15). Recurring weekend cron m
 
 ### Decision
 HOLD (no action possible or needed) — market closed. No losers at -7%, no tighten trigger crossed since Friday close (RTX still below +20% second-tighten trigger), no thesis breaks visible from stale account data. Re-escalating the cron misfire via Telegram since this is a 3rd separate weekend recurrence (Aug 1-2, Aug 8-9, now Aug 15) despite prior flags — infra issue, not a trading decision. Next real pre-market run: Monday 8/17. Carry forward from Aug 14 weekly review: with 4/4 CHOP slots filled, decide trim-vs-hold before chasing any new setup; action RTX's +20% second-tighten trigger the moment it crosses.
+
+---
+
+## 2026-08-15 — Midday Check — SKIPPED (Weekend, market closed)
+
+Same Saturday misfire as today's pre-market run above — this is the first time the *midday* routine (not just pre-market) has fired on a weekend, widening the known cron bug's scope beyond the pre-market slot. Positions/orders pulled from Alpaca confirm stale Friday 8/14 close data (`change_today: 0`, `current_price == lastday_price` on all four holdings) — no session activity, nothing to react to.
+
+**Positions (unchanged from Fri 8/14 close):** JPM 21sh @ $346.98 (+4.57% unrealized, stop $329.616) | NEE 89sh @ $86.08 (+0.13% unrealized, stop $77.877) | NVDA 33sh @ $225.762424 (-0.27% unrealized, stop $204.741) | RTX 39sh @ $188.75 (+18.13% unrealized, stop $211.002, still below +20% second-tighten trigger) — 4 of 4 CHOP position slots filled, at regime cap (not exceeded).
+
+**Checks run:** No losers at -7%. No tighten triggers crossed (RTX closest at +18.13%, below +20%). Regime CHOP cap (max 4) — at cap, not exceeded, no forced closes. No thesis breaks. No unusual price action to research (market closed). No trades, no order changes.
+
+No Telegram sent — no action taken, and today's pre-market run already escalated the underlying weekend-cron issue once; a second alert for the same root cause would be redundant. Recommend the user check the cron/scheduler config for both the pre-market and midday triggers — this now confirms the misfire isn't slot-specific.
