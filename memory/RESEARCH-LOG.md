@@ -2728,3 +2728,18 @@ Same Saturday misfire as today's pre-market run above — this is the first time
 **Checks run:** No losers at -7%. No tighten triggers crossed (RTX closest at +18.13%, below +20%). Regime CHOP cap (max 4) — at cap, not exceeded, no forced closes. No thesis breaks. No unusual price action to research (market closed). No trades, no order changes.
 
 No Telegram sent — no action taken, and today's pre-market run already escalated the underlying weekend-cron issue once; a second alert for the same root cause would be redundant. Recommend the user check the cron/scheduler config for both the pre-market and midday triggers — this now confirms the misfire isn't slot-specific.
+
+---
+
+## 2026-08-16 — Pre-market Research — SKIPPED (Weekend, market closed)
+
+Confirmed Sunday (`date +%A` = Sunday, 2026-08-16). Same recurring weekend-cron misfire — 4th occurrence logged (Aug 1-2, Aug 8-9, Aug 15, now Aug 16), despite escalations on Aug 2 and Aug 15. Skipping full research sub-agent fan-out (no new data since Friday 8/14 close, market closed, no trades possible).
+
+### Account Snapshot (informational only, no research performed)
+- Equity: $51,118.80 | Cash: $19,702.14 (38.5%) | Buying power: $166,775.21
+- `balance_asof: 2026-08-14`, all four positions show `change_today: 0` and `current_price == lastday_price` — confirms no session since Friday's close, not an untracked trade.
+- Positions unchanged from Fri 8/14 close: JPM 21sh @ $346.98 (+4.57% unrealized) | RTX 39sh @ $188.75 (+18.13% unrealized, still below +20% second-tighten trigger) | NVDA 33sh @ $225.762424 (-0.27% unrealized) | NEE 89sh @ $86.08 (+0.13% unrealized) — 4 of 4 CHOP position slots filled, at regime cap.
+- No losers at -7%, no tighten triggers crossed, no thesis breaks visible from stale data.
+
+### Decision
+HOLD (no action possible or needed) — market closed. This is the 4th weekend misfire of the pre-market routine despite two prior Telegram escalations (Aug 2, Aug 15) — the scheduler fix has not landed. Not re-escalating via Telegram again today (same root cause, would be redundant a 3rd time) but flagging via session notification since the fix is now overdue across 3+ weeks. Carried forward from weekly review (week ending 8/14): with 4/4 CHOP slots filled, decide trim-vs-hold before chasing any new setup; action RTX's +20% second-tighten trigger the moment it crosses; give NVDA/NEE a full week to develop before drawing conclusions. Next real pre-market run: Monday 8/17.
