@@ -2743,3 +2743,15 @@ Confirmed Sunday (`date +%A` = Sunday, 2026-08-16). Same recurring weekend-cron 
 
 ### Decision
 HOLD (no action possible or needed) — market closed. This is the 4th weekend misfire of the pre-market routine despite two prior Telegram escalations (Aug 2, Aug 15) — the scheduler fix has not landed. Not re-escalating via Telegram again today (same root cause, would be redundant a 3rd time) but flagging via session notification since the fix is now overdue across 3+ weeks. Carried forward from weekly review (week ending 8/14): with 4/4 CHOP slots filled, decide trim-vs-hold before chasing any new setup; action RTX's +20% second-tighten trigger the moment it crosses; give NVDA/NEE a full week to develop before drawing conclusions. Next real pre-market run: Monday 8/17.
+
+---
+
+## 2026-08-16 — Midday Check — SKIPPED (Weekend, market closed)
+
+Same Sunday misfire as today's pre-market run above — 2nd time the *midday* routine specifically has fired on a weekend (after Aug 15), confirming the scheduler bug isn't a one-off. Positions/orders pulled from Alpaca confirm stale Friday 8/14 close data (`change_today: 0`, `current_price == lastday_price` on all four holdings) — no session activity, nothing to react to.
+
+**Positions (unchanged from Fri 8/14 close):** JPM 21sh @ $346.98 (+4.57% unrealized, stop $329.616, 10% trail) | RTX 39sh @ $188.75 (+18.13% unrealized, stop $211.002, 7% trail, still below +20% second-tighten trigger) | NVDA 33sh @ $225.762424 (-0.27% unrealized, stop $204.741, 10% trail) | NEE 89sh @ $86.08 (+0.13% unrealized, stop $77.877, 10% trail) — 4 of 4 CHOP position slots filled, at regime cap (not exceeded).
+
+**Checks run:** No losers at -7%. No tighten triggers crossed. Regime CHOP cap (max 4) — at cap, not exceeded, no forced closes. No thesis breaks. No unusual price action to research (market closed). No trades, no order changes.
+
+No Telegram sent, no additional push notification — today's pre-market run already flagged this exact root cause (4th weekend misfire) once today; a second alert for the same cause would be redundant. Confirms the weekend-cron bug now hits both the pre-market and midday slots on consecutive weekends (Aug 15, Aug 16) — scheduler fix still overdue.
