@@ -834,3 +834,20 @@ No positions yet. Bot launches tomorrow.
 **Notes:** One trade this week's tail end — NEE pullback/support buy Thursday-into-Friday (Trade #7), closing week at 2 of 2 CHOP weekly slots used (NVDA 8/13, NEE 8/14). Quiet green Friday session — RTX led with +1.18% intraday to +18.19% unrealized, its highest close yet, still below the +20% second-tighten trigger but closing in, watch Monday for a crossing (would tighten trail 18%→20% band to... already at 7%, next trigger is +20% which doesn't change the percent per current rule table, reconfirm against TRADING-STRATEGY.md if crossed). JPM -0.25% intraday but still +4.39% unrealized, well below +15% tighten. NVDA slightly red on its second session (-0.36% unrealized), no trigger either direction. NEE +0.23% intraday, tracking flat-to-positive since Thursday entry. No losers at -7%, no thesis breaks, 4 of 4 CHOP position slots filled at regime cap. Deployment 61.45% vs 60% CHOP target — essentially at target, no forcing needed. Phase P&L +2.21% vs $50,000 launch baseline, up from Thursday's +2.04%. Week closed with 2/2 new-buy slots used (NVDA, NEE), zero losers cut, zero sector exits. Monday: reassess RTX's +20% trigger first thing, monitor NVDA for a reversal signal, new weekly slot count resets. Patience > activity.
 
 ---
+
+### Aug 16 — Daily-Summary Check (Day 84, Sunday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 16, 2026 is a Sunday — market closed. This is the 5th weekend cron misfire this month (Aug 1-2, Aug 8-9, Aug 15, now Aug 16), and the first time it's hit the *daily-summary* routine specifically on a Sunday (it also hit Sat 8/8 and Sun 8/9's daily-summary, and today's pre-market + midday already logged this same recurrence in RESEARCH-LOG.md). **Gap noted:** Sat 8/15's daily-summary did not fire at all (no entry exists) — equity/positions unchanged across the gap per Alpaca, so no untracked activity, but the routine simply didn't run that day.
+
+Alpaca confirms no session since Friday 8/14 close: `balance_asof: 2026-08-14`, `change_today: 0` on all four positions, no order fills, no order changes (all 4 GTC trailing stops unchanged from Aug 14 EOD).
+
+| Ticker | Shares | Entry | Current (Fri 8/14 close, unchanged) | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $362.84 | +$333.06 (+4.57%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| RTX | 39 | $188.75 | $222.97 | +$1,334.58 (+18.13%) | $211.002 (7% trailing GTC, HWM $226.884) |
+| NVDA | 33 | $225.762424 | $225.16 | -$19.88 (-0.27%) | $204.741 (10% trailing GTC, HWM $227.49) |
+| NEE | 89 | $86.08 | $86.19 | +$9.79 (+0.13%) | $77.877 (10% trailing GTC, HWM $86.53) |
+
+**Action taken:** None — no losers at -7%, no tighten trigger crossed (RTX closest at +18.13%, still below +20%), 4/4 CHOP position slots at regime cap (not exceeded), no thesis breaks. Skipping the EOD snapshot (would duplicate Aug 14's already-logged close with no new session data) and skipping Telegram per Step 8 (no trading action, no new information vs. today's pre-market/midday logs). No push notification — this exact weekend-cron recurrence already escalated via Telegram today (pre-market run) and flagged again at midday; a 3rd alert for the same known, unresolved infra issue would be redundant. 2 of 2 CHOP weekly new-buy slots used this week (NVDA 8/13, NEE 8/14) — new week and slot count reset Mon 8/17. Next real EOD: Monday 8/17 close, assuming the cron guard holds on a weekday (has held clean every weekday this month — only weekends misfire).
+
+---
