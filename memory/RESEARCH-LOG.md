@@ -2755,3 +2755,55 @@ Same Sunday misfire as today's pre-market run above — 2nd time the *midday* ro
 **Checks run:** No losers at -7%. No tighten triggers crossed. Regime CHOP cap (max 4) — at cap, not exceeded, no forced closes. No thesis breaks. No unusual price action to research (market closed). No trades, no order changes.
 
 No Telegram sent, no additional push notification — today's pre-market run already flagged this exact root cause (4th weekend misfire) once today; a second alert for the same cause would be redundant. Confirms the weekend-cron bug now hits both the pre-market and midday slots on consecutive weekends (Aug 15, Aug 16) — scheduler fix still overdue.
+
+---
+
+## 2026-08-17 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.36% ($776.01 vs $773.20) | VIX: ~14.25-14.63
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+**Regime note:** SPY within the ±2% band (+0.36%), so Chop confirmed on the SPY leg alone — Bull requires SPY >=+2% AND VIX <15, and the SPY leg fails outright regardless of VIX. Data-quality flag repeats from prior sessions: AltIndex cited a conflicting 50DMA of $743.70 with MA20==MA50 identical to the decimal — internally inconsistent, treated as stale/broken. Used investing.com's $773.20 (coherent MA20<MA50 progression: 775.54 > 773.20 > 761.68 > 754.46) as the authoritative figure.
+
+### Account Snapshot
+- Equity: $51,093.80 | Cash: $19,702.14 (38.5%) | Buying power: $166,705.21 | Daytrade count: N/A (not returned by API)
+- Positions: JPM 21sh @ $346.98 (current $362.38, +4.44%/+$323.40) | NEE 89sh @ $86.08 (current $86.35, +0.31%/+$24.03) | NVDA 33sh @ $225.762424 (current $226.19, +0.19%/+$14.11) | RTX 39sh @ $188.75 (current $221.34, +17.27%/+$1,271.01) — **4 of 4 CHOP position slots filled, at regime cap**
+- Open orders: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $77.877 (HWM $86.53) | NVDA 10% trailing GTC $204.741 (HWM $227.49) | RTX 7% trailing GTC $211.002 (HWM $226.884) — all confirmed live
+- Deployment: $31,391.66 / $51,093.80 = 61.4%, at/above the CHOP 60% target
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI ~$82.40, Brent ~$88.52-88.60, both up on last session (Fri 8/14 close, most recent data). S&P futures: Sep contract 7,802.50, -2.50 (-0.03%) — flat/slightly soft premarket. VIX: 14.25 (-2.60%), low-vol regime, some intraday reads 14.6-15.4. DXY: ~99.64-99.97, down modestly. 10Y: ~4.65-4.70%, near 19-month highs but easing after last week's soft PPI. Econ calendar: no major US releases today (Mon 8/17); CPI Tue 8/18 and FOMC Minutes Wed 8/19 are the week's real catalysts. Read: calm, low-catalyst Monday.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLE +38.45%, XLK +32.83%, XLI +20.40%, XLB +16.30%, XLRE +13.56%. Last-5-day: semiconductor/memory hardware surging (SNDK +35.4%, SKHY +20.6%, STX +19.8%, WDC +17.2%) — mostly small/mid-cap noise, not directly actionable. Strongest current momentum ex-held sectors (Tech/NVDA, Industrials/RTX, Financials/JPM, Utilities/NEE already held): **Energy (XLE)** — cleanest non-overlapping sector, also YTD's #1 leader.
+- **CVX** (Energy): ~$196.60, Strong Buy consensus (20 buy/1 sell). Pulled back off $201.63 high. Entry: dip toward $193-194 support. Stop: ~$188 (~4% risk). Target: analyst avg PT $217 (~3:1 R:R).
+- **AVGO** (Tech/AI-semis, non-NVDA): Bull flag setup. Entry: breakout above $427.78. Stop: $412.96 (~3.5% risk). Alt: dip-buy near EMA50 $397, stop $390. Note: same Tech sector as NVDA — not a clean diversification pick even if a slot were open.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Light pre-market day — only small/micro-caps report (FUFU, AZRG.TA, CRGO, NSPR), none material. Broader Q2 season context: 83.4% of reporting S&P 500 cos beat EPS, 76.5% beat revenue, aggregate earnings +41.6% YoY. Later this week: Deere, TJX, Lowe's, Baidu, Alibaba, Estée Lauder, Target — no held-name overlap. AH Fri 8/14: no fresh large-cap prints found (data thin/stale for the exact date); most recent notable beats/misses are from the 8/6 batch (stale). No held-name (JPM/NEE/NVDA/RTX) earnings today or this week.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — Near 52wk high ($366.50), buy-the-dips institutional accumulation thesis. No negative catalysts. Thesis intact.
+- **NEE** — Q2 solid, secured $3.3B DOC/Japan gas-funding deal (10GW). Regulatory overhang: VA governor filing to intervene in the Dominion Energy acquisition — not a near-term price threat, AI-power-demand tailwind intact. Thesis intact.
+- **NVDA** — Flat/consolidating near 52wk high; disclosed $21B SpaceX stake; Wells Fargo reiterated Overweight, PT $315. Earnings 8/26 (9 trading days out) — no breakdown signal yet, event risk building.
+- **RTX** — Near ATH (0.2% below), zero reversal signals. Raised FY26 revenue guidance to $95.5B, record $289B backlog, sold Blue Canyon ($620M) to focus core defense. +17.27% unrealized approaching the +20% trail-tighten trigger on pure strength, not exhaustion.
+
+No thesis-breaking developments and no position down sharply pre-market across any holding.
+
+### Trade Ideas
+(4 of 4 CHOP position slots filled — zero new-trade capacity today regardless of setup quality. Logging CVX/AVGO as conditional watchlist only, for if a slot opens via trim/stop-out.)
+1. **CVX** — Energy, non-overlapping sector, cleanest diversification candidate. Entry: pullback to $193-194. Stop: ~$188 (-4%). Target: $217 analyst avg PT (+12%, ~3:1 R:R). Regime check: FAIL (no open CHOP slot).
+2. **AVGO** — Tech/AI-semis. Entry: breakout >$427.78. Stop: $412.96 (-3.5%). Target: undefined this session, needs a cleaner target zone. Regime check: FAIL (no open slot; also Tech-sector overlap with NVDA).
+
+### Risk Factors
+- **4 of 4 CHOP position slots filled** — zero new-trade capacity this week regardless of setups found; per the 8/14 weekly review, a trim-vs-hold decision is needed before chasing any new candidate
+- RTX +17.27% unrealized, still below the +20% second-tighten trigger (7%→5%) — no-loosen rule applies; action the trigger the moment it crosses per the standing weekly-review adjustment, watch closely at midday/EOD
+- NVDA earnings 8/26 (9 trading days out) — elevated event risk building, no action needed today, monitor into the print
+- NEE regulatory overhang (VA/Dominion acquisition intervention) — not a near-term price threat, monitor only
+- CPI Tue 8/18 is the week's dominant catalyst — relevant if any position needs a rules-based exit before then, not for new sizing since no slots are open
+- SPY 50DMA source conflict recurs (see Regime note) — resolved using the internally consistent investing.com figure
+
+### Decision
+HOLD — no trades possible or needed. Regime CHOP confirmed (SPY +0.36% vs 50DMA, VIX ~14.25-14.63). All 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); new week resets the 2-trade weekly cap but the position-count ceiling remains the binding constraint per repeated prior-week lessons. No losers at -7%, no tighten trigger crossed (RTX closest at +17.27%, still below +20%), no thesis breaks. CVX (Energy) carried as the lead conditional watchlist candidate for if a slot opens; AVGO carried as a weaker secondary (Tech-sector overlap, undefined target). Give NVDA and NEE more time to develop per the 8/14 weekly-review adjustment. Patience > activity.
+
+---
