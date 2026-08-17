@@ -851,3 +851,16 @@ Alpaca confirms no session since Friday 8/14 close: `balance_asof: 2026-08-14`, 
 **Action taken:** None — no losers at -7%, no tighten trigger crossed (RTX closest at +18.13%, still below +20%), 4/4 CHOP position slots at regime cap (not exceeded), no thesis breaks. Skipping the EOD snapshot (would duplicate Aug 14's already-logged close with no new session data) and skipping Telegram per Step 8 (no trading action, no new information vs. today's pre-market/midday logs). No push notification — this exact weekend-cron recurrence already escalated via Telegram today (pre-market run) and flagged again at midday; a 3rd alert for the same known, unresolved infra issue would be redundant. 2 of 2 CHOP weekly new-buy slots used this week (NVDA 8/13, NEE 8/14) — new week and slot count reset Mon 8/17. Next real EOD: Monday 8/17 close, assuming the cron guard holds on a weekday (has held clean every weekday this month — only weekends misfire).
 
 ---
+
+### Aug 17 — Midday Check (Day 85, Monday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY +0.36% vs 50DMA, VIX ~14.25-14.63)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $364.71 | +$372.33 (+5.11%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $85.865 | -$19.14 (-0.25%) | $77.877 (10% trailing GTC, HWM $86.53) |
+| NVDA | 33 | $225.762424 | $227.50 | +$57.34 (+0.77%) | $205.128 (10% trailing GTC, HWM $227.92) |
+| RTX | 39 | $188.75 | $223.405 | +$1,351.55 (+18.36%) | $211.002 (7% trailing GTC, HWM $226.884) |
+**Account:** Equity $51,225.32 | Cash $19,702.14 (38.5%) | Day P&L +$106.52 (+0.21%) | Deployment 61.5%
+**Action taken:** None required. No losers at -7% (NEE the only red position, -0.25%, nowhere close). No tighten triggers crossed: RTX +18.36% unrealized, still below the +20% second-tighten trigger, correct 7% band from 7/27 unchanged, no-loosen rule applies — watch closely, closest to firing of any position. JPM +5.11%, NVDA +0.77%, NEE -0.25%, all well below the +15% first-tighten trigger. 4 of 4 CHOP position slots filled — at regime cap, not exceeded, no forced closes needed. No thesis breaks: JPM near ATH, no adverse news; RTX near ATH, zero reversal signals, momentum intact; NVDA flat/consolidating, no breakdown signal ahead of 8/26 earnings; NEE modest pullback, no adverse catalyst, regulatory overhang unchanged and not price-threatening. Deployment 61.5%, at/above the 60% CHOP target. No unusual single-name price action warranting Tavily/WebSearch research — all four positions moved within normal daily range. 0 of 2 CHOP weekly new-buy slots used this week (new week reset). No Telegram sent per Step 8 — no action taken. Patience > activity.
+
+---
