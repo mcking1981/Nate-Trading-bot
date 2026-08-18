@@ -2859,3 +2859,9 @@ No thesis-breaking developments across any holding. NVDA's dip is macro-driven, 
 
 ### Decision
 HOLD — no trades possible or needed. Regime CHOP confirmed (SPY +0.36% vs 50DMA, VIX ~14.55-15.42). All 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); new week resets the 2-trade weekly cap but the position-count ceiling remains the binding constraint per repeated prior-week lessons. No losers at -7% (NVDA -2.45% the only red position, well clear), no tighten trigger crossed (RTX closest at +17.72%, still below +20%), no thesis breaks. XOM carried as the lead conditional watchlist candidate for if a slot opens; CVX as a weaker secondary (wider stop, undefined target). Per 8/14 weekly-review adjustment: give NVDA/NEE more time to develop, action RTX's +20% trigger the moment it crosses. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+NO CONFIRMED SETUP — 4 of 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); position-count cap is the binding constraint, zero new-trade capacity regardless of trigger status.
+- XOM: mid ~$168.40 (bid $163.85-164.06 / ask $172.73, unusually wide spread — data-quality caveat, no trade action affected) vs trigger >$158-160. Zone: EXTENDED (+~5.9% above trigger, no intraday pullback into confirm zone observed) — drop from watchlist per +3% extension rule. Also FAIL: no open slot.
+- CVX: mid ~$206.18 (bid $204.35 / ask $208.00) vs trigger $195-197. Zone: EXTENDED (+~5.2% above trigger, no pullback observed) — drop from watchlist. Also FAIL: no open slot.
+Positions re-checked live: JPM +4.10%, NEE +0.78%, NVDA -2.41%, RTX +18.88% (below +20% second-tighten trigger, no action). No losers at -7%, no tighten trigger crossed, no thesis breaks. No orders placed.
