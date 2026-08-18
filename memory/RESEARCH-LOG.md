@@ -2810,3 +2810,52 @@ HOLD — no trades possible or needed. Regime CHOP confirmed (SPY +0.36% vs 50DM
 NO CONFIRMED SETUP — CVX: quote ask $210.94/bid $201.26 (unusually wide ~$9.68 spread, treat with caution), mid ~$206.10, still well above the $193-194 pullback-entry support zone named in pre-market — zone status: unconfirmed (price has not pulled back to trigger), carried forward, not extended (no breakout to be extended from). NO CONFIRMED SETUP — AVGO: quote ask $395.00/bid $391.51, mid ~$393.26, below the $427.78 breakout trigger — zone status: below trigger, unconfirmed, carried forward. Both moot regardless of price: 4/4 CHOP position slots filled (JPM, NEE, NVDA, RTX) — hard rule "positions after trade <= regime max (4)" fails before any trigger check, no capacity for a 5th position. No trade executed. Endpoint confirmed paper-api. Live positions unchanged: JPM 21sh (+5.27% unrealized, $365.28), NEE 89sh (-0.27% unrealized, $85.85), NVDA 33sh (-0.03% unrealized, $225.685), RTX 39sh (+18.68% unrealized, $224.00, still below +20% second-tighten trigger, watch at midday). All 4 GTC trailing stops confirmed live, unchanged. Deployment ~61.5% of ~$51,197.27 equity, at/above CHOP 60% target. Patience > activity.
 
 ---
+
+## 2026-08-18 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.36% ($776.01 vs $773.20) | VIX: ~14.55-15.42
+*(Regime limits: max 4 positions, max 15%/position, target 60% deployed, max 2 new trades/week)*
+
+**Regime note:** SPY within ±2% band confirms Chop on the SPY leg alone; VIX reads clustered 14.55-15.42 across sources (CBOE spot 14.55 prior close, investing.com intraday 15.04-15.19, futures front-month 14.25-14.72) — all sit inside the 15-25 Chop band or just below it, doesn't change the classification either way. CHOP confirmed both legs.
+
+### Account Snapshot
+- Equity: $50,915.71 | Cash: $19,702.14 (38.7%) | Buying power: $166,206.56 | Daytrade count: N/A (not returned by API)
+- Positions: JPM 21sh @ $346.98 (current $360.99, +4.04%/+$294.21) | NEE 89sh @ $86.08 (current $86.51, +0.50%/+$38.27) | NVDA 33sh @ $225.762424 (current $220.23, -2.45%/-$182.57) | RTX 39sh @ $188.75 (current $222.20, +17.72%/+$1,304.55) — **4 of 4 CHOP position slots filled, at regime cap**
+- Open orders: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $77.877 (HWM $86.53) | NVDA 10% trailing GTC $205.128 (HWM $227.92) | RTX 7% trailing GTC $211.002 (HWM $226.884) — all confirmed live
+- Deployment: $31,213.57 / $50,915.71 = 61.3%, at/above the CHOP 60% target
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI ~$85.16 (+0.78%), Brent ~$91.38-91.46 (+0.6%) — firm bid on US-Iran ceasefire-expiry/Hormuz supply-risk headlines. S&P futures: ES Sep'26 ~7,765, roughly flat/slightly soft premarket; cash SPX closed 7,745 Monday (-0.52%). VIX 14.55 prior close, low/complacent vol regime. DXY ~99.58-99.97, flat/slightly down, near 3-month lows. 10Y yield ~4.68-4.70%, up modestly, near cycle highs on rising energy/inflation risk. Econ calendar: no major US print today; FOMC July minutes due tomorrow (Wed 8/19, 2pm ET); next jobs report 8/26. Read: low VIX + rising yields + firm oil = mild inflation-risk tone, not risk-off; no hard catalyst today.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK (Tech) +33%, XLE (Energy) +21%, XLI (Industrials) +20%. Last 5-day: Materials leading (+0.97%), Health Care lagging (-0.43%); broader rotation into "real economy" (Industrials, Consumer Defensive, Energy) out of Tech/Comm Svcs/Cyclicals. **Strongest non-overlapping sector: Energy (XLE)** — bot holds Tech/Financials/Industrials/Utilities already, Energy clean. Oil-driven strength on Middle East tanker-attack headlines.
+- **XOM** $160.08 (+34% YTD): consolidating $151-161. Entry: breakout confirm >$158-160. Stop: ~$151 (~5.5% risk). Target ~$177.
+- **CVX** $203.73: Strong Buy technical, uptrend intact, near highs post-Angola discovery news. Entry: pullback/hold above $195-197. Stop: ~$186 (~8.7% risk — flag, exceeds 7-10% band on the wide end, verify before sizing).
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market BMO batch: HD, ADI, KEYS, TOL, JKHY, Xiaomi, Grupo Mexico reporting — no confirmed results yet. AH yesterday (8/17): quiet session, no notable beats/misses. **JPM/RTX/NEE:** not on today's or this week's earnings calendar, already reported Q2. **NVDA:** confirmed Aug 26 AMC (8 trading days out), est. EPS $2.07-2.09, on track, unchanged. No earnings-driven stop/position adjustments needed today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — ~$361, near 52wk high ($366.50). No fresh negative news, stable/consolidating. Thesis intact.
+- **NEE** — ~$86.07 (+0.21%). Positive flow: $3.3B DOC/Japan gas-funding secured (10GW). Dominion merger advancing, VA governor regulatory intervention ongoing (not price-threatening). Thesis intact.
+- **NVDA** — -2.45% today ($220.23), no company-specific negative catalyst found; recent headlines bullish (OpenAI Ohio financing, $21B SpaceX stake). Dip reads as broad market/Iran-tension risk-off + pre-earnings profit-taking, not NVDA-specific. Thesis intact, monitor.
+- **RTX** — near 52wk high (~$222 vs $226.88 HWM). All recent news positive ($745M Missile Defense Agency contract, $472M Army Chinook deal, $1.3B Pratt & Whitney sustainment award). No reversal catalyst, momentum intact into the +20% trail-tighten zone.
+
+No thesis-breaking developments across any holding. NVDA's dip is macro-driven, not a company-specific break.
+
+### Trade Ideas
+(4 of 4 CHOP position slots filled — zero new-trade capacity today regardless of setup quality. Logging XOM/CVX as conditional watchlist only, for if a slot opens via trim/stop-out.)
+1. **XOM** — Energy, non-overlapping sector. Entry: breakout confirm >$158-160. Stop: ~$151 (-5.5%). Target: $177 (+~11%, ~2:1 R:R). Regime check: FAIL (no open CHOP slot).
+2. **CVX** — Energy, non-overlapping sector. Entry: pullback/hold above $195-197. Stop: ~$186 (-8.7%, wide end of band, re-verify before sizing). Target: undefined this session. Regime check: FAIL (no open slot; also weaker-defined R:R than XOM).
+
+### Risk Factors
+- **4 of 4 CHOP position slots filled** — zero new-trade capacity this week regardless of setups found; per 8/14 weekly-review lesson, a trim-vs-hold decision is needed before chasing any new candidate
+- RTX +17.72% unrealized, still below the +20% second-tighten trigger (7%→5%) — no-loosen rule applies; action the trigger the moment it crosses per the standing weekly-review adjustment
+- NVDA -2.45% today on macro/Iran-tension risk-off, not company-specific — nowhere near the -7% cut level, no action needed, monitor
+- NVDA earnings Aug 26 (8 trading days out) — elevated event risk building into the print
+- Elevated Mideast/Hormuz tension driving oil higher — general macro risk factor, watch for broader risk-off spillover
+- FOMC July minutes release tomorrow (Wed 8/19, 2pm ET) — potential vol catalyst, relevant for existing positions not new sizing (no slots open)
+- NEE regulatory overhang (VA/Dominion acquisition intervention) — not a near-term price threat, monitor only
+
+### Decision
+HOLD — no trades possible or needed. Regime CHOP confirmed (SPY +0.36% vs 50DMA, VIX ~14.55-15.42). All 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); new week resets the 2-trade weekly cap but the position-count ceiling remains the binding constraint per repeated prior-week lessons. No losers at -7% (NVDA -2.45% the only red position, well clear), no tighten trigger crossed (RTX closest at +17.72%, still below +20%), no thesis breaks. XOM carried as the lead conditional watchlist candidate for if a slot opens; CVX as a weaker secondary (wider stop, undefined target). Per 8/14 weekly-review adjustment: give NVDA/NEE more time to develop, action RTX's +20% trigger the moment it crosses. Patience > activity.
