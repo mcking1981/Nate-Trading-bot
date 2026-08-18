@@ -877,3 +877,16 @@ Alpaca confirms no session since Friday 8/14 close: `balance_asof: 2026-08-14`, 
 **Notes:** No trades today — first day of the new week, 0 of 2 CHOP weekly slots used, 4 of 4 CHOP position slots filled at regime cap. Quiet red Monday pulled the portfolio down -0.11% on the day, giving back a bit of Friday's gain; all four holdings drifted lower intraday (JPM -0.52%, RTX -0.35%, NVDA -0.08%, NEE flat +0.03%) ahead of tomorrow's CPI print. RTX remains the standout at +17.72% unrealized, still below the +20% second-tighten trigger — watch closely, closest to firing of any position. JPM +4.03%, NEE +0.16%, both well below the +15% first-tighten trigger. NVDA the only red position at -0.35% unrealized, nowhere near the -7% cut level, no reversal signal ahead of its 8/26 earnings. No losers at -7%, no tighten triggers crossed, no thesis breaks, no sector exits. Deployment 61.4%, at/above the 60% CHOP target — no forcing needed. Phase P&L +2.09% vs $50,000 baseline, down slightly from Friday's +2.21% on today's pullback. Tomorrow: CPI print is the key catalyst, watch RTX's +20% trigger, monitor NVDA into its earnings runway, patience over forcing. Patience > activity.
 
 ---
+
+### Aug 18 — EOD Snapshot (Day 86, Tuesday)
+**Portfolio:** $51,068.75 | **Cash:** $19,702.14 (38.6%) | **Day P&L:** +$23.12 (+0.05%) | **Phase P&L:** +$1,068.75 (+2.14%)
+**Regime:** CHOP (SPY vs 50DMA +0.36%, VIX ~14.55-15.42)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $363.00 | +0.57% | +$336.42 (+4.62%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $86.22 | 0.00% | +$12.46 (+0.16%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $219.9625 | -2.24% | -$191.40 (-2.57%) | $205.128 (10% trailing GTC, HWM $227.92) |
+| RTX | 39 | $188.75 | $225.93 | +1.94% | +$1,450.02 (+19.70%) | $211.002 (7% trailing GTC, HWM $226.884) |
+**Notes:** No trades today — 0 of 2 CHOP weekly slots used, 4 of 4 CHOP position slots filled at regime cap. Small green day (+0.05%) on a mixed session: RTX led (+1.94% intraday, HWM ticked up to $226.884 unchanged), pushing unrealized to +19.70% — right at the doorstep of the +20% second-tighten trigger (7%→5%), watch first thing tomorrow for the crossing, no-loosen rule holds until then. JPM +0.57% intraday to +4.62% unrealized, well below +15% tighten. NEE flat, its stop ratcheted up slightly (HWM $87.52, new stop $78.768) on Monday's high before giving it back today. NVDA the lone red position, -2.24% intraday to -2.57% unrealized — macro/pre-earnings-related per today's pre-market read, not company-specific, nowhere near the -7% cut level. No losers at -7%, no tighten triggers crossed (RTX closest), no thesis breaks, no sector exits. Deployment 61.4%, at/above the 60% CHOP target. Phase P&L +2.14% vs $50,000 baseline, up from Monday's +2.09%. Tomorrow: RTX's +20% trigger is the first thing to check (would tighten trail 7%→5%), FOMC July minutes 2pm ET, monitor NVDA into its 8/26 earnings runway, patience over forcing. Patience > activity.
+
+---
