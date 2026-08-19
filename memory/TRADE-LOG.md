@@ -903,3 +903,16 @@ Alpaca confirms no session since Friday 8/14 close: `balance_asof: 2026-08-14`, 
 **Notes:** No trades today — 0 of 2 CHOP weekly slots used, 4 of 4 CHOP position slots filled at regime cap. Small green day (+0.05%) on a mixed session: RTX led (+1.94% intraday, HWM ticked up to $226.884 unchanged), pushing unrealized to +19.70% — right at the doorstep of the +20% second-tighten trigger (7%→5%), watch first thing tomorrow for the crossing, no-loosen rule holds until then. JPM +0.57% intraday to +4.62% unrealized, well below +15% tighten. NEE flat, its stop ratcheted up slightly (HWM $87.52, new stop $78.768) on Monday's high before giving it back today. NVDA the lone red position, -2.24% intraday to -2.57% unrealized — macro/pre-earnings-related per today's pre-market read, not company-specific, nowhere near the -7% cut level. No losers at -7%, no tighten triggers crossed (RTX closest), no thesis breaks, no sector exits. Deployment 61.4%, at/above the 60% CHOP target. Phase P&L +2.14% vs $50,000 baseline, up from Monday's +2.09%. Tomorrow: RTX's +20% trigger is the first thing to check (would tighten trail 7%→5%), FOMC July minutes 2pm ET, monitor NVDA into its 8/26 earnings runway, patience over forcing. Patience > activity.
 
 ---
+
+### Aug 19 — EOD Snapshot (Day 87, Wednesday)
+**Portfolio:** $50,629.24 | **Cash:** $19,702.14 (38.9%) | **Day P&L:** -$420.26 (-0.82%) | **Phase P&L:** +$629.24 (+1.26%)
+**Regime:** CHOP (SPY +3.14% vs 50DMA, VIX ~15.8)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $357.26 | -1.65% | +$215.88 (+2.96%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $85.91 | -0.36% | -$15.13 (-0.20%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $217.68 | -0.94% | -$266.72 (-3.58%) | $205.128 (10% trailing GTC, HWM $227.92) |
+| RTX | 39 | $188.75 | $220.39 | -2.26% | +$1,233.96 (+16.76%) | $211.00212 (7% trailing GTC, HWM $226.884) |
+**Notes:** No trades today — 0 of 2 CHOP weekly slots used, 4 of 4 CHOP position slots filled at regime cap. Broad risk-off session (FOMC minutes 2pm ET, Jackson Hole ramping) pulled all four holdings red intraday and the portfolio down -0.82%, its worst day since mid-month. RTX gave back yesterday's approach to the +20% second-tighten trigger, sliding from +19.70% to +16.76% unrealized on a -2.26% day — no trigger crossed, no-loosen rule holds the 7% band at $211.002 (HWM $226.884 unchanged) unless it makes a fresh high. NVDA widened to -3.58% unrealized on broad tech/semis weakness, still well clear of the -7% cut level, no company-specific catalyst, no reversal signal ahead of 8/26 earnings. JPM held up best (+2.96% unrealized despite -1.65% today), NEE roughly flat (-0.20%). No losers at -7%, no tighten triggers crossed, no thesis breaks, no sector exits. Deployment ~61.1%, at/above the 60% CHOP target. Phase P&L +1.26% vs $50,000 baseline, down from Tuesday's +2.14% on today's broad pullback. Tomorrow: reassess RTX's stop distance after today's pullback, monitor NVDA for any acceleration toward -7%, watch for FOMC-minutes follow-through, patience over forcing. Patience > activity.
+
+---
