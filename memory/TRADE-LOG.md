@@ -878,6 +878,19 @@ Alpaca confirms no session since Friday 8/14 close: `balance_asof: 2026-08-14`, 
 
 ---
 
+### Aug 19 — Midday Check (Day 87, Wednesday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY +3.14% vs 50DMA, VIX ~15.8)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $358.80 | +$248.22 (+3.41%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $85.81 | -$24.03 (-0.31%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $220.26 | -$181.58 (-2.44%) | $205.128 (10% trailing GTC, HWM $227.92) |
+| RTX | 39 | $188.75 | $222.645 | +$1,321.91 (+17.96%) | $211.002 (7% trailing GTC, HWM $226.884) |
+**Account:** Equity $50,825.89 | Cash $19,702.14 (38.8%) | Day P&L -$223.61 (-0.44%) | Deployment 61.2%
+**Action taken:** None required. No losers at -7% (NVDA the reddest, -2.44%, well clear). No tighten triggers crossed: RTX +17.96% unrealized, still below the +20% second-tighten trigger (7%→5%), no-loosen rule applies — watch closely, closest to firing. JPM +3.41%, NEE -0.31%, both far below the +15% first-tighten trigger. 4 of 4 CHOP position slots filled — at regime cap, not exceeded, no forced closes needed. No thesis breaks: JPM near ATH, no adverse news; RTX fresh $23B Pentagon Tomahawk contract (8/18), bullish, no reversal signs; NVDA down on broad tech/semis risk-off (Nasdaq futures -1.2/-1.3% premarket macro-driven, not company-specific), no leak ahead of 8/26 earnings; NEE flat, dividend declared 8/19 (record 8/28), no adverse catalyst. Deployment 61.2%, at/above the 60% CHOP target. No unusual single-name price action beyond broad macro risk-off (FOMC Minutes 1pm ET, Jackson Hole ramping) — no Tavily/WebSearch warranted. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no action taken. Patience > activity.
+
+---
+
 ### Aug 18 — EOD Snapshot (Day 86, Tuesday)
 **Portfolio:** $51,068.75 | **Cash:** $19,702.14 (38.6%) | **Day P&L:** +$23.12 (+0.05%) | **Phase P&L:** +$1,068.75 (+2.14%)
 **Regime:** CHOP (SPY vs 50DMA +0.36%, VIX ~14.55-15.42)
