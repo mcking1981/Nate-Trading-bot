@@ -2908,3 +2908,9 @@ Pre-market: TGT, EL, TJX, LOW, VIK, WB, BMA, ADI reporting — actual beat/miss 
 
 ### Decision
 HOLD — no open CHOP position slots; monitor RTX's +20% trigger and NVDA's pre-earnings runway. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+NO CONFIRMED SETUP — 4 of 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); position-count cap is the binding constraint, zero new-trade capacity regardless of trigger status.
+- AVGO: ask $362.53 / bid $360.11 vs buy zone $395-405 (50DMA reclaim). Zone: BELOW trigger — unconfirmed, carry forward to watchlist. Also FAIL: no open slot.
+- CAT: ask $840.00 / bid $800.00 vs watch zone $880-890 (support/breakout). Zone: BELOW trigger — unconfirmed, carry forward to watchlist. Also FAIL: no open slot.
+Positions re-checked live: JPM +3.67%, NEE +0.58%, NVDA -2.45%, RTX +19.42% (below +20% second-tighten trigger, no action). No losers at -7%, no tighten trigger crossed, no thesis breaks. No orders placed.
