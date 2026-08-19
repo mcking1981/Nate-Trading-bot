@@ -2865,3 +2865,46 @@ NO CONFIRMED SETUP — 4 of 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); 
 - XOM: mid ~$168.40 (bid $163.85-164.06 / ask $172.73, unusually wide spread — data-quality caveat, no trade action affected) vs trigger >$158-160. Zone: EXTENDED (+~5.9% above trigger, no intraday pullback into confirm zone observed) — drop from watchlist per +3% extension rule. Also FAIL: no open slot.
 - CVX: mid ~$206.18 (bid $204.35 / ask $208.00) vs trigger $195-197. Zone: EXTENDED (+~5.2% above trigger, no pullback observed) — drop from watchlist. Also FAIL: no open slot.
 Positions re-checked live: JPM +4.10%, NEE +0.78%, NVDA -2.41%, RTX +18.88% (below +20% second-tighten trigger, no action). No losers at -7%, no tighten trigger crossed, no thesis breaks. No orders placed.
+
+---
+
+## 2026-08-19 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +3.14% ($767.08 vs $743.70 50DMA) | VIX: ~15.8
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+Note: SPY is >2% above 50DMA (would be Bull-leaning), but VIX 15.8 sits in the 15-25 band, which keeps regime at CHOP per the OR-condition (Bull requires VIX<15 AND SPY condition both true).
+
+### Account Snapshot
+- Equity: $51,093.52 | Cash: $19,702.14 (38.6%) | Buying power: $166,704.42 (margin) | Deployment: ~61.4%
+
+### Macro (Sub-agent 1 synthesis)
+Risk-off tilt into the open: S&P futures down ~-0.6% premarket (tech-led, Nasdaq futures -1.2 to -1.3%), Dow -0.2%. Oil up (WTI ~$82.40, Brent ~$88.52, +1.3-1.7%) on Hormuz tension premium. VIX ~15.7-15.9, up ~3% but still calm-regime. DXY ~99.5-99.6, flat. 10Y yield ~4.65-4.68%, near 19-month highs (soft CPI/flat PPI recently). Key catalysts today: FOMC Minutes 1:00pm ET, MBA mortgage apps 7:00am, Jackson Hole Symposium ramping into Fri 8/21.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK (Tech) +32-33%, XLE (Energy) +21%, XLI (Industrials) +20%. Strongest current momentum: Technology (AI/semis) and Industrials (AI-power-infrastructure buildout). Fresh non-overlapping candidates (JPM/RTX/NVDA/NEE already held):
+- AVGO (Tech) — pulled back from $427.76 (8/7) to ~$393; buy zone $395-405 on 50DMA reclaim, stop <$370, target $480-520. Earnings 9/3 (risk event, 10 trading days out).
+- CAT (Industrials) — pulled back from 52wk high $1,073 to ~$884, choppy $840-888 range; watch $880-890 support/breakout, stop <$830, target $950-1000.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market: TGT, EL, TJX, LOW, VIK, WB, BMA, ADI reporting — actual beat/miss not yet in feed at research time, re-check post-open. Afternoon (today, AMC): BILL, COTY, NDSN, ALVO, ARAY. Yesterday AH: FLXS beat (EPS $1.33 vs $1.09), XP Inc beat (EPS $0.53 vs $0.50), Freightos modest miss (loss wider than expected), PANW and HTHT reported (details TBD). No major after-hours misses of note.
+
+### Holdings News (Sub-agent 4 synthesis)
+- JPM: $360-363, near 52wk high $366.50, no fresh catalyst, drifting sideways; earnings not until Oct 13.
+- NEE: $85-86, declared $0.6232 quarterly dividend (record 8/28, pay 9/15); AI-driven utility demand narrative supportive.
+- NVDA: $219-225, pulled back ~2.3% on 8/18 but no negative news — OpenAI Ohio backstop scaled back to <$120B (de-risking, read as bullish); Strong Buy consensus, $304 target; earnings 8/26 (5 trading days out), no leak/guidance yet.
+- RTX: $221-225, fresh $23B Pentagon Tomahawk missile contract announced 8/18 — bullish catalyst; no reversal signs; supports holding through the +20% trail-tighten trigger.
+
+### Trade Ideas
+1. AVGO — Tech pullback/50DMA reclaim, entry $395-405, stop <$370 (-6.5 to -8.6%), target $480-520 (~2:1+ R:R), regime check: FAIL (4/4 CHOP position slots filled, no open capacity; earnings 9/3 adds event risk)
+2. CAT — Industrials support/breakout, entry $880-890, stop <$830 (-5.7 to -6.8%), target $950-1000 (~1.5-2:1 R:R), regime check: FAIL (4/4 CHOP position slots filled, no open capacity)
+(No earnings-catalyst trade idea in today's held/watchlist names; both ideas above are Sector Scout-named conditional/watchlist setups per protocol.)
+
+### Risk Factors
+- 4/4 CHOP position slots filled (JPM, NEE, NVDA, RTX) — position-count cap is the binding constraint; any new entry requires a trim or stop-out first, regardless of trigger status.
+- RTX at +19.87% unrealized, right at the doorstep of the +20% second-tighten trigger (7%→5% trail) — check first thing at market open/midday for the crossing.
+- NVDA earnings 8/26 (5 trading days out) — no adds into the print, monitor for pre-earnings volatility.
+- FOMC Minutes 1pm ET and Jackson Hole Symposium (Fri 8/21) are this week's dominant catalysts — elevated 10Y yield (~4.65-4.68%, 19-month high) and premarket risk-off futures argue for caution.
+- TGT/LOW/TJX earnings today could move Consumer Discretionary/Staples sentiment broadly — no direct holdings exposure but watch for spillover.
+
+### Decision
+HOLD — no open CHOP position slots; monitor RTX's +20% trigger and NVDA's pre-earnings runway. Patience > activity.
