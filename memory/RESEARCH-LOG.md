@@ -2914,3 +2914,53 @@ NO CONFIRMED SETUP — 4 of 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); 
 - AVGO: ask $362.53 / bid $360.11 vs buy zone $395-405 (50DMA reclaim). Zone: BELOW trigger — unconfirmed, carry forward to watchlist. Also FAIL: no open slot.
 - CAT: ask $840.00 / bid $800.00 vs watch zone $880-890 (support/breakout). Zone: BELOW trigger — unconfirmed, carry forward to watchlist. Also FAIL: no open slot.
 Positions re-checked live: JPM +3.67%, NEE +0.58%, NVDA -2.45%, RTX +19.42% (below +20% second-tighten trigger, no action). No losers at -7%, no tighten trigger crossed, no thesis breaks. No orders placed.
+
+---
+
+## 2026-08-20 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.77% ($767.45 vs $773.37 50DMA) | VIX: ~15.84
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+**Regime note:** SPY flipped from +3.14% (8/19) to -0.77% (8/20) vs 50DMA — well within the ±2% Chop band. VIX ticked up to 15.84 (+4.3% from prior close 15.19) but stays inside the 15-25 Chop band, still a low/calm regime overall. CHOP confirmed both legs, no change to position/deployment limits.
+
+### Account Snapshot
+- Equity: $50,645.32 | Cash: $19,702.14 (38.9%) | Buying power: $165,449.46 (margin) | Daytrade count: N/A (not returned by API)
+- Positions: JPM 21sh @ $346.98 (current $357.89, +3.14%/+$229.11) | NEE 89sh @ $86.08 (current $86.00, -0.09%/-$7.12) | NVDA 33sh @ $225.762424 (current $218.54, -3.20%/-$238.34) | RTX 39sh @ $188.75 (current $219.53, +16.31%/+$1,200.42) — **4 of 4 CHOP position slots filled, at regime cap**
+- Open orders: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | NVDA 10% trailing GTC $205.128 (HWM $227.92) | RTX 7% trailing GTC $211.00212 (HWM $226.884) — all confirmed live
+- Deployment: $30,943.18 / $50,645.32 = 61.1%, at/above the CHOP 60% target
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI ~$85.83, Brent ~$91.52, up ~1% on Hormuz/Iran tension despite rising US inventories. S&P futures +0.30% (~7,737) premarket, extending Wed's rebound; Treasury's larger long-bond buybacks eased yields. VIX 15.84 (+4.28%), still calm regime despite the pop. DXY ~98.8-99.97, roughly flat. 10Y ~4.65-4.69%, easing off a 19-month high (4.75%) after soft PPI/CPI. Econ calendar: no US CPI/PPI/jobs today; Wed's FOMC minutes leaned toward more hikes absent inflation decline; Jackson Hole Symposium starts Mon 8/24 — next major catalyst.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33%, XLE +21%, XLI +20%. Last-5-day: Consumer Discretionary +8% (AMZN-driven), Comm Svcs +5.5% — rotation into "real economy" continues. Strongest current momentum, non-overlapping with holdings (JPM/NEE/NVDA/RTX): **Energy (XLE)** and **Consumer Discretionary**.
+- **XOM** ~$160.08 (+34% YTD): broke above $158 resistance, bullish MA cross. Entry: pullback/reclaim $159-160. Stop: ~$151 (~5.6% risk). Target: $177 (~2:1 R:R).
+- **AMZN** ~$266.86: testing 52wk high, AWS/AI momentum, PT raised to $280. Entry: breakout/reclaim >$267-270. Stop: ~$250 (~6-7% risk). Earnings 10/30 — no near-term event risk.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Light day: INTU, GRAB, APLD, AIA Group report BMO — no results confirmed at research time. AH yesterday: FSLR fell ~12.7% on stale-data-flagged report (treat cautiously), Full Truck Alliance beat but slumped, Weyerhaeuser mixed. Broad trend: high beat rate (~64%+) but market punishing misses harder than rewarding beats. Held tickers: JPM (next ~10/13), NEE (~10/27), RTX (~10/20) — no near-term risk. NVDA confirmed 8/26 — 4 trading days out.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — India barred a JPM unit for market abuse; also disclosed 2025 Polymarket debanking. Minor headline, not fundamental — Wells Fargo raised PT to $390. Thesis intact.
+- **NEE** — Dominion merger regulatory overhang unresolved (VA governor intervention); $3.3B Commerce Dept/Japan gas-funding deal secured. No new catalyst. Thesis intact.
+- **NVDA** — Down 4% this week into 8/26 earnings; retail sentiment "extremely bearish" pre-print despite analysts (Jefferies, Stifel) expecting a beat-and-raise. No company-specific negative news — sentiment/positioning driven.
+- **RTX** — Pullback explained: "insider selling" headline (MarketBeat) plus RSI overbought/MACD turned negative 8/13 — technical fade, not fundamental. $23B Tomahawk contract this week still bullish. Thesis intact, momentum cooling.
+
+No thesis-breaking developments across any holding.
+
+### Trade Ideas
+(4 of 4 CHOP position slots filled — zero new-trade capacity today regardless of setup quality. Logging XOM/AMZN as conditional watchlist only, for if a slot opens via trim/stop-out.)
+1. **XOM** — Energy, non-overlapping sector. Entry: pullback/reclaim $159-160. Stop: ~$151 (-5.6%). Target: $177 (+~11%, ~2:1 R:R). Regime check: FAIL (no open CHOP slot).
+2. **AMZN** — Consumer Discretionary, non-overlapping sector. Entry: breakout/reclaim >$267-270. Stop: ~$250 (-6-7%). Target: undefined this session. Regime check: FAIL (no open slot; earnings 10/30 not a near-term concern).
+
+### Risk Factors
+- **4/4 CHOP position slots filled** — zero new-trade capacity; per 8/14 weekly-review lesson, a trim-vs-hold decision is needed before chasing any new candidate. No trim signal today (no losers at -7%, no thesis breaks) — holding all four as-is.
+- RTX unrealized cooled from ~19-20% (mid-week) to +16.31% today — insider-selling headline + overbought technicals (RSI/MACD turned negative 8/13), not a thesis break; fundamentals intact ($23B Tomahawk win). No tighten trigger active (below +15% first-tighten band now); 7% trail stop unchanged at $211.00212 (HWM $226.884), no-loosen rule holds.
+- NVDA -3.20% unrealized, earnings 8/26 (4 trading days out) — bearish retail sentiment vs bullish analyst expectations sets up elevated post-print volatility; well clear of -7% cut, no action needed, no adds into the print.
+- JPM India regulatory headline (unit barred for market abuse) — monitor for escalation, currently reads as minor/non-fundamental.
+- NEE regulatory overhang (VA/Dominion) — not a near-term price threat, monitor only.
+- Jackson Hole Symposium starts Mon 8/24 — key macro catalyst this week, FOMC minutes already leaned hawkish.
+
+### Decision
+HOLD — no open CHOP position slots; no trim/exit signal present (no losers at -7%, no tighten trigger crossed, no thesis breaks). XOM (Energy) and AMZN (Consumer Discretionary) carried as conditional watchlist candidates for if a slot opens. Monitor RTX's cooling momentum and NVDA's earnings runway. Patience > activity.
