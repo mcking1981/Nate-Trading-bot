@@ -2964,3 +2964,9 @@ No thesis-breaking developments across any holding.
 
 ### Decision
 HOLD — no open CHOP position slots; no trim/exit signal present (no losers at -7%, no tighten trigger crossed, no thesis breaks). XOM (Energy) and AMZN (Consumer Discretionary) carried as conditional watchlist candidates for if a slot opens. Monitor RTX's cooling momentum and NVDA's earnings runway. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — 4 of 4 CHOP position slots filled (JPM, NEE, NVDA, RTX); position-count cap is the binding constraint, zero new-trade capacity regardless of trigger status.
+- XOM: quote anomaly — bid $158.65 / ask $176.39 (abnormally wide spread, likely bad tick) vs entry zone $159-160. Bid-based read: BELOW trigger — unconfirmed. Also FAIL: no open slot.
+- AMZN: bid $263.22 / ask $263.33 vs breakout trigger >$267-270. Zone: BELOW trigger — unconfirmed, carry forward to watchlist. Also FAIL: no open slot.
+Positions re-checked live: JPM +2.06%, NEE -0.40%, NVDA -3.19%, RTX +14.996% (below +15% first-tighten trigger, stop already on 7% band from prior tighten, no-loosen rule holds). No losers at -7%, no new tighten trigger crossed, no thesis breaks. No orders placed.
