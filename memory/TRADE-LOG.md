@@ -930,6 +930,35 @@ Alpaca confirms no session since Friday 8/14 close: `balance_asof: 2026-08-14`, 
 
 ---
 
+### Aug 21 — Trade #8 (Auto Trailing-Stop Exit)
+
+| Field | Value |
+|---|---|
+| Date | 2026-08-21 |
+| Ticker | RTX |
+| Side | SELL (close position) |
+| Shares | 39 |
+| Entry Price | $188.75 |
+| Trigger | 7% trailing GTC stop (order 1e1b588c, stop $211.00212, HWM $226.884) — flagged as the live scenario in this morning's pre-market log after Thursday's -3.48% close left price $1.68 above the stop |
+| Action | None manual — stop order filled automatically, no cancel/replace needed |
+| Fill Status | **FILLED** — order 1e1b588c filled 2026-08-21 14:36:49 UTC (10:36am ET), 39/39 sh @ $210.86 avg |
+| Realized P&L | **+$862.29 (+11.72%)** — (210.86 - 188.75) × 39 sh |
+| Thesis Note | No thesis break — Q2 beat, raised guidance, $23B Tomahawk contract (8/18) intact. Exit was mechanical trail-stop after RTX cooled from +19.70% peak (8/18) on technical mean-reversion (RSI 79.76 overbought) + sector-wide defense softness, not a fundamental reversal. Stop was the plan; no pre-empt/replace same-day per standing rule. Opens an Industrials-vacated CHOP slot (3 of 4 filled). |
+
+---
+
+### Aug 21 — Midday Check (Day 89, Friday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY -1.28% vs 50DMA, VIX ~14.9-16.0)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $351.585 | +$96.71 (+1.33%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $84.51 | -$139.73 (-1.82%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $215.8674 | -$326.54 (-4.38%) | $205.128 (10% trailing GTC, HWM $227.92) |
+**Account:** Equity $49,946.88 | Cash $27,925.68 (55.9%) | Day P&L -$140.84 (-0.28%) | Deployment 44.1%
+**Action taken:** RTX auto-stopped out via its 7% trailing GTC at 10:36am ET (Trade #8, +$862.29/+11.72% realized) — the scenario flagged in this morning's pre-market log; old order already cleared, no leftover position/orders, no manual action needed. No losers at -7% on remaining book (NVDA reddest, -4.38%, well clear). No tighten triggers crossed: JPM +1.33%, NEE -1.82%, NVDA -4.38%, all far below the +15% first-tighten trigger — no eligible positions today. 3 of 4 CHOP position slots filled post-stop-out — under regime cap, no forced closes needed; Industrials slot now open per pre-market note, but per standing rule do not pre-empt/replace same-day. No thesis breaks: JPM/NEE/NVDA all tracking pre-market read, no adverse company-specific news, NVDA's pullback still broad chip-sector softness ahead of 8/26 earnings (5 trading days out). Deployment dropped to 44.1% (below the 60% CHOP target) purely from the RTX stop-out proceeds — headroom flag for next setup, not an action item today. No unusual single-name price action beyond RTX's already-anticipated stop — no Tavily/WebSearch warranted. 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/17–today), both unused as the week closes out — RTX exit is a sell, not a new trade, so the weekly cap is unaffected. Telegram sent per Step 8 (RTX auto-stop-out is a real trading action). Patience > activity.
+
+---
+
 ### Aug 20 — EOD Snapshot (Day 88, Thursday)
 **Portfolio:** $50,113.27 | **Cash:** $19,702.14 (39.3%) | **Day P&L:** -$510.45 (-1.01%) | **Phase P&L:** +$113.27 (+0.23%)
 **Regime:** CHOP (SPY -0.77% vs 50DMA, VIX ~15.84)
