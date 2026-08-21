@@ -3016,3 +3016,6 @@ No thesis-breaking developments across any holding.
 
 ### Decision
 HOLD — no open CHOP position slots; no trim/exit signal present beyond RTX's stop being close (the stop itself is the plan, not a discretionary trigger). Watch RTX's stop and Powell's Jackson Hole speech today as the two live risks. XOM carried as sole conditional watchlist candidate for if a slot opens. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — XOM ask $166.79 vs trigger $162, in-zone (within +3% band, $166.86 cap) but 4/4 CHOP position slots filled (JPM/NEE/NVDA/RTX all still held, RTX stop $211.00212 not hit, current $212.62) — zero new-trade capacity regardless of setup quality. No trade placed.
