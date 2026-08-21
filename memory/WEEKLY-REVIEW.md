@@ -436,3 +436,62 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Give NVDA and NEE a full week to develop before drawing conclusions; watch NVDA closely for either a confirming move or a reversal signal
 
 ### Overall Grade: B-
+
+---
+
+## Week ending 2026-08-21
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $51,104.35 (Fri 8/14 close) |
+| Ending portfolio | $49,848.58 (Fri 8/21 close, per TRADE-LOG EOD) |
+| Week return | -$1,255.77 (-2.46%) |
+| S&P 500 week | ~-0.37% (SPX 7,785.76 Aug 14 close -> ~7,757 Aug 21 close, estimated from reported Powell Jackson Hole rally of +1.52% off Aug 20's 7,641.16 close; official Aug 21 close unavailable from search sources at review time) |
+| Bot vs S&P | ~-2.09% |
+| Dominant regime | CHOP (5/5 days) |
+| Trades | 1 (W:1 / L:0 / open:3 — JPM, NEE, NVDA) |
+| Win rate | 100% (1 of 1 closed) |
+| Best trade | RTX +11.72% (Trade #8, auto trailing-stop exit) |
+| Worst trade | N/A (no closed losers) — NVDA -4.85% unrealized |
+| Profit factor | N/A (no losing trades — $862.29 gross profit, $0 gross loss) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| RTX | $188.75 (39sh, 6/29) | $210.86 (39sh, 8/21 auto-fill 10:36am ET) | +$862.29 (+11.72%) | Mechanical 7% trailing GTC stop fired after RSI-79.76 overbought pullback — no thesis break (Q2 beat, raised guidance, $23B Tomahawk contract intact); exit was technical mean-reversion, not fundamental |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| JPM | $346.98 (21sh, 7/22) | $351.56 | +$96.18 (+1.32%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | $86.08 (89sh, 8/14) | $83.72 | -$210.04 (-2.74%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | $225.762424 (33sh, 8/13) | $214.82 | -$361.10 (-4.85%) | $205.128 (10% trailing GTC, HWM $227.92) |
+
+### What Worked
+- RTX's 7% trailing GTC stop fired mechanically and cleanly — no hesitation, no discretion, banked +$862.29 (+11.72%) realized on a position held since 6/29, exactly the scenario flagged in Thursday's and Friday's pre-market logs
+- Correctly did not pre-empt or replace the RTX-vacated slot same-day per standing rule — patience over forcing a fill just to refill the cap
+- Zero losers at -7%, zero thesis breaks across JPM/NEE/NVDA through a genuinely volatile week (FOMC minutes 8/19, Iran/Hormuz oil spike, Jackson Hole)
+- Correctly read NVDA's and NEE's drawdowns as broad macro/sector-wide softness (chip-sector risk-off, rate-driven utility pressure), not company-specific breaks — no panic action
+- Skipped XOM/AMZN watchlist candidates on process grounds all week (no open slot most days; WMT excluded on unsettled post-earnings price data)
+
+### What Didn't Work
+- Underperformed S&P by an estimated -2.09% this week — RTX's stop-out removed the book's best performer right before Friday's macro-driven Powell rally, and the vacated slot sat in cash rather than participating
+- 0 of 2 CHOP weekly new-buy slots used this week — no fresh candidate confirmed a live trigger to fill the Industrials-vacated slot
+- NVDA's unrealized loss widened to -4.85% heading into its own Wed 8/26 earnings print — a real risk with no rule addressing pre-earnings de-risking of a losing position
+- Deployment fell to 44.0%, well below the 60% CHOP target, purely from RTX stop-out proceeds sitting idle
+
+### Key Lessons
+- The 7%/5% trail-tighten ladder continues to work as designed — it converted an 8-week RTX winner into a clean, undiscretionary realized gain rather than letting it round-trip
+- A mechanical stop will sometimes exit right before a broad tape turn (Friday's Powell rally) — that's an accepted cost of rules-based exits, not a process failure, and shouldn't prompt second-guessing the stop discipline
+- With 3 of 4 CHOP slots filled entering next week, redeploying the open slot on the first confirmed live trigger (XOM Energy, entry >$162) is the priority — cash sitting idle is the same opportunity-cost pattern flagged in multiple prior reviews
+- NVDA carrying a growing unrealized loss into its own earnings print is worth watching closely — no rule currently exists for trimming ahead of an event that could push a position toward -7%
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by an estimated -2.09%, exceeding the 2% threshold, but last week (Aug 14) underperformed by only -0.41% — consecutive-underperformance requires BOTH weeks to exceed 2%, so no trigger. CHECK B: not applicable, no outperformance this week. CHECK C: one Industrials trade closed this week (RTX, +11.72% — a win, not a loss), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Redeploy the open slot on the first confirmed live trigger (XOM Energy, entry >$162) rather than let cash sit idle at 44% deployment
+- No adds into NVDA ahead of its Wed 8/26 earnings print; reassess thesis fresh once the report clears
+- Monitor NEE's Dominion/Virginia regulatory overhang for any escalation — it's now the book's largest unrealized drag
+
+### Overall Grade: C
