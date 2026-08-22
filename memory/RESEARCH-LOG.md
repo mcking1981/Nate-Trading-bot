@@ -3019,3 +3019,52 @@ HOLD — no open CHOP position slots; no trim/exit signal present beyond RTX's s
 
 ### Market-Open Check — 09:46 ET
 NO CONFIRMED SETUP — XOM ask $166.79 vs trigger $162, in-zone (within +3% band, $166.86 cap) but 4/4 CHOP position slots filled (JPM/NEE/NVDA/RTX all still held, RTX stop $211.00212 not hit, current $212.62) — zero new-trade capacity regardless of setup quality. No trade placed.
+
+---
+
+## 2026-08-22 — Pre-market Research
+
+> ⚠️ **NON-TRADING DAY**: Aug 22, 2026 is a **Saturday** (`date +%A` confirmed) — market closed, no trading session possible. Same recurring weekend cron-misfire pattern flagged repeatedly since Aug 1-2 (escalated via Telegram 8/2, re-logged 8/8, 8/9, 8/15, 8/16 — still unresolved, still intermittent/weekend-specific only; all weekday runs Aug 17-21 fired clean). Full research sub-agent fan-out was already run before the day-of-week check caught this — logging it below for Monday 8/24 continuity rather than discarding the work. Not re-escalating via Telegram again; this is the same known, already-flagged infra issue, not new information.
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.82% ($767.00 vs $773.37 50DMA) | VIX: ~15-16
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,839.28 | Cash: $27,925.49 (56.0%) | Buying power: $173,060.57 (margin) | Daytrade count: N/A (not returned by API)
+- Positions: JPM 21sh @ $346.98 (current $351.58, +1.33%/+$96.60) | NEE 89sh @ $86.08 (current $83.65, -2.82%/-$216.27) | NVDA 33sh @ $225.762424 (current $214.72, -4.89%/-$364.40) — **3 of 4 CHOP position slots filled** (RTX auto-stopped-out 8/21, Trade #8, +$862.29/+11.72% realized; Industrials slot open)
+- Open orders: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | NVDA 10% trailing GTC $205.128 (HWM $227.92) — all confirmed live
+- Deployment: $21,913.79 / $49,839.28 = 44.0%, below the 60% CHOP target (RTX proceeds sitting idle since 8/21, flagged as headroom, not an action item)
+- `balance_asof: 2026-08-21` confirms no session since Friday's close — stale data, not an untracked trade.
+
+### Macro (Sub-agent 1 synthesis)
+Oil up on Iran/Hormuz supply risk: WTI ~$85-87, Brent ~$93-94, diesel margins at records. S&P futures ~+0.3-0.5% off Thursday's close, near 52wk high. VIX ~15-16 (14.2 YTD low hit last week) — historically calm, but BTIG flags complacency risk into the seasonally weak Aug-Oct/midterm window. DXY ~98.8, near 3-month lows, oversold (RSI ~30). 10Y ~4.65-4.74%, elevated after PPI-driven pullback from the 19-month high (4.75%). Econ calendar: no major US release today (Saturday); FOMC Minutes already out 8/20; next watch is month-end PMI and Fed speakers.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33%, XLE +21%, XLI +20%. Last 5 days: XLE/XLP/XLV gaining, XLK/XLI/XLY cooling. Strongest current momentum, non-overlapping with holdings (JPM/NEE/NVDA): **Energy (XLE)**.
+- **XOM** (confirmed watchlist carry): perfect trend score, 20/50/200-day MAs all rising, +50% trailing 12mo, outperforming 83% of market. Entry **>$161.68** (above 10-day high), stop **<$155.55** (~3.8% risk) — matches the prior >$162/<$155.5 levels almost exactly.
+- **CVX** (secondary, weaker): +8% over 2 weeks but falling volume on rising price (divergence) — lower conviction than XOM.
+
+### Earnings Today (Sub-agent 3 synthesis)
+No major pre-market movers; BMO reporters (ANF, BBWI, LI) are small-cap/non-overlapping. AH beat rate near record highs (~64% beating by ≥1 std dev) but reactions asymmetric — misses punished (~-5% avg), beats getting flat returns. **NVDA earnings CONFIRMED Wed 8/26 AMC** (Q2 FY27, EPS consensus ~$2.07-2.09, revenue guide ~$91.0B) — 4 trading days out (2 trading sessions after the coming weekend).
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — $351.58, no adverse company-specific news, near 52wk high ($366.50). Thesis intact.
+- **NEE** — Dominion merger overhang **escalating, not resolving**: Virginia regulatory hearing underway, new Maryland challenge filed in the federal merger review, governor scrutiny on ratepayer costs. BMO raised PT to $96 (Outperform) post-Q2 beat, but guidance only reaffirmed, not raised. Not thesis-breaking yet — closest watch item into Monday.
+- **NVDA** — $214.72 (-0.98%), drifting lower into the 8/26 print (down from $227 on 8/17). No leaks or negative surprises; Bernstein/BMO commentary neutral-to-positive on Rubin ramp. Pre-earnings drift, not a thesis break.
+
+No thesis-breaking developments across any holding; NEE's new Maryland merger challenge is the one item that grew since the last check.
+
+### Trade Ideas
+(Market closed today — zero trade capacity regardless of setup quality. Logging for Monday 8/24 continuity.)
+1. **XOM** — Energy, non-overlapping sector, fills the Industrials-vacated slot. Entry: confirm >$161.68. Stop: <$155.55 (-3.8%). Target: undefined this session — verify 2:1+ R:R live before sizing. Regime check: FAIL (market closed, Saturday).
+(No earnings-catalyst trade idea in held/watchlist names; XOM is a Sector Scout-named conditional/watchlist setup per protocol.)
+
+### Risk Factors
+- **Market closed (Saturday)** — recurring weekend cron misfire, 6th+ occurrence since Aug 1, still unresolved but intermittent/weekend-only (weekdays run clean); not re-escalating, already flagged multiple times.
+- **NEE's Dominion/Maryland regulatory overhang is escalating** (new federal merger challenge filed) — not yet a thesis break, but the closest watch item into Monday's open; unrealized -2.82%, well clear of the -7% cut level.
+- NVDA -4.89% unrealized heading into its Wed 8/26 print — per last weekly review's explicit rule, no adds ahead of the print; reassess thesis fresh once it clears.
+- Deployment at 44.0%, below the 60% CHOP target — 1 of 4 CHOP slots open (Industrials/RTX-vacated); XOM is the confirmed live candidate to redeploy into on Monday's first valid trigger.
+- Low VIX + stretched equity levels + elevated yields + Hormuz-driven oil risk = a stretched macro backdrop per this morning's research; no new sizing into any single-name event this weekend regardless.
+
+### Decision
+HOLD — market closed, no trading possible. XOM (Energy, entry >$161.68, stop <$155.55) carried as the confirmed Monday 8/24 watchlist candidate for the open CHOP slot — act on the first live touch of the trigger rather than waiting for further confirmation that lets it run away. No adds into NVDA ahead of Wednesday's earnings. Monitor NEE's escalating Dominion/Maryland overhang closely — flag for reassessment if it produces adverse news before Monday. Patience > activity.
