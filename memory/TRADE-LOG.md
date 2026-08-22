@@ -983,3 +983,19 @@ Alpaca confirms no session since Friday 8/14 close: `balance_asof: 2026-08-14`, 
 **Notes:** RTX auto-stopped out via its 7% trailing GTC (Trade #8) at 10:36am ET, 39sh @ $210.86, realized +$862.29 (+11.72%) — the scenario flagged in yesterday's and this morning's logs; no manual action, stop was the plan, no thesis break (Q2 beat, raised guidance, $23B Tomahawk contract intact — exit was technical mean-reversion after RSI 79.76 overbought). 3 of 4 CHOP position slots now filled, Industrials slot open; per standing rule not pre-empted/replaced same-day. Broad risk-off session into Powell's Jackson Hole keynote pulled the book down -0.48% — NEE (-1.54% day, -2.74% unrealized) and NVDA (-0.94% day, -4.85% unrealized, reddest position but well clear of -7% cut) both red; JPM flat (+1.32% unrealized). No losers at -7%, no tighten triggers crossed, no thesis breaks, no sector exits. Deployment dropped to 44.0% (below 60% CHOP target) purely from RTX proceeds — headroom flag for next setup, not an action item. Phase P&L turned negative for the first time (-0.30% vs $50,000 baseline, down from +0.23% Thursday) — driven by RTX's gain leaving the book plus NEE/NVDA drawdown, not a new loss event; still within normal CHOP-regime variance. 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/17–today, RTX exit is a sell and doesn't count against the cap) — week closes with full new-trade capacity unused. Tomorrow (Sat 8/22): market closed, no session. Monday 8/24 (Jackson Hole continues): reassess XOM (Energy, entry >$162, stop <$155.5) for the open Industrials/Energy slot if it confirms; NVDA earnings Wed 8/26 (3 trading sessions out) — no adds into the print. Patience > activity.
 
 ---
+
+### Aug 22 — Midday Check (Day 90, Saturday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 22, 2026 is a Saturday (`date +%A` confirmed) — market closed. Same recurring weekend cron-misfire flagged repeatedly since Aug 1-2 (already re-logged in today's pre-market entry; not re-escalating again, no new information).
+
+Alpaca confirms no session since Friday 8/21 close: all three positions show `change_today: 0`, no order fills, no order changes (all 3 GTC trailing stops unchanged).
+
+| Ticker | Shares | Entry | Current (Fri 8/21 close, unchanged) | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $351.58 | +$96.60 (+1.33%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.65 | -$216.27 (-2.82%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $214.72 | -$364.40 (-4.89%) | $205.128 (10% trailing GTC, HWM $227.92) |
+
+**Action taken:** None — no losers at -7% (NVDA reddest, -4.89%, well clear), no tighten triggers crossed (all far below +15%), 3 of 4 CHOP position slots filled (under cap, Industrials/RTX-vacated slot still open), no thesis breaks (NEE's Dominion/Maryland overhang escalating per this morning's pre-market log but not yet price-threatening). No Telegram sent per Step 8 — no trading action, no new information vs. this morning's pre-market log. 0 of 2 CHOP weekly new-buy slots used this week (new week starts Mon 8/24). Next real session: Monday 8/24 — reassess XOM trigger (>$161.68) for the open slot, NVDA earnings Wed 8/26 (no adds into the print). Patience > activity.
+
+---
