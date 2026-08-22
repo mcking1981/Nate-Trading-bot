@@ -999,3 +999,18 @@ Alpaca confirms no session since Friday 8/21 close: all three positions show `ch
 **Action taken:** None — no losers at -7% (NVDA reddest, -4.89%, well clear), no tighten triggers crossed (all far below +15%), 3 of 4 CHOP position slots filled (under cap, Industrials/RTX-vacated slot still open), no thesis breaks (NEE's Dominion/Maryland overhang escalating per this morning's pre-market log but not yet price-threatening). No Telegram sent per Step 8 — no trading action, no new information vs. this morning's pre-market log. 0 of 2 CHOP weekly new-buy slots used this week (new week starts Mon 8/24). Next real session: Monday 8/24 — reassess XOM trigger (>$161.68) for the open slot, NVDA earnings Wed 8/26 (no adds into the print). Patience > activity.
 
 ---
+
+### Aug 22 — EOD Snapshot (Day 90, Saturday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 22, 2026 is a Saturday (`date +%A` confirmed) — market closed. Same recurring weekend cron-misfire flagged repeatedly since Aug 1-2, re-logged in today's pre-market and midday entries; not re-escalating again, no new information since the midday check.
+
+**Portfolio:** $49,839.28 | **Cash:** $27,925.49 (56.0%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$160.72 (-0.32%)
+**Regime:** CHOP (per Fri 8/21 pre-market read, SPY -0.82% vs 50DMA, VIX ~15-16)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $351.58 | 0.00% | +$96.60 (+1.33%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.65 | 0.00% | -$216.27 (-2.82%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $214.72 | 0.00% | -$364.40 (-4.89%) | $205.128 (10% trailing GTC, HWM $227.92) |
+**Notes:** No session since Friday 8/21 close (`balance_asof: 2026-08-21`, all positions `change_today: 0`) — figures are Friday's unchanged closes, not a new trading day. No trades today (0 of 2 CHOP weekly slots used this week, new week starts Mon 8/24). 3 of 4 CHOP position slots filled (RTX auto-stopped-out 8/21, Industrials slot open, XOM confirmed watchlist candidate at entry >$161.68/stop <$155.55). No losers at -7% (NVDA reddest, -4.89%, well clear), no tighten triggers crossed, no thesis breaks — NEE's Dominion/Maryland regulatory overhang still escalating but not yet price-threatening. Deployment 44.0%, below the 60% CHOP target on RTX proceeds sitting idle. No Telegram sent — identical to this morning's pre-market and midday logs, no new information, matches the same known weekend cron-misfire pattern (6th+ occurrence since Aug 1). Next real session: Monday 8/24 — reassess XOM trigger for the open slot, NVDA earnings Wed 8/26 (no adds into the print). Patience > activity.
+
+---
