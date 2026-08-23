@@ -1030,3 +1030,18 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None — no losers at -7% (NVDA reddest, -4.89%, well clear), no tighten triggers crossed (all far below +15%), 3 of 4 CHOP position slots filled (under cap, Industrials/RTX-vacated slot still open), no thesis breaks (no new research today, market closed). No Telegram sent per Step 8 — no trading action, no new information vs Saturday's logs. 0 of 2 CHOP weekly new-buy slots used this week (new week starts Mon 8/24). Next real session: Monday 8/24 — reassess XOM trigger (>$161.68) for the open slot, NVDA earnings Wed 8/26 (no adds into the print). Patience > activity.
 
 ---
+
+### Aug 23 — EOD Snapshot (Day 91, Sunday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Aug 23, 2026 is a Sunday (`date +%A` confirmed) — market closed. Same recurring weekend cron-misfire pattern flagged repeatedly since Aug 1 (8th+ occurrence), already logged in today's midday check; no new information since then.
+
+**Portfolio:** $49,839.28 | **Cash:** $27,925.49 (56.0%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$160.72 (-0.32%)
+**Regime:** CHOP (per Fri 8/21 pre-market read, SPY -0.82% vs 50DMA, VIX ~15-16)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $351.58 | 0.00% | +$96.60 (+1.33%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.65 | 0.00% | -$216.27 (-2.82%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $214.72 | 0.00% | -$364.40 (-4.89%) | $205.128 (10% trailing GTC, HWM $227.92) |
+**Notes:** No session since Friday 8/21 close (`balance_asof: 2026-08-21`, all positions `change_today: 0`) — figures identical to Saturday's and today's midday snapshots, not a new trading day. No trades today (0 of 2 CHOP weekly slots used this week, new week starts Mon 8/24). 3 of 4 CHOP position slots filled (Industrials slot open, XOM confirmed watchlist candidate at entry >$161.68/stop <$155.55). No losers at -7% (NVDA reddest, -4.89%, well clear), no tighten triggers crossed, no thesis breaks. Deployment 44.0%, below the 60% CHOP target on RTX proceeds sitting idle. No Telegram sent — identical to today's midday log and Saturday's EOD, no new information, same known weekend cron-misfire pattern (8th+ occurrence since Aug 1). Next real session: Monday 8/24 — reassess XOM trigger for the open slot, NVDA earnings Wed 8/26 (no adds into the print). Patience > activity.
+
+---
