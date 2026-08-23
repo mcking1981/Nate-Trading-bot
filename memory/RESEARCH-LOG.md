@@ -3068,3 +3068,25 @@ No thesis-breaking developments across any holding; NEE's new Maryland merger ch
 
 ### Decision
 HOLD — market closed, no trading possible. XOM (Energy, entry >$161.68, stop <$155.55) carried as the confirmed Monday 8/24 watchlist candidate for the open CHOP slot — act on the first live touch of the trigger rather than waiting for further confirmation that lets it run away. No adds into NVDA ahead of Wednesday's earnings. Monitor NEE's escalating Dominion/Maryland overhang closely — flag for reassessment if it produces adverse news before Monday. Patience > activity.
+
+## 2026-08-23 — Pre-market Research
+
+> ⚠️ **NON-TRADING DAY**: Aug 23, 2026 is a **Sunday** (`date +%A` confirmed) — market closed, no trading session possible. Same recurring weekend cron-misfire pattern flagged repeatedly since Aug 1-2 (escalated via Telegram 8/2, re-logged 8/8, 8/9, 8/15, 8/16, 8/22 — still unresolved, still intermittent/weekend-specific only; all weekday runs continue firing clean). Skipping the full research sub-agent fan-out this time — market closed, no trade capacity regardless of findings, would be wasted work. Logging account snapshot only for Monday 8/24 continuity.
+
+**REGIME: CHOP** (carried from Fri 8/21 pre-market read, SPY -1.28% vs 50DMA, VIX ~14.9-16.0 — not reclassified today, no session)
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,839.28 | Cash: $27,925.49 (56.0%) | Buying power: $173,060.57 (margin) | Daytrade count: N/A
+- `balance_asof: 2026-08-21` confirms no session since Friday's close — stale data, not an untracked trade. All positions `change_today: 0`.
+- Positions: JPM 21sh @ $346.98 (current $351.58, +1.33%/+$96.60) | NEE 89sh @ $86.08 (current $83.65, -2.82%/-$216.27) | NVDA 33sh @ $225.762424 (current $214.72, -4.89%/-$364.40) — **3 of 4 CHOP position slots filled**, Industrials/RTX-vacated slot open
+- Open orders: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | NVDA 10% trailing GTC $205.128 (HWM $227.92) — all confirmed live, unchanged from Friday
+- Deployment: $21,913.79 / $49,839.28 = 44.0%, below the 60% CHOP target (RTX proceeds still idle)
+
+### Carried Watchlist (from 8/21 weekly-review "Adjustments for Next Week")
+- **XOM** — confirmed Monday 8/24 candidate for the open CHOP slot: entry >$161.68, stop <$155.55 (~3.8% risk). Act on first live trigger touch.
+- No adds into NVDA ahead of Wed 8/26 earnings print (2 trading sessions after Monday).
+- Monitor NEE's Dominion/Virginia-Maryland regulatory overhang — escalating per 8/22 log, not yet thesis-breaking.
+
+### Decision
+HOLD — market closed, no trading possible. No new information vs. Friday 8/21 or Saturday 8/22 logs. Same known weekend cron-misfire (7th+ occurrence since Aug 1) — not re-escalating again. Next real session: Monday 8/24 — reassess XOM trigger live, no adds into NVDA ahead of Wednesday's earnings, watch NEE overhang. Patience > activity.
