@@ -1045,3 +1045,15 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No session since Friday 8/21 close (`balance_asof: 2026-08-21`, all positions `change_today: 0`) — figures identical to Saturday's and today's midday snapshots, not a new trading day. No trades today (0 of 2 CHOP weekly slots used this week, new week starts Mon 8/24). 3 of 4 CHOP position slots filled (Industrials slot open, XOM confirmed watchlist candidate at entry >$161.68/stop <$155.55). No losers at -7% (NVDA reddest, -4.89%, well clear), no tighten triggers crossed, no thesis breaks. Deployment 44.0%, below the 60% CHOP target on RTX proceeds sitting idle. No Telegram sent — identical to today's midday log and Saturday's EOD, no new information, same known weekend cron-misfire pattern (8th+ occurrence since Aug 1). Next real session: Monday 8/24 — reassess XOM trigger for the open slot, NVDA earnings Wed 8/26 (no adds into the print). Patience > activity.
 
 ---
+
+### Aug 24 — Midday Check (Day 92, Monday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY -1.10% vs 50DMA, VIX ~15.1-15.2)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $356.78 | +$205.80 (+2.82%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.85 | -$198.47 (-2.59%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $210.77 | -$494.77 (-6.64%) | $205.13 (fixed stop GTC, restored post market-open risk event) |
+**Account:** Equity $49,835.26 | Cash $27,925.49 (56.0%) | Day P&L -$4.02 (-0.01%) | Deployment 44.0%
+**Action taken:** None. NVDA reddest at -6.64%, close to but not past the -7% manual-cut line (existing $205.13 fixed stop still ~2.7% below current price, real protection intact) — no cut triggered, watching closely into Wed 8/26 earnings (2 sessions out), no adds regardless. JPM +2.82%, NEE -2.59%, both far below the +15% first-tighten trigger — no eligible tightens today. 3 of 4 CHOP position slots filled — under regime cap, no forced closes needed. No thesis breaks: NVDA's drawdown remains pre-earnings drift/broad chip softness (per this morning's log), JPM/NEE tracking as expected, no adverse company-specific news on any holding today. No unusual single-name move without cause — no Tavily/WebSearch warranted. 0 of 2 CHOP weekly new-buy slots used this week (new week starts today). No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
