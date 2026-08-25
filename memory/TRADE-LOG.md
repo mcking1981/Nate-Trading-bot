@@ -1058,6 +1058,18 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 
 ---
 
+### Aug 25 — Midday Check (Day 93, Tuesday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY -0.91% vs 50DMA, VIX ~14.6-15.85)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $355.58 | +$180.60 (+2.48%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.855 | -$198.03 (-2.59%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $225.762424 | $211.70 | -$464.06 (-6.23%) | $205.13 (fixed stop GTC, HWM $227.92) |
+**Account:** Equity $49,845.25 | Cash $27,925.49 (56.0%) | Day P&L +$70.83 (+0.14%) | Deployment 44.0%
+**Action taken:** None. NVDA recovered further off yesterday's -7.66% EOD breach (now -6.23%, intraday +1.55%) — clear of the -7% manual-cut line, no mechanical cut triggered; fixed $205.13 stop intact ~3.1% below current price. No thesis break (broad AI-sector de-risking pre-earnings, 5 analysts reiterated/initiated Buy this week per today's pre-market log); NVDA reports Wed 8/26 AMC (tomorrow), no adds into the print per standing rule. JPM +2.48%, NEE -2.59%, both far below the +15% first-tighten trigger — no eligible tightens. 3 of 4 CHOP position slots filled, under regime cap, no forced closes needed. No thesis breaks on JPM or NEE (NEE's Dominion/VA-MD overhang unresolved but not escalating). No unusual single-name move without cause — no Tavily/WebSearch warranted. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
+
 ### Aug 24 — EOD Snapshot (Day 92, Monday)
 **Portfolio:** $49,772.08 | **Cash:** $27,925.49 (56.1%) | **Day P&L:** -$67.20 (-0.13%) | **Phase P&L:** -$227.92 (-0.46%)
 **Regime:** CHOP (SPY -1.10% vs 50DMA, VIX ~15.1-15.2 — per Aug 24 pre-market log)
