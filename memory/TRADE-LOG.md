@@ -1110,3 +1110,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Other actions:** No tighten triggers (JPM +2.77%, NEE -2.10%, both far below +15% first-tighten threshold). Regime position count: 2 of 4 CHOP slots filled post-cut, well under cap — no forced closes needed. No other thesis breaks: NEE's Dominion/VA-MD overhang unresolved but not escalating further today. No unusual single-name move without cause — no Tavily/WebSearch warranted. 2 of 4 CHOP position slots now open (Industrials/Energy slot + NVDA-vacated slot) — flag for next pre-market to re-screen Tech/AI-adjacent and other-sector candidates, no chase today. 0 of 2 CHOP weekly new-buy slots used this week. Telegram sent per Step 8 — action taken. Patience > activity.
 
 ---
+
+### Aug 26 — EOD Snapshot (Day 94, Wednesday)
+**Portfolio:** $49,829.85 | **Cash:** $34,853.51 (69.9%) | **Day P&L:** -$112.36 (-0.23%) | **Phase P&L:** -$170.15 (-0.34%)
+**Regime:** CHOP (SPY -0.91% vs 50DMA, VIX ~15.5-15.9 — per Aug 26 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $356.23 | -0.13% | +$194.18 (+2.67%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $84.22 | 0.00% | -$165.54 (-2.16%) | $78.768 (10% trailing GTC, HWM $87.52) |
+**Notes:** Only trade today was the mechanical NVDA cut at midday (-7.01% realized, -$522.14) ahead of tonight's AMC earnings print, removing all binary risk — no thesis break, purely rule-driven per the non-discretionary -7% line. Book settled into JPM (+2.67% unrealized, near 52wk high, no tighten trigger) and NEE (-2.16% unrealized, Dominion/VA-MD overhang unresolved but not escalating) for the rest of the session; both closed roughly flat on the day (JPM -0.13%, NEE 0.00%). 2 of 4 CHOP position slots filled, 2 open (Industrials/Energy + NVDA-vacated). Deployment ~30.1% ($14,976.34), well below the 60% CHOP target — cash from the RTX exit and today's NVDA cut both sitting idle. 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/24–today); 1 exit logged (NVDA), not a new-trade slot. Phase P&L -0.34% vs $50,000 launch baseline. Tomorrow (Thu 8/27): read NVDA's earnings reaction for sector-sentiment signal only (no position, no FOMO re-entry without a fresh setup); pre-market re-screen for the two open CHOP slots (Industrials/Energy candidate, Tech/AI-adjacent replacement). Patience > activity.
+
+---
