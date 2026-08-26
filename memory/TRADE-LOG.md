@@ -1093,3 +1093,20 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/24–today). NVDA recovered off Monday's -7.66% manual-cut breach, closing +2.22% on the day to -5.61% unrealized — clear of the -7% line both at market-open (-5.72%) and midday (-6.23%) checks, so no mechanical cut was triggered; fixed $205.13 stop intact (~3.7% below close), no thesis break (broad AI-sector de-risking pre-earnings, 5 analysts reiterated/initiated Buy this week). NVDA reports Wed 8/26 AMC (tomorrow) — no adds into the print, re-check the -7% line at every routine until then since the rule is not discretionary. JPM held its lead (+2.79% unrealized, near 52wk high, no tighten trigger). NEE roughly flat (-2.20% unrealized, Dominion/VA-MD overhang unresolved but not escalating). XOM remains the only live watchlist idea for the open Industrials/Energy slot but stays R:R-marginal (~1.5:1, below the 2:1 minimum) — no chase. No losers at -7% as of close, no tighten triggers crossed, no sector exits. Deployment 44.1% ($22,015.07), below the 60% CHOP target — RTX-exit cash still idle. Phase P&L -0.12% vs $50,000 launch baseline, recovering from Monday's -0.46%. Tomorrow (Wed 8/26): NVDA earnings AMC — no adds into the print; monitor the -7% line intraday; Jackson Hole Symposium + Q2 GDP 2nd estimate also due. Patience > activity.
 
 ---
+
+### Aug 26 — Midday Check (Day 94, Wednesday) — NVDA CUT AT -7%
+
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY -0.91% vs 50DMA, VIX ~15.5-15.9)
+
+**EXIT: NVDA** — 33sh, entry $225.762424, exit $209.94 (market, filled 16:15:38Z). Realized P&L: **-$522.14 (-7.01%)**. Reached -7.035% unrealized at midday check, breaching the hard -7% manual-cut rule (rule 5 — "not discretionary" per 8/24-8/25 log notes). Cancelled the existing fixed stop GTC ($205.13, order e0f5ee41) first (shares were held for that order, blocking direct close), then submitted market sell — filled immediately. No thesis break beyond known pre-earnings AI-sector drift; cut is purely mechanical per the -7% rule, timed ahead of tonight's (8/26 AMC) earnings print, removing binary earnings risk entirely.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $356.59 | +$201.81 (+2.77%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $84.275 | -$160.65 (-2.10%) | $78.768 (10% trailing GTC, HWM $87.52) |
+
+**Account:** Equity $49,842.98 | Cash $34,853.51 (69.9%) | Deployment ~30.1%
+
+**Other actions:** No tighten triggers (JPM +2.77%, NEE -2.10%, both far below +15% first-tighten threshold). Regime position count: 2 of 4 CHOP slots filled post-cut, well under cap — no forced closes needed. No other thesis breaks: NEE's Dominion/VA-MD overhang unresolved but not escalating further today. No unusual single-name move without cause — no Tavily/WebSearch warranted. 2 of 4 CHOP position slots now open (Industrials/Energy slot + NVDA-vacated slot) — flag for next pre-market to re-screen Tech/AI-adjacent and other-sector candidates, no chase today. 0 of 2 CHOP weekly new-buy slots used this week. Telegram sent per Step 8 — action taken. Patience > activity.
+
+---
