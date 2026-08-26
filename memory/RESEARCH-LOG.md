@@ -3227,3 +3227,11 @@ No major pre-market beats/misses relevant to holdings or watchlist. **NVDA Q2 FY
 
 ### Decision
 HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R) at current live prices. XOM/CAT both below their trigger levels; LLY unverified. No adds into NVDA ahead of tonight's print. Primary action item for today's market-open/midday routines: re-verify NVDA's live unrealized % against the -7% hard-cut rule, and monitor NEE's escalating Dominion/VA-MD overhang. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+- Safety check passed: ALPACA_ENDPOINT confirmed paper-api.alpaca.markets.
+- **NVDA re-check**: $213.40 vs entry $225.762424 → -5.48% unrealized, well clear of the -7% manual-cut line. Fixed stop GTC $205.13 intact (~3.9% below current price). No thesis break. Reports Q2 FY27 AMC today — no adds into the print, per standing rule.
+- **XOM — NO CONFIRMED SETUP**: $159.87/$160.10 vs $161.68 trigger — BELOW trigger, unconfirmed. Carry forward to watchlist.
+- **CAT — NO CONFIRMED SETUP**: bid/ask $768.55/$819.22 (wide spread, recurring thin-quote issue) vs $840 reclaim trigger — BELOW trigger either way, unconfirmed. Watchlist only.
+- **LLY — NO CONFIRMED SETUP**: bid/ask $1147.60/$1195.61 vs ~$1,215 buy-stop trigger — BELOW trigger, unconfirmed; also lacks a verified catalyst per pre-market note. Watchlist only.
+- No new trades. 0 of 2 CHOP weekly slots used. 3 of 4 CHOP position slots filled (JPM, NEE, NVDA), 1 open (Industrials/Energy). All positions confirmed stop-protected: JPM $329.616 (10% trailing GTC), NEE $78.768 (10% trailing GTC), NVDA $205.13 (fixed stop GTC). Patience > activity.
