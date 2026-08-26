@@ -3186,3 +3186,44 @@ HOLD — no trade meets the full checklist (specific catalyst + sector momentum 
 - **XOM — NO CONFIRMED SETUP (R:R fail)**: Alpaca quote anomalous again (ap $170.06 / bp $153.02, ~$17 spread — same recurring stale/wide-spread feed issue as 8/24). Cross-verified via Tavily: ~$164.05 (down 0.64% today) to $166.33 (stale snapshot). Either read is above the $161.68 trigger (CONFIRMED zone, +1.5% to +2.9%, not extended), but R:R still fails: at $164.05, risk to $155.55 stop = 5.18%, reward to $177 target = 7.89% → R:R ≈1.5:1, below the 2:1 minimum. No pullback into the $162-163 zone that would clear the checklist. Skip, no chase. Carry forward to watchlist — trigger still valid, not extended past the confirmation band.
 - CAT: bp $800 / ap $815.70, still below the ~$840 reclaim trigger — **BELOW trigger, unconfirmed**. No action, watchlist only.
 - No new trades. 0 of 2 CHOP weekly slots used. 3 of 4 CHOP position slots filled (JPM, NEE, NVDA), 1 open (Industrials/Energy). All positions confirmed stop-protected: JPM $329.616 (10% trailing GTC), NEE $78.768 (10% trailing GTC), NVDA $205.13 (fixed stop GTC). Patience > activity.
+
+## 2026-08-26 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.91% ($764.01 vs $771.05) | VIX: ~15.5-15.9
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,984.65 | Cash: $27,925.49 (55.9%) | Buying power: $173,467.61 (margin) | Daytrade count: N/A (not in account payload)
+- Positions: JPM 21sh @ $346.98 (current $357.52, +3.04%/+$221.34) | NEE 89sh @ $86.08 (current $84.26, -2.11%/-$161.98) | NVDA 33sh @ $225.762424 (current $213.70, -5.34%/-$398.06) — **3 of 4 CHOP position slots filled**, Industrials/Energy slot open (RTX-vacated 8/21)
+- Open orders: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | NVDA fixed stop GTC $205.13
+- Deployment: $22,059.16 / $49,984.65 = 44.1%, below the 60% CHOP target (RTX-exit proceeds still idle since 8/21)
+
+### Macro (Sub-agent 1 synthesis)
+Oil pulling back: WTI ~$80-82, Brent ~$88-94 (source spread wide), down 2-3% on Hormuz de-escalation reports + bearish inventory builds (unconfirmed, treat cautiously). S&P futures -0.23% (Sept E-mini -17.50) — soft open indicated. VIX ~15.5-15.9, up slightly day-over-day but still near YTD lows. DXY 98.97-99.0, flat, dollar-strength trend continuing (+2.5% over 4wk). 10Y yield ~4.65-4.71%, flat/slightly lower. Today's key catalyst: 8:30am ET Q2 GDP 2nd estimate (forecast 1.5% vs prior 2.1% — a slowdown), plus PCE deflator, Personal Income/Spending, Durable Goods. **NVDA reports Q2 FY27 AFTER CLOSE TODAY (8/26), not yesterday** — no results yet, watch AH/tomorrow pre-market.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+Last-5-day leaders: Health Care +4.32%, Energy +2.58%, Materials +2.28%; Tech -3.35%, Industrials -3.31% pulled back. YTD leaders: Energy +41.3%, Tech +19.8%, Materials +16.9%, Industrials +16.1%. Strongest current momentum: Energy and Health Care. XOM pulled back hard to $159.57 (below the $161.68 trigger — no longer even at the "extended, R:R-fails" price, now sub-trigger) — no confirmed setup. CAT $815-817, still below the $840 reclaim level. LLY (Health Care) has a live breakout setup: buy-stop ~$1,215, stop ~$1,135.71 — new candidate, not previously watchlisted, no earnings catalyst behind it.
+
+### Earnings Today (Sub-agent 3 synthesis)
+No major pre-market beats/misses relevant to holdings or watchlist. **NVDA Q2 FY27 reports after close TODAY 8/26** (confirmed — earlier framing of "yesterday" was wrong): consensus EPS $2.08-2.09 (+99% YoY), revenue ~$91.9-92.25B, company guide $91.0B±2%, GM guide 74.9-75.0%. 7-quarter beat streak, avg surprise 5-6%; options imply ~5%+ move. Watch Data Center rev split, Blackwell/Rubin commentary, Q3 guide (~$103-104B consensus). Also reporting AMC today: CRWD, CRM, SNPS, HPQ, OKTA (no overlap with holdings).
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** — $357.52 (+3.04% unrealized), near 52wk high ($366.50), no fresh negative news, next earnings 10/13. Thesis intact.
+- **NEE** — Dominion/VA-MD merger overhang **worsened**: Virginia's governor has filed to formally intervene in the regulatory review, citing electricity-price concerns — new friction, not yet resolved. -2.11% unrealized.
+- **NVDA** — Fell to $208.48 Mon 8/24 (8th down day in 10, since-recovered to $213.70), some outlets flag a technical "Sell candidate" rating pre-print; Taiwan indicted 9 people for illegal AI-server exports to China, NVDA's China DC revenue mix fell 21.9%→5.6% YoY (export-control drag, already priced in via guide). No new negative catalyst beyond known pre-earnings drift. Reports after close TODAY — no adds into the print per standing rule.
+
+### Trade Ideas
+1. **XOM** — Energy, pulled back to $159.57, now BELOW the $161.68 trigger (no longer confirmed). Regime check: FAIL (no live trigger).
+2. **CAT** — Industrials, $815-817, still below the $840 reclaim level. Regime check: FAIL (no live trigger).
+3. **LLY** — Health Care, live breakout setup (buy-stop ~$1,215, stop ~$1,135.71) flagged by Sector Scout — no earnings/fundamental catalyst identified yet, R:R and thesis unverified. Regime check: FAIL (insufficient catalyst confirmation — treat as watchlist-only pending live verification at market-open).
+(No earnings-catalyst trade idea in held/watchlist names; XOM/CAT/LLY are Sector Scout-named conditional/watchlist setups per protocol.)
+
+### Risk Factors
+- **NVDA reports Q2 FY27 after close TODAY (8/26)** — highest-priority item. Position -5.34% unrealized, well clear of the -7% cut line; fixed stop GTC $205.13 intact (~4.0% below current price). No adds into the print. Options imply a ~5%+ AH move — re-verify unrealized % against the -7% rule at every check today, and reassess thesis fresh once the print clears (per 8/21 weekly review directive).
+- NEE's Dominion/VA-MD overhang escalated (VA governor formally intervening) — not yet thesis-breaking, but the closest watch item; -2.11% unrealized.
+- Q2 GDP 2nd estimate (8:30am ET) forecast to show a slowdown (1.5% vs prior 2.1%) — macro catalyst that could move the broad tape ahead of NVDA's print.
+- Oil pullback (Hormuz de-escalation reports, unconfirmed) undercuts the Energy-momentum thesis behind XOM/CVX — treat cautiously until confirmed.
+- Deployment at 44.1%, below the 60% CHOP target — 1 of 4 slots open, but no live trigger meets the checklist today; do not force a fill.
+
+### Decision
+HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R) at current live prices. XOM/CAT both below their trigger levels; LLY unverified. No adds into NVDA ahead of tonight's print. Primary action item for today's market-open/midday routines: re-verify NVDA's live unrealized % against the -7% hard-cut rule, and monitor NEE's escalating Dominion/VA-MD overhang. Patience > activity.
