@@ -1131,3 +1131,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. Neither position near -7% (NEE reddest at -3.41%, intraday -1.28%, normal drift not a sharp unexplained move — no Tavily warranted). No tighten triggers (both far below +15%). 2 of 4 CHOP position slots filled, well under regime cap — no forced closes. No thesis breaks: NEE's Dominion/VA-MD overhang unresolved but not escalating per today's pre-market/market-open reads; JPM tracking near 52wk high, no adverse news. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
 
 ---
+
+### Aug 27 — EOD Snapshot (Day 95, Thursday)
+**Portfolio:** $49,737.17 | **Cash:** $34,853.34 (70.1%) | **Day P&L:** -$92.68 (-0.19%) | **Phase P&L:** -$262.83 (-0.53%)
+**Regime:** CHOP (SPY -0.67% vs 50DMA, VIX ~15.1-15.5 — per Aug 27 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $355.00 | -0.42% | +$168.42 (+2.31%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.47 | -0.89% | -$232.29 (-3.03%) | $78.768 (10% trailing GTC, HWM $87.52) |
+**Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/24–today). Both positions drifted lower on the day (JPM -0.42%, NEE -0.89%) but neither near the -7% manual-cut line (NEE reddest at -3.03% unrealized) and no tighten triggers crossed (both far below +15%). 2 of 4 CHOP position slots filled, 2 open (Industrials/Energy + NVDA-vacated), well under regime cap. No thesis breaks: NEE's Dominion/VA-MD overhang unresolved but not escalating; JPM tracking near 52wk high, no adverse news. Deployment 29.9% ($14,883.83), well below the 60% CHOP target — cash from the RTX exit and Wednesday's NVDA cut still idle. Phase P&L -0.53% vs $50,000 launch baseline, second straight day slightly lower. Tomorrow: re-screen for the two open CHOP slots (Industrials/Energy candidate, Tech/AI-adjacent replacement); no chase, wait for setups meeting the 2:1 R:R minimum. Patience > activity.
+
+---
