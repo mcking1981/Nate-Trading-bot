@@ -3273,3 +3273,11 @@ Pre-market: MRVL, TD, CIBC, Autodesk report; heavy retail slate (KSS, ANF, BBWI,
 
 ### Decision
 HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R) at current live prices; both CAT and XOM remain below their confirmed trigger levels. Live-verify CAT ($856 reclaim) and XOM ($160-161.68 break) at market-open before sizing either — 2 of 4 CHOP slots open and deployment well under target, so a confirmed trigger should be actioned same-day, not carried again. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+- Safety check passed: ALPACA_ENDPOINT confirmed paper-api.alpaca.markets.
+- **CAT — NO CONFIRMED SETUP**: bid/ask $782.80/$819.47 vs $856 reclaim trigger — BELOW trigger, unconfirmed (still the recurring wide-spread thin quote). Watchlist only.
+- **XOM — NO CONFIRMED SETUP**: bid/ask $149.56/$156.58 vs $160-161.68 trigger — BELOW trigger, unconfirmed. Watchlist only.
+- **NEE watch**: current $82.98, -3.60% unrealized, -1.47% intraday — largest drawdown yet on this position but clear of the -7% manual-cut line; Dominion/VA-MD overhang unresolved, no new escalation found. No action, 10% trailing stop GTC $78.768 intact.
+- **JPM**: $355.615, +2.49% unrealized, no tighten trigger (+15% threshold). 10% trailing stop GTC $329.616 intact.
+- No new trades. 0 of 2 CHOP weekly slots used. 2 of 4 CHOP position slots filled (JPM, NEE), 2 open (Industrials/Energy, Tech/AI-adjacent). All positions confirmed stop-protected. Patience > activity.
