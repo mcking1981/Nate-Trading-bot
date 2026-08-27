@@ -1121,3 +1121,13 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Only trade today was the mechanical NVDA cut at midday (-7.01% realized, -$522.14) ahead of tonight's AMC earnings print, removing all binary risk — no thesis break, purely rule-driven per the non-discretionary -7% line. Book settled into JPM (+2.67% unrealized, near 52wk high, no tighten trigger) and NEE (-2.16% unrealized, Dominion/VA-MD overhang unresolved but not escalating) for the rest of the session; both closed roughly flat on the day (JPM -0.13%, NEE 0.00%). 2 of 4 CHOP position slots filled, 2 open (Industrials/Energy + NVDA-vacated). Deployment ~30.1% ($14,976.34), well below the 60% CHOP target — cash from the RTX exit and today's NVDA cut both sitting idle. 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/24–today); 1 exit logged (NVDA), not a new-trade slot. Phase P&L -0.34% vs $50,000 launch baseline. Tomorrow (Thu 8/27): read NVDA's earnings reaction for sector-sentiment signal only (no position, no FOMO re-entry without a fresh setup); pre-market re-screen for the two open CHOP slots (Industrials/Energy candidate, Tech/AI-adjacent replacement). Patience > activity.
 
 ---
+
+### Aug 27 — Midday Check (Day 95, Thursday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY -0.67% vs 50DMA, VIX ~15.1-15.5)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $354.75 | +$163.17 (+2.24%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.145 | -$261.22 (-3.41%) | $78.768 (10% trailing GTC, HWM $87.52) |
+**Action taken:** None. Neither position near -7% (NEE reddest at -3.41%, intraday -1.28%, normal drift not a sharp unexplained move — no Tavily warranted). No tighten triggers (both far below +15%). 2 of 4 CHOP position slots filled, well under regime cap — no forced closes. No thesis breaks: NEE's Dominion/VA-MD overhang unresolved but not escalating per today's pre-market/market-open reads; JPM tracking near 52wk high, no adverse news. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
