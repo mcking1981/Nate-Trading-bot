@@ -3281,3 +3281,40 @@ HOLD — no trade meets the full checklist (specific catalyst + sector momentum 
 - **NEE watch**: current $82.98, -3.60% unrealized, -1.47% intraday — largest drawdown yet on this position but clear of the -7% manual-cut line; Dominion/VA-MD overhang unresolved, no new escalation found. No action, 10% trailing stop GTC $78.768 intact.
 - **JPM**: $355.615, +2.49% unrealized, no tighten trigger (+15% threshold). 10% trailing stop GTC $329.616 intact.
 - No new trades. 0 of 2 CHOP weekly slots used. 2 of 4 CHOP position slots filled (JPM, NEE), 2 open (Industrials/Energy, Tech/AI-adjacent). All positions confirmed stop-protected. Patience > activity.
+
+## 2026-08-28 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.38% ($768.15 vs $771.05) | VIX: ~14.5-15.2
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,680.64 | Cash: $34,853.34 (70.2%) | Buying power: $180,929.80 (margin) | Daytrade count: N/A (not in account payload)
+- Positions: JPM 21sh @ $346.98 (current $354.30, +2.11%/+$153.72) | NEE 89sh @ $86.08 (current $83.00, -3.58%/-$274.12) — **2 of 4 CHOP position slots filled**, 2 open (Industrials/Energy slot since RTX exit 8/21; Tech/AI slot since NVDA -7% cut 8/26)
+- Deployment: $14,827.30 / $49,680.64 = 29.8%, well below the 60% CHOP target
+
+### Macro (Sub-agent 1 synthesis)
+Oil up modestly: WTI ~$82-87, Brent ~$88-94. S&P futures firm (+0.02-0.4%) after this week's NVDA beat lifted semis. VIX ~14.5-15.2, near 2026 lows — complacency flag stands. DXY ~99.0-99.2, flat/slightly up but technically weak (below 9/50-day EMA). 10Y yield ~4.66-4.69%, steady. Key catalyst today: Q2 GDP 2nd estimate + Personal Income/Spending + core PCE at 8:30am ET, ahead of Jackson Hole Symposium starting Sat 8/29.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33%, XLE +26-27%, XLI +20% (CAT +84%, GEV +78% YTD). Real-economy rotation out of AI/tech into Industrials/Energy/Consumer Defensive continues. Strongest current momentum: **Energy (XLE)** and **Industrials (XLI)**. XOM (Energy): entry >$161.68, stop $151, target $177 — live closes $156-158, still BELOW trigger. CAT (Industrials): entry on reclaim >$856, stop <$800 — live closes $809-828, still BELOW trigger. CVX (Energy) and GEV (Industrials) flagged as backup names, levels unverified.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Thin US pre-market calendar — mostly Chinese/HK financials (ICBC, CCB, BOC, Meituan), no major US names. No reliable 8/27 after-hours beat/miss data retrieved (stale search results). Context: NVDA's beat earlier this week (rev $96.2B +106% YoY, EPS $2.22, Q3 guide raised to ~$108B) continues to support broad chip/AI sentiment. No earnings catalyst applicable to current holdings or watchlist.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($354-356): flat, no new catalysts, no overhang. Thesis intact.
+- **NEE** (~$83.65): down ~0.9%, routine $0.6232/sh quarterly dividend declared (record 8/28, pays 9/15). Dominion/VA-MD overhang: **no escalation** — case on original SCC clock, evidentiary hearing set 11/17, public testimony 11/2-10, decision deadline ~1/11/2027. Long runway, still open, unchanged.
+
+### Trade Ideas
+1. XOM — Energy momentum, entry >$161.68, stop $151 (-6.6%), target $177 (+9.5%), R:R ~1.4:1 at trigger. Regime check: FAIL (live price $156-158, below trigger — not confirmed).
+2. CAT — Industrials, entry on reclaim >$856, stop <$800 (-6.5%). Regime check: FAIL (live price $809-828, below trigger — not confirmed).
+(No earnings-catalyst trade idea exists; XOM/CAT are Sector Scout-named conditional/watchlist setups per protocol — verify live at market-open.)
+
+### Risk Factors
+- VIX near 2026 lows (~14.5-15.2) with equities near ATHs — complacency flag into the historically choppier Aug-Oct/midterm window persists.
+- Core PCE + GDP 2nd estimate at 8:30am ET today, into Jackson Hole (starts Sat 8/29) — macro catalyst that could move the tape before either watchlist trigger confirms.
+- Deployment at 29.8%, well below the 60% CHOP target, with 2 of 4 slots open for a week-plus (RTX 8/21, NVDA 8/26 vacated) — real opportunity-cost risk, but neither CAT nor XOM has triggered; do not force a fill.
+- NEE's Dominion/VA-MD overhang has a long runway (hearing not until 11/17) with no near-term resolution catalyst either way; position already -3.58% unrealized, well clear of -7% cut.
+
+### Decision
+HOLD — no trade meets the full checklist; both CAT and XOM remain below their confirmed trigger levels, no earnings catalyst applicable. Live-verify CAT ($856 reclaim) and XOM ($161.68 breakout) at market-open before sizing either. Patience > activity.
