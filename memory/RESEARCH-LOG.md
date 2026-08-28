@@ -3318,3 +3318,11 @@ Thin US pre-market calendar — mostly Chinese/HK financials (ICBC, CCB, BOC, Me
 
 ### Decision
 HOLD — no trade meets the full checklist; both CAT and XOM remain below their confirmed trigger levels, no earnings catalyst applicable. Live-verify CAT ($856 reclaim) and XOM ($161.68 breakout) at market-open before sizing either. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+- Safety check passed: ALPACA_ENDPOINT confirmed paper-api.alpaca.markets.
+- **XOM — NO CONFIRMED SETUP**: bid/ask $155.49/$159.96 vs $161.68 trigger — BELOW trigger both sides, unconfirmed. Watchlist only.
+- **CAT — NO CONFIRMED SETUP**: bid/ask $815.99-816.88/$861.95 vs $856 reclaim trigger — ask nominally above trigger but this is the recurring wide-spread thin-quote artifact (only 40sh size); cross-verified via Tavily, real market price ~$817-822, matching the bid, well below $856. Treated as unconfirmed. Watchlist only.
+- **NEE watch**: current $82.115, -4.61% unrealized, -1.62% intraday — clear of the -7% manual-cut line. Dominion/VA-MD overhang unresolved (hearing 11/17), no new escalation. No action, 10% trailing stop GTC $78.768 intact.
+- **JPM**: $354.94, +2.29% unrealized, no tighten trigger (+15% threshold). 10% trailing stop GTC $329.616 intact.
+- No new trades. 0 of 2 CHOP weekly slots used. 2 of 4 CHOP position slots filled (JPM, NEE), 2 open (Industrials/Energy, Tech/AI-adjacent). All positions confirmed stop-protected. Patience > activity.
