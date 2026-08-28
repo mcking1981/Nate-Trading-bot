@@ -54,9 +54,12 @@ PYEOF
 )
   TREE_JSON="${TREE_JSON/__TREE_SHA__/$TREE_SHA}"
 
+  TREE_JSON_FILE=$(mktemp)
+  printf '%s' "$TREE_JSON" > "$TREE_JSON_FILE"
   NEW_TREE=$(curl -fsS -X POST -H "$AUTH" -H "Content-Type: application/json" \
-    "${API}/git/trees" -d "$TREE_JSON" \
+    "${API}/git/trees" -d "@${TREE_JSON_FILE}" \
     | python3 -c "import sys,json; print(json.load(sys.stdin)['sha'])")
+  rm -f "$TREE_JSON_FILE"
 
   NEW_COMMIT=$(curl -fsS -X POST -H "$AUTH" -H "Content-Type: application/json" \
     "${API}/git/commits" \
