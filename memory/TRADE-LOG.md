@@ -1142,3 +1142,13 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/24–today). Both positions drifted lower on the day (JPM -0.42%, NEE -0.89%) but neither near the -7% manual-cut line (NEE reddest at -3.03% unrealized) and no tighten triggers crossed (both far below +15%). 2 of 4 CHOP position slots filled, 2 open (Industrials/Energy + NVDA-vacated), well under regime cap. No thesis breaks: NEE's Dominion/VA-MD overhang unresolved but not escalating; JPM tracking near 52wk high, no adverse news. Deployment 29.9% ($14,883.83), well below the 60% CHOP target — cash from the RTX exit and Wednesday's NVDA cut still idle. Phase P&L -0.53% vs $50,000 launch baseline, second straight day slightly lower. Tomorrow: re-screen for the two open CHOP slots (Industrials/Energy candidate, Tech/AI-adjacent replacement); no chase, wait for setups meeting the 2:1 R:R minimum. Patience > activity.
 
 ---
+
+### Aug 28 — Midday Check (Day 96, Friday)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY -0.38% vs 50DMA, VIX ~14.5-15.2)
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $358.50 | +$241.92 (+3.32%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $81.615 | -$397.39 (-5.19%) | $78.768 (10% trailing GTC, HWM $87.52) |
+**Action taken:** None. NEE extended its decline (-4.61% at market-open → -5.19% now, -2.22% intraday) but remains clear of the -7% manual-cut line; existing 10% trailing stop GTC $78.768 still ~3.5% below current price, real protection intact. Decline reads as continuation of the known Dominion/VA-MD overhang (no new escalation — case still on original SCC clock, hearing 11/17, per today's pre-market log), not a sharp unexplained move, so no Tavily/WebSearch warranted. JPM +3.32%, both positions far below the +15% first-tighten threshold — no eligible tightens. 2 of 4 CHOP position slots filled, well under regime cap — no forced closes needed. No thesis breaks identified. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
