@@ -495,3 +495,60 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Monitor NEE's Dominion/Virginia regulatory overhang for any escalation — it's now the book's largest unrealized drag
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-08-28
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $49,848.58 (Fri 8/21 close) |
+| Ending portfolio | $49,642.50 (Fri 8/28 close, per TRADE-LOG EOD; Alpaca balance_asof lags at 8/27, $49,720.79) |
+| Week return | -$206.08 (-0.41%) |
+| S&P 500 week | +0.70% (SPX 7,674.37 Aug 21 close -> 7,728.08 Aug 28 close) |
+| Bot vs S&P | -1.11% |
+| Dominant regime | CHOP (5/5 days) |
+| Trades | 1 (W:0 / L:1 / open:2 — JPM, NEE) |
+| Win rate | 0% (0 of 1 closed) |
+| Best trade | N/A (no closed winners) — JPM +3.00% unrealized |
+| Worst trade | NVDA -7.01% (manual -7% cut) |
+| Profit factor | 0.00 (no gross profit, $522.14 gross loss) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| NVDA | $225.762424 (33sh, 8/13) | $209.94 (33sh, 8/26 midday market sell) | -$522.14 (-7.01%) | Manual -7% cut per Strategy Hard Rule #5, executed same-day ahead of the 8/26 AMC earnings print — removed binary earnings risk entirely, no thesis break found |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| JPM | $346.98 (21sh, 7/22) | $357.40 | +$218.82 (+3.00%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | $86.08 (89sh, 8/14) | $81.84 | -$377.36 (-4.93%) | $78.768 (10% trailing GTC, HWM $87.52) |
+
+### What Worked
+- Mechanical -7% cut on NVDA executed cleanly and without hesitation ahead of the 8/26 AMC earnings print — removed binary event risk entirely, purely rule-driven per Strategy Hard Rule #5, no discretion applied
+- Correctly declined to FOMO re-enter NVDA despite its post-earnings reversal (beat for a 15th straight quarter, stock +~4% AH on raised FY28 guide) — no chase without a fresh confirmed setup
+- JPM continued compounding steadily to +3.00% unrealized by week end, near 52wk highs, zero negative catalysts, no stop action needed
+- Correctly declined CAT and XOM all week despite daily Sector Scout tracking — both stayed below their confirmed trigger levels (XOM $155-160 vs $161.68; CAT $809-828 vs $856 reclaim), no chasing
+- NEE's continued drawdown correctly read as unescalated Dominion/VA-MD overhang (no new filing, case on original SCC clock), not a thesis break — 10% trailing stop intact and well clear of -7%
+
+### What Didn't Work
+- 0 of 2 CHOP weekly new-buy slots used again — 2 of 4 position slots have now sat open for over a week (Industrials/Energy since the 8/21 RTX exit, Tech/AI-adjacent since the 8/26 NVDA cut) with no live trigger confirming
+- Underperformed S&P by -1.11% this week, driven by NEE's ongoing slide (-2.30% Mon -> -4.93% Fri) outweighing JPM's gains
+- NEE's Dominion/VA-MD regulatory overhang is now unresolved for 6 straight weeks (since 7/24) with the evidentiary hearing not until 11/17 — a long runway with no near-term catalyst while the position keeps bleeding lower
+- Deployment ended the week at 29.8%, well below the 60% CHOP target, for a 2nd straight week — same entry-trigger conversion bottleneck (XOM, CAT named daily with defined levels, neither confirmed) flagged repeatedly since June
+
+### Key Lessons
+- The -7% mechanical cut rule continues to work exactly as designed, and this time it proactively removed binary earnings risk (cut same-day, hours ahead of the print) rather than just reacting to a stop breach
+- Sitting on 2 of 4 open slots for over a week while both live candidates (XOM, CAT) stay below trigger is the same "correct process, opportunity cost" pattern from June/July — the difference now is deployment stuck near 30% for a 2nd straight week, not a one-off
+- NEE's long-duration overhang (hearing not until 11/17) has no near-term resolution catalyst — the strategy still has no explicit rule for a stale, slow-bleeding position short of the -7% line; worth deciding whether duration itself should ever prompt an active reassessment
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P (-1.11%), but last week (Aug 21) underperformed by an estimated -2.09% while this week's gap is below the 2% trigger threshold — consecutive-underperformance requires BOTH weeks to exceed 2%, so no trigger. CHECK B: not applicable, no outperformance this week. CHECK C: one Tech trade closed this week (NVDA, -7.01%) — a single loss, not 2 consecutive losing trades in the sector — no new sector-cooldown trigger; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Re-verify XOM (reclaim >$161.68) and CAT (reclaim >$856) live at Monday 8/31 open; both have sat below trigger for 2 straight weeks — if neither confirms by midweek, reassess whether the levels themselves need updating
+- With deployment at 29.8% and 2 of 4 slots open for a 2nd straight week, treat closing the gap toward the 60% CHOP target as a real priority the moment a qualifying setup confirms — don't force a fill
+- Set an explicit checkpoint for NEE's Dominion/VA-MD overhang: mechanical -7% cut still applies if breached, but with the hearing not until 11/17, decide whether a stale multi-week bleed with no near-term catalyst warrants a fresh thesis review before then
+
+### Overall Grade: C
