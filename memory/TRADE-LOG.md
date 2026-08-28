@@ -1152,3 +1152,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. NEE extended its decline (-4.61% at market-open → -5.19% now, -2.22% intraday) but remains clear of the -7% manual-cut line; existing 10% trailing stop GTC $78.768 still ~3.5% below current price, real protection intact. Decline reads as continuation of the known Dominion/VA-MD overhang (no new escalation — case still on original SCC clock, hearing 11/17, per today's pre-market log), not a sharp unexplained move, so no Tavily/WebSearch warranted. JPM +3.32%, both positions far below the +15% first-tighten threshold — no eligible tightens. 2 of 4 CHOP position slots filled, well under regime cap — no forced closes needed. No thesis breaks identified. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
 
 ---
+
+### Aug 28 — EOD Snapshot (Day 96, Friday)
+**Portfolio:** $49,642.50 | **Cash:** $34,853.34 (70.2%) | **Day P&L:** -$94.67 (-0.19%) | **Phase P&L:** -$357.50 (-0.72%)
+**Regime:** CHOP (SPY -0.38% vs 50DMA, VIX ~14.5-15.2 — per Aug 28 pre-market log)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $357.40 | +0.90% | +$218.82 (+3.00%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $81.84 | -1.95% | -$377.36 (-4.93%) | $78.768 (10% trailing GTC, HWM $87.52) |
+**Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/24-today; NVDA cut on 8/26 was an exit, not a new-buy slot). NEE pared back some of midday's decline into the close (-5.19% midday to -4.93% EOD) but stayed clear of the -7% manual-cut line all session; 10% trailing stop GTC $78.768 intact ~3.7% below close. Dominion/VA-MD overhang unresolved but not escalating (case on original SCC clock, hearing 11/17) — no thesis break. JPM continued to lead, +3.00% unrealized, near 52wk high, still well below the +15% first-tighten threshold — no eligible tightens on either position. 2 of 4 CHOP position slots filled, 2 open (Industrials/Energy since RTX exit 8/21, Tech/AI-adjacent since NVDA cut 8/26) — CAT and XOM both remained below trigger all week per pre-market screens, no chase. Deployment 29.8% ($14,789.16), well below the 60% CHOP target — cash from RTX exit and NVDA cut still idle over a week. Phase P&L -0.72% vs $50,000 launch baseline, third straight lower close (Wed -0.34%, Thu -0.53%, Fri -0.72%), driven by NEE's ongoing drawdown while JPM gains only partially offset it. Week recap (Mon 8/24-Fri 8/28): 0 new-buy trades, 1 exit (NVDA cut at -7% on 8/26). Monday (8/31): re-screen CAT/XOM for confirmed triggers on the two open slots; continue monitoring NEE toward -7%; Jackson Hole Symposium (started 8/29) commentary may move rate expectations into next week. Patience > activity.
+
+---
