@@ -1153,6 +1153,12 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 
 ---
 
+### Aug 29 — Midday Check (Day 97, Saturday — market closed)
+**Regime:** CHOP (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) — per today's pre-market log (SPY +1.17% vs 50DMA, VIX ~14.4-15.5)
+**Action taken:** None. Market closed (Saturday) — no live trading, prices unchanged from Friday 8/28 close (JPM $357.62, NEE $81.84, change_today 0%). JPM +3.07%, NEE -4.93%, both clear of -7% cut and +15% tighten thresholds. 2 of 4 CHOP slots filled, under regime cap. No thesis break since pre-market read. No Tavily/WebSearch warranted (no live move to explain). No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
+
 ### Aug 28 — EOD Snapshot (Day 96, Friday)
 **Portfolio:** $49,642.50 | **Cash:** $34,853.34 (70.2%) | **Day P&L:** -$94.67 (-0.19%) | **Phase P&L:** -$357.50 (-0.72%)
 **Regime:** CHOP (SPY -0.38% vs 50DMA, VIX ~14.5-15.2 — per Aug 28 pre-market log)
