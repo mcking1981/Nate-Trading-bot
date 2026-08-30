@@ -3367,3 +3367,44 @@ Market closed today — no new earnings. Fri 8/28 pre-market: PINC (EPS beat/rev
 
 ### Decision
 HOLD — market closed today, no action possible or warranted. Monday 8/31 market-open: live-verify XOM ($161.68 reclaim) and CAT ($856 reclaim, now degraded — consider re-leveling or dropping), re-check NEE's Dominion/VA-MD overhang for any new escalation, and re-verify neither position is near the -7% cut line. Patience > activity.
+
+## 2026-08-30 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.17% ($766.08 vs $757.20) | VIX: 14.43
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+**Note:** 2026-08-30 is a Sunday — market closed, no live trading today. This run executes on schedule per routine; all prices/data below are as of Friday 8/28 close. No triggers can be confirmed until Monday 8/31 market-open.
+
+### Account Snapshot
+- Equity: $49,647.12 | Cash: $34,853.34 (70.2%) | Buying power: $180,835.94 (margin) | Daytrade count: N/A (not in account payload)
+- Positions: JPM 21sh @ $346.98 (current $357.62, +3.07%/+$223.44) | NEE 89sh @ $86.08 (current $81.84, -4.93%/-$377.36) — **2 of 4 CHOP position slots filled**, 2 open (Industrials/Energy slot since RTX exit 8/21; Tech/AI-adjacent slot since NVDA -7% cut 8/26)
+- Open orders: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52)
+- Deployment: $14,793.78 / $49,647.12 = 29.8%, well below the 60% CHOP target — 4th straight week under target
+
+### Macro (Sub-agent 1 synthesis)
+Oil soft: WTI $82.53-83.44, Brent $88.78-89.31, both down slightly. S&P futures mild risk-off drift (ES -0.11 to -0.25%, Nasdaq -0.52%). VIX 14.43, near 2026 lows (14.2 on 8/21) — complacency flag into historically choppy Sep-Oct/midterm window persists. DXY 99.70 (+0.55%, +1.98% YoY), firming, RSI overbought hourly. 10Y yield 4.67-4.73%, steady on fiscal/debt-buyback concerns. This week: PMI Mfg Final Mon 8/31, ISM Mfg Tue 9/1, ISM Services + jobless claims Thu 9/3, **NFP Fri 9/4** (key catalyst). No FOMC this week (next Sep 15-16); Jackson Hole wrapped Sat 8/29.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK (Tech), XLE (Energy), XLI (Industrials) all +20%+. Last 5 days: rotation into real-economy Industrials/Energy/Utilities; Tech volatile (NVDA earnings pop 8/27, pullback 8/28). Strongest current momentum: **Industrials** and **Energy**.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Market closed — no pre-market prints today. Fri 8/29 notable: HRL (EPS beat/rev miss), COR (EPS beat/rev miss, raised FY guide), FIZZ (EPS beat/rev miss), WS (rev beat/EPS miss badly). No mega-cap prints Friday, none overlap holdings/watchlist. This week confirms prior flags: Tue 9/1 AMC DELL, PANW; Wed 9/2 AMC **SNOW**, AVGO, **HPE**; Thu 9/3 PMO **CPB**, AMC **DOCU**, LULU, ZS. None held or on active watchlist.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($357.62, +3.07% unrealized): near 52wk high (-2.5% off it). Q2 EPS/rev beat, dividend raised. No overhang, thesis intact.
+- **NEE** ($81.84, -4.93% unrealized): Dominion/VA-MD overhang **UNCHANGED** — no new ruling, escalation, or timeline shift since 8/29; evidentiary hearing still 11/17/2026. Not thesis-breaking, well clear of -7% cut.
+
+### Trade Ideas
+1. XOM — Energy, entry >$161.68, stop $151 (-6.6%), target $177. Regime check: FAIL (last close ~$156-158, ~5-day return -4.5%, still below trigger — 3rd+ straight week unconfirmed, momentum cooling, not improving).
+2. CAT — Industrials, entry on reclaim >$856. Regime check: FAIL (closed $800.25 Fri, sitting AT its own <$800 stop-loss reference, 2+ weeks unconfirmed and deteriorating — **flag for drop/re-level at next pre-market**, stale target no longer reflects price action).
+3. NVDA (watchlist only, no position) — fresh setup forming: entry on hold/bounce near $207-217 support (higher-low, 50-day MA/50% retrace), stop <$205, target $230 then $236-261. Regime check: FAIL (not yet triggered — bounce/hold unconfirmed, no live entry today; market closed). Tech/AI-adjacent slot candidate to watch Monday.
+
+### Risk Factors
+- Market closed today (Sunday) — this entry is informational only; live-verify everything Monday 8/31 at market-open before any action.
+- CAT has now sat at/near its own stop-loss reference for 2+ weeks without reclaiming trigger — per weekly-review directive to reassess levels if unconfirmed for 2+ weeks, drop or re-level CAT at Monday's pre-market rather than carry the stale $856 target further.
+- Deployment at 29.8%, below the 60% CHOP target for a 4th straight week — 2 of 4 slots open over a week each (RTX 8/21, NVDA 8/26); per latest weekly review, treat closing this gap as a real priority the moment a qualifying setup confirms (NVDA's fresh $207-217 support setup is the most promising near-term candidate), but do not force a fill.
+- NEE's Dominion/VA-MD overhang remains a long-runway, no-near-term-catalyst drag (hearing not until 11/17) on a position already -4.93% unrealized; per weekly-review checkpoint, continue monitoring for escalation without treating the multi-week bleed itself as a trigger absent a -7% breach.
+- VIX near 2026 lows with equities near ATHs — complacency flag into historically choppier Aug-Oct/midterm window persists; NFP Friday 9/4 is this week's key catalyst risk.
+
+### Decision
+HOLD — market closed today, no action possible or warranted. Monday 8/31 market-open: live-verify XOM ($161.68 reclaim, unlikely) and CAT (re-level or drop given 2+ weeks stalled at its own stop reference), check NVDA's $207-217 support setup for a live bounce/hold confirmation, re-check NEE's Dominion/VA-MD overhang once more, and re-verify neither held position is near the -7% cut line. Patience > activity.
