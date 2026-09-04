@@ -1169,3 +1169,23 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 8/24-today; NVDA cut on 8/26 was an exit, not a new-buy slot). NEE pared back some of midday's decline into the close (-5.19% midday to -4.93% EOD) but stayed clear of the -7% manual-cut line all session; 10% trailing stop GTC $78.768 intact ~3.7% below close. Dominion/VA-MD overhang unresolved but not escalating (case on original SCC clock, hearing 11/17) — no thesis break. JPM continued to lead, +3.00% unrealized, near 52wk high, still well below the +15% first-tighten threshold — no eligible tightens on either position. 2 of 4 CHOP position slots filled, 2 open (Industrials/Energy since RTX exit 8/21, Tech/AI-adjacent since NVDA cut 8/26) — CAT and XOM both remained below trigger all week per pre-market screens, no chase. Deployment 29.8% ($14,789.16), well below the 60% CHOP target — cash from RTX exit and NVDA cut still idle over a week. Phase P&L -0.72% vs $50,000 launch baseline, third straight lower close (Wed -0.34%, Thu -0.53%, Fri -0.72%), driven by NEE's ongoing drawdown while JPM gains only partially offset it. Week recap (Mon 8/24-Fri 8/28): 0 new-buy trades, 1 exit (NVDA cut at -7% on 8/26). Monday (8/31): re-screen CAT/XOM for confirmed triggers on the two open slots; continue monitoring NEE toward -7%; Jackson Hole Symposium (started 8/29) commentary may move rate expectations into next week. Patience > activity.
 
 ---
+
+### Sep 4 — Midday Check (Day 101, Friday) — ⚠️ LOGGING GAP RECONCILIATION
+
+> ⚠️ **No routine has committed to this repo since Aug 30** (last commit `74b1395`, "pre-market research 2026-08-30", confirmed via `git log origin/main`). No pre-market, market-open, midday, or EOD entries exist for Mon 8/31 through Thu 9/3 in RESEARCH-LOG.md or TRADE-LOG.md — scheduled runs did not execute or did not reach Step 9 (commit+push) for 5 straight sessions. This is the first routine to run/persist since then.
+
+**Reconciliation — undocumented XOM entry:** Live Alpaca state shows a new position, **XOM 45sh @ $163.00** (order/trailing-stop created 2026-09-01T13:50Z, still open, 10% trailing GTC, stop $149.085, HWM $165.65), filling the open Industrials/Energy slot flagged in the Aug 30 pre-market log (trade idea: "XOM — entry >$161.68, stop $151, target $177"). This trade executed and was stop-protected correctly, but **no market-open/midday/EOD entry was ever logged or pushed for it** — reconstructing thesis here from the last-known pre-market watchlist entry since the originating session's own log is unrecoverable. No corresponding NVDA/CAT or other new position exists — book is JPM, NEE, XOM only.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $357.94 | +$230.06 (+3.16%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.675 | -$214.05 (-2.79%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | 45 | $163.00 | $160.40 | -$117.00 (-1.60%) | $149.085 (10% trailing GTC, HWM $165.65) |
+
+**Account:** Equity $49,695.20 | Cash $27,518.33 (55.4%) | Deployment 44.6% ($22,176.87) | balance_asof 2026-09-03
+
+**Regime:** No pre-market stamp exists for today (or the whole prior week) — defaulting to **Chop sizing** per standing rule ("if the regime block is missing, default to Chop, conservative": max 4 positions, max 15%/position, 60% target deployed).
+
+**Action taken:** None required. No losers at -7% (XOM reddest, -1.60%, well clear). No tighten triggers (JPM +3.16%, well below +15%). 3 of 4 Chop-default position slots filled — under cap, no forced closes. No sharp unexplained single-name moves today (JPM -1.14%, XOM -1.12%, NEE -0.46%, all normal drift) — no Tavily/WebSearch warranted. No thesis breaks identified on JPM, NEE, or XOM. Telegram alert sent per Step 8 flagging the logging gap and reconciled XOM position (operational issue, not a trade action, but material enough to notify). **Priority for next pre-market run:** resume normal cadence, re-verify the scheduler/cron is firing daily, and confirm Step 9 (commit+push) completes every session going forward.
+
+---
