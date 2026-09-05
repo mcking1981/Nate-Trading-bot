@@ -1182,6 +1182,26 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 | NEE | 89 | $86.08 | $83.675 | -$214.05 (-2.79%) | $78.768 (10% trailing GTC, HWM $87.52) |
 | XOM | 45 | $163.00 | $160.40 | -$117.00 (-1.60%) | $149.085 (10% trailing GTC, HWM $165.65) |
 
+---
+
+### Sep 5 — Midday Check (Day 102, Saturday — market closed) — ⚠️ LOGGING GAP UNRESOLVED
+
+> ⚠️ Cadence gap has NOT been fixed: only commit since Aug 30 remains `987802f` ("midday scan 2026-09-04"), confirmed via `git log`. Pre-market, market-open, and EOD entries are still missing for Mon 8/31 through Fri 9/4 (5 trading days) in both RESEARCH-LOG.md and TRADE-LOG.md — no new commits landed between this session and the last. **No regime stamp exists for today or the entire preceding week** — defaulting to Chop sizing per standing rule.
+
+**Regime:** No pre-market stamp available — **defaulting to Chop** (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) per "if the regime block is missing, default to Chop, conservative."
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $358.64 | +$244.86 (+3.36%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $83.43 | -$235.85 (-3.08%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | 45 | $163.00 | $159.47 | -$158.85 (-2.17%) | $149.085 (10% trailing GTC, HWM $165.65) |
+
+**Account:** Equity $49,651.19 | Cash $27,518.33 (55.4%) | Deployment 44.6% ($22,132.86) | balance_asof 2026-09-04
+
+**Action taken:** None. Market closed (Saturday) — all `change_today` = 0%, prices are Friday 9/4 close carried forward, no live trading possible. No losers at -7% (XOM reddest, -2.17%, well clear). No tighten triggers (JPM +3.36%, well below +15%). 3 of 4 Chop-default position slots filled — under cap, no forced closes. No thesis breaks identified (no live news check performed — market closed, no unusual moves to explain, no Tavily/WebSearch warranted). No Telegram sent per Step 8 — no trading action taken (the cadence-gap issue was already surfaced via Telegram on 9/4 and remains unchanged, not a new development).
+
+**Priority for next pre-market/market-open (Mon 9/7 — note Sun 9/6 also market-closed):** the scheduler/cron gap from Sep 4's note is still unresolved 1 day later with zero new commits in between — escalate: confirm whether pre-market/market-open routines are actually firing and failing silently, or not firing at all. Re-verify neither position is near -7% at the first live session. Resume normal 5-run cadence and confirm every session reaches Step 9 (commit+push).
+
 **Account:** Equity $49,695.20 | Cash $27,518.33 (55.4%) | Deployment 44.6% ($22,176.87) | balance_asof 2026-09-03
 
 **Regime:** No pre-market stamp exists for today (or the whole prior week) — defaulting to **Chop sizing** per standing rule ("if the regime block is missing, default to Chop, conservative": max 4 positions, max 15%/position, 60% target deployed).
