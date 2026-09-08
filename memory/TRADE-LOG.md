@@ -1225,3 +1225,21 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. Labor Day — market closed, all `change_today` = 0%, prices carried forward from Fri 9/4 close. No losers at -7% (NEE reddest, -3.08%, well clear). No tighten triggers (JPM +3.36%, well below +15%). 3 of 4 Chop-default position slots filled — under cap, no forced closes. No thesis breaks identified on JPM, NEE, or XOM. No live news check performed — market closed, no unusual moves to explain, no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken; the logging-gap issue was already flagged via Telegram on 9/4 and 9/5 and remains unchanged (no new development to report). Next live session Tue 9/8 — re-verify no position is near -7%, resume normal cadence.
 
 ---
+
+### Sep 8 — Midday Check (Day 105, Tuesday) — ⚠️ LOGGING GAP STILL UNRESOLVED (9 days)
+
+> ⚠️ No pre-market, market-open, or EOD entry has landed in RESEARCH-LOG.md or TRADE-LOG.md since Aug 30/Aug 28 respectively (confirmed via `git log`: last commits are midday-only — `2c123b0` 9/7, `7364d86` 9/5, `987802f` 9/4 — with `74b1395` "pre-market research 2026-08-30" the last non-midday entry). This is the first LIVE trading session (real intraday price movement, not a closed-market carry-forward) since Fri 9/4. Regime has now been unstamped for 9 straight days across a live NFP week and a full trading week — defaulting to **Chop sizing** per standing rule.
+
+**Regime:** No pre-market stamp — defaulting to **Chop** (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week).
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $355.625 | +$181.55 (+2.49%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $84.065 | -$179.34 (-2.34%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | 45 | $163.00 | $159.56 | -$154.80 (-2.11%) | $149.085 (10% trailing GTC, HWM $165.65) |
+
+**Account:** Equity $49,650.23 | Cash $27,518.33 (55.4%) | Deployment 44.6% ($22,131.90) | balance_asof 2026-09-04 (stale — cash/equity balance snapshot itself hasn't refreshed in 4 sessions, separate from the logging gap; position market values above are live)
+
+**Action taken:** None. First live session since Fri 9/4 — real intraday moves today (JPM -0.84%, NEE +0.76%, XOM +0.06%), all normal drift, no sharp unexplained single-name move, no Tavily/WebSearch warranted. No losers at -7% (all three positions clustered -2 to +2.5%, well clear). No tighten triggers (JPM +2.49% unrealized is the best performer, far below +15%). 3 of 4 Chop-default position slots filled — under cap, no forced closes. No thesis breaks identified: JPM no overhang, NEE's Dominion/VA-MD case still on original SCC clock (hearing 11/17, no news check performed today since no unusual move flagged it), XOM no news trigger. No Telegram sent per Step 8 — no trading action taken. **Escalating the logging gap:** it has now spanned 9 calendar days and a full live trading week with zero pre-market/market-open/EOD entries — beyond "already flagged, no new development." Sending a fresh alert since severity has materially increased (was "5 sessions missing" on 9/4, now "9 days, full week, live NFP week missed entirely"). Root cause still unconfirmed — needs a human check of whether the pre-market/market-open/EOD scheduled triggers are actually firing.
+
+---
