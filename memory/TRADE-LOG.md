@@ -1245,3 +1245,19 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **⚠️ LIKELY ROOT CAUSE FOUND for future sessions:** `scripts/github-push.sh` (the REST-API push wrapper Step 9 tells every routine to use) now fails every attempt with `HTTP 403: "Write access to this GitHub API path is not permitted through this proxy"` on the `git/trees` POST — confirmed via direct curl, not transient (failed 2/2 tries, both `git/refs` GET and `git/commits` GET succeed fine, only the write endpoints are blocked). This is a proxy-level policy change, not a token/permissions issue (same `GITHUB_TOKEN` reads fine). **If this policy has been in effect since on/around Aug 30, it fully explains the 9-day gap** — any pre-market/market-open/EOD session that ran, did its analysis, tried to persist via this script, silently failed, and lost all its work (fresh clone + no push = vanishes), while appearing to "not have run" from the outside. Workaround used this session: plain `git push -u origin HEAD:main` (standard HTTPS git push, not the REST API) **succeeded** and is confirmed live on origin/main (verified via API GET after push). **Recommend:** update `scripts/github-push.sh` and the Step 9 instructions across all routines to use native `git push` instead of the GitHub REST API, since the REST write path is now blocked by the proxy but native git push still works.
 
 ---
+
+### Sep 9 — Midday Check (Day 106, Wednesday)
+
+**Regime:** CHOP (per today's pre-market: SPY +1.20% vs 50DMA, VIX ~15.7-16.6) — max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $354.59 | +$159.81 (+2.19%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $82.80 | -$291.92 (-3.81%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | 45 | $163.00 | $163.435 | +$19.58 (+0.27%) | $149.085 (10% trailing GTC, HWM $165.65) |
+
+**Account:** Equity $49,689.88 | Cash $27,518.33 (55.4%) | Deployment 44.6% ($22,171.55) | balance_asof 2026-09-08
+
+**Action taken:** None. No losers at -7% (NEE reddest, -3.81%, well clear — extended its decline from -2.42% at pre-market/-2.60% at market-open on the known Dominion/VA-MD overhang plus a new procedural wrinkle flagged in today's pre-market log — not an escalation, no adverse ruling, thesis intact). No tighten triggers (JPM best performer +2.19% unrealized, far below the +15% first-tighten threshold). 3 of 4 CHOP position slots filled — under regime cap, no forced closes. No thesis breaks identified: JPM pure pullback/no overhang, NEE procedural-only (SCC hearing still 11/17), XOM no new overhang (CFO conference was informational, oil spike +3-4% is a tailwind not a red flag). No sharp unexplained single-name move today — all three positions' intraday moves are consistent with known causes (oil spike for XOM, rate/overhang drift for NEE) — no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. **Logging-gap status:** resolved — confirmed via `git fetch origin main` that origin/main tip matches local HEAD (`49d0a23`, market-open check 2026-09-09); commits have landed normally since 9/5, no persistence issue this session. Patience > activity.
+
+---
