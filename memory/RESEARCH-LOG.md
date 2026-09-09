@@ -3450,3 +3450,9 @@ Pre-market: COO, SAIL, CHWY, Inditex ADR reporting — no results confirmed at q
 
 ### Decision
 HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R) at current pre-market prices; neither CAT nor CVX has a confirmed live trigger. Live-verify CAT ($800-810 bounce) at market-open first (diversification priority over CVX's Energy-concentration option) before sizing either. Re-check NEE's merger-timeline-extension fight for any ruling. No position near -7% cut. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+- Account: Equity ~$49,780 | Cash $27,518.33 | Buying power $172,429.52 | Positions: JPM 21sh (+1.66%), NEE 89sh (-2.60%), XOM 45sh (+0.94%) — 3 of 4 CHOP slots filled. All 3 stops confirmed live (GTC 10% trailing: JPM $329.616, NEE $78.768, XOM $149.085). 0 of 2 CHOP trade slots used this week.
+- **CAT** — live ask $819.62 / bid $774.54 vs bounce zone $800-810. Ask is only +1.2% above zone top (within reclaim band), but bid-ask spread is abnormally wide ($45.08, ~5.5%) for a liquid large-cap — same wide-spread pattern flagged in prior sessions (6/25, 6/27). NO CONFIRMED SETUP — quote unreliable, not chasing a wide-spread ask. Carry forward to next session for re-verification with cleaner data.
+- **CVX** — live ask $223.59 / bid $214.51 vs reclaim trigger >$211 (confirm zone up to $217.33 = +3%). Ask is +5.9% above trigger, past the confirmation band with no pullback — too extended. Spread also wide ($9.08, ~4.1%). NO CONFIRMED SETUP — skip, drop from watchlist (was already lower priority on Energy-concentration grounds).
+- No trade placed — neither watchlist ticker confirmed at reliable live pricing. No losers near -7% cut, no tighten triggers (JPM best performer +1.66%, well below +15%). Patience > activity.
