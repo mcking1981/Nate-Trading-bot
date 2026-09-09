@@ -3408,3 +3408,45 @@ Market closed — no pre-market prints today. Fri 8/29 notable: HRL (EPS beat/re
 
 ### Decision
 HOLD — market closed today, no action possible or warranted. Monday 8/31 market-open: live-verify XOM ($161.68 reclaim, unlikely) and CAT (re-level or drop given 2+ weeks stalled at its own stop reference), check NVDA's $207-217 support setup for a live bounce/hold confirmation, re-check NEE's Dominion/VA-MD overhang once more, and re-verify neither held position is near the -7% cut line. Patience > activity.
+
+## 2026-09-09 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.20% ($765.96 vs $756.86) | VIX: ~15.7-16.6
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> Note: prior weekly-review entries (through week ending 8/28) predate the reconciled XOM position (entered 9/1, confirmed via 9/4 midday log) and are stale on trade ideas — no weekly review exists yet for the week of 9/1 or later.
+
+### Account Snapshot
+- Equity: $49,695.20 | Cash: $27,518.33 (55.4%) | Buying power: $172,168.56 (margin) | Daytrade count: N/A (not in account payload)
+- Positions: JPM 21sh @ $346.98 (current $353.22, +1.80%/+$131.04) | NEE 89sh @ $86.08 (current $84.00, -2.42%/-$185.12) | XOM 45sh @ $163.00 (current $161.85, -0.71%/-$51.75) — **3 of 4 CHOP position slots filled**, 1 open (last vacated: Tech/AI-adjacent since NVDA -7% cut 8/26)
+- Deployment: $22,176.87 / $49,695.20 = 44.6%, below the 60% CHOP target
+- All 3 positions confirmed stop-protected: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | XOM 10% trailing GTC $149.085 (HWM $165.65)
+
+### Macro (Sub-agent 1 synthesis)
+Oil spiking: WTI ~$89.60-92.80, Brent ~$94.10-97.70 (+3-4% on session) — Bloomberg/Business Insider. S&P futures modestly red, ES ~7,689-7,709 (-13pts) — WSJ/MarketWatch. VIX ~15.7-16.3, calm-to-neutral — Cboe. DXY ~98.7-98.8, soft (-0.1-0.3%) — Investing.com. 10Y yield ~4.78-4.81%, firming on strong Aug jobs report (+162K vs 56K forecast), raising Sept Fed-hike-odds narrative to ~52% — TradingEconomics/CNBC. No major US CPI/PPI/jobs today; PPI 9/10, CPI 9/11, FOMC decision 9/16.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLE +45.3%, XLK +30.4%, XLB +16.6%, XLI +13.6%. Last 5 days: rotation OUT of Tech into Energy/Industrials/Staples (XLK -5.4% off Jun-2 peak, XLI -6% off Aug-14 peak). Strongest current momentum: **Energy (XLE)** and **Industrials (XLI)**. CVX (Energy, overlaps XOM): $209.80, near 52wk high; support $207.34/$204.38, resistance $211.90-213; entry on reclaim $211, stop <$204. CAT (Industrials, fresh sector): $822.48, pulled back ~17% off July high; 200-day MA support just under $800 (75% win rate on last 8 tests); entry on bounce confirmation $800-810, stop <$780.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market: COO, SAIL, CHWY, Inditex ADR reporting — no results confirmed at query time. No JPM/NEE/XOM earnings (JPM next reports 10/13). Recent after-hours (dates noisy, not cleanly 9/8): CRM beat +18% (AI/Anthropic stake), AVGO slight miss but strong guide, SNOW +22%, DELL +9% on raised guide, DKS miss -30%, BBY beat but fell on guidance concerns. No earnings catalyst applicable to held/watchlist names.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($353.51, -1.43% today): off 52wk high, no overhang, next earnings 10/13. Pure pullback, no new catalyst. Thesis intact.
+- **NEE** ($83.90, +0.68% today): Shareholders approved Dominion merger proposals 9/3; **new item** — NEE+Dominion now opposing a request by opposing AGs/advocacy groups for a 60-day extension of the federal merger-timeline review. Regulatory fight ongoing, SCC hearing still 11/17. Procedural escalation, not an adverse ruling — not thesis-breaking, but developing; watch closely.
+- **XOM** ($161.02): down from $164.55 (9/2); CFO at Barclays Energy conference today (fireside chat, informational). No new overhang.
+
+### Trade Ideas
+1. CAT — Industrials, entry on confirmed bounce $800-810 (fresh setup off 200-day MA), stop <$780 (~-3%; needs proper 7-10% stop sizing at live entry, e.g. stop ~$745-750 for ~2:1 R:R to $860+), target prior high-zone. Regime check: FAIL (no confirmed live trigger pre-market — verify at market-open). Clean diversification pick — 1 open slot is currently Financials/Utilities/Energy only.
+2. CVX — Energy, entry on reclaim >$211, stop <$204 (-3.4%, needs wider stop for 7-10% rule), target ~$222. Regime check: FAIL (no confirmed live trigger — verify at market-open). **Concentration flag**: would make 2 of 4 positions Energy (alongside XOM) — lower priority than CAT for the open slot absent a strong reason to double up on sector.
+(No earnings catalyst exists in held/watchlist names; CAT/CVX are Sector Scout-named conditional/watchlist setups per protocol.)
+
+### Risk Factors
+- NEE's Dominion/VA-MD overhang has a new procedural wrinkle (NEE opposing a merger-timeline extension request) — not an escalation with adverse outcome, but the first new development since 8/29; monitor for a ruling, no action warranted yet. Position -2.42% unrealized, clear of -7%.
+- Oil spiked +3-4% intraday (WTI ~$90-93) with no confirmed single cause from macro research — XOM's own price is actually down slightly today, a lag worth watching; not yet a thesis break.
+- 10Y yield firming (~4.78-4.81%) on a hot jobs report, lifting rate-hike-odds narrative — a headwind for rate-sensitive NEE if it persists.
+- 3 of 4 CHOP slots filled, 1 open since 8/26 (NVDA cut) — CAT (fresh sector, clean diversification) is today's best-positioned candidate; do not force a fill absent a confirmed live trigger.
+- Deployment 44.6%, below the 60% CHOP target — real but secondary to waiting for a qualifying setup.
+
+### Decision
+HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R) at current pre-market prices; neither CAT nor CVX has a confirmed live trigger. Live-verify CAT ($800-810 bounce) at market-open first (diversification priority over CVX's Energy-concentration option) before sizing either. Re-check NEE's merger-timeline-extension fight for any ruling. No position near -7% cut. Patience > activity.
