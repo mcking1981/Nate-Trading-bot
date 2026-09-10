@@ -3456,3 +3456,45 @@ HOLD — no trade meets the full checklist (specific catalyst + sector momentum 
 - **CAT** — live ask $819.62 / bid $774.54 vs bounce zone $800-810. Ask is only +1.2% above zone top (within reclaim band), but bid-ask spread is abnormally wide ($45.08, ~5.5%) for a liquid large-cap — same wide-spread pattern flagged in prior sessions (6/25, 6/27). NO CONFIRMED SETUP — quote unreliable, not chasing a wide-spread ask. Carry forward to next session for re-verification with cleaner data.
 - **CVX** — live ask $223.59 / bid $214.51 vs reclaim trigger >$211 (confirm zone up to $217.33 = +3%). Ask is +5.9% above trigger, past the confirmation band with no pullback — too extended. Spread also wide ($9.08, ~4.1%). NO CONFIRMED SETUP — skip, drop from watchlist (was already lower priority on Energy-concentration grounds).
 - No trade placed — neither watchlist ticker confirmed at reliable live pricing. No losers near -7% cut, no tighten triggers (JPM best performer +1.66%, well below +15%). Patience > activity.
+
+## 2026-09-10 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.30% ($765.72 vs $748.48) | VIX: 15.72
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> Note: SPY alone sits in Bull territory (+2.30% above 50DMA), but VIX at 15.72 falls in the 15-25 band, which triggers CHOP via the matrix's OR clause — Bull requires BOTH conditions (SPY>=+2% AND VIX<15). Regime limits only tighten, never loosen — CHOP governs today.
+
+### Account Snapshot
+- Equity: $49,847.99 | Cash: $27,518.33 (55.2%) | Buying power: $172,596.37 (margin) | Daytrade count: N/A (not in account payload) | balance_asof 2026-09-09
+- Positions: JPM 21sh @ $346.98 (current $356.06, +2.62%/+$190.68) | NEE 89sh @ $86.08 (current $83.10, -3.46%/-$265.22) | XOM 45sh @ $163.00 (current $165.70, +1.66%/+$121.50) — **3 of 4 CHOP position slots filled**, 1 open (Tech/AI-adjacent slot, open since NVDA -7% cut 8/26)
+- Deployment: $22,329.66 / $49,847.99 = 44.8%, below the 60% CHOP target
+- All 3 positions confirmed stop-protected: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | XOM 10% trailing GTC $149.085 (HWM $165.65)
+
+### Macro (Sub-agent 1 synthesis)
+Oil shock: Brent broke $100 (~$101.14, +3.3%), WTI ~$96.38 (+~3%), driven by US-Iran military escalation / Saudi facility strikes — Investing.com/Reuters. Risk-off premarket: S&P futures -0.42% (~7,648), Dow -0.62%, Nasdaq 100 -0.28% — Markets Insider/CNBC. VIX ~16.8-16.9 (Sep futures), up modestly, still in CHOP band — Barchart. DXY ~98.75-98.8, flat/soft — Investing.com. 10Y yield ~4.81-4.86%, near recent highs post strong Aug jobs report, lifting Sept FOMC hike-odds narrative to ~52-60% — WSJ/TradingEconomics. Econ calendar: **PPI (Aug) today** 8:30am ET, **CPI (Aug) tomorrow Fri 9/11**, **FOMC decision Sep 16**.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLE (Energy) +42-45%, XLB +16%, XLI +13%, XLV +10-24% (source-dependent); XLK (Tech) lagging, -3% to flat YTD. Last-1mo/5-day momentum: XLE +6.9%, XLV +4.9%, XLB +4.6% — XLI actually cooled (-2.5% 1mo) despite strong YTD. Rotation theme: real-economy (energy/industrials/healthcare/staples) over tech/comms on AI-power-demand + Mideast oil premium. Strongest current momentum: **Energy (XLE)** and **Healthcare (XLV)**. XOM (already held, 22% of XLE): confirmed breakout off 50-day MA, pulled back to test structure; support $149-151; above ~$160 on volume bullish-intact. CVX (16% of XLE): correlated with XOM, same oil tailwind — treat as one energy bucket, concentration risk if added. LLY (large XLV weight): ~$1,124-1,130, below its 50-day MA (~$1,151) with bearish MACD cross — not a clean long yet, wait for reclaim of $1,150-1,160; stop <$1,119; earnings 10/29 is a catalyst risk.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Pre-market BMO today: MCFT, FLWS, L (Lovesac), D (Endava), M (Macy's) — actuals not posted at scan time. After-hours yesterday (9/9) thin — no major AMC prints confirmed; nearby notable: AVGO slight miss 9/2 (still beat consensus), ESTC big beat 8/27. Tonight's AMC to watch: ORCL, ADBE, CPRT. No earnings catalyst applicable to held (JPM, NEE, XOM) or watchlist names.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($354.71, +0.34% today): ~3% off 52wk high. No new overhang; BofA/Barclays reiterated Buy/Overweight ($420 PT). Earnings 10/13 unchanged. Nothing new — thesis intact.
+- **NEE** ($82.65, -1.41% today): Shareholders approved key Dominion merger proposals (9/3) — procedural step forward, not the SCC ruling itself. No new adverse ruling; evidentiary hearing still 11/17. Backlog growth (35.1GW) noted positive. Not thesis-breaking.
+- **XOM** ($164.55, +2.22% today): rallying with the oil spike. CFO's Barclays energy-conference remarks (known, informational). No company-specific overhang; Q2 results/cost-savings reiterated. Nothing new — thesis intact, now a direct beneficiary of today's oil shock.
+
+### Trade Ideas
+(No earnings catalyst exists in held/watchlist names — using Sector Scout's named tickers as conditional/watchlist setups per protocol. XOM is already held, not a new idea.)
+1. LLY — Healthcare, entry on reclaim of 50-day MA $1,150-1,160, stop <$1,119 (~-3.1% from reclaim, needs proper 7-10% sizing at live entry, e.g. stop ~$1,045-1,060 for 2:1+ R:R), target prior-high retest. Regime check: FAIL (currently below 50DMA, bearish MACD cross, not yet confirmed — clean sector diversification away from Energy-heavy book if it triggers).
+2. CVX — Energy, correlated with held XOM (same oil tailwind), would be 2 of 4 positions in Energy. Regime check: FAIL (no fresh live trigger checked this session; concentration flag keeps this lower priority than LLY for the open slot).
+
+### Risk Factors
+- **Geopolitical oil shock**: US-Iran military escalation/Saudi facility strikes pushed Brent above $100, WTI ~$96 (+3%) — a direct tailwind for held XOM, but the broader risk-off tape (S&P futures -0.42%, Dow -0.62%) and a fresh macro catalyst bear watching for follow-through or de-escalation headlines.
+- Rising-rate backdrop: 10Y yield ~4.81-4.86% near highs on strong jobs data, lifting Sept FOMC hike-odds narrative — a headwind for rate-sensitive NEE (already -3.46% unrealized) if it persists into CPI (tomorrow) and the 9/16 FOMC decision.
+- PPI prints today, CPI tomorrow — two inflation catalysts in 48 hours ahead of FOMC; elevated event risk this week.
+- NEE's Dominion/VA-MD overhang saw a procedural step forward (shareholder approval of merger proposals) but no adverse ruling — still on the 11/17 SCC hearing clock; not thesis-breaking, continue monitoring.
+- 3 of 4 CHOP slots filled, 1 open since 8/26 (NVDA cut) — LLY (Healthcare, diversifying) is today's best-positioned candidate but unconfirmed; CVX available but concentration-flagged. Deployment 44.8%, below the 60% CHOP target — do not force a fill.
+
+### Decision
+HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R) at current pre-market prices; neither LLY nor CVX has a confirmed live trigger. Live-verify LLY's 50-day reclaim at market-open (diversification priority over CVX's Energy-concentration option) before sizing. Watch for oil-shock follow-through/de-escalation headlines and today's PPI print. No position near -7% cut (NEE reddest at -3.46%, well clear). Patience > activity.
