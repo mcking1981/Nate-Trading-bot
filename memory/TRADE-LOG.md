@@ -1277,3 +1277,19 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. No losers at -7% (NEE reddest, -4.22%, extended slightly from -3.46% at pre-market on the known Dominion/VA-MD overhang — no new adverse news, not an escalation, well clear of the cut threshold). No tighten triggers (JPM +1.55%, XOM +1.33%, both far below the +15% first-tighten threshold). 3 of 4 CHOP position slots filled — under regime cap, no forced closes. No thesis breaks identified: JPM no overhang (pullback consistent with broader risk-off tape from the oil-shock/geopolitical headlines), NEE procedural-only (SCC hearing still 11/17, no new ruling), XOM continuing to benefit from the Brent-above-$100 oil shock (thesis strengthened, not broken). No sharp unexplained single-name move today — all three positions' intraday moves (JPM -0.66%, NEE -0.24%, XOM +0.58%) are consistent with known macro causes (risk-off tape + oil spike) per today's pre-market research — no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
 
 ---
+
+### Sep 11 — Midday Check (Day 108, Friday) — ⚠️ No pre-market entry today
+
+> No 2026-09-11 entry exists in RESEARCH-LOG.md (confirmed via grep — no pre-market or market-open run has logged today). Per standing rule, defaulting to **Chop sizing** (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week) since the regime block is missing.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $356.75 | +$205.17 (+2.82%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $82.515 | -$317.29 (-4.14%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | 45 | $163.00 | $165.4111 | +$108.50 (+1.48%) | $150.633 (10% trailing GTC, HWM $167.37) |
+
+**Account:** Equity $49,800.19 | Cash $27,518.33 (55.3%) | Deployment 44.7% ($22,281.86) | balance_asof 2026-09-10
+
+**Action taken:** None. No losers at -7% (NEE reddest, -4.14%, well clear — Dominion/VA-MD overhang unchanged, no new ruling, hearing still 11/17). No tighten triggers (JPM best performer +2.82% unrealized, far below the +15% first-tighten threshold; XOM's stop has already auto-trailed up to $150.633 on the native GTC order, HWM $167.37 — no manual action needed). 3 of 4 CHOP position slots filled — under regime cap, no forced closes. No thesis breaks identified: JPM no overhang, NEE procedural-only (no new escalation), XOM no overhang, benefiting from prior oil-shock tailwind. No sharp unexplained single-name move today (JPM +0.90%, NEE +0.09%, XOM +0.11% intraday, all normal drift) — no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. **Flag for next pre-market:** confirm why no 2026-09-11 pre-market/market-open entry landed (cadence check) and re-stamp the regime. Patience > activity.
+
+---
