@@ -552,3 +552,62 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Set an explicit checkpoint for NEE's Dominion/VA-MD overhang: mechanical -7% cut still applies if breached, but with the hearing not until 11/17, decide whether a stale multi-week bleed with no near-term catalyst warrants a fresh thesis review before then
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-09-11
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $49,651.19 (Fri 9/4 close, balance_asof 2026-09-04) |
+| Ending portfolio | $49,779.90 (Alpaca live equity at review time; balance_asof still 2026-09-10, next session refreshes) |
+| Week return | +$128.71 (+0.26%) |
+| S&P 500 week | -0.59% (SPX 7,718.60 Sep 4 close -> 7,673.03 Sep 11 ~1:36pm ET intraday; official close unavailable at review time) |
+| Bot vs S&P | +0.85% |
+| Dominant regime | CHOP (5/5 days — Mon 9/7 holiday default, Tue 9/8 & Fri 9/11 missing pre-market defaulted to Chop, Wed 9/9 & Thu 9/10 explicit CHOP stamps) |
+| Trades | 0 new (W:0 / L:0 / open:3 carried — JPM, NEE, XOM) |
+| Win rate | N/A (no closed trades) |
+| Best trade | JPM +2.74% unrealized |
+| Worst trade | NEE -4.59% unrealized |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| JPM | $346.98 (21sh, 7/22) | $356.50 | +$199.92 (+2.74%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | $86.08 (89sh, 8/14) | $82.13 | -$351.55 (-4.59%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | $163.00 (45sh, 9/1) | $165.90 | +$130.50 (+1.78%) | $150.633 (10% trailing GTC, HWM $167.37) |
+
+### What Worked
+- Root cause of the multi-week logging-gap pattern (flagged in nearly every review since June) finally identified: `scripts/github-push.sh`'s REST-API write path was blocked by a proxy policy change (HTTP 403 on `git/trees`) — native `git push` confirmed working, restoring cadence from 9/9 onward
+- Correctly defaulted to Chop sizing on every day the regime stamp was missing or the market was closed (Mon 9/7 holiday, Tue 9/8, Fri 9/11) — no rule loosening despite the gap
+- Discipline held on the open Tech/AI-adjacent slot: CAT skipped on an unreliable wide-spread quote, CVX skipped as too extended/sector-concentration risk, LLY skipped below its 50-day MA — no chase on any of the three candidates screened this week
+- Proactively reconciled the undocumented XOM position (entered 9/1 during the gap) rather than leaving it untracked, and confirmed its GTC stop was live and protected the whole time
+- XOM benefited from the Mideast oil-shock tailwind (Brent >$100) with thesis intact; JPM continued steady, uneventful compounding near 52wk highs with zero negative catalysts
+
+### What Didn't Work
+- 0 of 2 CHOP weekly new-buy slots used again — the Tech/AI-adjacent slot (open since the 8/26 NVDA cut) has now sat unfilled for 2+ weeks with no confirmed live trigger
+- Deployment held near 44.7%, below the 60% CHOP target, for a 3rd straight week — RTX/NVDA exit cash still not redeployed
+- NEE's Dominion/VA-MD overhang deepened again (-2.4% early week to -4.6% now) on a new procedural wrinkle (NEE opposing a merger-timeline extension request) — now ~7 weeks unresolved (since 7/24) with the SCC hearing still 2+ months out (11/17)
+- The logging gap had real teeth this time, not just a record-keeping annoyance: an actual live trade (XOM) ran unsupervised and unreviewed for 3-8 days before reconciliation, and the regime went unstamped for 9 straight days spanning a live NFP week
+- Despite the 9/8 "root cause fixed" note, no pre-market/market-open entry landed today (9/11) either — the fix has not fully closed the cadence gap
+
+### Key Lessons
+- The recurring "logging gap" flagged across 6+ prior weekly reviews was never a scheduler problem — it was a broken push script silently eating every session's work; the fix (native `git push`) needs to be applied inside the actual routine scripts, not used ad hoc in one session, since today's missing 9/11 entry shows it isn't fully propagated yet
+- A logging gap is a risk-management gap, not just a documentation one — it let a live position (XOM) go unmonitored against the -7%/tighten rules for days; treat any future gap as an urgent operational fix, not a footnote
+- NEE's overhang duration (~7 weeks, no near-term catalyst) keeps re-raising the same unresolved question from prior reviews: whether a stale, non-escalating-but-non-resolving overhang should ever trigger an active thesis reassessment before hitting -7%
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week outperformed S&P (+0.85%), so consecutive-underperformance does not apply regardless of prior-week data. CHECK B: this week's outperformance (+0.85%) is below the >2% trigger threshold, so consecutive-outperformance does not apply — note no formal review exists for the week ending 9/4 (routine did not produce one during the logging-gap period), so a true "last week" comparison is unavailable, but it does not change the outcome since this week's magnitude alone falls short of the 2% threshold either direction. CHECK C: no trades closed this week (0 losses), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Verify the `github-push.sh` / native-`git push` fix is actually wired into every routine script — investigate why no 9/11 pre-market/market-open entry landed despite the 9/8 fix
+- Re-verify CAT/CVX/LLY or fresh sector-momentum candidates live at Monday 9/15 open for the long-open Tech/AI-adjacent slot; don't force a fill, but treat closing the 44.7%-vs-60% deployment gap as a priority once a setup confirms
+- FOMC decision Wed 9/16 is the week's key catalyst — no new adds heading into it; explicitly reassess NEE's Dominion/VA-MD thesis given 7+ weeks unresolved
+
+### Overall Grade: B-
