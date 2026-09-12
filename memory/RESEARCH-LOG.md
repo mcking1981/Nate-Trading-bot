@@ -3498,3 +3498,47 @@ Pre-market BMO today: MCFT, FLWS, L (Lovesac), D (Endava), M (Macy's) — actual
 
 ### Decision
 HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R) at current pre-market prices; neither LLY nor CVX has a confirmed live trigger. Live-verify LLY's 50-day reclaim at market-open (diversification priority over CVX's Energy-concentration option) before sizing. Watch for oil-shock follow-through/de-escalation headlines and today's PPI print. No position near -7% cut (NEE reddest at -3.46%, well clear). Patience > activity.
+
+
+## 2026-09-12 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +2.11% ($764.29 vs $748.48) | VIX: 15.84
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> Note: market closed today (Saturday) — all figures are Fri 9/11 close/as-of. SPY alone meets Bull's SPY leg (+2.11%), but VIX 15.84 fails Bull's <15 requirement and falls in the 15-25 band, triggering CHOP via the matrix's OR clause. Regime limits only tighten, never loosen — CHOP governs.
+
+### Account Snapshot
+- Equity: $49,794.30 | Cash: $27,518.33 (55.3%) | Buying power: $172,446.04 (margin) | Daytrade count: N/A (not in account payload) | balance_asof 2026-09-11
+- Positions: JPM 21sh @ $346.98 (current $356.23, +2.67%/+$194.25) | NEE 89sh @ $86.08 (current $82.31, -4.38%/-$335.53) | XOM 45sh @ $163.00 (current $165.99, +1.83%/+$134.55) — **3 of 4 CHOP position slots filled**, 1 open (Tech/AI-adjacent slot, open since NVDA -7% cut 8/26)
+- Deployment: $22,275.97 / $49,794.30 = 44.7%, below the 60% CHOP target
+- All 3 positions confirmed stop-protected: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | XOM 10% trailing GTC $150.633 (HWM $167.37)
+
+### Macro (Sub-agent 1 synthesis)
+Big risk-on tape into Friday's close: oil rallied hard (WTI $89.58 +4.45%, Brent $94.08 +3.97%), S&P futures +1.03% (ES +78.5 to 7,677), Dow/Nasdaq100 both sharply green. VIX ~15.8-16.9, up off sub-15 lows but still calm/low-normal. DXY ~99.1-99.2, flat, mid-range. 10Y yield 4.96%, drifting higher. Aug CPI (Fri) printed +0.4% MoM/+3.4% YoY, in line-to-slightly-hot; U. Michigan Sentiment missed badly (47.8 vs 51.4 est). **FOMC decision confirmed Wed 9/16** — the week's key catalyst. Empire State Mfg due Tue 9/15.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLE +41.6%, XLK +27-33%, XLI +20%. Last-5-day leaders: Energy (+1.54%) and Industrials (+0.61%); Utilities firm (+0.72%); Consumer Disc/Financials/Health Care weak (-1.2% to -2.2%). Strongest current momentum: **Energy** (already held via XOM — no fresh name, sector-concentration rule still applies post-CVX rejection) and **Industrials**. New Industrials candidates for the long-open slot: **GE** ~$323.66 (9/11 close), pulled back from 52wk high $381, support broken to $319.90 zone — entry on reclaim/hold >$320 on volume. **GEV** ~$926 (9/10), pulled back from $1,080 high, Technical Rating 8/10 — entry on reclaim $950-970 or dip-buy $900-910; more volatile/higher-priced, size smaller given 20% cap. Both avoid CAT's known wide-spread liquidity issue.
+
+### Earnings Today (Sub-agent 3 synthesis)
+No pre-market earnings today (Saturday, market closed) and none for held names near-term — JPM 10/13, XOM 10/23, NEE expected late Oct (unconfirmed). Recent notable prints (week of 9/8): ORCL beat AH (broad AI-sentiment boost), KR beat (+4%), RH beat. Week of 9/15 calendar light — mostly small-caps; CCL reports Thu 9/17 (consumer/travel read-through). FactSet projects S&P 500 Q3 EPS growth of 28.5% YoY. No earnings catalyst applicable to held or watchlist names.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($356.68 Fri): No fresh catalyst, Q2-beat narrative (ROTCE 23%, NII guide raised) still driving. Thesis intact.
+- **NEE** ($82.31, -4.38% unrealized) — **Dominion/VA-MD reassessment (per weekly-review directive):** No ruling or timeline slip — evidentiary hearing still 11/17, process on original track. New this week: VA SCC added 2 extra in-person hearings (locations TBD) plus phone hearings after legislator pressure — signals continued political/regulatory friction, not resolution, not escalation to an adverse outcome. Offsetting positive: NEE secured up to $1.9B DOE loan to restart Iowa's Duane Arnold nuclear plant (modest positive reaction). **Verdict: thesis intact, not thesis-breaking — overhang widening in scope but not in a way that changes the -7%/hold calculus; continue monitoring, no action triggered.**
+- **XOM** ($165.99, +0.46% Fri, near 52wk high $176.41): Piper Sandler raised PT to $185 (Neutral). Middle East tension keeping oil risk premium elevated — tailwind intact. No negative catalysts.
+
+### Trade Ideas
+(No earnings catalyst exists in held/watchlist names — using Sector Scout's named tickers as conditional/watchlist setups per protocol.)
+1. GE — Industrials, entry on reclaim/hold >$320 on volume, stop ~$298 (-7%, proper sizing off a $320 entry), target ~$364 (2:1 R:R). Regime check: FAIL (market closed, no live trigger — verify Monday open). Clean diversification for the long-open Tech/AI-adjacent slot.
+2. GEV — Industrials, entry on dip-buy $900-910 or reclaim $950-970, stop ~$846 (-7% off $910 entry), target ~$1,038 (2:1 R:R). Regime check: FAIL (no live trigger — verify Monday open). Higher-beta/higher-priced; size well under the 15% CHOP cap if triggered.
+(Same-sector as each other — pick at most one, not both, for the single open slot.)
+
+### Risk Factors
+- **FOMC decision Wed 9/16 is 4 days out** — per last week's weekly-review adjustment ("no new adds heading into it"), any GE/GEV trigger confirmed at Monday 9/14 open should be weighed against this guidance before sizing; a live setup does not automatically override the no-adds-into-FOMC directive.
+- NEE's Dominion/VA-MD overhang is widening in procedural scope (2 extra hearings added) without resolving — 8th week unresolved (since 7/24), hearing still 11/17. Position -4.38% unrealized, well clear of -7%, but this is the direct reassessment the last weekly review asked for; verdict is thesis-intact, keep watching for any actual ruling.
+- Risk-on tape (oil +4%, futures +1%, equities near ATHs) into a hot-ish CPI print and firming 10Y (4.96%) — could reinforce a "higher for longer" framing heading into FOMC; watch for a reversal of Friday's rally at Monday's open.
+- 3 of 4 CHOP slots filled, 1 open since 8/26 (2.5+ weeks) — GE/GEV are today's best-positioned candidates but both need live confirmation AND a FOMC-timing judgment call; do not force a fill.
+- Deployment 44.7%, below the 60% CHOP target for multiple straight weeks — real but secondary to waiting for a qualifying, well-timed setup.
+
+### Decision
+HOLD — market closed today (Saturday), no trade possible or warranted. Monday 9/14 open: live-verify GE ($320 reclaim) and GEV ($900-970 zone) if either confirms, weigh against the standing "no adds heading into Wed 9/16 FOMC" guidance before sizing. Re-check NEE's Dominion/VA-MD situation for any actual ruling (none this week, just added hearings). No position near -7% cut (NEE reddest, -4.38%, well clear). Patience > activity.
