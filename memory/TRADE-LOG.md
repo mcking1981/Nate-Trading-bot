@@ -1309,3 +1309,19 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. Saturday — market closed, all `change_today` = 0%, prices carried forward from Fri 9/11 close. No losers at -7% (NEE reddest, -4.38%, well clear — Dominion/VA-MD overhang unchanged this weekend, hearing still 11/17). No tighten triggers (JPM +2.67%, XOM +1.83%, both far below the +15% first-tighten threshold). 3 of 4 CHOP position slots filled — under regime cap, no forced closes. All 3 GTC trailing stops confirmed live and unchanged (JPM $329.616 HWM $366.24, NEE $78.768 HWM $87.52, XOM $150.633 HWM $167.37). No thesis breaks identified — no intraday activity to assess (market closed). No live news check performed — market closed, no unusual moves to explain, no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. Next live session Mon 9/14 open: live-verify GE/GEV per pre-market watchlist, weigh against standing no-adds-into-FOMC (Wed 9/16) guidance. Patience > activity.
 
 ---
+
+### Sep 13 — Midday Check (Day 110, Sunday) — market closed
+
+**Regime:** No pre-market entry today (Sunday, market closed, none run) — defaulting to **Chop sizing** per standing rule (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week). Consistent with Sat 9/12's stamped CHOP regime (SPY +2.11% vs 50DMA, VIX 15.84), unchanged over the weekend.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $356.23 | +$194.25 (+2.67%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $82.31 | -$335.53 (-4.38%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | 45 | $163.00 | $165.99 | +$134.55 (+1.83%) | $150.633 (10% trailing GTC, HWM $167.37) |
+
+**Account:** Equity $49,794.30 | Cash $27,518.33 (55.3%) | Deployment 44.7% ($22,275.97) | balance_asof 2026-09-11
+
+**Action taken:** None. Sunday — market closed, all `change_today` = 0%, prices/equity/cash identical to Saturday's snapshot (carried forward from Fri 9/11 close, confirmed via fresh `alpaca.sh account`/`positions`/`orders` calls — no drift since 9/12). No losers at -7% (NEE reddest, -4.38%, well clear — Dominion/VA-MD overhang unchanged, hearing still 11/17). No tighten triggers (JPM +2.67%, XOM +1.83%, both far below the +15% first-tighten threshold). 3 of 4 CHOP position slots filled — under regime cap, no forced closes. All 3 GTC trailing stops confirmed live and unchanged (JPM $329.616 HWM $366.24, NEE $78.768 HWM $87.52, XOM $150.633 HWM $167.37). No thesis breaks identified — no intraday activity to assess (market closed). No live news check performed — market closed, no unusual moves to explain, no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. Next live session Mon 9/14 open: live-verify GE/GEV per pre-market watchlist, weigh against standing no-adds-into-FOMC (Wed 9/16) guidance. Patience > activity.
+
+---
