@@ -1325,3 +1325,19 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. Sunday — market closed, all `change_today` = 0%, prices/equity/cash identical to Saturday's snapshot (carried forward from Fri 9/11 close, confirmed via fresh `alpaca.sh account`/`positions`/`orders` calls — no drift since 9/12). No losers at -7% (NEE reddest, -4.38%, well clear — Dominion/VA-MD overhang unchanged, hearing still 11/17). No tighten triggers (JPM +2.67%, XOM +1.83%, both far below the +15% first-tighten threshold). 3 of 4 CHOP position slots filled — under regime cap, no forced closes. All 3 GTC trailing stops confirmed live and unchanged (JPM $329.616 HWM $366.24, NEE $78.768 HWM $87.52, XOM $150.633 HWM $167.37). No thesis breaks identified — no intraday activity to assess (market closed). No live news check performed — market closed, no unusual moves to explain, no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. Next live session Mon 9/14 open: live-verify GE/GEV per pre-market watchlist, weigh against standing no-adds-into-FOMC (Wed 9/16) guidance. Patience > activity.
 
 ---
+
+### Sep 16 — Midday Check (Day 111, Wednesday) — FOMC decision day
+
+**Regime:** CHOP (per today's pre-market: SPY -0.52% vs 50DMA, VIX 17.68) — max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week. Standing no-adds-into-FOMC directive in force ahead of today's 2:00pm ET decision / 2:30pm ET Powell presser.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $352.205 | +$109.73 (+1.51%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $80.97 | -$454.79 (-5.94%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| XOM | 45 | $163.00 | $164.61 | +$72.45 (+0.99%) | $152.676 (10% trailing GTC, HWM $169.64) |
+
+**Account:** Equity $49,531.50 | Cash $27,518.33 (55.6%) | Deployment 44.4% ($22,013.17) | balance_asof 2026-09-15
+
+**Action taken:** None. No losers at -7% (NEE reddest, -5.94% — its widest drawdown yet, extended from -5.17%/-5.53% at pre-market/market-open, but still clear of the -7% cut threshold; Dominion/VA-MD overhang unchanged, no new ruling, hearing still 11/17). No tighten triggers (JPM +1.51%, XOM +0.99%, both far below the +15% first-tighten threshold). 3 of 4 CHOP position slots filled — under regime cap, no forced closes; all 3 position sizes (~14.5-15.0% of equity) within the 15% CHOP per-position cap. No thesis breaks identified: JPM no overhang, NEE procedural-only (no escalation, 9/14 VA benefits sweetener still stands), XOM no company-specific overhang. XOM's -2.78% intraday move was the sharpest of the three — ran a Tavily check ("XOM unusual price movement today"); results returned mostly stale/off-date articles, but corroborate XOM's known high beta to oil, and today's pre-market macro read (WTI ~$87, pre-FOMC risk-off tape, S&P futures -0.52%) already explains a broad oil-linked pullback — not treated as an unexplained single-name move or a thesis break. Deployment 44.4%, below the 60% CHOP target, but no new adds today regardless per the standing no-adds-into-FOMC directive (decision governs this afternoon). No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
