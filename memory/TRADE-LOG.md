@@ -1372,3 +1372,20 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 | Cost Basis | $7,204.46 (14.6% of $49,342.54 equity) |
 
 ---
+
+### Sep 17 — Midday Check (Day 112, Thursday)
+
+**Regime:** CHOP (per today's pre-market: SPY -0.14% vs 50DMA, VIX ~16.7) — max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $349.69 | +$56.91 (+0.78%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $81.14 | -$439.66 (-5.74%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $218.31697 | $218.67 | +$11.65 (+0.16%) | $197.883 (10% trailing GTC, HWM $219.87) |
+| XOM | 45 | $163.00 | $161.87 | -$50.85 (-0.69%) | $152.676 (10% trailing GTC, HWM $169.64) |
+
+**Account:** Equity $49,375.98 | Cash $20,313.87 (41.1%) | Deployment 58.9% ($29,062.11) | balance_asof 2026-09-16
+
+**Action taken:** None. No losers at -7% (NEE reddest, -5.74%, improved from -6.31% at Sep 16 EOD — Dominion/VA-MD overhang unchanged, no new ruling, hearing still 11/17). No tighten triggers (best performer JPM +0.78%, far below the +15% first-tighten threshold). 4 of 4 CHOP position slots filled (JPM/NEE/XOM plus today's NVDA add) — at, not over, the regime cap, no forced closes. All 4 position sizes (14.6-14.9% of equity) within the 15% CHOP per-position cap. No thesis breaks identified: JPM no overhang, NEE procedural-only (no escalation), XOM no company-specific overhang, NVDA breakout thesis intact and extending (+2.23% intraday, continuing through today's confirmed trigger). No sharp unexplained single-name move today (JPM +0.22%, NEE +0.96%, NVDA +2.23% consistent with its breakout thesis, XOM -0.89% normal drift) — no Tavily/WebSearch warranted. Deployment 58.9%, just under the 60% CHOP target after today's NVDA add — no further adds needed. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
