@@ -1354,3 +1354,21 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades today — 0 of 2 CHOP weekly new-buy slots used this week (Mon 9/14-today). Standing no-adds-into-FOMC directive held through the 2pm decision/2:30pm presser; no watchlist name (CAT/GE/GEV) had a confirmed trigger anyway. NEE extended to -6.31% unrealized, its widest drawdown yet and now approaching (not past) the -7% manual-cut line — flag for first check tomorrow; Dominion/VA-MD overhang still procedural-only, no new ruling, hearing still 11/17. No tighten triggers (JPM +0.51%, XOM +0.20%, both far below +15%). 3 of 4 CHOP slots filled, no forced closes. Deployment 44.3% ($21,851), below the 60% CHOP target. **Data note:** the last formal EOD Snapshot in this log was Aug 28 (Day 96) — no EOD entry landed in the interim despite regular midday/pre-market cadence, so today's Day P&L uses Alpaca's own `last_equity` ($49,755.25, prior trading day's close) as yesterday's equity rather than the stale Aug 28 figure, which would span 3+ weeks. Account pull's `balance_asof` still read 2026-09-15 at run time — settlement for today's close had not yet rolled over in Alpaca; figures above are from the live equity/position pull, treated as end-of-day. Tomorrow: reassess post-FOMC tape, watch NEE toward -7%, re-screen CAT/GE/GEV now that the FOMC lockout has cleared. Patience > activity.
 
 ---
+
+### Sep 17 — Trade #9
+
+| Field | Value |
+|---|---|
+| Date | 2026-09-17 |
+| Ticker | NVDA |
+| Side | BUY |
+| Shares | 33 |
+| Entry Price | $218.31697 |
+| Stop Level | $196.4205 (10% trailing GTC, order ID: 72fa460a, HWM $218.245) |
+| Thesis | Confirmed breakout above today's pre-market $212 trigger — live ask $218.10-219.00, within +3% confirmation band ($218.36 top), tight/reliable spread ($0.02-0.73) vs anomalously wide/unreliable spreads on CAT (~5.8%), GE (~5.4%), GEV (~4.7%) which were treated as unconfirmed data, not triggers. Technology sector, strongest current momentum (66% breadth per pre-market Sector Scout) vs Industrials' weaker 37%. Fills the 4th/last open CHOP slot (JPM/NEE/XOM held). |
+| Target | ~$262 (2:1 R:R off ~$21.90 initial-stop risk) |
+| R:R | ~2:1 (stop -10% ($21.90) vs target +20% ($43.80)) |
+| Regime at Entry | CHOP (SPY -0.14% vs 50DMA, VIX ~16.7 — per Sep 17 pre-market log) |
+| Cost Basis | $7,204.46 (14.6% of $49,342.54 equity) |
+
+---
