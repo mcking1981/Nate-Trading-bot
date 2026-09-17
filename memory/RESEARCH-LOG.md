@@ -3642,3 +3642,49 @@ NO CONFIRMED SETUP — blocked regardless of trigger status by standing no-adds-
 
 ### Midday Check — Afternoon Addendum
 Held positions live-verified via `alpaca.sh positions/orders`: JPM $352.205 (+1.51%), NEE $80.97 (-5.94%, widest drawdown yet, still clear of -7% cut), XOM $164.61 (+0.99%, intraday -2.78% — sharpest single-day move of the three). Ran `tavily.sh "XOM Exxon Mobil stock unusual price movement today"` per Step 7 to check for an unexplained cause — results returned mostly stale/off-date articles rather than today's specific driver, but confirm XOM's known high beta to oil headlines. Today's pre-market macro read (WTI pulling back toward ~$87, pre-FOMC risk-off tape, S&P futures -0.52%) already accounts for a broad oil-linked pullback; not treated as unexplained or thesis-breaking. No losers at -7%, no tighten triggers, 3/4 CHOP slots filled (no forced closes), no adds per standing no-adds-into-FOMC directive. No trade placed, no Telegram sent. Full detail logged in TRADE-LOG.md Sep 16 Midday entry. Patience > activity.
+
+
+## 2026-09-17 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.14% ($761.12 vs $762.20) | VIX: ~16.7
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> Both regime legs land in CHOP independently today — SPY within +/-2% of 50DMA on its own, VIX ~16.7 sits in the 15-25 band on its own. Unambiguous CHOP.
+
+### Account Snapshot
+- Equity: $49,421.62 | Cash: $27,518.33 (55.7%) | Buying power: $171,402.53 (margin) | balance_asof 2026-09-16
+- Positions: JPM 21sh @ $346.98 (current $350.56, +1.03%/+$75.18) | NEE 89sh @ $86.08 (current $80.77, -6.17%/-$472.59) | XOM 45sh @ $163.00 (current $163.40, +0.25%/+$18.00) — **3 of 4 CHOP position slots filled**, 1 open (Tech/AI-adjacent slot, open since NVDA -7% cut 8/26, now 3+ weeks)
+- Deployment: $21,903.29 / $49,421.62 = 44.3%, below the 60% CHOP target
+- All 3 positions confirmed stop-protected: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | XOM 10% trailing GTC $152.676 (HWM $169.64)
+
+### Macro (Sub-agent 1 synthesis)
+**FOMC surprise yesterday (9/16): Fed hiked 25bp — first hike in ~3 years** — citing inflation, growth, and geopolitical risk. Risk-off reaction: Dow -1.21%, S&P -0.45%, VIX +2.97% to ~17.7, DXY jumped to 100.34 (+0.7%), gold to a 6-week low. Oil: WTI ~$87, Brent ~$94 (Hormuz risk premium; some intraday prints briefly >$100). S&P futures -0.17% pre-market. 10Y yield ~5.00%, highest since July 2007, on oil-driven inflation fears plus fiscal concerns. No major US data today (CPI/PPI/jobs); Aug CPI (9/11) ran hot at 3.4% YoY/2.4% core. Foreign-only calendar today (BoJ, German PPI, UK retail sales). Hawkish surprise + rising yields + rising VIX = tightening conditions, consistent with today's CHOP stamp.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33% (Tech), XLE +21% (Energy, cooling), XLI +20% (Industrials). Last-5-day: Tech strongest (66% breadth), Energy 57%, Financials/Industrials tied 37%. Strongest current momentum: **Technology**, then **Energy/Industrials**. New Tech candidate: NVDA $206.84, consolidating $190-214, resistance $207.63-212.45 — entry on break/hold >$212, stop below ~$200 (stronger ~$192). Watchlist re-check: **CAT** $782.72 — still below $800 trigger, no entry. **GE** $312.90 — still below $320 trigger, no entry. **GEV** $945.18 — inside the $950-970 reclaim band but not yet confirmed (down ~1% today). None of the three Industrials names has fired after 3+ weeks of tracking. Source price data noisy across providers — treat as approximate, confirm live at market-open.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Thin, low-confidence day. Only two BMO reporters of note (LPP S.A., Endava/DAVA) — neither relevant to held/watchlist names. No reliable AH data for yesterday (9/16) surfaced; search results dominated by stale aggregator content. No earnings catalyst applicable to held or watchlist names — treat today as earnings-light.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($350.56 current, +1.03% unrealized): Closed $348.92 (-1.01%) 9/16 on broad post-FOMC weakness, not company-specific. Fed scenario commentary; Dimon noted small-biz "mini boom." Analyst targets mostly Buy, $370-436 range. Thesis intact.
+- **NEE** ($80.77, -6.17% unrealized — widest drawdown yet, approaching but still clear of the -7% cut): **Dominion/VA SCC pleading schedule confirmed** — staff/respondent testimony due 10/19, rebuttal 11/2, public witness hearing 11/5-10, evidentiary hearing 11/17 (unchanged, on original track, no delay/setback). 9/14 release: Dominion/NEE announced a $2.25B Virginia benefits package; FY26 EPS guide reaffirmed at $3.92-$4.02. Drawdown driven by broad post-FOMC rate-sensitive-utility pressure (10Y ~5.00%), not a company-specific break. **Verdict: thesis intact, not thesis-breaking — but now the closest to -7% it has ever been; flag for first check at market-open.**
+- **XOM** ($163.40, +0.25% unrealized): Closed $163.32 (-3.5%) 9/16 in a broad energy selloff following the hawkish Fed surprise, not company-specific — oil still elevated (>$100 intraday prints on Hormuz risk). Angola discovery news (partners) and Alaska LNG deal are ConocoPhillips-related, not XOM-specific. Next earnings 10/23. Thesis intact.
+
+### Trade Ideas
+(No earnings catalyst exists in held/watchlist names — using Sector Scout's named tickers as conditional/watchlist setups per protocol.)
+1. NVDA — Technology, entry on break/hold >$212, stop ~$197 (-7% off $212 entry), target ~$226 (2:1 R:R off a ~$15 risk). Regime check: FAIL — price $206.84, has not cleared trigger, unconfirmed.
+2. CAT — Industrials, entry on reclaim/hold >$800. Regime check: FAIL — price $782.72, still below trigger, 3+ weeks unconfirmed.
+3. GE — Industrials, entry on reclaim >$320. Regime check: FAIL — price $312.90, still below trigger, 3+ weeks unconfirmed.
+4. GEV — Industrials, entry on reclaim $950-970 or dip-buy $900-910. Regime check: FAIL — price $945.18, between zones, not confirmed.
+(GE/GEV/CAT remain same-sector — at most one would be sized even if a trigger confirmed. No live trigger exists for any of the four names today.)
+
+### Risk Factors
+- **Hawkish FOMC surprise (25bp hike, first in ~3 years)** — 10Y yield at ~5.00% (highest since July 2007), DXY +0.7% to 100.34, VIX up to ~17.7. Tightening backdrop reinforces conservative CHOP sizing; no adds warranted into this tape without a confirmed trigger.
+- **NEE at -6.17% unrealized, its deepest drawdown to date and closest yet to the -7% manual-cut line** — overhang itself unchanged/on-track (pleading schedule confirmed, no adverse development), drawdown is rate-driven (utility sensitivity to the Fed surprise), not a thesis break. Priority check at market-open.
+- XOM's -3.5% single-day move (9/16) explained by broad energy selloff post-Fed, consistent with oil's own pullback — not an unexplained single-name move.
+- 3 of 4 CHOP slots filled, 1 open 3+ weeks (since 8/26 NVDA cut) — NVDA (new Tech setup), CAT, GE, GEV all still short of a confirmed live trigger. Deployment 44.3%, below the 60% CHOP target for many straight weeks — secondary to waiting for a qualifying setup.
+- Standing no-adds-into-FOMC directive has now cleared (decision was yesterday) — normal trigger-based entry rules resume today, but no name has fired regardless.
+
+### Decision
+HOLD — no trade meets the full checklist (specific catalyst + sector momentum + defined stop + 2:1 R:R); none of NVDA/CAT/GE/GEV has a confirmed live trigger. Live-verify all four at market-open for tracking. Priority check: NEE at -6.17%, closest to the -7% cut line yet — verify no further deterioration and no overhang escalation before market-open close-out decision. No thesis breaks identified — NEE's and XOM's drawdowns are both broad-macro-driven (Fed surprise), not company-specific. Patience > activity.
