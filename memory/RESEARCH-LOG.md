@@ -3691,3 +3691,49 @@ HOLD — no trade meets the full checklist (specific catalyst + sector momentum 
 
 ### Market-Open Check — 09:48 ET
 CONFIRMED entry on NVDA @ $218.32 (33sh) — live ask $218.10-219.00 vs $212 trigger, in-zone (top of +3% band $218.36), tight/reliable spread. Fills last open CHOP slot (Trade #9). NO CONFIRMED SETUP — CAT at ~$829.94 mid vs $800 trigger, extended (+3.7%, band top $824), spread anomalously wide (~5.8%, bid $805.18/ask $854.70) — treated as unreliable data, not a genuine confirmation; dropped from watchlist (3+ weeks unconfirmed). NO CONFIRMED SETUP — GE at ~$325.90 mid vs $320 trigger, technically in-zone but spread ~5.4% (bid $316.85/ask $334.94) too wide to trust as a real fill price; skipped, same-sector overlap with CAT/GEV moot since only 1 slot existed and NVDA (stronger Tech momentum, clean spread) took it. NO CONFIRMED SETUP — GEV at ~$991.07 mid vs $950-970 reclaim band, marginally in-zone (+2.2% above band top) but spread ~4.7% (bid $967.14/ask $1015) unreliable; skipped, same reasoning as GE. NEE at $80.84, -6.09% unrealized, still clear of -7% cut, no overhang escalation found — no action. JPM $347.33 (+0.05%), XOM $163.11 (+0.07%), both flat, no tighten triggers. Position count now 4/4 CHOP cap — week closed to further new entries (1 of 2 weekly slots used).
+
+## 2026-09-18 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -0.46% ($761.12 vs $764.67) | VIX: 15.03
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> SPY within +/-2% of 50DMA on its own; VIX 15.03 sits just inside the 15-25 band (barely misses Bull's VIX<15 leg, and SPY isn't +2% above 50DMA anyway). Unambiguous CHOP.
+
+### Account Snapshot
+- Equity: $49,454.90 | Cash: $20,313.87 (41.1%) | Buying power: $162,850.36 (margin) | balance_asof 2026-09-17
+- Positions: JPM 21sh @ $346.98 (current $348.62, +0.47%/+$34.44) | NEE 89sh @ $86.08 (current $81.19, -5.68%/-$435.21) | NVDA 33sh @ $218.31697 (current $220.90, +1.18%/+$85.24) | XOM 45sh @ $163.00 (current $162.32, -0.42%/-$30.60) — **4 of 4 CHOP position slots filled**
+- Deployment: $29,141.03 / $49,454.90 = 58.9%, just under the 60% CHOP target
+- All 4 positions confirmed stop-protected via `alpaca.sh orders`: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | NVDA 10% trailing GTC $197.9145 (HWM $219.905) | XOM 10% trailing GTC $152.676 (HWM $169.64)
+- 1 of 2 CHOP weekly new-buy slots used this week (NVDA, 9/17)
+
+### Macro (Sub-agent 1 synthesis)
+Oil mixed/conflicting across sources: WTI ~$87-99, Brent ~$94-104, generally softening 2-3% on demand concerns but XOM's own book still riding a Hormuz-driven Brent >$100 print. S&P futures modestly weaker premarket (ES -0.14%). VIX 15.03 (-2.66%), a genuine low-vol print. DXY ~100.30, in a strengthening trend (+1.42% 4wk). 10Y yield ~4.94-4.95%, easing slightly off this week's ~5.00-5.04% (2007-era high) post-FOMC hike. No major US data today (next FOMC is October; CPI/PPI already out 9/10-11); only foreign calendar items (BoJ held, German PPI, UK retail sales). Read: low-vol but still rate-sensitive/dollar-strong backdrop, consistent with CHOP.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33% (Tech), XLE +21% (Energy), XLI +20% (Industrials, CAT +84%/GEV +78% YTD). Last 5 days: Tech, Energy, Industrials, Healthcare leading; Tech still #1 RS but weakening, Energy showing the strongest improving relative-strength tail. New watchlist candidates: **AVGO** (Tech) — pulled back to ~$339-345, below 50/200DMA; entry on reclaim $351-360, stop below $327 (~-8%). **CVX** (Energy) — near 52wk high $217.77, RSI 69 (elevated); entry on pullback to $211 or breakout >$217.4, target $228, stop below $205 (~-6%). CAT/GE/GEV remain untriggered after 3+ weeks. All moot for now — 4/4 CHOP slots already filled.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Quiet. Pre-market 9/18: no major names, only small/micro-caps. AH 9/17: only 2 reports, 0 beats/2 misses (LEN +1.7% best, ALMU -14.0% worst). No held (JPM/NEE/NVDA/XOM) or watchlist (CAT/GE/GEV/AVGO/CVX) names among reporters. No earnings catalyst applicable today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($348.62, +0.47% unrealized): Closed $349.31 (+0.11%) 9/17, sector stabilizing post-FOMC. Barclays reiterated Buy (9/16). No overhang. Earnings 10/13. Thesis intact.
+- **NEE** ($81.19, -5.68% unrealized — closest of all 4 to the -7% cut): **No new Dominion/VA SCC filing or ruling found since 9/17** — most recent case item is still the 9/14-9/15 Virginia benefits package/Evercore $114 PT reaffirm, already logged. No escalation, but no fresh confirmation either; search data was mixed/stale in spots. Recommend a targeted follow-up check at market-open given proximity to -7%. Not thesis-breaking.
+- **NVDA** ($220.90, +1.18% unrealized): Trading above the $212 breakout entry, momentum continuing. Piper Sandler Overweight/$300 PT (9/10). Only headwind is broad AI-bubble chatter (OpenAI/Anthropic-adjacent), no NVDA-specific bad news. Thesis intact.
+- **XOM** ($162.32, -0.42% unrealized): Near all-time highs per some sources (~$169) riding Brent >$100 on Hormuz disruption; other sources show softer oil. No company-specific overhang. Earnings 10/23. Thesis intact.
+
+### Trade Ideas
+(No earnings catalyst exists in held/watchlist names — using Sector Scout's named tickers as conditional/watchlist setups per protocol.)
+1. AVGO — Technology, entry on reclaim $351-360, stop below $327 (~-8%). Regime check: FAIL — 4/4 CHOP position slots already filled, no capacity regardless of trigger.
+2. CVX — Energy, entry on pullback to $211 or breakout >$217.4, stop below $205 (~-6%), target $228. Regime check: FAIL — same reason, no open slot; also same-sector overlap risk with existing XOM.
+3. CAT / GE / GEV — Industrials, unchanged levels ($800 / $320 / $950-970 reclaim or $900-910 dip-buy). Regime check: FAIL — still untriggered after 3+ weeks, and no slot open anyway.
+(All watchlist-only — book is fully sized at 4/4 positions; nothing to size even if a trigger fired.)
+
+### Risk Factors
+- **NEE at -5.68% unrealized, still the closest position to the -7% manual cut** — no new case development found overnight; treat as intact but flag for a fresh check at market-open before any escalation could be missed.
+- 10Y yield still elevated (~4.94-4.95%, near a 2007-era high) and DXY in a strengthening trend — continued headwind for rate-sensitive names (NEE) even without a company-specific trigger.
+- Oil price data conflicting across sources (WTI $87 vs $99 quoted) — treat directionally only; XOM thesis unaffected either way (no overhang, earnings not until 10/23).
+- Book is fully deployed at 4/4 CHOP slots (58.9% of equity) — no capacity for AVGO/CVX/CAT/GE/GEV even if any confirms a trigger; would require a stop-out or manual exit to free a slot.
+- No major US econ data today (next FOMC in October) — light macro catalyst day.
+
+### Decision
+HOLD — book fully sized (4/4 CHOP slots), no capacity for new trades regardless of any watchlist trigger. No position at/below -7% (NEE reddest, -5.68%, no new overhang development). No thesis breaks identified across JPM/NEE/NVDA/XOM. Priority check at market-open: re-verify NEE for any overnight Dominion/VA filing given proximity to the cut line. Patience > activity.
