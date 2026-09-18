@@ -1420,3 +1420,17 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. No losers at -7% (NEE reddest, -6.36%, unchanged from this morning's market-open check — Dominion/VA-MD overhang still no new filing/ruling, hearing still 11/17). No tighten triggers (best performer NVDA +0.55%, far below the +15% first-tighten threshold). 4 of 4 CHOP position slots filled — at, not over, the regime cap, no forced closes. No thesis breaks identified: JPM no overhang, NEE procedural-only (no escalation since market-open), NVDA breakout thesis intact, XOM no company-specific overhang. No sharp unexplained single-name moves today (JPM -0.73%, NEE -0.83%, NVDA +0.08%, XOM -0.10%, all modest/normal drift) — no Tavily/WebSearch warranted. Deployment 58.8%, just under the 60% CHOP target, no forced adds. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
 
 ---
+
+### Sep 18 — EOD Snapshot (Day 113, Friday)
+
+**Portfolio:** $49,470.94 | **Cash:** $20,313.87 (41.1%) | **Day P&L:** +$12.08 (+0.02%) | **Phase P&L:** -$529.06 (-1.06%)
+**Regime:** CHOP (SPY -0.46% vs 50DMA, VIX 15.03 — per Sep 18 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $349.50 | +0.05% | +$52.92 (+0.73%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $80.47 | -1.00% | -$499.29 (-6.52%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $218.31697 | $221.8405 | +1.14% | +$116.28 (+1.61%) | $200.439 (10% trailing GTC, HWM $222.71) |
+| XOM | 45 | $163.00 | $163.00 | -0.17% | $0.00 (0.00%) | $152.676 (10% trailing GTC, HWM $169.64) |
+**Notes:** No trades today — 1 of 2 CHOP weekly new-buy slots used this week (NVDA, 9/17). Quiet grind into the weekend: JPM +0.73%, NVDA extended its breakout to +1.61% on day two, XOM flat. NEE stayed the lone red position, drifting to -6.52% (from -6.36% at midday), the closest any position has come to the -7% manual-cut line this week — Dominion/VA-MD overhang unchanged, hearing still 11/17, flag for first check Monday. No tighten triggers (best performer NVDA +1.61%, far below +15%). 4 of 4 CHOP slots filled, deployment 58.9% ($29,157.07), right at the CHOP target, no forced closes or adds. NVDA's trailing stop update reflects intraday HWM ($222.71) from the live orders pull, ahead of this morning's research-log figure. Tomorrow (Monday): watch NEE toward -7% at open, let NVDA run, no new adds planned absent a fresh trigger. Patience > activity.
+
+---
