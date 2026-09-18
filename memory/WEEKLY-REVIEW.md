@@ -611,3 +611,64 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - FOMC decision Wed 9/16 is the week's key catalyst — no new adds heading into it; explicitly reassess NEE's Dominion/VA-MD thesis given 7+ weeks unresolved
 
 ### Overall Grade: B-
+
+---
+
+## Week ending 2026-09-18
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $49,794.30 (Fri 9/11 close, balance_asof 2026-09-11) |
+| Ending portfolio | $49,470.94 (Fri 9/18 close, per TRADE-LOG EOD; Alpaca balance_asof lags at 9/17, live equity $49,438.95) |
+| Week return | -$323.36 (-0.65%) |
+| S&P 500 week | -0.39% (SPX 7,656.98 Sep 11 close -> 7,627.20 Sep 18 close, per WSJ) |
+| Bot vs S&P | -0.26% |
+| Dominant regime | CHOP (5/5 days — Mon 9/14, Wed 9/16, Thu 9/17, Fri 9/18 explicit CHOP stamps; Tue 9/15 pre-market/market-open/midday entries missing, defaulted to Chop per standing rule) |
+| Trades | 1 new (W:0 / L:0 / open:4 — JPM, NEE, XOM carried; NVDA new 9/17) |
+| Win rate | N/A (no closed trades) |
+| Best trade | NVDA +1.61% unrealized |
+| Worst trade | NEE -6.52% unrealized |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| JPM | $346.98 (21sh, 7/22) | $349.50 | +$52.92 (+0.73%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | $86.08 (89sh, 8/14) | $80.47 | -$499.29 (-6.52%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | $218.31697 (33sh, 9/17) | $221.8405 | +$116.28 (+1.61%) | $200.439 (10% trailing GTC, HWM $222.71) |
+| XOM | $163.00 (45sh, 9/1) | $163.00 | $0.00 (0.00%) | $152.676 (10% trailing GTC, HWM $169.64) |
+
+### What Worked
+- Correctly held the standing "no adds heading into FOMC" directive through Wednesday's surprise 25bp hike (first hike in ~3 years) — no new positions sized before or during the decision, sidestepping the immediate post-decision risk-off drop (Dow -1.21%, S&P -0.45%, VIX +2.97%)
+- Same-day conversion of NVDA's confirmed live breakout (>$212) into a fill on 9/17 the moment the FOMC lockout cleared — filled the last open CHOP slot (Tech/AI-adjacent, open since the 8/26 NVDA cut) on a tight/reliable spread, no chasing
+- Deployment closed the week at 58.9%, effectively at the 60% CHOP target, for the first time in 3+ weeks — closed the persistent under-deployment gap flagged repeatedly since August
+- Correctly declined AVGO/CVX despite live-ish levels (book already 4/4 filled) and dropped CAT/GE/GEV from the watchlist after 5+ straight weeks with no confirmed trigger — no forced entries just to fill idle capacity
+- NEE held through its deepest drawdown yet (-6.52%) without cutting or panicking — Dominion/VA SCC pleading schedule confirmed intact (hearing still 11/17), drawdown correctly read as broad rate-sensitive-utility pressure (10Y ~5%), not a thesis break
+
+### What Didn't Work
+- Underperformed S&P by -0.26% this week — a small gap, but the market still finished the week net positive despite the FOMC surprise while the book was flat-to-down
+- NEE deepened to -6.52% unrealized, its closest approach yet to the -7% manual cut, with the Dominion/VA-MD overhang now unresolved for 8+ weeks and no catalyst expected before the 11/17 hearing
+- Logging gap recurred again on Tue 9/15 — no pre-market/market-open/midday entry ran despite the 9/8-9/9 "fix" — the recurring cadence/persistence issue flagged in nearly every review since June is still not fully resolved
+- Only 1 of 2 CHOP weekly new-buy slots used, and the position cap is now fully filled (4/4) — no capacity for AVGO/CVX or any other confirming candidate without a stop-out or manual trim first
+- The re-filled Tech slot went right back into NVDA — the same name manually cut for -7.01% just three weeks earlier (8/26) — an independent live-trigger justified the new entry, but it's worth flagging as a concentration/pattern watch item
+
+### Key Lessons
+- FOMC-timing discipline paid off again: the standing no-adds-into-FOMC rule (adopted in a prior review) avoided sizing into Wednesday's surprise hike and its immediate risk-off reaction
+- The entry-trigger-to-fill conversion process fixed in July continues to hold — NVDA's breakout was confirmed and filled same-day on a clean spread, while CAT/GE/GEV's persistently wide/unreliable spreads were correctly treated as unconfirmed data rather than forced through
+- The Sep 15 logging gap shows the persistence/cadence fix from early September has not fully propagated to every routine — this needs concrete verification (which script/step failed) rather than another passive flag next week
+- NEE's overhang duration (now 8+ weeks, hearing still 11/17) keeps re-raising the unresolved question from prior reviews: whether a long-duration, non-escalating overhang should trigger an active thesis reassessment before it reaches the -7% mechanical line
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by only -0.26%, well below the 2% trigger threshold, and last week (9/11) outperformed (+0.85%) — no consecutive-underperformance streak regardless. CHECK B: not applicable, no outperformance this week. CHECK C: no trades closed this week (0 losses), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Escalate/verify the Sep 15 logging gap specifically — identify which routine or script step failed to fire, rather than re-flagging it passively for a 3rd+ time
+- With 4/4 CHOP slots filled, treat AVGO/CVX as post-exit candidates only — no new entry until a position is stopped out or manually trimmed
+- Continue monitoring NEE toward -7%; if it closes within ~1% of the cut with still no case development, flag it explicitly for a thesis-refresh decision at next Friday's review before the mechanical line is hit
+
+### Overall Grade: B-
