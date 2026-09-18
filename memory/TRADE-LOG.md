@@ -1403,3 +1403,20 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Quiet close after Wednesday's FOMC volatility settled. NEE recovered from -5.74% at midday to -5.58%, still the lone red position and closing in on but not past the -7% manual-cut line; Dominion/VA-MD overhang unchanged, hearing still 11/17. JPM and XOM ground out small gains, both far below the +15% tighten trigger. NVDA (today's only trade, Trade #9) extended its breakout to +2.40% on day one, thesis intact. 4 of 4 CHOP slots filled, deployment 58.9% — right at the regime target, no forced closes or adds needed. 1 of 2 CHOP weekly new-buy slots used this week (NVDA). No stop moves triggered. Tomorrow: watch NEE toward -7%, let NVDA breakout run, no new adds planned. Patience > activity.
 
 ---
+
+### Sep 18 — Midday Check (Day 113, Friday)
+
+**Regime:** CHOP (per today's pre-market: SPY -0.46% vs 50DMA, VIX 15.03) — max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $346.76 | -$4.62 (-0.06%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $80.605 | -$487.28 (-6.36%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $218.31697 | $219.5084 | +$39.32 (+0.55%) | $198.801 (10% trailing GTC, HWM $220.89) |
+| XOM | 45 | $163.00 | $163.105 | +$4.73 (+0.06%) | $152.676 (10% trailing GTC, HWM $169.64) |
+
+**Account:** Equity $49,357.99 | Cash $20,313.87 (41.2%) | Deployment 58.8% ($29,044.12) | balance_asof 2026-09-17
+
+**Action taken:** None. No losers at -7% (NEE reddest, -6.36%, unchanged from this morning's market-open check — Dominion/VA-MD overhang still no new filing/ruling, hearing still 11/17). No tighten triggers (best performer NVDA +0.55%, far below the +15% first-tighten threshold). 4 of 4 CHOP position slots filled — at, not over, the regime cap, no forced closes. No thesis breaks identified: JPM no overhang, NEE procedural-only (no escalation since market-open), NVDA breakout thesis intact, XOM no company-specific overhang. No sharp unexplained single-name moves today (JPM -0.73%, NEE -0.83%, NVDA +0.08%, XOM -0.10%, all modest/normal drift) — no Tavily/WebSearch warranted. Deployment 58.8%, just under the 60% CHOP target, no forced adds. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
