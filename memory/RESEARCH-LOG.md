@@ -3764,3 +3764,15 @@ Confirmed Sunday (`date +%A` = Sunday, 2026-09-20). Same recurring weekend cron-
 **Checks run:** No losers at -7% (NEE reddest at -6.52%, unchanged from Fri 9/18 EOD/Sat-Sun checks — Dominion/VA-MD overhang still procedural-only, hearing still 11/17). No tighten triggers crossed (best performer NVDA +1.81%, far below +15%). Regime CHOP cap (max 4) — at cap, not exceeded, no forced closes. No thesis breaks. No unusual price action to research (market closed). No trades, no order changes.
 
 HOLD (no action possible or needed) — market closed. No Telegram sent — no action taken, no new information vs. Friday 9/18 close/Saturday-Sunday checks, and this is the same known, already-flagged weekend-cron issue (not re-escalating again). Next real session: Monday 9/21 — reassess NEE toward -7% at open, let NVDA/JPM run, no new adds planned absent a fresh trigger. Patience > activity.
+
+---
+
+## 2026-09-20 — Midday Check — SKIPPED (Weekend, market closed)
+
+Confirmed Sunday (`date -d 2026-09-20 +%A` = Sunday). Same recurring weekend cron-misfire pattern already flagged by today's pre-market check and Sep 19's midday check (escalated via Telegram 8/2, re-escalated 8/15, not re-escalated since). `alpaca.sh positions`/`orders` pulled and confirm stale Friday 9/18 close data (`change_today: 0`, `current_price == lastday_price` on all four holdings) — no session activity since today's pre-market check, nothing new to react to.
+
+**Positions (unchanged):** JPM 21sh @ $346.98, current $349.67 (+0.78% unrealized, stop $329.616 10% trailing GTC HWM $366.24) | NEE 89sh @ $86.08, current $80.47 (-6.52% unrealized, stop $78.768 10% trailing GTC HWM $87.52) | NVDA 33sh @ $218.31697, current $222.27 (+1.81% unrealized, stop $200.439 10% trailing GTC HWM $222.71) | XOM 45sh @ $163.00, current $163.54 (+0.33% unrealized, stop $152.676 10% trailing GTC HWM $169.64) — 4 of 4 CHOP position slots filled, at regime cap (not exceeded).
+
+**Checks run:** No losers at -7% (NEE reddest at -6.52%, unchanged — Dominion/VA-MD overhang still procedural-only, hearing still 11/17). No tighten triggers crossed (best performer NVDA +1.81%, far below +15%). Regime CHOP cap (max 4) — at cap, not exceeded, no forced closes. No thesis breaks. No unusual price action to research (market closed) — no Tavily calls, would be wasted. No trades, no order changes.
+
+HOLD (no action possible or needed) — market closed. No Telegram sent — no action taken, no new information vs. today's pre-market check, same known weekend-cron issue (not re-escalating again). Next real session: Monday 9/21 — reassess NEE toward -7% at open, let NVDA/JPM run, no new adds planned absent a fresh trigger. Patience > activity.
