@@ -1444,3 +1444,13 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None required — skipping the EOD snapshot (would duplicate the already-logged Sep 18 EOD with no new session data) and skipping Telegram (no new information vs. Friday's close; today's midday check already covered and declined to re-escalate this exact known issue). No losers at -7% (NEE reddest, -6.52%, unchanged). No tighten triggers (NVDA best at +1.81%, far below +15%). No thesis breaks. 1 of 2 CHOP weekly new-buy slots used this week (NVDA, 9/17). Next real session: Monday 9/21 — reassess NEE toward -7% at open, let NVDA/JPM run, no new adds planned absent a fresh trigger. Patience > activity.
 
 ---
+
+### Sep 20 — Daily-Summary Check (Day 115, Sunday — Market Closed, Scheduling Misfire)
+
+> ⚠️ **NON-TRADING DAY**: Sep 20, 2026 is a Sunday — market closed. Same recurring weekend cron misfire pattern as Aug 1-2, 8-9, 15-16, 22-23, and Sep 19 — already flagged by today's pre-market and midday checks (both skipped Telegram/re-escalation for this exact occurrence). No trades possible, no new close data — Alpaca `balance_asof` still reads 2026-09-18, `change_today: 0` and `current_price == lastday_price` on all four holdings confirm no session since Friday.
+
+**Positions (unchanged from Fri 9/18 close):** JPM 21sh @ $346.98, current $349.67 (+0.78% unrealized, stop $329.616 10% trailing GTC HWM $366.24) | NEE 89sh @ $86.08, current $80.47 (-6.52% unrealized, stop $78.768 10% trailing GTC HWM $87.52) | NVDA 33sh @ $218.31697, current $222.27 (+1.81% unrealized, stop $200.439 10% trailing GTC HWM $222.71) | XOM 45sh @ $163.00, current $163.54 (+0.33% unrealized, stop $152.676 10% trailing GTC HWM $169.64) — 4 of 4 CHOP position slots filled, at regime cap (not exceeded). Equity $49,512.98 (balance_asof 2026-09-18), unchanged from Sep 18 EOD/Sep 19 checks.
+
+**Action taken:** None required — skipping the EOD snapshot (would duplicate the already-logged Sep 18 EOD with no new session data) and skipping Telegram (no new information vs. today's pre-market/midday checks; same known, already-flagged weekend-cron issue, not re-escalating again). No losers at -7% (NEE reddest, -6.52%, unchanged). No tighten triggers (NVDA best at +1.81%, far below +15%). No thesis breaks. 1 of 2 CHOP weekly new-buy slots used this week (NVDA, 9/17). Next real session: Monday 9/21 — reassess NEE toward -7% at open, let NVDA/JPM run, no new adds planned absent a fresh trigger. Patience > activity.
+
+---
