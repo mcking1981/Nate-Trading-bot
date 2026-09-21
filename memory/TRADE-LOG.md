@@ -1454,3 +1454,20 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None required — skipping the EOD snapshot (would duplicate the already-logged Sep 18 EOD with no new session data) and skipping Telegram (no new information vs. today's pre-market/midday checks; same known, already-flagged weekend-cron issue, not re-escalating again). No losers at -7% (NEE reddest, -6.52%, unchanged). No tighten triggers (NVDA best at +1.81%, far below +15%). No thesis breaks. 1 of 2 CHOP weekly new-buy slots used this week (NVDA, 9/17). Next real session: Monday 9/21 — reassess NEE toward -7% at open, let NVDA/JPM run, no new adds planned absent a fresh trigger. Patience > activity.
 
 ---
+
+### Sep 21 — Midday Check (Day 116, Monday)
+
+**Regime:** CHOP (per today's pre-market: SPY ~0% vs 50DMA, VIX 14.53-14.81) — max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $350.76 | +$79.38 (+1.09%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $80.075 | -$534.45 (-6.98%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $218.31697 | $225.055 | +$222.35 (+3.09%) | $200.439 (10% trailing GTC, HWM $222.71) |
+| XOM | 45 | $163.00 | $158.7205 | -$192.58 (-2.63%) | $152.676 (10% trailing GTC, HWM $169.64) |
+
+**Account:** Equity $49,376.30 | Cash $20,313.87 (41.1%) | Deployment 58.85% ($29,062.43) | balance_asof 2026-09-18
+
+**Action taken:** None. NEE at -6.98% (unrealized_plpc -0.06976), 0.02pp shy of the -7% manual-cut rule (`<= -0.07`) — not triggered, held per the letter of the rule, flagged for first check at next run. No tighten triggers (best performer NVDA +3.09%, far below +15%). 4 of 4 CHOP slots filled — at, not over, the regime cap, no forced closes. No thesis breaks: NEE Dominion/VA-MD overhang unchanged (no new SCC filing/ruling, hearing still 11/17), JPM/NVDA/XOM no new company-specific overhang. XOM's sharper -2.95% intraday move (change_today) checked via Tavily — no fresh same-day catalyst found (stale/historical results only), consistent with broader oil/energy-sector softness rather than a company-specific break. Deployment 58.85%, just under the 60% CHOP target, no forced adds. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+---
