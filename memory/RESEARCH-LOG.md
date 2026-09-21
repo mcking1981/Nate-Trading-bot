@@ -3776,3 +3776,49 @@ Confirmed Sunday (`date -d 2026-09-20 +%A` = Sunday). Same recurring weekend cro
 **Checks run:** No losers at -7% (NEE reddest at -6.52%, unchanged — Dominion/VA-MD overhang still procedural-only, hearing still 11/17). No tighten triggers crossed (best performer NVDA +1.81%, far below +15%). Regime CHOP cap (max 4) — at cap, not exceeded, no forced closes. No thesis breaks. No unusual price action to research (market closed) — no Tavily calls, would be wasted. No trades, no order changes.
 
 HOLD (no action possible or needed) — market closed. No Telegram sent — no action taken, no new information vs. today's pre-market check, same known weekend-cron issue (not re-escalating again). Next real session: Monday 9/21 — reassess NEE toward -7% at open, let NVDA/JPM run, no new adds planned absent a fresh trigger. Patience > activity.
+
+
+---
+
+## 2026-09-21 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~0% (SPY $764.63 vs 50DMA ~$764.67, effectively flat) | VIX: 14.53-14.81
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> SPY sitting almost exactly at its 50DMA (well inside +/-2%); VIX 14.53-14.81 sits just under the Bull threshold (<15) but SPY isn't +2% above 50DMA, so Bull's AND condition fails. Chop's "SPY within +/-2%" leg alone confirms CHOP.
+
+### Account Snapshot
+- Equity: $49,597.92 | Cash: $20,313.87 | Buying power: $163,250.82 (margin) | balance_asof 2026-09-18 (stale, first live session since Fri 9/18 close)
+- Positions: JPM 21sh @ $346.98 (current $351.04, +1.17%/+$85.26) | NEE 89sh @ $86.08 (current $80.88, -6.04%/-$462.80) | NVDA 33sh @ $218.31697 (current $224.53, +2.85%/+$205.03) | XOM 45sh @ $163.00 (current $162.32, -0.42%/-$30.60) — **4 of 4 CHOP position slots filled**
+- Deployment: $29,284.05 / $49,597.92 = 59.1%, right at the 60% CHOP target
+- All 4 positions confirmed stop-protected via `alpaca.sh orders`: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | NVDA 10% trailing GTC $200.439 (HWM $222.71) | XOM 10% trailing GTC $152.676 (HWM $169.64)
+- New trading week — 0 of 2 CHOP weekly new-buy slots used so far
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI ~$87.06, Brent ~$94.39. S&P futures flat/choppy (7,712.50, +0.07%). VIX 14.81 (Sep 18 close, -4.08%), low-vol regime. DXY 100.31 (+0.09% day), golden cross intact — mildly bullish dollar trend. 10Y yield 5.00%, near 2007-era highs on hawkish Fed tone (post 9/16 hike). No major US econ data today (next CPI 10/13, FOMC 10/28, jobs 10/2) — light calendar week (existing home sales, flash PMIs, durable goods). Read: tightening backdrop (high yields, firm dollar, elevated oil) but low VIX signals complacency — consistent with CHOP.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33% (AI/semis), XLE +21%, XLI +20-33% (CAT/GEV/GE Aerospace). Last-5-day rotation into "real economy" sectors — Industrials, Financials, Energy outperforming; Tech/Comm Services lagging near-term despite YTD lead. Held-sector overlap: Energy (XOM) and Financials (JPM) align with current rotation leaders (supportive of holding); NVDA (Tech) in a near-term-lagging sector (watch, don't add). New candidate: **CAT** (Industrials) $809.52, RSI 36.6, pulled back to 200DMA support (~$800-810, 75% win rate on last 8 touches), AI-datacenter/power-buildout catalyst — entry ~$800-810 on 200DMA hold, stop <$780. No other new-name breakout confirmed with clean R:R.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Quiet. No confirmed BMO reports today; 0 before-open, a few small AMC names (Abivax, AAR Corp) with estimates only. Prior-session AH data returned stale/mixed-vintage (CCJ, EOG references were older-quarter, not confirmed 9/20 reports) — low confidence, treated as context only. Backdrop: Q3 S&P 500 earnings growth estimated +28.5% YoY. No held (JPM/NEE/NVDA/XOM) or watchlist (CAT) names reporting. No earnings catalyst applicable today.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($351.04, +1.17% unrealized): +8.5% on the week. US-China trade/AI/tariff talks held at JPM HQ, ongoing. Q3 earnings 10/13. No adverse news. Thesis intact.
+- **NEE** ($80.88, -6.04% unrealized — reddest position but improved from Friday's -6.52%): **No new Dominion/VA SCC filing or ruling in the last 24h.** Most recent case news (9/14-9/15) remains constructive — "Enhanced Virginia Benefits Package" tied to the merger, TipRanks $114 PT reiterated citing regulatory-approval support. Evercore ISI reissued Buy (9/16). No escalation, no negative catalyst. Not thesis-breaking.
+- **NVDA** ($224.53, +2.85% unrealized): Guided ~70% FY2028 revenue growth (vs ~45% street est.), demand "accelerating." Reported in talks to acquire Hugging Face for $13B+. No earnings date in window. Thesis intact.
+- **XOM** ($162.32, -0.42% unrealized): Q2 already reported (record Permian output, $17.2B FCF). Floodwater overwhelmed a pump at the Joliet, IL refinery; reportedly nearing a Venezuela Orinoco Belt oil deal. No negative overhang. Thesis intact.
+
+### Trade Ideas
+1. CAT — Industrials, entry ~$800-810 on 200DMA hold, stop <$780 (~-4%), target prior swing levels toward $900+ (2:1+ R:R plausible). Regime check: FAIL — 4/4 CHOP position slots already filled, no capacity regardless of trigger (per last Friday's weekly-review adjustment: treat post-4/4-fill candidates as post-exit-only, no new entry until a stop-out/trim frees a slot).
+(No earnings catalyst exists today — CAT carried as the sole conditional/watchlist setup per Sector Scout; XOM/JPM/NVDA/NEE are existing positions, not new-entry candidates.)
+
+### Risk Factors
+- **Book fully deployed at 4/4 CHOP slots (59.1% of equity)** — zero capacity for CAT or any other candidate without a stop-out or manual trim first; standing rule from the 9/18 weekly review remains in force.
+- **NEE at -6.04% unrealized, still the closest position to the -7% manual cut** — no new case development found overnight (constructive news only); Dominion/VA-MD overhang now 9+ weeks unresolved with the SCC hearing still 11/17. No escalation basis for early action, but priority check at market-open per standing directive.
+- 10Y yield at 5.00% (2007-era highs) and DXY in a firming trend — continued headwind for rate-sensitive names (NEE) even absent a company-specific trigger.
+- Balance_asof still reads 2026-09-18 (stale over the weekend) — live positions/orders pulled directly from Alpaca and cross-checked, no discrepancy found.
+- Light macro calendar today (no CPI/PPI/FOMC/jobs) — low catalyst-risk day.
+
+### Decision
+HOLD — book fully sized (4/4 CHOP slots), no capacity for any new trade (CAT included) regardless of trigger status. No position at/below -7% (NEE reddest, -6.04%, improved from Friday, no new overhang development). No thesis breaks identified across JPM/NEE/NVDA/XOM. Priority check at market-open: re-verify NEE for any overnight Dominion/VA filing given its continued proximity to the cut line. Patience > activity.
