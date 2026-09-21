@@ -1471,3 +1471,17 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. NEE at -6.98% (unrealized_plpc -0.06976), 0.02pp shy of the -7% manual-cut rule (`<= -0.07`) — not triggered, held per the letter of the rule, flagged for first check at next run. No tighten triggers (best performer NVDA +3.09%, far below +15%). 4 of 4 CHOP slots filled — at, not over, the regime cap, no forced closes. No thesis breaks: NEE Dominion/VA-MD overhang unchanged (no new SCC filing/ruling, hearing still 11/17), JPM/NVDA/XOM no new company-specific overhang. XOM's sharper -2.95% intraday move (change_today) checked via Tavily — no fresh same-day catalyst found (stale/historical results only), consistent with broader oil/energy-sector softness rather than a company-specific break. Deployment 58.85%, just under the 60% CHOP target, no forced adds. 0 of 2 CHOP weekly new-buy slots used this week. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
 
 ---
+
+### Sep 21 — EOD Snapshot (Day 116, Monday)
+
+**Portfolio:** $49,449.22 | **Cash:** $20,313.87 (41.1%) | **Day P&L:** -$21.72 (-0.04%) | **Phase P&L:** -$550.78 (-1.10%)
+**Regime:** CHOP (SPY ~0% vs 50DMA, VIX 14.53-14.81 — per Sep 21 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| JPM | 21 | $346.98 | $352.50 | +0.81% | +$115.92 (+1.59%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NEE | 89 | $86.08 | $79.91 | -0.70% | -$549.13 (-7.17%) | $78.768 (10% trailing GTC, HWM $87.52) |
+| NVDA | 33 | $218.31697 | $227.37 | +2.30% | +$298.75 (+4.15%) | $205.65 (10% trailing GTC, HWM $228.50) |
+| XOM | 45 | $163.00 | $158.17 | -3.28% | -$217.35 (-2.96%) | $152.676 (10% trailing GTC, HWM $169.64) |
+**Notes:** NEE breached the -7% manual-cut line at close (-7.17% unrealized) — midday had it at -6.98% (0.02pp shy), so it crossed during the afternoon session. No new negative catalyst found today (no new SCC filing/ruling, hearing still 11/17) — the move looks technical/sector-driven, not thesis-breaking, but the rule is now literally triggered: flagged as the first action item for tomorrow's market-open. JPM (+1.59%) and NVDA (+4.15%, extending its breakout, trailing stop moved up to $205.65 on new HWM $228.50) both green and well clear of any trigger. XOM gave back -3.28% on the day (broad energy-sector softness, no company-specific catalyst per today's checks) but unrealized stays a modest -2.96%, nowhere near -7%. 4 of 4 CHOP slots filled, deployment 58.9% ($29,135.35) — at the regime target, no forced closes or adds. 0 of 2 CHOP weekly new-buy slots used this week. No stop moves other than NVDA's routine trail-up (no-loosen rule respected). Tomorrow: FIRST ACTION — decide on NEE's -7% manual cut at market-open; otherwise let NVDA/JPM run, watch XOM. Patience > activity.
+
+---
