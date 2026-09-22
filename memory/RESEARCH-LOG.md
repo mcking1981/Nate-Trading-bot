@@ -3835,3 +3835,49 @@ XOM intraday move flagged for check: -2.95% today (change_today), sharper than J
 **Account:** Equity $49,376.30 | Cash $20,313.87 (41.1%) | Position value $29,062.43 → Deployment 58.85%, just under the 60% CHOP target, no forced adds. 0 of 2 CHOP weekly new-buy slots used this week.
 
 **Action taken:** None. No losers at -7% (NEE closest, -6.98%, 0.02pp shy — hold and watch, do not preempt the rule). No tighten triggers. No regime cap breach. No thesis breaks. XOM's sharper intraday drop researched, no fresh negative catalyst found, chalked up to sector/oil softness. No Telegram sent per Step 8 — no trading action taken. Patience > activity.
+
+
+---
+
+## 2026-09-22 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.49% (SPY $765.96 vs 50DMA $762.20) | VIX: 14.81
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> SPY only +0.49% above 50DMA (well inside +/-2%) and VIX 14.81 sits under the Bull VIX threshold (<15), but Bull requires SPY >= +2% above 50DMA too — fails. Chop's "SPY within +/-2%" leg alone confirms CHOP.
+
+### Account Snapshot
+- Equity: $49,349.48 | Cash: $20,313.87 | Buying power: $162,555.18 (margin) | balance_asof 2026-09-21
+- Positions: JPM 21sh @ $346.98 (current $351.93, +1.43%/+$103.95) | NEE 89sh @ $86.08 (current $79.73, **-7.38%/-$565.15**) | NVDA 33sh @ $218.31697 (current $227.47, +4.19%/+$302.15) | XOM 45sh @ $163.00 (current $156.50, -3.99%/-$292.50) — **4 of 4 CHOP position slots filled**
+- Deployment: $29,035.61 / $49,349.48 = 58.8%, just under the 60% CHOP target
+- All 4 positions confirmed stop-protected via `alpaca.sh orders`: JPM 10% trailing GTC $329.616 (HWM $366.24) | NEE 10% trailing GTC $78.768 (HWM $87.52) | NVDA 10% trailing GTC $205.65 (HWM $228.50) | XOM 10% trailing GTC $152.676 (HWM $169.64)
+- New trading week — 0 of 2 CHOP weekly new-buy slots used so far
+
+### Macro (Sub-agent 1 synthesis)
+Oil: WTI $87.06, Brent $94.39. S&P futures higher premarket, tech-led (Atlassian +28%, JFrog +19% on name-specific news). VIX 14.81 (-4.08%), low-vol regime, well below ~20 historical avg. DXY ~100.33-100.44, essentially flat. 10Y yield 4.94-4.97%, edging down a few bps. No major US econ data today — next catalysts JOLTS 9/29, GDP/PCE 9/30, NFP 10/2, CPI 10/14, PPI 10/15, FOMC 10/27-28. Read: risk-on, calm tape, no scheduled data risk today — consistent with CHOP, mildly constructive.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLK +33%, XLE +21%, XLI +20%. Last-5-day rotation OUT of Tech into "real economy" — Industrials, Consumer Staples, Energy outperforming; Tech/Comm Svcs/Cyclicals/Financials lagging. Strongest current momentum: **Industrials (XLI)** — held-sector overlap: Energy (XOM) and Tech (NVDA) both rotating out of near-term leadership (watch, don't add); Financials (JPM) also lagging near-term. New candidates: **CAT** ($783-820, pulled back ~16-17% off June ATH, 200DMA support ~$800, 75% win rate on last 8 touches) — entry reclaim/hold >$800, stop <$780. **GEV** ($925-940, consolidating, backlog $176B) — breakout trigger >$980, stop/support ~$875-900.
+
+### Earnings Today (Sub-agent 3 synthesis)
+No large-cap pre-market earnings today — calendar shows small-caps only. Yesterday AH: ABVX (rev beat/EPS miss), ANAB (slight rev beat/EPS miss) — both small-cap biotech, not held names. Q3 S&P 500 earnings growth estimated +28.5% YoY (IT, Energy leading margin expansion). No held (JPM/NEE/NVDA/XOM) or watchlist (CAT/GEV) names reporting.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **JPM** ($351.93, +1.43% unrealized): Flat/steady. Dimon AI-capex commentary ($1T hyperscaler capex 2027 view), attending Trump-Xi state dinner. No stock-moving catalyst. Thesis intact.
+- **NEE** ($79.73, **-7.38% unrealized — breached the -7% manual-cut line**): No new overnight SCC filing, ruling, or analyst action found (checked general news + targeted SCC/Dominion query + NEE-specific query). Last material item remains the 9/14 Dominion enhanced-VA-benefits release; SCC hearing still 11/17/2026, decision expected Jan 2027. Overhang unresolved but unchanged — this is a pure rule-execution decision, not a fresh negative catalyst.
+- **NVDA** ($227.47, +4.19% unrealized): +0.4% intraday, +5.4% past week. Huang doing AI-safety press rounds, Raymond James PT raised to $352. No negative catalyst, momentum positive. Thesis intact.
+- **XOM** ($156.50, -3.99% unrealized): Fell 3.2% Tuesday on a 4.9% WTI crude drop (Iran-related oil weakness); opened higher today as oil steadies ahead of possible US-Iran UNGA talks. Volatile on oil, not company-specific. Thesis intact.
+
+### Trade Ideas
+1. CAT — Industrials, entry reclaim/hold >$800 (200DMA support), stop <$780 (~-2.5-3%), target prior swing levels toward $900+ (2:1+ R:R plausible). Regime check: FAIL — 4/4 CHOP slots filled, no capacity regardless of trigger.
+2. GEV — Industrials, entry breakout >$980, stop ~$875-900 (~-9%), target prior ATH area $1,100+ (plausible 2:1+ if breakout confirms). Regime check: FAIL — same reason.
+(No earnings catalyst exists today — CAT/GEV carried as conditional/watchlist setups per Sector Scout; JPM/NEE/NVDA/XOM are existing positions, not new-entry candidates.)
+
+### Risk Factors
+- **NEE at -7.38% unrealized — has breached the -7% manual-cut line (Strategy Hard Rule #5).** First breached at Monday 9/21 EOD (-7.17%), confirmed still breached this morning. No new overnight negative catalyst — Dominion/VA-MD SCC overhang unchanged (hearing still 11/17). **Mandatory action item at market-open: execute the manual -7% cut per the rule, no discretion.**
+- **Book fully deployed at 4/4 CHOP slots (58.8% of equity)** — zero capacity for CAT/GEV or any other candidate unless the NEE cut frees a slot.
+- XOM volatile on oil-driven softness (Iran-related WTI drop), -3.99% unrealized — not company-specific, no action needed, watch alongside broader energy tape.
+- Light macro calendar today (no CPI/PPI/FOMC/jobs) — low catalyst-risk day for the rest of the book.
+
+### Decision
+HOLD (no new trade — 4/4 CHOP slots filled, CAT/GEV both fail regime check on capacity). **PRIORITY ACTION AT MARKET-OPEN: execute NEE's -7% manual cut** per Strategy Hard Rule #5 — confirmed breached (-7.38%), no new negative catalyst found, this is a mechanical rule execution, not a discretionary call. Patience > activity applies to new entries; it does not override the mandatory cut rule.
