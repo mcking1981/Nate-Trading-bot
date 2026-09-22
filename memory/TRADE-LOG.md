@@ -1485,3 +1485,38 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** NEE breached the -7% manual-cut line at close (-7.17% unrealized) — midday had it at -6.98% (0.02pp shy), so it crossed during the afternoon session. No new negative catalyst found today (no new SCC filing/ruling, hearing still 11/17) — the move looks technical/sector-driven, not thesis-breaking, but the rule is now literally triggered: flagged as the first action item for tomorrow's market-open. JPM (+1.59%) and NVDA (+4.15%, extending its breakout, trailing stop moved up to $205.65 on new HWM $228.50) both green and well clear of any trigger. XOM gave back -3.28% on the day (broad energy-sector softness, no company-specific catalyst per today's checks) but unrealized stays a modest -2.96%, nowhere near -7%. 4 of 4 CHOP slots filled, deployment 58.9% ($29,135.35) — at the regime target, no forced closes or adds. 0 of 2 CHOP weekly new-buy slots used this week. No stop moves other than NVDA's routine trail-up (no-loosen rule respected). Tomorrow: FIRST ACTION — decide on NEE's -7% manual cut at market-open; otherwise let NVDA/JPM run, watch XOM. Patience > activity.
 
 ---
+
+### Sep 22 — Trade #10 (Manual -7% Cut)
+
+| Field | Value |
+|---|---|
+| Date | 2026-09-22 |
+| Ticker | NEE |
+| Side | SELL (close position) |
+| Shares | 89 |
+| Entry Price | $86.08 |
+| Trigger | Unrealized -7.86% (below -7% manual cut level per Strategy Hard Rule #5) — confirmed breached at Sep 21 EOD (-7.17%), still breached at market-open live pull (-7.859%), no new negative catalyst (Dominion/VA-MD SCC overhang unchanged, hearing still 11/17) |
+| Action | Canceled existing 10% trailing GTC stop (order dda7503e, stop $78.768) at 13:46 UTC; submitted market sell-to-close for 89 sh (order 516134d4) same timestamp |
+| Fill Status | **FILLED** — order 516134d4 filled 2026-09-22 13:46:48 UTC, 89/89 sh @ $79.34 avg. |
+| Realized P&L | **-$599.86 (-7.83%)** — (79.34 - 86.08) × 89 sh |
+| Thesis Note | Dominion/VA-MD SCC regulatory overhang never resolved; no new negative catalyst found, but rule is mechanical — no discretion at -7%, position exited per hard rule regardless of thesis status. Frees 1 of 4 CHOP slots (3/4 held: JPM/NVDA/XOM). |
+
+---
+
+### Sep 22 — Trade #11
+
+| Field | Value |
+|---|---|
+| Date | 2026-09-22 |
+| Ticker | CAT |
+| Side | BUY |
+| Shares | 9 |
+| Entry Price | $806.77 |
+| Stop Level | $725.5935 (10% trailing GTC, order ID: eff423f7, HWM $806.215) |
+| Thesis | Confirmed reclaim/hold of the $800 200DMA-support trigger from today's pre-market watchlist (live ask $814.55, ~1.8% above trigger, within the 0-3% confirmation band; fill $806.77 essentially at trigger). Industrials sector-momentum leader per Sector Scout (real-economy rotation, XLI outperforming), AI-datacenter/power-buildout catalyst, 200DMA support with 75% win rate on last 8 touches. Slot freed by same-session NEE manual cut (Trade #10); no capacity conflict. |
+| Target | ~$900+ (prior swing-high extension) |
+| R:R | ~2:1 (10% trailing stop ~$80.68 vs ~$93+ to target) |
+| Regime at Entry | CHOP (SPY ~0% vs 50DMA, VIX 14.53-14.81 — per Sep 22 pre-market log) |
+| Cost Basis | $7,260.93 (14.7% of $49,268.71 equity) |
+
+---
