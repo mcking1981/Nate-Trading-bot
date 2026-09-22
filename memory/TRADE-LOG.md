@@ -1520,3 +1520,17 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 | Cost Basis | $7,260.93 (14.7% of $49,268.71 equity) |
 
 ---
+
+### Sep 22 — EOD Snapshot (Day 117, Tuesday)
+
+**Portfolio:** $49,222.17 | **Cash:** $20,114.20 (40.9%) | **Day P&L:** -$227.05 (-0.46%) | **Phase P&L:** -$777.83 (-1.56%)
+**Regime:** CHOP (SPY vs 50DMA +0.49%, VIX 14.81 — per Sep 22 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| CAT | 9 | $806.77 | $808.01 | -1.04% | +$11.16 (+0.15%) | $731.21355 (10% trailing GTC, HWM $812.4595) |
+| JPM | 21 | $346.98 | $340.2324 | -3.35% | -$141.70 (-1.95%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NVDA | 33 | $218.31697 | $228.35 | +0.43% | +$331.09 (+4.60%) | $206.973 (10% trailing GTC, HWM $229.97) |
+| XOM | 45 | $163.00 | $159.01 | +0.45% | -$179.55 (-2.45%) | $152.676 (10% trailing GTC, HWM $169.64) |
+**Notes:** Executed the mandatory NEE manual -7% cut at market-open (Trade #10, realized -$599.86/-7.83%, no new catalyst — pure rule execution), then deployed the freed slot into CAT (Trade #11) on its confirmed 200DMA reclaim, an Industrials-momentum name from today's pre-market watchlist. CAT closed its debut session essentially flat (+0.15% unrealized). JPM had the day's roughest ride (-3.35% day move on broad market softness) but unrealized P&L stays modest at -1.95% — no thesis break found, flagged for a look at tomorrow's pre-market if weakness continues. NVDA kept extending (+4.60% unrealized, stop trailed up to $206.973 on new HWM $229.97). XOM stabilized as oil firmed intraday (+0.45% day, still -2.45% unrealized, no company-specific catalyst). 4 of 4 CHOP slots filled, deployment 59.1% — within the 60% CHOP target. 1 of 2 CHOP weekly new-buy slots used this week (CAT, 9/22). No tighten triggers, no further cut triggers. Tomorrow: watch CAT for follow-through above $800 support and JPM for any emerging thesis break behind today's move; no new adds planned absent a fresh trigger. Patience > activity.
+
+---
