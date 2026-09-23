@@ -3942,3 +3942,6 @@ No other holding showed an unexplained sharp move (XOM actually green today, CAT
 
 ### Decision
 HOLD (no new trade — 4/4 CHOP slots filled, CVX/LLY both fail regime check on capacity). No held position at or near -7%, no confirmed thesis break. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — book still 4/4 CHOP slots filled (CAT/JPM/NVDA/XOM), zero capacity for any new entry regardless of trigger status; hard-check Step 4 (max positions) fails before trigger zone is even relevant. Live re-checks for completeness: CVX ask $214.69 vs $209 pivot trigger, +2.7% above — would be CONFIRMED zone (within 0-3% band) but blocked on capacity, not zone. LLY ask $1,239 vs $1,170-1,200 reclaim trigger, ~+3.3-5.9% above the band top — too extended even setting capacity aside; drop from active watchlist, re-flag only on a fresh pullback into $1,170-1,200. Existing positions re-pulled live: CAT -0.69%, JPM -2.48%, NVDA +4.61%, XOM -1.37% — none within reach of the -7% manual-cut line, none near +15%/+20% tighten triggers, all 4 stops intact and unmoved. No trade placed, no Telegram (no trade). Patience > activity.
