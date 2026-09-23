@@ -3889,3 +3889,56 @@ CONFIRMED entry on CAT @ $806.77 (9sh, 10% trailing GTC stop $725.5935). Live pu
 Positions: CAT $808.55 (+0.22%) | JPM $339.39 (-2.19%, change_today -3.59%) | NVDA $228.445 (+4.64%) | XOM $159.775 (-1.98%, change_today +0.93%) — 4/4 CHOP slots filled, all 4 stop-protected (CAT $725.5935 HWM $812.4595 / NVDA $206.631 HWM $229.59 / XOM $152.676 HWM $169.64 / JPM $329.616 HWM $366.24). No position <= -7% (no manual cut triggered). No position >= +15% (no tighten triggers). Regime CHOP cap is 4 — at cap, not over, no forced closes.
 JPM's -3.59% intraday move (sharpest of the book) checked via Tavily: reporting cites missed investment-banking revenue expectations and concerns over proposed credit-card interest-rate caps as the drag, alongside broader bank-stock softness. This is a real negative data point but not a clean break of the original breakout/momentum thesis (52wk-high proximity, #2 YTD financials momentum, BofA/Citi PT raises) — no downgrade or price-target cut found, stop ($329.616) still ~2.9% below current price and untouched. Judgment: watch, not cut — thesis weakened, not broken. Flag for first check at next run; cut candidate if JPM keeps deteriorating without a stop hit.
 No other holding showed an unexplained sharp move (XOM actually green today, CAT/NVDA both steady/up). No action taken (no cuts, no tightens, no regime-forced closes) — no Telegram sent per Step 8. Patience > activity.
+
+---
+
+## 2026-09-23 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.49% (SPY $765.96 vs 50DMA $762.20) | VIX: 14.21
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> SPY only +0.49% above 50DMA (well inside +/-2%) and VIX 14.21 sits under the Bull VIX threshold (<15), but Bull requires SPY >= +2% above 50DMA too — fails. Chop's "SPY within +/-2%" leg alone confirms CHOP.
+
+### Account Snapshot
+- Equity: $49,266.70 | Cash: $20,114.20 (40.8%) | Buying power: $162,083.80 (margin) | balance_asof 2026-09-22
+- Positions: CAT 9sh @ $806.77 (current $806.50, -0.03%/-$2.43) | JPM 21sh @ $346.98 (current $341.11, -1.69%/-$123.27) | NVDA 33sh @ $218.31697 (current $229.13, +4.95%/+$356.83) | XOM 45sh @ $163.00 (current $159.32, -2.26%/-$165.60) — **4 of 4 CHOP position slots filled**
+- Deployment: $29,152.50 / $49,266.70 = 59.2%, right at the 60% CHOP target
+- Open orders: all 4 positions carry live 10% trailing GTC stops (CAT $731.21 HWM $812.46 | JPM $329.62 HWM $366.24 | NVDA $206.97 HWM $229.97 | XOM $152.68 HWM $169.64)
+
+### Macro (Sub-agent 1 synthesis)
+- Oil: WTI $98.05, Brent $101.52, both down ~2.2% — earlier Hormuz-driven spike to $111 WTI has faded.
+- S&P futures: flat/mixed (ES +0.07%, Nasdaq futures -0.04%) — no strong directional bias.
+- VIX: 14.21-14.81 depending on source, low-vol regime, well off the 35.30 52wk high.
+- DXY: 100.73, +0.19% today.
+- 10Y yield: ~4.93-4.94%, flat day-over-day.
+- Econ calendar: no major US releases today; next FOMC not until October, next CPI/NFP/JOLTS/PCE later in the cycle. Quiet, low-catalyst session.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD leaders: Energy (XLE +42-43%) and Tech (XLK +32-36%) — both already held via XOM/NVDA.
+- Last 5 days: rotation into "real economy" names — Industrials (held via CAT), Consumer Staples, Energy outperforming; Tech/Comm Services/Consumer Discretionary lagging. Health Care shows strongest 3-month momentum (+14%) despite flat YTD.
+- New (non-held) candidates: **CVX** (Energy) — pulled back from $215 high to ~$204; **LLY** (Health Care) — ~7% pullback from highs to ~$1,170, still Strong Buy consensus. See Trade Ideas.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Pre-market BMO today: CTAS, PAYX, GIS, MANU, CBRL — actuals not yet posted at query time (est. CTAS EPS $1.35-1.38, PAYX $1.32-1.35, GIS $0.72). None are held names.
+- After-hours yesterday (9/22): no major US large-cap AMC reports found; only small-cap/international names with no notable moves. No held-name exposure either way.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **CAT** ($806.50, -0.03%): AI-datacenter/gas-turbine tailwind narrative intact, no new negative catalyst. 200DMA-reclaim thesis holds one day in.
+- **JPM** ($341.11, -1.69%): Announced 10-yr $10B US investment plan; Q3 earnings call Oct 13. No fresh confirmation of yesterday's IB-revenue-miss/credit-card-cap concerns found today — thesis-weakening flag stays open, not resolved either direction. Continue watching, not yet a cut candidate ($329.616 stop, ~3.4% cushion).
+- **NVDA** ($229.13, +4.95%): Near 52wk high ($236.54), Strong Buy consensus, $327 avg target. Insider selling (Huang, execs) flagged but framed as routine/uninformative. Breakout thesis intact.
+- **XOM** ($159.32, -2.26%): Near 52wk high $176.41, no fresh oil/Iran headline in today's pull — routine news only (bond tender, conference). No company-specific issue; volatility remains oil-driven.
+
+### Trade Ideas
+1. CVX — Energy, entry on reclaim of $209 pivot/VWAP, stop <$202 (S1, ~-3.3%) or ~$195 (60d MA, ~-6.7%), target breakout $219+ (2:1+ R:R plausible). Regime check: FAIL — 4/4 CHOP slots filled, no capacity regardless of trigger.
+2. LLY — Health Care, entry on bounce/reclaim of $1,170-1,200 support, stop <$1,100 (~-6 to -8.5%), target prior-high/analyst-avg area ~$1,325 (2:1+ R:R plausible). Regime check: FAIL — same reason.
+(No earnings catalyst exists today for a new-entry idea; CAT/JPM/NVDA/XOM are existing positions, not new-entry candidates. CVX/LLY carried as conditional/post-exit watchlist per Sector Scout.)
+
+### Risk Factors
+- JPM's thesis-weakening flag from 9/22 (missed IB revenue expectations, credit-card rate-cap concerns) remains unresolved — no new confirming or disconfirming news today; position down -1.69%, stop still ~3.4% clear. Watch, don't act.
+- Book fully deployed at 4/4 CHOP slots (59.2% of equity) — zero capacity for CVX/LLY or any other candidate unless a slot frees up.
+- CTAS/PAYX/GIS earnings BMO today — none held, no direct exposure, but a soft print could pressure the broader Industrials/Staples tape CAT sits in.
+- Oil pulled back to $98 WTI as the Hormuz-spike premium fades — reduces near-term XOM headline-volatility risk versus recent weeks.
+- Light macro calendar (no CPI/PPI/FOMC/jobs today) — low catalyst-risk session for the whole book.
+
+### Decision
+HOLD (no new trade — 4/4 CHOP slots filled, CVX/LLY both fail regime check on capacity). No held position at or near -7%, no confirmed thesis break. Patience > activity.
