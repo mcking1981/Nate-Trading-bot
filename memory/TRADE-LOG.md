@@ -1534,3 +1534,17 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Executed the mandatory NEE manual -7% cut at market-open (Trade #10, realized -$599.86/-7.83%, no new catalyst — pure rule execution), then deployed the freed slot into CAT (Trade #11) on its confirmed 200DMA reclaim, an Industrials-momentum name from today's pre-market watchlist. CAT closed its debut session essentially flat (+0.15% unrealized). JPM had the day's roughest ride (-3.35% day move on broad market softness) but unrealized P&L stays modest at -1.95% — no thesis break found, flagged for a look at tomorrow's pre-market if weakness continues. NVDA kept extending (+4.60% unrealized, stop trailed up to $206.973 on new HWM $229.97). XOM stabilized as oil firmed intraday (+0.45% day, still -2.45% unrealized, no company-specific catalyst). 4 of 4 CHOP slots filled, deployment 59.1% — within the 60% CHOP target. 1 of 2 CHOP weekly new-buy slots used this week (CAT, 9/22). No tighten triggers, no further cut triggers. Tomorrow: watch CAT for follow-through above $800 support and JPM for any emerging thesis break behind today's move; no new adds planned absent a fresh trigger. Patience > activity.
 
 ---
+
+### Sep 23 — EOD Snapshot (Day 118, Wednesday)
+
+**Portfolio:** $49,204.72 | **Cash:** $20,114.20 (40.9%) | **Day P&L:** -$17.45 (-0.04%) | **Phase P&L:** -$795.28 (-1.59%)
+**Regime:** CHOP (SPY vs 50DMA +0.49%, VIX 14.21 — per Sep 23 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| CAT | 9 | $806.77 | $812.02 | +0.50% | +$47.25 (+0.65%) | $735.084 (10% trailing GTC, HWM $816.76) |
+| JPM | 21 | $346.98 | $337.53 | -0.73% | -$198.45 (-2.72%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NVDA | 33 | $218.31697 | $225.42 | -1.51% | +$234.40 (+3.25%) | $206.973 (10% trailing GTC, HWM $229.97) |
+| XOM | 45 | $163.00 | $161.23 | +1.59% | -$79.65 (-1.09%) | $152.676 (10% trailing GTC, HWM $169.64) |
+**Notes:** Quiet, no-trade session — no new economic catalysts, book stayed at 4/4 CHOP slots filled with zero capacity for the CVX/LLY watchlist ideas flagged pre-market. CAT extended its post-entry hold with a modest new high (+0.65% unrealized, stop trailed up to $735.084 on new HWM $816.76, routine no-loosen trail). JPM continued drifting lower (-2.72% unrealized) on its still-unresolved IB-revenue-miss/credit-card-cap overhang from 9/22 — thesis-weakening flag stays open but stop cushion (~2.3%) is intact, not yet a cut candidate. NVDA pulled back off its highs (+3.25% unrealized, well below the +15% tighten trigger) on a normal breather, no thesis change. XOM firmed as oil steadied (+1.59% day, -1.09% unrealized). No losers near -7%, no tighten triggers, no thesis breaks confirmed. 1 of 2 CHOP weekly new-buy slots used this week (CAT, 9/22). Tomorrow: keep watching JPM for further deterioration or a stabilizing bounce; no new adds planned absent a fresh trigger or a freed slot. Patience > activity.
+
+---
