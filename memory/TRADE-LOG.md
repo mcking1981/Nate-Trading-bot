@@ -1563,3 +1563,17 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. No position at/near -7% (JPM reddest at -3.07%, stop cushion ~2.0%). No tighten triggers (NVDA best at +1.84%, far below +15%). 4 of 4 CHOP slots filled — at, not over, regime cap, no forced closes. No thesis breaks: JPM's 9/22 IB-revenue-miss/credit-card-cap overhang flag remains open/unresolved for a 3rd+ session but unconfirmed — watched, not acted on; CAT/NVDA/XOM theses unchanged from pre-market (CAT AI-datacenter backlog intact, NVDA breakout intact modulo the new "cloud/edge inference" competitive narrative to monitor, XOM oil-driven/undervalued thesis unchanged). No sharp unexplained moves warranting intraday Tavily research (largest intraday move CAT -1.75%, within normal noise). 1 of 2 CHOP weekly new-buy slots used this week (CAT, 9/22). No Telegram sent per Step 8 — no trading action taken. Patience > activity.
 
 ---
+
+### Sep 24 — EOD Snapshot (Day 119, Thursday)
+
+**Portfolio:** $49,147.97 | **Cash:** $20,114.20 (40.9%) | **Day P&L:** -$56.75 (-0.12%) | **Phase P&L:** -$852.03 (-1.70%)
+**Regime:** CHOP (SPY vs 50DMA +1.74%, VIX 15.18 — per Sep 24 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| CAT | 9 | $806.77 | $804.64 | -0.91% | -$19.17 (-0.26%) | $735.084 (10% trailing GTC, HWM $816.76) |
+| JPM | 21 | $346.98 | $337.6274 | +0.03% | -$196.40 (-2.70%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NVDA | 33 | $218.31697 | $224.41 | -0.49% | +$201.07 (+2.79%) | $206.973 (10% trailing GTC, HWM $229.97) |
+| XOM | 45 | $163.00 | $162.14 | +0.56% | -$38.70 (-0.53%) | $152.676 (10% trailing GTC, HWM $169.64) |
+**Notes:** No-trade day — midday check found no triggers, no action taken. Portfolio essentially flat (-0.12% day), still 4/4 CHOP slots filled at 59.1% deployment. JPM remains the laggard (-2.70% unrealized), now a 4th straight session carrying the unresolved 9/22 IB-revenue-miss/credit-card-cap overhang — stop cushion still intact (~2.3% away), not yet a cut candidate but the longest-running open flag on the book. CAT gave back yesterday's new high (-0.26% unrealized vs +0.65% Wed) on no company-specific news, just broad softness. NVDA stayed the standout (+2.79% unrealized, well below the +15% tighten trigger). XOM roughly flat (-0.53%). No -7% cuts, no tighten triggers, no thesis breaks confirmed, no new trades — 1 of 2 CHOP weekly new-buy slots used this week (CAT, 9/22). Tomorrow: keep watching JPM for further deterioration or a stabilizing bounce; no new adds planned absent a fresh trigger or freed slot. Patience > activity.
+
+---
