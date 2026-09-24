@@ -4003,3 +4003,6 @@ No other holding showed an unexplained sharp move warranting fresh Tavily resear
 
 ### Decision
 HOLD (no new trade — 4/4 CHOP slots filled, LLY/AVGO both fail regime check on capacity). No held position at or near -7%, no confirmed thesis break. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — LLY at $1242.08 (ask) vs trigger $1170, extended +6.2% above trigger with no intraday pullback into 0-3% confirmation zone: too extended, dropped from watchlist. AVGO at $348.43 (ask) vs trigger $362 (confirmed close required): below trigger, unconfirmed, carried forward to watchlist. Both also fail capacity regardless (4/4 CHOP slots filled). No positions near -7% cut (CAT -0.98%, JPM -3.01%, NVDA +1.99%, XOM +0.50%). No trade placed.
