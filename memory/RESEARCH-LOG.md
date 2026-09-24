@@ -3951,3 +3951,55 @@ NO CONFIRMED SETUP — book still 4/4 CHOP slots filled (CAT/JPM/NVDA/XOM), zero
 Positions: CAT $806.50 (-0.03%, change_today -0.19%) | JPM $337.92 (-2.61%, change_today -0.61%) | NVDA $224.825 (+2.98%, change_today -1.77%) | XOM $161.24 (-1.08%, change_today +1.59%) — 4/4 CHOP slots filled, at cap not over, no forced closes. No position <= -7% (no manual cut triggered). No position >= +15% (no tighten triggers). All 4 stops intact and unmoved (CAT $731.21355 HWM $812.4595 / JPM $329.616 HWM $366.24 / NVDA $206.973 HWM $229.97 / XOM $152.676 HWM $169.64).
 JPM continues its slide from pre-market ($341.11 -1.69% -> $337.92 -2.61%) but today's incremental move is modest (-0.61%), not a sharp break — stop cushion narrowed slightly to 2.46% (from ~3.4% at pre-market) but remains untouched. No new negative headline found beyond the already-logged IB-revenue-miss/credit-card-rate-cap overhang from 9/22 (still unconfirmed/unresolved either way) — thesis weakened, not broken. Judgment: continue watching, no cut. Flag for first check at next run; cut candidate if JPM keeps deteriorating without a stop hit.
 No other holding showed an unexplained sharp move warranting fresh Tavily research (CAT flat, XOM green, NVDA a normal pullback off recent highs while still well in profit). No action taken (no cuts, no tightens, no regime-forced closes) — no Telegram sent per Step 8. Patience > activity.
+
+## 2026-09-24 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +1.74% (SPY $773.82 vs 50DMA $760.59) | VIX: 15.18
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> SPY +1.74% above 50DMA is inside +/-2% (fails Bull's >=+2% leg) and VIX 15.18 sits just above the Bull threshold (<15) but squarely in the Chop 15-25 band. Chop confirmed on both legs.
+
+### Account Snapshot
+- Equity: $49,093.30 | Cash: $20,114.20 (41.0%) | Buying power: $161,598.28 (margin) | balance_asof 2026-09-23
+- Positions: CAT 9sh @ $806.77 (current $802.05, -0.59%/-$42.48) | JPM 21sh @ $346.98 (current $337.09, -2.85%/-$207.69) | NVDA 33sh @ $218.31697 (current $222.82, +2.06%/+$148.60) | XOM 45sh @ $163.00 (current $162.86, -0.09%/-$6.30) — **4 of 4 CHOP position slots filled**
+- Deployment: $28,979.10 / $49,093.30 = 59.0%, right at the 60% CHOP target
+- Open orders: all 4 positions carry live 10% trailing GTC stops (CAT $735.084 HWM $816.76 | JPM $329.616 HWM $366.24 | NVDA $206.973 HWM $229.97 | XOM $152.676 HWM $169.64)
+
+### Macro (Sub-agent 1 synthesis)
+- Oil: WTI ~$89.97, Brent ~$99.00, both softer overnight.
+- S&P futures: E-mini +0.04%, flat/slightly green premarket.
+- VIX: ~15.18-15.95 depending on source/time, calm regime, well off 52wk high 35.30.
+- DXY: 101.12, near yearly highs.
+- 10Y yield: ~4.94-4.96%, near 19-year highs, slight pullback from FOMC-week peak.
+- Econ calendar: Initial Jobless Claims 202.5K (vs 196K fcst), New Home Sales (Aug) 650K beat vs 607K fcst. No CPI/PPI/FOMC today (FOMC was 9/16); next JOLTS/PCE/GDP 9/29-9/30. Light-catalyst session.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD leaders: Energy (XLE +42.5%) and Tech (XLK +35.8%) — both already held via XOM/NVDA. Materials, Industrials, Health Care ~+10-11%.
+- Last 5 days: mixed/noisy — Financials led on median, Consumer Cyclical lagged; broader "real economy" rotation narrative (Industrials/Energy/Staples) persists over speculative Tech.
+- Watchlist update: **CVX dropped** — technically broken (below all key MAs, RSI 30 w/ negative divergence, sell-rated), no longer a pullback-buy candidate. **LLY** — fresh live trigger, pullback-to-support setup, entry ~$1,160-1,170 on reclaim of $1,170, stop <$1,135. **AVGO (new)** — Tech breakout setup, entry on confirmed close >$362, stop ~$340, target $400+.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Pre-market BMO today: DRI, SNX, BXMT, DAVA, COST — actuals not yet posted at query time. None are held names.
+- After-hours yesterday (9/23): no clean dated results surfaced for held names or notable large-caps. No held-name exposure either way.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **CAT** ($805.69, -0.3% wk): AI-datacenter/gas-turbine backlog thesis intact post Q2 beat/raised outlook, no new adverse news.
+- **JPM** ($337.53): No new IB-revenue-miss/credit-card-rate-cap headlines found today — thesis-weakening flag from 9/22 stays **OPEN/unresolved**, not confirmed or disconfirmed. Analysts still mostly Buy.
+- **NVDA** ($225.51, premkt $216-225): Slipped intraday on a "cloud/edge inference competition" headline (Mac inference-economics narrative); still near highs, YTD +21%, breakout thesis intact but watch the competition narrative.
+- **XOM** (~$158-163): No company-specific news, oil-price-driven, still viewed undervalued post Q2 beat. Thesis unchanged.
+
+### Trade Ideas
+1. LLY — Health Care, entry on reclaim of $1,170 (MA5) pullback support, stop <$1,135 (~-3%), target prior-high/analyst-avg area (2:1+ R:R plausible). Regime check: FAIL — 4/4 CHOP slots filled, no capacity.
+2. AVGO — Tech, entry on confirmed close >$362 breakout, stop ~$340 (~-6%), target $400+ (2:1+ R:R plausible). Regime check: FAIL — same reason.
+(No earnings catalyst exists today for a new-entry idea; CAT/JPM/NVDA/XOM are existing positions, not new-entry candidates. CVX dropped from watchlist — technically broken. LLY/AVGO carried as conditional/post-exit watchlist per Sector Scout.)
+
+### Risk Factors
+- JPM's thesis-weakening flag from 9/22 (missed IB revenue expectations, credit-card rate-cap concerns) remains unresolved for a 3rd straight session — position down -2.85%, stop still clear (~2.2% cushion). Watch, don't act.
+- NVDA facing a fresh "cloud/edge inference economics" competitive narrative (Mac-based inference) — not yet a thesis break, but a new angle to monitor.
+- Book fully deployed at 4/4 CHOP slots (59.0% of equity) — zero capacity for LLY/AVGO or any other candidate unless a slot frees up.
+- DRI/SNX/BXMT/DAVA/COST earnings BMO today — none held, no direct exposure.
+- 10Y yield near 19-year highs (~4.95%) — a broad rate-sensitive headwind to watch, though no held position is rate-sensitive-utility exposure currently (NEE already exited).
+- Light macro calendar otherwise (no CPI/PPI/FOMC/jobs today) — low catalyst-risk session for the whole book.
+
+### Decision
+HOLD (no new trade — 4/4 CHOP slots filled, LLY/AVGO both fail regime check on capacity). No held position at or near -7%, no confirmed thesis break. Patience > activity.
