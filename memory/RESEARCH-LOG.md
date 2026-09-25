@@ -4055,3 +4055,6 @@ Sparse calendar — only confirmed BMO reporter is Tamboran Resources (small ene
 
 ### Decision
 HOLD (no new trade — 4/4 CHOP slots filled, COP/AVGO both fail regime check on capacity and neither has a confirmed live trigger anyway). No held position at or near -7% (JPM reddest at -2.30%, well clear). No confirmed thesis break — JPM overhang still unresolved (watch), NVDA competitive narrative escalated but not yet price-impactful (watch). Patience > activity.
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — COP at $127.60 (ask) vs trigger $130-134 (reclaim of broken support): below trigger zone, unconfirmed, carried forward to watchlist. NO CONFIRMED SETUP — AVGO at $353.39 (ask): no clean trigger level set today (watch-only per pre-market), no confirmation possible, carried forward to watchlist. Both also fail capacity regardless (4/4 CHOP slots filled, zero open slots). No positions near -7% cut (CAT +1.28%, JPM -1.92%, NVDA +3.02%, XOM -1.72%). No trade placed.
