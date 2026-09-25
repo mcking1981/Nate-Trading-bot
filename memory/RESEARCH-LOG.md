@@ -4006,3 +4006,52 @@ HOLD (no new trade — 4/4 CHOP slots filled, LLY/AVGO both fail regime check on
 
 ### Market-Open Check — 09:46 ET
 NO CONFIRMED SETUP — LLY at $1242.08 (ask) vs trigger $1170, extended +6.2% above trigger with no intraday pullback into 0-3% confirmation zone: too extended, dropped from watchlist. AVGO at $348.43 (ask) vs trigger $362 (confirmed close required): below trigger, unconfirmed, carried forward to watchlist. Both also fail capacity regardless (4/4 CHOP slots filled). No positions near -7% cut (CAT -0.98%, JPM -3.01%, NVDA +1.99%, XOM +0.50%). No trade placed.
+
+## 2026-09-25 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: +0.49% (SPY $765.96 vs 50DMA $762.20) | VIX: ~15.6
+*(Regime limits: max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week)*
+
+> SPY +0.49% above 50DMA is well inside +/-2% (fails Bull's >=+2% leg regardless of VIX). VIX read ~15.6-15.7 per WSJ/Markets Insider (one outlier source read 13.57) — either way, SPY's +/-2% leg alone confirms CHOP.
+
+### Account Snapshot
+- Equity: $49,263.40 | Cash: $20,114.20 (40.8%) | Buying power: $162,074.56 (margin) | Daytrade count: N/A (not returned in account payload; no round-trip trades this week)
+- Positions: CAT 9sh @ $806.77 (current $814.99, +1.02%/+$73.98) | JPM 21sh @ $346.98 (current $339.00, -2.30%/-$167.58) | NVDA 33sh @ $218.31697 (current $226.08, +3.56%/+$256.18) | XOM 45sh @ $163.00 (current $160.77, -1.37%/-$100.35) — **4 of 4 CHOP position slots filled**
+- Deployment: $29,149.20 / $49,263.40 = 59.2%, at the 60% CHOP target
+- Open orders: all 4 positions carry live 10% trailing GTC stops (CAT $735.084 HWM $816.76 | JPM $329.616 HWM $366.24 | NVDA $206.973 HWM $229.97 | XOM $152.676 HWM $169.64)
+
+### Macro (Sub-agent 1 synthesis)
+- Oil: WTI $92.91 (-1.80%), Brent $105.56 (-0.98%) — soft overnight.
+- S&P futures: Dec E-mini ~7,747.75, -0.32% — modest risk-off drift on rising yields/oil.
+- VIX: ~15.6-15.7 (prior close 15.18-15.44), ticking up but still calm-regime.
+- DXY: 101.23, flat, near 52wk high.
+- 10Y yield: 5.14%, near 52wk high (5.18%), up ~0.51pp over the past month post-FOMC hike.
+- Econ calendar: no major releases today (CPI/PPI/NFP/FOMC all already out this month — FOMC hiked to 3.75-4% on 9/16). Only minor items: BLS benefits report, Baker Hughes rig count, Fed's Hammack speech. Light-catalyst session.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+YTD leaders: XLE +42.5%, XLK +35.8% (both already held via XOM/NVDA). Last 5 days: Tech and Energy again lead (XLK/XLE strongest mov-avg momentum), Comm Services/Financials firm. Held-sector theses (Tech/Energy) remain in favor. New (non-held) candidates: **COP** (Energy) — $127.57, broke support at $134, pulled back from 52wk high $141.62; setup: reclaim $130-134 on volume, stop <$127 (~-3.5%) — not yet actionable (still below broken support). **AVGO** (Tech) — ~$367, minor pullback, data noisy/needs cleaner level confirmation — watch-only, not a clean entry today.
+
+### Earnings Today (Sub-agent 3 synthesis)
+Sparse calendar — only confirmed BMO reporter is Tamboran Resources (small energy name, not held). No major-cap prints today or in reliable after-hours-yesterday data. None of CAT/JPM/NVDA/XOM reporting today or last night.
+
+### Holdings News (Sub-agent 4 synthesis)
+- **CAT** ($814.99, +1.02%): Pulling back off $816-827 highs but backlog hit record $72B; AI-datacenter/gas-turbine thesis intact/unchanged.
+- **JPM** ($339.00, -2.30%): No new confirming/denying news on the 9/22 IB-revenue-miss/rate-cap overhang — 4th straight session unresolved. Sector-wide yield pressure noted (10Y at multi-decade highs).
+- **NVDA** ($226.08, +3.56%): RSI 78.56 (overbought). MarketWatch (9/23): "Nvidia Slips as Four Macs Attack Cloud Inference Economics" — the 9/24-flagged competitive narrative has now **escalated** with a direct named article, though price action still strong.
+- **XOM** ($160.77, -1.37%): Flat/steady, only routine items (Barclays conference, debt tender). No new company-specific issue; oil-driven volatility thread unchanged.
+
+### Trade Ideas
+1. COP — Energy, entry on reclaim of $130-134 (broken support turned resistance) on volume, stop <$127 (~-3.5%), target prior highs ~$141+ (2:1+ R:R plausible if reclaim confirms). Regime check: FAIL — 4/4 CHOP slots filled, and setup itself unconfirmed (still below broken support).
+2. AVGO — Tech, watch-only, levels too noisy to set a clean trigger today. Regime check: FAIL — same capacity reason, plus no confirmed level.
+(No earnings catalyst exists today — COP/AVGO carried as conditional/watchlist setups per Sector Scout, neither is a live confirmed trigger. CAT/JPM/NVDA/XOM are existing positions, not new-entry candidates.)
+
+### Risk Factors
+- JPM's 9/22 IB-revenue-miss/credit-card-rate-cap overhang remains unresolved for a 4th straight session — position -2.30%, stop cushion ~2.8%. Watch, don't act.
+- NVDA's "cloud/edge inference competition" narrative escalated with a named MarketWatch article (9/23) — not a thesis break (price still +3.56%, well below +15% tighten trigger), but a real new competitive angle to monitor; RSI 78.56 overbought.
+- 10Y yield at 5.14%, near 52wk/multi-decade highs — persistent rate headwind across the book.
+- Oil softer overnight (WTI -1.80%) — modest tailwind/headwind swing risk for XOM, no company-specific catalyst.
+- Book fully deployed at 4/4 CHOP slots (59.2% of equity) — zero capacity for COP/AVGO or any other candidate unless a slot frees up.
+- Light macro calendar otherwise (no CPI/PPI/FOMC/jobs today) — low catalyst-risk session for the whole book.
+
+### Decision
+HOLD (no new trade — 4/4 CHOP slots filled, COP/AVGO both fail regime check on capacity and neither has a confirmed live trigger anyway). No held position at or near -7% (JPM reddest at -2.30%, well clear). No confirmed thesis break — JPM overhang still unresolved (watch), NVDA competitive narrative escalated but not yet price-impactful (watch). Patience > activity.
