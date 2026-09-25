@@ -672,3 +672,62 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Continue monitoring NEE toward -7%; if it closes within ~1% of the cut with still no case development, flag it explicitly for a thesis-refresh decision at next Friday's review before the mechanical line is hit
 
 ### Overall Grade: B-
+
+---
+
+## Week ending 2026-09-25
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $49,470.94 (Fri 9/18 close) |
+| Ending portfolio | $49,362.26 (Fri 9/25 close, per TRADE-LOG EOD; Alpaca balance_asof lags at 9/24, live equity $49,350.43) |
+| Week return | -$108.68 (-0.22%) |
+| S&P 500 week | +1.38% (SPX 7,637.76 Sep 18 close -> 7,743.41 Sep 25 close) |
+| Bot vs S&P | -1.60% |
+| Dominant regime | CHOP (5/5 days) |
+| Trades | 2 (W:0 / L:1 / open:4 — CAT new 9/22; JPM, NVDA, XOM carried) |
+| Win rate | 0% (0 of 1 closed) |
+| Best trade | N/A (no closed winners) — NVDA +3.06% unrealized |
+| Worst trade | NEE -7.83% (Trade #10, manual -7% cut) |
+| Profit factor | 0.00 (no gross profit, $599.86 gross loss) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| NEE | $86.08 (89sh, 8/14) | $79.34 (89sh, 9/22 manual sell) | -$599.86 (-7.83%) | Manual -7% cut per Strategy Hard Rule #5 — breached at Sep 21 EOD (-7.17%), confirmed at 9/22 market-open (-7.86%); Dominion/VA-MD SCC overhang never resolved (hearing still 11/17), no discretion applied |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| CAT | $806.77 (9sh, 9/22) | $821.58 | +$133.29 (+1.84%) | $740.691 (10% trailing GTC, HWM $822.99) |
+| JPM | $346.98 (21sh, 7/22) | $342.966 | -$84.29 (-1.16%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NVDA | $218.31697 (33sh, 9/17) | $225.00 | +$220.54 (+3.06%) | $206.973 (10% trailing GTC, HWM $229.97) |
+| XOM | $163.00 (45sh, 9/1) | $160.59 | -$108.45 (-1.48%) | $152.676 (10% trailing GTC, HWM $169.64) |
+
+### What Worked
+- Mechanical -7% cut on NEE executed cleanly at 9/22 market-open with no hesitation — breached at Monday EOD (-7.17%), confirmed still breached next morning (-7.86%), no new negative catalyst, pure rule execution ending a 9+ week unresolved Dominion/VA-MD overhang
+- Freed slot redeployed same-day into CAT (Trade #11) on a confirmed 200DMA-reclaim trigger — no idle-cash gap between the cut and the next fill, unlike several prior stop-outs this quarter
+- NVDA kept compounding (+3.06% unrealized) and CAT held its post-entry gains (+1.84%) — both well clear of any tighten trigger, no premature or loosened stop action
+- Correctly declined every fresh watchlist candidate that failed capacity or trigger checks (GEV, CVX, LLY, AVGO, COP) across all 5 days — no chasing despite 4/4 slots filled the entire week
+- Deployment held steady at ~59%, right at the 60% CHOP target, all week — no drift out of the target band
+
+### What Didn't Work
+- Underperformed S&P by -1.60% this week — SPX rallied +1.38% on a volatile-but-positive yield-surge/oil tape while the book finished essentially flat-to-down
+- JPM's 9/22 IB-revenue-miss/credit-card-rate-cap thesis-weakening flag ran unresolved for 5 straight sessions with no confirming or disconfirming news — position drifted between -1.16% and -3.35% without ever cleanly resolving
+- Only 1 of 2 CHOP weekly new-buy slots used (CAT); book stayed fully capacity-capped (4/4) the rest of the week — every other candidate (GEV/CVX/LLY/AVGO/COP) failed on capacity, trigger, or both
+- NEE's realized loss (-$599.86, -7.83%) is the 3rd manual -7% cut of the challenge — regulatory/overhang-type theses keep bleeding to the mechanical floor rather than resolving or escalating earlier
+
+### Key Lessons
+- The mechanical -7% cut plus same-day slot redeployment (NEE -> CAT) is the cleanest execution yet of the "exit-then-refill" pattern — worth treating as the template for future stop-outs rather than letting cash sit idle
+- A "thesis-weakening but not broken" flag (JPM) can run 5+ sessions with zero resolution either way — the strategy still has no explicit rule for when a stale weakening-flag itself should prompt de-risking short of a stop hit
+- A calm-VIX, rate-driven grind-up week (10Y near multi-decade highs) still let the S&P outperform the book — being capacity-capped at 4/4 limits participation even when the regime stays favorable and no rule was broken
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by -1.60%, below the 2% trigger threshold, and last week (9/18) underperformed by only -0.26% — consecutive-underperformance requires BOTH weeks to exceed 2%, so no trigger. CHECK B: not applicable, no outperformance this week. CHECK C: one Utilities trade closed this week (NEE, -7.83%) — a single loss, not 2 consecutive losing trades in the sector — no new sector-cooldown trigger; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Re-verify COP (reclaim $130-134 on volume) and AVGO (needs a cleaner trigger level) as leading post-exit candidates for Monday 9/28 — no capacity until a slot frees
+- Give JPM's unresolved IB-revenue/rate-cap flag an explicit go/no-go checkpoint if it deteriorates past its current cushion without a stop hit, rather than carrying it indefinitely as "watch, don't act"
+- Monitor NVDA's escalating "cloud/edge inference competition" narrative (RSI 78+ overbought) for any thesis-impacting follow-through, even though price action remains strong
+
+### Overall Grade: C
