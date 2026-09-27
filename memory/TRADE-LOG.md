@@ -1591,3 +1591,20 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades today — 1 of 2 CHOP weekly new-buy slots used this week (CAT, 9/22). Book bounced back (+0.44% day) after a quiet week: CAT led (+2.03% day, new HWM $822.99, stop trailed up to $740.691), JPM caught a bid too (+1.30% day) though its 9/22 IB-revenue-miss/credit-card-cap overhang stays unresolved for a 5th straight session (still just watching, stop cushion ~3.8%), NVDA ground out another small gain despite the overbought RSI/competitive-narrative flag. XOM was the lone laggard, softening with oil. 4/4 CHOP slots filled, deployment 59.25% — right at the regime target, no forced closes or adds. No -7% cuts, no +15% tighten triggers, no thesis breaks. Friday — weekly review due after close. Tomorrow (Mon 9/28): reassess JPM overhang, watch COP/AVGO watchlist if a slot frees up. Patience > activity.
 
 ---
+
+### Sep 27 — Midday Check (Day 122, Sunday) — market closed
+
+**Regime:** No pre-market entry today (Sunday, market closed, none run) — defaulting to **Chop sizing** per standing rule (max 4 positions, max 15%/position, 60% target deployed, max 2 new trades/week). Consistent with Fri 9/25's stamped CHOP regime (SPY +0.49% vs 50DMA, VIX ~15.6), unchanged over the weekend.
+
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop |
+|---|---|---|---|---|---|
+| CAT | 9 | $806.77 | $821.58 | +$133.29 (+1.84%) | $740.691 (10% trailing GTC, HWM $822.99) |
+| JPM | 21 | $346.98 | $343.06 | -$82.32 (-1.13%) | $329.616 (10% trailing GTC, HWM $366.24) |
+| NVDA | 33 | $218.31697 | $225.07 | +$222.85 (+3.09%) | $206.973 (10% trailing GTC, HWM $229.97) |
+| XOM | 45 | $163.00 | $160.59 | -$108.45 (-1.48%) | $152.676 (10% trailing GTC, HWM $169.64) |
+
+**Account:** Equity $49,366.54 | Cash $20,114.20 (40.7%) | Deployment 59.25% ($29,252.34) | balance_asof 2026-09-25
+
+**Action taken:** None. Sunday — market closed, all `change_today` = 0%, prices/equity/cash carried forward from Fri 9/25 close (confirmed via fresh `alpaca.sh account`/`positions`/`orders` calls). No losers at -7% (XOM/JPM reddest, -1.48%/-1.13%, well clear). No tighten triggers (NVDA best at +3.09%, far below the +15% first-tighten threshold). 4 of 4 CHOP position slots filled — at, not over, regime cap, no forced closes. All 4 GTC trailing stops confirmed live and unchanged (CAT $740.691 HWM $822.99, JPM $329.616 HWM $366.24, NVDA $206.973 HWM $229.97, XOM $152.676 HWM $169.64). No thesis breaks identified — no intraday activity to assess (market closed). No live news check performed — market closed, no unusual moves to explain, no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. Next live session Mon 9/28 open: reassess JPM's unresolved IB-revenue-miss/credit-card-cap overhang, watch COP/AVGO watchlist if a slot frees up. Patience > activity.
+
+---
