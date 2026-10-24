@@ -1608,3 +1608,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Action taken:** None. Sunday — market closed, all `change_today` = 0%, prices/equity/cash carried forward from Fri 9/25 close (confirmed via fresh `alpaca.sh account`/`positions`/`orders` calls). No losers at -7% (XOM/JPM reddest, -1.48%/-1.13%, well clear). No tighten triggers (NVDA best at +3.09%, far below the +15% first-tighten threshold). 4 of 4 CHOP position slots filled — at, not over, regime cap, no forced closes. All 4 GTC trailing stops confirmed live and unchanged (CAT $740.691 HWM $822.99, JPM $329.616 HWM $366.24, NVDA $206.973 HWM $229.97, XOM $152.676 HWM $169.64). No thesis breaks identified — no intraday activity to assess (market closed). No live news check performed — market closed, no unusual moves to explain, no Tavily/WebSearch warranted. No Telegram sent per Step 8 — no trading action taken. Next live session Mon 9/28 open: reassess JPM's unresolved IB-revenue-miss/credit-card-cap overhang, watch COP/AVGO watchlist if a slot frees up. Patience > activity.
 
 ---
+
+### Oct 24 — EOD Snapshot (Day 149, Saturday) — market closed
+
+**Portfolio:** $49,469.33 | **Cash:** $41,224.88 (83.3%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$530.67 (-1.06%)
+**Regime:** CHOP default (Sat 10/24 pre-market skipped, market closed — Chop sizing per standing rule)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $183.21 | 0.00% | +$909.45 (+12.40%) | $165.375 (10% trailing GTC, HWM $183.75) |
+**Notes:** Weekend, no trades. Day P&L 0 (equity = last_equity, balance_asof 10/23). Log gap: no TRADE-LOG entries between Sep 27 and today — book went from 4 positions (CAT, JPM, NVDA, XOM) to XOM only; exits/fills for CAT/JPM/NVDA not recorded here. Last logged EOD (Sep 25) was $49,362.26, so +$107.07 since. XOM +12.40%, 2.6 pts shy of +15% tighten-to-7% trigger; GTC trailing stop live (stop ~9.8% below close). Deployment 16.7% vs 60% CHOP target — 3 open slots. Phase P&L uses $50,000 starting equity (implied by Sep 24 snapshot). Tomorrow: Mon 10/26 pre-market to stamp regime; review gap trades and redeploy toward target within weekly cap.
+
+---
