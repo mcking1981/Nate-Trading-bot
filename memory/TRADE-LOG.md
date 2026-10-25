@@ -1619,3 +1619,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Weekend, no trades. Day P&L 0 (equity = last_equity, balance_asof 10/23). Log gap: no TRADE-LOG entries between Sep 27 and today — book went from 4 positions (CAT, JPM, NVDA, XOM) to XOM only; exits/fills for CAT/JPM/NVDA not recorded here. Last logged EOD (Sep 25) was $49,362.26, so +$107.07 since. XOM +12.40%, 2.6 pts shy of +15% tighten-to-7% trigger; GTC trailing stop live (stop ~9.8% below close). Deployment 16.7% vs 60% CHOP target — 3 open slots. Phase P&L uses $50,000 starting equity (implied by Sep 24 snapshot). Tomorrow: Mon 10/26 pre-market to stamp regime; review gap trades and redeploy toward target within weekly cap.
 
 ---
+
+### Oct 25 — EOD Snapshot (Day 150, Sunday) — market closed
+
+**Portfolio:** $49,469.33 | **Cash:** $41,224.88 (83.3%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$530.67 (-1.07%)
+**Regime:** CHOP default (Sun 10/25, market closed, no pre-market stamp — Chop sizing per standing rule)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $183.21 | 0.00% | +$909.45 (+12.40%) | $165.375 (10% trailing GTC, HWM $183.75) |
+**Notes:** Sunday, market closed, no trades. State identical to Oct 24 snapshot (balance_asof 10/23). XOM still +12.40%, short of +15% tighten trigger; GTC trailing stop live. Deployment 16.7% vs 60% CHOP target — 3 open slots. Trades this week: 0. Tomorrow: Mon 10/26 pre-market stamps regime; consider redeploying within weekly cap.
+
+---
