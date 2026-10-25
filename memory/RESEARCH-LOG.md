@@ -4082,3 +4082,13 @@ Saturday. Same recurring weekend cron-misfire pattern. Skipped 4-agent fan-out �
 **NOTE:** Memory logs end 9/27; ~4 weeks of trades/exits (10/xx) are not in TRADE-LOG. Book is far below 60% CHOP deployment target. XOM +12.4% — approaching +15% tighten trigger (7% trail).
 
 HOLD. No Telegram — no urgent trigger. Patience > activity.
+
+## 2026-10-25 — Pre-market Research — SKIPPED (Weekend, market closed)
+
+Sunday. Same recurring weekend cron-misfire pattern. Skipped 4-agent fan-out — market closed, no trade capacity. Alpaca data stale Fri 10/23 close (`change_today: 0`).
+
+**Account:** Equity $49,469.33 | Cash $41,224.88 (83%) | Deployment ~16.7%.
+**Positions:** XOM 45sh @ $163.00, current $183.21 (+12.4%, +$909.45), 10% trailing GTC stop live. Only open position.
+**NOTE:** TRADE-LOG gap (9/27 -> 10/24) still unreconciled. XOM 2.6 pts shy of +15% tighten-to-7% trigger.
+
+HOLD. No Telegram — no urgent trigger. Patience > activity.
