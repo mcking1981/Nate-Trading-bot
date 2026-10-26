@@ -4092,3 +4092,42 @@ Sunday. Same recurring weekend cron-misfire pattern. Skipped 4-agent fan-out —
 **NOTE:** TRADE-LOG gap (9/27 -> 10/24) still unreconciled. XOM 2.6 pts shy of +15% tighten-to-7% trigger.
 
 HOLD. No Telegram — no urgent trigger. Patience > activity.
+
+## 2026-10-26 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: -1.0% (SPY $759.97 Fri close vs ~$767.5 50DMA) | VIX: ~19.2
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,373.93 | Cash: $41,224.88 | Buying power: $187,716.86 | Daytrade count: n/a (not returned)
+- Deployment ~16.5% vs 60% CHOP target; 1/4 slots used; 0 trades this week.
+
+### Macro (Sub-agent 1 synthesis)
+- Oil elevated: WTI ~$101 (-1.9%), Brent ~$115 (-1.7%) overnight; sources conflict.
+- Futures mildly up (ES +0.1-0.2%, NQ -0.08%). VIX ~19.2. DXY ~101.8. 10Y ~4.96%.
+- Events: FOMC starts Tue 10/27, decision Wed 10/28 2pm ET; Q3 GDP + PCE Thu 10/29; jobs Fri 11/6. Nothing major today.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD (stale, July data): XLK +33%, XLE +21%, XLI +20%. Rotation into Industrials/Staples/Energy noted; no reliable 5-day figures.
+- NVDA: ~$222 (10/21), pullback in rising channel, support ~$209. CAT: bearish short-term, earnings 10/29. GEV: +78% YTD, no technicals.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Today BMO: VZ (EPS est $1.27), CX. AMC: CDNS, WELL, NUE, PSA. None held.
+- Fri AH: COHR -19% (weak guide). Week: GEV/VRT/BSX Tue; MSFT/GOOGL Wed AMC; AMZN Thu AMC; LLY/CAT Thu BMO; XOM/CVX Fri BMO.
+
+### Holdings News (Sub-agent 4 synthesis)
+- XOM ~$181 (Fri $183.21, 52w high $183.75), RSI ~75. No breaking news. Q3 earnings Fri 10/30 BMO (EPS est ~$4). Risk: oil slide/Hormuz de-escalation, sell-the-news.
+
+### Trade Ideas
+1. NVDA — Tech pullback, entry $215-222, stop 10% trail (~$200), target ~$243 high (~1.1-1.9:1, below 2:1). Regime check: FAIL on R:R; watch only, no catalyst before FOMC.
+2. GEV — AI power, reports Tue BMO; no technicals. Watch post-earnings. Regime check: FAIL (no confirmed setup).
+3. CAT — earnings 10/29, bearish trend. Regime check: FAIL, avoid pre-print.
+
+### Risk Factors
+- XOM +11-12%, 2.6 pts from +15% tighten trigger; earnings Fri; stop $165.375 (~8.7% below).
+- FOMC Wed with 10Y ~5% and oil >$100; elevated VIX.
+- Memory gap: TRADE-LOG missing 9/27-10/24 (CAT/JPM/NVDA exits unrecorded).
+- Heavy mega-cap earnings midweek = gap risk for new entries.
+
+### Decision
+HOLD. No confirmed catalyst/setup with 2:1 R:R; wait for post-FOMC/earnings clarity. Patience > activity.
