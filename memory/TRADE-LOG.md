@@ -1630,3 +1630,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Sunday, market closed, no trades. State identical to Oct 24 snapshot (balance_asof 10/23). XOM still +12.40%, short of +15% tighten trigger; GTC trailing stop live. Deployment 16.7% vs 60% CHOP target — 3 open slots. Trades this week: 0. Tomorrow: Mon 10/26 pre-market stamps regime; consider redeploying within weekly cap.
 
 ---
+
+### Oct 26 — EOD Snapshot (Day 151, Monday)
+
+**Portfolio:** $49,533.68 | **Cash:** $41,224.88 (83.2%) | **Day P&L:** +$64.35 (+0.13%) | **Phase P&L:** -$466.32 (-0.93%)
+**Regime:** CHOP (SPY -1.0% vs 50DMA, VIX ~19.2 — per Oct 26 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $184.64 | +0.78% | +$973.80 (+13.28%) | $166.131 (10% trailing GTC, HWM $184.59) |
+**Notes:** No trades — market-open check found no confirmed setup (NVDA R:R <2:1, GEV pre-earnings, CAT bearish into 10/29 print). XOM new high, +13.28% unrealized, 1.7 pts shy of +15% tighten-to-7% trigger; stop trailed up to $166.131. Deployment 16.8% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Phase P&L uses $50,000 start. Tomorrow: FOMC begins; GEV earnings BMO — watch for post-print setup; XOM earnings Fri 10/30 BMO (sell-the-news risk). Patience > activity.
+
+---
