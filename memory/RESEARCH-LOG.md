@@ -4174,3 +4174,6 @@ NO CONFIRMED SETUP — NVDA at $215.40 (watch $215-222, no named trigger; R:R <2
 
 ### Decision
 HOLD. No confirmed catalyst/setup with 2:1 R:R; wait for post-FOMC clarity. Patience > activity.
+
+### Market-Open Check — 09:46 ET
+NO CONFIRMED SETUP — NVDA at $217.2 (watch $215-222 pullback / >$237 breakout; R:R <2:1, no catalyst pre-FOMC) = unconfirmed, carry; GEV (quote spread wide $824-880, no technicals/trigger) = unconfirmed, carry; CAT (earnings 10/29, bearish) = skip. XOM held $183.68 (+12.7%), stop live. Regime CHOP, 0 trades placed.
