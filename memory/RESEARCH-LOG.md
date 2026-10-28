@@ -4177,3 +4177,40 @@ HOLD. No confirmed catalyst/setup with 2:1 R:R; wait for post-FOMC clarity. Pati
 
 ### Market-Open Check — 09:46 ET
 NO CONFIRMED SETUP — NVDA at $217.2 (watch $215-222 pullback / >$237 breakout; R:R <2:1, no catalyst pre-FOMC) = unconfirmed, carry; GEV (quote spread wide $824-880, no technicals/trigger) = unconfirmed, carry; CAT (earnings 10/29, bearish) = skip. XOM held $183.68 (+12.7%), stop live. Regime CHOP, 0 trades placed.
+
+## 2026-10-28 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-0.5% (SPY $763.25 10/26 close, testing 50DMA; no fresh quote) | VIX: ~17.5
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,335.23 | Cash: $41,224.88 | Buying power: $187,608.50 | Daytrade count: n/a (not returned)
+- Deployment ~16.4% vs 60% CHOP target; 1/4 slots used; 0 trades this week.
+
+### Macro (direct Tavily queries; sub-agents skipped)
+- Oil: WTI ~$100, Brent ~$104-114 (sources conflict), drifting lower.
+- Futures: ES Dec ~$7,732 (+0.2% as of 10/27 AM); stale. VIX ~17.5. DXY n/a. 10Y ~4.98-4.99%.
+- Events: FOMC decision today 2pm ET (hold expected; Sept hike to 3.75-4.00%, Dec hike risk); MSFT/GOOGL AMC; GDP + PCE Thu 10/29.
+
+### Sector Momentum
+- 5-day leaders (10/27): Materials +2.41%, Health Care +1.49%, Tech +1.27%, Industrials +1.23%, Utilities +0.40%. YTD (stale): XLK, XLE, XLI lead.
+
+### Earnings Today
+- BMO: Cencora (beat, raised guide), Stepan. AMC: STRL, MSFT, GOOGL. None held. Thin data.
+
+### Holdings News
+- XOM $180.69 pre-mkt (10/27 close $179.91, -2.5%), HWM $184.88, stop $166.392. No breaking news. Q3 earnings Fri 10/30 BMO (sell-the-news risk).
+
+### Trade Ideas
+1. NVDA — pullback $215-222 / breakout >$237, 10% trail stop, target ~$243 (<2:1 R:R). Regime check: FAIL; no catalyst pre-FOMC.
+2. GEV — post-earnings watchlist, no technicals. Regime check: FAIL.
+3. CAT — earnings 10/29, avoid pre-print. Regime check: FAIL.
+
+### Risk Factors
+- FOMC 2pm today, 10Y ~5%, oil ~$100, Dec hike risk.
+- XOM +10.6%, 4.4 pts from +15% tighten trigger; earnings Fri.
+- MSFT/GOOGL AMC, AMZN Thu AMC = gap risk.
+- TRADE-LOG gap 9/27–10/24 still unreconciled.
+
+### Decision
+HOLD. No confirmed catalyst/setup with 2:1 R:R; wait for post-FOMC clarity. Patience > activity.
