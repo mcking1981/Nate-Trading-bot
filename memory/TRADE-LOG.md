@@ -1652,3 +1652,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades — market-open check found no confirmed setup (NVDA R:R <2:1, GEV unclear, CAT skip pre-earnings). XOM gave back 2.3% (oil softer), +10.61% unrealized, now 4.4 pts shy of +15% tighten trigger; stop live, cushion ~7.7%, no -7% cut issue. Deployment 16.4% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Day P&L vs logged 10/26 equity $49,533.68 (Alpaca last_equity $49,529.18). Phase P&L uses $50,000 start. Tomorrow: FOMC decision 2pm ET; CAT earnings Thu 10/29; XOM earnings Fri 10/30 BMO. Patience > activity.
 
 ---
+
+### Oct 28 — EOD Snapshot (Day 153, Wednesday)
+
+**Portfolio:** $49,415.78 | **Cash:** $41,224.88 (83.4%) | **Day P&L:** +$77.75 (+0.16%) | **Phase P&L:** -$584.22 (-1.17%)
+**Regime:** CHOP (SPY ~-0.5% vs 50DMA, VIX ~17.5 — per Oct 28 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $182.02 | +1.17% | +$855.90 (+11.67%) | $166.392 (10% trailing GTC, HWM $184.88) |
+**Notes:** No trades. XOM +1.17%, +11.67% unrealized, 3.3 pts shy of +15% tighten trigger; stop live, unchanged. Deployment 16.6% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Day P&L vs logged 10/27 equity $49,338.03 (Alpaca last_equity $49,320.83). Phase P&L uses $50,000 start. Tomorrow: CAT earnings + GDP/PCE Thu 10/29; XOM earnings Fri 10/30 BMO. Patience > activity.
+
+---
