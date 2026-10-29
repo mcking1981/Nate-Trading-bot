@@ -4217,3 +4217,38 @@ HOLD. No confirmed catalyst/setup with 2:1 R:R; wait for post-FOMC clarity. Pati
 
 ### Market-Open Check — 09:51 ET
 NO CONFIRMED SETUP — NVDA $217.60 in $215-222 pullback band but R:R <2:1 (target ~$243) and no catalyst pre-FOMC; GEV ~$838-888 (wide/stale quote) no technical trigger, post-earnings unclear; CAT $713 earnings 10/29, skip pre-print. XOM held $180.75 (+10.9%), stop live. 0 trades; 1/4 slots, 0/2 weekly.
+
+## 2026-10-29 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~+0.4% (SPY ~$770.7 vs 50DMA $767.63) | VIX: ~17.1
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,510.73 | Cash: $41,224.88 | Buying power: $188,099.90 | Daytrade count: n/a (not returned)
+- Deployment ~16.7% vs 60% CHOP target; 1/4 slots used; 0 trades this week.
+
+### Macro (direct Tavily queries; sub-agents skipped)
+- Oil: WTI ~$101.4 (-1.4%), Brent ~$114 (-1.1%). ES futures ~7,763 (-0.26%). 10Y ~4.99%. VIX ~17.1. DXY n/a.
+- Events: GDP + PCE today; FOMC held yesterday (no surprise logged).
+
+### Sector Momentum
+- No fresh 5-day sector data returned (thin). Prior: Materials, Health Care, Tech, Industrials led 10/27.
+
+### Earnings Today
+- BMO: CAT (EPS est ~$7.06-7.12, rev ~$20.8B, implied move ±7%). AMZN AMC. XOM Fri 10/30 BMO.
+
+### Holdings News
+- XOM $184.13 pre-mkt (+1.2%), +13.0% unrealized, HWM $184.88, stop $166.392. No breaking news. Earnings Fri (sell-the-news risk); 2 pts from +15% tighten trigger.
+
+### Trade Ideas
+1. NVDA — pullback $215-222 / breakout >$237, target ~$243 (<2:1 R:R). Regime check: FAIL; no catalyst.
+2. GEV — post-earnings watchlist, no technicals. Regime check: FAIL.
+3. CAT — earnings BMO today; wait for post-print reaction. Regime check: FAIL pre-print.
+
+### Risk Factors
+- CAT print ±7%, GDP/PCE data, AMZN AMC gap risk, 10Y ~5%, oil ~$100.
+- XOM earnings Fri; oil softening this morning.
+- TRADE-LOG gap 9/27–10/24 still unreconciled.
+
+### Decision
+HOLD. No confirmed catalyst/setup with 2:1 R:R. Patience > activity.
