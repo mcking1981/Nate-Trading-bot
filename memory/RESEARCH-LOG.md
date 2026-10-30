@@ -4255,3 +4255,37 @@ HOLD. No confirmed catalyst/setup with 2:1 R:R. Patience > activity.
 
 ### Market-Open Check — 09:50 ET
 NO CONFIRMED SETUP — NVDA $213.2 below $215-222 pullback band, no catalyst, R:R <2:1; GEV ~$860-888 (wide quote) no technical trigger; CAT ~$655 (-8% post-print, falling knife, no trigger) skip. XOM held $182.6 (+12.0%), stop live. 0 trades; 1/4 slots, 0/2 weekly.
+
+## 2026-10-30 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-0.6% (SPY pre ~$762.8 vs 50DMA ~$767.6, carried from 10/29) | VIX: ~18.2 (+6% pre)
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,634.48 | Cash: $41,224.88 | Buying power: $188,446.40 | Daytrade count: n/a (not returned)
+- Deployment ~16.9% vs 60% CHOP target; 1/4 slots used; 0 trades this week.
+
+### Macro (direct Tavily queries; sub-agents skipped)
+- Oil: WTI ~$102.7, Brent ~$114.9 (mixed quotes). ES Dec futures ~7,678-7,757 (-0.3% to -1.0%). 10Y/DXY n/a. VIX ~18.2.
+- Events: PCE/GDP digested 10/29; Fed vote-cut headlines. Alphabet -10% on search slowdown, MSFT up on cloud.
+
+### Sector Momentum
+- Last 5d: Health Care +2.4%, Utilities +1.5%, Financials +1.4%, Industrials +1.0%; Tech -1.2%. Energy strong YTD (XLE +56.6% 52wk).
+
+### Earnings Today
+- BMO: XOM (EPS est ~$4.01-4.12, rev ~$106B; refining margins +$4.5B tailwind pre-flagged), FCX beat ~3.5%, CVLT beat. PriceSmart EPS miss.
+
+### Holdings News
+- XOM $186.88 pre-mkt (+1.96%), +14.65% unrealized — 0.35 pts from +15% tighten-to-7% trigger. HWM 184.88 (Alpaca order), stop $166.392. Earnings today BMO; sell-the-news risk. Q2 was a miss (-6.4%).
+
+### Trade Ideas
+1. NVDA — pullback $215-222, target ~$243 (<2:1 R:R); tech weak (-1.2% 5d). Regime check: FAIL.
+2. Health Care/Financials leaders — no specific catalyst-backed ticker identified. Regime check: FAIL.
+
+### Risk Factors
+- XOM earnings reaction; futures red, VIX rising, oil ~$100+, 10Y ~5%.
+- Tighten XOM stop to 7% trail if +15% confirmed (never within 3% of price).
+- TRADE-LOG gap 9/27–10/24 still unreconciled.
+
+### Decision
+HOLD. No confirmed catalyst/setup with 2:1 R:R. Patience > activity.
