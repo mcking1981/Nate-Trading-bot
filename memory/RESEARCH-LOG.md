@@ -4289,3 +4289,6 @@ NO CONFIRMED SETUP — NVDA $213.2 below $215-222 pullback band, no catalyst, R:
 
 ### Decision
 HOLD. No confirmed catalyst/setup with 2:1 R:R. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+NO CONFIRMED SETUP — NVDA $206.4 below $215-222 pullback band (below trigger), no catalyst, R:R <2:1; GEV ~$821-876 (wide quote) no trigger; CAT ~$619-633 no trigger, skip. XOM held $186.73 (+14.56%, 0.44 pts shy of +15% tighten), stop live $169.137 (HWM 187.09). 0 trades; 1/4 slots, 0/2 weekly.
