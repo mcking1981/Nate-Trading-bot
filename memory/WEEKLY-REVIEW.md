@@ -731,3 +731,58 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Monitor NVDA's escalating "cloud/edge inference competition" narrative (RSI 78+ overbought) for any thesis-impacting follow-through, even though price action remains strong
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-10-30
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $49,469.33 (Fri 10/23 close, balance_asof 10/23) |
+| Ending portfolio | $49,661.03 (Fri 10/30 close, per TRADE-LOG EOD; Alpaca live equity at review $49,649.39) |
+| Week return | +$191.70 (+0.39%) |
+| S&P 500 week | +1.49% (SPX 7,623.68 Oct 23 close -> 7,737.30 Oct 28 close; Oct 29-30 closes unavailable from search sources at review time, last confirmed session used) |
+| Bot vs S&P | ~-1.10% |
+| Dominant regime | CHOP (5/5 days) |
+| Trades | 0 new (W:0 / L:0 / open:1 carried — XOM) |
+| Win rate | N/A (no closed trades) |
+| Best trade | XOM +15.01% unrealized |
+| Worst trade | N/A (single open position, no losers) |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week (CAT/JPM/NVDA exits occurred in the unlogged 9/28-10/23 gap — not reconstructed here) |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| XOM | $163.00 (45sh, 9/1) | $187.47 | +$1,101.15 (+15.01%) | $169.65 (10% trailing GTC, HWM $188.50) — tighten to 7% pending |
+
+### What Worked
+- XOM carried through 10/30 BMO earnings and crossed +15% (+$1,101 unrealized), the book's sole position and its entire edge this week; GTC stop live all week and trailed up
+- Held Chop sizing and skipped every candidate failing the regime/R:R check (NVDA <2:1, GEV pre-earnings/no technicals, CAT skipped around its 10/29 print) — no forced fills
+- Capital preserved through FOMC (10/28) and a heavy earnings week with only small daily swings (max drawdown ~-0.4%/day)
+- EOD snapshots logged daily Mon-Fri, restoring cadence after the multi-week gap
+
+### What Didn't Work
+- Underperformed S&P by ~1.1% again — deployment only ~17% vs 60% CHOP target, 3 of 4 slots open all week, missing most of the market's rally
+- 0 of 2 CHOP weekly new-buy slots used; every named candidate (NVDA, GEV, CAT, sector leaders) failed the regime check, with no specific catalyst-backed ticker for Health Care/Financials
+- XOM crossed +15% on 10/30 but the 7% trail was not yet applied (deferred to Mon) — rule says tighten at +15%
+- Major logging gap: no TRADE-LOG/RESEARCH-LOG entries 9/28-10/23; CAT, JPM, NVDA exits unrecorded, weekly reviews for 10/2-10/23 never produced
+
+### Key Lessons
+- Four weeks of undocumented activity means P&L attribution for the CAT/JPM/NVDA exits is lost — reconcile from Alpaca order history before drawing conclusions on them
+- With 83% cash, a single-position book makes results nearly all XOM; concentration in Energy (oil-shock tailwind) is the only thing offsetting idle capital
+- Watchlist names keep failing "regime check" — the conversion problem from June is back whenever the book is empty
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by ~1.10%, below the 2% trigger, and no valid prior review (last logged 9/25: -1.60%, below 2% too) — no consecutive streak. CHECK B: not applicable, no outperformance. CHECK C: no trades closed this week (0 losses), so no new sector-cooldown candidates; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Mon 10/31 (pre-market/open): tighten XOM trail 10% -> 7% (≈$175.3 at HWM $188.50, >3% from price); never move the stop down
+- Reconcile 9/28-10/23 trades (CAT, JPM, NVDA exits) from Alpaca order history into TRADE-LOG; backfill missing weekly reviews if useful
+- 3 slots open at 17% deployment: name 1-2 specific catalyst-backed tickers per leading sector with entry/stop/target and act on first confirmed trigger
+
+### Overall Grade: C
