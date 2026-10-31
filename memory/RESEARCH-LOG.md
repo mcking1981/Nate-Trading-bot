@@ -4292,3 +4292,17 @@ HOLD. No confirmed catalyst/setup with 2:1 R:R. Patience > activity.
 
 ### Market-Open Check — 09:47 ET
 NO CONFIRMED SETUP — NVDA $206.4 below $215-222 pullback band (below trigger), no catalyst, R:R <2:1; GEV ~$821-876 (wide quote) no trigger; CAT ~$619-633 no trigger, skip. XOM held $186.73 (+14.56%, 0.44 pts shy of +15% tighten), stop live $169.137 (HWM 187.09). 0 trades; 1/4 slots, 0/2 weekly.
+
+## 2026-10-31 — Pre-market Research (Saturday, market closed)
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-0.6% (carried from 10/30) | VIX: ~18.2 (carried)
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,651.13 | Cash: $41,224.88 | Buying power: $188,493.02 | Deployment ~17%
+
+### Holdings
+- XOM 45 sh, $187.25 close, +14.88% unrealized (Alpaca). GTC trail 10%, stop $169.65, HWM $188.50. Tighten-to-7% trigger (+15%) hit intraday 10/30 — apply Mon 11/2 (7% ≈ $175.3, >3% from price).
+
+### Decision
+HOLD. Weekend, no live research run. Mon 11/2: re-stamp regime, tighten XOM trail, look for redeploy setups. 0/2 weekly trades used.
