@@ -1685,3 +1685,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. XOM +2.28% post-earnings, crossed +15.01% unrealized — tighten-to-7% trigger hit but GTC trail still 10% (stop $169.65); tighten Mon 10/31 pre-market/open (7% trail ≈ $175.3 at HWM $188.50, >3% from price). Deployment 17.0% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Day P&L vs logged 10/29 equity $49,529.18 (Alpaca last_equity $49,472.93). Phase P&L uses $50,000 start. Tomorrow: Mon — regime stamp, tighten XOM trail, look for redeploy setups. Patience > activity.
 
 ---
+
+### Oct 31 — EOD Snapshot (Day 156, Saturday)
+
+**Portfolio:** $49,651.13 | **Cash:** $41,224.88 (83.0%) | **Day P&L:** -$9.90 (-0.02%) | **Phase P&L:** -$348.87 (-0.70%)
+**Regime:** CHOP (per Oct 30 pre-market; Oct 31 Saturday stamp)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $187.25 | 0.00% | +$1,091.25 (+14.88%) | $169.65 (10% trailing GTC, HWM $188.50) |
+**Notes:** Saturday, market closed, no trades. Equity reflects official Fri close (XOM $187.25 vs $187.47 logged Oct 30 snapshot), so XOM sits +14.88%, just under +15% tighten trigger; GTC trail still 10% (stop $169.65). Deployment 17.0% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Phase P&L uses $50,000 start. Tomorrow/Mon: regime stamp, re-check XOM +15% tighten to 7%, look for redeploy setups. Patience > activity.
+
+---
