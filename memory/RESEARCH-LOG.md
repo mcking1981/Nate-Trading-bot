@@ -4306,3 +4306,17 @@ NO CONFIRMED SETUP — NVDA $206.4 below $215-222 pullback band (below trigger),
 
 ### Decision
 HOLD. Weekend, no live research run. Mon 11/2: re-stamp regime, tighten XOM trail, look for redeploy setups. 0/2 weekly trades used.
+
+## 2026-11-01 — Pre-market Research (Sunday, market closed)
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-0.6% (carried from 10/30) | VIX: ~18.2 (carried)
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,651.13 | Cash: $41,224.88 | Buying power: $188,493.02 | Deployment ~17%
+
+### Holdings
+- XOM 45 sh, $187.25, +14.88% unrealized. GTC trail 10% live, stop $169.65, HWM $188.50. Tighten to 7% (~$175.3) when +15% confirmed Mon 11/2.
+
+### Decision
+HOLD. Weekend, no live research run. Mon 11/2: re-stamp regime, tighten XOM trail, look for redeploy setups. 0/2 weekly trades used.
