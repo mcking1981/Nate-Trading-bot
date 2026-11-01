@@ -44,3 +44,28 @@ Template for each entry:
 - No sector cooldowns active — Avoid Sectors block empty in TRADING-STRATEGY.md
 - Bot launched mid-May with one position (WDAY); only 6 trading days of history this review period — thin sample, next monthly will have a fuller picture
 - WDAY trailing stop tightened from 10% to 7% at some point (HWM $146.19 confirms +17% peak gain achieved), consistent with strategy rule to tighten at +15%
+
+---
+
+## Month ending 2026-11-01
+
+### Open Positions at Review Date
+| Ticker | Entry Date | Entry Price | Current Price | Unrealized P&L | Regime at Entry |
+|--------|------------|-------------|---------------|----------------|-----------------|
+| XOM | 2026-09-01 | $163.00 | $187.25 (Fri 10/30 close) | +$1,091.25 (+14.88%) | CHOP |
+
+### Position Verdicts
+| Ticker | Thesis Status | Sector Momentum | Verdict | Reasoning |
+|--------|---------------|-----------------|---------|-----------|
+| XOM | Intact | Bullish | KEEP | Breakout thesis ($161.68 trigger, $177 target) played out; new 52wk high $188.50 post-earnings, Barclays PT $200, UBS $199, no Sells. Energy "More Favored" (Schwab), oil firm on Middle East tension. Consensus PT ($167.70) well below price = valuation stretch; stop is 10% trail at $169.65, tighten to 7% at +15% (≈$175.3 at HWM $188.50). |
+
+### Actions Taken
+- None — all theses intact.
+- Tighten queued for next market-day midday/open: XOM trail 10%→7% once +15% confirmed (currently +14.88%).
+
+### Monthly Observations
+- Regime distribution this month: CHOP throughout (SPY ±0.6% vs 50DMA, VIX ~17-18)
+- Sector cooldowns active: none (Avoid Sectors block empty)
+- Book is only 17% deployed vs 60% CHOP target with 3 open slots; XOM is the sole position — under-deployed, patience has cost opportunity (NVDA/CAT/GEV all failed checks).
+- XOM entry (Sep 1) was originally logged late via reconciliation; process gap fixed since.
+- Phase P&L -0.70% vs $50,000 baseline.

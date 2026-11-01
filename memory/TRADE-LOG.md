@@ -1696,3 +1696,9 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Saturday, market closed, no trades. Equity reflects official Fri close (XOM $187.25 vs $187.47 logged Oct 30 snapshot), so XOM sits +14.88%, just under +15% tighten trigger; GTC trail still 10% (stop $169.65). Deployment 17.0% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Phase P&L uses $50,000 start. Tomorrow/Mon: regime stamp, re-check XOM +15% tighten to 7%, look for redeploy setups. Patience > activity.
 
 ---
+
+### Nov 1 — Monthly Deep-Dive Note
+**Verdict:** XOM KEEP (thesis intact, Energy bullish). No exits.
+**Queued for next midday run:** TIGHTEN XOM trail 10%→7% when +15% confirmed (now +14.88%, HWM $188.50 → ~$175.3 stop, >3% from price).
+
+---
