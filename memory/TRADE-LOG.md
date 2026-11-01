@@ -1702,3 +1702,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Queued for next midday run:** TIGHTEN XOM trail 10%→7% when +15% confirmed (now +14.88%, HWM $188.50 → ~$175.3 stop, >3% from price).
 
 ---
+
+### Nov 1 — EOD Snapshot (Day 157, Sunday)
+
+**Portfolio:** $49,651.13 | **Cash:** $41,224.88 (83.0%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$348.87 (-0.70%)
+**Regime:** CHOP (per Oct 30 pre-market; no new stamp)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $187.25 | 0.00% | +$1,091.25 (+14.88%) | $169.65 (10% trailing GTC, HWM $188.50) |
+**Notes:** Sunday, market closed, no trades. State unchanged vs Oct 31. XOM +14.88%, just under +15% tighten trigger; GTC trail still 10%. Deployment 17.0% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Phase P&L uses $50,000 start. Mon: regime stamp, tighten XOM to 7% if +15% confirmed, look for redeploy setups. Patience > activity.
+
+---
