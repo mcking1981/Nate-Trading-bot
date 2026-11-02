@@ -1713,3 +1713,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Sunday, market closed, no trades. State unchanged vs Oct 31. XOM +14.88%, just under +15% tighten trigger; GTC trail still 10%. Deployment 17.0% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. Phase P&L uses $50,000 start. Mon: regime stamp, tighten XOM to 7% if +15% confirmed, look for redeploy setups. Patience > activity.
 
 ---
+
+### Nov 2 — EOD Snapshot (Day 158, Monday)
+
+**Portfolio:** $49,360.43 | **Cash:** $41,224.88 (83.5%) | **Day P&L:** -$290.70 (-0.59%) | **Phase P&L:** -$639.57 (-1.28%)
+**Regime:** CHOP (SPY ~-0.8% vs 50DMA, VIX ~19.4 — per Nov 2 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $180.78 | -3.45% | +$800.10 (+10.91%) | $169.65 (10% trailing GTC, HWM $188.50) |
+**Notes:** No trades. XOM -3.45% on oil drop (Iran diplomacy hopes), fell back to +10.91% unrealized; tighten-to-7% trigger no longer in play. Stop live at $169.65, ~6.2% below price; unchanged. Deployment 16.5% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. NVDA setup unconfirmed. Day P&L vs logged 11/1 equity $49,651.13. Phase P&L uses $50,000 start. Tomorrow: JOLTS + AMD AMC; watch XOM vs $175 and oil headlines. Patience > activity.
+
+---
