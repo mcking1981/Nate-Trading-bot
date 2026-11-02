@@ -4320,3 +4320,37 @@ HOLD. Weekend, no live research run. Mon 11/2: re-stamp regime, tighten XOM trai
 
 ### Decision
 HOLD. Weekend, no live research run. Mon 11/2: re-stamp regime, tighten XOM trail, look for redeploy setups. 0/2 weekly trades used.
+
+## 2026-11-02 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-0.8% (SPY ~759.6 pre-mkt vs ~766 50DMA) | VIX: ~19.4 (10/30 close)
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,569.68 | Cash: $41,224.88 | Buying power: $188,264.96 | Daytrade count: 0 | Deployment ~17%
+
+### Macro
+- Oil: WTI ~$100.3, Brent ~$109.8 (down 3-7% on Iran diplomacy hopes; was Brent ~$115.7 10/30).
+- Futures up: ES +0.46%, NQ +0.75% (rebound after Oct tech selloff). VIX 19-20. DXY ~101.5. 10Y ~4.91%.
+- Events: no CPI/PPI/FOMC today. Tue JOLTS + AMD AMC; Wed QCOM; Fri 11/6 NFP; midterms this week; AAPL/PLTR/BRK AMC today.
+
+### Sector Momentum
+- Energy best sector in October; Tech/Industrials strong YTD but Tech sold off in Oct. CAT falling knife (~$623, -40% from peak, earnings 11/6) — avoid. Sector data noisy/stale.
+
+### Earnings Today
+- BMO calendar: ENB, MRNA, BAM, HUM, VST — no verified actuals pre-8:00 ET. Last session: CNI beat (EPS $1.54 vs $1.49), guide unchanged.
+
+### Holdings News
+- XOM ~$185.44 pre-mkt (-1%), +13.77% unrealized. Q3 beat (adj EPS $4.23, FCF $19.1B), ATH $188.50 Fri. Ex-div 11/16. Thesis intact. GTC trail 10%, stop $169.65, HWM $188.50. Below +15% — no tighten yet.
+
+### Trade Ideas
+1. NVDA — ~$213, reclaim $220+ or bounce $210-213, stop ~$200 (-6%); target ~$230-243 (<2:1 R:R at $230). Regime check: FAIL (conditional watch).
+2. XOM add — not warranted; already held, wait pullback ~$180. Regime check: FAIL.
+
+### Risk Factors
+- Oil/Iran headline swings hit XOM; 10Y ~4.9%; VIX ~19-20; NFP Fri, midterms, AAPL/PLTR AMC.
+- Tighten XOM trail to 7% when +15% confirmed (needs ~$187.45; never within 3% of price).
+- TRADE-LOG gap 9/27–10/24 unreconciled.
+
+### Decision
+HOLD. No catalyst-backed setup with 2:1 R:R. 0/2 weekly trades used. Patience > activity.
