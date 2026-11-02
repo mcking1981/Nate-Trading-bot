@@ -4354,3 +4354,6 @@ HOLD. Weekend, no live research run. Mon 11/2: re-stamp regime, tighten XOM trai
 
 ### Decision
 HOLD. No catalyst-backed setup with 2:1 R:R. 0/2 weekly trades used. Patience > activity.
+
+### Market-Open Check — 10:20 ET
+NO CONFIRMED SETUP — NVDA last quote ~$194 (stale 10/30 data) vs trigger $220 reclaim / $210-213 bounce zone: BELOW, unconfirmed; carry to watchlist. XOM $183.20 (+12.4%), held, add not warranted, below +15% so no tighten. 0/2 weekly trades used. Chop regime.
