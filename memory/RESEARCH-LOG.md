@@ -4390,3 +4390,6 @@ NO CONFIRMED SETUP — NVDA last quote ~$194 (stale 10/30 data) vs trigger $220 
 
 ### Decision
 HOLD. Bear regime, no catalyst setup with 2:1 R:R. 0/1 weekly trades used. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+NO CONFIRMED SETUP — NVDA quote stale (11/2 close, bid $202.43/ask $211.87) vs trigger $220 reclaim / $210-213 bounce: BELOW, unconfirmed; carry to watchlist. XOM $176.80 (+8.5%), held, stop $169.65 GTC intact. Bear regime (max 2 pos, 10%, 1 trade/wk); 0/1 weekly trades used. HOLD.
