@@ -1724,3 +1724,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. XOM -3.45% on oil drop (Iran diplomacy hopes), fell back to +10.91% unrealized; tighten-to-7% trigger no longer in play. Stop live at $169.65, ~6.2% below price; unchanged. Deployment 16.5% vs 60% CHOP target, 3 open slots, 0 of 2 weekly new trades used. NVDA setup unconfirmed. Day P&L vs logged 11/1 equity $49,651.13. Phase P&L uses $50,000 start. Tomorrow: JOLTS + AMD AMC; watch XOM vs $175 and oil headlines. Patience > activity.
 
 ---
+
+### Nov 3 — EOD Snapshot (Day 159, Tuesday)
+
+**Portfolio:** $49,240.73 | **Cash:** $41,224.88 (83.7%) | **Day P&L:** -$119.70 (-0.24%) | **Phase P&L:** -$759.27 (-1.52%)
+**Regime:** BEAR (SPY ~-2.1% vs 50DMA, VIX ~21.6 — per Nov 3 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| XOM | 45 | $163.00 | $178.13 | -0.86% | +$680.85 (+9.28%) | $169.65 (10% trailing GTC, HWM $188.50) |
+**Notes:** No trades. Regime flipped to BEAR (max 2 pos, 10%/pos, 1 new trade/wk). NVDA setup unconfirmed/failed regime check. XOM -0.86%, +9.28% unrealized; stop live at $169.65, ~4.8% below price, unchanged. Deployment 16.3%, 0 of 1 weekly new trades used. Day P&L vs logged 11/2 equity $49,360.43 (Alpaca last_equity $49,310.03). Phase P&L uses $50,000 start. Tomorrow: QCOM AMC Wed; watch XOM vs $170 stop and oil headlines. Patience > activity.
+
+---
