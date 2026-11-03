@@ -4357,3 +4357,36 @@ HOLD. No catalyst-backed setup with 2:1 R:R. 0/2 weekly trades used. Patience > 
 
 ### Market-Open Check — 10:20 ET
 NO CONFIRMED SETUP — NVDA last quote ~$194 (stale 10/30 data) vs trigger $220 reclaim / $210-213 bounce zone: BELOW, unconfirmed; carry to watchlist. XOM $183.20 (+12.4%), held, add not warranted, below +15% so no tighten. 0/2 weekly trades used. Chop regime.
+
+## 2026-11-03 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-2.1% (SPY ~751.3 pre-mkt vs ~767.5 50DMA) | VIX: ~21.6
+*(Regime limits: max 2 positions, max 10%/position, max 1 new trade/week)*
+
+### Account Snapshot
+- Equity: $49,378.88 | Cash: $41,224.88 | Buying power: $187,730.72 | Daytrade count: 0 | Deployment ~16.5%
+
+### Macro
+- Oil: WTI ~$98-103, Brent ~$111-113 (sources conflict; elevated, volatile on Iran headlines).
+- Futures slightly red (ES -0.14%); VIX 19-21.6 (rising, +23% in 5d). DXY ~101.8. Data noisy/stale.
+- Events: JOLTS 10:00 ET (est 7.08M); AMD BMO/AMC per sources, Eaton, Block, Duolingo; Wed QCOM; Fri NFP; midterms.
+
+### Sector Momentum
+- Energy best in Oct; Tech/Industrials strong YTD but Tech weak recently. Sector data conflicting.
+
+### Earnings Today
+- AMD, ETN, XYZ, DUOL listed; no verified results pre-open. PLTR reported 11/2 AMC — results unverified.
+
+### Holdings News
+- XOM ~$181.2 pre-mkt, +11.2% unrealized. No new negative news; Q3 beat intact. GTC trail 10%, stop $169.65 (~6.4% below), HWM $188.50. Below +15% — no tighten.
+
+### Trade Ideas
+1. NVDA — conditional watch only; no confirmed trigger. Regime check: FAIL (Bear).
+2. No other catalyst-backed setups.
+
+### Risk Factors
+- Regime flipped to BEAR (SPY < -2% vs 50DMA): 1 position held, new trades capped 1/week, 10%/position.
+- Oil/Iran swings hit XOM; VIX rising; NFP Fri; midterms.
+
+### Decision
+HOLD. Bear regime, no catalyst setup with 2:1 R:R. 0/1 weekly trades used. Patience > activity.
