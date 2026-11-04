@@ -4393,3 +4393,36 @@ HOLD. Bear regime, no catalyst setup with 2:1 R:R. 0/1 weekly trades used. Patie
 
 ### Market-Open Check — 09:47 ET
 NO CONFIRMED SETUP — NVDA quote stale (11/2 close, bid $202.43/ask $211.87) vs trigger $220 reclaim / $210-213 bounce: BELOW, unconfirmed; carry to watchlist. XOM $176.80 (+8.5%), held, stop $169.65 GTC intact. Bear regime (max 2 pos, 10%, 1 trade/wk); 0/1 weekly trades used. HOLD.
+
+## 2026-11-04 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-1.1% (SPY ~759 pre-mkt vs ~767.5 50DMA carried from 11/3; Tavily 50DMA unreliable) | VIX: ~18.8
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $49,119.23 | Cash: $41,224.88 | Buying power: $187,003.70 | Daytrade count: n/a | Deployment ~16%
+
+### Macro
+- ES ~7,524 (-0.96%, fair value -72); SPY pre-mkt ~759 (sources conflict). VIX ~18.8 (down from 20.8).
+- WTI ~$95, Brent ~$104-110 (sources conflict). 10Y ~4.90%. Data noisy.
+- Events: QCOM AMC; Fri NFP; midterms.
+
+### Sector Momentum
+- Energy led Oct; Tech weak recently. No fresh sector data verified.
+
+### Earnings Today
+- AMD AMC 11/3: beat (EPS $2.09 vs $1.94, rev $13.38B), Q4 guide $16.5-17.5B above consensus. SMCI beat reported. HL miss.
+
+### Holdings News
+- XOM ~$175.43 pre-mkt (-1.1%), +7.6% unrealized. Oil lower. Ex-div 11/16. GTC trail 10%, stop $169.65 (~3.3% below), HWM $188.50. Thesis intact; watch $170.
+
+### Trade Ideas
+1. AMD — beat/raise catalyst, but futures -1%, gap-up chase; need pullback entry confirmation. Regime check: CONDITIONAL (no entry, unverified price).
+2. NVDA — conditional watch, no trigger. Regime check: FAIL.
+
+### Risk Factors
+- XOM within 3.3% of stop; oil falling on Iran headlines.
+- Futures -1%; NFP Fri; midterms; 10Y ~4.9%.
+
+### Decision
+HOLD. 0/2 weekly trades used. Patience > activity.
