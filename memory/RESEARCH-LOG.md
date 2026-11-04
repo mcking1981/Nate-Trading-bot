@@ -4426,3 +4426,6 @@ NO CONFIRMED SETUP — NVDA quote stale (11/2 close, bid $202.43/ask $211.87) vs
 
 ### Decision
 HOLD. 0/2 weekly trades used. Patience > activity.
+
+### Market-Open Check — 09:47 ET
+NO CONFIRMED SETUP — run fired pre-bell (~08:46 ET), quotes stale/pre-mkt. AMD ~$482-483 pre-mkt, no named trigger (gap-up chase, needs pullback confirmation): not in zone, carry to watchlist. NVDA last $197.07 (11/3 close), no trigger: unconfirmed. XOM $175.50 (+7.7%), held, stop $169.65 GTC intact (~3.3% below). Chop regime (max 4 pos, 15%, 2 trades/wk); 0/2 weekly trades used. HOLD.
