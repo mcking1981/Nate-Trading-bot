@@ -1746,3 +1746,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** XOM stopped out — 10% trailing GTC (HWM $188.50) filled 45sh @ $169.62 at ~12:37 ET (16:37Z). Realized +$297.90 (+4.06% on $163.00 entry), down from +14.9% peak. Account now flat, 100% cash, no open orders/positions. No new buys; 0 of 2 weekly new trades used. Day P&L vs logged 11/3 equity $49,240.73 (Alpaca last_equity $49,210.58). Phase P&L uses $50,000 start. Energy exposure gone; oil weak on Iran diplomacy hopes. Tomorrow: QCOM reaction, NFP Fri; look for regime-aligned setups, no chasing. Patience > activity.
 
 ---
+
+### Nov 5 — EOD Snapshot (Day 161, Thursday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** -$0.17 (-0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** CHOP (SPY ~0.0% vs 50DMA, VIX ~17.0 — per Nov 5 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades. Account flat, 100% cash, no open orders/positions. No confirmed setup at market open (QCOM/AMD post-earnings reactions unverified). 0 of 2 weekly new trades used. Day P&L vs logged 11/4 equity $48,857.78. Phase P&L uses $50,000 start. Tomorrow: NFP Fri; look for regime-aligned setups, no chasing. Patience > activity.
+
+---
