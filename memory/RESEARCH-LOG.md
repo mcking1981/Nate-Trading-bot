@@ -4429,3 +4429,37 @@ HOLD. 0/2 weekly trades used. Patience > activity.
 
 ### Market-Open Check — 09:47 ET
 NO CONFIRMED SETUP — run fired pre-bell (~08:46 ET), quotes stale/pre-mkt. AMD ~$482-483 pre-mkt, no named trigger (gap-up chase, needs pullback confirmation): not in zone, carry to watchlist. NVDA last $197.07 (11/3 close), no trigger: unconfirmed. XOM $175.50 (+7.7%), held, stop $169.65 GTC intact (~3.3% below). Chop regime (max 4 pos, 15%, 2 trades/wk); 0/2 weekly trades used. HOLD.
+
+## 2026-11-05 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~0.0% (SPY ~766.8 pre-mkt vs 767.04 50DMA) | VIX: ~17.0
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Deployment 0% (flat)
+
+### Macro
+- SPY closed 766.81 (+1.65%) on 11/4; ES Dec ~7,677 (+80 pts). VIX ~17 (down from ~20.8).
+- Oil: WTI/Brent conflicting (~$90-104); 10Y data unreliable.
+- Events: Jobless claims 197K (est 194K); Fri NFP.
+
+### Sector Momentum
+- Industrials best last session (+2.4%); Comm Services weakest (-1.1%). No verified 5-day/YTD sector data.
+
+### Earnings Today
+- BMO small caps only (Neuronetics, Limbach beat; Angi miss). QCOM reported AMC 11/4 (est EPS $2.02, ±10% implied) — result unverified.
+
+### Holdings News
+- No open positions (XOM stopped out 11/4 @ $169.62).
+
+### Trade Ideas
+1. None catalyst-backed/verified. Industrials leader (no named ticker with verified setup). Regime check: n/a
+2. QCOM — post-earnings reaction unverified; no entry. Regime check: CONDITIONAL
+3. AMD — post-beat gap, needs pullback confirmation. Regime check: CONDITIONAL
+
+### Risk Factors
+- 100% cash vs 60% CHOP target; after +1.65% rally, chase risk.
+- NFP Fri; midterms; oil/Iran headline swings; noisy data.
+
+### Decision
+HOLD. 0/2 weekly trades used. Patience > activity.
