@@ -4463,3 +4463,6 @@ NO CONFIRMED SETUP — run fired pre-bell (~08:46 ET), quotes stale/pre-mkt. AMD
 
 ### Decision
 HOLD. 0/2 weekly trades used. Patience > activity.
+
+### Market-Open Check — 08:46 ET
+NO CONFIRMED SETUP — run fired pre-bell, quotes stale (11/4 close, wide spreads). QCOM and AMD: no named trigger, post-earnings reaction unverified; unconfirmed, carry to watchlist. Account flat, $48,857.61 cash. Chop regime (max 4 pos, 15%, 2 trades/wk); 0/2 weekly trades used. HOLD.
