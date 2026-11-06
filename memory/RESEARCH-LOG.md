@@ -4466,3 +4466,35 @@ HOLD. 0/2 weekly trades used. Patience > activity.
 
 ### Market-Open Check — 08:46 ET
 NO CONFIRMED SETUP — run fired pre-bell, quotes stale (11/4 close, wide spreads). QCOM and AMD: no named trigger, post-earnings reaction unverified; unconfirmed, carry to watchlist. Account flat, $48,857.61 cash. Chop regime (max 4 pos, 15%, 2 trades/wk); 0/2 weekly trades used. HOLD.
+
+## 2026-11-06 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-1.6% (last verified 11/3: 754.41 vs 767.04; pre-mkt quote unreliable) | VIX: ~17-19 (unverified today)
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Deployment 0% (flat)
+
+### Macro
+- ES futures ~-0.7% pre-mkt; Middle East caution, semis weak premarket.
+- NFP (Oct) 8:30 ET today; Sep was +29K, unemployment 4.2%. Futures flat post-release.
+- WTI ~$90 (sources $89.6-91.6). DXY/10Y not verified.
+
+### Sector Momentum
+- No verified sector data (5-day source returned microcap noise). Industrials led 11/4; semis weak today.
+
+### Earnings Today
+- BMO: COP, VST, HUM, MRNA, PPL, PAA, ENB, TM, BEN, UI. Results unverified.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. None catalyst-backed/verified. COP/VST post-earnings reactions unverified. Regime check: CONDITIONAL
+2. AMD/QCOM — carry on watchlist, need pullback confirmation. Regime check: CONDITIONAL
+
+### Risk Factors
+- 100% cash vs 60% CHOP target; NFP volatility, futures -0.7%, Middle East headlines.
+
+### Decision
+HOLD. 0/2 weekly trades used. Patience > activity.
