@@ -786,3 +786,58 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - 3 slots open at 17% deployment: name 1-2 specific catalyst-backed tickers per leading sector with entry/stop/target and act on first confirmed trigger
 
 ### Overall Grade: C
+
+---
+
+## Week ending 2026-11-06
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $49,661.03 (Fri 10/30 close) |
+| Ending portfolio | $48,857.61 (Fri 11/6, Alpaca equity; balance_asof 11/5) |
+| Week return | -$803.42 (-1.62%) |
+| S&P 500 week | -2.38% (SPX 7,580.1 Oct 30 close -> 7,399.64 Nov 6 ~20:34 UTC, per Yahoo; official close may differ) |
+| Bot vs S&P | +0.76% |
+| Dominant regime | CHOP (4/5 days — Mon 11/2, Wed-Fri CHOP; Tue 11/3 BEAR, SPY -2.1% vs 50DMA) |
+| Trades | 0 new, 1 closed (W:1 / L:0 / open:0) |
+| Win rate | 100% (1 of 1 closed) |
+| Best trade | XOM +4.06% (auto trailing-stop exit) |
+| Worst trade | N/A (no closed losers) |
+| Profit factor | N/A (no losing trades — $297.90 gross profit, $0 gross loss) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| XOM | $163.00 (45sh, 9/1) | $169.62 (45sh, 11/4 ~12:37 ET GTC trail fill) | +$297.90 (+4.06%) | 10% trailing GTC (HWM $188.50) fired after oil sold off on Iran diplomacy hopes; gave back ~11 pts from +14.9% peak. +15% tighten-to-7% never confirmed (peaked +15.01% intraday 10/30, closed +14.88%) so trail stayed 10% |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| — | — | — | — | Flat book — 100% cash, no positions, no open orders |
+
+### What Worked
+- XOM trailing GTC stop fired mechanically and banked +$297.90 realized, avoiding a deeper round-trip as oil kept sliding
+- Outperformed S&P by +0.76% in a -2.38% week (Comm Services -8.5%, tech/semis weak) purely via capital preservation after the XOM exit
+- Regime stamping held: BEAR flip on 11/3 correctly cut caps to 2 pos / 10% / 1 trade, reverted to CHOP 11/4 without loosening anything mid-day
+- No forced fills on stale pre-bell quotes (AMD/QCOM post-earnings gaps) — no chasing
+
+### What Didn't Work
+- XOM gave back ~11 pts from peak: +15% tighten missed by 0.12 pts (closed 10/30 at +14.88%) and the 10% trail then absorbed an oil -3.45% day on 11/2
+- 0 of 2 CHOP weekly buy slots used; book 100% cash from 11/4, 4 of 4 slots open
+- Every pre-market/market-open run fired pre-bell with stale/wide quotes (11/4-11/6), so no candidate was ever verified live — AMD/QCOM/COP/VST "reactions unverified" 3 days running
+- Phase P&L now -2.29% vs $50,000 baseline; deployment 0% vs 60% CHOP target
+
+### Key Lessons
+- Routine timing is now the bottleneck: runs firing before the bell with stale quotes cannot confirm triggers, reproducing the June "setup identified, never converted" pattern by a different cause
+- A trail that is a hair short of the tighten threshold gives no protection upgrade — worth considering whether tighten should trigger on intraday HWM gain (+15.01% on 10/30) rather than close
+- Flat in a -2.4% week is a good outcome, but a -7% rolling-month S&P (-5.36% 1M) with VIX ~17-21 means opportunity and risk both rising; need verified-quote workflow to act
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week outperformed S&P (+0.76%), so consecutive-underperformance does not apply. CHECK B: outperformance (+0.76%) is below the >2% threshold, so no trigger. CHECK C: one Energy trade closed (XOM, win) — no losing trades, no sector cooldown; Avoid Sectors block remains empty with no expired entries to remove.
+
+### Adjustments for Next Week
+- Verify run timing so market-open/midday checks pull live (post-09:45 ET) quotes before declaring "no confirmed setup"
+- 4 of 4 slots open, 0% deployed: pick 1-2 catalyst-backed tickers (AMD/QCOM pullback, COP/VST post-earnings) with entry/stop/target and act on first live trigger; honor CHOP caps (15%/pos, 2 trades)
+- Watch for regime flip back to BEAR (SPY ~-1.6% vs 50DMA, VIX 21 intraday Fri) — if BEAR, cap 10%/pos, 1 trade
+
+### Overall Grade: C+
