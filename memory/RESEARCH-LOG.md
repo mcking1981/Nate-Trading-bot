@@ -4501,3 +4501,35 @@ HOLD. 0/2 weekly trades used. Patience > activity.
 
 ### Market-Open Check — 08:46 ET
 NO CONFIRMED SETUP — run fired pre-bell, quotes stale (11/5 close, wide/zero asks). AMD (last bid $386.85) and QCOM (~$149-165 spread): no named trigger, reactions unverified; unconfirmed, carry to watchlist. Account flat, $48,857.61 cash. Chop regime (max 4 pos, 15%, 2 trades/wk); 0/2 weekly trades used. HOLD.
+
+## 2026-11-07 — Pre-market Research (Saturday — market closed)
+
+**REGIME: BEAR** (conservative; unverified) | SPY vs 50DMA: likely < -2% (S&P -2.7% wk, -4.4% worst day since Apr 2025 this week; last verified 11/3 -2.1%) | VIX: ~17-21 (unverified)
+*(Regime limits: max 2 positions, max 10%/position, max 1 new trade/week)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- Fri 11/6 close: S&P +0.3% (wk -2.7%), Nasdaq +1.1% (wk -3.4%), Dow -0.5% (wk -0.9%). Rebound tech-only; ex-tech ETF flat.
+- Oct NFP +165K vs 59K exp; unemployment 4.1%.
+- Midterms: anti-AI wins fed AI-boom durability fears (Nasdaq 100 -6.3% on worst day).
+- Next week: Oct CPI. Oil/DXY/10Y unverified (weekend).
+
+### Sector Momentum
+- Tech/AI rebounding off rout; breadth weak. No verified leaders.
+
+### Earnings Today
+- None (Saturday).
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. None verified. AMD/QCOM remain watchlist only; need live-quote pullback confirmation post-09:45 ET Mon. Regime check: CONDITIONAL (BEAR caps)
+
+### Risk Factors
+- Dead-cat-bounce risk; CPI next week; AI-policy headlines. 100% cash vs 30% BEAR target.
+
+### Decision
+HOLD. 0/1 weekly trades (BEAR). Patience > activity.
