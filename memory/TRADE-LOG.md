@@ -1779,3 +1779,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Saturday, market closed, no trades. Account flat, 100% cash, no open orders/positions. 0 of 2 weekly new trades used. Day P&L vs logged 11/6 equity $48,857.61. Phase P&L uses $50,000 start. Next: Mon regime stamp; look for regime-aligned setups, no chasing. Patience > activity.
 
 ---
+
+### Nov 8 — EOD Snapshot (Day 164, Sunday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** CHOP (SPY ~-1.6% vs 50DMA, VIX ~17-19 — per Nov 6 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** Sunday, market closed, no trades. Account flat, 100% cash, no open orders/positions. 0 of 2 weekly new trades used. Day P&L vs logged 11/7 equity $48,857.61. Phase P&L uses $50,000 start. Next: Mon regime stamp; look for regime-aligned setups, no chasing. Patience > activity.
+
+---
