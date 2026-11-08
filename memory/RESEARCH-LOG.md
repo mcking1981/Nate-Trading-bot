@@ -4533,3 +4533,32 @@ NO CONFIRMED SETUP — run fired pre-bell, quotes stale (11/5 close, wide/zero a
 
 ### Decision
 HOLD. 0/1 weekly trades (BEAR). Patience > activity.
+
+## 2026-11-08 — Pre-market Research (Sunday — market closed)
+
+**REGIME: BEAR** | SPY vs 50DMA: -4.1% (SPY $735.29 11/6 vs 50DMA $767.10) | VIX: ~19 (11/4 close 19.07; Fri ~17-21)
+*(Regime limits: max 2 positions, max 10%/position, max 1 new trade/week)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- Weekend, no new data. Carry-over from 11/7: S&P wk -2.7%, tech-only rebound, CPI due next week, AI-policy/midterm headlines. Oil/DXY/10Y unverified.
+
+### Sector Momentum
+- No verified leaders. Not re-scouted on weekend (stale quotes).
+
+### Earnings Today
+- None (Sunday).
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. None verified. AMD/QCOM watchlist only; need live-quote confirmation post-09:45 ET Mon. Regime check: CONDITIONAL (BEAR caps: 10%/pos, 1 trade)
+
+### Risk Factors
+- SPY -4.1% below 50DMA; CPI next week; dead-cat-bounce risk. 100% cash vs 30% BEAR target.
+
+### Decision
+HOLD. 0/1 weekly trades (BEAR). Patience > activity.
