@@ -4599,3 +4599,6 @@ HOLD. 0/1 weekly trades (BEAR). Patience > activity.
 
 ### Decision
 HOLD. Wait for CPI and live-quote confirmation. 0/1 weekly trades. Patience > activity.
+
+### Market-Open Check — 08:47 ET
+NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/6 close). XOM bid $155.33 vs pullback zone $155-158 (unconfirmed, no live print); LLY bid $1,303.76/ask $1,445.83 (junk spread, below $1,330-1,350 zone); CVX watchlist only. BEAR regime, 0/1 trades, CPI tomorrow. HOLD.
