@@ -4562,3 +4562,40 @@ HOLD. 0/1 weekly trades (BEAR). Patience > activity.
 
 ### Decision
 HOLD. 0/1 weekly trades (BEAR). Patience > activity.
+
+## 2026-11-09 — Pre-market Research
+
+**REGIME: BEAR** (conservative call) | SPY vs 50DMA: conflicting (Tavily SPY ~$769.7 vs 50DMA $767.10 = +0.3%; prior stamp -4.1%; ES ~7,410 ≈ SPY ~741) | VIX: ~24.5 (prior close 25.64, >25)
+*(Regime limits: max 2 positions, max 10%/position, max 1 new trade/week. Data conflict + VIX straddling 25 → default to tighter caps.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- Oil (11/6 close): WTI ~$90, Brent ~$98. ES futures ~7,410, +0.2-0.3%. VIX 24.5 (-4.4%). DXY ~101.5-102.3. 10Y ~4.86%.
+- Today: no major releases. CPI Tue 11/10 8:30 ET; PPI Fri 11/13; NVDA + retail sales 11/17; FOMC minutes 11/18.
+- Quotes stale/delayed; no verified premarket prints.
+
+### Sector Momentum
+- YTD: XLE +41.6%, XLV +28.6%, XLB +23.3%, XLP +20.7%, XLK +14.9%; laggards XLU, XLC. No reliable 5-day data.
+- Strongest: Energy, Health Care.
+- XOM $165.30 (11/5): pullback $154-158, stop ~$150; breakout >$168.6.
+- CVX ~$212.6 (11/6, conflicting quotes): pullback $206-210, stop ~$200; breakout >$219-222.
+- LLY $1,354 (11/6): pullback $1,330-1,350; breakout close >$1,418.
+
+### Earnings Today
+- Pre-open: KKR, Barrick, Ferguson, NRG, CNH, RB Global, Somnigroup, Kaspi; CEG expected. No actuals found. CSCO/AMAT later in week.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. XOM — Energy momentum, pullback entry ~$155-158, stop ~$150 (-5 to -7%), target ~$172 (2:1), regime check: CONDITIONAL (BEAR: ≤10%/pos ≈ $4.9k, 1 trade; needs live quote post-09:45 ET)
+2. LLY — HC momentum, entry $1,330-1,350, stop ~7% below, target breakout >$1,418+, regime check: CONDITIONAL (10% cap)
+3. CVX — watchlist only (conflicting quotes)
+
+### Risk Factors
+- CPI tomorrow (pre-CPI entries risky); VIX ~25; AI-policy headlines; stale data/regime ambiguity. 100% cash vs 30% BEAR target.
+
+### Decision
+HOLD. Wait for CPI and live-quote confirmation. 0/1 weekly trades. Patience > activity.
