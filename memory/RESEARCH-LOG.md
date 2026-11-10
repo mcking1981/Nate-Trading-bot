@@ -4636,3 +4636,6 @@ NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/6 close). XOM 
 
 ### Decision
 HOLD pending CPI + live-quote confirmation. 0/2 weekly trades. Patience > activity.
+
+### Market-Open Check — 08:47 ET
+NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/9 close, junk spreads). XOM bid $155.00/ask $171.91 vs pullback zone $155-158 (unconfirmed, no live print); LLY bid $1,321.14/ask 0 vs $1,330-1,350 (below zone, unconfirmed); CVX bid $200.29/ask $223.65 vs $206-210 (unconfirmed). CHOP, 0/2 trades, CPI 8:30 ET. HOLD.
