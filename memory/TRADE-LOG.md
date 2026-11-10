@@ -1801,3 +1801,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. Account flat, 100% cash, no open orders/positions. XOM/LLY pullback entries not reached/confirmed; pre-CPI caution. 0 of 1 weekly new trades used. Day P&L vs logged 11/8 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: CPI 8:30 ET; look for regime-aligned setups post-print, no chasing. Patience > activity.
 
 ---
+
+### Nov 10 — EOD Snapshot (Day 166, Tuesday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** CHOP (SPY ~+0.3% vs 50DMA, VIX ~19.9 — per Nov 10 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades. Account flat, 100% cash, no open orders/positions. XOM/LLY/CVX pullback entries unconfirmed (stale quotes, junk spreads at open check); CPI day caution. 0 of 2 weekly new trades used. Day P&L vs logged 11/9 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: look for regime-aligned setups (XOM/LLY/CVX zones) with live-quote confirmation, PPI Fri, no chasing. Patience > activity.
+
+---
