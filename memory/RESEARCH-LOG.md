@@ -4602,3 +4602,37 @@ HOLD. Wait for CPI and live-quote confirmation. 0/1 weekly trades. Patience > ac
 
 ### Market-Open Check — 08:47 ET
 NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/6 close). XOM bid $155.33 vs pullback zone $155-158 (unconfirmed, no live print); LLY bid $1,303.76/ask $1,445.83 (junk spread, below $1,330-1,350 zone); CVX watchlist only. BEAR regime, 0/1 trades, CPI tomorrow. HOLD.
+
+## 2026-11-10 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~+0.3% (SPY ~$769.7 vs 50DMA $767.1; sources conflict, other 50DMA reads $752.7-766.4 — all within ±2%) | VIX: ~19.9 (prev close 19.92; 11/5 spike to ~27.8 faded)
+*(Regime limits: max 4 positions, max 15%/position, max 2 new trades/week. VIX <25 and SPY inside ±2% band → CHOP; 11/9 BEAR call was data-conflict caution.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- S&P 500 rebounded ~+2.35% on 11/9 (~7,550). ES futures ~+0.2-0.6% (quotes mixed).
+- Oil: WTI ~$90-93, Brent ~$97-100 (sources conflict). DXY ~101.2-101.7. 10Y ~4.9%. Gold ~$4,050-4,110.
+- Today: CPI 8:30 ET (prev 0.6% m/m; fcst 0.3%, core 0.2%), NFIB 6:00. PPI Fri; FOMC minutes 11/18.
+
+### Sector Momentum
+- YTD leaders (11/9): Energy, Health Care, Materials. Tech-led rebound. No verified 5-day data.
+- CVX ~$209 (range 208.7-213.2); XOM near $155-165 (stale). LLY stale ~$1,300-1,354.
+
+### Earnings Today
+- Pre-open: AST SpaceMobile (beat), Babcock & Wilcox (miss, 11/9 AH). No major large-cap catalysts found.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. XOM — Energy momentum, pullback entry ~$155-158, stop ~$150 (-5 to -7%), target ~$172 (2:1), regime check: CONDITIONAL (CHOP ≤15% ≈ $7.3k; live quote post-09:45 ET + post-CPI)
+2. LLY — HC momentum, entry $1,330-1,350, stop ~7% below, target >$1,418, regime check: CONDITIONAL
+3. CVX — watchlist, pullback $206-210, stop ~$200, regime check: CONDITIONAL
+
+### Risk Factors
+- CPI print 8:30 ET (prior 0.6%); 10Y ~4.9%; oil falling on diplomacy headlines hurts Energy; stale/conflicting quotes; 100% cash vs 60% CHOP target.
+
+### Decision
+HOLD pending CPI + live-quote confirmation. 0/2 weekly trades. Patience > activity.
