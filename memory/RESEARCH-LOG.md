@@ -4639,3 +4639,49 @@ HOLD pending CPI + live-quote confirmation. 0/2 weekly trades. Patience > activi
 
 ### Market-Open Check — 08:47 ET
 NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/9 close, junk spreads). XOM bid $155.00/ask $171.91 vs pullback zone $155-158 (unconfirmed, no live print); LLY bid $1,321.14/ask 0 vs $1,330-1,350 (below zone, unconfirmed); CVX bid $200.29/ask $223.65 vs $206-210 (unconfirmed). CHOP, 0/2 trades, CPI 8:30 ET. HOLD.
+
+## 2026-11-11 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-1.3% (SPY pre ~$755.3 vs 50DMA $765.0; alt 50DMA $752.7 → +0.3% — both within ±2%) | VIX: ~18.8 (prev close 19.46)
+*(Regime limits: max 4 positions, max 15%/position (≈$7.3k), max 2 new trades/week. VIX 15-25 + SPY inside ±2% band → CHOP.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- CPI 11/10 HOT: headline +0.4% m/m (fcst 0.3%), core +0.3% (fcst ~0.2%). 10Y +12bp to ~4.98-4.99%. SPY closed $749.92 (-0.4%).
+- ES futures ~7,599, +0.7% pre. VIX 18.8 (-3.3%). DXY ~102.3-102.5.
+- Oil: WTI ~$86.4 (down from $90.8 on 11/6, -5.8% 1M), Brent ~$92.7. Other sources conflict ($95-104) — treat as stale.
+- Today: Veterans Day — bond market + Fed banks closed; NYSE/Nasdaq normal hours. Fed Bowman speaks; EIA STEO, WASDE. PPI Fri 11/13; NVDA + retail sales 11/17; FOMC minutes 11/18.
+
+### Sector Momentum
+- YTD: XLE ~+41%, XLV +21-29% (sources conflict), XLB +16-23%, XLP +18-21%, XLK ~+15%. Laggards: XLC, XLY, XLU.
+- 5-day breadth (% above 5DMA): Staples/Materials 85%, Energy 81%, Discretionary 77%; Tech weakest 27%.
+- Strongest: Energy, Health Care.
+- XOM $164.47 (11/10), broke below 50DMA 11/05; pullback $155-158, stop $150. MarketBeat $187 on 10/30 conflicts — verify.
+- CVX $211.22 (11/10), just above $206-210 zone, stop $200.
+- LLY $1,432.29 (11/10), above $1,418 breakout; 52w high $1,453; pre ~$1,416. Some sources $1,412 (stale?).
+- JNJ $280.78 (11/10), range $268.5-280; breakout >$280, stop <$268.
+
+### Earnings Today
+- Pre-open: CGI, InMode, Moog, PLDT, others — no verified results. Grupo Mexico beat (OTC, low relevance).
+- 11/10 AH: CRWV beat (rev $3.66B +168% y/y, FY guide raised to $13.0-13.3B, backlog $132.5B); AH move conflicting (+6% vs -2%).
+- Upcoming: CSCO Thu 11/12 AMC (EPS est $1.33, implied ±15%); CTVA tonight AMC.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. CVX — Energy momentum, pullback entry $206-210, stop $200 (~-4%), target ~$224 (2:1), regime check: CONDITIONAL (CHOP ≤15% ≈ $7.3k; live quote post-09:45 ET)
+2. LLY — HC momentum, breakout hold >$1,418, stop ~$1,330 (-6%), target ~$1,594 (2:1), regime check: CONDITIONAL (don't chase extended; needs hold above $1,418 on live quote)
+3. XOM — Energy, pullback $155-158, stop $150, target ~$172 (2:1), regime check: CONDITIONAL (below 50DMA; price conflict)
+4. JNJ — HC watchlist, breakout close >$280, stop $268 (-4%), target ~$304, regime check: CONDITIONAL
+
+### Risk Factors
+- Hot CPI + 10Y ~5% (bond mkt closed today, thin rates signal); PPI Fri.
+- Oil -5.8% 1M undermines Energy thesis despite YTD lead.
+- Tech breadth weak (27%); "sell the bounce" narrative.
+- Conflicting/stale quotes (XOM, LLY, VIX). 100% cash vs 60% CHOP target.
+
+### Decision
+HOLD pending live-quote confirmation post-09:45 ET. 0/2 weekly trades. Patience > activity.
