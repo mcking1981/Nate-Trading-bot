@@ -4685,3 +4685,6 @@ NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/9 close, junk 
 
 ### Decision
 HOLD pending live-quote confirmation post-09:45 ET. 0/2 weekly trades. Patience > activity.
+
+### Market-Open Check — 08:47 ET
+NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/10 close, junk IEX spreads). CVX bid $197.12/ask $219.45 (mid ~$208.3) vs $206-210 zone (unconfirmed, no live print); LLY bid $1,363.51/ask $1,508.56 (mid ~$1,436) vs >$1,418 hold (unconfirmed); XOM bid $153.71/ask $170.70 (mid ~$162.2) vs $155-158 (above zone, unconfirmed); JNJ bid $266.95/ask $298.10 (mid ~$282.5) vs >$280 close trigger (unconfirmed, needs close). CHOP, 0/2 trades, flat 100% cash. HOLD.
