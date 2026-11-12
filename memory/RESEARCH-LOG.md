@@ -4688,3 +4688,47 @@ HOLD pending live-quote confirmation post-09:45 ET. 0/2 weekly trades. Patience 
 
 ### Market-Open Check — 08:47 ET
 NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/10 close, junk IEX spreads). CVX bid $197.12/ask $219.45 (mid ~$208.3) vs $206-210 zone (unconfirmed, no live print); LLY bid $1,363.51/ask $1,508.56 (mid ~$1,436) vs >$1,418 hold (unconfirmed); XOM bid $153.71/ask $170.70 (mid ~$162.2) vs $155-158 (above zone, unconfirmed); JNJ bid $266.95/ask $298.10 (mid ~$282.5) vs >$280 close trigger (unconfirmed, needs close). CHOP, 0/2 trades, flat 100% cash. HOLD.
+
+## 2026-11-12 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-1.1% (SPY pre ~$756.5 vs 50DMA $765.0 Yahoo; alt 50DMA $767.1 → -1.4%, $752.7 → +0.5% — all within ±2%) | VIX: ~18.2 (prev close 17.49)
+*(Regime limits: max 4 positions, max 15%/position (≈$7.3k), max 2 new trades/week. VIX 15-25 + SPY inside ±2% band → CHOP.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- SPY closed $759.81 (+1.3%) 11/11; pre ~$756.5 (-0.4%). ES last seen ~7,616 (-0.3%, 11/11 eve); NQ ~-0.7% on NVDA headline.
+- VIX 18.22 (+4.2%). DXY ~101.4-102.5 (conflict). 10Y ~4.86-4.89% (undated).
+- Oil: WTI ~$85-87, Brent ~$90-93; WTI -10.7% over 5 days. $100+ quotes stale (Sept).
+- Today: jobless claims 8:30 (~185K est), existing home sales, EIA inventories. PPI Fri 11/13 8:30; retail sales + NVDA 11/17; FOMC minutes 11/18.
+
+### Sector Momentum
+- YTD (etfdb): XLK ~+33%, XLE ~+21%, XLI ~+20% (conflicts with 11/11 log: XLE +41%, XLV +21-29% — sources differ). HC best 6M +25.4% (as of 10/30).
+- 11/11 day: Tech +2.7%, Energy +1.8%, Industrials +1.3%, HC +0.1%. No clean 5-day table.
+- Strongest: Energy, Health Care. Tech risk today (NVDA headline) — no new tech entries.
+- CVX $213.28 (11/11) — above $206-210 zone. XOM $166.71 — well above $155-158; ex-div 11/16. LLY $1,437.29, pre ~$1,484 (+3.2%) clearing 52w high $1,453 (catalyst unconfirmed). JNJ $280.41 — at $280 trigger (alt prior close $276.22). CAT broken trend — avoid.
+
+### Earnings Today
+- BMO: NBIS, BN, ASND, ONDS, TE — no results found yet (Tavily mislabeled estimates as beats).
+- 11/11 AMC: CTVA -8.7% (~$12.14, possible spin-off price, unverified), DGII -13.1%. MRCY/SONO beat +12.9%; ICL miss -2.1%.
+- **NVDA -6.75 to -8% pre/AH: WSJ reports board may oust CEO Huang.** Not earnings; NVDA reports 11/17.
+- Tonight AMC: CSCO (EPS est $1.32-1.33, rev $18.11B, implied ±15%), AMAT ($4.06 est), NU, CBRS.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. LLY — HC momentum, breakout above 52w high; entry on live hold >$1,453 (don't chase gap >$1,490), stop ~$1,380 (-5%), target ~$1,600 (2:1), regime check: CONDITIONAL (CHOP ≤15% ≈ $7.3k ≈ 5sh; confirm catalyst + live quote post-09:45 ET)
+2. JNJ — HC, breakout close >$280 confirmed, entry $280-283, stop $268 (-4.5%), target ~$304 (2:1), regime check: CONDITIONAL (needs close >$280, quote conflict)
+3. CVX — Energy, pullback $206-210, stop $200, target ~$224 (2:1), regime check: CONDITIONAL (watchlist; above zone, oil -10.7% 5d)
+4. XOM — watchlist only; $166.71 far above $155-158 zone, no chase.
+
+### Risk Factors
+- NVDA CEO headline → mega-cap tech/semis contagion risk; NQ ~-0.7%.
+- 10Y ~4.9%, PPI Fri after hot CPI.
+- Oil -10.7% 5d undermines Energy thesis.
+- Conflicting/stale quotes (YTD sector data, JNJ, DXY). 100% cash vs 60% CHOP target.
+
+### Decision
+HOLD pending live-quote confirmation post-09:45 ET (LLY >$1,453 hold is the lead setup). 0/2 weekly trades. Patience > activity.
