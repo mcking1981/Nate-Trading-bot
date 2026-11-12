@@ -4732,3 +4732,6 @@ NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/10 close, junk
 
 ### Decision
 HOLD pending live-quote confirmation post-09:45 ET (LLY >$1,453 hold is the lead setup). 0/2 weekly trades. Patience > activity.
+
+### Market-Open Check — 08:46 ET
+NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/11 close, junk IEX spreads). LLY bid $1,344.96/ask $1,488.90 (mid ~$1,417) vs >$1,453 hold trigger (unconfirmed, no live print); JNJ bid $263.35/no ask vs >$280 close trigger (unconfirmed); CVX bid $200.81/ask $223.90 (mid ~$212.4) vs $206-210 zone (unconfirmed); XOM bid $156.86/no ask vs $155-158 watchlist (unconfirmed, no live print). CHOP, 0/2 trades, flat 100% cash ($48,857.61). HOLD.
