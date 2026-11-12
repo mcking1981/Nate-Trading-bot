@@ -1823,3 +1823,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. Account flat, 100% cash, no open orders/positions. CVX/LLY/XOM/JNJ setups unconfirmed at open check (stale quotes, junk IEX spreads). 0 of 2 weekly new trades used. Day P&L vs logged 11/10 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: CSCO AMC Thu, PPI Fri; look for regime-aligned setups (CVX/LLY/XOM/JNJ zones) with live-quote confirmation, no chasing. Patience > activity.
 
 ---
+
+### Nov 12 — EOD Snapshot (Day 168, Thursday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** CHOP (SPY ~-1.1% vs 50DMA, VIX ~18.2 — per Nov 12 pre-market)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades. Account flat, 100% cash, no open orders/positions. LLY/JNJ/CVX/XOM setups unconfirmed at open check (stale quotes, junk IEX spreads); NVDA CEO headline risk kept tech off-limits. 0 of 2 weekly new trades used. Day P&L vs logged 11/11 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: PPI Fri 8:30, CSCO/AMAT reactions; look for regime-aligned setups (LLY >$1,453 hold, JNJ >$280, CVX $206-210) with live-quote confirmation, no chasing. Patience > activity.
+
+---
