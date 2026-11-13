@@ -841,3 +841,60 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Watch for regime flip back to BEAR (SPY ~-1.6% vs 50DMA, VIX 21 intraday Fri) — if BEAR, cap 10%/pos, 1 trade
 
 ### Overall Grade: C+
+
+---
+
+## Week ending 2026-11-13
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $48,857.61 (Fri 11/6 close) |
+| Ending portfolio | $48,857.61 (Fri 11/13, Alpaca equity; balance_asof 11/12) |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | +2.37% (SPY $735.29 Nov 6 close -> ~$752.70 Nov 13 ~15:43 ET live quote; SPX 7,376.86 Nov 6 close; official 11/13 close not yet available) |
+| Bot vs S&P | -2.37% |
+| Dominant regime | CHOP (4/5 days — Tue-Fri CHOP; Mon 11/9 BEAR conservative call on data conflict + VIX ~24.5) |
+| Trades | 0 new, 0 closed (W:0 / L:0 / open:0) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades this week — book flat, 100% cash all 5 sessions |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| — | — | — | — | Flat book — 100% cash, no positions, no open orders |
+
+### What Worked
+- Zero drawdown through hot CPI (11/10), 10Y +26bp to ~5.13%, NVDA CEO exit (11/12) and PPI day — no forced or chased fills
+- Avoided Energy as its trend broke (sector -10.2% wk on peace-hope oil selloff) — XOM/CVX kept watch-only
+- Avoided CSCO post-earnings chase: beat+raise but traded ~$96 vs $103-106 OR-hold plan — would have been a loser
+- 11/13 market-open check finally ran post-bell (09:58 ET) with live quotes — first verified-quote check in two weeks
+
+### What Didn't Work
+- Underperformed S&P by -2.37%: S&P rebounded +2.4% while book sat 0% deployed vs 60% CHOP target
+- 0 of 2 CHOP buy slots used; 4 of 4 slots empty for 7+ sessions — "setup identified, never converted" pattern again
+- Mon-Thu market-open checks fired pre-bell (08:46-08:47 ET) with stale quotes/junk IEX spreads — no candidate could be verified 4 of 5 days
+- LLY/JNJ triggers too tight/conflicting: LLY trigger kept being re-set higher ($1,418 -> $1,453) as price ran; JNJ unconfirmable on IEX spreads
+- Phase P&L stuck at -2.28% vs $50,000 baseline; cash drag now the main source of underperformance
+
+### Key Lessons
+- Waiting for a "perfect" live-quote confirmation when the routine runs pre-bell guarantees zero fills — timing fix is prerequisite to any edge
+- Moving breakout triggers up as price rises (LLY) means never entering — set trigger once, act or drop
+- IEX-only quotes are unusable for spread-based confirmation on thinner names (JNJ); use last trade/close vs trigger instead of bid
+- Two straight weeks of rebound-after-selloff show cash is not "safe" vs the benchmark — CHOP target is 60% deployed, not 0%
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by 2.37% (>2%), but last week (11/6) outperformed by +0.76% — no 2-week underperformance streak; triggers next week if bot again trails S&P by >2%. CHECK B: no outperformance. CHECK C: no trades closed (0 losses) — no sector cooldowns; Avoid Sectors block empty, nothing expired to remove.
+
+### Adjustments for Next Week
+- Fix routine timing: market-open check must run ≥09:45 ET (11/13 09:58 ET run worked) — confirm schedule before Mon
+- Use 1 CHOP slot early in week on the strongest HC setup (LLY on close >$1,453 or JNJ on close >$280 by last trade, not IEX bid); fixed triggers, no re-setting higher; ≤15%/pos ≈ $7.3k, 10% GTC trail
+- Event risk: NVDA earnings + retail sales 11/17, FOMC minutes 11/18 — avoid new tech/semis until post-NVDA; watch VIX >25 for BEAR flip (10%/pos, 1 trade)
+
+### Overall Grade: D+
