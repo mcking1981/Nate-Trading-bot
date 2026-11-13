@@ -4779,3 +4779,6 @@ NO CONFIRMED SETUP — market not yet open (quotes stale, last 11/11 close, junk
 
 ### Decision
 HOLD pending PPI + live-quote confirmation post-09:45 ET (LLY >$1,453 / JNJ >$280 lead). 0/2 weekly trades. Patience > activity.
+
+### Market-Open Check — 09:58 ET
+NO CONFIRMED SETUP — live quotes (14:58 UTC). LLY $1,425.75/$1,433.05 (mid ~$1,429) vs >$1,453 trigger — below, unconfirmed; JNJ bid $274.53/ask $299.78 (junk IEX spread, mid ~$287) vs >$280 trigger — unconfirmable, bid below trigger, no market order into $25 spread; CSCO $96.22/$96.38 vs ~$103-106 OR hold — below, beat+raise not holding, drop; WMT $127.89/$127.93 vs $118-120 pullback — above zone, extended, skip; CVX $217.1/$218.1 vs $206-210 — above zone, Energy trend broken; XOM $170.58/$170.65 — watch only, extended. CHOP, 0/2 trades, flat 100% cash ($48,857.61). Friday weekend risk. HOLD.
