@@ -4782,3 +4782,37 @@ HOLD pending PPI + live-quote confirmation post-09:45 ET (LLY >$1,453 / JNJ >$28
 
 ### Market-Open Check — 09:58 ET
 NO CONFIRMED SETUP — live quotes (14:58 UTC). LLY $1,425.75/$1,433.05 (mid ~$1,429) vs >$1,453 trigger — below, unconfirmed; JNJ bid $274.53/ask $299.78 (junk IEX spread, mid ~$287) vs >$280 trigger — unconfirmable, bid below trigger, no market order into $25 spread; CSCO $96.22/$96.38 vs ~$103-106 OR hold — below, beat+raise not holding, drop; WMT $127.89/$127.93 vs $118-120 pullback — above zone, extended, skip; CVX $217.1/$218.1 vs $206-210 — above zone, Energy trend broken; XOM $170.58/$170.65 — watch only, extended. CHOP, 0/2 trades, flat 100% cash ($48,857.61). Friday weekend risk. HOLD.
+
+## 2026-11-14 — Pre-market Research (Saturday — market closed)
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-1.3% (SPY close $754.37 11/13 vs 50DMA $764.43 Yahoo; alt $752.31 Investing → +0.3% — both within ±2%) | VIX: ~19.3 (11/13, Macrotrends)
+*(Regime limits: max 4 positions, max 15%/position (≈$7.3k), max 2 new trades/week. VIX 15-25 + SPY inside ±2% band → CHOP.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- Fri 11/13 close: S&P -0.4% (7,561.67), Nasdaq -0.91%, Dow +0.1%. Week: S&P +2.5%, Nasdaq +2.3%, Dow +2.1% (best wk since early Aug).
+- Oct PPI +0.3% m/m vs +0.4% exp; but +6.5% y/y (highest since Nov 2022). 10Y ~5.14%.
+- SPY AH $749.6 (-0.6%). NVDA weakness (CEO exit) weighed on tech.
+- Next week: NVDA earnings + retail sales 11/17, FOMC minutes 11/18. Oil/DXY not re-checked (weekend).
+
+### Sector Momentum
+- Not re-scouted (weekend, stale quotes). Carry-over 11/13: HC strongest long-trend, Staples 5d leader, Energy trend broken.
+
+### Earnings Today
+- None (Saturday).
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. LLY — HC breakout, fixed trigger close/last trade >$1,453 (no re-setting higher), stop ~$1,380 (-5%), target ~$1,600 (2:1), regime check: CONDITIONAL (CHOP ≤15% ≈ $7.3k; Mon post-09:45 ET)
+2. JNJ — HC, fixed trigger last trade >$280 (not IEX bid), stop $268, target ~$305 (2:1), regime check: CONDITIONAL
+- No new tech/semis until post-NVDA 11/17. CVX/XOM watch only.
+
+### Risk Factors
+- NVDA earnings 11/17 + CEO transition; 10Y >5.1%, PPI y/y 6.5% → Fed hike pricing. 100% cash vs 60% CHOP target (cash drag flagged in weekly review).
+
+### Decision
+HOLD. Weekend. Mon: re-stamp regime, use 1 CHOP slot on LLY/JNJ fixed triggers. 0/2 weekly trades. Patience > activity.
