@@ -1856,3 +1856,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Saturday, market closed, no trades. Account flat, 100% cash, no open orders/positions. New week starts Mon: 0 of 2 weekly new trades used. Day P&L vs logged 11/13 equity $48,857.61. Phase P&L uses $50,000 start. Next: Mon regime stamp; HC setups (LLY >$1,453, JNJ >$280) with live-quote confirmation; NVDA earnings + retail sales 11/17, FOMC minutes 11/18. Patience > activity.
 
 ---
+
+### Nov 15 — EOD Snapshot (Day 171, Sunday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** CHOP (no Nov 15 stamp — carried from Nov 14 pre-market: SPY ~-1.3% vs 50DMA, VIX ~19.3)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** Sunday, market closed, no trades. Account flat, 100% cash, no open orders/positions. New week starts Mon: 0 of 2 weekly new trades used. Day P&L vs logged 11/14 equity $48,857.61. Phase P&L uses $50,000 start. Next: Mon regime stamp; HC setups (LLY >$1,453, JNJ >$280) with live-quote confirmation; NVDA earnings + retail sales 11/17, FOMC minutes 11/18. Patience > activity.
+
+---
