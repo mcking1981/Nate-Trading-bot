@@ -4816,3 +4816,47 @@ NO CONFIRMED SETUP — live quotes (14:58 UTC). LLY $1,425.75/$1,433.05 (mid ~$1
 
 ### Decision
 HOLD. Weekend. Mon: re-stamp regime, use 1 CHOP slot on LLY/JNJ fixed triggers. 0/2 weekly trades. Patience > activity.
+
+## 2026-11-16 — Pre-market Research
+
+**REGIME: CHOP** | SPY vs 50DMA: ~-1.6% (SPY pre $752.11 vs 50DMA $764.43 Yahoo; alt $768.61 Barchart → -2.1% (Bear edge), $750.47 Investing → +0.2%) | VIX: ~20.12 (+4.3%, prev 19.30)
+*(Regime limits: max 4 positions, max 15%/position (≈$7.3k), max 2 new trades/week. VIX 15-25 + SPY inside ±2% band (primary source) → CHOP.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- ES Dec 7,551 (-0.42%); SOX -3.4% pre (NVDA CEO overhang). Risk-off open.
+- VIX 20.12 (+4.3%). DXY ~103.4 (rising, hawkish Fed talk). 10Y ~5.15%.
+- Oil: WTI ~$87.9 (-0.7%), Brent ~$94.9 (-1%) — Hormuz flows recovering, surplus fears.
+- Today: no major econ data. Tue 11/17: retail sales 8:30 + NVDA AMC. Wed 11/18: FOMC minutes 2pm.
+
+### Sector Momentum
+- YTD (to 11/11): XLE +44.6%, XLV +23.6%, XLK +21.5%, XLP +20.0%, XLB +18.4%. XLC -6.9%.
+- 5-day breadth (>5DMA): Staples 85%, Materials 85%, Energy 81%, HC 50%, Tech 27% (weakest).
+- HC strongest long trend (85% >100/150/200DMA). Staples 2nd.
+- JNJ Fri close $285.75 (alt $287.56/$283.52) — **>$280 trigger MET**, new 52w high $286.08. Ex-div 11/24.
+- LLY Fri close $1,443.50 — <$1,453 trigger, NOT met; resistance $1,460.
+- PG $169.80 vs 52w high $170.73 (breakout watch). KO ATH ~$97-99, extended.
+
+### Earnings Today
+- BMO: BIDU, TSN, BEKE, HTHT, ARMK, XPEV — results not out at scan; mid-caps, no large-cap catalysts.
+- Fri AH: nothing notable (LDOS beat EPS/miss rev — unverified date).
+- Week: HD/DIS Tue BMO, **NVDA Tue AMC**, TGT/LOW/TJX Wed BMO, PANW Wed AMC, WMT Thu BMO, INTU/ROST Thu AMC.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. JNJ — HC momentum, 52w-high breakout >$280 confirmed on close; entry ~$284-288 if last trade holds >$280 post-09:45 ET, stop $266 (-7%) / 10% GTC trail, target ~$322 (2:1), ~25sh ≈ $7.2k, regime check: PASS (CHOP ≤15%, 1 of 2 slots)
+2. LLY — HC, fixed trigger last trade >$1,453 (no re-setting), stop ~$1,380 (-5%), target ~$1,600 (2:1), ~5sh, regime check: CONDITIONAL
+3. PG — Staples, breakout >$170.73, stop ~$158 (-7%), target ~$196 (2:1), regime check: CONDITIONAL (watchlist)
+- No tech/semis until post-NVDA 11/17. Energy watch only (trend broken).
+
+### Risk Factors
+- Futures -0.4%, SOX -3.4%; VIX rising toward 25 BEAR flip. Barchart 50DMA puts SPY at -2.1% (Bear edge).
+- NVDA earnings + CEO transition 11/17; retail sales; FOMC minutes 11/18; 10Y >5.1%, DXY up → hike pricing.
+- Conflicting JNJ closes (all >$280). 100% cash vs 60% CHOP target — cash drag (weekly review: use 1 slot early).
+
+### Decision
+TRADE (conditional): 1 CHOP slot on JNJ at market-open if last trade >$280 post-09:45 ET; ≤$7.3k, 10% GTC trail. LLY only on fixed >$1,453. If VIX >25 at open → BEAR, cut to 10%/pos. 0/2 weekly trades. Patience > activity.
