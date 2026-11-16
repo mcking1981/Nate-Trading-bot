@@ -4860,3 +4860,6 @@ HOLD. Weekend. Mon: re-stamp regime, use 1 CHOP slot on LLY/JNJ fixed triggers. 
 
 ### Decision
 TRADE (conditional): 1 CHOP slot on JNJ at market-open if last trade >$280 post-09:45 ET; ≤$7.3k, 10% GTC trail. LLY only on fixed >$1,453. If VIX >25 at open → BEAR, cut to 10%/pos. 0/2 weekly trades. Patience > activity.
+
+### Market-Open Check — 08:47 ET
+NO CONFIRMED SETUP — routine fired PRE-BELL (13:47 UTC = 08:47 EST; schedule not shifted for DST end). Single-name quotes stale (Fri 21:00 UTC IEX). JNJ bid $269.90/ask $299.78 (junk spread, stale) vs >$280 trigger — unconfirmable pre-open, plan requires last trade >$280 post-09:45 ET, carry to midday; LLY bid $1,356.20/no ask (stale) vs >$1,453 — below/unconfirmable, carry; PG bid $159.01/ask $177.69 (stale) vs >$170.73 — unconfirmable, carry. SPY pre $749.23 (live, -0.4% vs pre-mkt $752.11). CHOP, 0/2 trades, flat 100% cash ($48,857.61). HOLD.
