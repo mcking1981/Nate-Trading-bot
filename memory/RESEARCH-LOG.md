@@ -4863,3 +4863,48 @@ TRADE (conditional): 1 CHOP slot on JNJ at market-open if last trade >$280 post-
 
 ### Market-Open Check — 08:47 ET
 NO CONFIRMED SETUP — routine fired PRE-BELL (13:47 UTC = 08:47 EST; schedule not shifted for DST end). Single-name quotes stale (Fri 21:00 UTC IEX). JNJ bid $269.90/ask $299.78 (junk spread, stale) vs >$280 trigger — unconfirmable pre-open, plan requires last trade >$280 post-09:45 ET, carry to midday; LLY bid $1,356.20/no ask (stale) vs >$1,453 — below/unconfirmable, carry; PG bid $159.01/ask $177.69 (stale) vs >$170.73 — unconfirmable, carry. SPY pre $749.23 (live, -0.4% vs pre-mkt $752.11). CHOP, 0/2 trades, flat 100% cash ($48,857.61). HOLD.
+
+## 2026-11-17 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-3.6% (SPY pre $737.30 / Mon close $739.95 vs 50DMA $764.43 Yahoo → -3.2% on close; alt $768.61 Barchart → -4.1%; $750.47 Investing → -1.8%, stale outlier) | VIX: ~23.93 (+4.5%, prev 22.91)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. SPY < -2% below 50DMA (primary + Barchart) → BEAR. Flip from CHOP; VIX still <25.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- Mon 11/16: S&P -1.87% (7,420), 3rd straight loss; Nasdaq ~-2.4%, Dow -739. NVDA/AI chips led on China "backdoor" sales crackdown fears; flows into bonds.
+- ES Dec ~7,400 (-0.5%). VIX 23.93 (+4.5%) — risk-off, near 25.
+- Oil: WTI ~$85.6 (-3.3% Mon), Brent ~$94.8 — surplus fears. DXY ~103.5 firm (hawkish Fed). 10Y ~5.15% (stale; yields lower Mon).
+- Today: Retail Sales + Import Prices 8:30, Industrial Production 9:15, **NVDA AMC (~4:20, call 5pm)**. Wed 11/18: FOMC minutes 2pm.
+
+### Sector Momentum
+- YTD (to 11/16): XLE +45.3%, XLV +22.9%, XLP +21.5%, XLB +15.0%, XLK +14.9%. XLC -8.4%, XLU +5.5%.
+- 5-day breadth (>5DMA): Staples 85%, Materials 85%, Energy 81%, Discretionary 77%, Tech 27% (weakest).
+- Mon relative: Staples -0.34%, HC -0.53% (best); Tech -2.98% (worst). Defensives leading.
+- **PG Mon close $173.02 (+1.9%) — >$170.73 breakout MET** on a -1.9% tape. Support $166.64.
+- JNJ Mon close $282.55 (-1.1%), pre $282.63 — still >$280 trigger, fading from $286 high.
+- LLY Mon close $1,431.67 — <$1,453, NOT met. XOM ~$160.6, watch only.
+
+### Earnings Today
+- BMO: HD (est EPS ~$3.84, rev ~$42.7B, comps ~+1.5%; ran +19.5% Oct 13-Nov 11, Zelman downgrade), DIS (est EPS ~$1.67, rev $25.26B; 4 straight beats) — results not out at scan. Also JD, KLAR, VIK, ENR, GFF.
+- Mon AMC: POWL beat EPS ~43%, ACM beat ~2.5% (social-media recap, unverified).
+- **NVDA AMC**: cons EPS $2.47, rev ~$109B (+91% y/y), GM guide ~74%; implied move ~±10.5%; stock -30% from Oct peak; CEO-exit overhang.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. PG — Staples leader, 52w-high breakout >$170.73 confirmed on close ($173.02) in down tape; entry ~$172-174 if last trade holds >$170.73 post-09:45 ET, stop $161 (-7%) / 10% GTC trail, target ~$197 (2:1), ~28sh ≈ $4.85k, regime check: PASS (BEAR ≤10%, 1 of 1 weekly slot)
+2. JNJ — HC, last trade >$280 holds but fading; entry ~$282, stop $263 (-7%), target ~$320 (2:1), ~17sh ≈ $4.8k, regime check: CONDITIONAL (backup only — BEAR allows 1 trade/week)
+3. LLY — <$1,453 trigger, no entry. XOM watch only (Energy trend broken).
+- No tech/semis — NVDA AMC + China chip headlines.
+
+### Risk Factors
+- Regime flipped CHOP → BEAR; SPY -3%+ below 50DMA, 3 straight down days; VIX ~24 near 25.
+- NVDA earnings tonight (±10% implied) can swing whole tape; FOMC minutes Wed; DXY/10Y >5% → hike pricing.
+- HD/DIS BMO reactions unknown. PG trigger set from scraped close — verify with Alpaca last trade.
+- 100% cash vs 30% BEAR target — 1 defensive slot closes most of gap.
+
+### Decision
+TRADE (conditional): 1 BEAR slot on PG at market-open if last trade >$170.73 post-09:45 ET; ≤10% (~$4.9k), 10% GTC trail. JNJ backup only if PG fails trigger. No tech. 0/1 weekly trades (BEAR). Patience > activity.
