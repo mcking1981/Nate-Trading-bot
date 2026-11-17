@@ -4908,3 +4908,6 @@ NO CONFIRMED SETUP — routine fired PRE-BELL (13:47 UTC = 08:47 EST; schedule n
 
 ### Decision
 TRADE (conditional): 1 BEAR slot on PG at market-open if last trade >$170.73 post-09:45 ET; ≤10% (~$4.9k), 10% GTC trail. JNJ backup only if PG fails trigger. No tech. 0/1 weekly trades (BEAR). Patience > activity.
+
+### Market-Open Check — 08:46 ET
+NO CONFIRMED SETUP — routine fired PRE-BELL again (13:46 UTC = 08:46 EST; cron still not shifted for DST end, 2nd day). Single-name quotes stale (Mon 21:00 UTC IEX). PG bid $163.53/no ask (stale) vs >$170.73 trigger — unconfirmable, plan requires last trade >$170.73 post-09:45 ET, carry to midday; JNJ bid $268.45/ask $297.77 (junk, stale) vs >$280 — unconfirmable, backup, carry; LLY bid $1,380.35/ask $1,502.02 (stale) vs >$1,453 — unconfirmable, carry. SPY pre $738.71 (live, ~-0.2% vs Mon close $739.95). BEAR, 0/1 trades, flat 100% cash ($48,857.61). HOLD.
