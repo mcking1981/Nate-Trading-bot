@@ -1878,3 +1878,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. Account flat, 100% cash, no open orders/positions. Market-open check fired pre-bell (DST schedule drift) — JNJ >$280 / LLY >$1,453 / PG >$170.73 unconfirmable on stale quotes; no entry taken. 0 of 2 weekly new trades used. Day P&L vs logged 11/15 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: retail sales 8:30, NVDA AMC; JNJ >$280 still lead HC setup with live-quote confirmation post-09:45 ET; no tech until post-NVDA. Patience > activity.
 
 ---
+
+### Nov 17 — EOD Snapshot (Day 173, Tuesday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** BEAR (SPY ~-3.6% vs 50DMA, VIX ~23.9 — per Nov 17 pre-market; flip from CHOP)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades. Account flat, 100% cash, no open orders/positions. Regime flipped to BEAR (max 2 positions, 10%/position, 1 trade/week). Market-open check fired pre-bell again (DST cron drift, 2nd day) — PG >$170.73 / JNJ >$280 unconfirmable on stale quotes; no entry. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/16 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: NVDA AMC reaction, FOMC minutes 2pm; PG >$170.73 lead setup (≤10%), JNJ backup, live-quote confirmation post-09:45 ET; no tech chasing. Fix DST cron drift. Patience > activity.
+
+---
