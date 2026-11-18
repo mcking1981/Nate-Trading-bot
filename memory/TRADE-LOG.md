@@ -1889,3 +1889,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. Account flat, 100% cash, no open orders/positions. Regime flipped to BEAR (max 2 positions, 10%/position, 1 trade/week). Market-open check fired pre-bell again (DST cron drift, 2nd day) — PG >$170.73 / JNJ >$280 unconfirmable on stale quotes; no entry. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/16 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: NVDA AMC reaction, FOMC minutes 2pm; PG >$170.73 lead setup (≤10%), JNJ backup, live-quote confirmation post-09:45 ET; no tech chasing. Fix DST cron drift. Patience > activity.
 
 ---
+
+### Nov 18 — EOD Snapshot (Day 174, Wednesday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** BEAR (SPY ~-4.1% vs 50DMA, VIX ~25.5 — per Nov 18 pre-market; 2nd day)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades. Account flat, 100% cash, no open orders/positions. Market-open check fired pre-bell (DST cron drift, 3rd day) — PG/XOM unconfirmable on stale quotes. Midday live quotes: PG $170.19-170.34 below >$170.73 trigger (breakout lost), XOM $162.5 below >$167 reclaim; NVDA beat gap-up faded, SPY red. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/17 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: WMT BMO, PANW reaction; PG needs reclaim >$170.73 (≤10%), XOM >$167 backup, live-quote confirmation post-09:45 ET; no tech. Fix DST cron drift. Patience > activity.
+
+---
