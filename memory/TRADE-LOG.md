@@ -1900,3 +1900,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. Account flat, 100% cash, no open orders/positions. Market-open check fired pre-bell (DST cron drift, 3rd day) — PG/XOM unconfirmable on stale quotes. Midday live quotes: PG $170.19-170.34 below >$170.73 trigger (breakout lost), XOM $162.5 below >$167 reclaim; NVDA beat gap-up faded, SPY red. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/17 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: WMT BMO, PANW reaction; PG needs reclaim >$170.73 (≤10%), XOM >$167 backup, live-quote confirmation post-09:45 ET; no tech. Fix DST cron drift. Patience > activity.
 
 ---
+
+### Nov 19 — EOD Snapshot (Day 175, Thursday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** BEAR (SPY ~-4.3% vs 50DMA, VIX ~24.6 — per Nov 19 pre-market; 3rd day)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades. Account flat, 100% cash, no open orders/positions. Market-open check fired pre-bell (DST cron drift, 4th day) — KO unconfirmable on stale quotes. Midday live quotes: KO $95.50 ~4% below >$99.50 trigger, PG $168.4 below >$171.72 re-entry; PANW gap held but no-chase in BEAR; SPY +1% pre-market bounce faded. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/18 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow (Fri, last day of week): only regime-aligned defensive setup with live-quote confirmation post-09:45 ET (≤10%, 10% GTC trail); no tech chase. Fix DST cron drift. Patience > activity.
+
+---
