@@ -4964,3 +4964,51 @@ NO CONFIRMED SETUP — routine fired PRE-BELL again (13:46 UTC = 08:46 EST; cron
 
 ### Midday Check — 16:11 UTC (11:11 ET)
 NO ACTION — flat, 0 positions, 0 orders; no stops to cut/tighten. Carried setups re-checked on live quotes: PG bid $170.19/ask $170.34 vs >$170.73 trigger — NOT met (breakout lost intraday); XOM bid $162.50/ask $162.56 vs >$167 reclaim — NOT met. SPY $729.81/$729.97 (~-0.3% vs Tue close $732.44) — NVDA gap-up faded, BEAR tape intact. FOMC minutes 2pm. BEAR, 0/1 trades, 100% cash ($48,857.61). HOLD.
+
+## 2026-11-19 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-4.3% (Wed close $730.20 vs 50DMA $763.15 Yahoo; pre $738.36 → -3.2%; Barchart $768.61 → -5.0%) | VIX: 24.56 Wed close, overnight 22.38 (-8.9%)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. SPY < -2% below 50DMA on every source → BEAR, 3rd day.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- Wed 11/18: S&P -0.23% (7,323.63, 5th straight loss, below 200DMA), Dow -1.11%, Nasdaq +0.42%. WTD S&P -3.1%.
+- FOMC minutes hawkish: 10-2 hold, both dissents (Cook, Hammack) for a hike → Dec hike priced, yields/USD up. NVDA pop faded ~-3%.
+- Futures up: ES +0.6-0.8%, NQ +1.0-1.4% (tech bounce, unconfirmed timestamp).
+- Oil: WTI ~$84.2, Brent ~$91.8 (stale 11/18). DXY ~103.4-103.5 near 52w high. 10Y ~5.10-5.15%.
+- Today: Jobless claims (~197K est) + Philly Fed 8:30. Next: GDP/PCE 11/25, NFP 12/4, FOMC 12/9.
+
+### Sector Momentum
+- YTD: XLE +37-45%, XLV +17-23%, XLP +20-22%, XLB +15-21%, XLK +14-18%.
+- 5-day (to 11/18): XLI +0.3% only green; XLP -1.3%, XLE -3.3%, XLV -4.1%, XLK -6.1%. No clean leader.
+- Staples breadth still best: 85% >5DMA, 94% >20DMA.
+- **PG Wed close $170.29 (-0.8%), pre $169.28 — <$170.73, breakout FAILED.**
+- XOM Wed close $160.58 (-4.0%), pre $160.59 — broke $160-165 support, far below $167. Energy trend broken.
+- JNJ Wed close $272.70 (-2.2%). KO ~$98.09, resistance $99.48, support $91.18.
+
+### Earnings Today
+- BMO: **WMT** 07:00 ET (not out at scan) — est EPS $0.63-0.64, rev ~$187.2B, US comps ~2.8%, implied ±5.4-6.4%; fell after 3 of last 4 prints.
+- 11/18 AMC: **PANW beat/raise** — rev $3.44B (+39%), NGS ARR $9.73B (+66%), FY27 rev guide $14.52-14.57B (from $14.10-14.20B); GM -6pts; AH +9.1% (~$371). CRWD +6%, OKTA +3.6% sympathy. CGNX +5.3%.
+- 11/18 BMO: TGT beat (comps +5.6%, EPS $2.65 incl. $0.50 tariff refund), raised, +4.0%. TJX in-line, +8.1%. LOW beat on tariff refunds, early -5.4%.
+- Note: retail EPS beats padded by one-time tariff refunds.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. KO — Staples (best breadth), break >$99.50 resistance post-09:45 ET on last trade; entry ~$99.5-100, stop $92.5 (-7%) / 10% GTC trail, target ~$114 (2:1), ~49sh ≈ $4.9k, regime check: CONDITIONAL (BEAR ≤10%, 1 of 1 weekly slot; watchlist — no catalyst)
+2. PG — breakout failed (<$170.73); re-entry only on close >$171.72. Watch only today.
+3. PANW — beat/raise catalyst but +9% gap in BEAR, tech 5d -6.1%; no chase. Watch for post-gap base.
+- XOM DROP (support broken). JNJ watch only. No tech/semis.
+
+### Risk Factors
+- BEAR 3rd day; S&P 5 straight down, below 200DMA. Futures bounce may fade again (NVDA gap faded Wed).
+- Hawkish minutes → Dec hike priced; 10Y >5.1%, DXY near high.
+- WMT BMO (±6%) sets Staples/retail tone; claims/Philly Fed 8:30.
+- Market-open cron drift (pre-bell runs 3 days) — quotes unconfirmable pre-09:45 ET.
+- 100% cash vs 30% BEAR target; 1 weekly slot unused, week ends Fri.
+
+### Decision
+HOLD (default). Only KO >$99.50 on last trade post-09:45 ET qualifies (≤10%, 10% GTC trail); otherwise no entry. PG failed, XOM dropped, no tech chase. 0/1 weekly trades (BEAR). Patience > activity.
