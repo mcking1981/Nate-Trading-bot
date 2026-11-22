@@ -1911,3 +1911,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. Account flat, 100% cash, no open orders/positions. Market-open check fired pre-bell (DST cron drift, 4th day) — KO unconfirmable on stale quotes. Midday live quotes: KO $95.50 ~4% below >$99.50 trigger, PG $168.4 below >$171.72 re-entry; PANW gap held but no-chase in BEAR; SPY +1% pre-market bounce faded. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/18 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow (Fri, last day of week): only regime-aligned defensive setup with live-quote confirmation post-09:45 ET (≤10%, 10% GTC trail); no tech chase. Fix DST cron drift. Patience > activity.
 
 ---
+
+### Nov 22 — EOD Snapshot (Day 178, Sunday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** BEAR (SPY ~-9.1% vs 50DMA, VIX ~35.9 — per Nov 22 pre-market; 4th session)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** Sunday, market closed, no trades. Account flat, 100% cash, no open orders/positions. No Nov 20/21 snapshots in repo (routines missed) — Day P&L vs logged 11/19 equity $48,857.61 (Alpaca last_equity matches). Phase P&L uses $50,000 start. Flat cash dodged S&P -8.6% week. New week starts Mon: 0 of 1 weekly new trades used (BEAR). Tomorrow: re-stamp regime; 1 slot only on WMT >$128.22 (or JNJ hold >$266) by last trade post-09:45 ET, ≤10%, 10% GTC trail; no tech knife-catching. Fix DST cron drift + missed Fri routines. Patience > activity.
+
+---
