@@ -5018,3 +5018,45 @@ NO CONFIRMED SETUP — routine fired PRE-BELL again (13:46 UTC = 08:46 EST; cron
 
 ### Midday Check — 16:11 UTC (11:11 ET)
 NO ACTION — flat, 0 positions, 0 orders; no stops to cut/tighten. Carried setups re-checked on live quotes: KO bid $95.49/ask $95.51 vs >$99.50 trigger — NOT met (~-4% below); PG bid $168.27/ask $168.48 vs >$171.72 close re-entry — NOT met, weakening; PANW bid $358.69/ask $368.36 — gap holding, no-chase in BEAR. SPY $728.83/$729.11 (~-0.2% vs Wed close $730.20) — futures bounce (+1% pre) faded, BEAR tape intact. BEAR, 0/1 trades, 100% cash ($48,857.61). HOLD.
+
+## 2026-11-22 — Pre-market Research (Sunday — market closed)
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-9.1% (Fri close $690.68 vs 50DMA $760.21 from Alpaca IEX daily closes; Tavily answer $762.51 → -9.4%) | VIX: 35.89 Fri close (+26%, highest since Apr 2025, ~40 intraday)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. SPY far below -2% AND VIX >25 → BEAR, both triggers, 4th session.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro
+- Thu 11/19 SPY -2.0% ($715.84), Fri 11/20 -3.5% ($690.68). S&P 6,910 (-3.7%) in correction, 7 straight down, week -8.6%. Nasdaq -5.3% (NDX bear mkt intraday), Dow -1.9%.
+- Driver: AI-trade crack — Anthropic IPO +17% Thu / -11% Fri; NVDA -7%+, AMD -11%, MU -12%; AI capex/bubble fears; post-midterm data-center regulation risk. Dec Fed hike priced (Waller floated 50bp).
+- 10Y 4.94% (-10bp, flight to safety). DXY ~103.8 near high. WTI ~$81, Brent ~$91-93 (AM snapshots; -16% m/m, OPEC+ 11/29).
+- Futures: ES Dec settled 6,935 Fri; Sunday open not yet available.
+- Week: Mon flash PMIs; Wed 8:30 GDP Q3 2nd est + Oct PCE + claims + durables, Beige Book 2pm; Thu closed (Thanksgiving); Fri 1pm early close. FOMC 12/9.
+
+### Sector Momentum
+- YTD (thru 11/16): XLE +45%, XLV +23%, XLP +22%, XLB +15%, XLK +15%; XLC -8%. vs 200DMA: XLV +10%, XLP +6%, XLE +1%, XLK -13%.
+- Week to 11/20: broad red (semis, financials, industrials). Hiding in defensives: Energy/Utilities/Staples green on Fri, HC +0.6%, Tech -4.5%.
+- WMT Fri $127.95 (+1.5%), support $123.86, resistance $128.22, 4 PT raises to $140-145. KO $97.00 (ATH ~$100.56, 5d -2.1%). JNJ $270.54 (+1.3%), support ~$266, ex-div 11/24.
+
+### Earnings Today
+- None (Sunday). Thu/Fri: WMT beat/raised FY but -1% Thu (soft US comps), recovered Fri. NTES -11%, INTU -3%, BABA -1%. NVDA beat faded, ~-23% on week (one source).
+- Mon AMC: HPE, A, ZM. Tue BMO: ADI, MDT, DLTR, BBY, DKS, BURL. Tue AMC: DELL (±15%), WDAY, ADSK, HPQ. Wed BMO: DE.
+
+### Holdings News
+- No open positions.
+
+### Trade Ideas
+1. WMT — Staples leader, Fri RS + PT raises; entry ~$128.5 only on last trade >$128.22 post-09:45 ET, stop $119.5 (-7%) / 10% GTC trail, target ~$146.5 (2:1), ~38sh ≈ $4.9k, regime check: CONDITIONAL (BEAR ≤10%, 1 of 1 weekly slot)
+2. JNJ — HC best vs 200DMA; entry ~$271 only if holds >$266 post-09:45 ET, stop $252 (-7%), target ~$309 (2:1), ~18sh ≈ $4.9k, regime check: CONDITIONAL (backup to WMT)
+- KO mid-range ($97 vs $100.56 ATH) — watch only. No tech/semis (AI unwind). XOM dropped.
+
+### Risk Factors
+- VIX ~36, NDX bear, S&P 7-day losing streak — gap risk both ways Mon (capitulation bounce or continuation).
+- Holiday week: thin volume, Wed data dump (GDP/PCE) before Thu close; Fri half-day.
+- Hawkish Fed (Dec hike priced) + AI-capex derisking could spill into defensives on liquidation.
+- Gaps: no Fri 11/20 routine logs and no weekly review for w/e 11/20 in repo — routines appear to have missed. Market-open cron drift (pre-bell) still unresolved. Ticker levels are scraped (Fri), confirm with Alpaca last trade.
+- SPY 50DMA computed via direct Alpaca data-API bars call (wrapper has no bars command) — add `bars` to alpaca.sh.
+
+### Decision
+HOLD. Weekend. Mon: re-stamp regime; 1 BEAR slot only on WMT >$128.22 (or JNJ >$266 hold) by last trade post-09:45 ET, ≤10%, 10% GTC trail. No knife-catching in tech. 0/1 weekly trades (BEAR). Patience > activity.
