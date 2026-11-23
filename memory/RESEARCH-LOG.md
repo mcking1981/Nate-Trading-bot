@@ -5060,3 +5060,46 @@ NO ACTION — flat, 0 positions, 0 orders; no stops to cut/tighten. Carried setu
 
 ### Decision
 HOLD. Weekend. Mon: re-stamp regime; 1 BEAR slot only on WMT >$128.22 (or JNJ >$266 hold) by last trade post-09:45 ET, ≤10%, 10% GTC trail. No knife-catching in tech. 0/1 weekly trades (BEAR). Patience > activity.
+
+## 2026-11-23 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-9.1% (Fri close $690.68 vs 50DMA ~$760; Tavily 50DMA $743-762 → -7% to -9%; even a +3% gap leaves SPY ~-6.5%) | VIX: 35.89 Fri close (no Mon print yet; Tavily "18.82" unverified/stale)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. Both triggers BEAR, 5th session.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro (Sub-agent 1 synthesis)
+- Futures: SPX +2.9%, NDX +4.0% (stockanalysis.com 04:33 ET, single source) — relief-bounce setup after -8.6% week; ES 7,092 Tavily figure traced to stale 11/13 page. Confirm at open.
+- Oil (Fri settle): WTI $83.21 (low since Aug 26), Brent $91.98 — supply surplus, OPEC+ 11/29.
+- DXY ~103.5-103.8 near 19-mo high. 10Y ~4.94-5.1% (fell Fri on flight to safety).
+- Fed: Dec 8-9 hike priced (~83-100%); core PCE >3%.
+- Today: nothing major (flash PMIs). Wed 8:30 GDP/PCE/claims/durables; Thu closed; Fri 1pm close. No weekend Fed/geo/AI headlines found.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD (thru 11/20): XLE +38%, XLP +18.7%, XLV +15.9%, XLB +8%; XLC -14.3%, XLF +0.9%.
+- Momentum: XLP only sector green Fri (+0.67% vs SPX -3.7%), -2.3% off 11/16 peak — strongest. XLV -6.6% off peak, flat Fri — #2. XLE -13.6% off 10/30 peak — broken, avoid.
+- Risk-on bounce today could rotate money OUT of defensives — let open settle.
+- WMT $128.07 (trigger >$128.22, support $123.86, next res $133.9-134.2). KO $96.99 (ATH $100.56). PG $169.37 (52w high $173.59). JNJ $270.47 (ex-div $1.34 11/24, support ~$266). ABBV $286.20 (support $285/$275).
+
+### Earnings Today (Sub-agent 3 synthesis)
+- BMO today: none notable. AMC today: HPE ($1.17-1.28), A ($1.72), ZM, J ($2.11).
+- Fri reactions: INTU ~-10% (FY27 cut, AI-disruption fear on software), ROST beat but -3% (guide), SNDK -5% post-split.
+- Tue BMO: ADI $3.89, MDT $1.34, DLTR, BBY, DKS, BURL, SJM, ANF. Tue AMC: DELL $6.48-6.62, ADSK, WDAY, HPQ. Wed: DE $4.07.
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions. (Sub-agent 4 not spawned — no tickers.)
+
+### Trade Ideas
+1. WMT — Staples leader, Fri RS + PT raises $140-145; entry ~$128.5 only on last trade >$128.22 post-09:45 ET, stop $119.5 (-7%) / 10% GTC trail, target ~$146.5 (2:1), ~38sh ≈ $4.9k, regime check: CONDITIONAL PASS (BEAR ≤10%, 1 of 1 weekly slot)
+2. JNJ — HC #2 sector; entry ~$271 only if holds >$266 post-09:45 ET, stop $252 (-7%), target ~$309 (2:1), ~18sh ≈ $4.9k, regime check: CONDITIONAL (backup; ex-div 11/24 → ~$1.3 mechanical drop, don't treat as break)
+- Watch: KO (pullback $95-96 or >$100.56), PG (>$173.6), ABBV (hold $285). No tech/semis (AI unwind, INTU cut). XLE dropped.
+
+### Risk Factors
+- BEAR 5th session, VIX ~36. Futures +3% gap may be dead-cat bounce (NVDA/futures bounces faded twice last week) — or rotate out of defensives.
+- Holiday week: thin volume, Wed data dump, Thu closed, Fri half-day.
+- Hawkish Fed (Dec hike priced), DXY/10Y high.
+- Data quality: no live Mon VIX/futures confirmation; IEX quotes stale with ~$12 spreads — use last trade only. Market-open cron drift (pre-bell) unresolved; no Fri 11/20 logs or weekly review for w/e 11/20 in repo.
+
+### Decision
+HOLD (default). 1 BEAR slot only on WMT >$128.22 (or JNJ >$266 hold) by last trade post-09:45 ET, ≤10%, 10% GTC trail. Don't chase gap. 0/1 weekly trades (BEAR). Patience > activity.
