@@ -5103,3 +5103,9 @@ HOLD. Weekend. Mon: re-stamp regime; 1 BEAR slot only on WMT >$128.22 (or JNJ >$
 
 ### Decision
 HOLD (default). 1 BEAR slot only on WMT >$128.22 (or JNJ >$266 hold) by last trade post-09:45 ET, ≤10%, 10% GTC trail. Don't chase gap. 0/1 weekly trades (BEAR). Patience > activity.
+
+### Market-Open Check — 08:47 ET
+- Fired PRE-BELL (DST cron drift, 6th session). Live data: equity $48,857.61, flat, 0 positions/orders. Quotes stale (Fri 11/20 21:00Z).
+- WMT: NO CONFIRMED SETUP — stale quote bid $123.45/ask $135.67 vs trigger >$128.22; zone unconfirmable (market closed, needs last trade post-09:45 ET). Carry forward.
+- JNJ: NO CONFIRMED SETUP — stale bid $255.37 vs hold >$266; zone unconfirmable (pre-bell). Carry forward; midday to confirm.
+- 0/1 weekly trades used (BEAR). HOLD.
