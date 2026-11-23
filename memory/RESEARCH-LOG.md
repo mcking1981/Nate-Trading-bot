@@ -5109,3 +5109,8 @@ HOLD (default). 1 BEAR slot only on WMT >$128.22 (or JNJ >$266 hold) by last tra
 - WMT: NO CONFIRMED SETUP — stale quote bid $123.45/ask $135.67 vs trigger >$128.22; zone unconfirmable (market closed, needs last trade post-09:45 ET). Carry forward.
 - JNJ: NO CONFIRMED SETUP — stale bid $255.37 vs hold >$266; zone unconfirmable (pre-bell). Carry forward; midday to confirm.
 - 0/1 weekly trades used (BEAR). HOLD.
+
+### Midday Scan — 11:11 ET
+- Live: equity $48,857.61, flat, 0 positions/orders. Steps 3-6 no-op (no losers/winners/regime excess).
+- Live quotes (16:11Z): WMT bid/ask $128.65/$128.72 — ABOVE >$128.22 trigger; JNJ $270.82/$273.39 — holding >$266; SPY ~$724.1.
+- Midday routine doesn't open trades; market-open check fired pre-bell (cron drift) so WMT trigger unacted. Carry WMT >$128.22 to next session. 0/1 weekly trades (BEAR). HOLD.
