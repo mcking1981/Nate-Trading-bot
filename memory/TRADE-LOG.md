@@ -1922,3 +1922,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Sunday, market closed, no trades. Account flat, 100% cash, no open orders/positions. No Nov 20/21 snapshots in repo (routines missed) — Day P&L vs logged 11/19 equity $48,857.61 (Alpaca last_equity matches). Phase P&L uses $50,000 start. Flat cash dodged S&P -8.6% week. New week starts Mon: 0 of 1 weekly new trades used (BEAR). Tomorrow: re-stamp regime; 1 slot only on WMT >$128.22 (or JNJ hold >$266) by last trade post-09:45 ET, ≤10%, 10% GTC trail; no tech knife-catching. Fix DST cron drift + missed Fri routines. Patience > activity.
 
 ---
+
+### Nov 23 — EOD Snapshot (Day 179, Monday)
+
+**Portfolio:** $48,857.61 | **Cash:** $48,857.61 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** -$1,142.39 (-2.28%)
+**Regime:** BEAR (SPY ~-9.1% vs 50DMA, VIX ~35.9 Fri close — per Nov 23 pre-market; 5th session)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+**Notes:** No trades. Account flat, 100% cash, no open orders/positions. Market-open check fired pre-bell again (DST cron drift, 6th session) — WMT/JNJ unconfirmable on stale quotes. Midday live: WMT $128.65-128.72 ABOVE >$128.22 trigger, JNJ ~$271 holding >$266, SPY ~$724 (relief bounce) — but midday doesn't open trades, so WMT trigger went unacted. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/22 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: WMT >$128.22 by last trade post-09:45 ET (≤10%, ~38sh, 10% GTC trail), JNJ backup (ex-div 11/24, ~$1.3 mechanical drop); ADI/MDT BMO, DELL AMC. Fix DST cron drift — it's cost a live trigger. Patience > activity.
+
+---
