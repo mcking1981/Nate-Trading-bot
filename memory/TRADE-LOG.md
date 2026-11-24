@@ -1933,3 +1933,21 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** No trades. Account flat, 100% cash, no open orders/positions. Market-open check fired pre-bell again (DST cron drift, 6th session) — WMT/JNJ unconfirmable on stale quotes. Midday live: WMT $128.65-128.72 ABOVE >$128.22 trigger, JNJ ~$271 holding >$266, SPY ~$724 (relief bounce) — but midday doesn't open trades, so WMT trigger went unacted. 0 of 1 weekly new trades used (BEAR). Day P&L vs logged 11/22 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: WMT >$128.22 by last trade post-09:45 ET (≤10%, ~38sh, 10% GTC trail), JNJ backup (ex-div 11/24, ~$1.3 mechanical drop); ADI/MDT BMO, DELL AMC. Fix DST cron drift — it's cost a live trigger. Patience > activity.
 
 ---
+
+### Nov 24 — Trade #12
+
+| Field | Value |
+|---|---|
+| Date | 2026-11-24 |
+| Ticker | WMT |
+| Side | BUY |
+| Shares | 37 |
+| Entry Price | $131.26 (avg $131.257, filled 14:46:18Z) |
+| Stop Level | $118.1025 (10% trailing GTC, order ID: 511e770a, HWM $131.225); manual -7% cut ~$122.07 |
+| Thesis | Confirmed hold above $128.22 trigger from today's pre-market watchlist (live 09:46 ET bid/ask $131.22/$131.25, +2.3% above trigger, inside 0-3% confirmation band, under $132 no-chase cap). Staples = strongest relative sector in BEAR tape (XLP +18.7% YTD); WMT closed above trigger Mon, PT raises $140-145, 52w high $135.16. Defensive regime-aligned name. |
+| Target | ~$148 |
+| R:R | ~1.8:1 vs -7% manual cut ($9.19 risk / $16.74 reward); ~1.3:1 vs 10% trail |
+| Regime at Entry | BEAR (SPY ~-5.3% vs 50DMA, VIX ~27.46 — per Nov 24 pre-market log) |
+| Cost Basis | $4,856.51 (9.9% of $48,857.61 equity) |
+
+---

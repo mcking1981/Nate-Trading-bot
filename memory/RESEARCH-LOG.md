@@ -5157,3 +5157,9 @@ HOLD (default). 1 BEAR slot only on WMT >$128.22 (or JNJ >$266 hold) by last tra
 
 ### Decision
 TRADE (conditional): WMT ≤10% on last trade >$128.22 post-09:45 ET, 10% GTC trail. JNJ backup. 0/1 weekly trades (BEAR). Patience > activity.
+
+### Market-Open Check — 09:46 ET
+- Fired pre-bell (08:45 ET, DST cron drift, 7th session) — waited in-session to 09:46 ET for live quotes. Clock is_open=true.
+- WMT: CONFIRMED entry @ $131.26 — live $131.22/$131.25 vs trigger $128.22, +2.3% (in-zone, <$132 cap). 37sh ≈ $4,857 (9.9%), 10% GTC trail stop $118.10. 1/1 BEAR weekly slot used.
+- JNJ: NO CONFIRMED SETUP — live $269.72/$273.31 holding >$264.7 but backup only (WMT filled, weekly slot used). Watch >$280.79.
+- SPY $718.7 live. Positions 1/2 (BEAR). No further entries this week.
