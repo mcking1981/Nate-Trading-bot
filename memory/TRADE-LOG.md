@@ -1951,3 +1951,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 | Cost Basis | $4,856.51 (9.9% of $48,857.61 equity) |
 
 ---
+
+### Nov 24 — EOD Snapshot (Day 180, Tuesday)
+
+**Portfolio:** $48,873.08 | **Cash:** $44,001.10 (90.0%) | **Day P&L:** +$15.47 (+0.03%) | **Phase P&L:** -$1,126.92 (-2.25%)
+**Regime:** BEAR (SPY ~-5.3% vs 50DMA, VIX ~27.46 — per Nov 24 pre-market; 6th session)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| WMT | 37 | $131.26 | $131.68 | +1.6% | +$15.47 (+0.3%) | $119.18 (10% GTC trail, HWM $132.42) |
+**Notes:** 1 trade: bought 37 WMT @ $131.26 at 09:46 ET on confirmed hold above $128.22 trigger (9.9% size, BEAR ≤10%). Trail ratcheted to $119.18 off $132.42 HWM; manual -7% cut ~$122.07. JNJ backup not used. 1 of 1 weekly BEAR new trades used — no more entries this week. Snapshot taken ~15:07 ET (pre-close quotes). Day P&L vs logged 11/23 equity $48,857.61. Phase P&L uses $50,000 start. Tomorrow: hold WMT, manage trail; Wed GDP/PCE 8:30, Thu closed, Fri half-day. No new entries (weekly cap). Fix DST cron drift. Patience > activity.
+
+---
