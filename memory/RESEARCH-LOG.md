@@ -5114,3 +5114,46 @@ HOLD (default). 1 BEAR slot only on WMT >$128.22 (or JNJ >$266 hold) by last tra
 - Live: equity $48,857.61, flat, 0 positions/orders. Steps 3-6 no-op (no losers/winners/regime excess).
 - Live quotes (16:11Z): WMT bid/ask $128.65/$128.72 — ABOVE >$128.22 trigger; JNJ $270.82/$273.39 — holding >$266; SPY ~$724.1.
 - Midday routine doesn't open trades; market-open check fired pre-bell (cron drift) so WMT trigger unacted. Carry WMT >$128.22 to next session. 0/1 weekly trades (BEAR). HOLD.
+
+## 2026-11-24 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-5.3% (pre $719.66 / Mon close $722.29 vs 50DMA $760.18, Yahoo) | VIX: 27.46 (prev close 26.62)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. Both triggers BEAR, 6th session — Mon +4.7% bounce didn't clear it.)*
+
+### Account Snapshot
+- Equity: $48,857.61 | Cash: $48,857.61 | Buying power: $195,430.44 | Daytrade count: n/a | Flat, no orders
+
+### Macro (Sub-agent 1 synthesis)
+- Mon: S&P +4.73%, Nasdaq +6.51% — snapped 7-day losing streak; NVDA +31% on Huang return. Asia (KR/TW) futures +7%+.
+- Futures: ES Dec 7,233.5, -0.29% (09:32Z) — mild giveback.
+- Oil (11/23): WTI ~$82.4, Brent ~$91.3, both -1.5%; Brent ~$110 a month ago. OPEC+ 11/29.
+- DXY ~104.35 near 52w high. 10Y ~4.91-4.95%.
+- Fed: Dec hike still debated; Bessent says don't hike now. FOMC 12/9.
+- Today: Consumer Confidence 10:00, IP annual revision 12:00. Wed 8:30 GDP 2nd est + Oct PCE; Thu closed; Fri 1pm close.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD (thru 11/20): XLE +38%, XLP +18.7%, XLV +15.9%; XLK +3.9% (-26% off 10/06 peak), XLC -14.3%.
+- 5d to 11/23: HC best (-1.9%), Energy worst (-7.1%). Mon: Tech led +5.2%, Staples lagged — partial rotation out of defensives.
+- Strongest: Staples + HC (relative). WMT $129.58 (+1.3%) closed ABOVE $128.22 trigger, pre ~$130, 52w high $135.16. PG $169.82 (trigger >$173.59). JNJ $270.05 (ex-div $1.34 today, res $280.79). KO $95.88 no setup. ABBV "strong sell" technicals — dropped.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- BMO (not yet out at research time): DLTR 6:30, MDT 6:45 ($1.33), ADI 7:00 ($3.88-3.92, 8/8 beats, ±9%), BURL 8:30, BBY, DKS (±12%), ANF (±15%), SJM.
+- Mon AMC: HPE beat + guide up + $5B buyback, but -6.7% AH after +17% day. A beat (record $2.04B rev), +7.9% AH. ZM beat + dividend, ~-1% AH. J beat, backlog +24%.
+- Today AMC: DELL (±16%), ADSK, WDAY, HPQ, NTNX.
+
+### Holdings News (Sub-agent 4 synthesis)
+- No open positions. (Sub-agent 4 not spawned — no tickers.)
+
+### Trade Ideas
+1. WMT — Staples leader, closed >$128.22 trigger Mon, PT raises $140-145; entry ~$130 on last trade >$128.22 post-09:45 ET (don't chase >$132), stop $120.9 (-7%) / 10% GTC trail, target ~$148 (2:1), ~37sh ≈ $4.8k, regime check: PASS (BEAR ≤10%, 1 of 1 weekly slot). Trigger set once — act or drop.
+2. JNJ — backup only; ex-div adj. hold >$264.7, add on >$280.79 breakout; stop -7%, target 2:1, ~18sh ≈ $4.9k, regime check: CONDITIONAL (only if WMT fails)
+- Watch: PG >$173.59. A (+7.9% AH beat) — HC name, BEAR no gap-chase, watch only. No tech/semis despite NVDA squeeze.
+
+### Risk Factors
+- BEAR 6th session, VIX ~27. Mon rally could be dead-cat (prior bounces faded); tech-led bounce may keep draining defensives.
+- Holiday week: thin volume, Wed GDP/PCE dump, Thu closed, Fri half-day — weekend-like gap risk.
+- Hawkish Fed debate, DXY/10Y elevated.
+- Market-open cron drift (pre-bell, 7th session) cost WMT trigger Mon — confirm last trade post-09:45 ET; IEX bid/ask unreliable, use last trade.
+
+### Decision
+TRADE (conditional): WMT ≤10% on last trade >$128.22 post-09:45 ET, 10% GTC trail. JNJ backup. 0/1 weekly trades (BEAR). Patience > activity.
