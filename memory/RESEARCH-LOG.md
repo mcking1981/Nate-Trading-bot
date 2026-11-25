@@ -5163,3 +5163,44 @@ TRADE (conditional): WMT ≤10% on last trade >$128.22 post-09:45 ET, 10% GTC tr
 - WMT: CONFIRMED entry @ $131.26 — live $131.22/$131.25 vs trigger $128.22, +2.3% (in-zone, <$132 cap). 37sh ≈ $4,857 (9.9%), 10% GTC trail stop $118.10. 1/1 BEAR weekly slot used.
 - JNJ: NO CONFIRMED SETUP — live $269.72/$273.31 holding >$264.7 but backup only (WMT filled, weekly slot used). Watch >$280.79.
 - SPY $718.7 live. Positions 1/2 (BEAR). No further entries this week.
+
+## 2026-11-25 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-6.7% (pre $708.89 / Tue close $718.78 vs 50DMA $759.41, Yahoo) | VIX: 28.94 (+9.8%, prev close 26.36)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. Both triggers BEAR, 7th session.)*
+
+### Account Snapshot
+- Equity: $48,935.78 | Cash: $44,001.09 | Buying power: $189,821.49 | Daytrade count: n/a | 1 position (WMT), 1 open order (WMT 10% GTC trail, stop $119.18, HWM $132.42)
+
+### Macro (Sub-agent 1 synthesis)
+- Futures sharply lower: ES 7,127 (-1.25%), NQ -2.3%, YM -0.67%. Tue SPX 7,201 (-0.50%) — weak chips + trade tensions.
+- Oil: Brent ~$91.0 (-0.5%), WTI ~$81.6 (-0.6%) after +2% Tue. OPEC+ 11/29.
+- VIX 28.94 (+9.8%). DXY 104.04 near month high 104.32. 10Y 4.90% (-5bp Tue; off 5.15% 11/13).
+- 8:30 data dump: Q3 GDP 2nd est (cons 3.5-3.6%), Oct PCE (core cons 0.3% m/m), claims 200K, durables +0.7%, income/spending +0.4%. 10:00 new home sales, 10:30 EIA. Thu closed, Fri 1pm close. FOMC 12/9 hike debate.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD: XLE leads (+33-57%, sources disagree), XLV +16-21%, XLP +16-19%; XLC -11-13%, XLY ~-2% laggards.
+- Breadth: Staples 85% >5DMA / 94% >20DMA — strongest. HC led week (+2.7%, CSIMarket). Tech weakest (27% >5DMA).
+- Strongest: Staples, then HC. KO ~$93.3 (pulled back off ~$97, breakout >$96.93). PG ~$162.3 (well under $173.59 trigger). JNJ ~$261 bid — BELOW $264.7 ex-div hold, under 20DMA → setup broken. LLY quote unreliable (wide spread), 21DMA support $1,368.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- BMO: DE (cons EPS $4.03-4.07, FY27 NI guide key: Street $5.91B vs bears $5.0-5.5B; +4.1% into print). Not out at research time.
+- Tue AMC: DELL beat/raise (rev $54.9B vs $49.2B, AI backlog $132.3B, FY guide $202B) ~+4% AH after -11.8% day. HPQ beat, reaction conflicting. ADSK -4.8%, WDAY -4-8%, NTNX -8-9% (CEO exit), URBN -11-13%.
+- Tue BMO reactions: ANF +19.7%, DKS ~+17%, DLTR +11.2%, BBY +4% (beat/raise); ADI -11%, MDT -4.3% (rev miss).
+
+### Holdings News (Sub-agent 4 synthesis)
+- WMT: Tue close $132.31 (+2.1%), pre ~$133.5 (+0.9%), 1.3% below 52w high $135.16. No company news; Black Friday online live, in-store 11/27, Cyber Mon 11/30-12/2. 38/44 Buy. Lagging SPX 1-mo but defensive RS intact. Thesis intact. Position +1.7% vs $131.26 entry; trail $119.18 ~10.7% below.
+
+### Trade Ideas
+1. None this week — 1/1 BEAR weekly slot used (WMT 11/24). Positions 1/2.
+- Watchlist for Mon 11/30 (new week, fixed triggers, last trade post-09:45 ET, ≤10%, 10% GTC trail): KO >$96.93 (Staples breakout; stop -7%, target 2:1), PG >$173.59 (unchanged). JNJ dropped (lost $264.7). DELL — tech/AI, BEAR no gap-chase, watch only.
+
+### Risk Factors
+- BEAR 7th session, VIX ~29 rising, futures -1.25%/NQ -2.3% — Mon bounce fully faded; leg-lower risk.
+- 8:30 GDP/PCE hot print → hawkish Dec hike pressure; DXY/10Y elevated.
+- Holiday: thin volume, Thu closed, Fri half-day — gap risk.
+- WMT: tech selloff can help defensive RS, but broad liquidation drags all. Trail ratchets only; no stop moves down.
+- Market-open cron drift (pre-bell) unresolved — use last trade post-09:45 ET only.
+
+### Decision
+HOLD. Manage WMT trail (10% GTC, $119.18; manual -7% cut ~$122.07). No new entries — weekly BEAR cap used. Patience > activity.
