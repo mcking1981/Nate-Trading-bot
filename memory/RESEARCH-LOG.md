@@ -5211,3 +5211,51 @@ HOLD. Manage WMT trail (10% GTC, $119.18; manual -7% cut ~$122.07). No new entri
 - KO: NO CONFIRMED SETUP — stale bid $93.26 vs trigger >$96.93, below; Mon 11/30 watchlist (weekly cap used).
 - PG: NO CONFIRMED SETUP — stale bid $162.29 vs trigger >$173.59, below; carry to Mon 11/30.
 - 1/1 BEAR weekly trades used, positions 1/2. No entries. HOLD.
+
+## 2026-11-26 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-5.5% (Wed close $716.70 vs 50DMA $758.64, Yahoo) | VIX: ~27.2 (Wed close 28.29)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. Both triggers BEAR, 8th session.)*
+*THANKSGIVING — US market CLOSED. Fri 11/27 half-day (1pm ET close).*
+
+### Account Snapshot
+- Equity: $48,882.87 | Cash: $44,001.09 | Buying power: $189,673.34 | Daytrade count: n/a | 1 position (WMT 37sh), 1 open order (WMT 10% GTC trail, stop $119.87, HWM $133.19)
+
+### Macro (Sub-agent 1 synthesis)
+- Wed close: SPX 7,182.78 (-0.25%), Nasdaq -0.62%, Dow +0.33%. Recovered most of chip-led selloff (QQQ -4.4% intraday low).
+- Futures up: ES 7,224.5 (+0.40%), NQ +0.58%, YM +0.24% (09:27Z).
+- GDP Q3 revised UP to 4.3% (from 3.4%). Oct PCE 3.8% y/y, core 3.3% — hot. ~96-97% odds of Dec 9 HIKE priced.
+- Oil (Wed): WTI $83.68, Brent $94.61; -16-17% over the month. OPEC+ 11/29.
+- VIX 28.29 Wed close, ~27.2 quote; curve inverted. DXY ~103.6-104.3 near 52w high. 10Y ~4.83-4.86%, 2-wk low.
+- Calendar: nothing Thu/Fri. Jobs 12/4, FOMC 12/8-9, CPI 12/10. Tariff headline risk (Reuters: new tariffs on 16 partners mooted).
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD (PortfoliosLab, sources disagree): XLE +56.7%, XLK +31.6%, XLV +20.4%, XLB +17.3%, XLP +15.7%; XLC -13.2%, XLY -2.1%.
+- Breadth (>5DMA): XLP 85%, XLB 85%, XLE 81%; Tech weakest 27%.
+- Strongest: Staples (#1), HC (#2). Energy skipped (XOM MACD sell, ~16% off high).
+- Scout quotes CONFLICT with Alpaca 11/25 close bids: KO scout ~$97.6-98.3 vs Alpaca $93.22; PG scout $173.23 (new 52w high $174.05) vs Alpaca $164.37; JNJ scout ~$274-278 vs Alpaca $264.43. Treat scout prices as unverified — confirm by last trade Mon.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Thu: none material (holiday). Fri: none material in US.
+- Wed BMO: DE EPS miss $3.89 vs ~$4.04 (ends 6-qtr beat streak), rev beat $12.12B; FY27 NI guide $4.50-5.25B vs ~$6.1B cons — yet +4.1-4.4% (cycle-bottom read). BZ +12.6% (rev +11.7%, $500M buyback). LI adj EPS beat.
+- Tue AMC → Wed: HPQ +11.5% (Q4 rev $16.0B, +9.3%). Chips sold off 2nd day, NVDA -3.9%.
+- Wed AMC: only small caps (BMA, FINV).
+- Mon 11/30: RBRK AMC (±15.5%), NNE AMC, CTRN.
+
+### Holdings News (Sub-agent 4 synthesis)
+- WMT: Wed close $131.94 (-0.28%), AH $131.89; HWM $133.19, 2.4% below 52w high $135.16. No negative news. Black Friday stores open 6am 11/27, Cyber Mon event 11/30-12/2. PTs UBS $149/JPM $145/BTIG $140. Ex-div 12/11. Thesis INTACT. +0.5% vs $131.26 entry; trail $119.87 ~9% below. Risk: rich valuation (~48x trailing).
+
+### Trade Ideas
+1. None this week — market closed Thu; 1/1 BEAR weekly slot used (WMT 11/24). Positions 1/2.
+- Watchlist for Mon 11/30 (new week, fixed triggers, last trade post-09:45 ET, ≤10%, 10% GTC trail): KO >$96.93 (Staples breakout; stop -7%, target 2:1; don't chase >3% above trigger), PG >$173.59 (unchanged). Triggers NOT re-set despite conflicting scout quotes. JNJ dropped (lost $264.7 — Alpaca $264.43). DE/HPQ — post-earnings gap, BEAR no chase, watch only.
+
+### Risk Factors
+- BEAR 8th session, VIX ~27-28, inverted VIX curve; SPX below 200DMA.
+- Hot GDP/PCE → Dec 9 hike near-certain priced; hawkish surprise risk on jobs 12/4.
+- Tariff headlines over the holiday; thin Fri half-day volume → gap risk Mon.
+- WMT: Black Friday traffic reads could move staples Fri/Mon either way. Trail ratchets only; never move stop down.
+- Data-quality: sub-agent quotes disagree with Alpaca by 3-6% on KO/PG/JNJ — verify live before acting.
+- Market-open cron drift (pre-bell) unresolved — last trade post-09:45 ET only.
+
+### Decision
+HOLD. Market closed. Manage WMT trail Fri (10% GTC, $119.87; manual -7% cut ~$122.07). No new entries — weekly BEAR cap used. Patience > activity.
