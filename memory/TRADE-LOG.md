@@ -1984,3 +1984,14 @@ No session since Friday 8/21 close (`change_today: 0` on all three positions, pr
 **Notes:** Thanksgiving — market closed, no trades. Held WMT; GTC trail unchanged at $119.87 off $133.19 HWM. Manual -7% cut ~$122.07. Day P&L vs logged 11/25 snapshot equity $48,878.06 (snapshot was pre-close; Alpaca last_equity $48,882.87 = Wed final close, flat today). Phase P&L uses $50,000 start. 1 of 1 weekly BEAR new trades used. Tomorrow: Fri half-day (1pm ET close) — hold WMT, manage trail, no entries (weekly cap). Fix DST cron drift. Patience > activity.
 
 ---
+
+### Nov 27 — EOD Snapshot (Day 183, Friday)
+
+**Portfolio:** $48,922.83 | **Cash:** $44,001.09 (89.9%) | **Day P&L:** +$39.96 (+0.08%) | **Phase P&L:** -$1,077.17 (-2.15%)
+**Regime:** BEAR (SPY ~-3.5% vs 50DMA, VIX ~24.67 — per Nov 27 pre-market; 9th session)
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|---|---|---|---|---|---|---|
+| WMT | 37 | $131.26 | $133.02 | +0.8% | +$65.23 (+1.3%) | $119.87 (10% GTC trail, HWM $133.19) |
+**Notes:** Black Friday half-day, no trades. Held WMT; closed $133.02, just under $133.19 HWM so GTC trail unchanged at $119.87. Manual -7% cut ~$122.07. Day P&L vs logged 11/26 snapshot equity $48,882.87 (= Alpaca last_equity). Phase P&L uses $50,000 start. Week: 1 of 1 BEAR new trades used (WMT 11/24). Tomorrow/Mon 11/30: re-stamp regime (Chop flip possible if SPY reclaims -2% of 50DMA w/ VIX <25); new week slot — KO >$96.93, PG >$173.59, LIN >$505 (verify live), last trade post-09:45 ET, ≤10% BEAR. OPEC+ Sun weekend gap risk. Fix DST cron drift. Patience > activity.
+
+---
