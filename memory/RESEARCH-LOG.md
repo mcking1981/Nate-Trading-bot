@@ -5310,3 +5310,11 @@ HOLD. Market closed. Manage WMT trail Fri (10% GTC, $119.87; manual -7% cut ~$12
 
 ### Decision
 HOLD. Manage WMT trail (10% GTC $119.87; manual -7% cut ~$122.07). No new entries — weekly BEAR cap used. Patience > activity.
+
+### Market-Open Check — 08:46 ET
+- Fired PRE-BELL (DST cron drift, 9th session). Half-day (1pm close). Live acct: equity $48,885.09, cash $44,001.09, 1 position, 1 order. Quotes stale (Wed 21:00Z).
+- WMT: HOLD — 37sh, Alpaca mark $132.00 (+0.6% vs $131.26 entry); 10% GTC trail live, stop $119.87 / HWM $133.19. No action.
+- KO: NO CONFIRMED SETUP — stale bid $93.22 vs trigger >$96.93, below; Mon 11/30 watchlist (weekly BEAR cap used).
+- PG: NO CONFIRMED SETUP — stale bid $164.37 vs trigger >$173.59, below; carry to Mon 11/30.
+- LIN: NO CONFIRMED SETUP — stale bid/ask $499.13/$552.30 (unusable) vs >$505 conditional; unverified, carry to Mon 11/30.
+- 1/1 BEAR weekly trades used, positions 1/2. No entries. HOLD.
