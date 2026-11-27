@@ -5265,3 +5265,48 @@ HOLD. Market closed. Manage WMT trail Fri (10% GTC, $119.87; manual -7% cut ~$12
 - WMT: HOLD — 37sh, mark $131.94 (+0.5% vs $131.26 entry); 10% GTC trail live, stop $119.87 / HWM $133.19.
 - KO: NO CONFIRMED SETUP — stale bid $93.22 vs trigger >$96.93, below; Mon 11/30 watchlist (weekly BEAR cap used).
 - PG: NO CONFIRMED SETUP — stale bid $164.37 vs trigger >$173.59, below; carry to Mon 11/30.
+
+## 2026-11-27 — Pre-market Research
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-3.5% (pre $731.07 vs 50DMA $757.89, Yahoo; Wed close $716.70 = -5.4%) | VIX: ~24.67 (-7.9%, prior 26.80)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. SPY trigger BEAR; VIX now in Chop band <25 — watch for Chop flip if SPY reclaims -2%. 9th session.)*
+*BLACK FRIDAY — half-day, 1pm ET close.*
+
+### Account Snapshot
+- Equity: $48,849.94 | Cash: $44,001.09 | Buying power: $189,581.14 | Daytrade count: n/a | 1 position (WMT 37sh), 1 open order (WMT 10% GTC trail, stop $119.87, HWM $133.19)
+
+### Macro (Sub-agent 1 synthesis)
+- Futures strong: ES 7,317.75 (+1.70%), NQ +2.33%, YM +1.11% (~03:05 ET). SPY pre +2.0%.
+- VIX 24.67 (-7.9%), still well above 50d avg ~19. 5-day -31%.
+- Oil: WTI $85.81 (+2.6%), Brent $97.40 (+0.9%) — spread looks wide, verify. OPEC+ Sun 11/29 → energy weekend gap risk.
+- DXY 103.80 near 52w high 104.53. 10Y ~4.81-4.86% (Wed), 2.5-mo low; bonds early close.
+- Calendar: 8:30 adv goods trade, wholesale inventories. JOLTS 12/1, jobs 12/4, FOMC 12/9 (hike ~priced), CPI 12/10. Tariff headlines (new levies on ~14 economies) — partial/unconfirmed.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD: XLE +56.7%, XLK +31.6%, XLV +20.4%, XLB +17.3%, XLP +15.7%; XLC -13.2%, XLY -2.1%. SPY +13.8%.
+- Breadth (>5DMA): XLP 85%, XLB 85%, XLE 81%, XLY 77%; Tech 27% weakest. XLP 94% >20DMA.
+- Strongest: Staples (#1), Materials (#2). Energy fading (CVX 10/50 death cross 11/16, MACD neg).
+- KO Alpaca bid $93.22 < $96.93 trigger (Tavily $97.59 — Alpaca wins). PG $164.37 ~5% below $173.59. LIN ~$525 (wide spread), triangle breakout >$505 — unverified.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- Fri BMO: none notable. Wed AMC: none notable.
+- Context: DE (Wed) EPS miss/rev beat, weak FY27 guide, cycle-bottom read. DELL FY guide $202B.
+- Week ahead: CRWD/MRVL Tue AMC (±19%), CRM/SNOW Wed AMC, Canadian banks Wed-Thu, CRDO/OKTA/NTAP.
+
+### Holdings News (Sub-agent 4 synthesis)
+- WMT: pre ~$131.1-131.4 (-0.4-0.6%), Alpaca mark $131.05 (-0.2% vs $131.26 entry). Flipkart CEO resigned (minor). PTs $140-149. BF event 11/23-29, highest inventory of year; Adobe BF online forecast +9.2%; cautious consumer favors value. No traffic data yet. Thesis INTACT. Trail $119.87 ~8.5% below; manual -7% cut ~$122.07.
+
+### Trade Ideas
+1. None today — 1/1 BEAR weekly slot used (WMT 11/24). Half-day, thin volume. Positions 1/2.
+- Watchlist Mon 11/30 (new week, fixed triggers, last trade post-09:45 ET, ≤10% BEAR / ≤15% if Chop, 10% GTC trail): KO >$96.93 (stop ~-7%, target 2:1, no chase >3% above), PG >$173.59. LIN >$505 conditional — verify live price first (Materials #2 breadth). No triggers re-set.
+
+### Risk Factors
+- BEAR 9th session; futures +1.7% relief rally on thin holiday volume — fade risk, as Mon 11/23 bounce faded.
+- Regime may flip to Chop if SPY reclaims within -2% of 50DMA (~$742.7) with VIX <25 — loosens to 4 pos/15%/2 trades only via Mon pre-market classification.
+- Risk-on rotation could pressure defensive WMT/staples relative strength.
+- OPEC+ 11/29, tariff headlines, jobs 12/4, FOMC 12/9 hike.
+- Data-quality: wide Alpaca spreads, stale web quotes (KO/LIN/FCX/XOM) — verify by last trade.
+- Market-open cron drift (pre-bell) unresolved.
+
+### Decision
+HOLD. Manage WMT trail (10% GTC $119.87; manual -7% cut ~$122.07). No new entries — weekly BEAR cap used. Patience > activity.
