@@ -898,3 +898,58 @@ No rule changes this week — performance within thresholds. CHECK A: this week 
 - Event risk: NVDA earnings + retail sales 11/17, FOMC minutes 11/18 — avoid new tech/semis until post-NVDA; watch VIX >25 for BEAR flip (10%/pos, 1 trade)
 
 ### Overall Grade: D+
+
+---
+
+## Week ending 2026-11-27
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $48,857.61 (Fri 11/20 close; Mon 11/23 snapshot unchanged) |
+| Ending portfolio | $48,932.45 (Fri 11/27 half-day close, Alpaca equity) |
+| Week return | +$74.84 (+0.15%) |
+| S&P 500 week | +5.60% (SPX 6,910.39 Nov 20 close -> 7,297.49 Nov 27 close, per Yahoo/Saxo; Yahoo "5D" field shows +1.70%, inconsistent with closes) |
+| Bot vs S&P | -5.45% |
+| Dominant regime | BEAR (5/5 stamps Mon-Fri incl. Thu holiday; SPY -3.5% to -9.1% vs 50DMA, VIX 24.7-35.9) |
+| Trades | 1 new, 0 closed (W:0 / L:0 / open:1) |
+| Win rate | N/A (no closed trades) |
+| Best trade | WMT +1.54% (open, unrealized) |
+| Worst trade | N/A (no closed losers) |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|---|---|---|---|---|
+| WMT | $131.26 (37sh, 11/24) | $133.28 | +$74.85 (+1.54%) | $119.87 (10% GTC trail, HWM $133.19); manual -7% cut ~$122.07 |
+
+### What Worked
+- First entry in 6+ weeks: WMT 11/24 on fixed trigger ($128.22) held, confirmed live at 09:46 ET — set trigger once and acted, per 11/13 lesson
+- Regime-aligned pick: Staples/defensive in BEAR tape; sized 9.9% (≤10% BEAR cap); GTC trail placed same session
+- Flat cash through prior week's -8.6% S&P crash (wk ending 11/20) preserved capital; phase P&L improved -2.28% -> -2.14%
+- Max drawdown this week ~0% — trail ratcheted to $119.87 off $133.19 HWM, never threatened
+
+### What Didn't Work
+- Underperformed S&P by -5.45%: SPX +5.6% V-shaped relief rally while book was ~10% deployed (vs 30% BEAR target)
+- Defensive pick lagged a risk-on bounce (WMT +1.5% vs SPX +5.6%, Nasdaq stronger) — beta mismatch on the rebound
+- Missed WMT trigger 11/23 (midday saw it live, but midday doesn't open trades) — entered a day later ~$2.5 higher
+- DST cron drift persists: market-open checks fired pre-bell most sessions; Fri 11/20 routines (incl. weekly review) never ran — no 11/20 review entry exists
+
+### Key Lessons
+- Regime lag cuts both ways: SPY 50DMA rules kept BEAR caps (1 trade) through a +5.6% week — rebounds from VIX ~36 move fast and BEAR sizing guarantees lagging them
+- Being ~10% deployed in BEAR is below the 30% target too; with 2 positions allowed, the second slot was blocked only by the 1-trade/week cap
+- Schedule reliability is now a P&L issue: a missed live trigger + a skipped Friday review in one fortnight
+
+### Rule Changes This Week
+No rule changes this week — performance within thresholds. CHECK A: this week underperformed S&P by 5.45% (>2%), but last week (11/20; no review entry written — routine missed, derived from TRADE-LOG) bot was flat $0.00 vs S&P -8.6%, i.e. outperformed ~+8.6% — no 2-week underperformance streak; triggers next week if bot again trails S&P by >2% (dominant-regime cap would cut 3pp). CHECK B: not applicable (this week underperformed). CHECK C: no trades closed (0 losses) — no sector cooldowns; Avoid Sectors block empty, nothing expired to remove.
+
+### Adjustments for Next Week
+- Watch for Chop flip Mon 11/30 (VIX already <25; SPY needs to reclaim -2% of 50DMA ≈ $743): if CHOP, use up to 2 slots at ≤15% to lift deployment toward 60%; if BEAR, 1 slot ≤10% (2nd position allowed)
+- Hold WMT, manage trail (tighten to 7% only at +15% ≈ $150.95); pair next entry with a higher-beta leader if regime flips, not another staple
+- Fix DST cron drift (market-open must fire ≥09:45 ET) and confirm Friday weekly-review schedule fires
+
+### Overall Grade: C-
