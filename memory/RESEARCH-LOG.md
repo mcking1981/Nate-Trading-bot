@@ -5318,3 +5318,52 @@ HOLD. Manage WMT trail (10% GTC $119.87; manual -7% cut ~$122.07). No new entrie
 - PG: NO CONFIRMED SETUP — stale bid $164.37 vs trigger >$173.59, below; carry to Mon 11/30.
 - LIN: NO CONFIRMED SETUP — stale bid/ask $499.13/$552.30 (unusable) vs >$505 conditional; unverified, carry to Mon 11/30.
 - 1/1 BEAR weekly trades used, positions 1/2. No entries. HOLD.
+
+## 2026-11-28 — Pre-market Research (Saturday — market closed)
+
+**REGIME: BEAR** | SPY vs 50DMA: ~-3.9% (Fri close $728.35 Alpaca vs 50DMA $757.89 Financhill; WSN $767.63 → -5.1%) | VIX: 23.81 Fri close (-11%)
+*(Regime limits: max 2 positions, max 10%/position (≈$4.9k), max 1 new trade/week, 30% target deployed. SPY trigger BEAR; VIX in Chop band <25. Chop flip needs SPY ≥ ~$742.7 (-2%) at Mon pre-market. 10th session.)*
+
+### Account Snapshot
+- Equity: $48,926.90 | Cash: $44,001.09 | Buying power: $189,796.63 | Daytrade count: n/a | 1 position (WMT 37sh), 1 open order (WMT 10% GTC trail, stop $119.87, HWM $133.19)
+
+### Macro (Sub-agent 1 synthesis)
+- Fri half-day: S&P +1.6% to 7,297.49; week +5.6% (best since Apr 2025). Nasdaq +2.3% (chips). No Sunday futures yet.
+- VIX 23.81 (-11%; one print 24.97 intraday). 10Y 4.93% (+6bp). DXY ~103.9-104.3 near 52w high.
+- Oil Fri settle: WTI $83.08 (-0.7%), Brent $95.44 (-1.2%); Brent ~-20% m/m.
+- OPEC+ Sun 11/29: expected flat targets into Q1 2027; Iraq/Kazakhstan quota disputes, UAE exit — low surprise risk.
+- Week: Tue JOLTS + ISM Mfg, Wed ADP, Thu ISM Svcs + claims, Fri 12/4 NFP. FOMC 12/8-9 (hike ~91% Kalshi; conflicting stale "cut" source).
+- Geopolitics: Iran conflict ongoing; risk of renewed strikes incl. oil sites. No weekend surprise found.
+
+### Sector Momentum (Sub-agent 2 synthesis)
+- YTD (lazyportfolio): XLE +38.0%, XLP +18.7%, XLV +15.9%, XLK +3.9%, XLI +1.6%, XLF +0.9% (YTD figures conflict across sources vs 11/27 log).
+- Breadth >5DMA: XLP 85%, XLB 85%, XLE 81%, XLY 77%; Tech 27%. CSIMarket week: Energy +3.27%, HC +3.12%.
+- Strongest higher-beta momentum: Energy, Materials. Staples still #1 breadth.
+- XOM ~$158-160 (web), below 20DMA ~$162.5, breakout >$166.15, support $155.5. CVX ~$212 testing $212.6 support, swing low $200.78. FCX -17% m/m, no base. LIN ~$517-532 (web), already >$505; 52w high ~$548.
+- Watchlist: KO web ~$97.6 vs Alpaca bid $91.79 (conflict, unusable); PG Fri $172.86 vs $173.59 trigger (+0.4% away).
+- Alpaca IEX post-half-day quotes one-sided/wide (XOM bid $151, CVX $201/$225, LIN $498/$552) — verify by live last trade Mon.
+
+### Earnings Today (Sub-agent 3 synthesis)
+- None (Saturday). Fri BMO: nothing notable.
+- Week recap: DELL beat big (rev $54.9B vs $49.3B, AI servers $22B +291%, guide $56.3B vs $53.6B), PCs miss; stock -12% day of, ~-45% from Sept peak. WDAY mixed, -7.9% AH.
+- Next week AMC: Tue CRWD ±18.9%, MRVL ±19.4%, MDB, CRDO ±23.9%; Wed CRM ±13.1%, SNOW ±18.1%. BMO: Wed BMO/BNS, Thu RY/TD/CM. Also OKTA, DOCU, DG, M, ULTA, KR, FIVE, NTAP.
+
+### Holdings News (Sub-agent 4 synthesis)
+- WMT: Fri close $133.13 (+0.9%), AH $133.40; just under $133.19 HWM — trail ratchets on Mon print above. Strong BF store traffic (exec via FOX Business), no hard sales data yet (Adobe/Salesforce over weekend/Cyber Monday). 38 Buy / 1 Sell; post-11/19 dip fully recovered. Next resistance $135.16 (52w high). Thesis INTACT. Trail $119.87 (~10% below); manual -7% cut ~$122.07.
+
+### Trade Ideas
+1. XOM — Energy momentum + OPEC+ catalyst, higher-beta pairing per weekly review; entry ~$166.2 only on last trade >$166.15 post-09:45 ET, stop ~$154.5 (-7%) / 10% GTC trail, target ~$189.5 (2:1), ~29sh ≈ $4.8k, regime check: CONDITIONAL (BEAR ≤10%, 1 of 1 weekly slot; verify live price — Alpaca/web conflict)
+2. LIN — Materials #2 breadth; entry ~$549 only on last trade >$548 (52w high breakout) post-09:45 ET, stop ~$510 (-7%), target ~$626 (2:1), ~8sh ≈ $4.4k, regime check: CONDITIONAL (backup to XOM)
+- PG >$173.59 staple backup only (weekly review: avoid 2nd staple). KO dropped to watch (price data conflict). CVX watch: reclaim >$215. No tech/semis ahead of Tue CRWD/MRVL vol.
+- If Mon flips CHOP: up to 2 slots ≤15% (≈$7.3k) — XOM + LIN, toward 60% deployed.
+
+### Risk Factors
+- BEAR 10th session; +5.6% holiday-volume week — fade risk Mon (Mon 11/23 bounce faded).
+- OPEC+ Sun weekend gap (energy both ways); Iran/oil-site strike risk.
+- Heavy data week (ISM, JOLTS, NFP 12/4) into FOMC 12/8-9 hike; 10Y back near 4.93%.
+- Risk-on rotation may cap WMT/staples relative strength.
+- Data-quality: Alpaca IEX quotes one-sided after half-day; web prices stale/conflicting — confirm by last trade.
+- Market-open DST cron drift (pre-bell) unresolved; Saturday run fired (no weekend schedule guard).
+
+### Decision
+HOLD. Weekend. Mon 11/30: re-stamp regime; new week = 1 BEAR slot (2nd position allowed), XOM >$166.15 or LIN >$548 by last trade post-09:45 ET, ≤10%, 10% GTC trail. Manage WMT trail. Patience > activity.
